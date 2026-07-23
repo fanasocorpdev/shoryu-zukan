@@ -336,6 +336,684 @@
         }
       ],
       "updated": "2026-07-23"
+    },
+    {
+      "id": "senmon_shosha",
+      "role": "専門商社",
+      "layer": "trade",
+      "description": "鉄鋼・エレクトロニクス・機械・エネルギーなど分野特化の商社群。総合商社の系列と独立系が混在。",
+      "map": {
+        "ring": 2,
+        "angle": 105
+      },
+      "companies": [
+        {
+          "name": "阪和興業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8078"
+          }
+        },
+        {
+          "name": "神鋼商事",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8075"
+          }
+        },
+        {
+          "name": "佐藤商事",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8065"
+          }
+        },
+        {
+          "name": "リョーサン菱洋ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "167A"
+          }
+        },
+        {
+          "name": "立花エレテック",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8159"
+          }
+        },
+        {
+          "name": "山善",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8051"
+          }
+        },
+        {
+          "name": "トラスコ中山",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9830"
+          }
+        },
+        {
+          "name": "ミスミグループ本社",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9962"
+          }
+        },
+        {
+          "name": "西華産業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8061"
+          }
+        },
+        {
+          "name": "稲畑産業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8098"
+          }
+        },
+        {
+          "name": "長瀬産業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8012"
+          }
+        },
+        {
+          "name": "蝶理",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8014"
+          }
+        },
+        {
+          "name": "明和産業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8103"
+          }
+        },
+        {
+          "name": "ヤギ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7460"
+          }
+        },
+        {
+          "name": "日本紙パルプ商事",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8032"
+          }
+        },
+        {
+          "name": "因幡電機産業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9934"
+          }
+        },
+        {
+          "name": "カナデン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8081"
+          }
+        },
+        {
+          "name": "東陽テクニカ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8151"
+          }
+        },
+        {
+          "name": "カメイ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8037"
+          }
+        },
+        {
+          "name": "ミツウロコグループホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8131"
+          }
+        },
+        {
+          "name": "シナネンホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8132"
+          }
+        },
+        {
+          "name": "第一実業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8059"
+          }
+        },
+        {
+          "name": "椿本興業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8052"
+          }
+        },
+        {
+          "name": "高千穂交易",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2676"
+          }
+        },
+        {
+          "name": "キヤノンマーケティングジャパン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8060"
+          }
+        },
+        {
+          "name": "内田洋行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8057"
+          }
+        },
+        {
+          "name": "ダイワボウホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3107"
+          }
+        },
+        {
+          "name": "伯東",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7433"
+          }
+        },
+        {
+          "name": "丸文",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7537"
+          }
+        },
+        {
+          "name": "新光商事",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8141"
+          }
+        },
+        {
+          "name": "三信電気",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8150"
+          }
+        },
+        {
+          "name": "ダイトロン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7609"
+          }
+        },
+        {
+          "name": "スズデン",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7480"
+          }
+        },
+        {
+          "name": "サンワテクノス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8137"
+          }
+        },
+        {
+          "name": "東テク",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9960"
+          }
+        },
+        {
+          "name": "たけびし",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7510"
+          }
+        },
+        {
+          "name": "明治電機工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3388"
+          }
+        },
+        {
+          "name": "八洲電機",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3153"
+          }
+        },
+        {
+          "name": "RYODEN",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8084"
+          }
+        },
+        {
+          "name": "シークス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7613"
+          }
+        },
+        {
+          "name": "トーメンデバイス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2737"
+          }
+        },
+        {
+          "name": "シンデン・ハイテックス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3131"
+          }
+        },
+        {
+          "name": "ミタチ産業",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3321"
+          }
+        },
+        {
+          "name": "内外テック",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3374"
+          }
+        },
+        {
+          "name": "サンゲツ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8130"
+          }
+        },
+        {
+          "name": "リリカラ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9827"
+          }
+        },
+        {
+          "name": "橋本総業ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7570"
+          }
+        },
+        {
+          "name": "日伝",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9902"
+          }
+        },
+        {
+          "name": "NaITO",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7624"
+          }
+        },
+        {
+          "name": "YUASA",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8074"
+          }
+        },
+        {
+          "name": "コンドーテック",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7438"
+          }
+        },
+        {
+          "name": "ワキタ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8125"
+          }
+        },
+        {
+          "name": "蔵王産業",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9986"
+          }
+        },
+        {
+          "name": "アズワン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7476"
+          }
+        },
+        {
+          "name": "松田産業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7456"
+          }
+        },
+        {
+          "name": "アルコニックス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3036"
+          }
+        },
+        {
+          "name": "白銅",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7637"
+          }
+        },
+        {
+          "name": "UEX",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9888"
+          }
+        },
+        {
+          "name": "カノークス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8076"
+          }
+        },
+        {
+          "name": "小野建",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7414"
+          }
+        },
+        {
+          "name": "ジェコス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9991"
+          }
+        },
+        {
+          "name": "丸藤シートパイル",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8046"
+          }
+        },
+        {
+          "name": "KPPグループホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9274"
+          }
+        },
+        {
+          "name": "ドウシシャ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7483"
+          }
+        },
+        {
+          "name": "中山福",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7442"
+          }
+        },
+        {
+          "name": "シモジマ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7482"
+          }
+        },
+        {
+          "name": "モリト",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9837"
+          }
+        },
+        {
+          "name": "三栄コーポレーション",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8119"
+          }
+        },
+        {
+          "name": "あらた",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2733"
+          }
+        },
+        {
+          "name": "PALTAC",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8283"
+          }
+        },
+        {
+          "name": "高島",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8007"
+          }
+        },
+        {
+          "name": "三谷商事",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8066"
+          }
+        },
+        {
+          "name": "東京産業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8070"
+          }
+        },
+        {
+          "name": "極東貿易",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8093"
+          }
+        },
+        {
+          "name": "三洋貿易",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3176"
+          }
+        },
+        {
+          "name": "扶桑電通",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7505"
+          }
+        },
+        {
+          "name": "ソレキア",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9867"
+          }
+        },
+        {
+          "name": "理経",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8226"
+          }
+        },
+        {
+          "name": "フォーバル",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8275"
+          }
+        },
+        {
+          "name": "日本電計",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9908"
+          }
+        },
+        {
+          "name": "西川計測",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7500"
+          }
+        },
+        {
+          "name": "杉本商事",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9932"
+          }
+        },
+        {
+          "name": "藤井産業",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9906"
+          }
+        },
+        {
+          "name": "泉州電業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9824"
+          }
+        },
+        {
+          "name": "英和",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9857"
+          }
+        },
+        {
+          "name": "進和",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7607"
+          }
+        },
+        {
+          "name": "リックス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7525"
+          }
+        },
+        {
+          "name": "オーハシテクニカ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7628"
+          }
+        },
+        {
+          "name": "SPK",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7466"
+          }
+        },
+        {
+          "name": "鳥羽洋行",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7472"
+          }
+        },
+        {
+          "name": "ナ・デックス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7435"
+          }
+        },
+        {
+          "name": "オータケ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7434"
+          }
+        },
+        {
+          "name": "初穂商事",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7425"
+          }
+        },
+        {
+          "name": "ラサ商事",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3023"
+          }
+        },
+        {
+          "name": "神栄",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3004"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
     }
   ],
   "edges": [
@@ -531,6 +1209,51 @@
         }
       ],
       "updated": "2026-07-23"
+    },
+    {
+      "updated": "2026-07-23",
+      "id": "opex_senmon_manufacturer",
+      "from": "senmon_shosha",
+      "to": "manufacturer",
+      "flow_type": "opex",
+      "label": "製品・部材の仕入",
+      "sources": [
+        {
+          "url": "https://www.jftc.or.jp/",
+          "publisher": "日本貿易会",
+          "note": "業界一般構造"
+        }
+      ]
+    },
+    {
+      "updated": "2026-07-23",
+      "id": "goods_senmon_customer",
+      "from": "senmon_shosha",
+      "to": "demand_customer",
+      "flow_type": "goods",
+      "label": "部材・工具・機械の供給",
+      "sources": [
+        {
+          "url": "https://www.jftc.or.jp/",
+          "publisher": "日本貿易会",
+          "note": "業界一般構造"
+        }
+      ]
+    },
+    {
+      "updated": "2026-07-23",
+      "id": "opex_customer_senmon",
+      "from": "demand_customer",
+      "to": "senmon_shosha",
+      "flow_type": "opex",
+      "label": "購入代金",
+      "sources": [
+        {
+          "url": "https://www.jftc.or.jp/",
+          "publisher": "日本貿易会",
+          "note": "業界一般構造"
+        }
+      ]
     }
   ]
 }

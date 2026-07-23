@@ -1,0 +1,406 @@
+{
+  "$schema": "../schema.json",
+  "meta": {
+    "industry_id": "consumer_goods",
+    "industry_name": "生活用品・スポーツ・ホビー",
+    "version": "0.1.0",
+    "updated": "2026-07-23",
+    "map_style": "category",
+    "description": "スポーツ用品・玩具・楽器・文具・ベビー用品など、生活を彩る「その他製品」セクターの分類カオスマップ。IPとブランドの海外展開が共通の成長軸。",
+    "tagline": "アシックスからタカラトミーまで — ブランドとIPで世界を獲る",
+    "editorial_note": "v1は公開情報ベース。分類は編集部整理。上場情報はJPX上場銘柄一覧(2026-06)と突合済み。"
+  },
+  "layers": [
+    {
+      "id": "consumer",
+      "label": "消費者",
+      "order": 1,
+      "icon": "🧑",
+      "description": "国内外の生活者"
+    },
+    {
+      "id": "category",
+      "label": "製品分野",
+      "order": 2,
+      "icon": "🎽",
+      "description": "製品分野別の分類"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "consumer",
+      "role": "消費者(国内外)",
+      "layer": "consumer",
+      "description": "インバウンドと越境ECで「日本ブランド」の顧客は世界に拡大した。",
+      "map": {
+        "ring": 0,
+        "angle": 0
+      },
+      "note": "需要側は個別掲載しない",
+      "companies": [],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "sports",
+      "role": "スポーツ用品",
+      "layer": "category",
+      "description": "ランニングブームと海外展開でアシックスが時価総額を大きく伸ばした領域。",
+      "map": {
+        "ring": 1,
+        "angle": 0
+      },
+      "companies": [
+        {
+          "name": "アシックス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7936"
+          }
+        },
+        {
+          "name": "ヨネックス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7906"
+          }
+        },
+        {
+          "name": "ゴールドウイン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8111"
+          }
+        },
+        {
+          "name": "シマノ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7309"
+          }
+        },
+        {
+          "name": "グローブライド",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7990"
+          }
+        },
+        {
+          "name": "美津濃",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8022"
+          }
+        },
+        {
+          "name": "SHOEI",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7839"
+          },
+          "note": "ヘルメット"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "toys_games",
+      "role": "玩具・トレカ・ホビー",
+      "layer": "category",
+      "description": "トレーディングカードとフィギュアが世界市場で急成長。IP大国の面目躍如。",
+      "map": {
+        "ring": 1,
+        "angle": 60
+      },
+      "related_industry": "it_services",
+      "companies": [
+        {
+          "name": "タカラトミー",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7867"
+          }
+        },
+        {
+          "name": "サンリオ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8136"
+          }
+        },
+        {
+          "name": "壽屋",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7809"
+          }
+        },
+        {
+          "name": "ハピネット",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7552"
+          }
+        },
+        {
+          "name": "ブシロード",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7803"
+          }
+        },
+        {
+          "name": "ピープル",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7865"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "musical_instruments",
+      "role": "楽器・音響",
+      "layer": "category",
+      "description": "ピアノからシンセまで世界シェア上位。中国の音楽教育市場が変動要因。",
+      "map": {
+        "ring": 1,
+        "angle": 130
+      },
+      "companies": [
+        {
+          "name": "ヤマハ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7951"
+          }
+        },
+        {
+          "name": "河合楽器製作所",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7952"
+          }
+        },
+        {
+          "name": "ローランド",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7944"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "stationery_office",
+      "role": "文具・オフィス用品",
+      "layer": "category",
+      "description": "国内文具は成熟も、高級筆記具と海外市場で稼ぐ構図に転換。",
+      "map": {
+        "ring": 1,
+        "angle": 200
+      },
+      "companies": [
+        {
+          "name": "コクヨ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7984"
+          }
+        },
+        {
+          "name": "パイロットコーポレーション",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7846"
+          }
+        },
+        {
+          "name": "三菱鉛筆",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7976"
+          }
+        },
+        {
+          "name": "キングジム",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7962"
+          }
+        },
+        {
+          "name": "オカムラ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7994"
+          }
+        },
+        {
+          "name": "イトーキ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7972"
+          }
+        },
+        {
+          "name": "ナカバヤシ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7987"
+          }
+        },
+        {
+          "name": "セーラー万年筆",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7992"
+          }
+        },
+        {
+          "name": "リヒトラブ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7975"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "baby_care",
+      "role": "ベビー・生活雑貨",
+      "layer": "category",
+      "description": "哺乳瓶で世界を獲ったピジョンなど、少子化でも海外で伸びる生活用品勢。",
+      "map": {
+        "ring": 1,
+        "angle": 270
+      },
+      "related_industry": "retail",
+      "companies": [
+        {
+          "name": "ピジョン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7956"
+          }
+        },
+        {
+          "name": "フランスベッドホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7840"
+          }
+        },
+        {
+          "name": "ニフコ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7988"
+          }
+        },
+        {
+          "name": "オカモト",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5122"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "apparel_brand",
+      "role": "アパレル・繊維ブランド",
+      "layer": "category",
+      "description": "百貨店・ECで展開する衣料ブランドメーカー。インバウンドと高価格帯が回復軸。",
+      "map": {
+        "ring": 1,
+        "angle": 330
+      },
+      "companies": [
+        {
+          "name": "ワコールホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3591"
+          }
+        },
+        {
+          "name": "オンワードホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8016"
+          }
+        },
+        {
+          "name": "三陽商会",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8011"
+          }
+        },
+        {
+          "name": "TSIホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3608"
+          }
+        },
+        {
+          "name": "ワールド",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3612"
+          }
+        },
+        {
+          "name": "アツギ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3529"
+          }
+        },
+        {
+          "name": "自重堂",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3597"
+          }
+        },
+        {
+          "name": "ツツミ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7937"
+          }
+        },
+        {
+          "name": "エステールホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7872"
+          }
+        },
+        {
+          "name": "リーガルコーポレーション",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7938"
+          }
+        },
+        {
+          "name": "アートネイチャー",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7823"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ],
+  "edges": []
+}

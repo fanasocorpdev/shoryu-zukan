@@ -1,28 +1,28 @@
 {
   "as_of": "20260630",
   "total": 3716,
-  "covered": 190,
-  "percent": 5.1,
+  "covered": 1911,
+  "percent": 51.4,
   "top_gaps": [
     {
-      "sector": "情報・通信業",
-      "count": 593
-    },
-    {
       "sector": "サービス業",
-      "count": 523
+      "count": 303
     },
     {
-      "sector": "小売業",
-      "count": 302
+      "sector": "情報・通信業",
+      "count": 291
     },
     {
-      "sector": "卸売業",
-      "count": 267
+      "sector": "電気機器",
+      "count": 156
     },
     {
       "sector": "機械",
-      "count": 203
+      "count": 155
+    },
+    {
+      "sector": "化学",
+      "count": 147
     }
   ]
 }

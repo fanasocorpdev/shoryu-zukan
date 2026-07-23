@@ -1,0 +1,625 @@
+{
+  "$schema": "../schema.json",
+  "meta": {
+    "industry_id": "machinery",
+    "industry_name": "機械",
+    "version": "0.1.0",
+    "updated": "2026-07-23",
+    "map_style": "category",
+    "description": "機械業界。工作機械からロボット・建機・重工まで、製品分野のラベルごとに分類するカオスマップ。中央は需要側の製造業・建設業。",
+    "tagline": "世界シェア上位がゴロゴロ — 日本のものづくりの背骨",
+    "editorial_note": "v1は公開情報ベース。分類は編集部整理。上場情報はJPX上場銘柄一覧(2026-06)と突合済み。"
+  },
+  "layers": [
+    {
+      "id": "user",
+      "label": "需要家",
+      "order": 1,
+      "icon": "🏭",
+      "description": "設備投資をする製造業・建設業・農業"
+    },
+    {
+      "id": "category",
+      "label": "製品分野",
+      "order": 2,
+      "icon": "🔧",
+      "description": "製品分野別の分類"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "user",
+      "role": "需要家(製造業・建設・農業)",
+      "layer": "user",
+      "description": "国内外の設備投資が需要の源泉。景気循環と為替に敏感なシクリカル産業。",
+      "map": {
+        "ring": 0,
+        "angle": 0
+      },
+      "note": "需要側は全産業にまたがるため個別掲載しない",
+      "companies": [],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "machine_tools",
+      "role": "工作機械・工具",
+      "layer": "category",
+      "description": "「機械をつくる機械」= マザーマシン。受注統計は製造業景気の先行指標。",
+      "map": {
+        "ring": 1,
+        "angle": 0
+      },
+      "related_industry": "automotive",
+      "companies": [
+        {
+          "name": "DMG森精機",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6141"
+          }
+        },
+        {
+          "name": "オークマ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6103"
+          }
+        },
+        {
+          "name": "ツガミ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6101"
+          }
+        },
+        {
+          "name": "芝浦機械",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6104"
+          }
+        },
+        {
+          "name": "ソディック",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6143"
+          }
+        },
+        {
+          "name": "牧野フライス製作所",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6135"
+          }
+        },
+        {
+          "name": "不二越",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6474"
+          }
+        },
+        {
+          "name": "オーエスジー",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6136"
+          }
+        },
+        {
+          "name": "アマダ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6113"
+          }
+        },
+        {
+          "name": "京都機械工具",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5966"
+          }
+        },
+        {
+          "name": "TONE",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5967"
+          }
+        },
+        {
+          "name": "スーパーツール",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5990"
+          }
+        },
+        {
+          "name": "ロブテックス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5969"
+          }
+        },
+        {
+          "name": "兼房",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5984"
+          }
+        },
+        {
+          "name": "天龍製鋸",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5945"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "robot_fa",
+      "role": "ロボット・FAコンポーネント",
+      "layer": "category",
+      "description": "産業用ロボットと直動・空圧・減速機。世界の工場自動化を支える日本の牙城。",
+      "map": {
+        "ring": 1,
+        "angle": 45
+      },
+      "related_industry": "semiconductor",
+      "companies": [
+        {
+          "name": "ナブテスコ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6268"
+          }
+        },
+        {
+          "name": "ハーモニック・ドライブ・システムズ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6324"
+          }
+        },
+        {
+          "name": "THK",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6481"
+          }
+        },
+        {
+          "name": "SMC",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6273"
+          }
+        },
+        {
+          "name": "CKD",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6407"
+          }
+        },
+        {
+          "name": "ローツェ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6323"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "construction_machinery",
+      "role": "建設機械",
+      "layer": "category",
+      "description": "油圧ショベル・クレーン。北米・アジアのインフラ投資と鉱山需要が主戦場。",
+      "map": {
+        "ring": 1,
+        "angle": 95
+      },
+      "companies": [
+        {
+          "name": "小松製作所",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6301"
+          }
+        },
+        {
+          "name": "日立建機",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6305"
+          }
+        },
+        {
+          "name": "タダノ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6395"
+          }
+        },
+        {
+          "name": "竹内製作所",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6432"
+          }
+        },
+        {
+          "name": "加藤製作所",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6390"
+          }
+        },
+        {
+          "name": "カナモト",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9678"
+          },
+          "note": "建機レンタル"
+        },
+        {
+          "name": "ニシオホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9699"
+          },
+          "note": "建機レンタル"
+        },
+        {
+          "name": "レント",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "372A"
+          },
+          "note": "建機レンタル"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "agri_machinery",
+      "role": "農業機械・小型機械",
+      "layer": "category",
+      "description": "トラクタ・コンバイン。国内は担い手減少、海外は食料増産で需要拡大。",
+      "map": {
+        "ring": 1,
+        "angle": 140
+      },
+      "companies": [
+        {
+          "name": "クボタ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6326"
+          }
+        },
+        {
+          "name": "井関農機",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6310"
+          }
+        },
+        {
+          "name": "やまびこ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6250"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "heavy_industry",
+      "role": "重工・防衛・プラント",
+      "layer": "category",
+      "description": "発電・航空・防衛・プラントEPC。防衛費増額とエネルギー転換が追い風。",
+      "map": {
+        "ring": 1,
+        "angle": 185
+      },
+      "related_industry": "semiconductor",
+      "companies": [
+        {
+          "name": "三菱重工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7011"
+          }
+        },
+        {
+          "name": "IHI",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7013"
+          }
+        },
+        {
+          "name": "日本製鋼所",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5631"
+          }
+        },
+        {
+          "name": "日揮ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1963"
+          }
+        },
+        {
+          "name": "千代田化工建設",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6366"
+          }
+        },
+        {
+          "name": "東洋エンジニアリング",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6330"
+          }
+        },
+        {
+          "name": "カナデビア",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7004"
+          }
+        },
+        {
+          "name": "三井海洋開発",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6269"
+          }
+        },
+        {
+          "name": "中外炉工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1964"
+          }
+        },
+        {
+          "name": "アストロスケールホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "186A"
+          },
+          "note": "宇宙デブリ除去"
+        },
+        {
+          "name": "ispace",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9348"
+          },
+          "note": "月面輸送"
+        },
+        {
+          "name": "QPSホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "464A"
+          },
+          "note": "小型SAR衛星"
+        },
+        {
+          "name": "Synspective",
+          "listing": {
+            "market": "東証グロース",
+            "code": "290A"
+          },
+          "note": "小型SAR衛星"
+        },
+        {
+          "name": "アクセルスペースホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "402A"
+          },
+          "note": "小型衛星"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "fluid_machinery",
+      "role": "ポンプ・コンプレッサ・流体機械",
+      "layer": "category",
+      "description": "半導体・化学プラントを裏で支える流体制御。荏原はCMP装置でも重要プレイヤー。",
+      "map": {
+        "ring": 1,
+        "angle": 230
+      },
+      "companies": [
+        {
+          "name": "荏原製作所",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6361"
+          }
+        },
+        {
+          "name": "酉島製作所",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6363"
+          }
+        },
+        {
+          "name": "アネスト岩田",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6381"
+          }
+        },
+        {
+          "name": "鶴見製作所",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6351"
+          }
+        },
+        {
+          "name": "三浦工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6005"
+          }
+        },
+        {
+          "name": "栗田工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6370"
+          }
+        },
+        {
+          "name": "オルガノ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6368"
+          }
+        },
+        {
+          "name": "メタウォーター",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9551"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "material_handling",
+      "role": "マテハン・搬送・その他産業機械",
+      "layer": "category",
+      "description": "物流倉庫の自動化(マテハン)は世界的成長市場。ダイフクは世界首位級。",
+      "map": {
+        "ring": 1,
+        "angle": 275
+      },
+      "related_industry": "retail",
+      "companies": [
+        {
+          "name": "ダイフク",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6383"
+          }
+        },
+        {
+          "name": "住友重機械工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6302"
+          }
+        },
+        {
+          "name": "椿本チエイン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6371"
+          }
+        },
+        {
+          "name": "ホソカワミクロン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6277"
+          }
+        },
+        {
+          "name": "グローリー",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6457"
+          }
+        },
+        {
+          "name": "三ツ星ベルト",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5192"
+          },
+          "note": "伝動ベルト"
+        },
+        {
+          "name": "バンドー化学",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5195"
+          },
+          "note": "伝動ベルト"
+        },
+        {
+          "name": "ニッタ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5186"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "engine_turbine",
+      "role": "エンジン・動力・輸送機械",
+      "layer": "category",
+      "description": "船舶・鉄道・発電用の動力機械。脱炭素で水素・アンモニア対応が焦点。",
+      "map": {
+        "ring": 1,
+        "angle": 320
+      },
+      "companies": [
+        {
+          "name": "三井E&S",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7003"
+          }
+        },
+        {
+          "name": "日本車輌製造",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7102"
+          }
+        },
+        {
+          "name": "モリタホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6455"
+          }
+        },
+        {
+          "name": "近畿車輛",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7122"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ],
+  "edges": []
+}

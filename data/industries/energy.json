@@ -1,0 +1,438 @@
+{
+  "$schema": "../schema.json",
+  "meta": {
+    "industry_id": "energy",
+    "industry_name": "エネルギー",
+    "version": "0.1.0",
+    "updated": "2026-07-23",
+    "map_style": "category",
+    "description": "電力・ガス・石油・再エネ・資源開発の分類カオスマップ。データセンター・半導体マップの電力ノードと直結する、AI時代の裏の主役。",
+    "tagline": "AIとEVが電気を食う — 電源と系統に殺到する投資",
+    "editorial_note": "v1は公開情報ベース。分類は編集部整理。上場情報はJPX上場銘柄一覧(2026-06)と突合済み。"
+  },
+  "layers": [
+    {
+      "id": "user",
+      "label": "需要家",
+      "order": 1,
+      "icon": "🏢",
+      "description": "家庭・産業・データセンター"
+    },
+    {
+      "id": "category",
+      "label": "エネルギー源",
+      "order": 2,
+      "icon": "⚡",
+      "description": "エネルギー源別の分類"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "user",
+      "role": "需要家(家庭・産業・DC)",
+      "layer": "user",
+      "description": "データセンターと半導体工場が電力需要予測を塗り替えた。系統接続が新たなボトルネック。",
+      "map": {
+        "ring": 0,
+        "angle": 0
+      },
+      "note": "大口需要家はデータセンター・半導体マップを参照",
+      "companies": [],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "electric_power",
+      "role": "電力会社",
+      "layer": "category",
+      "description": "旧一般電気事業者10社+卸電力。原発再稼働と送電網投資が焦点。",
+      "map": {
+        "ring": 1,
+        "angle": 0
+      },
+      "related_industry": "datacenter",
+      "companies": [
+        {
+          "name": "東京電力ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9501"
+          }
+        },
+        {
+          "name": "中部電力",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9502"
+          }
+        },
+        {
+          "name": "関西電力",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9503"
+          }
+        },
+        {
+          "name": "九州電力",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9508"
+          }
+        },
+        {
+          "name": "東北電力",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9506"
+          }
+        },
+        {
+          "name": "中国電力",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9504"
+          }
+        },
+        {
+          "name": "四国電力",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9507"
+          }
+        },
+        {
+          "name": "北陸電力",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9505"
+          }
+        },
+        {
+          "name": "北海道電力",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9509"
+          }
+        },
+        {
+          "name": "沖縄電力",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9511"
+          }
+        },
+        {
+          "name": "電源開発",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9513"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "gas",
+      "role": "都市ガス",
+      "layer": "category",
+      "description": "LNG調達力を武器に電力・海外・不動産へ多角化する都市ガス大手。",
+      "map": {
+        "ring": 1,
+        "angle": 72
+      },
+      "companies": [
+        {
+          "name": "東京瓦斯",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9531"
+          }
+        },
+        {
+          "name": "大阪瓦斯",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9532"
+          }
+        },
+        {
+          "name": "東邦瓦斯",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9533"
+          }
+        },
+        {
+          "name": "静岡ガス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9543"
+          }
+        },
+        {
+          "name": "北海道瓦斯",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9534"
+          }
+        },
+        {
+          "name": "広島ガス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9535"
+          }
+        },
+        {
+          "name": "西部ガスホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9536"
+          }
+        },
+        {
+          "name": "北陸瓦斯",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9537"
+          }
+        },
+        {
+          "name": "京葉瓦斯",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9539"
+          }
+        },
+        {
+          "name": "K&Oエナジーグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1663"
+          }
+        },
+        {
+          "name": "TOKAIホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3167"
+          }
+        },
+        {
+          "name": "日本瓦斯",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8174"
+          }
+        },
+        {
+          "name": "大丸エナウィン",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9818"
+          }
+        },
+        {
+          "name": "サンリン",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7486"
+          }
+        },
+        {
+          "name": "トーエル",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3361"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "oil",
+      "role": "石油元売・燃料商社",
+      "layer": "category",
+      "description": "ガソリン需要減を見据え、SS網を拠点にEV充電・水素へ転換中。自動車マップにも登場。",
+      "map": {
+        "ring": 1,
+        "angle": 144
+      },
+      "related_industry": "automotive",
+      "companies": [
+        {
+          "name": "ENEOSホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5020"
+          }
+        },
+        {
+          "name": "出光興産",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5019"
+          }
+        },
+        {
+          "name": "コスモエネルギーホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5021"
+          }
+        },
+        {
+          "name": "岩谷産業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8088"
+          }
+        },
+        {
+          "name": "伊藤忠エネクス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8133"
+          }
+        },
+        {
+          "name": "三愛オブリ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8097"
+          }
+        },
+        {
+          "name": "ビーピー・カストロール",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5015"
+          },
+          "note": "潤滑油"
+        },
+        {
+          "name": "日新商事",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7490"
+          }
+        },
+        {
+          "name": "太平洋興発",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8835"
+          },
+          "note": "石炭・エネルギー"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "renewable",
+      "role": "再エネ発電・開発",
+      "layer": "category",
+      "description": "太陽光・風力・バイオマスの発電事業者。コーポレートPPAでDCともつながる。",
+      "map": {
+        "ring": 1,
+        "angle": 216
+      },
+      "related_industry": "datacenter",
+      "companies": [
+        {
+          "name": "レノバ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9519"
+          }
+        },
+        {
+          "name": "イーレックス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9517"
+          }
+        },
+        {
+          "name": "ウエストホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "1407"
+          }
+        },
+        {
+          "name": "エフオン",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9514"
+          }
+        },
+        {
+          "name": "グリムス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3150"
+          }
+        },
+        {
+          "name": "デジタルグリッド",
+          "listing": {
+            "market": "東証グロース",
+            "code": "350A"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "resource_dev",
+      "role": "資源開発(石油・ガス・鉱業)",
+      "layer": "category",
+      "description": "上流権益の開発。エネルギー安全保障の観点で国策と一体。総合商社マップとも接続。",
+      "map": {
+        "ring": 1,
+        "angle": 288
+      },
+      "related_industry": "trading_companies",
+      "companies": [
+        {
+          "name": "INPEX",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1605"
+          }
+        },
+        {
+          "name": "石油資源開発",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1662"
+          }
+        },
+        {
+          "name": "日鉄鉱業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1515"
+          }
+        },
+        {
+          "name": "三井松島ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1518"
+          }
+        },
+        {
+          "name": "住石ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "1514"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ],
+  "edges": []
+}

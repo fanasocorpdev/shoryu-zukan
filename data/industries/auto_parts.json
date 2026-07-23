@@ -151,6 +151,34 @@
             "as_of": "2025",
             "note": "概算"
           }
+        },
+        {
+          "name": "ジーエス・ユアサ コーポレーション",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6674"
+          }
+        },
+        {
+          "name": "東海理化電機製作所",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6995"
+          }
+        },
+        {
+          "name": "日本精機",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7287"
+          }
+        },
+        {
+          "name": "村上開明堂",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7292"
+          }
         }
       ],
       "updated": "2026-07-23"
@@ -228,6 +256,27 @@
             "as_of": "2025",
             "note": "概算"
           }
+        },
+        {
+          "name": "西川ゴム工業",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5161"
+          }
+        },
+        {
+          "name": "ニチリン",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5184"
+          }
+        },
+        {
+          "name": "フコク",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5185"
+          }
         }
       ],
       "updated": "2026-07-23"
@@ -295,6 +344,118 @@
             "revenue_oku_jpy": 3700,
             "as_of": "2025",
             "note": "概算"
+          }
+        },
+        {
+          "name": "愛三工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7283"
+          }
+        },
+        {
+          "name": "エフ・シー・シー",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7296"
+          }
+        },
+        {
+          "name": "リケンNPR",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6209"
+          }
+        },
+        {
+          "name": "TPR",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6463"
+          }
+        },
+        {
+          "name": "大同メタル工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7245"
+          }
+        },
+        {
+          "name": "イーグル工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6486"
+          }
+        },
+        {
+          "name": "NOK",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7240"
+          }
+        },
+        {
+          "name": "ミクニ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7247"
+          }
+        },
+        {
+          "name": "ユニバンス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7254"
+          }
+        },
+        {
+          "name": "フジオーゼックス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7299"
+          }
+        },
+        {
+          "name": "TBK",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7277"
+          }
+        },
+        {
+          "name": "GMB",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7214"
+          }
+        },
+        {
+          "name": "ティラド",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7236"
+          }
+        },
+        {
+          "name": "東京ラヂエーター製造",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7235"
+          }
+        },
+        {
+          "name": "パイオラックス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5988"
+          }
+        },
+        {
+          "name": "ファインシンター",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5994"
           }
         }
       ],
@@ -448,6 +609,13 @@
             "as_of": "2025",
             "note": "概算"
           }
+        },
+        {
+          "name": "タチエス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7239"
+          }
         }
       ],
       "updated": "2026-07-23"
@@ -498,13 +666,89 @@
           "hq": "岐阜県大垣市",
           "employees": 5000,
           "listing": {
-            "market": "東証プライム",
-            "code": "7250"
+            "market": "非上場(上場廃止)"
           },
           "financials": {
             "revenue_oku_jpy": 2000,
             "as_of": "2025",
             "note": "概算"
+          }
+        },
+        {
+          "name": "豊田合成",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7282"
+          }
+        },
+        {
+          "name": "フタバ産業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7241"
+          }
+        },
+        {
+          "name": "プレス工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7246"
+          }
+        },
+        {
+          "name": "トピー工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7231"
+          }
+        },
+        {
+          "name": "ファルテック",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7215"
+          }
+        },
+        {
+          "name": "日本プラスト",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7291"
+          }
+        },
+        {
+          "name": "河西工業",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7256"
+          }
+        },
+        {
+          "name": "リョービ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5851"
+          }
+        },
+        {
+          "name": "アーレスティ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5852"
+          }
+        },
+        {
+          "name": "東プレ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5975"
+          }
+        },
+        {
+          "name": "エイチワン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5989"
           }
         }
       ],
@@ -562,6 +806,27 @@
             "revenue_oku_jpy": 1500,
             "as_of": "2025",
             "note": "概算"
+          }
+        },
+        {
+          "name": "日本発條",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5991"
+          }
+        },
+        {
+          "name": "ヨロズ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7294"
+          }
+        },
+        {
+          "name": "ハイレックスコーポレーション",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7279"
           }
         }
       ],

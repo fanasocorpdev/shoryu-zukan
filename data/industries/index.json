@@ -1,12 +1,37 @@
 {
-  "industries": ["datacenter", "semiconductor", "convenience_store", "automotive", "auto_parts", "consulting", "banking", "pharma", "telecom", "trading_companies", "retail", "food"],
+  "industries": [
+    "datacenter",
+    "semiconductor",
+    "convenience_store",
+    "automotive",
+    "auto_parts",
+    "consulting",
+    "banking",
+    "pharma",
+    "telecom",
+    "trading_companies",
+    "retail",
+    "food",
+    "it_services",
+    "services",
+    "machinery",
+    "electronics",
+    "chemicals",
+    "construction",
+    "real_estate",
+    "transport",
+    "materials",
+    "energy",
+    "consumer_goods"
+  ],
   "planned": [
-    { "name": "電機・精密", "note": "総合電機とデバイスの巨大クラスタ" },
-    { "name": "不動産・REIT", "note": "開発・賃貸・流通・投資の金流" },
-    { "name": "鉄道・物流", "note": "旅客・貨物・ラストワンマイル" },
-    { "name": "SaaS・ITサービス", "note": "情報・通信業594社の最大の受け皿" },
-    { "name": "機械・FA", "note": "工作機械・ロボット・建機" },
-    { "name": "化学", "note": "総合化学と機能性材料" },
-    { "name": "エネルギー", "note": "電力・ガス・石油・再エネ" }
+    {
+      "name": "J-REIT・インフラファンド",
+      "note": "市場区分が異なるため別途対応"
+    },
+    {
+      "name": "未カバー中小型株の分類",
+      "note": "残り約1,800社を各マップへ順次収容"
+    }
   ]
 }

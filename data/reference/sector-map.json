@@ -1,39 +1,231 @@
 {
-  "description": "東証33業種区分 → 商流図鑑マップの対応表。status: live=マップあり / planned=準備中 / none=未着手。1業種が複数マップにまたがるのは正常(例: 電気機器は半導体と電機)。",
+  "description": "東証33業種区分 → 商流図鑑マップの対応表。全33業種にliveマップあり(2026-07-23時点、個社カバー率51.4%)。",
   "sectors": {
-    "輸送用機器": { "status": "live", "maps": ["automotive", "auto_parts"] },
-    "電気機器": { "status": "partial", "maps": ["semiconductor", "datacenter"], "planned": "電機・精密" },
-    "銀行業": { "status": "live", "maps": ["banking"] },
-    "医薬品": { "status": "live", "maps": ["pharma"] },
-    "情報・通信業": { "status": "partial", "maps": ["telecom", "datacenter", "consulting"], "note": "SaaS・ゲーム・メディアは未着手" },
-    "卸売業": { "status": "partial", "maps": ["trading_companies", "convenience_store", "semiconductor"], "note": "専門商社の大半は未収容" },
-    "小売業": { "status": "partial", "maps": ["convenience_store"], "planned": "小売(百貨店・SC・EC)" },
-    "建設業": { "status": "partial", "maps": ["datacenter"], "planned": "建設・不動産開発" },
-    "証券・商品先物取引業": { "status": "live", "maps": ["banking"] },
-    "保険業": { "status": "partial", "maps": ["banking", "automotive"] },
-    "その他金融業": { "status": "partial", "maps": ["banking"] },
-    "不動産業": { "status": "partial", "maps": ["datacenter"], "planned": "不動産・REIT" },
-    "食料品": { "status": "partial", "maps": ["convenience_store"], "planned": "食品" },
-    "化学": { "status": "partial", "maps": ["semiconductor", "automotive"], "planned": "化学" },
-    "機械": { "status": "partial", "maps": ["semiconductor", "automotive"], "planned": "機械・FA" },
-    "鉄鋼": { "status": "partial", "maps": ["automotive"] },
-    "非鉄金属": { "status": "partial", "maps": ["auto_parts"] },
-    "ゴム製品": { "status": "partial", "maps": ["auto_parts"] },
-    "ガラス・土石製品": { "status": "partial", "maps": ["auto_parts"] },
-    "精密機器": { "status": "none", "planned": "電機・精密" },
-    "金属製品": { "status": "none", "planned": "機械・FA" },
-    "繊維製品": { "status": "none", "planned": "アパレル・繊維" },
-    "パルプ・紙": { "status": "none", "planned": "素材" },
-    "石油・石炭製品": { "status": "partial", "maps": ["automotive"] },
-    "電気・ガス業": { "status": "partial", "maps": ["datacenter", "semiconductor"], "planned": "エネルギー" },
-    "陸運業": { "status": "none", "planned": "鉄道・物流" },
-    "海運業": { "status": "partial", "maps": ["automotive"] },
-    "空運業": { "status": "none", "planned": "航空・空港" },
-    "倉庫・運輸関連業": { "status": "none", "planned": "鉄道・物流" },
-    "水産・農林業": { "status": "none", "planned": "食品" },
-    "鉱業": { "status": "none", "planned": "エネルギー" },
-    "医療機器・その他製品": { "status": "none", "note": "33業種では「その他製品」", "planned": "ヘルスケア機器" },
-    "その他製品": { "status": "none", "planned": "ヘルスケア機器・生活用品" },
-    "サービス業": { "status": "partial", "maps": ["consulting"], "note": "人材・教育・外食などは未着手" }
+    "輸送用機器": {
+      "status": "live",
+      "maps": [
+        "automotive",
+        "auto_parts",
+        "transport"
+      ]
+    },
+    "電気機器": {
+      "status": "live",
+      "maps": [
+        "electronics",
+        "semiconductor"
+      ]
+    },
+    "銀行業": {
+      "status": "live",
+      "maps": [
+        "banking"
+      ],
+      "note": "全上場行を収容"
+    },
+    "医薬品": {
+      "status": "live",
+      "maps": [
+        "pharma"
+      ]
+    },
+    "情報・通信業": {
+      "status": "live",
+      "maps": [
+        "it_services",
+        "telecom",
+        "datacenter",
+        "consulting"
+      ]
+    },
+    "卸売業": {
+      "status": "live",
+      "maps": [
+        "trading_companies",
+        "food",
+        "pharma",
+        "semiconductor"
+      ]
+    },
+    "小売業": {
+      "status": "live",
+      "maps": [
+        "retail",
+        "convenience_store",
+        "food"
+      ]
+    },
+    "建設業": {
+      "status": "live",
+      "maps": [
+        "construction",
+        "datacenter"
+      ]
+    },
+    "証券・商品先物取引業": {
+      "status": "live",
+      "maps": [
+        "banking"
+      ]
+    },
+    "保険業": {
+      "status": "live",
+      "maps": [
+        "banking",
+        "automotive"
+      ]
+    },
+    "その他金融業": {
+      "status": "live",
+      "maps": [
+        "banking"
+      ]
+    },
+    "不動産業": {
+      "status": "live",
+      "maps": [
+        "real_estate",
+        "datacenter"
+      ]
+    },
+    "食料品": {
+      "status": "live",
+      "maps": [
+        "food",
+        "convenience_store"
+      ]
+    },
+    "化学": {
+      "status": "live",
+      "maps": [
+        "chemicals",
+        "semiconductor"
+      ]
+    },
+    "機械": {
+      "status": "live",
+      "maps": [
+        "machinery"
+      ]
+    },
+    "鉄鋼": {
+      "status": "live",
+      "maps": [
+        "materials"
+      ]
+    },
+    "非鉄金属": {
+      "status": "live",
+      "maps": [
+        "materials"
+      ]
+    },
+    "ゴム製品": {
+      "status": "live",
+      "maps": [
+        "auto_parts",
+        "machinery"
+      ]
+    },
+    "ガラス・土石製品": {
+      "status": "live",
+      "maps": [
+        "materials",
+        "auto_parts"
+      ]
+    },
+    "精密機器": {
+      "status": "live",
+      "maps": [
+        "electronics"
+      ]
+    },
+    "金属製品": {
+      "status": "live",
+      "maps": [
+        "construction",
+        "materials",
+        "machinery"
+      ]
+    },
+    "繊維製品": {
+      "status": "live",
+      "maps": [
+        "chemicals",
+        "consumer_goods"
+      ]
+    },
+    "パルプ・紙": {
+      "status": "live",
+      "maps": [
+        "materials"
+      ]
+    },
+    "石油・石炭製品": {
+      "status": "live",
+      "maps": [
+        "energy",
+        "chemicals"
+      ]
+    },
+    "電気・ガス業": {
+      "status": "live",
+      "maps": [
+        "energy",
+        "datacenter"
+      ]
+    },
+    "陸運業": {
+      "status": "live",
+      "maps": [
+        "transport"
+      ]
+    },
+    "海運業": {
+      "status": "live",
+      "maps": [
+        "transport",
+        "automotive"
+      ]
+    },
+    "空運業": {
+      "status": "live",
+      "maps": [
+        "transport"
+      ]
+    },
+    "倉庫・運輸関連業": {
+      "status": "live",
+      "maps": [
+        "transport"
+      ]
+    },
+    "水産・農林業": {
+      "status": "live",
+      "maps": [
+        "food"
+      ]
+    },
+    "鉱業": {
+      "status": "live",
+      "maps": [
+        "energy"
+      ]
+    },
+    "その他製品": {
+      "status": "live",
+      "maps": [
+        "consumer_goods",
+        "materials",
+        "it_services"
+      ]
+    },
+    "サービス業": {
+      "status": "live",
+      "maps": [
+        "services",
+        "consulting"
+      ]
+    }
   }
 }

@@ -181,6 +181,21 @@
             "as_of": "2025",
             "note": "概算"
           }
+        },
+        {
+          "name": "日本たばこ産業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2914"
+          },
+          "note": "たばこ・医薬・加工食品"
+        },
+        {
+          "name": "カゴメ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2811"
+          }
         }
       ],
       "sources": [
@@ -238,6 +253,62 @@
             "revenue_oku_jpy": 10000,
             "as_of": "2025",
             "note": "概算"
+          }
+        },
+        {
+          "name": "サカタのタネ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1377"
+          }
+        },
+        {
+          "name": "カネコ種苗",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "1376"
+          }
+        },
+        {
+          "name": "ホクト",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1379"
+          }
+        },
+        {
+          "name": "中部飼料",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2053"
+          }
+        },
+        {
+          "name": "フィード・ワン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2060"
+          }
+        },
+        {
+          "name": "アクシーズ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "1381"
+          }
+        },
+        {
+          "name": "ホクリヨウ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "1384"
+          }
+        },
+        {
+          "name": "秋川牧園",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "1380"
           }
         }
       ],
@@ -308,8 +379,7 @@
           "hq": "東京都文京区",
           "employees": 4000,
           "listing": {
-            "market": "東証スタンダード",
-            "code": "7451"
+            "market": "非上場(三菱商事傘下)"
           },
           "financials": {
             "revenue_oku_jpy": 20000,
@@ -333,6 +403,146 @@
           "employees": 5000,
           "listing": {
             "market": "非上場"
+          }
+        },
+        {
+          "name": "トーホー",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8142"
+          }
+        },
+        {
+          "name": "加藤産業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9869"
+          }
+        },
+        {
+          "name": "ヤマエグループホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7130"
+          }
+        },
+        {
+          "name": "尾家産業",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7481"
+          }
+        },
+        {
+          "name": "久世",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2708"
+          }
+        },
+        {
+          "name": "スターゼン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8043"
+          }
+        },
+        {
+          "name": "横浜冷凍",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2874"
+          }
+        },
+        {
+          "name": "OUGホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8041"
+          }
+        },
+        {
+          "name": "中央魚類",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8030"
+          }
+        },
+        {
+          "name": "大水",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7538"
+          }
+        },
+        {
+          "name": "横浜丸魚",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8045"
+          }
+        },
+        {
+          "name": "築地魚市場",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8039"
+          }
+        },
+        {
+          "name": "大田花き",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7555"
+          }
+        },
+        {
+          "name": "デリカフーズホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3392"
+          }
+        },
+        {
+          "name": "正栄食品工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8079"
+          }
+        },
+        {
+          "name": "ユアサ・フナショク",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8006"
+          }
+        },
+        {
+          "name": "サトー商会",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9996"
+          }
+        },
+        {
+          "name": "アイスコ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7698"
+          }
+        },
+        {
+          "name": "ハリマ共和物産",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7444"
+          }
+        },
+        {
+          "name": "ラクト・ジャパン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3139"
           }
         }
       ],
@@ -365,6 +575,13 @@
         },
         {
           "name": "全国の低温物流事業者"
+        },
+        {
+          "name": "キユーソー流通システム",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9369"
+          }
         }
       ],
       "updated": "2026-07-23"
@@ -473,6 +690,342 @@
             "as_of": "2025",
             "note": "概算"
           }
+        },
+        {
+          "name": "FOOD & LIFE COMPANIES",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3563"
+          }
+        },
+        {
+          "name": "くら寿司",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2695"
+          }
+        },
+        {
+          "name": "コロワイド",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7616"
+          }
+        },
+        {
+          "name": "アトム",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7412"
+          }
+        },
+        {
+          "name": "カッパ・クリエイト",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7421"
+          }
+        },
+        {
+          "name": "ワタミ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7522"
+          }
+        },
+        {
+          "name": "吉野家ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9861"
+          }
+        },
+        {
+          "name": "松屋フーズホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9887"
+          }
+        },
+        {
+          "name": "壱番屋",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7630"
+          }
+        },
+        {
+          "name": "王将フードサービス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9936"
+          }
+        },
+        {
+          "name": "ハチバン",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9950"
+          }
+        },
+        {
+          "name": "リンガーハット",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8200"
+          }
+        },
+        {
+          "name": "ハイデイ日高",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7611"
+          }
+        },
+        {
+          "name": "幸楽苑",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7554"
+          }
+        },
+        {
+          "name": "力の源ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3561"
+          }
+        },
+        {
+          "name": "丸千代山岡家",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3399"
+          }
+        },
+        {
+          "name": "ギフトホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9279"
+          }
+        },
+        {
+          "name": "魁力屋",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5891"
+          }
+        },
+        {
+          "name": "大戸屋ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2705"
+          }
+        },
+        {
+          "name": "サイゼリヤ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7581"
+          }
+        },
+        {
+          "name": "ブロンコビリー",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3091"
+          }
+        },
+        {
+          "name": "あみやき亭",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2753"
+          }
+        },
+        {
+          "name": "安楽亭",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7562"
+          }
+        },
+        {
+          "name": "木曽路",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8160"
+          }
+        },
+        {
+          "name": "SRSホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8163"
+          }
+        },
+        {
+          "name": "サガミホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9900"
+          }
+        },
+        {
+          "name": "グルメ杵屋",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9850"
+          }
+        },
+        {
+          "name": "ドトール・日レスホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3087"
+          }
+        },
+        {
+          "name": "サンマルクホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3395"
+          }
+        },
+        {
+          "name": "コメダホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3543"
+          }
+        },
+        {
+          "name": "銀座ルノアール",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9853"
+          }
+        },
+        {
+          "name": "東和フードサービス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3329"
+          }
+        },
+        {
+          "name": "ロイヤルホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8179"
+          }
+        },
+        {
+          "name": "クリエイト・レストランツ・ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3387"
+          }
+        },
+        {
+          "name": "モスフードサービス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8153"
+          }
+        },
+        {
+          "name": "物語コーポレーション",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3097"
+          }
+        },
+        {
+          "name": "ホットランドホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3196"
+          }
+        },
+        {
+          "name": "エターナルホスピタリティグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3193"
+          }
+        },
+        {
+          "name": "テンアライド",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8207"
+          }
+        },
+        {
+          "name": "大庄",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9979"
+          }
+        },
+        {
+          "name": "チムニー",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3178"
+          }
+        },
+        {
+          "name": "ひらまつ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2764"
+          }
+        },
+        {
+          "name": "うかい",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7621"
+          }
+        },
+        {
+          "name": "WDI",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3068"
+          }
+        },
+        {
+          "name": "フジオフードグループ本社",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2752"
+          }
+        },
+        {
+          "name": "ヨシックスホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3221"
+          }
+        },
+        {
+          "name": "銚子丸",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3075"
+          }
+        },
+        {
+          "name": "ペッパーフードサービス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3053"
+          }
         }
       ],
       "updated": "2026-07-23"
@@ -487,6 +1040,571 @@
         "angle": 0
       },
       "companies": [],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "confectionery_beverage",
+      "role": "菓子・飲料・乳業メーカー",
+      "layer": "maker",
+      "description": "スナック・チョコ・清涼飲料・ヨーグルト。ブランド力と棚の確保が生命線。",
+      "map": {
+        "ring": 2,
+        "angle": 40
+      },
+      "companies": [
+        {
+          "name": "カルビー",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2229"
+          }
+        },
+        {
+          "name": "森永製菓",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2201"
+          }
+        },
+        {
+          "name": "江崎グリコ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2206"
+          }
+        },
+        {
+          "name": "不二家",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2211"
+          }
+        },
+        {
+          "name": "ブルボン",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2208"
+          }
+        },
+        {
+          "name": "森永乳業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2264"
+          }
+        },
+        {
+          "name": "雪印メグミルク",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2270"
+          }
+        },
+        {
+          "name": "ヤクルト本社",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2267"
+          }
+        },
+        {
+          "name": "伊藤園",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2593"
+          }
+        },
+        {
+          "name": "サッポロホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2501"
+          }
+        },
+        {
+          "name": "コカ・コーラ ボトラーズジャパンホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2579"
+          }
+        },
+        {
+          "name": "ダイドーグループホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2590"
+          }
+        },
+        {
+          "name": "宝ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2531"
+          }
+        },
+        {
+          "name": "キーコーヒー",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2594"
+          }
+        },
+        {
+          "name": "亀田製菓",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2220"
+          }
+        },
+        {
+          "name": "井村屋グループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2209"
+          }
+        },
+        {
+          "name": "カンロ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2216"
+          }
+        },
+        {
+          "name": "モロゾフ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2217"
+          }
+        },
+        {
+          "name": "湖池屋",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2226"
+          }
+        },
+        {
+          "name": "寿スピリッツ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2222"
+          }
+        },
+        {
+          "name": "岩塚製菓",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2221"
+          }
+        },
+        {
+          "name": "六甲バター",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2266"
+          }
+        },
+        {
+          "name": "B-R サーティワン アイスクリーム",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2268"
+          }
+        },
+        {
+          "name": "オリオンビール",
+          "listing": {
+            "market": "東証プライム",
+            "code": "409A"
+          }
+        },
+        {
+          "name": "オエノンホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2533"
+          }
+        },
+        {
+          "name": "サントリービバレッジ&フード",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2587"
+          }
+        },
+        {
+          "name": "北海道コカ・コーラボトリング",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2573"
+          }
+        },
+        {
+          "name": "プレミアムウォーターホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2588"
+          }
+        },
+        {
+          "name": "ライフドリンク カンパニー",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2585"
+          }
+        },
+        {
+          "name": "第一屋製パン",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2215"
+          }
+        },
+        {
+          "name": "中村屋",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2204"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "ingredients_processing",
+      "role": "製粉・油脂・食肉・調味メーカー",
+      "layer": "maker",
+      "description": "小麦粉・食用油・ハム・マヨネーズ。輸入原料価格の転嫁が最大の経営テーマ。",
+      "map": {
+        "ring": 2,
+        "angle": 140
+      },
+      "companies": [
+        {
+          "name": "日清製粉グループ本社",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2002"
+          }
+        },
+        {
+          "name": "ニップン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2001"
+          }
+        },
+        {
+          "name": "日清オイリオグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2602"
+          }
+        },
+        {
+          "name": "J-オイルミルズ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2613"
+          }
+        },
+        {
+          "name": "昭和産業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2004"
+          }
+        },
+        {
+          "name": "伊藤ハム米久ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2296"
+          }
+        },
+        {
+          "name": "プリマハム",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2281"
+          }
+        },
+        {
+          "name": "丸大食品",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2288"
+          }
+        },
+        {
+          "name": "キユーピー",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2809"
+          }
+        },
+        {
+          "name": "ハウス食品グループ本社",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2810"
+          }
+        },
+        {
+          "name": "東洋水産",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2875"
+          }
+        },
+        {
+          "name": "極洋",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1301"
+          }
+        },
+        {
+          "name": "ブルドックソース",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2804"
+          }
+        },
+        {
+          "name": "ヱスビー食品",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2805"
+          }
+        },
+        {
+          "name": "不二製油",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2607"
+          }
+        },
+        {
+          "name": "かどや製油",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2612"
+          }
+        },
+        {
+          "name": "はごろもフーズ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2831"
+          }
+        },
+        {
+          "name": "フジッコ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2908"
+          }
+        },
+        {
+          "name": "ケンコーマヨネーズ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2915"
+          }
+        },
+        {
+          "name": "なとり",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2922"
+          }
+        },
+        {
+          "name": "サトウ食品",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2923"
+          }
+        },
+        {
+          "name": "紀文食品",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2933"
+          }
+        },
+        {
+          "name": "一正蒲鉾",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2904"
+          }
+        },
+        {
+          "name": "理研ビタミン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4526"
+          }
+        },
+        {
+          "name": "ミヨシ油脂",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4404"
+          }
+        },
+        {
+          "name": "DM三井製糖",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2109"
+          }
+        },
+        {
+          "name": "ウェルネオシュガー",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2117"
+          }
+        },
+        {
+          "name": "日本甜菜製糖",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2108"
+          }
+        },
+        {
+          "name": "日東富士製粉",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2003"
+          }
+        },
+        {
+          "name": "鳥越製粉",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2009"
+          }
+        },
+        {
+          "name": "エバラ食品工業",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2819"
+          }
+        },
+        {
+          "name": "シマダヤ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "250A"
+          }
+        },
+        {
+          "name": "石井食品",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2894"
+          }
+        },
+        {
+          "name": "ピックルスホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2935"
+          }
+        },
+        {
+          "name": "S Foods",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2292"
+          }
+        },
+        {
+          "name": "福留ハム",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2291"
+          }
+        },
+        {
+          "name": "滝沢ハム",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2293"
+          }
+        },
+        {
+          "name": "柿安本店",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2294"
+          }
+        },
+        {
+          "name": "アリアケジャパン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2815"
+          }
+        },
+        {
+          "name": "ピエトロ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2818"
+          }
+        },
+        {
+          "name": "ダイショー",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2816"
+          }
+        },
+        {
+          "name": "ロック・フィールド",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2910"
+          }
+        },
+        {
+          "name": "イートアンドホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2882"
+          }
+        },
+        {
+          "name": "ユーグレナ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2931"
+          }
+        },
+        {
+          "name": "ベースフード",
+          "listing": {
+            "market": "東証グロース",
+            "code": "2936"
+          }
+        },
+        {
+          "name": "ファーマフーズ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2929"
+          }
+        }
+      ],
       "updated": "2026-07-23"
     }
   ],
@@ -714,6 +1832,66 @@
         }
       ],
       "updated": "2026-07-23"
+    },
+    {
+      "updated": "2026-07-23",
+      "id": "goods_confbev_wholesale",
+      "from": "confectionery_beverage",
+      "to": "food_wholesale",
+      "flow_type": "goods",
+      "label": "菓子・飲料・乳製品の出荷",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/syoudou/",
+          "publisher": "経済産業省 商業動態統計",
+          "note": "業界一般構造"
+        }
+      ]
+    },
+    {
+      "updated": "2026-07-23",
+      "id": "opex_wholesale_confbev",
+      "from": "food_wholesale",
+      "to": "confectionery_beverage",
+      "flow_type": "opex",
+      "label": "商品仕入代金",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/syoudou/",
+          "publisher": "経済産業省 商業動態統計",
+          "note": "業界一般構造"
+        }
+      ]
+    },
+    {
+      "updated": "2026-07-23",
+      "id": "goods_ingred_wholesale",
+      "from": "ingredients_processing",
+      "to": "food_wholesale",
+      "flow_type": "goods",
+      "label": "加工食品・調味料の出荷",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/syoudou/",
+          "publisher": "経済産業省 商業動態統計",
+          "note": "業界一般構造"
+        }
+      ]
+    },
+    {
+      "updated": "2026-07-23",
+      "id": "opex_wholesale_ingred",
+      "from": "food_wholesale",
+      "to": "ingredients_processing",
+      "flow_type": "opex",
+      "label": "商品仕入代金",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/syoudou/",
+          "publisher": "経済産業省 商業動態統計",
+          "note": "業界一般構造"
+        }
+      ]
     }
   ]
 }

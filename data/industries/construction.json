@@ -1,0 +1,1019 @@
+{
+  "$schema": "../schema.json",
+  "meta": {
+    "industry_id": "construction",
+    "industry_name": "建設",
+    "version": "0.1.0",
+    "updated": "2026-07-23",
+    "map_style": "category",
+    "description": "建設業界。ゼネコン・サブコン・道路・住宅・専門工事の分類カオスマップ。データセンターマップの建設ノードと直結。",
+    "tagline": "人手不足×国土強靭化 — 受注は潤沢、担い手が足りない",
+    "editorial_note": "v1は公開情報ベース。分類は編集部整理。上場情報はJPX上場銘柄一覧(2026-06)と突合済み。"
+  },
+  "layers": [
+    {
+      "id": "client",
+      "label": "発注者",
+      "order": 1,
+      "icon": "🏢",
+      "description": "官公庁・デベロッパー・企業"
+    },
+    {
+      "id": "category",
+      "label": "工事分野",
+      "order": 2,
+      "icon": "🏗️",
+      "description": "工事分野別の分類"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "client",
+      "role": "発注者(官公庁・デベ・企業)",
+      "layer": "client",
+      "description": "公共投資と民間設備投資(DC・半導体工場・再開発)が二大財源。",
+      "map": {
+        "ring": 0,
+        "angle": 0
+      },
+      "note": "発注側は不動産・全産業マップを参照",
+      "companies": [],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "general_contractor",
+      "role": "ゼネコン",
+      "layer": "category",
+      "description": "スーパーゼネコン5社+準大手。データセンター・半導体工場の建設需要で活況。",
+      "map": {
+        "ring": 1,
+        "angle": 0
+      },
+      "related_industry": "datacenter",
+      "companies": [
+        {
+          "name": "鹿島建設",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1812"
+          }
+        },
+        {
+          "name": "大成建設",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1801"
+          }
+        },
+        {
+          "name": "大林組",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1802"
+          }
+        },
+        {
+          "name": "清水建設",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1803"
+          }
+        },
+        {
+          "name": "長谷工コーポレーション",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1808"
+          }
+        },
+        {
+          "name": "インフロニア・ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5076"
+          }
+        },
+        {
+          "name": "戸田建設",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1860"
+          }
+        },
+        {
+          "name": "熊谷組",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1861"
+          }
+        },
+        {
+          "name": "西松建設",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1820"
+          }
+        },
+        {
+          "name": "安藤・間",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1719"
+          }
+        },
+        {
+          "name": "奥村組",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1833"
+          }
+        },
+        {
+          "name": "五洋建設",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1893"
+          }
+        },
+        {
+          "name": "東亜建設工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1885"
+          }
+        },
+        {
+          "name": "鉄建建設",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1815"
+          }
+        },
+        {
+          "name": "東鉄工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1835"
+          }
+        },
+        {
+          "name": "大豊建設",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "1822"
+          }
+        },
+        {
+          "name": "東急建設",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1720"
+          }
+        },
+        {
+          "name": "淺沼組",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1852"
+          }
+        },
+        {
+          "name": "錢高組",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "1811"
+          }
+        },
+        {
+          "name": "松井建設",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "1810"
+          }
+        },
+        {
+          "name": "福田組",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1899"
+          }
+        },
+        {
+          "name": "大本組",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "1793"
+          }
+        },
+        {
+          "name": "北野建設",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "1866"
+          }
+        },
+        {
+          "name": "矢作建設工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1870"
+          }
+        },
+        {
+          "name": "高松コンストラクショングループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1762"
+          }
+        },
+        {
+          "name": "新日本建設",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1879"
+          }
+        },
+        {
+          "name": "日本国土開発",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1887"
+          }
+        },
+        {
+          "name": "若築建設",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1888"
+          }
+        },
+        {
+          "name": "飛島ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "256A"
+          }
+        },
+        {
+          "name": "ナカノフドー建設",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "1827"
+          }
+        },
+        {
+          "name": "南海辰村建設",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "1850"
+          }
+        },
+        {
+          "name": "オリエンタル白石",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1786"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "subcontractor",
+      "role": "電気・空調・設備サブコン",
+      "layer": "category",
+      "description": "電気工事・空調衛生のプロ集団。DC・半導体工場で最も逼迫している職能。",
+      "map": {
+        "ring": 1,
+        "angle": 60
+      },
+      "related_industry": "datacenter",
+      "companies": [
+        {
+          "name": "きんでん",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1944"
+          }
+        },
+        {
+          "name": "関電工",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1942"
+          }
+        },
+        {
+          "name": "高砂熱学工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1969"
+          }
+        },
+        {
+          "name": "ダイダン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1980"
+          }
+        },
+        {
+          "name": "トーエネック",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1946"
+          }
+        },
+        {
+          "name": "中電工",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1941"
+          }
+        },
+        {
+          "name": "日本電設工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1950"
+          }
+        },
+        {
+          "name": "四電工",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1939"
+          }
+        },
+        {
+          "name": "三機工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1961"
+          }
+        },
+        {
+          "name": "日比谷総合設備",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1982"
+          }
+        },
+        {
+          "name": "朝日工業社",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1975"
+          }
+        },
+        {
+          "name": "大氣社",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1979"
+          }
+        },
+        {
+          "name": "ユアテック",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1934"
+          }
+        },
+        {
+          "name": "北陸電気工事",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1930"
+          }
+        },
+        {
+          "name": "日本リーテック",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1938"
+          }
+        },
+        {
+          "name": "東京エネシス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1945"
+          }
+        },
+        {
+          "name": "弘電社",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "1948"
+          }
+        },
+        {
+          "name": "日本電技",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "1723"
+          }
+        },
+        {
+          "name": "オーテック",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "1736"
+          }
+        },
+        {
+          "name": "新日本空調",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1952"
+          }
+        },
+        {
+          "name": "テクノ菱和",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "1965"
+          }
+        },
+        {
+          "name": "大成温調",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "1904"
+          }
+        },
+        {
+          "name": "明星工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1976"
+          }
+        },
+        {
+          "name": "太平電業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1968"
+          }
+        },
+        {
+          "name": "高田工業所",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "1966"
+          }
+        },
+        {
+          "name": "レイズネクスト",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6379"
+          },
+          "note": "プラントメンテナンス大手"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "road_infra",
+      "role": "道路・インフラ補修",
+      "layer": "category",
+      "description": "舗装と橋梁・トンネル補修。老朽インフラの更新需要は数十年続く。",
+      "map": {
+        "ring": 1,
+        "angle": 120
+      },
+      "companies": [
+        {
+          "name": "東亜道路工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1882"
+          }
+        },
+        {
+          "name": "ショーボンドホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1414"
+          }
+        },
+        {
+          "name": "宮地エンジニアリンググループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3431"
+          }
+        },
+        {
+          "name": "ライト工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1926"
+          }
+        },
+        {
+          "name": "不動テトラ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1813"
+          }
+        },
+        {
+          "name": "ニチレキグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5011"
+          },
+          "note": "舗装材"
+        },
+        {
+          "name": "世紀東急工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1898"
+          }
+        },
+        {
+          "name": "横河ブリッジホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5911"
+          }
+        },
+        {
+          "name": "駒井ハルテック",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5915"
+          }
+        },
+        {
+          "name": "川田テクノロジーズ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3443"
+          }
+        },
+        {
+          "name": "巴コーポレーション",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "1921"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "house_builder",
+      "role": "ハウスメーカー・住宅",
+      "layer": "category",
+      "description": "戸建・賃貸住宅。国内縮小を米国住宅事業でカバーする構図が鮮明。",
+      "map": {
+        "ring": 1,
+        "angle": 185
+      },
+      "related_industry": "real_estate",
+      "companies": [
+        {
+          "name": "大和ハウス工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1925"
+          }
+        },
+        {
+          "name": "積水ハウス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1928"
+          }
+        },
+        {
+          "name": "住友林業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1911"
+          }
+        },
+        {
+          "name": "タマホーム",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1419"
+          }
+        },
+        {
+          "name": "飯田グループホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3291"
+          }
+        },
+        {
+          "name": "オープンハウスグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3288"
+          }
+        },
+        {
+          "name": "日本ハウスホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1873"
+          }
+        },
+        {
+          "name": "土屋ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "1840"
+          }
+        },
+        {
+          "name": "Lib Work",
+          "listing": {
+            "market": "東証グロース",
+            "code": "1431"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "housing_equipment",
+      "role": "住宅設備・建材",
+      "layer": "category",
+      "description": "水回り・シャッター・建具。リフォーム市場の拡大が下支え。",
+      "map": {
+        "ring": 1,
+        "angle": 250
+      },
+      "companies": [
+        {
+          "name": "TOTO",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5332"
+          }
+        },
+        {
+          "name": "リンナイ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5947"
+          }
+        },
+        {
+          "name": "ノーリツ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5943"
+          }
+        },
+        {
+          "name": "タカラスタンダード",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7981"
+          }
+        },
+        {
+          "name": "クリナップ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7955"
+          }
+        },
+        {
+          "name": "三和ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5929"
+          }
+        },
+        {
+          "name": "文化シヤッター",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5930"
+          }
+        },
+        {
+          "name": "LIXIL",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5938"
+          }
+        },
+        {
+          "name": "三協立山",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5932"
+          }
+        },
+        {
+          "name": "不二サッシ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5940"
+          }
+        },
+        {
+          "name": "東洋シヤッター",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5936"
+          }
+        },
+        {
+          "name": "立川ブラインド工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7989"
+          }
+        },
+        {
+          "name": "トーソー",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5956"
+          }
+        },
+        {
+          "name": "岡部",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5959"
+          }
+        },
+        {
+          "name": "ニチハ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7943"
+          }
+        },
+        {
+          "name": "ニチアス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5393"
+          }
+        },
+        {
+          "name": "コロナ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5909"
+          }
+        },
+        {
+          "name": "長府製作所",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5946"
+          }
+        },
+        {
+          "name": "ダイニチ工業",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5951"
+          }
+        },
+        {
+          "name": "稲葉製作所",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3421"
+          }
+        },
+        {
+          "name": "ウッドワン",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7898"
+          }
+        },
+        {
+          "name": "永大産業",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7822"
+          }
+        },
+        {
+          "name": "ノダ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7879"
+          }
+        },
+        {
+          "name": "南海プライウッド",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7887"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "specialist",
+      "role": "専門工事・仮設・地盤",
+      "layer": "category",
+      "description": "とび・土工・仮設材・地盤改良。現場を支える専門職能の世界。",
+      "map": {
+        "ring": 1,
+        "angle": 310
+      },
+      "companies": [
+        {
+          "name": "日特建設",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1929"
+          }
+        },
+        {
+          "name": "技研製作所",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6289"
+          }
+        },
+        {
+          "name": "アジア航測",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9233"
+          },
+          "note": "測量・空間情報"
+        },
+        {
+          "name": "前田工繊",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7821"
+          }
+        },
+        {
+          "name": "アルインコ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5933"
+          }
+        },
+        {
+          "name": "日本ヒューム",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5262"
+          }
+        },
+        {
+          "name": "アジアパイルホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5288"
+          }
+        },
+        {
+          "name": "ベステラ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1433"
+          }
+        },
+        {
+          "name": "日本基礎技術",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "1914"
+          }
+        },
+        {
+          "name": "テノックス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "1905"
+          }
+        },
+        {
+          "name": "建設技術研究所",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9621"
+          }
+        },
+        {
+          "name": "オリエンタルコンサルタンツホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2498"
+          }
+        },
+        {
+          "name": "応用地質",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9755"
+          }
+        },
+        {
+          "name": "いであ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9768"
+          }
+        },
+        {
+          "name": "E・Jホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2153"
+          }
+        },
+        {
+          "name": "NJS",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2325"
+          }
+        },
+        {
+          "name": "日水コン",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "261A"
+          }
+        },
+        {
+          "name": "DNホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7377"
+          }
+        },
+        {
+          "name": "ERIホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6083"
+          },
+          "note": "建築確認検査"
+        },
+        {
+          "name": "川崎地質",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4673"
+          }
+        },
+        {
+          "name": "タカミヤ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2445"
+          }
+        },
+        {
+          "name": "ナガワ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9663"
+          }
+        },
+        {
+          "name": "三協フロンテア",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9639"
+          }
+        },
+        {
+          "name": "東海リース",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9761"
+          }
+        },
+        {
+          "name": "ラックランド",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9612"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ],
+  "edges": []
+}

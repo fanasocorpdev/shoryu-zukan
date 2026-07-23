@@ -1,0 +1,646 @@
+{
+  "$schema": "../schema.json",
+  "meta": {
+    "industry_id": "chemicals",
+    "industry_name": "化学",
+    "version": "0.1.0",
+    "updated": "2026-07-23",
+    "map_style": "category",
+    "description": "化学業界。石油化学の川上から、電子材料・塗料・トイレタリーの川下まで、事業領域のラベルごとに分類するカオスマップ。半導体材料は半導体マップと重複掲載。",
+    "tagline": "石化の再編と電子材料の輝き — 素材立国の現在地",
+    "editorial_note": "v1は公開情報ベース。分類は編集部整理。上場情報はJPX上場銘柄一覧(2026-06)と突合済み。"
+  },
+  "layers": [
+    {
+      "id": "user",
+      "label": "需要家",
+      "order": 1,
+      "icon": "🏭",
+      "description": "素材を使う全産業"
+    },
+    {
+      "id": "category",
+      "label": "事業領域",
+      "order": 2,
+      "icon": "🧪",
+      "description": "事業領域別の分類"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "user",
+      "role": "需要家(全産業)",
+      "layer": "user",
+      "description": "自動車・エレクトロニクス・建設・日用品。化学品はあらゆる製品の中間素材。",
+      "map": {
+        "ring": 0,
+        "angle": 0
+      },
+      "note": "需要側は全産業にまたがるため個別掲載しない",
+      "companies": [],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "general_chemicals",
+      "role": "総合化学",
+      "layer": "category",
+      "description": "石油化学からスペシャリティまで。国内石化設備の統廃合が業界最大のテーマ。",
+      "map": {
+        "ring": 1,
+        "angle": 0
+      },
+      "companies": [
+        {
+          "name": "三菱ケミカルグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4188"
+          }
+        },
+        {
+          "name": "住友化学",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4005"
+          }
+        },
+        {
+          "name": "旭化成",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3407"
+          }
+        },
+        {
+          "name": "三井化学",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4183"
+          }
+        },
+        {
+          "name": "東ソー",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4042"
+          }
+        },
+        {
+          "name": "UBE",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4208"
+          }
+        },
+        {
+          "name": "レゾナック・ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4004"
+          }
+        },
+        {
+          "name": "デンカ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4061"
+          }
+        },
+        {
+          "name": "ダイセル",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4202"
+          }
+        },
+        {
+          "name": "トクヤマ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4043"
+          }
+        },
+        {
+          "name": "三菱瓦斯化学",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4182"
+          }
+        },
+        {
+          "name": "日本曹達",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4041"
+          }
+        },
+        {
+          "name": "石原産業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4028"
+          }
+        },
+        {
+          "name": "堺化学工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4078"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "electronic_materials",
+      "role": "電子材料・機能化学",
+      "layer": "category",
+      "description": "半導体・ディスプレイ材料で世界シェア上位。半導体マップの材料ノードと直結。",
+      "map": {
+        "ring": 1,
+        "angle": 45
+      },
+      "related_industry": "semiconductor",
+      "companies": [
+        {
+          "name": "信越化学工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4063"
+          }
+        },
+        {
+          "name": "日産化学",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4021"
+          }
+        },
+        {
+          "name": "日本触媒",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4114"
+          }
+        },
+        {
+          "name": "ADEKA",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4401"
+          }
+        },
+        {
+          "name": "日本ゼオン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4205"
+          }
+        },
+        {
+          "name": "カネカ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4118"
+          }
+        },
+        {
+          "name": "トリケミカル研究所",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4369"
+          }
+        },
+        {
+          "name": "ステラ ケミファ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4109"
+          }
+        },
+        {
+          "name": "関東電化工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4047"
+          }
+        },
+        {
+          "name": "大阪ソーダ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4046"
+          }
+        },
+        {
+          "name": "日本化薬",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4272"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "industrial_gas",
+      "role": "産業ガス",
+      "layer": "category",
+      "description": "酸素・窒素・特殊ガス。半導体工場と病院を支えるインフラ的存在。",
+      "map": {
+        "ring": 1,
+        "angle": 95
+      },
+      "related_industry": "semiconductor",
+      "companies": [
+        {
+          "name": "日本酸素ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4091"
+          }
+        },
+        {
+          "name": "エア・ウォーター",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4088"
+          }
+        },
+        {
+          "name": "高圧ガス工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4097"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "paint_ink",
+      "role": "塗料・インキ・接着",
+      "layer": "category",
+      "description": "建築・自動車・パッケージ向け。日本ペイントはM&Aでアジア首位級に。",
+      "map": {
+        "ring": 1,
+        "angle": 140
+      },
+      "related_industry": "automotive",
+      "companies": [
+        {
+          "name": "日本ペイントホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4612"
+          }
+        },
+        {
+          "name": "関西ペイント",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4613"
+          }
+        },
+        {
+          "name": "DIC",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4631"
+          }
+        },
+        {
+          "name": "サカタインクス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4633"
+          }
+        },
+        {
+          "name": "artience",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4634"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "toiletries_cosmetics",
+      "role": "トイレタリー・化粧品",
+      "layer": "category",
+      "description": "日用品と化粧品。インバウンドと中国市場が業績を左右する消費財チーム。",
+      "map": {
+        "ring": 1,
+        "angle": 185
+      },
+      "related_industry": "retail",
+      "companies": [
+        {
+          "name": "花王",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4452"
+          }
+        },
+        {
+          "name": "資生堂",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4911"
+          }
+        },
+        {
+          "name": "ポーラ・オルビスホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4927"
+          }
+        },
+        {
+          "name": "ライオン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4912"
+          }
+        },
+        {
+          "name": "ユニ・チャーム",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8113"
+          }
+        },
+        {
+          "name": "小林製薬",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4967"
+          }
+        },
+        {
+          "name": "アース製薬",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4985"
+          }
+        },
+        {
+          "name": "ロート製薬",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4527"
+          }
+        },
+        {
+          "name": "コーセーホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4922"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "films_fibers",
+      "role": "フィルム・繊維・高機能材",
+      "layer": "category",
+      "description": "炭素繊維・光学フィルム・水処理膜。軽くて強い素材で世界を獲る領域。",
+      "map": {
+        "ring": 1,
+        "angle": 230
+      },
+      "companies": [
+        {
+          "name": "東レ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3402"
+          }
+        },
+        {
+          "name": "帝人",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3401"
+          }
+        },
+        {
+          "name": "クラレ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3405"
+          }
+        },
+        {
+          "name": "日東電工",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6988"
+          }
+        },
+        {
+          "name": "積水化学工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4204"
+          }
+        },
+        {
+          "name": "東洋紡",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3101"
+          }
+        },
+        {
+          "name": "グンゼ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3002"
+          }
+        },
+        {
+          "name": "セーレン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3569"
+          }
+        },
+        {
+          "name": "コニシ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4956"
+          }
+        },
+        {
+          "name": "積水樹脂",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4212"
+          }
+        },
+        {
+          "name": "ユニチカ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3103"
+          }
+        },
+        {
+          "name": "倉敷紡績",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3106"
+          }
+        },
+        {
+          "name": "富士紡ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3104"
+          }
+        },
+        {
+          "name": "シキボウ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3109"
+          }
+        },
+        {
+          "name": "日本毛織",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3201"
+          }
+        },
+        {
+          "name": "小松マテーレ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3580"
+          }
+        },
+        {
+          "name": "帝国繊維",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3302"
+          }
+        },
+        {
+          "name": "ダイドーリミテッド",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3205"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "agchem_fine",
+      "role": "農薬・ファインケミカル",
+      "layer": "category",
+      "description": "農薬・香料・触媒など少量高付加価値のニッチ強者たち。",
+      "map": {
+        "ring": 1,
+        "angle": 275
+      },
+      "related_industry": "food",
+      "companies": [
+        {
+          "name": "クミアイ化学工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4996"
+          }
+        },
+        {
+          "name": "日本農薬",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4997"
+          }
+        },
+        {
+          "name": "高砂香料工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4914"
+          }
+        },
+        {
+          "name": "長谷川香料",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4958"
+          }
+        },
+        {
+          "name": "ユシロ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5013"
+          },
+          "note": "切削油"
+        },
+        {
+          "name": "MORESCO",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5018"
+          },
+          "note": "特殊潤滑油"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "oil_refinery",
+      "role": "石油・基礎原料",
+      "layer": "category",
+      "description": "ナフサ以前の川上。元売はエネルギーマップにも登場する。",
+      "map": {
+        "ring": 1,
+        "angle": 320
+      },
+      "companies": [
+        {
+          "name": "出光興産",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5019"
+          }
+        },
+        {
+          "name": "コスモエネルギーホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5021"
+          }
+        },
+        {
+          "name": "三洋化成工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4471"
+          }
+        },
+        {
+          "name": "ENEOSホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5020"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ],
+  "edges": []
+}

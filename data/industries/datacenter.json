@@ -241,15 +241,13 @@
           "url": "https://www.nttdata.com/global/ja/",
           "financials": {
             "revenue_oku_jpy": 44000,
-            "market_cap_oku_jpy": 40000,
             "as_of": "2025",
             "note": "NTTデータグループ連結・概算"
           },
           "hq": "東京都江東区",
           "employees": 195000,
           "listing": {
-            "market": "東証プライム(NTTデータグループ)",
-            "code": "9613"
+            "market": "非上場(NTT完全子会社)"
           }
         },
         {
@@ -281,15 +279,20 @@
           "url": "https://www.scsk.jp/",
           "financials": {
             "revenue_oku_jpy": 4900,
-            "market_cap_oku_jpy": 12000,
             "as_of": "2025",
             "note": "概算。IR確定値へ差し替え予定"
           },
           "hq": "東京都江東区",
           "employees": 16000,
           "listing": {
+            "market": "非上場(住友商事傘下)"
+          }
+        },
+        {
+          "name": "大塚商会",
+          "listing": {
             "market": "東証プライム",
-            "code": "9719"
+            "code": "4768"
           }
         }
       ],

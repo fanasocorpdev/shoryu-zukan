@@ -143,6 +143,27 @@
             "as_of": "2025",
             "note": "概算"
           }
+        },
+        {
+          "name": "ゆうちょ銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7182"
+          }
+        },
+        {
+          "name": "あおぞら銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8304"
+          }
+        },
+        {
+          "name": "SBI新生銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8303"
+          }
         }
       ],
       "sources": [
@@ -232,6 +253,468 @@
             "as_of": "2025",
             "note": "概算"
           }
+        },
+        {
+          "name": "めぶきフィナンシャルグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7167"
+          }
+        },
+        {
+          "name": "しずおかフィナンシャルグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5831"
+          }
+        },
+        {
+          "name": "京都フィナンシャルグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5844"
+          }
+        },
+        {
+          "name": "群馬銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8334"
+          }
+        },
+        {
+          "name": "七十七銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8341"
+          }
+        },
+        {
+          "name": "ひろぎんホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7337"
+          }
+        },
+        {
+          "name": "山口フィナンシャルグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8418"
+          }
+        },
+        {
+          "name": "西日本フィナンシャルホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7189"
+          }
+        },
+        {
+          "name": "九州フィナンシャルグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7180"
+          }
+        },
+        {
+          "name": "十六フィナンシャルグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7380"
+          }
+        },
+        {
+          "name": "名古屋銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8522"
+          }
+        },
+        {
+          "name": "あいちフィナンシャルグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7389"
+          }
+        },
+        {
+          "name": "百五銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8368"
+          }
+        },
+        {
+          "name": "百十四銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8386"
+          }
+        },
+        {
+          "name": "いよぎんホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5830"
+          }
+        },
+        {
+          "name": "四国銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8387"
+          }
+        },
+        {
+          "name": "阿波銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8388"
+          }
+        },
+        {
+          "name": "大垣共立銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8361"
+          }
+        },
+        {
+          "name": "スルガ銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8358"
+          }
+        },
+        {
+          "name": "山梨中央銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8360"
+          }
+        },
+        {
+          "name": "東邦銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8346"
+          }
+        },
+        {
+          "name": "秋田銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8343"
+          }
+        },
+        {
+          "name": "岩手銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8345"
+          }
+        },
+        {
+          "name": "プロクレアホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7384"
+          }
+        },
+        {
+          "name": "北日本銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8551"
+          }
+        },
+        {
+          "name": "山形銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8344"
+          }
+        },
+        {
+          "name": "フィデアホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8713"
+          }
+        },
+        {
+          "name": "東北銀行",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8349"
+          }
+        },
+        {
+          "name": "ほくほくフィナンシャルグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8377"
+          }
+        },
+        {
+          "name": "福井銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8362"
+          }
+        },
+        {
+          "name": "京葉銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8544"
+          }
+        },
+        {
+          "name": "千葉興業銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8337"
+          }
+        },
+        {
+          "name": "武蔵野銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8336"
+          }
+        },
+        {
+          "name": "東京きらぼしフィナンシャルグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7173"
+          }
+        },
+        {
+          "name": "第四北越フィナンシャルグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7327"
+          }
+        },
+        {
+          "name": "大光銀行",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8537"
+          }
+        },
+        {
+          "name": "東和銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8558"
+          }
+        },
+        {
+          "name": "栃木銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8550"
+          }
+        },
+        {
+          "name": "筑波銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8338"
+          }
+        },
+        {
+          "name": "滋賀銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8366"
+          }
+        },
+        {
+          "name": "南都銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8367"
+          }
+        },
+        {
+          "name": "紀陽銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8370"
+          }
+        },
+        {
+          "name": "池田泉州ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8714"
+          }
+        },
+        {
+          "name": "鳥取銀行",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8383"
+          }
+        },
+        {
+          "name": "山陰合同銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8381"
+          }
+        },
+        {
+          "name": "トマト銀行",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8542"
+          }
+        },
+        {
+          "name": "高知銀行",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8416"
+          }
+        },
+        {
+          "name": "大分銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8392"
+          }
+        },
+        {
+          "name": "宮崎銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8393"
+          }
+        },
+        {
+          "name": "琉球銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8399"
+          }
+        },
+        {
+          "name": "佐賀銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8395"
+          }
+        },
+        {
+          "name": "清水銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8364"
+          }
+        },
+        {
+          "name": "おきなわフィナンシャルグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7350"
+          }
+        },
+        {
+          "name": "ちゅうぎんフィナンシャルグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5832"
+          }
+        },
+        {
+          "name": "八十二長野銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8359"
+          }
+        },
+        {
+          "name": "島根銀行",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7150"
+          }
+        },
+        {
+          "name": "じもとホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7161"
+          }
+        },
+        {
+          "name": "富山第一銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7184"
+          }
+        },
+        {
+          "name": "三十三フィナンシャルグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7322"
+          }
+        },
+        {
+          "name": "CCIグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7381"
+          }
+        },
+        {
+          "name": "富山銀行",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8365"
+          }
+        },
+        {
+          "name": "北洋銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8524"
+          }
+        },
+        {
+          "name": "愛媛銀行",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8541"
+          }
+        },
+        {
+          "name": "福島銀行",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8562"
+          }
+        },
+        {
+          "name": "大東銀行",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8563"
+          }
+        },
+        {
+          "name": "トモニホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8600"
+          }
         }
       ],
       "updated": "2026-07-23"
@@ -267,11 +750,9 @@
           "hq": "東京都港区",
           "employees": 700,
           "listing": {
-            "market": "東証プライム",
-            "code": "7163"
+            "market": "非上場(上場廃止)"
           },
           "financials": {
-            "market_cap_oku_jpy": 5000,
             "as_of": "2025",
             "note": "概算"
           }
@@ -368,6 +849,118 @@
           "listing": {
             "market": "非上場(楽天グループ傘下)"
           }
+        },
+        {
+          "name": "松井証券",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8628"
+          }
+        },
+        {
+          "name": "マネックスグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8698"
+          }
+        },
+        {
+          "name": "岡三証券グループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8609"
+          }
+        },
+        {
+          "name": "東海東京フィナンシャル・ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8616"
+          }
+        },
+        {
+          "name": "丸三証券",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8613"
+          }
+        },
+        {
+          "name": "岩井コスモホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8707"
+          }
+        },
+        {
+          "name": "極東証券",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8706"
+          }
+        },
+        {
+          "name": "東洋証券",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8614"
+          }
+        },
+        {
+          "name": "水戸証券",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8622"
+          }
+        },
+        {
+          "name": "いちよし証券",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8624"
+          }
+        },
+        {
+          "name": "丸八証券",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8700"
+          }
+        },
+        {
+          "name": "今村証券",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7175"
+          }
+        },
+        {
+          "name": "アイザワ証券グループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8708"
+          }
+        },
+        {
+          "name": "光世証券",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8617"
+          }
+        },
+        {
+          "name": "GMOフィナンシャルホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7177"
+          }
+        },
+        {
+          "name": "ヒロセ通商",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7185"
+          }
         }
       ],
       "updated": "2026-07-23"
@@ -403,6 +996,41 @@
           "hq": "東京都千代田区",
           "listing": {
             "market": "非上場(みずほFG系)"
+          }
+        },
+        {
+          "name": "スパークス・グループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8739"
+          }
+        },
+        {
+          "name": "ジャフコ グループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8595"
+          }
+        },
+        {
+          "name": "インテグラル",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5842"
+          }
+        },
+        {
+          "name": "マーキュリアホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7347"
+          }
+        },
+        {
+          "name": "FPG",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7148"
           }
         }
       ],
@@ -457,6 +1085,73 @@
           "listing": {
             "market": "非上場(相互会社)"
           }
+        },
+        {
+          "name": "T&Dホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8795"
+          }
+        },
+        {
+          "name": "かんぽ生命保険",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7181"
+          }
+        },
+        {
+          "name": "ライフネット生命保険",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7157"
+          }
+        },
+        {
+          "name": "アニコム ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8715"
+          },
+          "note": "ペット保険"
+        },
+        {
+          "name": "ソニーフィナンシャルグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8729"
+          }
+        },
+        {
+          "name": "SBIインシュアランスグループ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7326"
+          }
+        },
+        {
+          "name": "FPパートナー",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7388"
+          },
+          "note": "保険代理店"
+        },
+        {
+          "name": "アドバンスクリエイト",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8798"
+          },
+          "note": "保険代理店"
+        },
+        {
+          "name": "ブロードマインド",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7343"
+          },
+          "note": "保険代理店"
         }
       ],
       "updated": "2026-07-23"
@@ -528,6 +1223,208 @@
           "hq": "東京都千代田区",
           "listing": {
             "market": "認可法人"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "lease_credit",
+      "role": "リース・クレジット・ノンバンク",
+      "layer": "regional",
+      "description": "設備リース・割賦・カードローン。銀行融資と並ぶもう一つの与信チャネル。",
+      "map": {
+        "ring": 2,
+        "angle": 60
+      },
+      "companies": [
+        {
+          "name": "オリックス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8591"
+          }
+        },
+        {
+          "name": "三菱HCキャピタル",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8593"
+          }
+        },
+        {
+          "name": "東京センチュリー",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8439"
+          }
+        },
+        {
+          "name": "芙蓉総合リース",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8424"
+          }
+        },
+        {
+          "name": "みずほリース",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8425"
+          }
+        },
+        {
+          "name": "リコーリース",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8566"
+          }
+        },
+        {
+          "name": "クレディセゾン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8253"
+          }
+        },
+        {
+          "name": "アコム",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8572"
+          }
+        },
+        {
+          "name": "ジャックス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8584"
+          }
+        },
+        {
+          "name": "イオンフィナンシャルサービス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8570"
+          }
+        },
+        {
+          "name": "オリエントコーポレーション",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8585"
+          }
+        },
+        {
+          "name": "全国保証",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7164"
+          }
+        },
+        {
+          "name": "プレミアグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7199"
+          }
+        },
+        {
+          "name": "日本証券金融",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8511"
+          },
+          "note": "証券金融"
+        },
+        {
+          "name": "NECキャピタルソリューション",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8793"
+          }
+        },
+        {
+          "name": "九州リースサービス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8596"
+          }
+        },
+        {
+          "name": "Jトラスト",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8508"
+          }
+        },
+        {
+          "name": "ジェイリース",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7187"
+          }
+        },
+        {
+          "name": "イントラスト",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7191"
+          }
+        },
+        {
+          "name": "全保連",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5845"
+          }
+        },
+        {
+          "name": "あんしん保証",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7183"
+          }
+        },
+        {
+          "name": "イー・ギャランティ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8771"
+          }
+        },
+        {
+          "name": "SBIアルヒ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7198"
+          }
+        },
+        {
+          "name": "ネットプロテクションズホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7383"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "exchange",
+      "role": "取引所・清算機関",
+      "layer": "securities",
+      "description": "株式・デリバティブ市場の運営インフラ。証券会社から取引参加料を得る。",
+      "map": {
+        "ring": 2,
+        "angle": 105
+      },
+      "companies": [
+        {
+          "name": "日本取引所グループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8697"
           }
         }
       ],
@@ -827,6 +1724,64 @@
         }
       ],
       "updated": "2026-07-23"
+    },
+    {
+      "updated": "2026-07-23",
+      "id": "capex_lease_borrower",
+      "from": "lease_credit",
+      "to": "borrower",
+      "flow_type": "capex",
+      "label": "リース・割賦・ローンの供与",
+      "sources": [
+        {
+          "url": "https://www.orix.co.jp/",
+          "publisher": "オリックス",
+          "note": "業界一般構造"
+        }
+      ]
+    },
+    {
+      "updated": "2026-07-23",
+      "id": "opex_borrower_lease",
+      "from": "borrower",
+      "to": "lease_credit",
+      "flow_type": "opex",
+      "label": "リース料・分割返済",
+      "sources": [
+        {
+          "url": "https://www.orix.co.jp/",
+          "publisher": "オリックス",
+          "note": "業界一般構造"
+        }
+      ]
+    },
+    {
+      "updated": "2026-07-23",
+      "id": "opex_securities_exchange",
+      "from": "securities",
+      "to": "exchange",
+      "flow_type": "opex",
+      "label": "取引参加料・清算手数料",
+      "sources": [
+        {
+          "url": "https://www.jpx.co.jp/",
+          "publisher": "日本取引所グループ"
+        }
+      ]
+    },
+    {
+      "updated": "2026-07-23",
+      "id": "goods_exchange_securities",
+      "from": "exchange",
+      "to": "securities",
+      "flow_type": "goods",
+      "label": "取引所インフラの提供",
+      "sources": [
+        {
+          "url": "https://www.jpx.co.jp/",
+          "publisher": "日本取引所グループ"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,504 @@
+{
+  "$schema": "../schema.json",
+  "meta": {
+    "industry_id": "real_estate",
+    "industry_name": "不動産",
+    "version": "0.1.0",
+    "updated": "2026-07-23",
+    "map_style": "category",
+    "description": "不動産業界。総合デベロッパーから分譲・流通・管理・不動産テックまでの分類カオスマップ。建設マップ・データセンターマップと直結。",
+    "tagline": "都心再開発・タワマン・データセンター用地 — 土地に流れ込むマネー",
+    "editorial_note": "v1は公開情報ベース。分類は編集部整理。J-REITは市場区分が異なるため本マップの対象外(将来追加)。上場情報はJPX上場銘柄一覧(2026-06)と突合済み。"
+  },
+  "layers": [
+    {
+      "id": "user",
+      "label": "入居者・購入者",
+      "order": 1,
+      "icon": "🧑",
+      "description": "住む人・借りる企業"
+    },
+    {
+      "id": "category",
+      "label": "事業モデル",
+      "order": 2,
+      "icon": "🏙️",
+      "description": "事業モデル別の分類"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "user",
+      "role": "入居者・購入者(個人・企業)",
+      "layer": "user",
+      "description": "家賃・分譲代金・オフィス賃料の払い手。住宅ローン金利が需要を左右する。",
+      "map": {
+        "ring": 0,
+        "angle": 0
+      },
+      "note": "需要側は個別掲載しない。住宅ローンは銀行マップ参照",
+      "companies": [],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "developer",
+      "role": "総合デベロッパー",
+      "layer": "category",
+      "description": "オフィス・商業・住宅の複合開発。都心再開発とデータセンター用地で存在感。",
+      "map": {
+        "ring": 1,
+        "angle": 0
+      },
+      "related_industry": "datacenter",
+      "companies": [
+        {
+          "name": "三井不動産",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8801"
+          }
+        },
+        {
+          "name": "三菱地所",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8802"
+          }
+        },
+        {
+          "name": "住友不動産",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8830"
+          }
+        },
+        {
+          "name": "東急不動産ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3289"
+          }
+        },
+        {
+          "name": "野村不動産ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3231"
+          }
+        },
+        {
+          "name": "ヒューリック",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3003"
+          }
+        },
+        {
+          "name": "東京建物",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8804"
+          }
+        },
+        {
+          "name": "平和不動産",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8803"
+          }
+        },
+        {
+          "name": "いちご",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2337"
+          }
+        },
+        {
+          "name": "京阪神ビルディング",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8818"
+          },
+          "note": "データセンター向け不動産"
+        },
+        {
+          "name": "空港施設",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8864"
+          }
+        },
+        {
+          "name": "テーオーシー",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8841"
+          }
+        },
+        {
+          "name": "地主",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3252"
+          },
+          "note": "底地特化"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "condo_developer",
+      "role": "マンション・戸建分譲",
+      "layer": "category",
+      "description": "タワマン価格の高騰が続く分譲市場。パワービルダーは価格訴求で対抗。",
+      "map": {
+        "ring": 1,
+        "angle": 60
+      },
+      "related_industry": "construction",
+      "companies": [
+        {
+          "name": "オープンハウスグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3288"
+          }
+        },
+        {
+          "name": "飯田グループホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3291"
+          }
+        },
+        {
+          "name": "コスモスイニシア",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8844"
+          }
+        },
+        {
+          "name": "サンフロンティア不動産",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8934"
+          }
+        },
+        {
+          "name": "エスリード",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8877"
+          }
+        },
+        {
+          "name": "カチタス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8919"
+          },
+          "note": "中古住宅再生"
+        },
+        {
+          "name": "トーセイ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8923"
+          }
+        },
+        {
+          "name": "フージャースホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3284"
+          }
+        },
+        {
+          "name": "ゴールドクレスト",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8871"
+          }
+        },
+        {
+          "name": "明和地所",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8869"
+          }
+        },
+        {
+          "name": "エスコン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8892"
+          }
+        },
+        {
+          "name": "MIRARTHホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8897"
+          }
+        },
+        {
+          "name": "グランディハウス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8999"
+          }
+        },
+        {
+          "name": "ファースト住建",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8917"
+          }
+        },
+        {
+          "name": "フジ住宅",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8860"
+          }
+        },
+        {
+          "name": "穴吹興産",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8928"
+          }
+        },
+        {
+          "name": "ケイアイスター不動産",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3465"
+          }
+        },
+        {
+          "name": "サンヨーホームズ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "1420"
+          }
+        },
+        {
+          "name": "スター・マイカ・ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2975"
+          }
+        },
+        {
+          "name": "ムゲンエステート",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3299"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "brokerage_tech",
+      "role": "流通・仲介・不動産テック",
+      "layer": "category",
+      "description": "売買仲介とネット化の主戦場。中古流通の活性化が政策テーマ。",
+      "map": {
+        "ring": 1,
+        "angle": 130
+      },
+      "related_industry": "it_services",
+      "companies": [
+        {
+          "name": "GA technologies",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3491"
+          }
+        },
+        {
+          "name": "LIFULL",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2120"
+          }
+        },
+        {
+          "name": "センチュリー21・ジャパン",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8898"
+          }
+        },
+        {
+          "name": "And Doホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3457"
+          }
+        },
+        {
+          "name": "ツクルバ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "2978"
+          }
+        },
+        {
+          "name": "SREホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2980"
+          }
+        },
+        {
+          "name": "クリアル",
+          "listing": {
+            "market": "東証グロース",
+            "code": "2998"
+          },
+          "note": "不動産クラファン"
+        },
+        {
+          "name": "ロードスターキャピタル",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3482"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "property_mgmt",
+      "role": "管理・賃貸運営",
+      "layer": "category",
+      "description": "マンション管理・賃貸管理のストックビジネス。管理員不足が業界課題。",
+      "map": {
+        "ring": 1,
+        "angle": 200
+      },
+      "companies": [
+        {
+          "name": "レオパレス21",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8848"
+          }
+        },
+        {
+          "name": "大東建託",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1878"
+          }
+        },
+        {
+          "name": "東建コーポレーション",
+          "listing": {
+            "market": "東証プライム",
+            "code": "1766"
+          }
+        },
+        {
+          "name": "スターツコーポレーション",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8850"
+          }
+        },
+        {
+          "name": "ジェイ・エス・ビー",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3480"
+          }
+        },
+        {
+          "name": "TKP",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3479"
+          },
+          "note": "貸会議室"
+        },
+        {
+          "name": "エリアリンク",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8914"
+          },
+          "note": "ストレージ"
+        },
+        {
+          "name": "パルマ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3461"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "logistics_industrial",
+      "role": "物流施設・産業不動産",
+      "layer": "category",
+      "description": "EC向け物流倉庫とデータセンター用地。海外マネーの流入が最も太い領域。",
+      "map": {
+        "ring": 1,
+        "angle": 270
+      },
+      "related_industry": "datacenter",
+      "companies": [
+        {
+          "name": "霞ヶ関キャピタル",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3498"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "parking",
+      "role": "駐車場・モビリティ不動産",
+      "layer": "category",
+      "description": "遊休地を収益化する駐車場ビジネス。カーシェアの basecamp でもある。",
+      "map": {
+        "ring": 2,
+        "angle": 320
+      },
+      "companies": [
+        {
+          "name": "パーク24",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4666"
+          }
+        },
+        {
+          "name": "日本駐車場開発",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2353"
+          }
+        },
+        {
+          "name": "パラカ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4809"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ],
+  "edges": []
+}

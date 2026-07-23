@@ -231,6 +231,41 @@
       "companies": [
         {
           "name": "全国のメーカー系列販売会社"
+        },
+        {
+          "name": "VTホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7593"
+          }
+        },
+        {
+          "name": "ウイルプラスホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3538"
+          }
+        },
+        {
+          "name": "日産東京販売ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8291"
+          }
+        },
+        {
+          "name": "ケーユーホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9856"
+          }
+        },
+        {
+          "name": "ICDAホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3184"
+          }
         }
       ],
       "note": "実名は自己登録ベースで拡充予定",
@@ -291,6 +326,14 @@
             "market": "東証プライム",
             "code": "3186"
           }
+        },
+        {
+          "name": "オプティマスグループ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9268"
+          },
+          "note": "中古車輸出"
         }
       ],
       "updated": "2026-07-23"
@@ -401,8 +444,7 @@
           "hq": "愛知県刈谷市",
           "employees": 75000,
           "listing": {
-            "market": "東証プライム",
-            "code": "6201"
+            "market": "非公開化(トヨタグループ)"
           }
         },
         {
@@ -849,6 +891,167 @@
         }
       ],
       "updated": "2026-07-23"
+    },
+    {
+      "id": "motorcycle",
+      "role": "二輪メーカー",
+      "layer": "oem",
+      "description": "国内4社で世界シェアの約半分。新興国の生活の足とプレミアムバイクの二本柱。",
+      "map": {
+        "ring": 2,
+        "angle": 350
+      },
+      "note": "ホンダ・スズキ・カワサキ(川崎重工業)は四輪・重工側にも掲載",
+      "companies": [
+        {
+          "name": "ヤマハ発動機",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7272"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "truck_bus",
+      "role": "トラック・商用車メーカー",
+      "layer": "oem",
+      "description": "物流を支える商用車。電動化・自動運転の実装は乗用車より速い可能性。",
+      "map": {
+        "ring": 2,
+        "angle": 335
+      },
+      "companies": [
+        {
+          "name": "いすゞ自動車",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7202"
+          }
+        },
+        {
+          "name": "ARCHION",
+          "listing": {
+            "market": "東証プライム",
+            "code": "543A"
+          },
+          "note": "日野自動車と三菱ふそうの統合会社"
+        },
+        {
+          "name": "日産車体",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7222"
+          }
+        },
+        {
+          "name": "新明和工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7224"
+          }
+        },
+        {
+          "name": "極東開発工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7226"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "aftermarket",
+      "role": "アフターパーツ・カー用品",
+      "layer": "sales",
+      "description": "ホイール・サス・カーナビ・バイク用品。クルマ趣味の経済圏。",
+      "map": {
+        "ring": 2,
+        "angle": 65
+      },
+      "companies": [
+        {
+          "name": "カーメイト",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7297"
+          }
+        },
+        {
+          "name": "デイトナ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7228"
+          }
+        },
+        {
+          "name": "ウェッズ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7551"
+          }
+        },
+        {
+          "name": "エッチ・ケー・エス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7219"
+          }
+        },
+        {
+          "name": "テイン",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7217"
+          }
+        },
+        {
+          "name": "オートバックスセブン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9832"
+          }
+        },
+        {
+          "name": "イエローハット",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9882"
+          }
+        },
+        {
+          "name": "アップガレージグループ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7134"
+          }
+        },
+        {
+          "name": "中央自動車工業",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8117"
+          }
+        },
+        {
+          "name": "バイク王&カンパニー",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3377"
+          }
+        },
+        {
+          "name": "KeePer技研",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6036"
+          },
+          "note": "コーティング"
+        }
+      ],
+      "updated": "2026-07-23"
     }
   ],
   "edges": [
@@ -1262,6 +1465,96 @@
         }
       ],
       "updated": "2026-07-23"
+    },
+    {
+      "updated": "2026-07-23",
+      "id": "capex_consumer_moto",
+      "from": "consumer",
+      "to": "motorcycle",
+      "flow_type": "capex",
+      "label": "二輪車の購入代金",
+      "sources": [
+        {
+          "url": "https://www.jama.or.jp/",
+          "publisher": "日本自動車工業会",
+          "note": "業界一般構造"
+        }
+      ]
+    },
+    {
+      "updated": "2026-07-23",
+      "id": "goods_moto_consumer",
+      "from": "motorcycle",
+      "to": "consumer",
+      "flow_type": "goods",
+      "label": "二輪車の供給",
+      "sources": [
+        {
+          "url": "https://www.jama.or.jp/",
+          "publisher": "日本自動車工業会",
+          "note": "業界一般構造"
+        }
+      ]
+    },
+    {
+      "updated": "2026-07-23",
+      "id": "goods_truck_consumer",
+      "from": "truck_bus",
+      "to": "consumer",
+      "flow_type": "goods",
+      "label": "商用車の供給",
+      "sources": [
+        {
+          "url": "https://www.jama.or.jp/",
+          "publisher": "日本自動車工業会",
+          "note": "業界一般構造"
+        }
+      ]
+    },
+    {
+      "updated": "2026-07-23",
+      "id": "capex_consumer_truck",
+      "from": "consumer",
+      "to": "truck_bus",
+      "flow_type": "capex",
+      "label": "商用車の購入代金(法人)",
+      "sources": [
+        {
+          "url": "https://www.jama.or.jp/",
+          "publisher": "日本自動車工業会",
+          "note": "業界一般構造"
+        }
+      ]
+    },
+    {
+      "updated": "2026-07-23",
+      "id": "goods_after_consumer",
+      "from": "aftermarket",
+      "to": "consumer",
+      "flow_type": "goods",
+      "label": "用品・カスタムパーツの供給",
+      "sources": [
+        {
+          "url": "https://www.jama.or.jp/",
+          "publisher": "日本自動車工業会",
+          "note": "業界一般構造"
+        }
+      ]
+    },
+    {
+      "updated": "2026-07-23",
+      "id": "opex_consumer_after",
+      "from": "consumer",
+      "to": "aftermarket",
+      "flow_type": "opex",
+      "label": "用品の購入代金",
+      "sources": [
+        {
+          "url": "https://www.jama.or.jp/",
+          "publisher": "日本自動車工業会",
+          "note": "業界一般構造"
+        }
+      ]
     }
   ]
 }

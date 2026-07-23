@@ -122,8 +122,7 @@
           "hq": "埼玉県川越市",
           "employees": 20000,
           "listing": {
-            "market": "東証プライム",
-            "code": "8279"
+            "market": "非上場(上場廃止)"
           },
           "financials": {
             "revenue_oku_jpy": 6000,
@@ -143,6 +142,196 @@
             "revenue_oku_jpy": 7000,
             "as_of": "2025",
             "note": "概算"
+          }
+        },
+        {
+          "name": "イズミ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8273"
+          }
+        },
+        {
+          "name": "バローホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9956"
+          }
+        },
+        {
+          "name": "ベルク",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9974"
+          }
+        },
+        {
+          "name": "ハローズ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2742"
+          }
+        },
+        {
+          "name": "アクシアル リテイリング",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8255"
+          }
+        },
+        {
+          "name": "平和堂",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8276"
+          }
+        },
+        {
+          "name": "フジ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8278"
+          }
+        },
+        {
+          "name": "オークワ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8217"
+          }
+        },
+        {
+          "name": "アークス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9948"
+          }
+        },
+        {
+          "name": "ヤマザワ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9993"
+          }
+        },
+        {
+          "name": "エコス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7520"
+          }
+        },
+        {
+          "name": "ダイイチ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7643"
+          }
+        },
+        {
+          "name": "マミーマートホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9823"
+          }
+        },
+        {
+          "name": "マックスバリュ東海",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8198"
+          }
+        },
+        {
+          "name": "リテールパートナーズ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8167"
+          }
+        },
+        {
+          "name": "ユナイテッド・スーパーマーケット・ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3222"
+          }
+        },
+        {
+          "name": "大黒天物産",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2791"
+          }
+        },
+        {
+          "name": "アルビス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7475"
+          }
+        },
+        {
+          "name": "サンエー",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2659"
+          }
+        },
+        {
+          "name": "イオン九州",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2653"
+          }
+        },
+        {
+          "name": "イオン北海道",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7512"
+          }
+        },
+        {
+          "name": "天満屋ストア",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9846"
+          }
+        },
+        {
+          "name": "北雄ラッキー",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2747"
+          }
+        },
+        {
+          "name": "マルヨシセンター",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7515"
+          }
+        },
+        {
+          "name": "オーシャンシステム",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3096"
+          }
+        },
+        {
+          "name": "神戸物産",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3038"
+          },
+          "note": "業務スーパー"
+        },
+        {
+          "name": "魚力",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7596"
           }
         }
       ],
@@ -203,6 +392,55 @@
             "revenue_oku_jpy": 7000,
             "as_of": "2025",
             "note": "概算"
+          }
+        },
+        {
+          "name": "丸井グループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8252"
+          }
+        },
+        {
+          "name": "近鉄百貨店",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8244"
+          }
+        },
+        {
+          "name": "J.フロント リテイリング",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3086"
+          }
+        },
+        {
+          "name": "松屋",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8237"
+          }
+        },
+        {
+          "name": "井筒屋",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8260"
+          }
+        },
+        {
+          "name": "大和",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8247"
+          }
+        },
+        {
+          "name": "さいか屋",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8254"
           }
         }
       ],
@@ -334,6 +572,62 @@
             "as_of": "2025",
             "note": "概算"
           }
+        },
+        {
+          "name": "セリア",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2782"
+          }
+        },
+        {
+          "name": "ワッツ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2735"
+          }
+        },
+        {
+          "name": "ワークマン",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7564"
+          }
+        },
+        {
+          "name": "アルペン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3028"
+          }
+        },
+        {
+          "name": "ゼビオホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8281"
+          }
+        },
+        {
+          "name": "ヒマラヤ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7514"
+          }
+        },
+        {
+          "name": "あさひ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3333"
+          }
+        },
+        {
+          "name": "DAIWA CYCLE",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5888"
+          }
         }
       ],
       "updated": "2026-07-23"
@@ -439,8 +733,7 @@
           "hq": "東京都文京区",
           "employees": 4000,
           "listing": {
-            "market": "東証スタンダード",
-            "code": "7451"
+            "market": "非上場(三菱商事傘下)"
           },
           "financials": {
             "revenue_oku_jpy": 20000,
@@ -476,12 +769,10 @@
           "hq": "千葉市美浜区",
           "employees": 5000,
           "listing": {
-            "market": "東証プライム(イオン傘下)",
-            "code": "8905"
+            "market": "非上場(イオン完全子会社)"
           },
           "financials": {
             "revenue_oku_jpy": 4500,
-            "market_cap_oku_jpy": 8000,
             "as_of": "2025",
             "note": "概算"
           }
@@ -607,6 +898,618 @@
           "listing": {
             "market": "非上場(日本郵政傘下)",
             "code": "6178"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "consumer_electronics",
+      "role": "家電量販",
+      "layer": "store",
+      "description": "家電・スマホ・リフォームまで広がる量販店。ポイント経済圏の主要プレイヤー。",
+      "map": {
+        "ring": 2,
+        "angle": 285
+      },
+      "companies": [
+        {
+          "name": "ビックカメラ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3048"
+          }
+        },
+        {
+          "name": "ケーズホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8282"
+          }
+        },
+        {
+          "name": "エディオン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2730"
+          }
+        },
+        {
+          "name": "ノジマ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7419"
+          }
+        },
+        {
+          "name": "コジマ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7513"
+          }
+        },
+        {
+          "name": "Joshin",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8173"
+          }
+        },
+        {
+          "name": "ラオックスホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8202"
+          }
+        },
+        {
+          "name": "アプライド",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3020"
+          }
+        },
+        {
+          "name": "ZOA",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3375"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "home_center",
+      "role": "ホームセンター",
+      "layer": "store",
+      "description": "DIY・園芸・資材。プロ(職人)需要の取り込みが成長軸。",
+      "map": {
+        "ring": 2,
+        "angle": 330
+      },
+      "companies": [
+        {
+          "name": "DCMホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3050"
+          }
+        },
+        {
+          "name": "コーナン商事",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7516"
+          }
+        },
+        {
+          "name": "アークランズ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9842"
+          }
+        },
+        {
+          "name": "コメリ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8218"
+          }
+        },
+        {
+          "name": "ナフコ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2790"
+          }
+        },
+        {
+          "name": "ジョイフル本田",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3191"
+          }
+        },
+        {
+          "name": "綿半ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3199"
+          }
+        },
+        {
+          "name": "PLANT",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7646"
+          }
+        },
+        {
+          "name": "ハンズマン",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7636"
+          }
+        },
+        {
+          "name": "カンセキ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9903"
+          }
+        },
+        {
+          "name": "セキチュー",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9976"
+          }
+        },
+        {
+          "name": "ジュンテンドー",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9835"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "apparel_retail",
+      "role": "アパレル・靴・雑貨小売",
+      "layer": "store",
+      "description": "SPA型と郊外型の二極化。インバウンドの恩恵も大きい。",
+      "map": {
+        "ring": 2,
+        "angle": 30
+      },
+      "companies": [
+        {
+          "name": "しまむら",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8227"
+          }
+        },
+        {
+          "name": "ユナイテッドアローズ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7606"
+          }
+        },
+        {
+          "name": "ハニーズホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2792"
+          }
+        },
+        {
+          "name": "西松屋チェーン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7545"
+          }
+        },
+        {
+          "name": "エービーシー・マート",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2670"
+          }
+        },
+        {
+          "name": "パルグループホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2726"
+          }
+        },
+        {
+          "name": "AOKIホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8214"
+          }
+        },
+        {
+          "name": "青山商事",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8219"
+          }
+        },
+        {
+          "name": "コナカ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7494"
+          }
+        },
+        {
+          "name": "はるやまホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7416"
+          }
+        },
+        {
+          "name": "タカキュー",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8166"
+          }
+        },
+        {
+          "name": "チヨダ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8185"
+          }
+        },
+        {
+          "name": "ジンズホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3046"
+          }
+        },
+        {
+          "name": "愛眼",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9854"
+          }
+        },
+        {
+          "name": "Japan Eyewear Holdings",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5889"
+          }
+        },
+        {
+          "name": "インターメスティック",
+          "listing": {
+            "market": "東証プライム",
+            "code": "262A"
+          },
+          "note": "Zoff"
+        },
+        {
+          "name": "ヨンドシーホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8008"
+          }
+        },
+        {
+          "name": "バロックジャパンリミテッド",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3548"
+          }
+        },
+        {
+          "name": "TOKYO BASE",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3415"
+          }
+        },
+        {
+          "name": "アンドエスティHD",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2685"
+          }
+        },
+        {
+          "name": "コックス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9876"
+          }
+        },
+        {
+          "name": "京都きもの友禅ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7615"
+          }
+        },
+        {
+          "name": "ダブルエー",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7683"
+          }
+        },
+        {
+          "name": "ヒラキ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3059"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "reuse",
+      "role": "リユース・中古",
+      "layer": "store",
+      "description": "物価高と循環経済の追い風で高成長。ブランド品・トレカ・古着が主戦場。",
+      "map": {
+        "ring": 2,
+        "angle": 75
+      },
+      "companies": [
+        {
+          "name": "ゲオホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2681"
+          }
+        },
+        {
+          "name": "ブックオフグループホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9278"
+          }
+        },
+        {
+          "name": "トレジャー・ファクトリー",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3093"
+          }
+        },
+        {
+          "name": "コメ兵ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2780"
+          }
+        },
+        {
+          "name": "ハードオフコーポレーション",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2674"
+          }
+        },
+        {
+          "name": "買取王国",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3181"
+          }
+        },
+        {
+          "name": "テイツー",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7610"
+          }
+        },
+        {
+          "name": "まんだらけ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2652"
+          }
+        },
+        {
+          "name": "大黒屋ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6993"
+          }
+        },
+        {
+          "name": "シュッピン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3179"
+          }
+        },
+        {
+          "name": "ヴィレッジヴァンガードコーポレーション",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2769"
+          }
+        },
+        {
+          "name": "三洋堂ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3058"
+          }
+        },
+        {
+          "name": "トップカルチャー",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7640"
+          }
+        },
+        {
+          "name": "文教堂グループホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9978"
+          }
+        },
+        {
+          "name": "丸善CHIホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3159"
+          }
+        },
+        {
+          "name": "BuySell Technologies",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7685"
+          }
+        },
+        {
+          "name": "バリュエンスホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9270"
+          }
+        },
+        {
+          "name": "リネットジャパングループ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3556"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "mail_order",
+      "role": "通販・専門EC",
+      "layer": "store",
+      "description": "BtoB通販(MRO)から食品宅配まで。物流網が競争力の源泉。",
+      "map": {
+        "ring": 2,
+        "angle": 120
+      },
+      "companies": [
+        {
+          "name": "アスクル",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2678"
+          }
+        },
+        {
+          "name": "MonotaRO",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3064"
+          }
+        },
+        {
+          "name": "オイシックス・ラ・大地",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3182"
+          }
+        },
+        {
+          "name": "ベルーナ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9997"
+          }
+        },
+        {
+          "name": "スクロール",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8005"
+          }
+        },
+        {
+          "name": "千趣会",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8165"
+          }
+        },
+        {
+          "name": "フェリシモ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3396"
+          }
+        },
+        {
+          "name": "ベガコーポレーション",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3542"
+          }
+        },
+        {
+          "name": "いつも",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7694"
+          }
+        },
+        {
+          "name": "ティーライフ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3172"
+          }
+        },
+        {
+          "name": "ハルメクホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7119"
+          }
+        },
+        {
+          "name": "クラシコム",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7110"
+          }
+        },
+        {
+          "name": "ほぼ日",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3560"
+          }
+        },
+        {
+          "name": "Hamee",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3134"
+          }
+        },
+        {
+          "name": "シルバーライフ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9262"
           }
         }
       ],
@@ -867,6 +1770,78 @@
         }
       ],
       "updated": "2026-07-23"
+    },
+    {
+      "updated": "2026-07-23",
+      "id": "opex_consumer_ce",
+      "from": "consumer",
+      "to": "consumer_electronics",
+      "flow_type": "opex",
+      "label": "家電・通信機器の購入代金",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/syoudou/",
+          "publisher": "経済産業省 商業動態統計"
+        }
+      ]
+    },
+    {
+      "updated": "2026-07-23",
+      "id": "opex_consumer_hc",
+      "from": "consumer",
+      "to": "home_center",
+      "flow_type": "opex",
+      "label": "DIY・生活資材の購入代金",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/syoudou/",
+          "publisher": "経済産業省 商業動態統計"
+        }
+      ]
+    },
+    {
+      "updated": "2026-07-23",
+      "id": "opex_consumer_apparel",
+      "from": "consumer",
+      "to": "apparel_retail",
+      "flow_type": "opex",
+      "label": "衣料・靴・雑貨の購入代金",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/syoudou/",
+          "publisher": "経済産業省 商業動態統計"
+        }
+      ]
+    },
+    {
+      "updated": "2026-07-23",
+      "id": "opex_consumer_reuse",
+      "from": "consumer",
+      "to": "reuse",
+      "flow_type": "opex",
+      "label": "中古品の購入代金",
+      "note": "消費者からの買取(逆方向のカネ)も特徴的なフロー",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/syoudou/",
+          "publisher": "経済産業省 商業動態統計",
+          "note": "業界一般構造"
+        }
+      ]
+    },
+    {
+      "updated": "2026-07-23",
+      "id": "opex_consumer_mo",
+      "from": "consumer",
+      "to": "mail_order",
+      "flow_type": "opex",
+      "label": "通販での購入代金",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/syoudou/",
+          "publisher": "経済産業省 商業動態統計"
+        }
+      ]
     }
   ]
 }

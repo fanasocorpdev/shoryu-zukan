@@ -1,0 +1,1360 @@
+{
+  "$schema": "../schema.json",
+  "meta": {
+    "industry_id": "services",
+    "industry_name": "サービス",
+    "version": "0.1.0",
+    "updated": "2026-07-23",
+    "map_style": "category",
+    "description": "サービス業界。人材・広告・教育・レジャー・BPOなど、提供価値のラベルごとに分類するカオスマップ。中央は利用者(個人・企業)。",
+    "tagline": "人手不足の時代に伸びる、人材・BPO・レジャーの人間産業",
+    "editorial_note": "v1は公開情報ベース。分類は編集部整理で、複数領域にまたがる企業は主たる事業で分類。上場情報はJPX上場銘柄一覧(2026-06)と突合済み。"
+  },
+  "layers": [
+    {
+      "id": "user",
+      "label": "利用者",
+      "order": 1,
+      "icon": "🧑",
+      "description": "個人・企業の需要側"
+    },
+    {
+      "id": "category",
+      "label": "サービスカテゴリ",
+      "order": 2,
+      "icon": "🤝",
+      "description": "提供価値別の分類"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "user",
+      "role": "利用者(個人・企業)",
+      "layer": "user",
+      "description": "人手不足と外部化(アウトソーシング)の進行が、この業界全体の追い風。",
+      "map": {
+        "ring": 0,
+        "angle": 0
+      },
+      "note": "需要側は全業界・全世代にまたがるため個別掲載しない",
+      "companies": [],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "hr",
+      "role": "人材(紹介・派遣・求人メディア)",
+      "layer": "category",
+      "description": "構造的な人手不足の最大受益セクター。リクルートは世界的求人プラットフォームに。",
+      "map": {
+        "ring": 1,
+        "angle": 0
+      },
+      "companies": [
+        {
+          "name": "リクルートホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6098"
+          }
+        },
+        {
+          "name": "パーソルホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2181"
+          }
+        },
+        {
+          "name": "パソナグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2168"
+          }
+        },
+        {
+          "name": "ディップ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2379"
+          }
+        },
+        {
+          "name": "UTグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2146"
+          }
+        },
+        {
+          "name": "ウィルグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6089"
+          }
+        },
+        {
+          "name": "タイミー",
+          "listing": {
+            "market": "東証グロース",
+            "code": "215A"
+          }
+        },
+        {
+          "name": "クラウドワークス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3900"
+          }
+        },
+        {
+          "name": "ジェイエイシーリクルートメント",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2124"
+          }
+        },
+        {
+          "name": "メイテックグループホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9744"
+          }
+        },
+        {
+          "name": "エスプール",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2471"
+          }
+        },
+        {
+          "name": "WDBホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2475"
+          }
+        },
+        {
+          "name": "ライク",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2462"
+          }
+        },
+        {
+          "name": "フルキャストホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4848"
+          }
+        },
+        {
+          "name": "ワールドホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2429"
+          }
+        },
+        {
+          "name": "アルプス技研",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4641"
+          }
+        },
+        {
+          "name": "クイック",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4318"
+          }
+        },
+        {
+          "name": "キャリアデザインセンター",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2410"
+          }
+        },
+        {
+          "name": "学情",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2301"
+          }
+        },
+        {
+          "name": "リブセンス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6054"
+          }
+        },
+        {
+          "name": "アトラエ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6194"
+          }
+        },
+        {
+          "name": "エン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4849"
+          },
+          "note": "求人メディア(旧エン・ジャパン)"
+        },
+        {
+          "name": "ギークス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7060"
+          }
+        },
+        {
+          "name": "コプロ・ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7059"
+          }
+        },
+        {
+          "name": "ヒト・コミュニケーションズ・ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4433"
+          }
+        },
+        {
+          "name": "ビースタイルホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "302A"
+          }
+        },
+        {
+          "name": "MS-Japan",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6539"
+          }
+        },
+        {
+          "name": "ギークリー",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "505A"
+          }
+        },
+        {
+          "name": "ジェイック",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7073"
+          }
+        },
+        {
+          "name": "アルトナー",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2163"
+          }
+        },
+        {
+          "name": "nms ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2162"
+          }
+        },
+        {
+          "name": "ウイルテック",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7087"
+          }
+        },
+        {
+          "name": "NISSOホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9332"
+          }
+        },
+        {
+          "name": "キャスター",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9331"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "ad_marketing",
+      "role": "広告・マーケティング",
+      "layer": "category",
+      "description": "総合広告代理店とPR・販促支援。ネット専業はITマップ側に分類。",
+      "map": {
+        "ring": 1,
+        "angle": 45
+      },
+      "related_industry": "it_services",
+      "companies": [
+        {
+          "name": "電通グループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4324"
+          }
+        },
+        {
+          "name": "博報堂DYホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2433"
+          }
+        },
+        {
+          "name": "ベクトル",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6058"
+          }
+        },
+        {
+          "name": "セプテーニ・ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4293"
+          }
+        },
+        {
+          "name": "バリューコマース",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2491"
+          }
+        },
+        {
+          "name": "ファンコミュニケーションズ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2461"
+          }
+        },
+        {
+          "name": "フリークアウト・ホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6094"
+          }
+        },
+        {
+          "name": "ユナイテッド",
+          "listing": {
+            "market": "東証グロース",
+            "code": "2497"
+          }
+        },
+        {
+          "name": "インタースペース",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2122"
+          }
+        },
+        {
+          "name": "オールアバウト",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2454"
+          }
+        },
+        {
+          "name": "アイティメディア",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2148"
+          }
+        },
+        {
+          "name": "イード",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6038"
+          }
+        },
+        {
+          "name": "SMN",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6185"
+          }
+        },
+        {
+          "name": "ジーニー",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6562"
+          }
+        },
+        {
+          "name": "マイクロアド",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9553"
+          }
+        },
+        {
+          "name": "メンバーズ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2130"
+          }
+        },
+        {
+          "name": "トレンダーズ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6069"
+          }
+        },
+        {
+          "name": "Gunosy",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6047"
+          }
+        },
+        {
+          "name": "共同ピーアール",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2436"
+          }
+        },
+        {
+          "name": "プラップジャパン",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2449"
+          }
+        },
+        {
+          "name": "サニーサイドアップグループ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2180"
+          }
+        },
+        {
+          "name": "テー・オー・ダブリュー",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4767"
+          }
+        },
+        {
+          "name": "フロンティアインターナショナル",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7050"
+          }
+        },
+        {
+          "name": "博展",
+          "listing": {
+            "market": "東証グロース",
+            "code": "2173"
+          }
+        },
+        {
+          "name": "乃村工藝社",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9716"
+          }
+        },
+        {
+          "name": "丹青社",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9743"
+          }
+        },
+        {
+          "name": "スペース",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9622"
+          }
+        },
+        {
+          "name": "レイ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4317"
+          }
+        },
+        {
+          "name": "サイネックス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2376"
+          }
+        },
+        {
+          "name": "表示灯",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7368"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "education",
+      "role": "教育・学習支援",
+      "layer": "category",
+      "description": "少子化の逆風下で、リスキリング・海外展開・EdTechに活路。",
+      "map": {
+        "ring": 1,
+        "angle": 90
+      },
+      "companies": [
+        {
+          "name": "学研ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9470"
+          }
+        },
+        {
+          "name": "ナガセ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9733"
+          }
+        },
+        {
+          "name": "早稲田アカデミー",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4718"
+          }
+        },
+        {
+          "name": "ヒューマンホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2415"
+          }
+        },
+        {
+          "name": "ステップ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9795"
+          }
+        },
+        {
+          "name": "リソー教育グループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4714"
+          }
+        },
+        {
+          "name": "KIYOラーニング",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7353"
+          }
+        },
+        {
+          "name": "明光ネットワークジャパン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4668"
+          }
+        },
+        {
+          "name": "京進",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4735"
+          }
+        },
+        {
+          "name": "市進ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4645"
+          }
+        },
+        {
+          "name": "城南進学研究社",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4720"
+          }
+        },
+        {
+          "name": "秀英予備校",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4678"
+          }
+        },
+        {
+          "name": "スプリックス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7030"
+          }
+        },
+        {
+          "name": "学究社",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9769"
+          }
+        },
+        {
+          "name": "昴",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9778"
+          }
+        },
+        {
+          "name": "進学会ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9760"
+          }
+        },
+        {
+          "name": "成学社",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2179"
+          }
+        },
+        {
+          "name": "LITALICO",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7366"
+          }
+        },
+        {
+          "name": "ポピンズ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7358"
+          }
+        },
+        {
+          "name": "JPホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2749"
+          }
+        },
+        {
+          "name": "グローバルキッズCOMPANY",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6189"
+          }
+        },
+        {
+          "name": "インソース",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6200"
+          }
+        },
+        {
+          "name": "プログリット",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9560"
+          }
+        },
+        {
+          "name": "ビズメイツ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9345"
+          }
+        },
+        {
+          "name": "Schoo",
+          "listing": {
+            "market": "東証グロース",
+            "code": "264A"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "leisure_travel",
+      "role": "レジャー・旅行・ホテル",
+      "layer": "category",
+      "description": "インバウンド回復の主戦場。テーマパークとホテルが業績を牽引。",
+      "map": {
+        "ring": 1,
+        "angle": 135
+      },
+      "companies": [
+        {
+          "name": "オリエンタルランド",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4661"
+          }
+        },
+        {
+          "name": "エイチ・アイ・エス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9603"
+          }
+        },
+        {
+          "name": "共立メンテナンス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9616"
+          }
+        },
+        {
+          "name": "リゾートトラスト",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4681"
+          }
+        },
+        {
+          "name": "ラウンドワン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4680"
+          }
+        },
+        {
+          "name": "藤田観光",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9722"
+          }
+        },
+        {
+          "name": "サンリオ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8136"
+          }
+        },
+        {
+          "name": "KNT-CTホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9726"
+          }
+        },
+        {
+          "name": "第一興商",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7458"
+          },
+          "note": "カラオケ"
+        },
+        {
+          "name": "帝国ホテル",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9708"
+          }
+        },
+        {
+          "name": "ロイヤルホテル",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9713"
+          }
+        },
+        {
+          "name": "ワシントンホテル",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4691"
+          }
+        },
+        {
+          "name": "グリーンズ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6547"
+          }
+        },
+        {
+          "name": "リソルホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5261"
+          }
+        },
+        {
+          "name": "東京會舘",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9701"
+          }
+        },
+        {
+          "name": "歌舞伎座",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9661"
+          }
+        },
+        {
+          "name": "東京都競馬",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9672"
+          }
+        },
+        {
+          "name": "グリーンランドリゾート",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9656"
+          }
+        },
+        {
+          "name": "日本スキー場開発",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6040"
+          }
+        },
+        {
+          "name": "ルネサンス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2378"
+          }
+        },
+        {
+          "name": "セントラルスポーツ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4801"
+          }
+        },
+        {
+          "name": "東祥",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8920"
+          }
+        },
+        {
+          "name": "カーブスホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7085"
+          }
+        },
+        {
+          "name": "コシダカホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2157"
+          }
+        },
+        {
+          "name": "イオンファンタジー",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4343"
+          }
+        },
+        {
+          "name": "GENDA",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9166"
+          }
+        },
+        {
+          "name": "エアトリ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6191"
+          }
+        },
+        {
+          "name": "ぴあ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4337"
+          }
+        },
+        {
+          "name": "アドベンチャー",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6030"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "facility",
+      "role": "警備・ビルメンテナンス・清掃",
+      "layer": "category",
+      "description": "施設運営の縁の下。セコム・ALSOKはデータセンターマップにも登場。",
+      "map": {
+        "ring": 1,
+        "angle": 180
+      },
+      "related_industry": "datacenter",
+      "companies": [
+        {
+          "name": "セコム",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9735"
+          }
+        },
+        {
+          "name": "日本管財ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9347"
+          }
+        },
+        {
+          "name": "ダスキン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4665"
+          }
+        },
+        {
+          "name": "ALSOK",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2331"
+          }
+        },
+        {
+          "name": "セントラル警備保障",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9740"
+          }
+        },
+        {
+          "name": "日本空調サービス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4658"
+          }
+        },
+        {
+          "name": "ジャパンエレベーターサービスホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6544"
+          }
+        },
+        {
+          "name": "三機サービス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6044"
+          }
+        },
+        {
+          "name": "ハリマビステム",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9780"
+          }
+        },
+        {
+          "name": "ビケンテクノ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9791"
+          }
+        },
+        {
+          "name": "白洋舎",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9731"
+          }
+        },
+        {
+          "name": "トーカイ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9729"
+          }
+        },
+        {
+          "name": "アサンテ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6073"
+          }
+        },
+        {
+          "name": "シンメンテホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6086"
+          }
+        },
+        {
+          "name": "東洋テック",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9686"
+          }
+        },
+        {
+          "name": "共栄セキュリティーサービス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7058"
+          }
+        },
+        {
+          "name": "トスネット",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4754"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "bpo",
+      "role": "BPO・コールセンター",
+      "layer": "category",
+      "description": "企業の間接業務を丸ごと受託。人件費裁定と効率化のビジネス。",
+      "map": {
+        "ring": 1,
+        "angle": 225
+      },
+      "companies": [
+        {
+          "name": "トランス・コスモス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9715"
+          }
+        },
+        {
+          "name": "ベルシステム24ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6183"
+          }
+        },
+        {
+          "name": "プレステージ・インターナショナル",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4290"
+          }
+        },
+        {
+          "name": "キャリアリンク",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6070"
+          }
+        },
+        {
+          "name": "ビーウィズ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9216"
+          }
+        },
+        {
+          "name": "ダイレクトマーケティングミックス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7354"
+          }
+        },
+        {
+          "name": "ブリッジインターナショナルグループ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7039"
+          }
+        },
+        {
+          "name": "ロココ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5868"
+          }
+        },
+        {
+          "name": "エフアンドエム",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4771"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "ma_professional",
+      "role": "M&A仲介・士業支援",
+      "layer": "category",
+      "description": "後継者不足を背景に拡大した事業承継M&A。コンサルマップと隣接。",
+      "map": {
+        "ring": 1,
+        "angle": 270
+      },
+      "related_industry": "consulting",
+      "companies": [
+        {
+          "name": "日本M&Aセンターホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2127"
+          }
+        },
+        {
+          "name": "M&Aキャピタルパートナーズ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6080"
+          }
+        },
+        {
+          "name": "弁護士ドットコム",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6027"
+          }
+        },
+        {
+          "name": "鎌倉新書",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6184"
+          }
+        },
+        {
+          "name": "ストライクグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6196"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "lifestyle",
+      "role": "生活サービス(冠婚葬祭・介護ほか)",
+      "layer": "category",
+      "description": "高齢化と単身化で構造変化が続く生活密着サービス。",
+      "map": {
+        "ring": 1,
+        "angle": 315
+      },
+      "companies": [
+        {
+          "name": "燦ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9628"
+          }
+        },
+        {
+          "name": "ティア",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2485"
+          }
+        },
+        {
+          "name": "ケア21",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2373"
+          }
+        },
+        {
+          "name": "チャーム・ケア・コーポレーション",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6062"
+          }
+        },
+        {
+          "name": "はせがわ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8230"
+          },
+          "note": "仏壇・墓"
+        },
+        {
+          "name": "ニチリョク",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7578"
+          }
+        },
+        {
+          "name": "ツカダ・グローバルホールディング",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2418"
+          }
+        },
+        {
+          "name": "テイクアンドギヴ・ニーズ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4331"
+          }
+        },
+        {
+          "name": "ブラス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2424"
+          }
+        },
+        {
+          "name": "アイ・ケイ・ケイホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "2198"
+          }
+        },
+        {
+          "name": "サン・ライフホールディング",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7040"
+          }
+        },
+        {
+          "name": "ソラスト",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6197"
+          }
+        },
+        {
+          "name": "シーユーシー",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9158"
+          }
+        },
+        {
+          "name": "アンビスホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7071"
+          }
+        },
+        {
+          "name": "日本ホスピスホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7061"
+          }
+        },
+        {
+          "name": "サンウェルズ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9229"
+          }
+        },
+        {
+          "name": "シダー",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2435"
+          }
+        },
+        {
+          "name": "ウチヤマホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6059"
+          }
+        },
+        {
+          "name": "エラン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6099"
+          }
+        },
+        {
+          "name": "ユカリア",
+          "listing": {
+            "market": "東証グロース",
+            "code": "286A"
+          }
+        },
+        {
+          "name": "スタジオアリス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2305"
+          }
+        },
+        {
+          "name": "IBJ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6071"
+          },
+          "note": "婚活"
+        },
+        {
+          "name": "リログループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8876"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,766 @@
+{
+  "$schema": "../schema.json",
+  "meta": {
+    "industry_id": "electronics",
+    "industry_name": "電機・精密",
+    "version": "0.1.0",
+    "updated": "2026-07-23",
+    "map_style": "category",
+    "description": "電機・精密業界。総合電機から電子部品・計測・光学・医療機器まで、製品分野のラベルごとに分類するカオスマップ。半導体マップと最も密接につながる。",
+    "tagline": "スマホの中身から手術室まで — 電子部品と精密機器の日本勢",
+    "editorial_note": "v1は公開情報ベース。分類は編集部整理。上場情報はJPX上場銘柄一覧(2026-06)と突合済み。"
+  },
+  "layers": [
+    {
+      "id": "user",
+      "label": "需要家",
+      "order": 1,
+      "icon": "🏭",
+      "description": "セットメーカー・医療機関など"
+    },
+    {
+      "id": "category",
+      "label": "製品分野",
+      "order": 2,
+      "icon": "🔌",
+      "description": "製品分野別の分類"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "user",
+      "role": "需要家(セットメーカー・医療機関)",
+      "layer": "user",
+      "description": "スマホ・車・データセンター・病院。電子部品の最終需要は世界中に広がる。",
+      "map": {
+        "ring": 0,
+        "angle": 0
+      },
+      "note": "需要側は全産業にまたがるため個別掲載しない",
+      "companies": [],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "conglomerate",
+      "role": "総合電機",
+      "layer": "category",
+      "description": "重電からITまでを束ねるコングロマリット。日立は事業再編の成功例として世界的に評価。",
+      "map": {
+        "ring": 1,
+        "angle": 0
+      },
+      "related_industry": "datacenter",
+      "companies": [
+        {
+          "name": "日立製作所",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6501"
+          }
+        },
+        {
+          "name": "三菱電機",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6503"
+          }
+        },
+        {
+          "name": "ソニーグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6758"
+          }
+        },
+        {
+          "name": "富士通",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6702"
+          }
+        },
+        {
+          "name": "シャープ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6753"
+          }
+        },
+        {
+          "name": "日本電気",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6701"
+          }
+        },
+        {
+          "name": "パナソニック ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6752"
+          }
+        },
+        {
+          "name": "カシオ計算機",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6952"
+          }
+        },
+        {
+          "name": "ブラザー工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6448"
+          }
+        },
+        {
+          "name": "JVCケンウッド",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6632"
+          }
+        },
+        {
+          "name": "日清紡ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3105"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "electronic_components",
+      "role": "電子部品",
+      "layer": "category",
+      "description": "コンデンサ・インダクタ・コネクタ・モーター。スマホ1台に数百点、世界シェア4割の牙城。",
+      "map": {
+        "ring": 1,
+        "angle": 45
+      },
+      "related_industry": "semiconductor",
+      "companies": [
+        {
+          "name": "村田製作所",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6981"
+          }
+        },
+        {
+          "name": "TDK",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6762"
+          }
+        },
+        {
+          "name": "京セラ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6971"
+          }
+        },
+        {
+          "name": "太陽誘電",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6976"
+          }
+        },
+        {
+          "name": "アルプスアルパイン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6770"
+          }
+        },
+        {
+          "name": "ミネベアミツミ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6479"
+          }
+        },
+        {
+          "name": "マブチモーター",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6592"
+          }
+        },
+        {
+          "name": "日本航空電子工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6807"
+          }
+        },
+        {
+          "name": "ヒロセ電機",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6806"
+          }
+        },
+        {
+          "name": "日本ケミコン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6997"
+          }
+        },
+        {
+          "name": "ニチコン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6996"
+          }
+        },
+        {
+          "name": "フォスター電機",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6794"
+          }
+        },
+        {
+          "name": "SMK",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6798"
+          }
+        },
+        {
+          "name": "ホシデン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6804"
+          }
+        },
+        {
+          "name": "エレコム",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6750"
+          }
+        },
+        {
+          "name": "ニッポン高度紙工業",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3891"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "measurement_control",
+      "role": "計測・制御・FA電機",
+      "layer": "category",
+      "description": "センサー・計測器・制御機器。キーエンスは営業利益率5割の異次元プレイヤー。",
+      "map": {
+        "ring": 1,
+        "angle": 95
+      },
+      "related_industry": "machinery",
+      "companies": [
+        {
+          "name": "キーエンス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6861"
+          }
+        },
+        {
+          "name": "オムロン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6645"
+          }
+        },
+        {
+          "name": "横河電機",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6841"
+          }
+        },
+        {
+          "name": "島津製作所",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7701"
+          }
+        },
+        {
+          "name": "堀場製作所",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6856"
+          }
+        },
+        {
+          "name": "IDEC",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6652"
+          }
+        },
+        {
+          "name": "日置電機",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6866"
+          }
+        },
+        {
+          "name": "アンリツ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6754"
+          }
+        },
+        {
+          "name": "東京精密",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7729"
+          }
+        },
+        {
+          "name": "ウシオ電機",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6925"
+          }
+        },
+        {
+          "name": "日本信号",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6741"
+          }
+        },
+        {
+          "name": "京三製作所",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6742"
+          }
+        },
+        {
+          "name": "TOA",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6809"
+          }
+        },
+        {
+          "name": "アイコム",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6820"
+          }
+        },
+        {
+          "name": "リガク・ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "268A"
+          }
+        },
+        {
+          "name": "東京計器",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7721"
+          }
+        },
+        {
+          "name": "長野計器",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7715"
+          }
+        },
+        {
+          "name": "理研計器",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7734"
+          }
+        },
+        {
+          "name": "A&Dホロンホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7745"
+          }
+        },
+        {
+          "name": "IMV",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7760"
+          }
+        },
+        {
+          "name": "オーバル",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7727"
+          }
+        },
+        {
+          "name": "愛知時計電機",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7723"
+          }
+        },
+        {
+          "name": "シグマ光機",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7713"
+          }
+        },
+        {
+          "name": "ブイ・テクノロジー",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7717"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "optics_precision",
+      "role": "光学・精密・事務機",
+      "layer": "category",
+      "description": "カメラ・レンズ・複写機・時計。光学技術を軸に医療・半導体へ展開中。",
+      "map": {
+        "ring": 1,
+        "angle": 160
+      },
+      "related_industry": "semiconductor",
+      "companies": [
+        {
+          "name": "キヤノン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7751"
+          }
+        },
+        {
+          "name": "ニコン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7731"
+          }
+        },
+        {
+          "name": "リコー",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7752"
+          }
+        },
+        {
+          "name": "セイコーエプソン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6724"
+          }
+        },
+        {
+          "name": "コニカミノルタ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4902"
+          }
+        },
+        {
+          "name": "HOYA",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7741"
+          }
+        },
+        {
+          "name": "オリンパス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7733"
+          }
+        },
+        {
+          "name": "シチズン時計",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7762"
+          }
+        },
+        {
+          "name": "セイコーグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8050"
+          }
+        },
+        {
+          "name": "タムロン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7740"
+          }
+        },
+        {
+          "name": "リズム",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7769"
+          }
+        },
+        {
+          "name": "ノーリツ鋼機",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7744"
+          }
+        },
+        {
+          "name": "オハラ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5218"
+          },
+          "note": "光学ガラス"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "medical_devices",
+      "role": "医療機器",
+      "layer": "category",
+      "description": "カテーテル・検査機器・人工関節。高齢化する世界で構造的に伸びる領域。",
+      "map": {
+        "ring": 1,
+        "angle": 225
+      },
+      "related_industry": "pharma",
+      "companies": [
+        {
+          "name": "テルモ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4543"
+          }
+        },
+        {
+          "name": "シスメックス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6869"
+          }
+        },
+        {
+          "name": "朝日インテック",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7747"
+          }
+        },
+        {
+          "name": "メニコン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7780"
+          }
+        },
+        {
+          "name": "ナカニシ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7716"
+          }
+        },
+        {
+          "name": "オリンパス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7733"
+          }
+        },
+        {
+          "name": "シップヘルスケアホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3360"
+          }
+        },
+        {
+          "name": "日本光電工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6849"
+          }
+        },
+        {
+          "name": "フクダ電子",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6960"
+          }
+        },
+        {
+          "name": "日機装",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6376"
+          }
+        },
+        {
+          "name": "マニー",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7730"
+          }
+        },
+        {
+          "name": "メディキット",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7749"
+          }
+        },
+        {
+          "name": "JMS",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7702"
+          }
+        },
+        {
+          "name": "クリエートメディック",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5187"
+          }
+        },
+        {
+          "name": "日本エム・ディ・エム",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7600"
+          }
+        },
+        {
+          "name": "大研医器",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7775"
+          }
+        },
+        {
+          "name": "シード",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7743"
+          }
+        },
+        {
+          "name": "松風",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7979"
+          }
+        },
+        {
+          "name": "CYBERDYNE",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7779"
+          }
+        },
+        {
+          "name": "ジャパン・ティッシュエンジニアリング",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7774"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "battery_energy",
+      "role": "電池・エネルギーデバイス",
+      "layer": "category",
+      "description": "車載・定置用の電池と関連デバイス。EVと再エネの心臓部。",
+      "map": {
+        "ring": 1,
+        "angle": 280
+      },
+      "related_industry": "automotive",
+      "companies": [
+        {
+          "name": "ジーエス・ユアサ コーポレーション",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6674"
+          }
+        },
+        {
+          "name": "FDK",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6955"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "display_others",
+      "role": "ディスプレイ・その他電機",
+      "layer": "category",
+      "description": "ディスプレイ・照明・音響など。国内勢は高付加価値領域に集中する構図。",
+      "map": {
+        "ring": 1,
+        "angle": 325
+      },
+      "companies": [
+        {
+          "name": "ジャパンディスプレイ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6740"
+          }
+        },
+        {
+          "name": "浜松ホトニクス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6965"
+          }
+        },
+        {
+          "name": "スタンレー電気",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6923"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ],
+  "edges": []
+}

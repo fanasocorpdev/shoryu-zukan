@@ -1,0 +1,761 @@
+{
+  "$schema": "../schema.json",
+  "meta": {
+    "industry_id": "materials",
+    "industry_name": "素材・金属",
+    "version": "0.1.0",
+    "updated": "2026-07-23",
+    "map_style": "category",
+    "description": "鉄鋼・非鉄・セメント・ガラス・紙パルプなど基礎素材の分類カオスマップ。自動車・建設・半導体マップの素材ノードと直結。",
+    "tagline": "脱炭素の最前線 — 電炉シフトと資源リサイクルの地殻変動",
+    "editorial_note": "v1は公開情報ベース。分類は編集部整理。上場情報はJPX上場銘柄一覧(2026-06)と突合済み。"
+  },
+  "layers": [
+    {
+      "id": "user",
+      "label": "需要家",
+      "order": 1,
+      "icon": "🏭",
+      "description": "素材を使う全産業"
+    },
+    {
+      "id": "category",
+      "label": "素材分野",
+      "order": 2,
+      "icon": "⛏️",
+      "description": "素材分野別の分類"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "user",
+      "role": "需要家(自動車・建設・電機ほか)",
+      "layer": "user",
+      "description": "鋼板は自動車マップ、電子材料は半導体マップにも登場。素材は全産業の土台。",
+      "map": {
+        "ring": 0,
+        "angle": 0
+      },
+      "note": "需要側は各業界マップを参照",
+      "companies": [],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "steel",
+      "role": "鉄鋼(高炉・電炉・特殊鋼)",
+      "layer": "category",
+      "description": "高炉の水素還元と電炉シフトが脱炭素の主戦場。特殊鋼はEV・工作機械の心臓部。",
+      "map": {
+        "ring": 1,
+        "angle": 0
+      },
+      "related_industry": "automotive",
+      "companies": [
+        {
+          "name": "日本製鉄",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5401"
+          }
+        },
+        {
+          "name": "JFEホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5411"
+          }
+        },
+        {
+          "name": "神戸製鋼所",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5406"
+          }
+        },
+        {
+          "name": "大和工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5444"
+          }
+        },
+        {
+          "name": "東京製鐵",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5423"
+          }
+        },
+        {
+          "name": "合同製鐵",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5410"
+          }
+        },
+        {
+          "name": "共英製鋼",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5440"
+          }
+        },
+        {
+          "name": "大同特殊鋼",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5471"
+          }
+        },
+        {
+          "name": "愛知製鋼",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5482"
+          }
+        },
+        {
+          "name": "日本冶金工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5480"
+          }
+        },
+        {
+          "name": "大阪製鐵",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5449"
+          }
+        },
+        {
+          "name": "東京鐵鋼",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5445"
+          }
+        },
+        {
+          "name": "中山製鋼所",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5408"
+          }
+        },
+        {
+          "name": "丸一鋼管",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5463"
+          }
+        },
+        {
+          "name": "三菱製鋼",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5632"
+          }
+        },
+        {
+          "name": "大平洋金属",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5541"
+          }
+        },
+        {
+          "name": "新日本電工",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5563"
+          }
+        },
+        {
+          "name": "栗本鐵工所",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5602"
+          }
+        },
+        {
+          "name": "日本精線",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5659"
+          }
+        },
+        {
+          "name": "神鋼鋼線工業",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5660"
+          }
+        },
+        {
+          "name": "日本金属",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5491"
+          }
+        },
+        {
+          "name": "モリ工業",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5464"
+          }
+        },
+        {
+          "name": "ヨドコウ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5451"
+          }
+        },
+        {
+          "name": "日本コークス工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3315"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "nonferrous",
+      "role": "非鉄金属・電線",
+      "layer": "category",
+      "description": "銅・アルミ・レアメタル。EV・データセンター向け電線需要が急拡大。",
+      "map": {
+        "ring": 1,
+        "angle": 60
+      },
+      "related_industry": "datacenter",
+      "companies": [
+        {
+          "name": "三菱マテリアル",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5711"
+          }
+        },
+        {
+          "name": "住友金属鉱山",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5713"
+          }
+        },
+        {
+          "name": "DOWAホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5714"
+          }
+        },
+        {
+          "name": "古河機械金属",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5715"
+          }
+        },
+        {
+          "name": "UACJ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5741"
+          }
+        },
+        {
+          "name": "日本軽金属ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5703"
+          }
+        },
+        {
+          "name": "フジクラ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5803"
+          }
+        },
+        {
+          "name": "SWCC",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5805"
+          }
+        },
+        {
+          "name": "三井金属",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5706"
+          }
+        },
+        {
+          "name": "JX金属",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5016"
+          }
+        },
+        {
+          "name": "東邦亜鉛",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5707"
+          }
+        },
+        {
+          "name": "大阪チタニウムテクノロジーズ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5726"
+          }
+        },
+        {
+          "name": "大紀アルミニウム工業所",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5702"
+          }
+        },
+        {
+          "name": "AREホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5857"
+          }
+        },
+        {
+          "name": "CKサンエツ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5757"
+          }
+        },
+        {
+          "name": "フルヤ金属",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7826"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "cement_ceramics",
+      "role": "セメント・ガラス・セラミックス",
+      "layer": "category",
+      "description": "建設向けセメントと、半導体向けファインセラミックス(ガイシ・特殊陶業)が同居。",
+      "map": {
+        "ring": 1,
+        "angle": 130
+      },
+      "related_industry": "construction",
+      "companies": [
+        {
+          "name": "太平洋セメント",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5233"
+          }
+        },
+        {
+          "name": "住友大阪セメント",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5232"
+          }
+        },
+        {
+          "name": "日本電気硝子",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5214"
+          }
+        },
+        {
+          "name": "日本特殊陶業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5334"
+          }
+        },
+        {
+          "name": "MARUWA",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5344"
+          }
+        },
+        {
+          "name": "NGK",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5333"
+          }
+        },
+        {
+          "name": "ノリタケ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5331"
+          }
+        },
+        {
+          "name": "日東紡績",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3110"
+          }
+        },
+        {
+          "name": "石塚硝子",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5204"
+          }
+        },
+        {
+          "name": "日本山村硝子",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5210"
+          }
+        },
+        {
+          "name": "品川リフラ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5351"
+          }
+        },
+        {
+          "name": "ヨータイ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5357"
+          }
+        },
+        {
+          "name": "美濃窯業",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5356"
+          }
+        },
+        {
+          "name": "東海カーボン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5301"
+          },
+          "note": "炭素製品"
+        },
+        {
+          "name": "日本カーボン",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5302"
+          },
+          "note": "炭素製品"
+        },
+        {
+          "name": "東洋炭素",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5310"
+          },
+          "note": "炭素製品"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "paper_pulp",
+      "role": "紙・パルプ",
+      "layer": "category",
+      "description": "印刷用紙の縮小を段ボール(EC)と海外・衛生用品でカバーする構造転換。",
+      "map": {
+        "ring": 1,
+        "angle": 200
+      },
+      "related_industry": "retail",
+      "companies": [
+        {
+          "name": "王子ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3861"
+          }
+        },
+        {
+          "name": "日本製紙",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3863"
+          }
+        },
+        {
+          "name": "レンゴー",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3941"
+          }
+        },
+        {
+          "name": "大王製紙",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3880"
+          }
+        },
+        {
+          "name": "北越コーポレーション",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3865"
+          }
+        },
+        {
+          "name": "特種東海製紙",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3708"
+          }
+        },
+        {
+          "name": "三菱製紙",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3864"
+          }
+        },
+        {
+          "name": "中越パルプ工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3877"
+          }
+        },
+        {
+          "name": "トーモク",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3946"
+          }
+        },
+        {
+          "name": "ザ・パック",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3950"
+          }
+        },
+        {
+          "name": "ダイナパック",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3947"
+          }
+        },
+        {
+          "name": "朝日印刷",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3951"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "recycle",
+      "role": "資源リサイクル・環境",
+      "layer": "category",
+      "description": "都市鉱山からの金属回収と廃棄物処理。資源安保の裏方として重要度上昇。",
+      "map": {
+        "ring": 1,
+        "angle": 270
+      },
+      "companies": [
+        {
+          "name": "エンビプロ・ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5698"
+          }
+        },
+        {
+          "name": "TREホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9247"
+          }
+        },
+        {
+          "name": "ダイセキ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9793"
+          }
+        },
+        {
+          "name": "大栄環境",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9336"
+          }
+        },
+        {
+          "name": "ミダックホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6564"
+          }
+        },
+        {
+          "name": "要興業",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6566"
+          }
+        },
+        {
+          "name": "アミタホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "2195"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "metal_products",
+      "role": "金属製品・ばね・ねじ",
+      "layer": "category",
+      "description": "ばね・ファスナー・シャッター。小さな部品で大きなシェアを握るニッチ強者。",
+      "map": {
+        "ring": 1,
+        "angle": 330
+      },
+      "related_industry": "auto_parts",
+      "companies": [
+        {
+          "name": "日東精工",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5957"
+          }
+        },
+        {
+          "name": "日本発條",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5991"
+          }
+        },
+        {
+          "name": "中央発條",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5992"
+          }
+        },
+        {
+          "name": "東京製綱",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5981"
+          }
+        },
+        {
+          "name": "高周波熱錬",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5976"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "printing_packaging",
+      "role": "印刷・パッケージ",
+      "layer": "category",
+      "description": "印刷2強は半導体フォトマスク・電子材料の大手でもある。缶・ラベルは食品と直結。",
+      "map": {
+        "ring": 2,
+        "angle": 175
+      },
+      "related_industry": "semiconductor",
+      "companies": [
+        {
+          "name": "TOPPANホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7911"
+          }
+        },
+        {
+          "name": "大日本印刷",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7912"
+          }
+        },
+        {
+          "name": "共同印刷",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7914"
+          }
+        },
+        {
+          "name": "NISSHA",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7915"
+          }
+        },
+        {
+          "name": "フジシールインターナショナル",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7864"
+          }
+        },
+        {
+          "name": "東洋製罐グループホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5901"
+          }
+        },
+        {
+          "name": "ホッカンホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5902"
+          }
+        },
+        {
+          "name": "リンテック",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7966"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ],
+  "edges": []
+}
