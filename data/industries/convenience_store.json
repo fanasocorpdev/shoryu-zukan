@@ -204,9 +204,10 @@
           "name": "わらべや日洋",
           "url": "https://www.warabeya.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 2000,
-            "as_of": "2025",
-            "note": "わらべや日洋ホールディングス連結・概算"
+            "revenue_oku_jpy": 2338,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年2月期実績(決算短信)、時価総額=2026-07-23時点",
+            "market_cap_oku_jpy": 488
           },
           "hq": "東京都小平市",
           "employees": 4000,
@@ -249,10 +250,10 @@
           "name": "山崎製パン",
           "url": "https://www.yamazakipan.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 12000,
-            "market_cap_oku_jpy": 7000,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 13114,
+            "market_cap_oku_jpy": 7276,
+            "as_of": "2026-07-23",
+            "note": "売上高=2025年12月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "東京都千代田区",
           "employees": 30000,
@@ -265,10 +266,10 @@
           "name": "日清食品",
           "url": "https://www.nissin.com/jp/",
           "financials": {
-            "revenue_oku_jpy": 7700,
-            "market_cap_oku_jpy": 10000,
-            "as_of": "2025",
-            "note": "日清食品ホールディングス連結・概算"
+            "revenue_oku_jpy": 7881,
+            "market_cap_oku_jpy": 8532,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "大阪市淀川区",
           "employees": 17000,
@@ -284,6 +285,11 @@
           "employees": 40000,
           "listing": {
             "market": "非上場(サントリーホールディングス)"
+          },
+          "financials": {
+            "revenue_oku_jpy": 34170,
+            "as_of": "2026-07",
+            "note": "サントリーHD連結の値: 売上収益=2024年12月期実績(公表値)"
           }
         },
         {
@@ -312,9 +318,9 @@
           "name": "三菱食品",
           "url": "https://www.mitsubishi-shokuhin.com/",
           "financials": {
-            "revenue_oku_jpy": 20000,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 21208,
+            "as_of": "2026-07",
+            "note": "売上高=2025年3月期実績(決算短信)。2025-09上場廃止(三菱商事完全子会社化)"
           },
           "hq": "東京都文京区",
           "employees": 4000,
@@ -392,10 +398,10 @@
           "name": "セブン銀行",
           "url": "https://www.sevenbank.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 2000,
-            "market_cap_oku_jpy": 3500,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 2200,
+            "market_cap_oku_jpy": 3644,
+            "as_of": "2026-07-23",
+            "note": "経常収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "東京都千代田区",
           "employees": 1000,
@@ -453,6 +459,12 @@
           "listing": {
             "market": "東証プライム",
             "code": "6504"
+          },
+          "financials": {
+            "revenue_oku_jpy": 12276,
+            "market_cap_oku_jpy": 19677,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -518,10 +530,10 @@
           "name": "三菱商事(ローソン)",
           "url": "https://www.mitsubishicorp.com/jp/ja/",
           "financials": {
-            "revenue_oku_jpy": 180000,
-            "market_cap_oku_jpy": 183449,
-            "as_of": "2026-07",
-            "note": "収益は概算。時価総額=2026-07時点"
+            "revenue_oku_jpy": 189160,
+            "market_cap_oku_jpy": 198062,
+            "as_of": "2026-07-23",
+            "note": "収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "東京都千代田区",
           "employees": 80000,

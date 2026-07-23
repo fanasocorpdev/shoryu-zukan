@@ -106,9 +106,9 @@
           "url": "https://global.honda/jp/",
           "financials": {
             "revenue_oku_jpy": 217966,
-            "market_cap_oku_jpy": 75000,
-            "as_of": "2026-05",
-            "note": "売上収益=2026年3月期実績(決算短信)。時価総額は概算"
+            "market_cap_oku_jpy": 70578,
+            "as_of": "2026-07-21",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-21時点"
           },
           "hq": "東京都港区",
           "employees": 194000,
@@ -121,10 +121,10 @@
           "name": "日産自動車",
           "url": "https://www.nissan-global.com/JP/",
           "financials": {
-            "revenue_oku_jpy": 124000,
-            "market_cap_oku_jpy": 13000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 120079,
+            "market_cap_oku_jpy": 12330,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "横浜市西区",
           "employees": 130000,
@@ -137,10 +137,10 @@
           "name": "スズキ",
           "url": "https://www.suzuki.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 57000,
-            "market_cap_oku_jpy": 35000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 62930,
+            "market_cap_oku_jpy": 40520,
+            "as_of": "2026-07-02",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-02時点"
           },
           "hq": "静岡県浜松市",
           "employees": 70000,
@@ -153,10 +153,10 @@
           "name": "マツダ",
           "url": "https://www.mazda.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 49000,
-            "market_cap_oku_jpy": 7000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 49182,
+            "market_cap_oku_jpy": 7323,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "広島県府中町",
           "employees": 48000,
@@ -169,10 +169,10 @@
           "name": "SUBARU",
           "url": "https://www.subaru.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 47000,
-            "market_cap_oku_jpy": 20000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 47850,
+            "market_cap_oku_jpy": 18736,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "東京都渋谷区",
           "employees": 37000,
@@ -185,10 +185,10 @@
           "name": "三菱自動車",
           "url": "https://www.mitsubishi-motors.com/jp/",
           "financials": {
-            "revenue_oku_jpy": 27000,
-            "market_cap_oku_jpy": 6000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 28965,
+            "market_cap_oku_jpy": 5433,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "東京都港区",
           "employees": 28000,
@@ -293,10 +293,10 @@
           "name": "USS",
           "url": "https://www.ussnet.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 1000,
-            "market_cap_oku_jpy": 7000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 1139,
+            "market_cap_oku_jpy": 9252,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "愛知県東海市",
           "employees": 1200,
@@ -309,9 +309,10 @@
           "name": "IDOM(ガリバー)",
           "url": "https://www.idom-inc.com/",
           "financials": {
-            "revenue_oku_jpy": 5000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 5628,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年2月期実績(決算短信)、時価総額=2026-07-23時点",
+            "market_cap_oku_jpy": 1402
           },
           "hq": "東京都千代田区",
           "employees": 4000,
@@ -324,9 +325,10 @@
           "name": "ネクステージ",
           "url": "https://www.nextage.jp/",
           "financials": {
-            "revenue_oku_jpy": 5000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 6521,
+            "as_of": "2026-07-23",
+            "note": "売上高=2025年11月期実績(決算短信)、時価総額=2026-07-23時点",
+            "market_cap_oku_jpy": 2791
           },
           "hq": "名古屋市中区",
           "employees": 5000,
@@ -376,10 +378,10 @@
           "name": "ENEOS",
           "url": "https://www.eneos.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 130000,
-            "market_cap_oku_jpy": 25000,
-            "as_of": "2025",
-            "note": "ENEOSホールディングス連結・概算"
+            "revenue_oku_jpy": 117655,
+            "market_cap_oku_jpy": 36189,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "東京都千代田区",
           "employees": 41000,
@@ -392,10 +394,10 @@
           "name": "出光興産",
           "url": "https://www.idemitsu.com/jp/",
           "financials": {
-            "revenue_oku_jpy": 87000,
-            "market_cap_oku_jpy": 13000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 81059,
+            "market_cap_oku_jpy": 17075,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "東京都千代田区",
           "employees": 14000,
@@ -445,10 +447,10 @@
           "name": "アイシン",
           "url": "https://www.aisin.com/jp/",
           "financials": {
-            "revenue_oku_jpy": 49000,
-            "market_cap_oku_jpy": 15000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 51178,
+            "market_cap_oku_jpy": 17670,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "愛知県刈谷市",
           "employees": 110000,
@@ -461,24 +463,24 @@
           "name": "豊田自動織機",
           "url": "https://www.toyota-shokki.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 40000,
-            "as_of": "2025",
-            "note": "概算。トヨタグループによる非公開化が2025年に発表"
+            "revenue_oku_jpy": 43695,
+            "as_of": "2026-07",
+            "note": "売上高=2026年3月期実績(決算短信)。2026-06上場廃止(トヨタ系SPCによる非公開化)"
           },
           "hq": "愛知県刈谷市",
           "employees": 75000,
           "listing": {
-            "market": "非公開化(トヨタグループ)"
+            "market": "非上場(トヨタグループ・2026-06上場廃止)"
           }
         },
         {
           "name": "住友電気工業",
           "url": "https://sumitomoelectric.com/jp/",
           "financials": {
-            "revenue_oku_jpy": 46000,
-            "market_cap_oku_jpy": 30000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 51101,
+            "market_cap_oku_jpy": 99996,
+            "as_of": "2026-06-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-06-23時点"
           },
           "hq": "大阪市中央区",
           "employees": 290000,
@@ -491,9 +493,9 @@
           "name": "矢崎総業",
           "url": "https://www.yazaki-group.com/",
           "financials": {
-            "revenue_oku_jpy": 24000,
-            "as_of": "2025",
-            "note": "非上場・概算"
+            "revenue_oku_jpy": 24926,
+            "as_of": "2026-07",
+            "note": "売上高=2025年6月期実績(公表値)"
           },
           "hq": "東京都港区",
           "employees": 240000,
@@ -518,10 +520,10 @@
           "name": "日本製鉄",
           "url": "https://www.nipponsteel.com/",
           "financials": {
-            "revenue_oku_jpy": 87000,
-            "market_cap_oku_jpy": 35000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 100632,
+            "market_cap_oku_jpy": 32768,
+            "as_of": "2026-07",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07時点"
           },
           "hq": "東京都千代田区",
           "employees": 110000,
@@ -534,10 +536,10 @@
           "name": "JFEスチール",
           "url": "https://www.jfe-steel.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 49000,
-            "market_cap_oku_jpy": 12000,
-            "as_of": "2025",
-            "note": "JFEホールディングス連結・概算"
+            "revenue_oku_jpy": 45393,
+            "market_cap_oku_jpy": 11055,
+            "as_of": "2026-07-23",
+            "note": "持株会社JFEHD連結の値。売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "東京都千代田区",
           "employees": 62000,
@@ -550,10 +552,10 @@
           "name": "神戸製鋼所",
           "url": "https://www.kobelco.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 25000,
-            "market_cap_oku_jpy": 8000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 24365,
+            "market_cap_oku_jpy": 7895,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "神戸市中央区",
           "employees": 39000,
@@ -566,10 +568,10 @@
           "name": "東レ",
           "url": "https://www.toray.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 25000,
-            "market_cap_oku_jpy": 15000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 25851,
+            "market_cap_oku_jpy": 17752,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "東京都中央区",
           "employees": 48000,
@@ -596,10 +598,10 @@
           "name": "ルネサス エレクトロニクス",
           "url": "https://www.renesas.com/ja",
           "financials": {
-            "revenue_oku_jpy": 13000,
-            "market_cap_oku_jpy": 25000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 13212,
+            "market_cap_oku_jpy": 78547,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2025年12月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "東京都江東区",
           "employees": 21000,
@@ -612,9 +614,10 @@
           "name": "ローム",
           "url": "https://www.rohm.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 4700,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 4811,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点",
+            "market_cap_oku_jpy": 19634
           },
           "hq": "京都市右京区",
           "employees": 23000,
@@ -627,9 +630,10 @@
           "name": "インフィニオン テクノロジーズ",
           "url": "https://www.infineon.com/",
           "financials": {
-            "revenue_oku_jpy": 24000,
-            "as_of": "2025",
-            "note": "ユーロ160円換算・概算"
+            "revenue_oku_jpy": 25659,
+            "as_of": "2026-07",
+            "note": "売上=FY2025(2025年9月期)実績€14.66B、時価総額=€85.5B(2026-07-23時点)。1ユーロ=175円換算の概算",
+            "market_cap_oku_jpy": 149600
           },
           "hq": "独ノイビベルク",
           "employees": 58000,
@@ -693,10 +697,10 @@
           "name": "ファナック",
           "url": "https://www.fanuc.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 8000,
-            "market_cap_oku_jpy": 40000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 8578,
+            "market_cap_oku_jpy": 68484,
+            "as_of": "2026-07-22",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-22時点"
           },
           "hq": "山梨県忍野村",
           "employees": 8600,
@@ -709,10 +713,10 @@
           "name": "安川電機",
           "url": "https://www.yaskawa.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 5800,
-            "market_cap_oku_jpy": 10000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 5421,
+            "market_cap_oku_jpy": 14227,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2026年2月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "北九州市八幡西区",
           "employees": 13000,
@@ -725,10 +729,10 @@
           "name": "川崎重工業",
           "url": "https://www.khi.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 21000,
-            "market_cap_oku_jpy": 13000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 23112,
+            "market_cap_oku_jpy": 23349,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "神戸市中央区",
           "employees": 39000,
@@ -754,10 +758,10 @@
           "name": "日本郵船",
           "url": "https://www.nyk.com/",
           "financials": {
-            "revenue_oku_jpy": 24000,
-            "market_cap_oku_jpy": 25000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 24236,
+            "market_cap_oku_jpy": 23778,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "東京都千代田区",
           "employees": 35000,
@@ -770,10 +774,10 @@
           "name": "商船三井",
           "url": "https://www.mol.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 16000,
-            "market_cap_oku_jpy": 25000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 18251,
+            "market_cap_oku_jpy": 21033,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "東京都港区",
           "employees": 9000,
@@ -840,10 +844,10 @@
           "name": "東京海上日動",
           "url": "https://www.tokiomarine-nichido.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 50000,
-            "market_cap_oku_jpy": 110000,
-            "as_of": "2025",
-            "note": "東京海上HD連結・概算"
+            "revenue_oku_jpy": 88722,
+            "market_cap_oku_jpy": 153907,
+            "as_of": "2026-07-23",
+            "note": "持株会社東京海上HD連結の値。経常収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "東京都千代田区",
           "employees": 43000,
@@ -856,10 +860,10 @@
           "name": "損害保険ジャパン",
           "url": "https://www.sompo-japan.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 35000,
-            "market_cap_oku_jpy": 45000,
-            "as_of": "2025",
-            "note": "SOMPOホールディングス連結・概算"
+            "revenue_oku_jpy": 53729,
+            "market_cap_oku_jpy": 57735,
+            "as_of": "2026-04-08",
+            "note": "持株会社SOMPOHD連結の値。保険収益=2026年3月期実績(決算短信)、時価総額=2026-04-08時点"
           },
           "hq": "東京都新宿区",
           "employees": 45000,
@@ -872,10 +876,10 @@
           "name": "三井住友海上",
           "url": "https://www.ms-ins.com/",
           "financials": {
-            "revenue_oku_jpy": 40000,
-            "market_cap_oku_jpy": 50000,
-            "as_of": "2025",
-            "note": "MS&ADホールディングス連結・概算"
+            "revenue_oku_jpy": 76530,
+            "market_cap_oku_jpy": 72732,
+            "as_of": "2026-07-23",
+            "note": "持株会社MS&ADグループHD連結の値。経常収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "東京都千代田区",
           "employees": 40000,

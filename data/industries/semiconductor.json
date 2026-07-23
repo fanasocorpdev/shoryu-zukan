@@ -89,10 +89,10 @@
           "name": "JASM(TSMC熊本)",
           "url": "https://www.tsmc.com/japanese",
           "financials": {
-            "revenue_oku_jpy": 135000,
-            "market_cap_oku_jpy": 1650000,
-            "as_of": "2025",
-            "note": "TSMC本体の連結値・ドル150円換算・概算"
+            "revenue_oku_jpy": 183630,
+            "market_cap_oku_jpy": 3276000,
+            "as_of": "2026-07",
+            "note": "親会社TSMC連結の値: 売上=2025年12月期実績(US$122.4B)、時価総額=$2.18兆(2026-07-22時点)。1ドル=150円換算の概算。JASM単体売上は724億円(2025年12月期決算公告)"
           },
           "hq": "熊本県菊陽町",
           "employees": 77000,
@@ -133,9 +133,10 @@
           "name": "キオクシア",
           "url": "https://www.kioxia.com/ja-jp/",
           "financials": {
-            "revenue_oku_jpy": 17000,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 23376,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点",
+            "market_cap_oku_jpy": 337655
           },
           "hq": "東京都港区",
           "employees": 15000,
@@ -148,9 +149,9 @@
           "name": "ソニーセミコンダクタソリューションズ",
           "url": "https://www.sony-semicon.com/ja/",
           "financials": {
-            "revenue_oku_jpy": 16000,
-            "as_of": "2025",
-            "note": "ソニーグループI&SSセグメント・概算"
+            "revenue_oku_jpy": 15919,
+            "as_of": "2026-07",
+            "note": "売上高=2025年3月期(2024年度)実績(公表値)。ソニーグループ100%子会社"
           },
           "hq": "神奈川県厚木市",
           "employees": 20000,
@@ -162,10 +163,10 @@
           "name": "ルネサス エレクトロニクス",
           "url": "https://www.renesas.com/ja",
           "financials": {
-            "revenue_oku_jpy": 13000,
-            "market_cap_oku_jpy": 25000,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 13212,
+            "market_cap_oku_jpy": 78547,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2025年12月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "東京都江東区",
           "employees": 21000,
@@ -178,9 +179,10 @@
           "name": "ローム",
           "url": "https://www.rohm.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 4700,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 4811,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点",
+            "market_cap_oku_jpy": 19634
           },
           "hq": "京都市右京区",
           "employees": 23000,
@@ -214,10 +216,10 @@
           "name": "NVIDIA",
           "url": "https://www.nvidia.com/ja-jp/",
           "financials": {
-            "revenue_oku_jpy": 195000,
-            "market_cap_oku_jpy": 6500000,
-            "as_of": "2025",
-            "note": "ドル150円換算・概算"
+            "revenue_oku_jpy": 323850,
+            "market_cap_oku_jpy": 7200000,
+            "as_of": "2026-07",
+            "note": "売上=FY2026(2026年1月期)実績$215.9B、時価総額=$4.8兆(2026-07-17時点)。1ドル=150円換算の概算"
           },
           "hq": "米カリフォルニア州サンタクララ",
           "employees": 30000,
@@ -229,10 +231,10 @@
           "name": "AMD",
           "url": "https://www.amd.com/ja.html",
           "financials": {
-            "revenue_oku_jpy": 39000,
-            "market_cap_oku_jpy": 400000,
-            "as_of": "2025",
-            "note": "ドル150円換算・概算"
+            "revenue_oku_jpy": 51900,
+            "market_cap_oku_jpy": 1351000,
+            "as_of": "2026-07",
+            "note": "売上=2025年12月期実績$34.6B、時価総額=$901B(2026-07-22時点)。1ドル=150円換算の概算"
           },
           "hq": "米カリフォルニア州サンタクララ",
           "employees": 28000,
@@ -244,10 +246,10 @@
           "name": "Apple",
           "url": "https://www.apple.com/jp/",
           "financials": {
-            "revenue_oku_jpy": 585000,
-            "market_cap_oku_jpy": 5250000,
-            "as_of": "2025",
-            "note": "ドル150円換算・概算"
+            "revenue_oku_jpy": 624000,
+            "market_cap_oku_jpy": 7350000,
+            "as_of": "2026-07",
+            "note": "売上=FY2025(2025年9月期)実績$416B、時価総額=$4.9兆(2026-07-17時点)。1ドル=150円換算の概算"
           },
           "hq": "米カリフォルニア州クパチーノ",
           "employees": 160000,
@@ -259,10 +261,10 @@
           "name": "ソシオネクスト",
           "url": "https://www.socionext.com/jp/",
           "financials": {
-            "revenue_oku_jpy": 2200,
-            "market_cap_oku_jpy": 3500,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 2008,
+            "market_cap_oku_jpy": 4452,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "横浜市西区",
           "employees": 2700,
@@ -453,10 +455,10 @@
           "url": "https://www.dell.com/ja-jp",
           "segment": "server",
           "financials": {
-            "revenue_oku_jpy": 143000,
-            "market_cap_oku_jpy": 120000,
-            "as_of": "2025",
-            "note": "ドル150円換算・概算"
+            "revenue_oku_jpy": 170250,
+            "market_cap_oku_jpy": 429700,
+            "as_of": "2026-07",
+            "note": "売上=FY2026(2026年1月期)実績$113.5B、時価総額=$286B(2026-07-22時点)。1ドル=150円換算の概算"
           },
           "hq": "米テキサス州ラウンドロック",
           "employees": 108000,
@@ -469,10 +471,10 @@
           "url": "https://www.sony.com/ja/",
           "segment": "electronics",
           "financials": {
-            "revenue_oku_jpy": 130000,
-            "market_cap_oku_jpy": 200000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 124796,
+            "market_cap_oku_jpy": 211860,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "東京都港区",
           "employees": 113000,
@@ -499,10 +501,10 @@
           "name": "マクニカ",
           "url": "https://www.macnica.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 10000,
-            "market_cap_oku_jpy": 5000,
-            "as_of": "2025",
-            "note": "マクニカホールディングス連結・概算"
+            "revenue_oku_jpy": 12142,
+            "market_cap_oku_jpy": 6105,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "横浜市港北区",
           "employees": 4600,
@@ -624,10 +626,10 @@
           "name": "SUMCO",
           "url": "https://www.sumcosi.com/",
           "financials": {
-            "revenue_oku_jpy": 4000,
-            "market_cap_oku_jpy": 4500,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 4097,
+            "market_cap_oku_jpy": 13110,
+            "as_of": "2026-07-23",
+            "note": "売上高=2025年12月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "東京都港区",
           "employees": 10000,
@@ -661,9 +663,9 @@
           "name": "JSR",
           "url": "https://www.jsr.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 4000,
-            "as_of": "2025",
-            "note": "JIC傘下・非上場。概算"
+            "revenue_oku_jpy": 4046,
+            "as_of": "2026-07",
+            "note": "売上収益=2024年3月期実績(決算短信)。2024-06上場廃止(JIC傘下)"
           },
           "hq": "東京都",
           "employees": 9000,
@@ -675,9 +677,9 @@
           "name": "東京応化工業",
           "url": "https://www.tok.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 2000,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 2370,
+            "as_of": "2026-02",
+            "note": "売上高=2025年12月期実績(決算短信・過去最高)"
           },
           "hq": "川崎市中原区",
           "employees": 2200,
@@ -694,6 +696,12 @@
           "listing": {
             "market": "東証プライム(富士フイルムホールディングス)",
             "code": "4901"
+          },
+          "financials": {
+            "revenue_oku_jpy": 33570,
+            "market_cap_oku_jpy": 35767,
+            "as_of": "2026-07",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07時点"
           }
         },
         {
@@ -870,10 +878,10 @@
           "name": "ASML",
           "url": "https://www.asml.com/",
           "financials": {
-            "revenue_oku_jpy": 45000,
-            "market_cap_oku_jpy": 500000,
-            "as_of": "2025",
-            "note": "ユーロ160円換算・概算"
+            "revenue_oku_jpy": 57225,
+            "market_cap_oku_jpy": 1038000,
+            "as_of": "2026-07",
+            "note": "売上=2025年12月期実績€32.7B(1ユーロ=175円換算)、時価総額=$692B(2026-07-22時点・1ドル=150円換算)の概算"
           },
           "hq": "蘭フェルトホーフェン",
           "employees": 44000,
@@ -885,10 +893,10 @@
           "name": "アプライド マテリアルズ",
           "url": "https://www.appliedmaterials.com/",
           "financials": {
-            "revenue_oku_jpy": 40000,
-            "market_cap_oku_jpy": 225000,
-            "as_of": "2025",
-            "note": "ドル150円換算・概算"
+            "revenue_oku_jpy": 42555,
+            "market_cap_oku_jpy": 659700,
+            "as_of": "2026-07",
+            "note": "売上=FY2025(2025年10月期)実績$28.4B、時価総額=$440B(2026-07-22時点)。1ドル=150円換算の概算"
           },
           "hq": "米カリフォルニア州サンタクララ",
           "employees": 35000,
@@ -900,10 +908,10 @@
           "name": "SCREENホールディングス",
           "url": "https://www.screen.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 6200,
-            "market_cap_oku_jpy": 25000,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 6057,
+            "market_cap_oku_jpy": 31761,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "京都市上京区",
           "employees": 7600,
@@ -1040,10 +1048,10 @@
           "name": "アドバンテスト",
           "url": "https://www.advantest.com/ja/",
           "financials": {
-            "revenue_oku_jpy": 7800,
-            "market_cap_oku_jpy": 90000,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 11286,
+            "market_cap_oku_jpy": 225456,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "東京都千代田区",
           "employees": 7500,
@@ -1056,10 +1064,10 @@
           "name": "レーザーテック",
           "url": "https://www.lasertec.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 2100,
-            "market_cap_oku_jpy": 15000,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 2515,
+            "market_cap_oku_jpy": 42551,
+            "as_of": "2026-07-23",
+            "note": "売上高=2025年6月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "横浜市港北区",
           "employees": 800,
@@ -1214,10 +1222,10 @@
           "name": "イビデン",
           "url": "https://www.ibiden.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 3700,
-            "market_cap_oku_jpy": 15000,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 4162,
+            "market_cap_oku_jpy": 25500,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "岐阜県大垣市",
           "employees": 20000,
@@ -1318,9 +1326,10 @@
             "code": "8306"
           },
           "financials": {
-            "market_cap_oku_jpy": 404689,
-            "as_of": "2026-07-08",
-            "note": "持株会社MUFG連結の値。経常収益は概算。時価総額=2026-07-08時点"
+            "market_cap_oku_jpy": 445039,
+            "as_of": "2026-07-23",
+            "note": "持株会社MUFG連結の値。経常収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点",
+            "revenue_oku_jpy": 146208
           }
         },
         {

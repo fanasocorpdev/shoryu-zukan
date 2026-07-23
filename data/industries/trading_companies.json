@@ -74,10 +74,10 @@
             "code": "8058"
           },
           "financials": {
-            "revenue_oku_jpy": 180000,
-            "market_cap_oku_jpy": 183449,
-            "as_of": "2026-07",
-            "note": "収益は概算。時価総額=2026-07時点"
+            "revenue_oku_jpy": 189160,
+            "market_cap_oku_jpy": 198062,
+            "as_of": "2026-07-23",
+            "note": "収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -122,10 +122,10 @@
             "code": "8053"
           },
           "financials": {
-            "revenue_oku_jpy": 70000,
-            "market_cap_oku_jpy": 50000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 73373,
+            "market_cap_oku_jpy": 77802,
+            "as_of": "2026-07-23",
+            "note": "収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -138,10 +138,10 @@
             "code": "8002"
           },
           "financials": {
-            "revenue_oku_jpy": 75000,
-            "market_cap_oku_jpy": 40000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 82658,
+            "market_cap_oku_jpy": 89415,
+            "as_of": "2026-07-23",
+            "note": "収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -154,10 +154,10 @@
             "code": "8015"
           },
           "financials": {
-            "revenue_oku_jpy": 100000,
-            "market_cap_oku_jpy": 40000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 115619,
+            "market_cap_oku_jpy": 73375,
+            "as_of": "2026-05-22",
+            "note": "収益=2026年3月期実績(決算短信)、時価総額=2026-05-22時点"
           }
         },
         {
@@ -170,10 +170,10 @@
             "code": "2768"
           },
           "financials": {
-            "revenue_oku_jpy": 25000,
-            "market_cap_oku_jpy": 9000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 27574,
+            "market_cap_oku_jpy": 11487,
+            "as_of": "2026-07-23",
+            "note": "収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         }
       ],
@@ -314,9 +314,10 @@
             "code": "8306"
           },
           "financials": {
-            "market_cap_oku_jpy": 404689,
-            "as_of": "2026-07-08",
-            "note": "持株会社MUFG連結の値。経常収益は概算。時価総額=2026-07-08時点"
+            "market_cap_oku_jpy": 445039,
+            "as_of": "2026-07-23",
+            "note": "持株会社MUFG連結の値。経常収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点",
+            "revenue_oku_jpy": 146208
           }
         },
         {
@@ -330,8 +331,9 @@
           },
           "financials": {
             "revenue_oku_jpy": 107909,
-            "as_of": "2026-05",
-            "note": "持株会社SMFG連結の値: 経常収益=2026年3月期実績(決算短信)。時価総額は概算"
+            "as_of": "2026-07-23",
+            "note": "持株会社SMFG連結の値。経常収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点",
+            "market_cap_oku_jpy": 274316
           }
         },
         {
@@ -342,6 +344,12 @@
           "listing": {
             "market": "東証プライム(みずほフィナンシャルグループ)",
             "code": "8411"
+          },
+          "financials": {
+            "revenue_oku_jpy": 90854,
+            "market_cap_oku_jpy": 218260,
+            "as_of": "2026-07-23",
+            "note": "経常収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         }
       ],

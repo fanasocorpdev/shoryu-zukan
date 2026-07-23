@@ -69,6 +69,12 @@
           "listing": {
             "market": "東証プライム",
             "code": "6503"
+          },
+          "financials": {
+            "revenue_oku_jpy": 58947,
+            "market_cap_oku_jpy": 121424,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -76,6 +82,12 @@
           "listing": {
             "market": "東証プライム",
             "code": "6758"
+          },
+          "financials": {
+            "revenue_oku_jpy": 124796,
+            "market_cap_oku_jpy": 211860,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -83,6 +95,12 @@
           "listing": {
             "market": "東証プライム",
             "code": "6702"
+          },
+          "financials": {
+            "revenue_oku_jpy": 35029,
+            "market_cap_oku_jpy": 56438,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -90,6 +108,12 @@
           "listing": {
             "market": "東証プライム",
             "code": "6753"
+          },
+          "financials": {
+            "revenue_oku_jpy": 18928,
+            "market_cap_oku_jpy": 3968,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -97,6 +121,12 @@
           "listing": {
             "market": "東証プライム",
             "code": "6701"
+          },
+          "financials": {
+            "revenue_oku_jpy": 35827,
+            "market_cap_oku_jpy": 59399,
+            "as_of": "2026-07-17",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-17時点"
           }
         },
         {
@@ -1655,6 +1685,12 @@
           "listing": {
             "market": "東証プライム",
             "code": "6923"
+          },
+          "financials": {
+            "revenue_oku_jpy": 5185,
+            "market_cap_oku_jpy": 4418,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {

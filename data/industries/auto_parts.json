@@ -65,8 +65,9 @@
           },
           "financials": {
             "revenue_oku_jpy": 217966,
-            "as_of": "2026-05",
-            "note": "売上収益=2026年3月期実績(決算短信)。時価総額は概算"
+            "as_of": "2026-07-21",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-21時点",
+            "market_cap_oku_jpy": 70578
           }
         },
         {
@@ -77,6 +78,12 @@
           "listing": {
             "market": "東証プライム",
             "code": "7201"
+          },
+          "financials": {
+            "revenue_oku_jpy": 120079,
+            "market_cap_oku_jpy": 12330,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         }
       ],
@@ -126,9 +133,9 @@
           },
           "financials": {
             "revenue_oku_jpy": 26000,
-            "market_cap_oku_jpy": 30000,
-            "as_of": "2025",
-            "note": "概算"
+            "market_cap_oku_jpy": 30053,
+            "as_of": "2026-07-23",
+            "note": "売上は概算(2026年3月期通期は第三者委員会調査により未発表・中間売上1兆3,023億円)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -141,10 +148,10 @@
             "code": "7276"
           },
           "financials": {
-            "revenue_oku_jpy": 10000,
-            "market_cap_oku_jpy": 6000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 9476,
+            "market_cap_oku_jpy": 7699,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -157,10 +164,10 @@
             "code": "6923"
           },
           "financials": {
-            "revenue_oku_jpy": 5000,
-            "market_cap_oku_jpy": 4500,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 5185,
+            "market_cap_oku_jpy": 4418,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -283,10 +290,10 @@
             "code": "5108"
           },
           "financials": {
-            "revenue_oku_jpy": 44000,
-            "market_cap_oku_jpy": 45000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 44295,
+            "market_cap_oku_jpy": 45584,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2025年12月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -299,10 +306,10 @@
             "code": "5110"
           },
           "financials": {
-            "revenue_oku_jpy": 12000,
-            "market_cap_oku_jpy": 4500,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 12071,
+            "market_cap_oku_jpy": 5911,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2025年12月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -315,10 +322,10 @@
             "code": "5101"
           },
           "financials": {
-            "revenue_oku_jpy": 11000,
-            "market_cap_oku_jpy": 6000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 12350,
+            "market_cap_oku_jpy": 12938,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2025年12月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -331,10 +338,10 @@
             "code": "5105"
           },
           "financials": {
-            "revenue_oku_jpy": 5600,
-            "market_cap_oku_jpy": 4000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 5949,
+            "market_cap_oku_jpy": 6288,
+            "as_of": "2026-07-23",
+            "note": "売上高=2025年12月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -381,10 +388,10 @@
             "code": "7259"
           },
           "financials": {
-            "revenue_oku_jpy": 49000,
-            "market_cap_oku_jpy": 15000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 51178,
+            "market_cap_oku_jpy": 17670,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -406,9 +413,10 @@
             "code": "7278"
           },
           "financials": {
-            "revenue_oku_jpy": 3000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 3039,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点",
+            "market_cap_oku_jpy": 2916
           }
         },
         {
@@ -421,9 +429,10 @@
             "code": "7220"
           },
           "financials": {
-            "revenue_oku_jpy": 3700,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 3472,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点",
+            "market_cap_oku_jpy": 2066
           }
         },
         {
@@ -683,10 +692,10 @@
             "code": "6473"
           },
           "financials": {
-            "revenue_oku_jpy": 19000,
-            "market_cap_oku_jpy": 4500,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 19250,
+            "market_cap_oku_jpy": 6624,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -699,10 +708,10 @@
             "code": "6471"
           },
           "financials": {
-            "revenue_oku_jpy": 8000,
-            "market_cap_oku_jpy": 4000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 9116,
+            "market_cap_oku_jpy": 5715,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -715,10 +724,10 @@
             "code": "6472"
           },
           "financials": {
-            "revenue_oku_jpy": 8500,
-            "market_cap_oku_jpy": 2000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 8263,
+            "market_cap_oku_jpy": 2277,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -749,6 +758,11 @@
           "employees": 240000,
           "listing": {
             "market": "非上場"
+          },
+          "financials": {
+            "revenue_oku_jpy": 24926,
+            "as_of": "2026-07",
+            "note": "売上高=2025年6月期実績(公表値)"
           }
         },
         {
@@ -769,10 +783,10 @@
             "code": "5801"
           },
           "financials": {
-            "revenue_oku_jpy": 12000,
-            "market_cap_oku_jpy": 5000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 13076,
+            "market_cap_oku_jpy": 24825,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         }
       ],
@@ -798,10 +812,10 @@
             "code": "3116"
           },
           "financials": {
-            "revenue_oku_jpy": 19000,
-            "market_cap_oku_jpy": 5000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 20370,
+            "market_cap_oku_jpy": 4254,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -814,10 +828,10 @@
             "code": "7313"
           },
           "financials": {
-            "revenue_oku_jpy": 4500,
-            "market_cap_oku_jpy": 3000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 4423,
+            "market_cap_oku_jpy": 2213,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -866,9 +880,10 @@
             "code": "5949"
           },
           "financials": {
-            "revenue_oku_jpy": 3000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 3219,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点",
+            "market_cap_oku_jpy": 588
           }
         },
         {
@@ -881,9 +896,10 @@
             "code": "5970"
           },
           "financials": {
-            "revenue_oku_jpy": 2700,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 3334,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点",
+            "market_cap_oku_jpy": 934
           }
         },
         {
@@ -892,12 +908,12 @@
           "hq": "岐阜県大垣市",
           "employees": 5000,
           "listing": {
-            "market": "非上場(上場廃止)"
+            "market": "非上場(MBO・2026-04上場廃止)"
           },
           "financials": {
-            "revenue_oku_jpy": 2000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 2061,
+            "as_of": "2026-07",
+            "note": "売上高=2025年3月期実績(決算短信)。2026-04上場廃止(創業家によるMBO)"
           }
         },
         {
@@ -1093,9 +1109,9 @@
             "market": "非上場(日立・ホンダ系)"
           },
           "financials": {
-            "revenue_oku_jpy": 18000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 21865,
+            "as_of": "2026-07",
+            "note": "売上収益=2025年3月期実績(公表値)。現社名はAstemo。ホンダが株式追加取得し連結子会社化へ(2025-12発表)"
           }
         },
         {
@@ -1108,9 +1124,10 @@
             "code": "7242"
           },
           "financials": {
-            "revenue_oku_jpy": 4600,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 4815,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点",
+            "market_cap_oku_jpy": 2190
           }
         },
         {
@@ -1123,9 +1140,10 @@
             "code": "7238"
           },
           "financials": {
-            "revenue_oku_jpy": 1500,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 1601,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点",
+            "market_cap_oku_jpy": 298
           }
         },
         {
@@ -1172,10 +1190,10 @@
             "code": "5201"
           },
           "financials": {
-            "revenue_oku_jpy": 20000,
-            "market_cap_oku_jpy": 10000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 20588,
+            "market_cap_oku_jpy": 13731,
+            "as_of": "2026-07-23",
+            "note": "売上高=2025年12月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -1188,9 +1206,10 @@
             "code": "5202"
           },
           "financials": {
-            "revenue_oku_jpy": 8000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 8795,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点",
+            "market_cap_oku_jpy": 503
           }
         }
       ],

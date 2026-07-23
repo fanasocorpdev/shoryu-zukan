@@ -115,10 +115,10 @@
           "name": "さくらインターネット",
           "url": "https://www.sakura.ad.jp/",
           "financials": {
-            "revenue_oku_jpy": 260,
-            "market_cap_oku_jpy": 1500,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 353,
+            "market_cap_oku_jpy": 1218,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "大阪市北区",
           "employees": 800,
@@ -240,9 +240,9 @@
           "name": "NTTデータ",
           "url": "https://www.nttdata.com/global/ja/",
           "financials": {
-            "revenue_oku_jpy": 44000,
-            "as_of": "2025",
-            "note": "NTTデータグループ連結・概算"
+            "revenue_oku_jpy": 50046,
+            "as_of": "2026-07",
+            "note": "売上高=2026年3月期実績(報道値)。2025-09上場廃止(NTT完全子会社化)"
           },
           "hq": "東京都江東区",
           "employees": 195000,
@@ -254,10 +254,10 @@
           "name": "野村総合研究所",
           "url": "https://www.nri.com/jp/",
           "financials": {
-            "revenue_oku_jpy": 7600,
-            "market_cap_oku_jpy": 30000,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 8147,
+            "market_cap_oku_jpy": 28498,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "東京都千代田区",
           "employees": 17000,
@@ -278,9 +278,9 @@
           "name": "SCSK",
           "url": "https://www.scsk.jp/",
           "financials": {
-            "revenue_oku_jpy": 4900,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 7803,
+            "as_of": "2026-07",
+            "note": "売上収益=2026年3月期実績(決算短信)。2026-03上場廃止(住友商事完全子会社化)"
           },
           "hq": "東京都江東区",
           "employees": 16000,
@@ -352,9 +352,10 @@
             "code": "9434"
           },
           "financials": {
-            "revenue_oku_jpy": 70387,
-            "as_of": "2026-05",
-            "note": "売上高=2026年3月期実績(決算短信)。時価総額は概算"
+            "revenue_oku_jpy": 70386,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点",
+            "market_cap_oku_jpy": 105509
           }
         },
         {
@@ -552,10 +553,10 @@
           "name": "鹿島建設",
           "url": "https://www.kajima.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 26000,
-            "market_cap_oku_jpy": 16000,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 30672,
+            "market_cap_oku_jpy": 29895,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "東京都港区",
           "employees": 20000,
@@ -568,10 +569,10 @@
           "name": "大成建設",
           "url": "https://www.taisei.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 18000,
-            "market_cap_oku_jpy": 12000,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 20890,
+            "market_cap_oku_jpy": 22552,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "東京都新宿区",
           "employees": 15000,
@@ -584,10 +585,10 @@
           "name": "大林組",
           "url": "https://www.obayashi.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 23000,
-            "market_cap_oku_jpy": 11000,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 25862,
+            "market_cap_oku_jpy": 22559,
+            "as_of": "2026-07-22",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-22時点"
           },
           "hq": "東京都港区",
           "employees": 16000,
@@ -600,10 +601,10 @@
           "name": "清水建設",
           "url": "https://www.shimz.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 20000,
-            "market_cap_oku_jpy": 8000,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 20578,
+            "market_cap_oku_jpy": 17788,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "東京都中央区",
           "employees": 20000,
@@ -616,9 +617,9 @@
           "name": "竹中工務店",
           "url": "https://www.takenaka.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 16000,
-            "as_of": "2025",
-            "note": "非上場・概算"
+            "revenue_oku_jpy": 16147,
+            "as_of": "2026-07",
+            "note": "売上高=2025年12月期実績(決算発表)"
           },
           "hq": "大阪市中央区",
           "employees": 8000,
@@ -715,10 +716,10 @@
           "name": "三菱電機",
           "url": "https://www.mitsubishielectric.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 55000,
-            "market_cap_oku_jpy": 60000,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 58947,
+            "market_cap_oku_jpy": 121424,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "東京都千代田区",
           "employees": 150000,
@@ -731,10 +732,10 @@
           "name": "富士電機",
           "url": "https://www.fujielectric.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 11000,
-            "market_cap_oku_jpy": 12000,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 12276,
+            "market_cap_oku_jpy": 19677,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "東京都品川区",
           "employees": 28000,
@@ -824,10 +825,10 @@
           "name": "ダイキン工業",
           "url": "https://www.daikin.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 47000,
-            "market_cap_oku_jpy": 55000,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 50150,
+            "market_cap_oku_jpy": 70684,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "大阪市北区",
           "employees": 98000,
@@ -879,10 +880,10 @@
           "name": "NVIDIA",
           "url": "https://www.nvidia.com/ja-jp/",
           "financials": {
-            "revenue_oku_jpy": 195000,
-            "market_cap_oku_jpy": 6500000,
-            "as_of": "2025",
-            "note": "ドル150円換算・概算"
+            "revenue_oku_jpy": 323850,
+            "market_cap_oku_jpy": 7200000,
+            "as_of": "2026-07",
+            "note": "売上=FY2026(2026年1月期)実績$215.9B、時価総額=$4.8兆(2026-07-17時点)。1ドル=150円換算の概算"
           },
           "hq": "米カリフォルニア州サンタクララ",
           "employees": 30000,
@@ -894,10 +895,10 @@
           "name": "AMD",
           "url": "https://www.amd.com/ja.html",
           "financials": {
-            "revenue_oku_jpy": 39000,
-            "market_cap_oku_jpy": 400000,
-            "as_of": "2025",
-            "note": "ドル150円換算・概算"
+            "revenue_oku_jpy": 51900,
+            "market_cap_oku_jpy": 1351000,
+            "as_of": "2026-07",
+            "note": "売上=2025年12月期実績$34.6B、時価総額=$901B(2026-07-22時点)。1ドル=150円換算の概算"
           },
           "hq": "米カリフォルニア州サンタクララ",
           "employees": 28000,
@@ -909,10 +910,10 @@
           "name": "インテル",
           "url": "https://www.intel.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 80000,
-            "market_cap_oku_jpy": 150000,
-            "as_of": "2025",
-            "note": "ドル150円換算・概算"
+            "revenue_oku_jpy": 79350,
+            "market_cap_oku_jpy": 773600,
+            "as_of": "2026-07",
+            "note": "売上=2025年12月期実績$52.9B(Altera非連結化影響あり)、時価総額=$516B(2026-07-22時点)。1ドル=150円換算の概算"
           },
           "hq": "米カリフォルニア州サンタクララ",
           "employees": 100000,
@@ -937,10 +938,10 @@
           "name": "デル・テクノロジーズ",
           "url": "https://www.dell.com/ja-jp",
           "financials": {
-            "revenue_oku_jpy": 143000,
-            "market_cap_oku_jpy": 120000,
-            "as_of": "2025",
-            "note": "ドル150円換算・概算"
+            "revenue_oku_jpy": 170250,
+            "market_cap_oku_jpy": 429700,
+            "as_of": "2026-07",
+            "note": "売上=FY2026(2026年1月期)実績$113.5B、時価総額=$286B(2026-07-22時点)。1ドル=150円換算の概算"
           },
           "hq": "米テキサス州ラウンドロック",
           "employees": 108000,
@@ -970,10 +971,10 @@
           "name": "富士通",
           "url": "https://www.fujitsu.com/jp/",
           "financials": {
-            "revenue_oku_jpy": 37000,
-            "market_cap_oku_jpy": 60000,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 35029,
+            "market_cap_oku_jpy": 56438,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           },
           "hq": "川崎市中原区",
           "employees": 124000,
@@ -986,10 +987,10 @@
           "name": "NEC",
           "url": "https://jpn.nec.com/",
           "financials": {
-            "revenue_oku_jpy": 34000,
-            "market_cap_oku_jpy": 40000,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 35827,
+            "market_cap_oku_jpy": 59399,
+            "as_of": "2026-07-17",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-17時点"
           },
           "hq": "東京都港区",
           "employees": 105000,
@@ -1031,10 +1032,10 @@
           "name": "シスコシステムズ",
           "url": "https://www.cisco.com/c/ja_jp/",
           "financials": {
-            "revenue_oku_jpy": 82000,
-            "market_cap_oku_jpy": 390000,
-            "as_of": "2025",
-            "note": "ドル150円換算・概算"
+            "revenue_oku_jpy": 85050,
+            "market_cap_oku_jpy": 663400,
+            "as_of": "2026-07",
+            "note": "売上=FY2025(2025年7月期)実績$56.7B、時価総額=$442B(2026-07-22時点)。1ドル=150円換算の概算"
           },
           "hq": "米カリフォルニア州サンノゼ",
           "employees": 90000,
@@ -1077,10 +1078,10 @@
           "name": "三井不動産",
           "url": "https://www.mitsuifudosan.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 25000,
-            "market_cap_oku_jpy": 40000,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 27097,
+            "market_cap_oku_jpy": 42882,
+            "as_of": "2026-07-06",
+            "note": "営業収益=2026年3月期実績(決算短信)、時価総額=2026-07-06時点"
           },
           "hq": "東京都中央区",
           "employees": 20000,
@@ -1093,10 +1094,10 @@
           "name": "三菱地所",
           "url": "https://www.mec.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 15000,
-            "market_cap_oku_jpy": 35000,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 17461,
+            "market_cap_oku_jpy": 51768,
+            "as_of": "2026-07-06",
+            "note": "営業収益=2026年3月期実績(決算短信)、時価総額=2026-07-06時点"
           },
           "hq": "東京都千代田区",
           "employees": 11000,
@@ -1230,9 +1231,10 @@
             "code": "8306"
           },
           "financials": {
-            "market_cap_oku_jpy": 404689,
-            "as_of": "2026-07-08",
-            "note": "持株会社MUFG連結の値。経常収益は概算。時価総額=2026-07-08時点"
+            "market_cap_oku_jpy": 445039,
+            "as_of": "2026-07-23",
+            "note": "持株会社MUFG連結の値。経常収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点",
+            "revenue_oku_jpy": 146208
           }
         },
         {
@@ -1246,8 +1248,9 @@
           },
           "financials": {
             "revenue_oku_jpy": 107909,
-            "as_of": "2026-05",
-            "note": "持株会社SMFG連結の値: 経常収益=2026年3月期実績(決算短信)。時価総額は概算"
+            "as_of": "2026-07-23",
+            "note": "持株会社SMFG連結の値。経常収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点",
+            "market_cap_oku_jpy": 274316
           }
         },
         {
@@ -1258,6 +1261,12 @@
           "listing": {
             "market": "東証プライム(みずほフィナンシャルグループ)",
             "code": "8411"
+          },
+          "financials": {
+            "revenue_oku_jpy": 90854,
+            "market_cap_oku_jpy": 218260,
+            "as_of": "2026-07-23",
+            "note": "経常収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {

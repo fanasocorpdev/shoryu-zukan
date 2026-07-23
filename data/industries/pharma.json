@@ -74,10 +74,10 @@
             "code": "4502"
           },
           "financials": {
-            "revenue_oku_jpy": 45000,
-            "market_cap_oku_jpy": 72724,
-            "as_of": "2025-12-19",
-            "note": "売上収益は概算。時価総額=2025-12-19時点"
+            "revenue_oku_jpy": 45057,
+            "market_cap_oku_jpy": 87595,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -91,9 +91,9 @@
           },
           "financials": {
             "revenue_oku_jpy": 21230,
-            "market_cap_oku_jpy": 110000,
-            "as_of": "2026-05",
-            "note": "売上収益=2026年3月期実績(決算短信)。時価総額は概算"
+            "market_cap_oku_jpy": 52189,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -106,10 +106,10 @@
             "code": "4503"
           },
           "financials": {
-            "revenue_oku_jpy": 19000,
-            "market_cap_oku_jpy": 30000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 21392,
+            "market_cap_oku_jpy": 39106,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -122,10 +122,10 @@
             "code": "4519"
           },
           "financials": {
-            "revenue_oku_jpy": 12000,
-            "market_cap_oku_jpy": 120000,
-            "as_of": "2025",
-            "note": "概算。ロシュ傘下"
+            "revenue_oku_jpy": 12579,
+            "market_cap_oku_jpy": 121093,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2025年12月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -138,10 +138,10 @@
             "code": "4578"
           },
           "financials": {
-            "revenue_oku_jpy": 23000,
-            "market_cap_oku_jpy": 50000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 24689,
+            "market_cap_oku_jpy": 59267,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2025年12月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -154,10 +154,10 @@
             "code": "4523"
           },
           "financials": {
-            "revenue_oku_jpy": 7500,
-            "market_cap_oku_jpy": 20000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 8253,
+            "market_cap_oku_jpy": 13363,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -170,10 +170,10 @@
             "code": "4507"
           },
           "financials": {
-            "revenue_oku_jpy": 4500,
-            "market_cap_oku_jpy": 10000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 4997,
+            "market_cap_oku_jpy": 25336,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -405,10 +405,10 @@
             "code": "7459"
           },
           "financials": {
-            "revenue_oku_jpy": 35000,
-            "market_cap_oku_jpy": 4000,
-            "as_of": "2025",
-            "note": "概算。売上規模に対し利益率が薄いのが卸の特徴"
+            "revenue_oku_jpy": 38174,
+            "market_cap_oku_jpy": 6163,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -421,10 +421,10 @@
             "code": "2784"
           },
           "financials": {
-            "revenue_oku_jpy": 29000,
-            "market_cap_oku_jpy": 4500,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 31040,
+            "market_cap_oku_jpy": 4434,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -437,10 +437,10 @@
             "code": "9987"
           },
           "financials": {
-            "revenue_oku_jpy": 24000,
-            "market_cap_oku_jpy": 2500,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 24866,
+            "market_cap_oku_jpy": 3700,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -453,9 +453,10 @@
             "code": "8129"
           },
           "financials": {
-            "revenue_oku_jpy": 15000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 15533,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点",
+            "market_cap_oku_jpy": 2909
           }
         },
         {
@@ -586,9 +587,10 @@
             "code": "9627"
           },
           "financials": {
-            "revenue_oku_jpy": 4000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 6478,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年4月期実績(決算短信)、時価総額=2026-07-23時点",
+            "market_cap_oku_jpy": 2057
           }
         },
         {
@@ -597,12 +599,12 @@
           "hq": "東京都千代田区",
           "employees": 6000,
           "listing": {
-            "market": "非上場(上場廃止)"
+            "market": "非上場(アドバンテッジパートナーズ系ファンド傘下)"
           },
           "financials": {
-            "revenue_oku_jpy": 3500,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 3605,
+            "as_of": "2026-07",
+            "note": "売上高=2025年3月期実績(決算短信)。2025-12上場廃止(ファンドによる非公開化)"
           }
         },
         {
@@ -614,9 +616,9 @@
             "market": "非上場(ツルハHDと経営統合)"
           },
           "financials": {
-            "revenue_oku_jpy": 12000,
-            "as_of": "2025",
-            "note": "概算。ツルハHDと経営統合手続き中(イオン系)"
+            "revenue_oku_jpy": 12850,
+            "as_of": "2026-07",
+            "note": "売上高=2025年2月期実績(決算短信)。2025-11上場廃止(ツルハHDと経営統合)"
           }
         },
         {
@@ -629,9 +631,10 @@
             "code": "3391"
           },
           "financials": {
-            "revenue_oku_jpy": 10000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 14506,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年2月期(決算期変更)実績(決算短信)、時価総額=2026-07-23時点",
+            "market_cap_oku_jpy": 10745
           }
         },
         {
@@ -852,9 +855,10 @@
             "code": "4587"
           },
           "financials": {
-            "market_cap_oku_jpy": 3000,
-            "as_of": "2025",
-            "note": "概算"
+            "market_cap_oku_jpy": 1239,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2025年12月期実績(決算短信)、時価総額=2026-07-23時点",
+            "revenue_oku_jpy": 185
           }
         },
         {
@@ -1357,10 +1361,10 @@
             "code": "4901"
           },
           "financials": {
-            "revenue_oku_jpy": 30000,
-            "market_cap_oku_jpy": 40000,
-            "as_of": "2025",
-            "note": "概算。バイオCDMOに大型投資中"
+            "revenue_oku_jpy": 33570,
+            "market_cap_oku_jpy": 35767,
+            "as_of": "2026-07",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07時点"
           }
         },
         {
@@ -1373,10 +1377,10 @@
             "code": "5201"
           },
           "financials": {
-            "revenue_oku_jpy": 20000,
-            "market_cap_oku_jpy": 10000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 20588,
+            "market_cap_oku_jpy": 13731,
+            "as_of": "2026-07-23",
+            "note": "売上高=2025年12月期実績(決算短信)、時価総額=2026-07-23時点"
           }
         },
         {
@@ -1389,9 +1393,10 @@
             "code": "8086"
           },
           "financials": {
-            "revenue_oku_jpy": 6000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 6605,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点",
+            "market_cap_oku_jpy": 2664
           }
         },
         {
