@@ -446,6 +446,13 @@ svg.near .node .companies { opacity: 1; }
   background: rgba(255,255,255,.6); color: var(--ink);
 }
 .sort-note { font-size: .68rem; color: var(--ink-soft); line-height: 1.6; margin: 6px 0 2px; }
+.company-filter {
+  font-family: inherit; font-size: .82rem; padding: 6px 12px;
+  border: 1.5px solid var(--paper-edge); border-radius: 999px;
+  background: rgba(255,255,255,.6); color: var(--ink);
+  width: 100%; margin: 6px 0 2px;
+}
+.company-filter:focus { outline: none; border-color: var(--gold); }
 
 .seg { margin-top: 10px; }
 .seg-h { display: flex; align-items: center; justify-content: space-between; gap: 8px; }

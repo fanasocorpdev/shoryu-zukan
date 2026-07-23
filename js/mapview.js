@@ -274,7 +274,8 @@ export function createMapView(container, data) {
           <option value="emp"${sortMode === "emp" ? " selected" : ""}>従業員数順</option>
         </select>
       </div>
-      <p class="sort-note">標準の掲載順は編集方針で固定(課金で変わりません)。財務値は公開情報ベースの概算です。</p>`;
+      <p class="sort-note">標準の掲載順は編集方針で固定(課金で変わりません)。財務値は公開情報ベースの概算です。</p>
+      ${comps.length > 20 ? `<input type="search" class="company-filter" placeholder="🔍 この中から絞り込む(社名・証券コード)" autocomplete="off">` : ""}`;
     let body;
     if (n.segments?.length) {
       const bySeg = new Map(n.segments.map((s) => [s.id, []]));
@@ -307,6 +308,14 @@ export function createMapView(container, data) {
     panel.querySelector(".sort-select")?.addEventListener("change", (ev) => {
       sortMode = ev.target.value;
       rerender();
+    });
+    // ノード内の企業絞り込み(表示のみをフィルタ)
+    const filter = panel.querySelector(".company-filter");
+    filter?.addEventListener("input", () => {
+      const q = filter.value.trim().toLowerCase();
+      for (const li of panel.querySelectorAll(".company:not(.none)")) {
+        li.style.display = !q || li.textContent.toLowerCase().includes(q) ? "" : "none";
+      }
     });
   }
 

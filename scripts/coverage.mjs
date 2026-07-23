@@ -55,6 +55,28 @@ const hit = hitCode + hitName;
 console.log(`基準日 ${jpx.as_of} / 国内上場 ${total}社`);
 console.log(`カバー済み: ${hit}社 (${((hit / total) * 100).toFixed(1)}%)  [コード一致 ${hitCode} / 名前一致 ${hitName}]`);
 console.log(`未カバー: ${total - hit}社\n`);
+
+// 規模区分別カバー率(TOPIX Core30 / Large70 / Mid400 = TOPIX500)
+const coveredCodes = new Set(coveredList.map((c) => c.code));
+const scaleStats = {};
+for (const co of jpx.companies) {
+  const s = co.scale || "-";
+  scaleStats[s] ??= { total: 0, hit: 0 };
+  scaleStats[s].total++;
+  if (coveredCodes.has(co.code)) scaleStats[s].hit++;
+}
+const SCALE_ORDER = ["TOPIX Core30", "TOPIX Large70", "TOPIX Mid400", "TOPIX Small 1", "TOPIX Small 2", "-"];
+console.log("規模区分別カバー率:");
+let t500 = { total: 0, hit: 0 };
+for (const s of SCALE_ORDER) {
+  const v = scaleStats[s];
+  if (!v) continue;
+  console.log(`  ${s}: ${v.hit}/${v.total} (${((v.hit / v.total) * 100).toFixed(1)}%)`);
+  if (["TOPIX Core30", "TOPIX Large70", "TOPIX Mid400"].includes(s)) {
+    t500.total += v.total; t500.hit += v.hit;
+  }
+}
+if (t500.total) console.log(`  ▶ TOPIX500(大型・中型株): ${t500.hit}/${t500.total} (${((t500.hit / t500.total) * 100).toFixed(1)}%)\n`);
 console.log("未カバーの多い33業種(=次に作るべき親マップの優先度):");
 const ranked = Object.entries(uncoveredBySector).sort((a, b) => b[1].length - a[1].length);
 for (const [sector, list] of ranked.slice(0, 12)) {
@@ -70,6 +92,7 @@ writeFileSync(
       total,
       covered: hit,
       percent: Number(((hit / total) * 100).toFixed(1)),
+      topix500: t500.total ? { total: t500.total, covered: t500.hit, percent: Number(((t500.hit / t500.total) * 100).toFixed(1)) } : null,
       top_gaps: ranked.slice(0, 5).map(([s, l]) => ({ sector: s, count: l.length })),
     },
     null,

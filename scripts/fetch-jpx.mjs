@@ -40,6 +40,7 @@ const companies = rows
     name: String(r["銘柄名"]).trim(),
     market: String(r["市場・商品区分"]).replace(/[(（]内国株式[)）]/, ""),
     sector33: String(r["33業種区分"] ?? "-").trim(),
+    scale: String(r["規模区分"] ?? "-").trim(),
   }));
 
 if (!companies.length) {

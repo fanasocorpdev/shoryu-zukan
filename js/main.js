@@ -20,10 +20,14 @@ async function coverageHTML() {
   try {
     const c = await fetchJSON("data/reference/coverage-summary.json");
     const asOf = String(c.as_of).replace(/^(\d{4})(\d{2})(\d{2})$/, "$1-$2-$3");
+    const t5 = c.topix500;
     return `<a class="coverage" href="#/all" title="全銘柄索引を見る">
       <div class="cov-label">🗾 国内上場企業カバー率
         <strong>${c.percent}%</strong>(${c.covered.toLocaleString()} / ${c.total.toLocaleString()}社・JPX ${asOf}基準)</div>
       <div class="cov-bar"><div class="cov-fill" style="width:${Math.max(c.percent, 1.5)}%"></div></div>
+      ${t5 ? `<div class="cov-label" style="margin-top:8px">📈 TOPIX500(大型・中型株)
+        <strong>${t5.percent}%</strong>(${t5.covered} / ${t5.total}社)</div>
+      <div class="cov-bar"><div class="cov-fill" style="width:${Math.max(t5.percent, 1.5)}%"></div></div>` : ""}
       <div class="cov-more">全銘柄索引 →</div>
     </a>`;
   } catch {
