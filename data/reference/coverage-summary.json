@@ -1,8 +1,8 @@
 {
   "as_of": "20260630",
   "total": 3716,
-  "covered": 2540,
-  "percent": 68.4,
+  "covered": 2765,
+  "percent": 74.4,
   "topix500": {
     "total": 493,
     "covered": 492,
@@ -11,11 +11,11 @@
   "top_gaps": [
     {
       "sector": "サービス業",
-      "count": 286
+      "count": 173
     },
     {
       "sector": "情報・通信業",
-      "count": 277
+      "count": 165
     },
     {
       "sector": "電気機器",

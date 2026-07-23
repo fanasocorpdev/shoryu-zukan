@@ -554,6 +554,225 @@
             "market": "東証プライム",
             "code": "3393"
           }
+        },
+        {
+          "name": "システムインテグレータ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3826"
+          }
+        },
+        {
+          "name": "リックソフト",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4429"
+          }
+        },
+        {
+          "name": "日本プロセス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9651"
+          }
+        },
+        {
+          "name": "KSK",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9687"
+          }
+        },
+        {
+          "name": "両毛システムズ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9691"
+          }
+        },
+        {
+          "name": "昭和システムエンジニアリング",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4752"
+          }
+        },
+        {
+          "name": "コンピューターマネージメント",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4491"
+          }
+        },
+        {
+          "name": "ディ・アイ・システム",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4421"
+          }
+        },
+        {
+          "name": "システムエグゼ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "548A"
+          }
+        },
+        {
+          "name": "ノバシステム",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5257"
+          }
+        },
+        {
+          "name": "オービーシステム",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5576"
+          }
+        },
+        {
+          "name": "日本ラッド",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4736"
+          }
+        },
+        {
+          "name": "ネクストウェア",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4814"
+          }
+        },
+        {
+          "name": "アクモス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6888"
+          }
+        },
+        {
+          "name": "NCD",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4783"
+          }
+        },
+        {
+          "name": "IC",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4769"
+          }
+        },
+        {
+          "name": "MITホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4016"
+          }
+        },
+        {
+          "name": "SYSホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3988"
+          }
+        },
+        {
+          "name": "PCIホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3918"
+          }
+        },
+        {
+          "name": "SIGグループ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4386"
+          }
+        },
+        {
+          "name": "DAIKO XTECH",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8023"
+          }
+        },
+        {
+          "name": "モンスターラボ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5255"
+          }
+        },
+        {
+          "name": "ハイブリッドテクノロジーズ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4260"
+          }
+        },
+        {
+          "name": "BlueMeme",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4069"
+          }
+        },
+        {
+          "name": "ラキール",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4074"
+          }
+        },
+        {
+          "name": "テンダ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4198"
+          }
+        },
+        {
+          "name": "アピリッツ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4174"
+          }
+        },
+        {
+          "name": "Fusic",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5256"
+          }
+        },
+        {
+          "name": "フレクト",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4414"
+          }
+        },
+        {
+          "name": "コアコンセプト・テクノロジー",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4371"
+          },
+          "note": "製造業DX"
+        },
+        {
+          "name": "インテリジェント ウェイブ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4847"
+          },
+          "note": "金融システム"
         }
       ],
       "updated": "2026-07-23"
@@ -835,6 +1054,105 @@
             "market": "東証プライム",
             "code": "3836"
           }
+        },
+        {
+          "name": "スタメン",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4019"
+          },
+          "note": "エンゲージメント"
+        },
+        {
+          "name": "アイキューブドシステムズ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4495"
+          },
+          "note": "MDM"
+        },
+        {
+          "name": "シャノン",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3976"
+          }
+        },
+        {
+          "name": "ショーケース",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3909"
+          }
+        },
+        {
+          "name": "テモナ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3985"
+          }
+        },
+        {
+          "name": "ベーシック",
+          "listing": {
+            "market": "東証グロース",
+            "code": "519A"
+          }
+        },
+        {
+          "name": "ヌーラボ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5033"
+          },
+          "note": "Backlog"
+        },
+        {
+          "name": "ファーストアカウンティング",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5588"
+          },
+          "note": "経理AI"
+        },
+        {
+          "name": "システム ディ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3804"
+          },
+          "note": "学園・公教育"
+        },
+        {
+          "name": "ODKソリューションズ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3839"
+          },
+          "note": "入試システム"
+        },
+        {
+          "name": "エムケイシステム",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3910"
+          }
+        },
+        {
+          "name": "オプロ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "228A"
+          },
+          "note": "帳票"
+        },
+        {
+          "name": "ハンモック",
+          "listing": {
+            "market": "東証グロース",
+            "code": "173A"
+          },
+          "note": "IT資産管理"
         }
       ],
       "updated": "2026-07-23"
@@ -960,6 +1278,36 @@
             "market": "東証プライム",
             "code": "6050"
           }
+        },
+        {
+          "name": "かっこ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4166"
+          },
+          "note": "不正検知"
+        },
+        {
+          "name": "セキュアヴェイル",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3042"
+          }
+        },
+        {
+          "name": "エンカレッジ・テクノロジ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3682"
+          }
+        },
+        {
+          "name": "トビラシステムズ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4441"
+          },
+          "note": "迷惑電話対策"
         }
       ],
       "updated": "2026-07-23"
@@ -1335,6 +1683,63 @@
             "code": "3663"
           },
           "note": "CLIP STUDIO"
+        },
+        {
+          "name": "ボルテージ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3639"
+          }
+        },
+        {
+          "name": "オルトプラス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3672"
+          }
+        },
+        {
+          "name": "ガーラ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4777"
+          }
+        },
+        {
+          "name": "サイバーステップホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3810"
+          }
+        },
+        {
+          "name": "マイネット",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3928"
+          }
+        },
+        {
+          "name": "エディア",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3935"
+          }
+        },
+        {
+          "name": "アエリア",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3758"
+          }
+        },
+        {
+          "name": "エヌジェイホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9421"
+          },
+          "note": "ゲーム開発支援"
         }
       ],
       "updated": "2026-07-23"
@@ -1474,6 +1879,57 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "6836"
+          }
+        },
+        {
+          "name": "東名",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4439"
+          },
+          "note": "オフィス光回線"
+        },
+        {
+          "name": "フォーバルテレコム",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9445"
+          }
+        },
+        {
+          "name": "クロップス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9428"
+          },
+          "note": "携帯販売代理"
+        },
+        {
+          "name": "トーシンホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9444"
+          }
+        },
+        {
+          "name": "サカイホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9446"
+          }
+        },
+        {
+          "name": "ベネフィットジャパン",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3934"
+          }
+        },
+        {
+          "name": "日本エンタープライズ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4829"
           }
         }
       ],
@@ -1798,6 +2254,127 @@
             "code": "3559"
           },
           "note": "基板EC"
+        },
+        {
+          "name": "GO",
+          "listing": {
+            "market": "東証グロース",
+            "code": "581A"
+          },
+          "note": "タクシーアプリ"
+        },
+        {
+          "name": "ジョルダン",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3710"
+          },
+          "note": "乗換案内"
+        },
+        {
+          "name": "駅探",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3646"
+          }
+        },
+        {
+          "name": "ブイキューブ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3681"
+          },
+          "note": "Web会議"
+        },
+        {
+          "name": "スペースマーケット",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4487"
+          }
+        },
+        {
+          "name": "Speee",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4499"
+          }
+        },
+        {
+          "name": "ナイル",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5618"
+          }
+        },
+        {
+          "name": "ENECHANGE",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4169"
+          },
+          "note": "電力切替"
+        },
+        {
+          "name": "Kaizen Platform",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4170"
+          }
+        },
+        {
+          "name": "リスクモンスター",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3768"
+          },
+          "note": "与信管理"
+        },
+        {
+          "name": "雨風太陽",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5616"
+          },
+          "note": "ポケットマルシェ"
+        },
+        {
+          "name": "ハッチ・ワーク",
+          "listing": {
+            "market": "東証グロース",
+            "code": "148A"
+          },
+          "note": "月極駐車場"
+        },
+        {
+          "name": "Rebase",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5138"
+          },
+          "note": "スペース予約"
+        },
+        {
+          "name": "tripla",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5136"
+          },
+          "note": "ホテル予約SaaS"
+        },
+        {
+          "name": "カラダノート",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4014"
+          }
+        },
+        {
+          "name": "クルーズ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2138"
+          }
         }
       ],
       "updated": "2026-07-23"
@@ -2023,6 +2600,51 @@
             "market": "東証グロース",
             "code": "3680"
           }
+        },
+        {
+          "name": "アドバンスト・メディア",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3773"
+          },
+          "note": "音声認識"
+        },
+        {
+          "name": "ユーソナー",
+          "listing": {
+            "market": "東証グロース",
+            "code": "431A"
+          }
+        },
+        {
+          "name": "VALUENEX",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4422"
+          }
+        },
+        {
+          "name": "グローバルインフォメーション",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4171"
+          }
+        },
+        {
+          "name": "ミライロ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "335A"
+          },
+          "note": "バリアフリー情報"
+        },
+        {
+          "name": "GVA TECH",
+          "listing": {
+            "market": "東証グロース",
+            "code": "298A"
+          },
+          "note": "リーガルAI"
         }
       ],
       "updated": "2026-07-23"
@@ -2248,6 +2870,141 @@
             "code": "9341"
           },
           "note": "医療メディア"
+        },
+        {
+          "name": "Arent",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5254"
+          },
+          "note": "建設DX"
+        },
+        {
+          "name": "BRANU",
+          "listing": {
+            "market": "東証グロース",
+            "code": "460A"
+          },
+          "note": "建設DX"
+        },
+        {
+          "name": "応用技術",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4356"
+          },
+          "note": "建設CAE"
+        },
+        {
+          "name": "サイバーリンクス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3683"
+          },
+          "note": "流通クラウド"
+        },
+        {
+          "name": "サインド",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4256"
+          },
+          "note": "美容SaaS"
+        },
+        {
+          "name": "POPER",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5134"
+          },
+          "note": "塾SaaS"
+        },
+        {
+          "name": "スマートドライブ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5137"
+          },
+          "note": "モビリティデータ"
+        },
+        {
+          "name": "ジェノバ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5570"
+          },
+          "note": "GNSS補正"
+        },
+        {
+          "name": "ドーン",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2303"
+          },
+          "note": "防災GIS"
+        },
+        {
+          "name": "キャピタル・アセット・プランニング",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3965"
+          }
+        },
+        {
+          "name": "トレードワークス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3997"
+          }
+        },
+        {
+          "name": "インタートレード",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3747"
+          }
+        },
+        {
+          "name": "サインポスト",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3996"
+          }
+        },
+        {
+          "name": "エコモット",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3987"
+          }
+        },
+        {
+          "name": "ベイシス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4068"
+          }
+        },
+        {
+          "name": "モビルス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4370"
+          }
+        },
+        {
+          "name": "HOUSEI",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5035"
+          }
+        },
+        {
+          "name": "ビートレンド",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4020"
+          }
         }
       ],
       "updated": "2026-07-23"
@@ -2530,6 +3287,65 @@
             "code": "2767"
           },
           "note": "ウルトラマン・遊技機"
+        },
+        {
+          "name": "NexTone",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7094"
+          },
+          "note": "音楽著作権"
+        },
+        {
+          "name": "KeyHolder",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4712"
+          }
+        },
+        {
+          "name": "モイ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5031"
+          },
+          "note": "ツイキャス"
+        },
+        {
+          "name": "THECOO",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4255"
+          }
+        },
+        {
+          "name": "スペースシャワーSKIYAKIホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4838"
+          }
+        },
+        {
+          "name": "中央経済社ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9476"
+          },
+          "note": "出版"
+        },
+        {
+          "name": "まぐまぐ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4059"
+          }
+        },
+        {
+          "name": "ソーシャルワイヤー",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3929"
+          }
         }
       ],
       "updated": "2026-07-23"

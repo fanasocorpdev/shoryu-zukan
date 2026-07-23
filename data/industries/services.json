@@ -295,6 +295,133 @@
             "market": "東証プライム",
             "code": "4763"
           }
+        },
+        {
+          "name": "ギグワークス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2375"
+          }
+        },
+        {
+          "name": "アルバイトタイムス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2341"
+          }
+        },
+        {
+          "name": "コンフィデンス・インターワークス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7374"
+          }
+        },
+        {
+          "name": "ヒップ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2136"
+          }
+        },
+        {
+          "name": "ソーバル",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2186"
+          }
+        },
+        {
+          "name": "アビスト",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6087"
+          }
+        },
+        {
+          "name": "エスユーエス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6554"
+          }
+        },
+        {
+          "name": "CDS",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2169"
+          }
+        },
+        {
+          "name": "SOLIZE Holdings",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5871"
+          }
+        },
+        {
+          "name": "CRGホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7041"
+          }
+        },
+        {
+          "name": "MRT",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6034"
+          },
+          "note": "医師人材"
+        },
+        {
+          "name": "みらいワークス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6563"
+          }
+        },
+        {
+          "name": "スローガン",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9253"
+          }
+        },
+        {
+          "name": "キャリア",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6198"
+          }
+        },
+        {
+          "name": "クックビズ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6558"
+          }
+        },
+        {
+          "name": "ジンジブ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "142A"
+          }
+        },
+        {
+          "name": "ダイブ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "151A"
+          }
+        },
+        {
+          "name": "ヒトトヒトホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "549A"
+          }
         }
       ],
       "updated": "2026-07-23"
@@ -548,6 +675,234 @@
             "code": "4784"
           },
           "note": "ネット広告(4784)"
+        },
+        {
+          "name": "W TOKYO",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9159"
+          },
+          "note": "東京ガールズコレクション"
+        },
+        {
+          "name": "Birdman",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7063"
+          }
+        },
+        {
+          "name": "揚羽",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9330"
+          }
+        },
+        {
+          "name": "ブランジスタ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6176"
+          }
+        },
+        {
+          "name": "日宣",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6543"
+          }
+        },
+        {
+          "name": "中広",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2139"
+          }
+        },
+        {
+          "name": "セーラー広告",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2156"
+          }
+        },
+        {
+          "name": "地域新聞社",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2164"
+          }
+        },
+        {
+          "name": "タウンニュース社",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2481"
+          }
+        },
+        {
+          "name": "メディックス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "331A"
+          }
+        },
+        {
+          "name": "イーエムネットジャパン",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7036"
+          }
+        },
+        {
+          "name": "デジタリフト",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9244"
+          }
+        },
+        {
+          "name": "サイバー・バズ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7069"
+          }
+        },
+        {
+          "name": "トリドリ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9337"
+          }
+        },
+        {
+          "name": "ラバブルマーケティンググループ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9254"
+          }
+        },
+        {
+          "name": "AViC",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9554"
+          }
+        },
+        {
+          "name": "グラッドキューブ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9561"
+          }
+        },
+        {
+          "name": "ピアラ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7044"
+          }
+        },
+        {
+          "name": "ログリー",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6579"
+          }
+        },
+        {
+          "name": "レントラックス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6045"
+          }
+        },
+        {
+          "name": "アライドアーキテクツ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6081"
+          }
+        },
+        {
+          "name": "アウンコンサルティング",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2459"
+          }
+        },
+        {
+          "name": "ブリーチ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9162"
+          }
+        },
+        {
+          "name": "売れるネット広告社グループ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9235"
+          }
+        },
+        {
+          "name": "バリュークリエーション",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9238"
+          }
+        },
+        {
+          "name": "ジオコード",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7357"
+          }
+        },
+        {
+          "name": "フィードフォースグループ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7068"
+          }
+        },
+        {
+          "name": "セレスポ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9625"
+          }
+        },
+        {
+          "name": "ヒビノ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2469"
+          },
+          "note": "音響・映像"
+        },
+        {
+          "name": "アスカネット",
+          "listing": {
+            "market": "東証グロース",
+            "code": "2438"
+          }
+        },
+        {
+          "name": "シイエム・シイ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2185"
+          },
+          "note": "マニュアル制作"
+        },
+        {
+          "name": "翻訳センター",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2483"
+          },
+          "note": "翻訳"
         }
       ],
       "updated": "2026-07-23"
@@ -735,6 +1090,71 @@
           "listing": {
             "market": "東証グロース",
             "code": "264A"
+          }
+        },
+        {
+          "name": "幼児活動研究会",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2152"
+          }
+        },
+        {
+          "name": "クリップコーポレーション",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4705"
+          }
+        },
+        {
+          "name": "早稲田学習研究会",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5869"
+          },
+          "note": "W早稲田ゼミ"
+        },
+        {
+          "name": "ネイス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "589A"
+          },
+          "note": "体操教室"
+        },
+        {
+          "name": "リスキル",
+          "listing": {
+            "market": "東証グロース",
+            "code": "291A"
+          }
+        },
+        {
+          "name": "FCE",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9564"
+          }
+        },
+        {
+          "name": "コーチ・エィ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9339"
+          }
+        },
+        {
+          "name": "アルー",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7043"
+          }
+        },
+        {
+          "name": "セルム",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7367"
           }
         }
       ],
@@ -953,6 +1373,128 @@
             "market": "東証グロース",
             "code": "6030"
           }
+        },
+        {
+          "name": "極楽湯ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2340"
+          }
+        },
+        {
+          "name": "鉄人化ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2404"
+          },
+          "note": "カラオケの鉄人"
+        },
+        {
+          "name": "旅工房",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6548"
+          }
+        },
+        {
+          "name": "HANATOUR JAPAN",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6561"
+          }
+        },
+        {
+          "name": "IACEトラベル",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "343A"
+          }
+        },
+        {
+          "name": "ベストワンドットコム",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6577"
+          },
+          "note": "クルーズ予約"
+        },
+        {
+          "name": "ベルトラ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7048"
+          }
+        },
+        {
+          "name": "ポラリス・ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3010"
+          }
+        },
+        {
+          "name": "アゴーラ ホスピタリティー グループ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9704"
+          }
+        },
+        {
+          "name": "京都ホテル",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9723"
+          }
+        },
+        {
+          "name": "武蔵野興業",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9635"
+          }
+        },
+        {
+          "name": "きんえい",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9636"
+          }
+        },
+        {
+          "name": "SDエンターテイメント",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4650"
+          }
+        },
+        {
+          "name": "共和コーポレーション",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6570"
+          },
+          "note": "アミューズメント"
+        },
+        {
+          "name": "ランシステム",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3326"
+          }
+        },
+        {
+          "name": "GameWith",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6552"
+          }
+        },
+        {
+          "name": "リンクバル",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6046"
+          }
         }
       ],
       "updated": "2026-07-23"
@@ -1093,6 +1635,52 @@
             "market": "東証スタンダード",
             "code": "4651"
           }
+        },
+        {
+          "name": "ユニバーサル園芸社",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6061"
+          },
+          "note": "貸植木"
+        },
+        {
+          "name": "ユーピーアール",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7065"
+          },
+          "note": "パレット"
+        },
+        {
+          "name": "コーユーレンティア",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7081"
+          }
+        },
+        {
+          "name": "ダイサン",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4750"
+          },
+          "note": "足場"
+        },
+        {
+          "name": "ASNOVA",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9223"
+          },
+          "note": "足場"
+        },
+        {
+          "name": "明豊ファシリティワークス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "1717"
+          }
         }
       ],
       "updated": "2026-07-23"
@@ -1199,6 +1787,64 @@
             "code": "3562"
           },
           "note": "OA機器"
+        },
+        {
+          "name": "アドバンテッジリスクマネジメント",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8769"
+          },
+          "note": "メンタルヘルス"
+        },
+        {
+          "name": "メンタルヘルステクノロジーズ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9218"
+          }
+        },
+        {
+          "name": "ウェルネス・コミュニケーションズ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "366A"
+          }
+        },
+        {
+          "name": "パシフィックネット",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3021"
+          }
+        },
+        {
+          "name": "GMO TECHホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "415A"
+          }
+        },
+        {
+          "name": "ブロードメディア",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4347"
+          }
+        },
+        {
+          "name": "うるる",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3979"
+          },
+          "note": "BPO×SaaS"
+        },
+        {
+          "name": "インバウンドテック",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7031"
+          }
         }
       ],
       "updated": "2026-07-23"
@@ -1256,6 +1902,49 @@
             "code": "6035"
           },
           "note": "IR・SR支援"
+        },
+        {
+          "name": "インテグループ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "192A"
+          }
+        },
+        {
+          "name": "オンデック",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7360"
+          }
+        },
+        {
+          "name": "ジャパンM&Aソリューション",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9236"
+          }
+        },
+        {
+          "name": "アシロ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7378"
+          },
+          "note": "リーガルメディア"
+        },
+        {
+          "name": "ブリッジコンサルティンググループ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9225"
+          }
+        },
+        {
+          "name": "エスネットワークス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5867"
+          }
         }
       ],
       "updated": "2026-07-23"
@@ -1464,6 +2153,129 @@
             "code": "3607"
           },
           "note": "ウェディング"
+        },
+        {
+          "name": "きょくとう",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2300"
+          },
+          "note": "クリーニング"
+        },
+        {
+          "name": "WASHハウス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6537"
+          },
+          "note": "コインランドリー"
+        },
+        {
+          "name": "田谷",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4679"
+          },
+          "note": "美容室"
+        },
+        {
+          "name": "エム・エイチ・グループ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9439"
+          },
+          "note": "美容室"
+        },
+        {
+          "name": "コンヴァノ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6574"
+          },
+          "note": "ネイル"
+        },
+        {
+          "name": "デコルテ・ホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7372"
+          },
+          "note": "写真スタジオ"
+        },
+        {
+          "name": "一蔵",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6186"
+          },
+          "note": "きもの・ウェディング"
+        },
+        {
+          "name": "タメニー",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6181"
+          },
+          "note": "婚活"
+        },
+        {
+          "name": "ケアサービス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2425"
+          }
+        },
+        {
+          "name": "日本ケアサプライ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2393"
+          }
+        },
+        {
+          "name": "エフビー介護サービス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9220"
+          }
+        },
+        {
+          "name": "AHCグループ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7083"
+          }
+        },
+        {
+          "name": "ステムセル研究所",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7096"
+          },
+          "note": "さい帯血バンク"
+        },
+        {
+          "name": "日本動物高度医療センター",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6039"
+          },
+          "note": "動物医療"
+        },
+        {
+          "name": "WOLVES HAND",
+          "listing": {
+            "market": "東証グロース",
+            "code": "194A"
+          },
+          "note": "動物病院"
+        },
+        {
+          "name": "日本エマージェンシーアシスタンス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6063"
+          }
         }
       ],
       "updated": "2026-07-23"

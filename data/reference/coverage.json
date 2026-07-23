@@ -1,7 +1,7 @@
 {
   "as_of": "20260630",
   "total": 3716,
-  "covered": 2368,
+  "covered": 2765,
   "covered_list": [
     {
       "code": "1301",
@@ -114,6 +114,17 @@
       ]
     },
     {
+      "code": "138A",
+      "name": "光フードサービス",
+      "market": "グロース",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
+      ]
+    },
+    {
       "code": "1407",
       "name": "ウエストホールディングス",
       "market": "スタンダード",
@@ -180,6 +191,39 @@
       ]
     },
     {
+      "code": "1429",
+      "name": "日本アクア",
+      "market": "プライム",
+      "sector33": "建設業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
+      "code": "142A",
+      "name": "ジンジブ",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "1430",
+      "name": "ファーストコーポレーション",
+      "market": "スタンダード",
+      "sector33": "建設業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
       "code": "1431",
       "name": "Ｌｉｂ　Ｗｏｒｋ",
       "market": "グロース",
@@ -202,6 +246,17 @@
       ]
     },
     {
+      "code": "1434",
+      "name": "ＪＥＳＣＯホールディングス",
+      "market": "スタンダード",
+      "sector33": "建設業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
       "code": "1435",
       "name": "ｒｏｂｏｔ　ｈｏｍｅ",
       "market": "スタンダード",
@@ -213,8 +268,30 @@
       ]
     },
     {
+      "code": "1443",
+      "name": "技研ホールディングス",
+      "market": "スタンダード",
+      "sector33": "建設業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
       "code": "147A",
       "name": "ソラコム",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "148A",
+      "name": "ハッチ・ワーク",
       "market": "グロース",
       "sector33": "情報・通信業",
       "scale": "-",
@@ -257,6 +334,17 @@
       ]
     },
     {
+      "code": "151A",
+      "name": "ダイブ",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "1605",
       "name": "ＩＮＰＥＸ",
       "market": "プライム",
@@ -290,6 +378,17 @@
       ]
     },
     {
+      "code": "166A",
+      "name": "タスキホールディングス",
+      "market": "プライム",
+      "sector33": "不動産業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "real_estate"
+      ]
+    },
+    {
       "code": "167A",
       "name": "リョーサン菱洋ホールディングス",
       "market": "プライム",
@@ -309,6 +408,17 @@
       "via": "code",
       "industries": [
         "construction"
+      ]
+    },
+    {
+      "code": "1717",
+      "name": "明豊ファシリティワークス",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
       ]
     },
     {
@@ -356,8 +466,41 @@
       ]
     },
     {
+      "code": "1724",
+      "name": "シンクレイヤ",
+      "market": "スタンダード",
+      "sector33": "建設業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
       "code": "1736",
       "name": "オーテック",
+      "market": "スタンダード",
+      "sector33": "建設業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
+      "code": "173A",
+      "name": "ハンモック",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "1758",
+      "name": "太洋基礎工業",
       "market": "スタンダード",
       "sector33": "建設業",
       "scale": "-",
@@ -411,8 +554,41 @@
       ]
     },
     {
+      "code": "1787",
+      "name": "ナカボーテック",
+      "market": "スタンダード",
+      "sector33": "建設業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
       "code": "1793",
       "name": "大本組",
+      "market": "スタンダード",
+      "sector33": "建設業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
+      "code": "1798",
+      "name": "守谷商会",
+      "market": "スタンダード",
+      "sector33": "建設業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
+      "code": "1799",
+      "name": "第一建設工業",
       "market": "スタンダード",
       "sector33": "建設業",
       "scale": "-",
@@ -514,6 +690,17 @@
       ]
     },
     {
+      "code": "1814",
+      "name": "大末建設",
+      "market": "プライム",
+      "sector33": "建設業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
       "code": "1815",
       "name": "鉄建建設",
       "market": "プライム",
@@ -547,8 +734,30 @@
       ]
     },
     {
+      "code": "1826",
+      "name": "佐田建設",
+      "market": "スタンダード",
+      "sector33": "建設業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
       "code": "1827",
       "name": "ナカノフドー建設",
+      "market": "スタンダード",
+      "sector33": "建設業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
+      "code": "1828",
+      "name": "田辺工業",
       "market": "スタンダード",
       "sector33": "建設業",
       "scale": "-",
@@ -591,6 +800,39 @@
       ]
     },
     {
+      "code": "1844",
+      "name": "大盛工業",
+      "market": "スタンダード",
+      "sector33": "建設業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
+      "code": "1847",
+      "name": "イチケン",
+      "market": "スタンダード",
+      "sector33": "建設業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
+      "code": "1848",
+      "name": "富士ピー・エス",
+      "market": "スタンダード",
+      "sector33": "建設業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
       "code": "1850",
       "name": "南海辰村建設",
       "market": "スタンダード",
@@ -607,6 +849,17 @@
       "market": "プライム",
       "sector33": "建設業",
       "scale": "TOPIX Small 1",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
+      "code": "1853",
+      "name": "森組",
+      "market": "スタンダード",
+      "sector33": "建設業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "construction"
@@ -637,6 +890,17 @@
     {
       "code": "1866",
       "name": "北野建設",
+      "market": "スタンダード",
+      "sector33": "建設業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
+      "code": "1867",
+      "name": "植木組",
       "market": "スタンダード",
       "sector33": "建設業",
       "scale": "-",
@@ -888,6 +1152,17 @@
       ]
     },
     {
+      "code": "192A",
+      "name": "インテグループ",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "1930",
       "name": "北陸電気工事",
       "market": "プライム",
@@ -1000,6 +1275,17 @@
       ]
     },
     {
+      "code": "194A",
+      "name": "ＷＯＬＶＥＳ　ＨＡＮＤ",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "1950",
       "name": "日本電設工業",
       "market": "プライム",
@@ -1041,6 +1327,17 @@
       "via": "code",
       "industries": [
         "datacenter"
+      ]
+    },
+    {
+      "code": "1960",
+      "name": "サンテック",
+      "market": "スタンダード",
+      "sector33": "建設業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
       ]
     },
     {
@@ -1123,6 +1420,17 @@
       ]
     },
     {
+      "code": "1972",
+      "name": "三晃金属工業",
+      "market": "スタンダード",
+      "sector33": "建設業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
       "code": "1975",
       "name": "朝日工業社",
       "market": "プライム",
@@ -1168,11 +1476,33 @@
       ]
     },
     {
+      "code": "1981",
+      "name": "協和日成",
+      "market": "スタンダード",
+      "sector33": "建設業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
       "code": "1982",
       "name": "日比谷総合設備",
       "market": "プライム",
       "sector33": "建設業",
       "scale": "TOPIX Small 2",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
+      "code": "1992",
+      "name": "神田通信機",
+      "market": "スタンダード",
+      "sector33": "建設業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "construction"
@@ -1242,6 +1572,17 @@
       "via": "code",
       "industries": [
         "food"
+      ]
+    },
+    {
+      "code": "205A",
+      "name": "ロゴスホールディングス",
+      "market": "グロース",
+      "sector33": "建設業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
       ]
     },
     {
@@ -1367,6 +1708,39 @@
       ]
     },
     {
+      "code": "2136",
+      "name": "ヒップ",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "2138",
+      "name": "クルーズ",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "2139",
+      "name": "中広",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "2146",
       "name": "ＵＴグループ",
       "market": "プライム",
@@ -1383,6 +1757,17 @@
       "market": "プライム",
       "sector33": "サービス業",
       "scale": "TOPIX Small 2",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "2152",
+      "name": "幼児活動研究会",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "services"
@@ -1408,6 +1793,17 @@
       "via": "code",
       "industries": [
         "it_services"
+      ]
+    },
+    {
+      "code": "2156",
+      "name": "セーラー広告",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
       ]
     },
     {
@@ -1477,11 +1873,33 @@
       ]
     },
     {
+      "code": "2164",
+      "name": "地域新聞社",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "2168",
       "name": "パソナグループ",
       "market": "プライム",
       "sector33": "サービス業",
       "scale": "TOPIX Small 1",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "2169",
+      "name": "ＣＤＳ",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "services"
@@ -1562,6 +1980,28 @@
       "via": "code",
       "industries": [
         "pharma"
+      ]
+    },
+    {
+      "code": "2185",
+      "name": "シイエム・シイ",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "2186",
+      "name": "ソーバル",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
       ]
     },
     {
@@ -1884,6 +2324,17 @@
       ]
     },
     {
+      "code": "228A",
+      "name": "オプロ",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "2291",
       "name": "福留ハム",
       "market": "スタンダード",
@@ -1939,6 +2390,17 @@
       ]
     },
     {
+      "code": "2300",
+      "name": "きょくとう",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "2301",
       "name": "学情",
       "market": "プライム",
@@ -1947,6 +2409,17 @@
       "via": "code",
       "industries": [
         "services"
+      ]
+    },
+    {
+      "code": "2303",
+      "name": "ドーン",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
       ]
     },
     {
@@ -2072,6 +2545,28 @@
       ]
     },
     {
+      "code": "2340",
+      "name": "極楽湯ホールディングス",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "2341",
+      "name": "アルバイトタイムス",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "2353",
       "name": "日本駐車場開発",
       "market": "プライム",
@@ -2107,6 +2602,17 @@
     {
       "code": "2373",
       "name": "ケア２１",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "2375",
+      "name": "ギグワークス",
       "market": "スタンダード",
       "sector33": "サービス業",
       "scale": "-",
@@ -2160,6 +2666,17 @@
       ]
     },
     {
+      "code": "2393",
+      "name": "日本ケアサプライ",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "2395",
       "name": "新日本科学",
       "market": "プライム",
@@ -2168,6 +2685,17 @@
       "via": "code",
       "industries": [
         "pharma"
+      ]
+    },
+    {
+      "code": "2404",
+      "name": "鉄人化ホールディングス",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
       ]
     },
     {
@@ -2217,6 +2745,17 @@
     {
       "code": "2424",
       "name": "ブラス",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "2425",
+      "name": "ケアサービス",
       "market": "スタンダード",
       "sector33": "サービス業",
       "scale": "-",
@@ -2292,6 +2831,17 @@
       ]
     },
     {
+      "code": "2438",
+      "name": "アスカネット",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "2440",
       "name": "ぐるなび",
       "market": "スタンダード",
@@ -2336,6 +2886,17 @@
       ]
     },
     {
+      "code": "2459",
+      "name": "アウンコンサルティング",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "2461",
       "name": "ファンコミュニケーションズ",
       "market": "プライム",
@@ -2352,6 +2913,17 @@
       "market": "プライム",
       "sector33": "サービス業",
       "scale": "TOPIX Small 2",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "2469",
+      "name": "ヒビノ",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "services"
@@ -2388,6 +2960,28 @@
       "via": "code",
       "industries": [
         "it_services"
+      ]
+    },
+    {
+      "code": "2481",
+      "name": "タウンニュース社",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "2483",
+      "name": "翻訳センター",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
       ]
     },
     {
@@ -2531,6 +3125,17 @@
       "via": "code",
       "industries": [
         "food"
+      ]
+    },
+    {
+      "code": "253A",
+      "name": "ＥＴＳグループ",
+      "market": "スタンダード",
+      "sector33": "建設業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
       ]
     },
     {
@@ -2765,6 +3370,28 @@
       ]
     },
     {
+      "code": "2666",
+      "name": "オートウェーブ",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "automotive"
+      ]
+    },
+    {
+      "code": "2668",
+      "name": "タビオ",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "consumer_goods"
+      ]
+    },
+    {
       "code": "2670",
       "name": "エービーシー・マート",
       "market": "プライム",
@@ -2853,6 +3480,28 @@
       ]
     },
     {
+      "code": "2693",
+      "name": "ＹＫＴ",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "trading_companies"
+      ]
+    },
+    {
+      "code": "2694",
+      "name": "焼肉坂井ホールディングス",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
+      ]
+    },
+    {
       "code": "2695",
       "name": "くら寿司",
       "market": "プライム",
@@ -2872,6 +3521,17 @@
       "via": "code",
       "industries": [
         "retail"
+      ]
+    },
+    {
+      "code": "2700",
+      "name": "木徳神糧",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
       ]
     },
     {
@@ -2963,6 +3623,17 @@
       ]
     },
     {
+      "code": "2736",
+      "name": "フェスタリアホールディングス",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "retail"
+      ]
+    },
+    {
       "code": "2737",
       "name": "トーメンデバイス",
       "market": "プライム",
@@ -3007,6 +3678,28 @@
       ]
     },
     {
+      "code": "2750",
+      "name": "石光商事",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
+      ]
+    },
+    {
+      "code": "2751",
+      "name": "テンポスホールディングス",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "machinery"
+      ]
+    },
+    {
       "code": "2752",
       "name": "フジオフードグループ本社",
       "market": "プライム",
@@ -3037,6 +3730,28 @@
       "via": "code",
       "industries": [
         "semiconductor"
+      ]
+    },
+    {
+      "code": "2762",
+      "name": "ＳＡＮＫＯ　ＭＡＲＫＥＴＩＮＧ　ＦＯＯＤＳ",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
+      ]
+    },
+    {
+      "code": "2763",
+      "name": "エフティグループ",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
       ]
     },
     {
@@ -3075,6 +3790,17 @@
     {
       "code": "2769",
       "name": "ヴィレッジヴァンガードコーポレーション",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "retail"
+      ]
+    },
+    {
+      "code": "2778",
+      "name": "パレモ・ホールディングス",
       "market": "スタンダード",
       "sector33": "小売業",
       "scale": "-",
@@ -3125,6 +3851,17 @@
       "via": "code",
       "industries": [
         "pharma"
+      ]
+    },
+    {
+      "code": "2789",
+      "name": "カルラ",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
       ]
     },
     {
@@ -3180,6 +3917,17 @@
       "via": "code",
       "industries": [
         "pharma"
+      ]
+    },
+    {
+      "code": "2798",
+      "name": "ワイズテーブルコーポレーション",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
       ]
     },
     {
@@ -3414,6 +4162,17 @@
       ]
     },
     {
+      "code": "287A",
+      "name": "黒田グループ",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "trading_companies"
+      ]
+    },
+    {
       "code": "2882",
       "name": "イートアンドホールディングス",
       "market": "プライム",
@@ -3591,6 +4350,17 @@
       ]
     },
     {
+      "code": "291A",
+      "name": "リスキル",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "2922",
       "name": "なとり",
       "market": "プライム",
@@ -3745,9 +4515,86 @@
       ]
     },
     {
+      "code": "2981",
+      "name": "ランディックス",
+      "market": "グロース",
+      "sector33": "不動産業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "real_estate"
+      ]
+    },
+    {
+      "code": "2982",
+      "name": "ＡＤワークスグループ",
+      "market": "プライム",
+      "sector33": "不動産業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "real_estate"
+      ]
+    },
+    {
+      "code": "2986",
+      "name": "ＬＡホールディングス",
+      "market": "グロース",
+      "sector33": "不動産業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "real_estate"
+      ]
+    },
+    {
+      "code": "298A",
+      "name": "ＧＶＡ　ＴＥＣＨ",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "2991",
+      "name": "ランドネット",
+      "market": "スタンダード",
+      "sector33": "不動産業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "real_estate"
+      ]
+    },
+    {
+      "code": "2997",
+      "name": "ストレージ王",
+      "market": "グロース",
+      "sector33": "不動産業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "real_estate"
+      ]
+    },
+    {
       "code": "2998",
       "name": "クリアル",
       "market": "グロース",
+      "sector33": "不動産業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "real_estate"
+      ]
+    },
+    {
+      "code": "2999",
+      "name": "ホームポジション",
+      "market": "スタンダード",
       "sector33": "不動産業",
       "scale": "-",
       "via": "code",
@@ -3811,6 +4658,17 @@
       ]
     },
     {
+      "code": "3010",
+      "name": "ポラリス・ホールディングス",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "3020",
       "name": "アプライド",
       "market": "スタンダード",
@@ -3819,6 +4677,17 @@
       "via": "code",
       "industries": [
         "retail"
+      ]
+    },
+    {
+      "code": "3021",
+      "name": "パシフィックネット",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
       ]
     },
     {
@@ -3855,6 +4724,17 @@
       ]
     },
     {
+      "code": "3030",
+      "name": "ハブ",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
+      ]
+    },
+    {
       "code": "3031",
       "name": "ラクーンホールディングス",
       "market": "プライム",
@@ -3874,6 +4754,17 @@
       "via": "code",
       "industries": [
         "pharma"
+      ]
+    },
+    {
+      "code": "3035",
+      "name": "ケイティケイ",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "consumer_goods"
       ]
     },
     {
@@ -3904,6 +4795,17 @@
       "market": "プライム",
       "sector33": "情報・通信業",
       "scale": "TOPIX Small 2",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "3042",
+      "name": "セキュアヴェイル",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "it_services"
@@ -3976,6 +4878,17 @@
       ]
     },
     {
+      "code": "3063",
+      "name": "ジェイグループホールディングス",
+      "market": "グロース",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
+      ]
+    },
+    {
       "code": "3064",
       "name": "ＭｏｎｏｔａＲＯ",
       "market": "プライム",
@@ -3984,6 +4897,28 @@
       "via": "code",
       "industries": [
         "retail"
+      ]
+    },
+    {
+      "code": "3065",
+      "name": "ライフフーズ",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
+      ]
+    },
+    {
+      "code": "3067",
+      "name": "東京一番フーズ",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
       ]
     },
     {
@@ -4031,6 +4966,17 @@
       ]
     },
     {
+      "code": "3077",
+      "name": "ホリイフードサービス",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
+      ]
+    },
+    {
       "code": "3079",
       "name": "ディーブイエックス",
       "market": "スタンダード",
@@ -4039,6 +4985,28 @@
       "via": "code",
       "industries": [
         "pharma"
+      ]
+    },
+    {
+      "code": "3080",
+      "name": "ジェーソン",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "retail"
+      ]
+    },
+    {
+      "code": "3082",
+      "name": "きちりホールディングス",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
       ]
     },
     {
@@ -4072,6 +5040,17 @@
       "via": "code",
       "industries": [
         "pharma"
+      ]
+    },
+    {
+      "code": "3089",
+      "name": "テクノアルファ",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "trading_companies"
       ]
     },
     {
@@ -4262,6 +5241,17 @@
       ]
     },
     {
+      "code": "3133",
+      "name": "海帆",
+      "market": "グロース",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
+      ]
+    },
+    {
       "code": "3134",
       "name": "Ｈａｍｅｅ",
       "market": "スタンダード",
@@ -4273,11 +5263,66 @@
       ]
     },
     {
+      "code": "3135",
+      "name": "マーケットエンタープライズ",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "retail"
+      ]
+    },
+    {
+      "code": "3137",
+      "name": "ファンデリー",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
+      ]
+    },
+    {
+      "code": "3138",
+      "name": "富士山マガジンサービス",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "3139",
       "name": "ラクト・ジャパン",
       "market": "プライム",
       "sector33": "卸売業",
       "scale": "TOPIX Small 2",
+      "via": "code",
+      "industries": [
+        "food"
+      ]
+    },
+    {
+      "code": "3140",
+      "name": "ＢＲＵＮＯ",
+      "market": "グロース",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "consumer_goods"
+      ]
+    },
+    {
+      "code": "3143",
+      "name": "オーウイル",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "food"
@@ -4361,6 +5406,28 @@
       ]
     },
     {
+      "code": "3160",
+      "name": "大光",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
+      ]
+    },
+    {
+      "code": "3166",
+      "name": "ＯＣＨＩホールディングス",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
       "code": "3167",
       "name": "ＴＯＫＡＩホールディングス",
       "market": "プライム",
@@ -4383,6 +5450,39 @@
       ]
     },
     {
+      "code": "3173",
+      "name": "Ｃｏｍｉｎｉｘ",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "trading_companies"
+      ]
+    },
+    {
+      "code": "3174",
+      "name": "ハピネス・アンド・ディ",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "retail"
+      ]
+    },
+    {
+      "code": "3175",
+      "name": "エー・ピーホールディングス",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
+      ]
+    },
+    {
       "code": "3176",
       "name": "三洋貿易",
       "market": "プライム",
@@ -4391,6 +5491,17 @@
       "via": "code",
       "industries": [
         "trading_companies"
+      ]
+    },
+    {
+      "code": "3177",
+      "name": "ありがとうサービス",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "retail"
       ]
     },
     {
@@ -4471,6 +5582,17 @@
       ]
     },
     {
+      "code": "3185",
+      "name": "夢展望",
+      "market": "グロース",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "retail"
+      ]
+    },
+    {
       "code": "3186",
       "name": "ネクステージ",
       "market": "プライム",
@@ -4482,11 +5604,33 @@
       ]
     },
     {
+      "code": "3189",
+      "name": "ＡＮＡＰホールディングス",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "retail"
+      ]
+    },
+    {
       "code": "3191",
       "name": "ジョイフル本田",
       "market": "プライム",
       "sector33": "小売業",
       "scale": "TOPIX Small 1",
+      "via": "code",
+      "industries": [
+        "retail"
+      ]
+    },
+    {
+      "code": "3192",
+      "name": "白鳩",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "retail"
@@ -4581,11 +5725,55 @@
       ]
     },
     {
+      "code": "3224",
+      "name": "ゼネラル・オイスター",
+      "market": "グロース",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
+      ]
+    },
+    {
       "code": "3231",
       "name": "野村不動産ホールディングス",
       "market": "プライム",
       "sector33": "不動産業",
       "scale": "TOPIX Mid400",
+      "via": "code",
+      "industries": [
+        "real_estate"
+      ]
+    },
+    {
+      "code": "3236",
+      "name": "プロパスト",
+      "market": "スタンダード",
+      "sector33": "不動産業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "real_estate"
+      ]
+    },
+    {
+      "code": "3241",
+      "name": "ウィル",
+      "market": "スタンダード",
+      "sector33": "不動産業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "real_estate"
+      ]
+    },
+    {
+      "code": "3242",
+      "name": "アーバネットコーポレーション",
+      "market": "スタンダード",
+      "sector33": "不動産業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "real_estate"
@@ -4614,6 +5802,17 @@
       ]
     },
     {
+      "code": "3261",
+      "name": "グランディーズ",
+      "market": "グロース",
+      "sector33": "不動産業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "real_estate"
+      ]
+    },
+    {
       "code": "3267",
       "name": "フィル・カンパニー",
       "market": "スタンダード",
@@ -4630,6 +5829,28 @@
       "market": "プライム",
       "sector33": "不動産業",
       "scale": "TOPIX Small 2",
+      "via": "code",
+      "industries": [
+        "real_estate"
+      ]
+    },
+    {
+      "code": "3277",
+      "name": "サンセイランディック",
+      "market": "スタンダード",
+      "sector33": "不動産業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "real_estate"
+      ]
+    },
+    {
+      "code": "3280",
+      "name": "エストラスト",
+      "market": "スタンダード",
+      "sector33": "不動産業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "real_estate"
@@ -4682,6 +5903,17 @@
       ]
     },
     {
+      "code": "3297",
+      "name": "東武住販",
+      "market": "スタンダード",
+      "sector33": "不動産業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "real_estate"
+      ]
+    },
+    {
       "code": "3299",
       "name": "ムゲンエステート",
       "market": "スタンダード",
@@ -4715,6 +5947,39 @@
       ]
     },
     {
+      "code": "3317",
+      "name": "フライングガーデン",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
+      ]
+    },
+    {
+      "code": "331A",
+      "name": "メディックス",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "3320",
+      "name": "クロスプラス",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "consumer_goods"
+      ]
+    },
+    {
       "code": "3321",
       "name": "ミタチ産業",
       "market": "スタンダード",
@@ -4723,6 +5988,28 @@
       "via": "code",
       "industries": [
         "trading_companies"
+      ]
+    },
+    {
+      "code": "3323",
+      "name": "レカム",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "3326",
+      "name": "ランシステム",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
       ]
     },
     {
@@ -4781,6 +6068,28 @@
       ]
     },
     {
+      "code": "3355",
+      "name": "クリヤマホールディングス",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "trading_companies"
+      ]
+    },
+    {
+      "code": "335A",
+      "name": "ミライロ",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "3360",
       "name": "シップヘルスケアホールディングス",
       "market": "プライム",
@@ -4822,6 +6131,17 @@
       "via": "code",
       "industries": [
         "it_services"
+      ]
+    },
+    {
+      "code": "3372",
+      "name": "関門海",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
       ]
     },
     {
@@ -4926,6 +6246,17 @@
       ]
     },
     {
+      "code": "3393",
+      "name": "スターティアホールディングス",
+      "market": "プライム",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "3395",
       "name": "サンマルクホールディングス",
       "market": "プライム",
@@ -5026,6 +6357,17 @@
       ]
     },
     {
+      "code": "3416",
+      "name": "ピクスタ",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "3417",
       "name": "大木ヘルスケアホールディングス",
       "market": "スタンダード",
@@ -5034,6 +6376,17 @@
       "via": "code",
       "industries": [
         "pharma"
+      ]
+    },
+    {
+      "code": "3418",
+      "name": "バルニバービ",
+      "market": "グロース",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
       ]
     },
     {
@@ -5103,6 +6456,17 @@
       ]
     },
     {
+      "code": "343A",
+      "name": "ＩＡＣＥトラベル",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "3443",
       "name": "川田テクノロジーズ",
       "market": "プライム",
@@ -5122,6 +6486,17 @@
       "via": "code",
       "industries": [
         "semiconductor"
+      ]
+    },
+    {
+      "code": "3452",
+      "name": "ビーロット",
+      "market": "スタンダード",
+      "sector33": "不動産業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "real_estate"
       ]
     },
     {
@@ -5202,9 +6577,42 @@
       ]
     },
     {
+      "code": "3486",
+      "name": "グローバル・リンク・マネジメント",
+      "market": "プライム",
+      "sector33": "不動産業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "real_estate"
+      ]
+    },
+    {
+      "code": "3489",
+      "name": "フェイスネットワーク",
+      "market": "スタンダード",
+      "sector33": "不動産業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "real_estate"
+      ]
+    },
+    {
       "code": "3491",
       "name": "ＧＡ　ｔｅｃｈｎｏｌｏｇｉｅｓ",
       "market": "グロース",
+      "sector33": "不動産業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "real_estate"
+      ]
+    },
+    {
+      "code": "3495",
+      "name": "香陵住販",
+      "market": "スタンダード",
       "sector33": "不動産業",
       "scale": "-",
       "via": "code",
@@ -5290,6 +6698,28 @@
       ]
     },
     {
+      "code": "3536",
+      "name": "アクサスホールディングス",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "retail"
+      ]
+    },
+    {
+      "code": "3537",
+      "name": "昭栄薬品",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "trading_companies"
+      ]
+    },
+    {
       "code": "3538",
       "name": "ウイルプラスホールディングス",
       "market": "スタンダード",
@@ -5367,6 +6797,17 @@
       ]
     },
     {
+      "code": "3550",
+      "name": "スタジオアタオ",
+      "market": "グロース",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "retail"
+      ]
+    },
+    {
       "code": "3553",
       "name": "共和レザー",
       "market": "スタンダード",
@@ -5386,6 +6827,28 @@
       "via": "code",
       "industries": [
         "retail"
+      ]
+    },
+    {
+      "code": "3558",
+      "name": "ジェイドグループ",
+      "market": "グロース",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "retail"
+      ]
+    },
+    {
+      "code": "3559",
+      "name": "ピーバンドットコム",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
       ]
     },
     {
@@ -5411,6 +6874,17 @@
       ]
     },
     {
+      "code": "3562",
+      "name": "Ｎｏ．１",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "3563",
       "name": "ＦＯＯＤ　＆　ＬＩＦＥ　ＣＯＭＰＡＮＩＥＳ",
       "market": "プライム",
@@ -5419,6 +6893,28 @@
       "via": "code",
       "industries": [
         "food"
+      ]
+    },
+    {
+      "code": "3565",
+      "name": "アセンテック",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "TOPIX Small 2",
+      "via": "code",
+      "industries": [
+        "trading_companies"
+      ]
+    },
+    {
+      "code": "3566",
+      "name": "ユニフォームネクスト",
+      "market": "グロース",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "retail"
       ]
     },
     {
@@ -5587,6 +7083,17 @@
       ]
     },
     {
+      "code": "3639",
+      "name": "ボルテージ",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "3640",
       "name": "電算",
       "market": "スタンダード",
@@ -5620,6 +7127,17 @@
       ]
     },
     {
+      "code": "3646",
+      "name": "駅探",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "3648",
       "name": "ＡＧＳ",
       "market": "スタンダード",
@@ -5639,6 +7157,17 @@
       "via": "code",
       "industries": [
         "it_services"
+      ]
+    },
+    {
+      "code": "3652",
+      "name": "ディジタルメディアプロフェッショナル",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "semiconductor"
       ]
     },
     {
@@ -5763,8 +7292,30 @@
       ]
     },
     {
+      "code": "366A",
+      "name": "ウェルネス・コミュニケーションズ",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "3671",
       "name": "ソフトマックス",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "3672",
+      "name": "オルトプラス",
       "market": "スタンダード",
       "sector33": "情報・通信業",
       "scale": "-",
@@ -5843,6 +7394,39 @@
       "code": "3680",
       "name": "ホットリンク",
       "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "3681",
+      "name": "ブイキューブ",
+      "market": "プライム",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "3682",
+      "name": "エンカレッジ・テクノロジ",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "3683",
+      "name": "サイバーリンクス",
+      "market": "スタンダード",
       "sector33": "情報・通信業",
       "scale": "-",
       "via": "code",
@@ -5950,6 +7534,17 @@
       ]
     },
     {
+      "code": "3710",
+      "name": "ジョルダン",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "3723",
       "name": "日本ファルコム",
       "market": "グロース",
@@ -5977,6 +7572,28 @@
       "market": "プライム",
       "sector33": "情報・通信業",
       "scale": "TOPIX Small 2",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "3747",
+      "name": "インタートレード",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "3758",
+      "name": "アエリア",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "it_services"
@@ -6027,6 +7644,17 @@
       ]
     },
     {
+      "code": "3768",
+      "name": "リスクモンスター",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "3769",
       "name": "ＧＭＯペイメントゲートウェイ",
       "market": "プライム",
@@ -6043,6 +7671,17 @@
       "market": "プライム",
       "sector33": "情報・通信業",
       "scale": "TOPIX Small 2",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "3773",
+      "name": "アドバンスト・メディア",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "it_services"
@@ -6148,9 +7787,31 @@
       ]
     },
     {
+      "code": "3804",
+      "name": "システム　ディ",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "3807",
       "name": "フィスコ",
       "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "3810",
+      "name": "サイバーステップホールディングス",
+      "market": "スタンダード",
       "sector33": "情報・通信業",
       "scale": "-",
       "via": "code",
@@ -6164,6 +7825,17 @@
       "market": "プライム",
       "sector33": "情報・通信業",
       "scale": "TOPIX Small 2",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "3826",
+      "name": "システムインテグレータ",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "it_services"
@@ -6211,6 +7883,28 @@
       "via": "code",
       "industries": [
         "it_services"
+      ]
+    },
+    {
+      "code": "3839",
+      "name": "ＯＤＫソリューションズ",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "3841",
+      "name": "ジーダット",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "semiconductor"
       ]
     },
     {
@@ -6423,6 +8117,28 @@
       ]
     },
     {
+      "code": "3909",
+      "name": "ショーケース",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "3910",
+      "name": "エムケイシステム",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "3911",
       "name": "Ａｉｍｉｎｇ",
       "market": "グロース",
@@ -6472,6 +8188,17 @@
       "market": "プライム",
       "sector33": "情報・通信業",
       "scale": "TOPIX Small 2",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "3918",
+      "name": "ＰＣＩホールディングス",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "it_services"
@@ -6533,6 +8260,28 @@
       ]
     },
     {
+      "code": "3928",
+      "name": "マイネット",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "3929",
+      "name": "ソーシャルワイヤー",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "3930",
       "name": "はてな",
       "market": "グロース",
@@ -6549,6 +8298,28 @@
       "market": "プライム",
       "sector33": "情報・通信業",
       "scale": "TOPIX Small 2",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "3934",
+      "name": "ベネフィットジャパン",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "3935",
+      "name": "エディア",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "it_services"
@@ -6665,6 +8436,17 @@
       ]
     },
     {
+      "code": "3965",
+      "name": "キャピタル・アセット・プランニング",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "3967",
       "name": "エルテス",
       "market": "グロース",
@@ -6684,6 +8466,28 @@
       "via": "code",
       "industries": [
         "it_services"
+      ]
+    },
+    {
+      "code": "3976",
+      "name": "シャノン",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "3979",
+      "name": "うるる",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
       ]
     },
     {
@@ -6714,6 +8518,39 @@
       "market": "プライム",
       "sector33": "情報・通信業",
       "scale": "TOPIX Small 2",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "3985",
+      "name": "テモナ",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "3987",
+      "name": "エコモット",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "3988",
+      "name": "ＳＹＳホールディングス",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "it_services"
@@ -6758,6 +8595,28 @@
       "market": "プライム",
       "sector33": "情報・通信業",
       "scale": "TOPIX Mid400",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "3996",
+      "name": "サインポスト",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "3997",
+      "name": "トレードワークス",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "it_services"
@@ -6831,8 +8690,52 @@
       ]
     },
     {
+      "code": "4014",
+      "name": "カラダノート",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "4016",
+      "name": "ＭＩＴホールディングス",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "4017",
       "name": "クリーマ",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "4019",
+      "name": "スタメン",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "4020",
+      "name": "ビートレンド",
       "market": "グロース",
       "sector33": "情報・通信業",
       "scale": "-",
@@ -7063,6 +8966,17 @@
       ]
     },
     {
+      "code": "4059",
+      "name": "まぐまぐ",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "4060",
       "name": "ｒａｋｕｍｏ",
       "market": "グロース",
@@ -7119,6 +9033,28 @@
       ]
     },
     {
+      "code": "4068",
+      "name": "ベイシス",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "4069",
+      "name": "ＢｌｕｅＭｅｍｅ",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "4071",
       "name": "プラスアルファ・コンサルティング",
       "market": "プライム",
@@ -7135,6 +9071,17 @@
       "market": "プライム",
       "sector33": "情報・通信業",
       "scale": "TOPIX Small 2",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "4074",
+      "name": "ラキール",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "it_services"
@@ -7341,8 +9288,30 @@
       ]
     },
     {
+      "code": "415A",
+      "name": "ＧＭＯ　ＴＥＣＨホールディングス",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "4165",
       "name": "プレイド",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "4166",
+      "name": "かっこ",
       "market": "グロース",
       "sector33": "情報・通信業",
       "scale": "-",
@@ -7355,6 +9324,50 @@
       "code": "4168",
       "name": "ヤプリ",
       "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "4169",
+      "name": "ＥＮＥＣＨＡＮＧＥ",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "4170",
+      "name": "Ｋａｉｚｅｎ　Ｐｌａｔｆｏｒｍ",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "4171",
+      "name": "グローバルインフォメーション",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "4174",
+      "name": "アピリッツ",
+      "market": "スタンダード",
       "sector33": "情報・通信業",
       "scale": "-",
       "via": "code",
@@ -7508,6 +9521,17 @@
     {
       "code": "4197",
       "name": "アスマーク",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "4198",
+      "name": "テンダ",
       "market": "スタンダード",
       "sector33": "情報・通信業",
       "scale": "-",
@@ -7693,6 +9717,17 @@
       ]
     },
     {
+      "code": "423A",
+      "name": "ライオン事務器",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "consumer_goods"
+      ]
+    },
+    {
       "code": "4245",
       "name": "ダイキアクシス",
       "market": "スタンダード",
@@ -7748,6 +9783,28 @@
       ]
     },
     {
+      "code": "4255",
+      "name": "ＴＨＥＣＯＯ",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "4256",
+      "name": "サインド",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "4258",
       "name": "網屋",
       "market": "グロース",
@@ -7761,6 +9818,17 @@
     {
       "code": "4259",
       "name": "エクサウィザーズ",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "4260",
+      "name": "ハイブリッドテクノロジーズ",
       "market": "グロース",
       "sector33": "情報・通信業",
       "scale": "-",
@@ -7947,6 +10015,17 @@
       ]
     },
     {
+      "code": "431A",
+      "name": "ユーソナー",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "4320",
       "name": "ＣＥホールディングス",
       "market": "スタンダード",
@@ -8057,6 +10136,17 @@
       ]
     },
     {
+      "code": "4347",
+      "name": "ブロードメディア",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "4350",
       "name": "メディカルシステムネットワーク",
       "market": "スタンダード",
@@ -8065,6 +10155,17 @@
       "via": "code",
       "industries": [
         "pharma"
+      ]
+    },
+    {
+      "code": "4356",
+      "name": "応用技術",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
       ]
     },
     {
@@ -8121,6 +10222,28 @@
       "industries": [
         "chemicals",
         "semiconductor"
+      ]
+    },
+    {
+      "code": "4370",
+      "name": "モビルス",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "4371",
+      "name": "コアコンセプト・テクノロジー",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
       ]
     },
     {
@@ -8209,6 +10332,17 @@
       "via": "code",
       "industries": [
         "retail"
+      ]
+    },
+    {
+      "code": "4386",
+      "name": "ＳＩＧグループ",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
       ]
     },
     {
@@ -8410,6 +10544,17 @@
       ]
     },
     {
+      "code": "4414",
+      "name": "フレクト",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "4416",
       "name": "Ｔｒｕｅ　Ｄａｔａ",
       "market": "グロース",
@@ -8476,6 +10621,28 @@
       ]
     },
     {
+      "code": "4421",
+      "name": "ディ・アイ・システム",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "4422",
+      "name": "ＶＡＬＵＥＮＥＸ",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "4424",
       "name": "Ａｍａｚｉａ",
       "market": "グロース",
@@ -8511,6 +10678,17 @@
     {
       "code": "4428",
       "name": "シノプス",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "4429",
+      "name": "リックソフト",
       "market": "グロース",
       "sector33": "情報・通信業",
       "scale": "-",
@@ -8597,8 +10775,30 @@
       ]
     },
     {
+      "code": "4439",
+      "name": "東名",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "4440",
       "name": "ヴィッツ",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "4441",
+      "name": "トビラシステムズ",
       "market": "スタンダード",
       "sector33": "情報・通信業",
       "scale": "-",
@@ -8840,6 +11040,17 @@
       ]
     },
     {
+      "code": "4487",
+      "name": "スペースマーケット",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "4488",
       "name": "ＡＩ　ｉｎｓｉｄｅ",
       "market": "グロース",
@@ -8854,6 +11065,17 @@
       "code": "4490",
       "name": "ビザスク",
       "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "4491",
+      "name": "コンピューターマネージメント",
+      "market": "スタンダード",
       "sector33": "情報・通信業",
       "scale": "-",
       "via": "code",
@@ -8884,6 +11106,17 @@
       ]
     },
     {
+      "code": "4495",
+      "name": "アイキューブドシステムズ",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "4496",
       "name": "コマースＯｎｅホールディングス",
       "market": "グロース",
@@ -8898,6 +11131,17 @@
       "code": "4498",
       "name": "サイバートラスト",
       "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "4499",
+      "name": "Ｓｐｅｅｅ",
+      "market": "スタンダード",
       "sector33": "情報・通信業",
       "scale": "-",
       "via": "code",
@@ -9259,6 +11503,17 @@
       ]
     },
     {
+      "code": "456A",
+      "name": "ＨＵＭＡＮ　ＭＡＤＥ",
+      "market": "グロース",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "retail"
+      ]
+    },
+    {
       "code": "4572",
       "name": "カルナバイオサイエンス",
       "market": "グロース",
@@ -9399,6 +11654,17 @@
       "via": "code",
       "industries": [
         "pharma"
+      ]
+    },
+    {
+      "code": "460A",
+      "name": "ＢＲＡＮＵ",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
       ]
     },
     {
@@ -9600,6 +11866,17 @@
       ]
     },
     {
+      "code": "463A",
+      "name": "インテリックスホールディングス",
+      "market": "スタンダード",
+      "sector33": "不動産業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "real_estate"
+      ]
+    },
+    {
       "code": "4641",
       "name": "アルプス技研",
       "market": "プライム",
@@ -9641,6 +11918,17 @@
       "via": "code",
       "industries": [
         "machinery"
+      ]
+    },
+    {
+      "code": "4650",
+      "name": "ＳＤエンターテイメント",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
       ]
     },
     {
@@ -9787,6 +12075,17 @@
       ]
     },
     {
+      "code": "4679",
+      "name": "田谷",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "4680",
       "name": "ラウンドワン",
       "market": "プライム",
@@ -9897,11 +12196,33 @@
       ]
     },
     {
+      "code": "4705",
+      "name": "クリップコーポレーション",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "4709",
       "name": "ＩＤホールディングス",
       "market": "プライム",
       "sector33": "情報・通信業",
       "scale": "TOPIX Small 2",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "4712",
+      "name": "ＫｅｙＨｏｌｄｅｒ",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "it_services"
@@ -10040,6 +12361,17 @@
       ]
     },
     {
+      "code": "4736",
+      "name": "日本ラッド",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "4743",
       "name": "アイティフォー",
       "market": "プライム",
@@ -10062,11 +12394,33 @@
       ]
     },
     {
+      "code": "4750",
+      "name": "ダイサン",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "4751",
       "name": "サイバーエージェント",
       "market": "プライム",
       "sector33": "サービス業",
       "scale": "TOPIX Mid400",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "4752",
+      "name": "昭和システムエンジニアリング",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "it_services"
@@ -10140,6 +12494,17 @@
       ]
     },
     {
+      "code": "4769",
+      "name": "ＩＣ",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "4771",
       "name": "エフアンドエム",
       "market": "スタンダード",
@@ -10156,6 +12521,28 @@
       "market": "プライム",
       "sector33": "情報・通信業",
       "scale": "TOPIX Small 1",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "4777",
+      "name": "ガーラ",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "4783",
+      "name": "ＮＣＤ",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "it_services"
@@ -10272,6 +12659,17 @@
       ]
     },
     {
+      "code": "4814",
+      "name": "ネクストウェア",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "4816",
       "name": "東映アニメーション",
       "market": "スタンダード",
@@ -10338,8 +12736,30 @@
       ]
     },
     {
+      "code": "4829",
+      "name": "日本エンタープライズ",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "4832",
       "name": "ＪＦＥシステムズ",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "4838",
+      "name": "スペースシャワーＳＫＩＹＡＫＩホールディングス",
       "market": "スタンダード",
       "sector33": "情報・通信業",
       "scale": "-",
@@ -10365,6 +12785,17 @@
       "market": "スタンダード",
       "sector33": "情報・通信業",
       "scale": "TOPIX Small 2",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "4847",
+      "name": "インテリジェント　ウェイブ",
+      "market": "プライム",
+      "sector33": "情報・通信業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "it_services"
@@ -11004,11 +13435,44 @@
       ]
     },
     {
+      "code": "5031",
+      "name": "モイ",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "5032",
       "name": "ＡＮＹＣＯＬＯＲ",
       "market": "プライム",
       "sector33": "情報・通信業",
       "scale": "TOPIX Small 1",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "5033",
+      "name": "ヌーラボ",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "5035",
+      "name": "ＨＯＵＳＥＩ",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "it_services"
@@ -11064,6 +13528,28 @@
       "market": "プライム",
       "sector33": "建設業",
       "scale": "TOPIX Mid400",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
+      "code": "5078",
+      "name": "セレコーポレーション",
+      "market": "スタンダード",
+      "sector33": "建設業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
+      "code": "5079",
+      "name": "ノバック",
+      "market": "スタンダード",
+      "sector33": "建設業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "construction"
@@ -11128,6 +13614,50 @@
       "code": "5133",
       "name": "テリロジーホールディングス",
       "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "5134",
+      "name": "ＰＯＰＥＲ",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "5136",
+      "name": "ｔｒｉｐｌａ",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "5137",
+      "name": "スマートドライブ",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "5138",
+      "name": "Ｒｅｂａｓｅ",
+      "market": "グロース",
       "sector33": "情報・通信業",
       "scale": "-",
       "via": "code",
@@ -11232,6 +13762,17 @@
       "via": "code",
       "industries": [
         "machinery"
+      ]
+    },
+    {
+      "code": "519A",
+      "name": "ベーシック",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
       ]
     },
     {
@@ -11357,6 +13898,50 @@
       ]
     },
     {
+      "code": "5254",
+      "name": "Ａｒｅｎｔ",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "5255",
+      "name": "モンスターラボ",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "5256",
+      "name": "Ｆｕｓｉｃ",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "5257",
+      "name": "ノバシステム",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "5261",
       "name": "リソルホールディングス",
       "market": "プライム",
@@ -11398,6 +13983,17 @@
       "via": "code",
       "industries": [
         "construction"
+      ]
+    },
+    {
+      "code": "5280",
+      "name": "ヨシコン",
+      "market": "スタンダード",
+      "sector33": "不動産業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "real_estate"
       ]
     },
     {
@@ -11756,6 +14352,17 @@
       ]
     },
     {
+      "code": "548A",
+      "name": "システムエグゼ",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "5491",
       "name": "日本金属",
       "market": "スタンダード",
@@ -11764,6 +14371,50 @@
       "via": "code",
       "industries": [
         "materials"
+      ]
+    },
+    {
+      "code": "549A",
+      "name": "ヒトトヒトホールディングス",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "5533",
+      "name": "エリッツホールディングス",
+      "market": "スタンダード",
+      "sector33": "不動産業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "real_estate"
+      ]
+    },
+    {
+      "code": "5535",
+      "name": "ミガロホールディングス",
+      "market": "プライム",
+      "sector33": "不動産業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "real_estate"
+      ]
+    },
+    {
+      "code": "5537",
+      "name": "ＡｌｂａＬｉｎｋ",
+      "market": "グロース",
+      "sector33": "不動産業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "real_estate"
       ]
     },
     {
@@ -11786,6 +14437,28 @@
       "via": "code",
       "industries": [
         "materials"
+      ]
+    },
+    {
+      "code": "556A",
+      "name": "犬猫生活",
+      "market": "グロース",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "retail"
+      ]
+    },
+    {
+      "code": "5570",
+      "name": "ジェノバ",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
       ]
     },
     {
@@ -11822,6 +14495,17 @@
       ]
     },
     {
+      "code": "5576",
+      "name": "オービーシステム",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "5582",
       "name": "グリッド",
       "market": "グロース",
@@ -11835,6 +14519,17 @@
     {
       "code": "5586",
       "name": "Ｌａｂｏｒｏ．ＡＩ",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "5588",
+      "name": "ファーストアカウンティング",
       "market": "グロース",
       "sector33": "情報・通信業",
       "scale": "-",
@@ -11918,6 +14613,28 @@
       "via": "code",
       "industries": [
         "materials"
+      ]
+    },
+    {
+      "code": "5616",
+      "name": "雨風太陽",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "5618",
+      "name": "ナイル",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
       ]
     },
     {
@@ -12152,6 +14869,17 @@
       ]
     },
     {
+      "code": "581A",
+      "name": "ＧＯ",
+      "market": "グロース",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "5821",
       "name": "平河ヒューテック",
       "market": "プライム",
@@ -12273,6 +15001,17 @@
       ]
     },
     {
+      "code": "5867",
+      "name": "エスネットワークス",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "5868",
       "name": "ロココ",
       "market": "スタンダード",
@@ -12281,6 +15020,50 @@
       "via": "code",
       "industries": [
         "services"
+      ]
+    },
+    {
+      "code": "5869",
+      "name": "早稲田学習研究会",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "5871",
+      "name": "ＳＯＬＩＺＥ　Ｈｏｌｄｉｎｇｓ",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "5884",
+      "name": "クラダシ",
+      "market": "グロース",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "retail"
+      ]
+    },
+    {
+      "code": "5885",
+      "name": "ジーデップ・アドバンス",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "datacenter"
       ]
     },
     {
@@ -12314,6 +15097,28 @@
       "via": "code",
       "industries": [
         "food"
+      ]
+    },
+    {
+      "code": "5892",
+      "name": "ｙｕｔｏｒｉ",
+      "market": "グロース",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "retail"
+      ]
+    },
+    {
+      "code": "589A",
+      "name": "ネイス",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
       ]
     },
     {
@@ -12857,6 +15662,17 @@
       ]
     },
     {
+      "code": "6034",
+      "name": "ＭＲＴ",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "6035",
       "name": "アイ・アールジャパンホールディングス",
       "market": "スタンダード",
@@ -12890,6 +15706,17 @@
       ]
     },
     {
+      "code": "6039",
+      "name": "日本動物高度医療センター",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "6040",
       "name": "日本スキー場開発",
       "market": "グロース",
@@ -12914,6 +15741,28 @@
     {
       "code": "6044",
       "name": "三機サービス",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "6045",
+      "name": "レントラックス",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "6046",
+      "name": "リンクバル",
       "market": "スタンダード",
       "sector33": "サービス業",
       "scale": "-",
@@ -12989,11 +15838,33 @@
       ]
     },
     {
+      "code": "6061",
+      "name": "ユニバーサル園芸社",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "6062",
       "name": "チャーム・ケア・コーポレーション",
       "market": "プライム",
       "sector33": "サービス業",
       "scale": "TOPIX Small 2",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "6063",
+      "name": "日本エマージェンシーアシスタンス",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "services"
@@ -13066,6 +15937,17 @@
       ]
     },
     {
+      "code": "6081",
+      "name": "アライドアーキテクツ",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "6082",
       "name": "ライドオンエクスプレスホールディングス",
       "market": "スタンダード",
@@ -13091,6 +15973,17 @@
       "code": "6086",
       "name": "シンメンテホールディングス",
       "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "6087",
+      "name": "アビスト",
+      "market": "スタンダード",
       "sector33": "サービス業",
       "scale": "-",
       "via": "code",
@@ -13374,6 +16267,17 @@
       ]
     },
     {
+      "code": "6176",
+      "name": "ブランジスタ",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "6178",
       "name": "日本郵政",
       "market": "プライム",
@@ -13382,6 +16286,17 @@
       "via": "code",
       "industries": [
         "retail"
+      ]
+    },
+    {
+      "code": "6181",
+      "name": "タメニー",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
       ]
     },
     {
@@ -13409,6 +16324,17 @@
     {
       "code": "6185",
       "name": "ＳＭＮ",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "6186",
+      "name": "一蔵",
       "market": "スタンダード",
       "sector33": "サービス業",
       "scale": "-",
@@ -13467,6 +16393,17 @@
       "market": "プライム",
       "sector33": "サービス業",
       "scale": "TOPIX Small 2",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "6198",
+      "name": "キャリア",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "services"
@@ -15158,11 +18095,33 @@
       ]
     },
     {
+      "code": "6537",
+      "name": "ＷＡＳＨハウス",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "6539",
       "name": "ＭＳ－Ｊａｐａｎ",
       "market": "プライム",
       "sector33": "サービス業",
       "scale": "TOPIX Small 2",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "6543",
+      "name": "日宣",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "services"
@@ -15191,6 +18150,50 @@
       ]
     },
     {
+      "code": "6548",
+      "name": "旅工房",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "6552",
+      "name": "ＧａｍｅＷｉｔｈ",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "6554",
+      "name": "エスユーエス",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "6558",
+      "name": "クックビズ",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "6560",
       "name": "エル・ティー・エス",
       "market": "プライム",
@@ -15202,8 +18205,30 @@
       ]
     },
     {
+      "code": "6561",
+      "name": "ＨＡＮＡＴＯＵＲ　ＪＡＰＡＮ",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "6562",
       "name": "ジーニー",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "6563",
+      "name": "みらいワークス",
       "market": "グロース",
       "sector33": "サービス業",
       "scale": "-",
@@ -15235,11 +18260,55 @@
       ]
     },
     {
+      "code": "6570",
+      "name": "共和コーポレーション",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "6571",
       "name": "キュービーネットホールディングス",
       "market": "プライム",
       "sector33": "サービス業",
       "scale": "TOPIX Small 2",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "6574",
+      "name": "コンヴァノ",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "6577",
+      "name": "ベストワンドットコム",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "6579",
+      "name": "ログリー",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "services"
@@ -16268,6 +19337,17 @@
       ]
     },
     {
+      "code": "6888",
+      "name": "アクモス",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "6890",
       "name": "フェローテック",
       "market": "スタンダード",
@@ -16855,6 +19935,17 @@
       ]
     },
     {
+      "code": "7031",
+      "name": "インバウンドテック",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "7033",
       "name": "マネジメントソリューションズ",
       "market": "プライム",
@@ -16874,6 +19965,17 @@
       "via": "code",
       "industries": [
         "consulting"
+      ]
+    },
+    {
+      "code": "7036",
+      "name": "イーエムネットジャパン",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
       ]
     },
     {
@@ -16902,6 +20004,50 @@
       "code": "7040",
       "name": "サン・ライフホールディング",
       "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "7041",
+      "name": "ＣＲＧホールディングス",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "7043",
+      "name": "アルー",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "7044",
+      "name": "ピアラ",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "7048",
+      "name": "ベルトラ",
+      "market": "グロース",
       "sector33": "サービス業",
       "scale": "-",
       "via": "code",
@@ -16976,6 +20122,50 @@
       ]
     },
     {
+      "code": "7063",
+      "name": "Ｂｉｒｄｍａｎ",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "7065",
+      "name": "ユーピーアール",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "7068",
+      "name": "フィードフォースグループ",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "7069",
+      "name": "サイバー・バズ",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "7071",
       "name": "アンビスホールディングス",
       "market": "プライム",
@@ -16989,6 +20179,28 @@
     {
       "code": "7073",
       "name": "ジェイック",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "7081",
+      "name": "コーユーレンティア",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "7083",
+      "name": "ＡＨＣグループ",
       "market": "グロース",
       "sector33": "サービス業",
       "scale": "-",
@@ -17020,11 +20232,33 @@
       ]
     },
     {
+      "code": "7094",
+      "name": "ＮｅｘＴｏｎｅ",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "7095",
       "name": "Ｍａｃｂｅｅ　Ｐｌａｎｅｔ",
       "market": "プライム",
       "sector33": "サービス業",
       "scale": "TOPIX Small 2",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "7096",
+      "name": "ステムセル研究所",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "services"
@@ -17053,6 +20287,17 @@
       ]
     },
     {
+      "code": "7114",
+      "name": "フーディソン",
+      "market": "グロース",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
+      ]
+    },
+    {
       "code": "7119",
       "name": "ハルメクホールディングス",
       "market": "グロース",
@@ -17075,6 +20320,39 @@
       ]
     },
     {
+      "code": "7126",
+      "name": "グローバルスタイル",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "retail"
+      ]
+    },
+    {
+      "code": "7127",
+      "name": "一家ホールディングス",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
+      ]
+    },
+    {
+      "code": "7129",
+      "name": "ミアヘルサホールディングス",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "pharma"
+      ]
+    },
+    {
       "code": "7130",
       "name": "ヤマエグループホールディングス",
       "market": "プライム",
@@ -17086,6 +20364,17 @@
       ]
     },
     {
+      "code": "7133",
+      "name": "ＨＹＵＧＡ　ＰＲＩＭＡＲＹ　ＣＡＲＥ",
+      "market": "グロース",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "pharma"
+      ]
+    },
+    {
       "code": "7134",
       "name": "アップガレージグループ",
       "market": "スタンダード",
@@ -17094,6 +20383,28 @@
       "via": "code",
       "industries": [
         "automotive"
+      ]
+    },
+    {
+      "code": "7138",
+      "name": "ＴＯＲＩＣＯ",
+      "market": "グロース",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "retail"
+      ]
+    },
+    {
+      "code": "7140",
+      "name": "ペットゴー",
+      "market": "グロース",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "retail"
       ]
     },
     {
@@ -18070,11 +21381,33 @@
       ]
     },
     {
+      "code": "7357",
+      "name": "ジオコード",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "7358",
       "name": "ポピンズ",
       "market": "スタンダード",
       "sector33": "サービス業",
       "scale": "TOPIX Small 2",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "7360",
+      "name": "オンデック",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "services"
@@ -18092,9 +21425,42 @@
       ]
     },
     {
+      "code": "7367",
+      "name": "セルム",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "7368",
       "name": "表示灯",
       "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "7372",
+      "name": "デコルテ・ホールディングス",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "7374",
+      "name": "コンフィデンス・インターワークス",
+      "market": "グロース",
       "sector33": "サービス業",
       "scale": "-",
       "via": "code",
@@ -18111,6 +21477,17 @@
       "via": "code",
       "industries": [
         "construction"
+      ]
+    },
+    {
+      "code": "7378",
+      "name": "アシロ",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
       ]
     },
     {
@@ -18257,6 +21634,28 @@
       ]
     },
     {
+      "code": "7426",
+      "name": "山大",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
+      "code": "7427",
+      "name": "エコートレーディング",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "trading_companies"
+      ]
+    },
+    {
       "code": "7433",
       "name": "伯東",
       "market": "プライム",
@@ -18312,6 +21711,17 @@
       ]
     },
     {
+      "code": "7443",
+      "name": "横浜魚類",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
+      ]
+    },
+    {
       "code": "7444",
       "name": "ハリマ共和物産",
       "market": "スタンダード",
@@ -18320,6 +21730,17 @@
       "via": "code",
       "industries": [
         "food"
+      ]
+    },
+    {
+      "code": "7446",
+      "name": "東北化学薬品",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "trading_companies"
       ]
     },
     {
@@ -18394,6 +21815,17 @@
       "market": "スタンダード",
       "sector33": "小売業",
       "scale": "TOPIX Small 2",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
+      "code": "7464",
+      "name": "セフテック",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "construction"
@@ -18499,6 +21931,17 @@
       ]
     },
     {
+      "code": "7487",
+      "name": "小津産業",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "trading_companies"
+      ]
+    },
+    {
       "code": "7490",
       "name": "日新商事",
       "market": "スタンダード",
@@ -18532,6 +21975,17 @@
       ]
     },
     {
+      "code": "7501",
+      "name": "ティムコ",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "consumer_goods"
+      ]
+    },
+    {
       "code": "7504",
       "name": "高速",
       "market": "プライム",
@@ -18551,6 +22005,28 @@
       "via": "code",
       "industries": [
         "trading_companies"
+      ]
+    },
+    {
+      "code": "7508",
+      "name": "Ｇ‐７ホールディングス",
+      "market": "プライム",
+      "sector33": "小売業",
+      "scale": "TOPIX Small 2",
+      "via": "code",
+      "industries": [
+        "automotive"
+      ]
+    },
+    {
+      "code": "7509",
+      "name": "アイエーグループ",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "automotive"
       ]
     },
     {
@@ -18631,6 +22107,17 @@
       ]
     },
     {
+      "code": "7521",
+      "name": "ムサシ",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "trading_companies"
+      ]
+    },
+    {
       "code": "7522",
       "name": "ワタミ",
       "market": "プライム",
@@ -18683,6 +22170,28 @@
       "via": "code",
       "industries": [
         "food"
+      ]
+    },
+    {
+      "code": "7539",
+      "name": "アイナボホールディングス",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
+      "code": "7544",
+      "name": "スリーエフ",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "convenience_store"
       ]
     },
     {
@@ -18774,6 +22283,28 @@
       ]
     },
     {
+      "code": "7565",
+      "name": "萬世電機",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "trading_companies"
+      ]
+    },
+    {
+      "code": "7567",
+      "name": "栄電子",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "trading_companies"
+      ]
+    },
+    {
       "code": "7570",
       "name": "橋本総業ホールディングス",
       "market": "スタンダード",
@@ -18812,6 +22343,17 @@
       "market": "プライム",
       "sector33": "小売業",
       "scale": "TOPIX Small 1",
+      "via": "code",
+      "industries": [
+        "food"
+      ]
+    },
+    {
+      "code": "7585",
+      "name": "かんなん丸",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "food"
@@ -18881,6 +22423,28 @@
       "via": "code",
       "industries": [
         "electronics"
+      ]
+    },
+    {
+      "code": "7601",
+      "name": "ポプラ",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "convenience_store"
+      ]
+    },
+    {
+      "code": "7604",
+      "name": "梅の花グループ",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
       ]
     },
     {
@@ -18972,6 +22536,17 @@
       ]
     },
     {
+      "code": "7619",
+      "name": "田中商事",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "trading_companies"
+      ]
+    },
+    {
       "code": "7621",
       "name": "うかい",
       "market": "スタンダード",
@@ -18991,6 +22566,17 @@
       "via": "code",
       "industries": [
         "trading_companies"
+      ]
+    },
+    {
+      "code": "7625",
+      "name": "グローバルダイニング",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
       ]
     },
     {
@@ -19049,6 +22635,17 @@
       ]
     },
     {
+      "code": "7638",
+      "name": "ＮＥＷ　ＡＲＴ　ＨＯＬＤＩＮＧＳ",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "retail"
+      ]
+    },
+    {
       "code": "7640",
       "name": "トップカルチャー",
       "market": "スタンダード",
@@ -19093,6 +22690,28 @@
       ]
     },
     {
+      "code": "7674",
+      "name": "ＮＡＴＴＹ　ＳＷＡＮＫＹホールディングス",
+      "market": "グロース",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
+      ]
+    },
+    {
+      "code": "7678",
+      "name": "あさくま",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
+      ]
+    },
+    {
       "code": "7679",
       "name": "薬王堂ホールディングス",
       "market": "プライム",
@@ -19101,6 +22720,17 @@
       "via": "code",
       "industries": [
         "pharma"
+      ]
+    },
+    {
+      "code": "7682",
+      "name": "浜木綿",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
       ]
     },
     {
@@ -19128,6 +22758,17 @@
     {
       "code": "7694",
       "name": "いつも",
+      "market": "グロース",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "retail"
+      ]
+    },
+    {
+      "code": "7695",
+      "name": "交換できるくん",
       "market": "グロース",
       "sector33": "小売業",
       "scale": "-",
@@ -20040,6 +23681,17 @@
       ]
     },
     {
+      "code": "7918",
+      "name": "ヴィア・ホールディングス",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
+      ]
+    },
+    {
       "code": "7919",
       "name": "野崎印刷紙業",
       "market": "スタンダード",
@@ -20614,6 +24266,17 @@
       ]
     },
     {
+      "code": "8018",
+      "name": "三共生興",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "TOPIX Small 2",
+      "via": "code",
+      "industries": [
+        "consumer_goods"
+      ]
+    },
+    {
       "code": "8020",
       "name": "兼松",
       "market": "プライム",
@@ -20630,6 +24293,28 @@
       "market": "プライム",
       "sector33": "その他製品",
       "scale": "TOPIX Small 1",
+      "via": "code",
+      "industries": [
+        "consumer_goods"
+      ]
+    },
+    {
+      "code": "8023",
+      "name": "ＤＡＩＫＯ　ＸＴＥＣＨ",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "8025",
+      "name": "ツカモトコーポレーション",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "consumer_goods"
@@ -20990,6 +24675,17 @@
       ]
     },
     {
+      "code": "8085",
+      "name": "ナラサキ産業",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "trading_companies"
+      ]
+    },
+    {
       "code": "8086",
       "name": "ニプロ",
       "market": "プライム",
@@ -21009,6 +24705,28 @@
       "via": "code",
       "industries": [
         "energy"
+      ]
+    },
+    {
+      "code": "8089",
+      "name": "ナイス",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
+      "code": "8091",
+      "name": "ニチモウ",
+      "market": "プライム",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
       ]
     },
     {
@@ -21067,6 +24785,17 @@
       ]
     },
     {
+      "code": "8104",
+      "name": "クワザワホールディングス",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
       "code": "8111",
       "name": "ゴールドウイン",
       "market": "プライム",
@@ -21086,6 +24815,17 @@
       "via": "code",
       "industries": [
         "chemicals"
+      ]
+    },
+    {
+      "code": "8115",
+      "name": "ムーンバット",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "consumer_goods"
       ]
     },
     {
@@ -21119,6 +24859,17 @@
       "via": "code",
       "industries": [
         "trading_companies"
+      ]
+    },
+    {
+      "code": "8123",
+      "name": "川辺",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "consumer_goods"
       ]
     },
     {
@@ -21188,6 +24939,17 @@
       ]
     },
     {
+      "code": "8135",
+      "name": "ゼット",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "consumer_goods"
+      ]
+    },
+    {
       "code": "8136",
       "name": "サンリオ",
       "market": "プライム",
@@ -21211,6 +24973,17 @@
       ]
     },
     {
+      "code": "8139",
+      "name": "ナガホリ",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "consumer_goods"
+      ]
+    },
+    {
       "code": "8141",
       "name": "新光商事",
       "market": "プライム",
@@ -21230,6 +25003,28 @@
       "via": "code",
       "industries": [
         "food"
+      ]
+    },
+    {
+      "code": "8144",
+      "name": "デンキョーグループホールディングス",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "trading_companies"
+      ]
+    },
+    {
+      "code": "8147",
+      "name": "トミタ",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "trading_companies"
       ]
     },
     {
@@ -21381,6 +25176,17 @@
       "market": "プライム",
       "sector33": "小売業",
       "scale": "TOPIX Small 1",
+      "via": "code",
+      "industries": [
+        "food"
+      ]
+    },
+    {
+      "code": "8181",
+      "name": "東天紅",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "food"
@@ -22804,6 +26610,17 @@
       ]
     },
     {
+      "code": "8769",
+      "name": "アドバンテッジリスクマネジメント",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "8771",
       "name": "イー・ギャランティ",
       "market": "プライム",
@@ -23049,6 +26866,17 @@
       ]
     },
     {
+      "code": "8887",
+      "name": "シーラホールディングス",
+      "market": "スタンダード",
+      "sector33": "不動産業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "real_estate"
+      ]
+    },
+    {
       "code": "8892",
       "name": "エスコン",
       "market": "プライム",
@@ -23073,6 +26901,28 @@
     {
       "code": "8898",
       "name": "センチュリー２１・ジャパン",
+      "market": "スタンダード",
+      "sector33": "不動産業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "real_estate"
+      ]
+    },
+    {
+      "code": "8904",
+      "name": "ＡＶＡＮＴＩＡ",
+      "market": "スタンダード",
+      "sector33": "不動産業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "real_estate"
+      ]
+    },
+    {
+      "code": "8908",
+      "name": "毎日コムネット",
       "market": "スタンダード",
       "sector33": "不動産業",
       "scale": "-",
@@ -23150,6 +27000,28 @@
     {
       "code": "8928",
       "name": "穴吹興産",
+      "market": "スタンダード",
+      "sector33": "不動産業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "real_estate"
+      ]
+    },
+    {
+      "code": "8929",
+      "name": "青山財産ネットワークス",
+      "market": "スタンダード",
+      "sector33": "不動産業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "real_estate"
+      ]
+    },
+    {
+      "code": "8931",
+      "name": "和田興産",
       "market": "スタンダード",
       "sector33": "不動産業",
       "scale": "-",
@@ -23747,6 +27619,28 @@
       ]
     },
     {
+      "code": "9159",
+      "name": "Ｗ　ＴＯＫＹＯ",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "9162",
+      "name": "ブリーチ",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "9166",
       "name": "ＧＥＮＤＡ",
       "market": "グロース",
@@ -23846,6 +27740,50 @@
       ]
     },
     {
+      "code": "9218",
+      "name": "メンタルヘルステクノロジーズ",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "9220",
+      "name": "エフビー介護サービス",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "9223",
+      "name": "ＡＳＮＯＶＡ",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "9225",
+      "name": "ブリッジコンサルティンググループ",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "9229",
       "name": "サンウェルズ",
       "market": "プライム",
@@ -23868,6 +27806,50 @@
       ]
     },
     {
+      "code": "9235",
+      "name": "売れるネット広告社グループ",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "9236",
+      "name": "ジャパンＭ＆Ａソリューション",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "9238",
+      "name": "バリュークリエーション",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "9244",
+      "name": "デジタリフト",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "9247",
       "name": "ＴＲＥホールディングス",
       "market": "プライム",
@@ -23887,6 +27869,28 @@
       "via": "code",
       "industries": [
         "construction"
+      ]
+    },
+    {
+      "code": "9253",
+      "name": "スローガン",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "9254",
+      "name": "ラバブルマーケティンググループ",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
       ]
     },
     {
@@ -24088,6 +28092,17 @@
       ]
     },
     {
+      "code": "9330",
+      "name": "揚羽",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "9331",
       "name": "キャスター",
       "market": "グロース",
@@ -24118,6 +28133,28 @@
       "via": "code",
       "industries": [
         "materials"
+      ]
+    },
+    {
+      "code": "9337",
+      "name": "トリドリ",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "9339",
+      "name": "コーチ・エィ",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
       ]
     },
     {
@@ -24330,6 +28367,17 @@
       ]
     },
     {
+      "code": "9421",
+      "name": "エヌジェイホールディングス",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "9424",
       "name": "日本通信",
       "market": "プライム",
@@ -24338,6 +28386,17 @@
       "via": "code",
       "industries": [
         "telecom"
+      ]
+    },
+    {
+      "code": "9428",
+      "name": "クロップス",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
       ]
     },
     {
@@ -24409,6 +28468,17 @@
       ]
     },
     {
+      "code": "9439",
+      "name": "エム・エイチ・グループ",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "9441",
       "name": "ベルパーク",
       "market": "スタンダード",
@@ -24417,6 +28487,39 @@
       "via": "code",
       "industries": [
         "telecom"
+      ]
+    },
+    {
+      "code": "9444",
+      "name": "トーシンホールディングス",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "9445",
+      "name": "フォーバルテレコム",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "9446",
+      "name": "サカイホールディングス",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
       ]
     },
     {
@@ -24488,6 +28591,17 @@
     {
       "code": "9475",
       "name": "昭文社ホールディングス",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "9476",
+      "name": "中央経済社ホールディングス",
       "market": "スタンダード",
       "sector33": "情報・通信業",
       "scale": "-",
@@ -24776,9 +28890,42 @@
       ]
     },
     {
+      "code": "9554",
+      "name": "ＡＶｉＣ",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "9560",
       "name": "プログリット",
       "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "9561",
+      "name": "グラッドキューブ",
+      "market": "グロース",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "9564",
+      "name": "ＦＣＥ",
+      "market": "スタンダード",
       "sector33": "サービス業",
       "scale": "-",
       "via": "code",
@@ -24875,6 +29022,17 @@
       ]
     },
     {
+      "code": "9625",
+      "name": "セレスポ",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "9627",
       "name": "アインホールディングス",
       "market": "プライム",
@@ -24930,6 +29088,28 @@
       ]
     },
     {
+      "code": "9635",
+      "name": "武蔵野興業",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "9636",
+      "name": "きんえい",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
       "code": "9639",
       "name": "三協フロンテア",
       "market": "スタンダード",
@@ -24960,6 +29140,17 @@
       "via": "code",
       "industries": [
         "consulting"
+      ]
+    },
+    {
+      "code": "9651",
+      "name": "日本プロセス",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
       ]
     },
     {
@@ -25062,6 +29253,28 @@
       ]
     },
     {
+      "code": "9687",
+      "name": "ＫＳＫ",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
+      "code": "9691",
+      "name": "両毛システムズ",
+      "market": "スタンダード",
+      "sector33": "情報・通信業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "it_services"
+      ]
+    },
+    {
       "code": "9692",
       "name": "シーイーシー",
       "market": "プライム",
@@ -25125,6 +29338,17 @@
       "via": "code",
       "industries": [
         "it_services"
+      ]
+    },
+    {
+      "code": "9704",
+      "name": "アゴーラ　ホスピタリティー　グループ",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "services"
       ]
     },
     {
@@ -25199,6 +29423,17 @@
       "market": "プライム",
       "sector33": "サービス業",
       "scale": "TOPIX Small 1",
+      "via": "code",
+      "industries": [
+        "services"
+      ]
+    },
+    {
+      "code": "9723",
+      "name": "京都ホテル",
+      "market": "スタンダード",
+      "sector33": "サービス業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "services"
@@ -25657,6 +29892,17 @@
       ]
     },
     {
+      "code": "9849",
+      "name": "共同紙販ホールディングス",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "trading_companies"
+      ]
+    },
+    {
       "code": "9850",
       "name": "グルメ杵屋",
       "market": "プライム",
@@ -25745,6 +29991,17 @@
       ]
     },
     {
+      "code": "9872",
+      "name": "北恵",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
+      ]
+    },
+    {
       "code": "9876",
       "name": "コックス",
       "market": "スタンダード",
@@ -25778,6 +30035,17 @@
       ]
     },
     {
+      "code": "9885",
+      "name": "シャルレ",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "consumer_goods"
+      ]
+    },
+    {
       "code": "9887",
       "name": "松屋フーズホールディングス",
       "market": "プライム",
@@ -25808,6 +30076,28 @@
       "via": "code",
       "industries": [
         "it_services"
+      ]
+    },
+    {
+      "code": "9890",
+      "name": "マキヤ",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "retail"
+      ]
+    },
+    {
+      "code": "9895",
+      "name": "コンセック",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "construction"
       ]
     },
     {
@@ -25855,6 +30145,17 @@
       ]
     },
     {
+      "code": "9904",
+      "name": "ベリテ",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "retail"
+      ]
+    },
+    {
       "code": "9906",
       "name": "藤井産業",
       "market": "スタンダード",
@@ -25877,6 +30178,17 @@
       ]
     },
     {
+      "code": "9913",
+      "name": "日邦産業",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "trading_companies"
+      ]
+    },
+    {
       "code": "9928",
       "name": "ミロク情報サービス",
       "market": "プライム",
@@ -25885,6 +30197,17 @@
       "via": "code",
       "industries": [
         "it_services"
+      ]
+    },
+    {
+      "code": "9929",
+      "name": "平和紙業",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "trading_companies"
       ]
     },
     {
@@ -25954,11 +30277,33 @@
       ]
     },
     {
+      "code": "9955",
+      "name": "ヨンキュウ",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "food"
+      ]
+    },
+    {
       "code": "9956",
       "name": "バローホールディングス",
       "market": "プライム",
       "sector33": "小売業",
       "scale": "TOPIX Small 1",
+      "via": "code",
+      "industries": [
+        "retail"
+      ]
+    },
+    {
+      "code": "9959",
+      "name": "アシードホールディングス",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
       "via": "code",
       "industries": [
         "retail"
@@ -26028,6 +30373,17 @@
       "via": "code",
       "industries": [
         "food"
+      ]
+    },
+    {
+      "code": "9982",
+      "name": "タキヒヨー",
+      "market": "スタンダード",
+      "sector33": "卸売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "consumer_goods"
       ]
     },
     {
@@ -26119,6 +30475,17 @@
       ]
     },
     {
+      "code": "9994",
+      "name": "やまや",
+      "market": "スタンダード",
+      "sector33": "小売業",
+      "scale": "-",
+      "via": "code",
+      "industries": [
+        "retail"
+      ]
+    },
+    {
       "code": "9996",
       "name": "サトー商会",
       "market": "スタンダード",
@@ -26144,20 +30511,12 @@
   "uncovered_by_sector": {
     "サービス業": [
       {
-        "code": "142A",
-        "name": "ジンジブ"
-      },
-      {
         "code": "143A",
         "name": "イシン"
       },
       {
         "code": "150A",
         "name": "ＪＳＨ"
-      },
-      {
-        "code": "151A",
-        "name": "ダイブ"
       },
       {
         "code": "156A",
@@ -26172,20 +30531,8 @@
         "name": "アズパートナーズ"
       },
       {
-        "code": "1717",
-        "name": "明豊ファシリティワークス"
-      },
-      {
         "code": "189A",
         "name": "Ｄ＆Ｍカンパニー"
-      },
-      {
-        "code": "192A",
-        "name": "インテグループ"
-      },
-      {
-        "code": "194A",
-        "name": "ＷＯＬＶＥＳ　ＨＡＮＤ"
       },
       {
         "code": "195A",
@@ -26200,42 +30547,6 @@
         "name": "北浜キャピタルパートナーズ"
       },
       {
-        "code": "2136",
-        "name": "ヒップ"
-      },
-      {
-        "code": "2139",
-        "name": "中広"
-      },
-      {
-        "code": "2152",
-        "name": "幼児活動研究会"
-      },
-      {
-        "code": "2156",
-        "name": "セーラー広告"
-      },
-      {
-        "code": "2164",
-        "name": "地域新聞社"
-      },
-      {
-        "code": "2169",
-        "name": "ＣＤＳ"
-      },
-      {
-        "code": "2185",
-        "name": "シイエム・シイ"
-      },
-      {
-        "code": "2186",
-        "name": "ソーバル"
-      },
-      {
-        "code": "2300",
-        "name": "きょくとう"
-      },
-      {
         "code": "2304",
         "name": "ＣＳＳホールディングス"
       },
@@ -26248,24 +30559,12 @@
         "name": "イオレ"
       },
       {
-        "code": "2340",
-        "name": "極楽湯ホールディングス"
-      },
-      {
-        "code": "2341",
-        "name": "アルバイトタイムス"
-      },
-      {
         "code": "2342",
         "name": "トランスジェニックグループ"
       },
       {
         "code": "2370",
         "name": "メディネット"
-      },
-      {
-        "code": "2375",
-        "name": "ギグワークス"
       },
       {
         "code": "2385",
@@ -26276,40 +30575,16 @@
         "name": "プラネット"
       },
       {
-        "code": "2393",
-        "name": "日本ケアサプライ"
-      },
-      {
-        "code": "2404",
-        "name": "鉄人化ホールディングス"
-      },
-      {
         "code": "2408",
         "name": "ＫＧ情報"
-      },
-      {
-        "code": "2425",
-        "name": "ケアサービス"
       },
       {
         "code": "2437",
         "name": "Ｓｈｉｎｗａ　Ｗｉｓｅ　Ｈｏｌｄｉｎｇｓ"
       },
       {
-        "code": "2438",
-        "name": "アスカネット"
-      },
-      {
-        "code": "2459",
-        "name": "アウンコンサルティング"
-      },
-      {
         "code": "2464",
         "name": "Ａｏｂａ‐ＢＢＴ"
-      },
-      {
-        "code": "2469",
-        "name": "ヒビノ"
       },
       {
         "code": "246A",
@@ -26318,14 +30593,6 @@
       {
         "code": "2479",
         "name": "ジェイテック"
-      },
-      {
-        "code": "2481",
-        "name": "タウンニュース社"
-      },
-      {
-        "code": "2483",
-        "name": "翻訳センター"
       },
       {
         "code": "2488",
@@ -26348,24 +30615,12 @@
         "name": "ラクサス・テクノロジーズ"
       },
       {
-        "code": "291A",
-        "name": "リスキル"
-      },
-      {
         "code": "296A",
         "name": "令和アカウンティング・ホールディングス"
       },
       {
         "code": "300A",
         "name": "ＭＩＣ"
-      },
-      {
-        "code": "3010",
-        "name": "ポラリス・ホールディングス"
-      },
-      {
-        "code": "3021",
-        "name": "パシフィックネット"
       },
       {
         "code": "3121",
@@ -26376,20 +30631,8 @@
         "name": "ブッキングリゾート"
       },
       {
-        "code": "331A",
-        "name": "メディックス"
-      },
-      {
-        "code": "3326",
-        "name": "ランシステム"
-      },
-      {
         "code": "339A",
         "name": "プログレス・テクノロジーズ　グループ"
-      },
-      {
-        "code": "343A",
-        "name": "ＩＡＣＥトラベル"
       },
       {
         "code": "3521",
@@ -26398,10 +30641,6 @@
       {
         "code": "352A",
         "name": "ＬＯＩＶＥ"
-      },
-      {
-        "code": "366A",
-        "name": "ウェルネス・コミュニケーションズ"
       },
       {
         "code": "369A",
@@ -26416,10 +30655,6 @@
         "name": "ＧＭＯコマース"
       },
       {
-        "code": "415A",
-        "name": "ＧＭＯ　ＴＥＣＨホールディングス"
-      },
-      {
         "code": "421A",
         "name": "ムービン・ストラテジック・キャリア"
       },
@@ -26432,16 +30667,8 @@
         "name": "西菱電機"
       },
       {
-        "code": "4347",
-        "name": "ブロードメディア"
-      },
-      {
         "code": "4642",
         "name": "オリジナル設計"
-      },
-      {
-        "code": "4650",
-        "name": "ＳＤエンターテイメント"
       },
       {
         "code": "4657",
@@ -26452,28 +30679,12 @@
         "name": "アール・エス・シー"
       },
       {
-        "code": "4679",
-        "name": "田谷"
-      },
-      {
         "code": "469A",
         "name": "フィットクルー"
       },
       {
-        "code": "4705",
-        "name": "クリップコーポレーション"
-      },
-      {
         "code": "4707",
         "name": "キタック"
-      },
-      {
-        "code": "4712",
-        "name": "ＫｅｙＨｏｌｄｅｒ"
-      },
-      {
-        "code": "4750",
-        "name": "ダイサン"
       },
       {
         "code": "475A",
@@ -26508,32 +30719,12 @@
         "name": "ヴィス"
       },
       {
-        "code": "549A",
-        "name": "ヒトトヒトホールディングス"
-      },
-      {
         "code": "558A",
         "name": "ＳＱＵＥＥＺＥ"
       },
       {
-        "code": "5867",
-        "name": "エスネットワークス"
-      },
-      {
-        "code": "5869",
-        "name": "早稲田学習研究会"
-      },
-      {
         "code": "5870",
         "name": "ナルネットコミュニケーションズ"
-      },
-      {
-        "code": "5871",
-        "name": "ＳＯＬＩＺＥ　Ｈｏｌｄｉｎｇｓ"
-      },
-      {
-        "code": "589A",
-        "name": "ネイス"
       },
       {
         "code": "6029",
@@ -26548,36 +30739,12 @@
         "name": "エクストリーム"
       },
       {
-        "code": "6034",
-        "name": "ＭＲＴ"
-      },
-      {
         "code": "6037",
         "name": "楽待"
       },
       {
-        "code": "6039",
-        "name": "日本動物高度医療センター"
-      },
-      {
-        "code": "6045",
-        "name": "レントラックス"
-      },
-      {
-        "code": "6046",
-        "name": "リンクバル"
-      },
-      {
         "code": "6049",
         "name": "イトクロ"
-      },
-      {
-        "code": "6061",
-        "name": "ユニバーサル園芸社"
-      },
-      {
-        "code": "6063",
-        "name": "日本エマージェンシーアシスタンス"
       },
       {
         "code": "6072",
@@ -26588,16 +30755,8 @@
         "name": "ジェイエスエス"
       },
       {
-        "code": "6081",
-        "name": "アライドアーキテクツ"
-      },
-      {
         "code": "6085",
         "name": "アーキテクツ・スタジオ・ジャパン"
-      },
-      {
-        "code": "6087",
-        "name": "アビスト"
       },
       {
         "code": "6090",
@@ -26624,10 +30783,6 @@
         "name": "土木管理総合試験所"
       },
       {
-        "code": "6176",
-        "name": "ブランジスタ"
-      },
-      {
         "code": "6177",
         "name": "ＡｐｐＢａｎｋ"
       },
@@ -26636,16 +30791,8 @@
         "name": "ＧＭＯメディア"
       },
       {
-        "code": "6181",
-        "name": "タメニー"
-      },
-      {
         "code": "6182",
         "name": "メタリアル"
-      },
-      {
-        "code": "6186",
-        "name": "一蔵"
       },
       {
         "code": "6190",
@@ -26660,24 +30807,12 @@
         "name": "ホープ"
       },
       {
-        "code": "6198",
-        "name": "キャリア"
-      },
-      {
-        "code": "6537",
-        "name": "ＷＡＳＨハウス"
-      },
-      {
         "code": "6538",
         "name": "ディスラプターズ"
       },
       {
         "code": "6540",
         "name": "船場"
-      },
-      {
-        "code": "6543",
-        "name": "日宣"
       },
       {
         "code": "6545",
@@ -26688,24 +30823,12 @@
         "name": "フルテック"
       },
       {
-        "code": "6548",
-        "name": "旅工房"
-      },
-      {
         "code": "6549",
         "name": "ディーエムソリューションズ"
       },
       {
         "code": "6551",
         "name": "ツナググループ・ホールディングス"
-      },
-      {
-        "code": "6552",
-        "name": "ＧａｍｅＷｉｔｈ"
-      },
-      {
-        "code": "6554",
-        "name": "エスユーエス"
       },
       {
         "code": "6555",
@@ -26716,24 +30839,8 @@
         "name": "ＡＩＡＩグループ"
       },
       {
-        "code": "6558",
-        "name": "クックビズ"
-      },
-      {
-        "code": "6561",
-        "name": "ＨＡＮＡＴＯＵＲ　ＪＡＰＡＮ"
-      },
-      {
-        "code": "6563",
-        "name": "みらいワークス"
-      },
-      {
         "code": "6568",
         "name": "神戸天然物化学"
-      },
-      {
-        "code": "6570",
-        "name": "共和コーポレーション"
       },
       {
         "code": "6572",
@@ -26744,20 +30851,8 @@
         "name": "ＣＲＡＶＩＡ"
       },
       {
-        "code": "6574",
-        "name": "コンヴァノ"
-      },
-      {
-        "code": "6577",
-        "name": "ベストワンドットコム"
-      },
-      {
         "code": "6578",
         "name": "コレックホールディングス"
-      },
-      {
-        "code": "6579",
-        "name": "ログリー"
       },
       {
         "code": "6580",
@@ -26772,36 +30867,16 @@
         "name": "伊豆シャボテンリゾート"
       },
       {
-        "code": "7031",
-        "name": "インバウンドテック"
-      },
-      {
         "code": "7035",
         "name": "ａｎｄ　ｆａｃｔｏｒｙ"
-      },
-      {
-        "code": "7036",
-        "name": "イーエムネットジャパン"
       },
       {
         "code": "7037",
         "name": "テノ．ホールディングス"
       },
       {
-        "code": "7041",
-        "name": "ＣＲＧホールディングス"
-      },
-      {
         "code": "7042",
         "name": "アクセスグループ・ホールディングス"
-      },
-      {
-        "code": "7043",
-        "name": "アルー"
-      },
-      {
-        "code": "7044",
-        "name": "ピアラ"
       },
       {
         "code": "7046",
@@ -26812,10 +30887,6 @@
         "name": "ポート"
       },
       {
-        "code": "7048",
-        "name": "ベルトラ"
-      },
-      {
         "code": "7057",
         "name": "エヌ・シー・エヌ"
       },
@@ -26824,16 +30895,8 @@
         "name": "フレアス"
       },
       {
-        "code": "7063",
-        "name": "Ｂｉｒｄｍａｎ"
-      },
-      {
         "code": "7064",
         "name": "ハウテレビジョン"
-      },
-      {
-        "code": "7065",
-        "name": "ユーピーアール"
       },
       {
         "code": "7066",
@@ -26842,14 +30905,6 @@
       {
         "code": "7067",
         "name": "ブランディングテクノロジー"
-      },
-      {
-        "code": "7068",
-        "name": "フィードフォースグループ"
-      },
-      {
-        "code": "7069",
-        "name": "サイバー・バズ"
       },
       {
         "code": "7072",
@@ -26880,16 +30935,8 @@
         "name": "スポーツフィールド"
       },
       {
-        "code": "7081",
-        "name": "コーユーレンティア"
-      },
-      {
         "code": "7082",
         "name": "ジモティー"
-      },
-      {
-        "code": "7083",
-        "name": "ＡＨＣグループ"
       },
       {
         "code": "7084",
@@ -26912,14 +30959,6 @@
         "name": "アディッシュ"
       },
       {
-        "code": "7094",
-        "name": "ＮｅｘＴｏｎｅ"
-      },
-      {
-        "code": "7096",
-        "name": "ステムセル研究所"
-      },
-      {
         "code": "7097",
         "name": "さくらさくプラス"
       },
@@ -26936,16 +30975,8 @@
         "name": "Ｒｅｔｔｙ"
       },
       {
-        "code": "7357",
-        "name": "ジオコード"
-      },
-      {
         "code": "7359",
         "name": "東京通信グループ"
-      },
-      {
-        "code": "7360",
-        "name": "オンデック"
       },
       {
         "code": "7361",
@@ -26960,10 +30991,6 @@
         "name": "ベビーカレンダー"
       },
       {
-        "code": "7367",
-        "name": "セルム"
-      },
-      {
         "code": "7369",
         "name": "メイホーホールディングス"
       },
@@ -26976,16 +31003,8 @@
         "name": "Ｚｅｎｋｅｎ"
       },
       {
-        "code": "7372",
-        "name": "デコルテ・ホールディングス"
-      },
-      {
         "code": "7373",
         "name": "アイドマ・ホールディングス"
-      },
-      {
-        "code": "7374",
-        "name": "コンフィデンス・インターワークス"
       },
       {
         "code": "7375",
@@ -26996,28 +31015,12 @@
         "name": "ＢＣＣ"
       },
       {
-        "code": "7378",
-        "name": "アシロ"
-      },
-      {
         "code": "7502",
         "name": "プラザホールディングス"
       },
       {
-        "code": "8769",
-        "name": "アドバンテッジリスクマネジメント"
-      },
-      {
-        "code": "9159",
-        "name": "Ｗ　ＴＯＫＹＯ"
-      },
-      {
         "code": "9160",
         "name": "オンザページ"
-      },
-      {
-        "code": "9162",
-        "name": "ブリーチ"
       },
       {
         "code": "9163",
@@ -27048,48 +31051,20 @@
         "name": "ＣａＳｙ"
       },
       {
-        "code": "9218",
-        "name": "メンタルヘルステクノロジーズ"
-      },
-      {
         "code": "9219",
         "name": "ギックス"
-      },
-      {
-        "code": "9220",
-        "name": "エフビー介護サービス"
       },
       {
         "code": "9221",
         "name": "フルハシＥＰＯ"
       },
       {
-        "code": "9223",
-        "name": "ＡＳＮＯＶＡ"
-      },
-      {
-        "code": "9225",
-        "name": "ブリッジコンサルティンググループ"
-      },
-      {
         "code": "9227",
         "name": "マイクロ波化学"
       },
       {
-        "code": "9235",
-        "name": "売れるネット広告社グループ"
-      },
-      {
-        "code": "9236",
-        "name": "ジャパンＭ＆Ａソリューション"
-      },
-      {
         "code": "9237",
         "name": "笑美面"
-      },
-      {
-        "code": "9238",
-        "name": "バリュークリエーション"
       },
       {
         "code": "9240",
@@ -27102,10 +31077,6 @@
       {
         "code": "9242",
         "name": "メディア総研"
-      },
-      {
-        "code": "9244",
-        "name": "デジタリフト"
       },
       {
         "code": "9245",
@@ -27132,14 +31103,6 @@
         "name": "ラストワンマイル"
       },
       {
-        "code": "9253",
-        "name": "スローガン"
-      },
-      {
-        "code": "9254",
-        "name": "ラバブルマーケティンググループ"
-      },
-      {
         "code": "9256",
         "name": "サクシード"
       },
@@ -27154,18 +31117,6 @@
       {
         "code": "9272",
         "name": "ブティックス"
-      },
-      {
-        "code": "9330",
-        "name": "揚羽"
-      },
-      {
-        "code": "9337",
-        "name": "トリドリ"
-      },
-      {
-        "code": "9339",
-        "name": "コーチ・エィ"
       },
       {
         "code": "9340",
@@ -27192,16 +31143,8 @@
         "name": "ユーラシア旅行社"
       },
       {
-        "code": "9439",
-        "name": "エム・エイチ・グループ"
-      },
-      {
         "code": "9552",
         "name": "クオンツ総研ホールディングス"
-      },
-      {
-        "code": "9554",
-        "name": "ＡＶｉＣ"
       },
       {
         "code": "9556",
@@ -27216,20 +31159,12 @@
         "name": "ジャパニアス"
       },
       {
-        "code": "9561",
-        "name": "グラッドキューブ"
-      },
-      {
         "code": "9562",
         "name": "ビジネスコーチ"
       },
       {
         "code": "9563",
         "name": "Ａｔｌａｓ　Ｔｅｃｈｎｏｌｏｇｉｅｓ"
-      },
-      {
-        "code": "9564",
-        "name": "ＦＣＥ"
       },
       {
         "code": "9565",
@@ -27244,18 +31179,6 @@
         "name": "イチネンホールディングス"
       },
       {
-        "code": "9625",
-        "name": "セレスポ"
-      },
-      {
-        "code": "9635",
-        "name": "武蔵野興業"
-      },
-      {
-        "code": "9636",
-        "name": "きんえい"
-      },
-      {
         "code": "9647",
         "name": "協和コンサルタンツ"
       },
@@ -27264,16 +31187,8 @@
         "name": "ホウライ"
       },
       {
-        "code": "9704",
-        "name": "アゴーラ　ホスピタリティー　グループ"
-      },
-      {
         "code": "9720",
         "name": "ホテル、ニューグランド"
-      },
-      {
-        "code": "9723",
-        "name": "京都ホテル"
       },
       {
         "code": "9765",
@@ -27302,10 +31217,6 @@
         "name": "Ｌ　ｉｓ　Ｂ"
       },
       {
-        "code": "148A",
-        "name": "ハッチ・ワーク"
-      },
-      {
         "code": "149A",
         "name": "シンカ"
       },
@@ -27316,10 +31227,6 @@
       {
         "code": "155A",
         "name": "情報戦略テクノロジー"
-      },
-      {
-        "code": "173A",
-        "name": "ハンモック"
       },
       {
         "code": "175A",
@@ -27334,20 +31241,8 @@
         "name": "ＰｏｓｔＰｒｉｍｅ"
       },
       {
-        "code": "2138",
-        "name": "クルーズ"
-      },
-      {
         "code": "220A",
         "name": "Ｆａｂｅｒ　Ｃｏｍｐａｎｙ"
-      },
-      {
-        "code": "228A",
-        "name": "オプロ"
-      },
-      {
-        "code": "2303",
-        "name": "ドーン"
       },
       {
         "code": "2315",
@@ -27418,16 +31313,8 @@
         "name": "インフォメティス"
       },
       {
-        "code": "298A",
-        "name": "ＧＶＡ　ＴＥＣＨ"
-      },
-      {
         "code": "303A",
         "name": "ｖｉｓｕｍｏ"
-      },
-      {
-        "code": "3042",
-        "name": "セキュアヴェイル"
       },
       {
         "code": "304A",
@@ -27444,10 +31331,6 @@
       {
         "code": "334A",
         "name": "ビジュアル・プロセッシング・ジャパン"
-      },
-      {
-        "code": "335A",
-        "name": "ミライロ"
       },
       {
         "code": "338A",
@@ -27482,20 +31365,8 @@
         "name": "ソケッツ"
       },
       {
-        "code": "3639",
-        "name": "ボルテージ"
-      },
-      {
-        "code": "3646",
-        "name": "駅探"
-      },
-      {
         "code": "3647",
         "name": "アスリナ"
-      },
-      {
-        "code": "3652",
-        "name": "ディジタルメディアプロフェッショナル"
       },
       {
         "code": "3664",
@@ -27504,22 +31375,6 @@
       {
         "code": "3670",
         "name": "協立情報通信"
-      },
-      {
-        "code": "3672",
-        "name": "オルトプラス"
-      },
-      {
-        "code": "3681",
-        "name": "ブイキューブ"
-      },
-      {
-        "code": "3682",
-        "name": "エンカレッジ・テクノロジ"
-      },
-      {
-        "code": "3683",
-        "name": "サイバーリンクス"
       },
       {
         "code": "3686",
@@ -27532,10 +31387,6 @@
       {
         "code": "3695",
         "name": "ＧＭＯプロダクトプラットフォーム"
-      },
-      {
-        "code": "3710",
-        "name": "ジョルダン"
       },
       {
         "code": "3712",
@@ -27558,10 +31409,6 @@
         "name": "サイオス"
       },
       {
-        "code": "3747",
-        "name": "インタートレード"
-      },
-      {
         "code": "3750",
         "name": "ＡＤＲ１２０Ｓ"
       },
@@ -27570,20 +31417,8 @@
         "name": "フライトソリューションズ"
       },
       {
-        "code": "3758",
-        "name": "アエリア"
-      },
-      {
         "code": "3766",
         "name": "システムズ・デザイン"
-      },
-      {
-        "code": "3768",
-        "name": "リスクモンスター"
-      },
-      {
-        "code": "3773",
-        "name": "アドバンスト・メディア"
       },
       {
         "code": "3777",
@@ -27610,14 +31445,6 @@
         "name": "イメージ情報開発"
       },
       {
-        "code": "3804",
-        "name": "システム　ディ"
-      },
-      {
-        "code": "3810",
-        "name": "サイバーステップホールディングス"
-      },
-      {
         "code": "3815",
         "name": "メディア工房"
       },
@@ -27630,20 +31457,8 @@
         "name": "ＴＨＥ　ＷＨＹ　ＨＯＷ　ＤＯ　ＣＯＭＰＡＮＹ"
       },
       {
-        "code": "3826",
-        "name": "システムインテグレータ"
-      },
-      {
-        "code": "3839",
-        "name": "ＯＤＫソリューションズ"
-      },
-      {
         "code": "3840",
         "name": "パス"
-      },
-      {
-        "code": "3841",
-        "name": "ジーダット"
       },
       {
         "code": "3842",
@@ -27674,24 +31489,12 @@
         "name": "コラボス"
       },
       {
-        "code": "3909",
-        "name": "ショーケース"
-      },
-      {
-        "code": "3910",
-        "name": "エムケイシステム"
-      },
-      {
         "code": "3913",
         "name": "ＧｒｅｅｎＢｅｅ"
       },
       {
         "code": "3917",
         "name": "アイリッジ"
-      },
-      {
-        "code": "3918",
-        "name": "ＰＣＩホールディングス"
       },
       {
         "code": "3920",
@@ -27702,14 +31505,6 @@
         "name": "フーバーブレイン"
       },
       {
-        "code": "3928",
-        "name": "マイネット"
-      },
-      {
-        "code": "3929",
-        "name": "ソーシャルワイヤー"
-      },
-      {
         "code": "3931",
         "name": "バリューゴルフ"
       },
@@ -27718,24 +31513,12 @@
         "name": "チエル"
       },
       {
-        "code": "3934",
-        "name": "ベネフィットジャパン"
-      },
-      {
-        "code": "3935",
-        "name": "エディア"
-      },
-      {
         "code": "3936",
         "name": "グローバルウェイ"
       },
       {
         "code": "3940",
         "name": "ノムラシステムコーポレーション"
-      },
-      {
-        "code": "3965",
-        "name": "キャピタル・アセット・プランニング"
       },
       {
         "code": "3968",
@@ -27750,64 +31533,20 @@
         "name": "ＳＣＡＴ"
       },
       {
-        "code": "3976",
-        "name": "シャノン"
-      },
-      {
-        "code": "3979",
-        "name": "うるる"
-      },
-      {
-        "code": "3985",
-        "name": "テモナ"
-      },
-      {
         "code": "3986",
         "name": "ビーブレイクシステムズ"
-      },
-      {
-        "code": "3987",
-        "name": "エコモット"
-      },
-      {
-        "code": "3988",
-        "name": "ＳＹＳホールディングス"
       },
       {
         "code": "3989",
         "name": "シェアリングテクノロジー"
       },
       {
-        "code": "3996",
-        "name": "サインポスト"
-      },
-      {
-        "code": "3997",
-        "name": "トレードワークス"
-      },
-      {
         "code": "4012",
         "name": "アクシス"
       },
       {
-        "code": "4014",
-        "name": "カラダノート"
-      },
-      {
         "code": "4015",
         "name": "ペイクラウドホールディングス"
-      },
-      {
-        "code": "4016",
-        "name": "ＭＩＴホールディングス"
-      },
-      {
-        "code": "4019",
-        "name": "スタメン"
-      },
-      {
-        "code": "4020",
-        "name": "ビートレンド"
       },
       {
         "code": "4052",
@@ -27822,24 +31561,8 @@
         "name": "ニューラルグループ"
       },
       {
-        "code": "4059",
-        "name": "まぐまぐ"
-      },
-      {
-        "code": "4068",
-        "name": "ベイシス"
-      },
-      {
-        "code": "4069",
-        "name": "ＢｌｕｅＭｅｍｅ"
-      },
-      {
         "code": "4073",
         "name": "ジィ・シィ企画"
-      },
-      {
-        "code": "4074",
-        "name": "ラキール"
       },
       {
         "code": "4075",
@@ -27850,32 +31573,12 @@
         "name": "シイエヌエス"
       },
       {
-        "code": "4166",
-        "name": "かっこ"
-      },
-      {
         "code": "4167",
         "name": "ココペリ"
       },
       {
-        "code": "4169",
-        "name": "ＥＮＥＣＨＡＮＧＥ"
-      },
-      {
-        "code": "4170",
-        "name": "Ｋａｉｚｅｎ　Ｐｌａｔｆｏｒｍ"
-      },
-      {
-        "code": "4171",
-        "name": "グローバルインフォメーション"
-      },
-      {
         "code": "4172",
         "name": "Ｈｉクラテス"
-      },
-      {
-        "code": "4174",
-        "name": "アピリッツ"
       },
       {
         "code": "4177",
@@ -27888,22 +31591,6 @@
       {
         "code": "4179",
         "name": "ジーネクスト"
-      },
-      {
-        "code": "4198",
-        "name": "テンダ"
-      },
-      {
-        "code": "4255",
-        "name": "ＴＨＥＣＯＯ"
-      },
-      {
-        "code": "4256",
-        "name": "サインド"
-      },
-      {
-        "code": "4260",
-        "name": "ハイブリッドテクノロジーズ"
       },
       {
         "code": "4261",
@@ -27930,28 +31617,12 @@
         "name": "ビーマップ"
       },
       {
-        "code": "431A",
-        "name": "ユーソナー"
-      },
-      {
         "code": "4335",
         "name": "ＩＰＳホールディングス"
       },
       {
-        "code": "4356",
-        "name": "応用技術"
-      },
-      {
         "code": "436A",
         "name": "サイバーソリューションズ"
-      },
-      {
-        "code": "4370",
-        "name": "モビルス"
-      },
-      {
-        "code": "4371",
-        "name": "コアコンセプト・テクノロジー"
       },
       {
         "code": "4372",
@@ -27970,10 +31641,6 @@
         "name": "ビープラッツ"
       },
       {
-        "code": "4386",
-        "name": "ＳＩＧグループ"
-      },
-      {
         "code": "4392",
         "name": "ＦＩＧ"
       },
@@ -27986,36 +31653,12 @@
         "name": "サイエンスアーツ"
       },
       {
-        "code": "4414",
-        "name": "フレクト"
-      },
-      {
         "code": "4415",
         "name": "ブロードエンタープライズ"
       },
       {
-        "code": "4421",
-        "name": "ディ・アイ・システム"
-      },
-      {
-        "code": "4422",
-        "name": "ＶＡＬＵＥＮＥＸ"
-      },
-      {
-        "code": "4429",
-        "name": "リックソフト"
-      },
-      {
         "code": "4437",
         "name": "ｇｏｏｄｄａｙｓホールディングス"
-      },
-      {
-        "code": "4439",
-        "name": "東名"
-      },
-      {
-        "code": "4441",
-        "name": "トビラシステムズ"
       },
       {
         "code": "4444",
@@ -28042,40 +31685,8 @@
         "name": "ユナイトアンドグロウ"
       },
       {
-        "code": "4487",
-        "name": "スペースマーケット"
-      },
-      {
-        "code": "4491",
-        "name": "コンピューターマネージメント"
-      },
-      {
-        "code": "4495",
-        "name": "アイキューブドシステムズ"
-      },
-      {
-        "code": "4499",
-        "name": "Ｓｐｅｅｅ"
-      },
-      {
-        "code": "460A",
-        "name": "ＢＲＡＮＵ"
-      },
-      {
-        "code": "4736",
-        "name": "日本ラッド"
-      },
-      {
-        "code": "4752",
-        "name": "昭和システムエンジニアリング"
-      },
-      {
         "code": "4762",
         "name": "エックスネット"
-      },
-      {
-        "code": "4769",
-        "name": "ＩＣ"
       },
       {
         "code": "476A",
@@ -28086,36 +31697,12 @@
         "name": "ＳＭ　ＥＮＴＥＲＴＡＩＮＭＥＮＴ　ＪＡＰＡＮ"
       },
       {
-        "code": "4777",
-        "name": "ガーラ"
-      },
-      {
-        "code": "4783",
-        "name": "ＮＣＤ"
-      },
-      {
         "code": "478A",
         "name": "フツパー"
       },
       {
-        "code": "4814",
-        "name": "ネクストウェア"
-      },
-      {
-        "code": "4829",
-        "name": "日本エンタープライズ"
-      },
-      {
-        "code": "4838",
-        "name": "スペースシャワーＳＫＩＹＡＫＩホールディングス"
-      },
-      {
         "code": "483A",
         "name": "テラテクノロジー"
-      },
-      {
-        "code": "4847",
-        "name": "インテリジェント　ウェイブ"
       },
       {
         "code": "5025",
@@ -28134,20 +31721,8 @@
         "name": "サークレイス"
       },
       {
-        "code": "5031",
-        "name": "モイ"
-      },
-      {
-        "code": "5033",
-        "name": "ヌーラボ"
-      },
-      {
         "code": "5034",
         "name": "ｕｎｅｒｒｙ"
-      },
-      {
-        "code": "5035",
-        "name": "ＨＯＵＳＥＩ"
       },
       {
         "code": "5125",
@@ -28168,26 +31743,6 @@
       {
         "code": "5132",
         "name": "ｐｌｕｓｚｅｒｏ"
-      },
-      {
-        "code": "5134",
-        "name": "ＰＯＰＥＲ"
-      },
-      {
-        "code": "5136",
-        "name": "ｔｒｉｐｌａ"
-      },
-      {
-        "code": "5137",
-        "name": "スマートドライブ"
-      },
-      {
-        "code": "5138",
-        "name": "Ｒｅｂａｓｅ"
-      },
-      {
-        "code": "519A",
-        "name": "ベーシック"
       },
       {
         "code": "5240",
@@ -28222,32 +31777,12 @@
         "name": "日本ナレッジ"
       },
       {
-        "code": "5254",
-        "name": "Ａｒｅｎｔ"
-      },
-      {
-        "code": "5255",
-        "name": "モンスターラボ"
-      },
-      {
-        "code": "5256",
-        "name": "Ｆｕｓｉｃ"
-      },
-      {
-        "code": "5257",
-        "name": "ノバシステム"
-      },
-      {
         "code": "5258",
         "name": "トランザクション・メディア・ネットワークス"
       },
       {
         "code": "545A",
         "name": "トランヴィア"
-      },
-      {
-        "code": "548A",
-        "name": "システムエグゼ"
       },
       {
         "code": "550A",
@@ -28258,16 +31793,8 @@
         "name": "バトンズ"
       },
       {
-        "code": "5570",
-        "name": "ジェノバ"
-      },
-      {
         "code": "5575",
         "name": "Ｇｌｏｂｅｅ"
-      },
-      {
-        "code": "5576",
-        "name": "オービーシステム"
       },
       {
         "code": "5578",
@@ -28282,20 +31809,8 @@
         "name": "インバウンドプラットフォーム"
       },
       {
-        "code": "5588",
-        "name": "ファーストアカウンティング"
-      },
-      {
         "code": "5597",
         "name": "ブルーイノベーション"
-      },
-      {
-        "code": "5616",
-        "name": "雨風太陽"
-      },
-      {
-        "code": "5618",
-        "name": "ナイル"
       },
       {
         "code": "5619",
@@ -28306,16 +31821,8 @@
         "name": "ヒューマンテクノロジーズ"
       },
       {
-        "code": "581A",
-        "name": "ＧＯ"
-      },
-      {
         "code": "584A",
         "name": "ＬｉＮＫＸ"
-      },
-      {
-        "code": "6888",
-        "name": "アクモス"
       },
       {
         "code": "6942",
@@ -28326,16 +31833,8 @@
         "name": "システムソフト"
       },
       {
-        "code": "8023",
-        "name": "ＤＡＩＫＯ　ＸＴＥＣＨ"
-      },
-      {
         "code": "9408",
         "name": "ＢＳＮメディアホールディングス"
-      },
-      {
-        "code": "9421",
-        "name": "エヌジェイホールディングス"
       },
       {
         "code": "9423",
@@ -28346,10 +31845,6 @@
         "name": "ＲｅＹｕｕ　Ｊａｐａｎ"
       },
       {
-        "code": "9428",
-        "name": "クロップス"
-      },
-      {
         "code": "94345",
         "name": "ソフトバンク第１回社債型種類株式"
       },
@@ -28358,1206 +31853,16 @@
         "name": "ソフトバンク第２回社債型種類株式"
       },
       {
-        "code": "9444",
-        "name": "トーシンホールディングス"
-      },
-      {
-        "code": "9445",
-        "name": "フォーバルテレコム"
-      },
-      {
-        "code": "9446",
-        "name": "サカイホールディングス"
-      },
-      {
         "code": "9466",
         "name": "アイドママーケティングコミュニケーション"
-      },
-      {
-        "code": "9476",
-        "name": "中央経済社ホールディングス"
       },
       {
         "code": "9478",
         "name": "ＳＥホールディングス・アンド・インキュベーションズ"
       },
       {
-        "code": "9651",
-        "name": "日本プロセス"
-      },
-      {
         "code": "9685",
         "name": "ＫＹＣＯＭホールディングス"
-      },
-      {
-        "code": "9687",
-        "name": "ＫＳＫ"
-      },
-      {
-        "code": "9691",
-        "name": "両毛システムズ"
-      }
-    ],
-    "卸売業": [
-      {
-        "code": "2667",
-        "name": "イメージ　ワン"
-      },
-      {
-        "code": "2668",
-        "name": "タビオ"
-      },
-      {
-        "code": "2693",
-        "name": "ＹＫＴ"
-      },
-      {
-        "code": "2700",
-        "name": "木徳神糧"
-      },
-      {
-        "code": "2721",
-        "name": "ジェイホールディングス"
-      },
-      {
-        "code": "2750",
-        "name": "石光商事"
-      },
-      {
-        "code": "2751",
-        "name": "テンポスホールディングス"
-      },
-      {
-        "code": "2763",
-        "name": "エフティグループ"
-      },
-      {
-        "code": "2776",
-        "name": "新都ホールディングス"
-      },
-      {
-        "code": "2788",
-        "name": "アップルインターナショナル"
-      },
-      {
-        "code": "2795",
-        "name": "日本プリメックス"
-      },
-      {
-        "code": "280A",
-        "name": "ＴＭＨ"
-      },
-      {
-        "code": "287A",
-        "name": "黒田グループ"
-      },
-      {
-        "code": "3024",
-        "name": "クリエイト"
-      },
-      {
-        "code": "3035",
-        "name": "ケイティケイ"
-      },
-      {
-        "code": "3041",
-        "name": "ビューティカダンホールディングス"
-      },
-      {
-        "code": "3045",
-        "name": "カワサキ"
-      },
-      {
-        "code": "3054",
-        "name": "ハイパー"
-      },
-      {
-        "code": "3070",
-        "name": "ジェリービーンズグループ"
-      },
-      {
-        "code": "3089",
-        "name": "テクノアルファ"
-      },
-      {
-        "code": "3140",
-        "name": "ＢＲＵＮＯ"
-      },
-      {
-        "code": "3143",
-        "name": "オーウイル"
-      },
-      {
-        "code": "3157",
-        "name": "ジオリーブグループ"
-      },
-      {
-        "code": "3160",
-        "name": "大光"
-      },
-      {
-        "code": "3161",
-        "name": "アゼアス"
-      },
-      {
-        "code": "3166",
-        "name": "ＯＣＨＩホールディングス"
-      },
-      {
-        "code": "3168",
-        "name": "ＭＥＲＦ"
-      },
-      {
-        "code": "3173",
-        "name": "Ｃｏｍｉｎｉｘ"
-      },
-      {
-        "code": "3306",
-        "name": "日本製麻"
-      },
-      {
-        "code": "3320",
-        "name": "クロスプラス"
-      },
-      {
-        "code": "3323",
-        "name": "レカム"
-      },
-      {
-        "code": "3350",
-        "name": "メタプラネット"
-      },
-      {
-        "code": "3355",
-        "name": "クリヤマホールディングス"
-      },
-      {
-        "code": "3359",
-        "name": "ｃｏｔｔａ"
-      },
-      {
-        "code": "3393",
-        "name": "スターティアホールディングス"
-      },
-      {
-        "code": "3537",
-        "name": "昭栄薬品"
-      },
-      {
-        "code": "3559",
-        "name": "ピーバンドットコム"
-      },
-      {
-        "code": "3562",
-        "name": "Ｎｏ．１"
-      },
-      {
-        "code": "3565",
-        "name": "アセンテック"
-      },
-      {
-        "code": "416A",
-        "name": "富士ユナイトホールディングス"
-      },
-      {
-        "code": "423A",
-        "name": "ライオン事務器"
-      },
-      {
-        "code": "5283",
-        "name": "高見澤"
-      },
-      {
-        "code": "546A",
-        "name": "ＭＩＲＡＩＮＩホールディングス"
-      },
-      {
-        "code": "5885",
-        "name": "ジーデップ・アドバンス"
-      },
-      {
-        "code": "7111",
-        "name": "ＩＮＥＳＴ"
-      },
-      {
-        "code": "7114",
-        "name": "フーディソン"
-      },
-      {
-        "code": "7115",
-        "name": "アルファパーチェス"
-      },
-      {
-        "code": "7120",
-        "name": "ＳＨＩＮＫＯ"
-      },
-      {
-        "code": "7128",
-        "name": "ユニソルホールディングス"
-      },
-      {
-        "code": "7131",
-        "name": "のむら産業"
-      },
-      {
-        "code": "7413",
-        "name": "創健社"
-      },
-      {
-        "code": "7417",
-        "name": "南陽"
-      },
-      {
-        "code": "7422",
-        "name": "東邦レマック"
-      },
-      {
-        "code": "7426",
-        "name": "山大"
-      },
-      {
-        "code": "7427",
-        "name": "エコートレーディング"
-      },
-      {
-        "code": "7443",
-        "name": "横浜魚類"
-      },
-      {
-        "code": "7446",
-        "name": "東北化学薬品"
-      },
-      {
-        "code": "7461",
-        "name": "キムラ"
-      },
-      {
-        "code": "7464",
-        "name": "セフテック"
-      },
-      {
-        "code": "7477",
-        "name": "ムラキ"
-      },
-      {
-        "code": "7487",
-        "name": "小津産業"
-      },
-      {
-        "code": "7501",
-        "name": "ティムコ"
-      },
-      {
-        "code": "7521",
-        "name": "ムサシ"
-      },
-      {
-        "code": "7531",
-        "name": "清和中央ホールディングス"
-      },
-      {
-        "code": "7539",
-        "name": "アイナボホールディングス"
-      },
-      {
-        "code": "7565",
-        "name": "萬世電機"
-      },
-      {
-        "code": "7567",
-        "name": "栄電子"
-      },
-      {
-        "code": "7602",
-        "name": "レダックス"
-      },
-      {
-        "code": "7608",
-        "name": "エスケイジャパン"
-      },
-      {
-        "code": "7619",
-        "name": "田中商事"
-      },
-      {
-        "code": "7670",
-        "name": "オーウエル"
-      },
-      {
-        "code": "7673",
-        "name": "ダイコー通産"
-      },
-      {
-        "code": "7677",
-        "name": "ヤシマキザイ"
-      },
-      {
-        "code": "7681",
-        "name": "レオクラン"
-      },
-      {
-        "code": "7687",
-        "name": "ミクリード"
-      },
-      {
-        "code": "7689",
-        "name": "コパ・コーポレーション"
-      },
-      {
-        "code": "8018",
-        "name": "三共生興"
-      },
-      {
-        "code": "8025",
-        "name": "ツカモトコーポレーション"
-      },
-      {
-        "code": "8077",
-        "name": "トルク"
-      },
-      {
-        "code": "8085",
-        "name": "ナラサキ産業"
-      },
-      {
-        "code": "8089",
-        "name": "ナイス"
-      },
-      {
-        "code": "8091",
-        "name": "ニチモウ"
-      },
-      {
-        "code": "8101",
-        "name": "ＧＳＩクレオス"
-      },
-      {
-        "code": "8104",
-        "name": "クワザワホールディングス"
-      },
-      {
-        "code": "8105",
-        "name": "Ｂｉｔｃｏｉｎ　Ｊａｐａｎ"
-      },
-      {
-        "code": "8115",
-        "name": "ムーンバット"
-      },
-      {
-        "code": "8123",
-        "name": "川辺"
-      },
-      {
-        "code": "8135",
-        "name": "ゼット"
-      },
-      {
-        "code": "8138",
-        "name": "三京化成"
-      },
-      {
-        "code": "8139",
-        "name": "ナガホリ"
-      },
-      {
-        "code": "8144",
-        "name": "デンキョーグループホールディングス"
-      },
-      {
-        "code": "8147",
-        "name": "トミタ"
-      },
-      {
-        "code": "8152",
-        "name": "ソマール"
-      },
-      {
-        "code": "8158",
-        "name": "ソーダニッカ"
-      },
-      {
-        "code": "8225",
-        "name": "タカチホ"
-      },
-      {
-        "code": "8285",
-        "name": "三谷産業"
-      },
-      {
-        "code": "9264",
-        "name": "ポエック"
-      },
-      {
-        "code": "9763",
-        "name": "丸建リース"
-      },
-      {
-        "code": "9849",
-        "name": "共同紙販ホールディングス"
-      },
-      {
-        "code": "9872",
-        "name": "北恵"
-      },
-      {
-        "code": "9885",
-        "name": "シャルレ"
-      },
-      {
-        "code": "9895",
-        "name": "コンセック"
-      },
-      {
-        "code": "9913",
-        "name": "日邦産業"
-      },
-      {
-        "code": "9914",
-        "name": "植松商会"
-      },
-      {
-        "code": "9929",
-        "name": "平和紙業"
-      },
-      {
-        "code": "9930",
-        "name": "北沢産業"
-      },
-      {
-        "code": "9941",
-        "name": "太洋物産"
-      },
-      {
-        "code": "9955",
-        "name": "ヨンキュウ"
-      },
-      {
-        "code": "9972",
-        "name": "アルテック"
-      },
-      {
-        "code": "9982",
-        "name": "タキヒヨー"
-      }
-    ],
-    "小売業": [
-      {
-        "code": "138A",
-        "name": "光フードサービス"
-      },
-      {
-        "code": "245A",
-        "name": "ＩＮＧＳ"
-      },
-      {
-        "code": "2654",
-        "name": "アスモ"
-      },
-      {
-        "code": "2656",
-        "name": "ベクターホールディングス"
-      },
-      {
-        "code": "2666",
-        "name": "オートウェーブ"
-      },
-      {
-        "code": "2669",
-        "name": "カネ美食品"
-      },
-      {
-        "code": "2673",
-        "name": "夢みつけ隊"
-      },
-      {
-        "code": "2683",
-        "name": "魚喜"
-      },
-      {
-        "code": "2694",
-        "name": "焼肉坂井ホールディングス"
-      },
-      {
-        "code": "2722",
-        "name": "ＩＫホールディングス"
-      },
-      {
-        "code": "2736",
-        "name": "フェスタリアホールディングス"
-      },
-      {
-        "code": "274A",
-        "name": "ガーデン"
-      },
-      {
-        "code": "2762",
-        "name": "ＳＡＮＫＯ　ＭＡＲＫＥＴＩＮＧ　ＦＯＯＤＳ"
-      },
-      {
-        "code": "2778",
-        "name": "パレモ・ホールディングス"
-      },
-      {
-        "code": "2789",
-        "name": "カルラ"
-      },
-      {
-        "code": "2798",
-        "name": "ワイズテーブルコーポレーション"
-      },
-      {
-        "code": "297A",
-        "name": "アルピコホールディングス"
-      },
-      {
-        "code": "3011",
-        "name": "バナーズ"
-      },
-      {
-        "code": "3030",
-        "name": "ハブ"
-      },
-      {
-        "code": "3063",
-        "name": "ジェイグループホールディングス"
-      },
-      {
-        "code": "3065",
-        "name": "ライフフーズ"
-      },
-      {
-        "code": "3067",
-        "name": "東京一番フーズ"
-      },
-      {
-        "code": "3071",
-        "name": "ストリーム"
-      },
-      {
-        "code": "3077",
-        "name": "ホリイフードサービス"
-      },
-      {
-        "code": "3080",
-        "name": "ジェーソン"
-      },
-      {
-        "code": "3082",
-        "name": "きちりホールディングス"
-      },
-      {
-        "code": "3083",
-        "name": "スターシーズ"
-      },
-      {
-        "code": "3133",
-        "name": "海帆"
-      },
-      {
-        "code": "3135",
-        "name": "マーケットエンタープライズ"
-      },
-      {
-        "code": "3137",
-        "name": "ファンデリー"
-      },
-      {
-        "code": "3138",
-        "name": "富士山マガジンサービス"
-      },
-      {
-        "code": "3169",
-        "name": "ミサワ"
-      },
-      {
-        "code": "3174",
-        "name": "ハピネス・アンド・ディ"
-      },
-      {
-        "code": "3175",
-        "name": "エー・ピーホールディングス"
-      },
-      {
-        "code": "3177",
-        "name": "ありがとうサービス"
-      },
-      {
-        "code": "3185",
-        "name": "夢展望"
-      },
-      {
-        "code": "3187",
-        "name": "ミラタップ"
-      },
-      {
-        "code": "3189",
-        "name": "ＡＮＡＰホールディングス"
-      },
-      {
-        "code": "3190",
-        "name": "ホットマン"
-      },
-      {
-        "code": "3192",
-        "name": "白鳩"
-      },
-      {
-        "code": "3195",
-        "name": "ジェネレーションパス"
-      },
-      {
-        "code": "3223",
-        "name": "エスエルディー"
-      },
-      {
-        "code": "3224",
-        "name": "ゼネラル・オイスター"
-      },
-      {
-        "code": "3317",
-        "name": "フライングガーデン"
-      },
-      {
-        "code": "3352",
-        "name": "バッファロー"
-      },
-      {
-        "code": "3358",
-        "name": "Ｔｒａｉｌｈｅａｄ　Ｇｌｏｂａｌ　Ｈｏｌｄｉｎｇｓ"
-      },
-      {
-        "code": "3370",
-        "name": "フジタコーポレーション"
-      },
-      {
-        "code": "3372",
-        "name": "関門海"
-      },
-      {
-        "code": "3416",
-        "name": "ピクスタ"
-      },
-      {
-        "code": "3418",
-        "name": "バルニバービ"
-      },
-      {
-        "code": "3536",
-        "name": "アクサスホールディングス"
-      },
-      {
-        "code": "3547",
-        "name": "ユニシアホールディングス"
-      },
-      {
-        "code": "3550",
-        "name": "スタジオアタオ"
-      },
-      {
-        "code": "3557",
-        "name": "ユナイテッド＆コレクティブ"
-      },
-      {
-        "code": "3558",
-        "name": "ジェイドグループ"
-      },
-      {
-        "code": "3566",
-        "name": "ユニフォームネクスト"
-      },
-      {
-        "code": "367A",
-        "name": "プリモグローバルホールディングス"
-      },
-      {
-        "code": "3726",
-        "name": "フォーシーズＨＤ"
-      },
-      {
-        "code": "3825",
-        "name": "リミックスポイント"
-      },
-      {
-        "code": "386A",
-        "name": "みのや"
-      },
-      {
-        "code": "417A",
-        "name": "ブルーゾーンホールディングス"
-      },
-      {
-        "code": "428A",
-        "name": "サイプレス・ホールディングス"
-      },
-      {
-        "code": "456A",
-        "name": "ＨＵＭＡＮ　ＭＡＤＥ"
-      },
-      {
-        "code": "556A",
-        "name": "犬猫生活"
-      },
-      {
-        "code": "5884",
-        "name": "クラダシ"
-      },
-      {
-        "code": "5892",
-        "name": "ｙｕｔｏｒｉ"
-      },
-      {
-        "code": "7112",
-        "name": "キューブ"
-      },
-      {
-        "code": "7126",
-        "name": "グローバルスタイル"
-      },
-      {
-        "code": "7127",
-        "name": "一家ホールディングス"
-      },
-      {
-        "code": "7129",
-        "name": "ミアヘルサホールディングス"
-      },
-      {
-        "code": "7133",
-        "name": "ＨＹＵＧＡ　ＰＲＩＭＡＲＹ　ＣＡＲＥ"
-      },
-      {
-        "code": "7135",
-        "name": "ジャパンクラフトホールディングス"
-      },
-      {
-        "code": "7138",
-        "name": "ＴＯＲＩＣＯ"
-      },
-      {
-        "code": "7140",
-        "name": "ペットゴー"
-      },
-      {
-        "code": "7462",
-        "name": "ＣＡＰＩＴＡ"
-      },
-      {
-        "code": "7506",
-        "name": "ハウス　オブ　ローゼ"
-      },
-      {
-        "code": "7508",
-        "name": "Ｇ‐７ホールディングス"
-      },
-      {
-        "code": "7509",
-        "name": "アイエーグループ"
-      },
-      {
-        "code": "7523",
-        "name": "アールビバン"
-      },
-      {
-        "code": "7524",
-        "name": "マルシェ"
-      },
-      {
-        "code": "7544",
-        "name": "スリーエフ"
-      },
-      {
-        "code": "75505",
-        "name": "ゼンショーホールディングス第１回社債型種類株式"
-      },
-      {
-        "code": "7561",
-        "name": "ハークスレイ"
-      },
-      {
-        "code": "7571",
-        "name": "ヤマノホールディングス"
-      },
-      {
-        "code": "7585",
-        "name": "かんなん丸"
-      },
-      {
-        "code": "7601",
-        "name": "ポプラ"
-      },
-      {
-        "code": "7603",
-        "name": "ジーイエット"
-      },
-      {
-        "code": "7604",
-        "name": "梅の花グループ"
-      },
-      {
-        "code": "7614",
-        "name": "オーエムツーネットワーク"
-      },
-      {
-        "code": "7625",
-        "name": "グローバルダイニング"
-      },
-      {
-        "code": "7638",
-        "name": "ＮＥＷ　ＡＲＴ　ＨＯＬＤＩＮＧＳ"
-      },
-      {
-        "code": "7674",
-        "name": "ＮＡＴＴＹ　ＳＷＡＮＫＹホールディングス"
-      },
-      {
-        "code": "7678",
-        "name": "あさくま"
-      },
-      {
-        "code": "7682",
-        "name": "浜木綿"
-      },
-      {
-        "code": "7686",
-        "name": "ひとまいる"
-      },
-      {
-        "code": "7695",
-        "name": "交換できるくん"
-      },
-      {
-        "code": "7918",
-        "name": "ヴィア・ホールディングス"
-      },
-      {
-        "code": "8181",
-        "name": "東天紅"
-      },
-      {
-        "code": "9271",
-        "name": "和心"
-      },
-      {
-        "code": "9812",
-        "name": "テーオーホールディングス"
-      },
-      {
-        "code": "9878",
-        "name": "セキド"
-      },
-      {
-        "code": "9890",
-        "name": "マキヤ"
-      },
-      {
-        "code": "9904",
-        "name": "ベリテ"
-      },
-      {
-        "code": "9959",
-        "name": "アシードホールディングス"
-      },
-      {
-        "code": "9969",
-        "name": "ショクブン"
-      },
-      {
-        "code": "9973",
-        "name": "ＫＯＺＯホールディングス"
-      },
-      {
-        "code": "9980",
-        "name": "ＭＲＫホールディングス"
-      },
-      {
-        "code": "9994",
-        "name": "やまや"
-      }
-    ],
-    "不動産業": [
-      {
-        "code": "146A",
-        "name": "コロンビア・ワークス"
-      },
-      {
-        "code": "166A",
-        "name": "タスキホールディングス"
-      },
-      {
-        "code": "1783",
-        "name": "ｆａｎｔａｓｉｓｔａ"
-      },
-      {
-        "code": "276A",
-        "name": "ククレブ・アドバイザーズ"
-      },
-      {
-        "code": "2970",
-        "name": "ＧＬＣ　ＧＲＯＵＰ"
-      },
-      {
-        "code": "2981",
-        "name": "ランディックス"
-      },
-      {
-        "code": "2982",
-        "name": "ＡＤワークスグループ"
-      },
-      {
-        "code": "2983",
-        "name": "アールプランナー"
-      },
-      {
-        "code": "2984",
-        "name": "ヤマイチエステート"
-      },
-      {
-        "code": "2986",
-        "name": "ＬＡホールディングス"
-      },
-      {
-        "code": "2991",
-        "name": "ランドネット"
-      },
-      {
-        "code": "2993",
-        "name": "長栄"
-      },
-      {
-        "code": "2997",
-        "name": "ストレージ王"
-      },
-      {
-        "code": "2999",
-        "name": "ホームポジション"
-      },
-      {
-        "code": "3232",
-        "name": "三重交通グループホールディングス"
-      },
-      {
-        "code": "3236",
-        "name": "プロパスト"
-      },
-      {
-        "code": "3237",
-        "name": "イントランス"
-      },
-      {
-        "code": "3238",
-        "name": "セントラル総合開発"
-      },
-      {
-        "code": "3241",
-        "name": "ウィル"
-      },
-      {
-        "code": "3242",
-        "name": "アーバネットコーポレーション"
-      },
-      {
-        "code": "3246",
-        "name": "コーセーアールイー"
-      },
-      {
-        "code": "3248",
-        "name": "アールエイジ"
-      },
-      {
-        "code": "3261",
-        "name": "グランディーズ"
-      },
-      {
-        "code": "3266",
-        "name": "ファンドクリエーショングループ"
-      },
-      {
-        "code": "3271",
-        "name": "ＴＨＥグローバル社"
-      },
-      {
-        "code": "3277",
-        "name": "サンセイランディック"
-      },
-      {
-        "code": "3280",
-        "name": "エストラスト"
-      },
-      {
-        "code": "3286",
-        "name": "トラストホールディングス"
-      },
-      {
-        "code": "3293",
-        "name": "アズマハウス"
-      },
-      {
-        "code": "3297",
-        "name": "東武住販"
-      },
-      {
-        "code": "3300",
-        "name": "アンビション　ＤＸ　ホールディングス"
-      },
-      {
-        "code": "3452",
-        "name": "ビーロット"
-      },
-      {
-        "code": "3454",
-        "name": "ファーストブラザーズ"
-      },
-      {
-        "code": "3467",
-        "name": "アグレ都市デザイン"
-      },
-      {
-        "code": "3469",
-        "name": "デュアルタップ"
-      },
-      {
-        "code": "3474",
-        "name": "Ｇ－ＦＡＣＴＯＲＹ"
-      },
-      {
-        "code": "3477",
-        "name": "フォーライフ"
-      },
-      {
-        "code": "3484",
-        "name": "イノベーションホールディングス"
-      },
-      {
-        "code": "3486",
-        "name": "グローバル・リンク・マネジメント"
-      },
-      {
-        "code": "3489",
-        "name": "フェイスネットワーク"
-      },
-      {
-        "code": "3490",
-        "name": "アズ企画設計"
-      },
-      {
-        "code": "3494",
-        "name": "マリオン"
-      },
-      {
-        "code": "3495",
-        "name": "香陵住販"
-      },
-      {
-        "code": "3772",
-        "name": "ウェルス・マネジメント"
-      },
-      {
-        "code": "463A",
-        "name": "インテリックスホールディングス"
-      },
-      {
-        "code": "5280",
-        "name": "ヨシコン"
-      },
-      {
-        "code": "5527",
-        "name": "ｐｒｏｐｅｒｔｙ　ｔｅｃｈｎｏｌｏｇｉｅｓ"
-      },
-      {
-        "code": "5532",
-        "name": "リアルゲイト"
-      },
-      {
-        "code": "5533",
-        "name": "エリッツホールディングス"
-      },
-      {
-        "code": "5535",
-        "name": "ミガロホールディングス"
-      },
-      {
-        "code": "5537",
-        "name": "ＡｌｂａＬｉｎｋ"
-      },
-      {
-        "code": "6620",
-        "name": "宮越ホールディングス"
-      },
-      {
-        "code": "6625",
-        "name": "ＪＡＬＣＯホールディングス"
-      },
-      {
-        "code": "8836",
-        "name": "ＲＩＳＥ"
-      },
-      {
-        "code": "8887",
-        "name": "シーラホールディングス"
-      },
-      {
-        "code": "8891",
-        "name": "ＡＭＧホールディングス"
-      },
-      {
-        "code": "8894",
-        "name": "ＲＥＶＯＬＵＴＩＯＮ"
-      },
-      {
-        "code": "8904",
-        "name": "ＡＶＡＮＴＩＡ"
-      },
-      {
-        "code": "8908",
-        "name": "毎日コムネット"
-      },
-      {
-        "code": "8912",
-        "name": "エリアクエスト"
-      },
-      {
-        "code": "8927",
-        "name": "明豊エンタープライズ"
-      },
-      {
-        "code": "8929",
-        "name": "青山財産ネットワークス"
-      },
-      {
-        "code": "8931",
-        "name": "和田興産"
-      },
-      {
-        "code": "8938",
-        "name": "グローム・ホールディングス"
-      },
-      {
-        "code": "8944",
-        "name": "ランドビジネス"
-      },
-      {
-        "code": "8945",
-        "name": "サンネクスタグループ"
-      },
-      {
-        "code": "8946",
-        "name": "ＡＳＩＡＮ　ＳＴＡＲ"
-      },
-      {
-        "code": "8995",
-        "name": "誠建設工業"
-      },
-      {
-        "code": "8996",
-        "name": "ハウスフリーダム"
-      },
-      {
-        "code": "9816",
-        "name": "ストライダーズ"
-      },
-      {
-        "code": "9820",
-        "name": "エムティジェネックス"
       }
     ],
     "電気機器": [
@@ -30032,202 +32337,404 @@
         "name": "マミヤ・オーピー"
       }
     ],
-    "建設業": [
+    "卸売業": [
       {
-        "code": "1401",
-        "name": "エムビーエス"
+        "code": "2667",
+        "name": "イメージ　ワン"
       },
       {
-        "code": "1418",
-        "name": "インターライフホールディングス"
+        "code": "2721",
+        "name": "ジェイホールディングス"
       },
       {
-        "code": "1429",
-        "name": "日本アクア"
+        "code": "2776",
+        "name": "新都ホールディングス"
       },
       {
-        "code": "1430",
-        "name": "ファーストコーポレーション"
+        "code": "2788",
+        "name": "アップルインターナショナル"
       },
       {
-        "code": "1434",
-        "name": "ＪＥＳＣＯホールディングス"
+        "code": "2795",
+        "name": "日本プリメックス"
       },
       {
-        "code": "1436",
-        "name": "グリーンエナジー＆カンパニー"
+        "code": "280A",
+        "name": "ＴＭＨ"
       },
       {
-        "code": "1438",
-        "name": "岐阜造園"
+        "code": "3024",
+        "name": "クリエイト"
       },
       {
-        "code": "1443",
-        "name": "技研ホールディングス"
+        "code": "3041",
+        "name": "ビューティカダンホールディングス"
       },
       {
-        "code": "1444",
-        "name": "ニッソウ"
+        "code": "3045",
+        "name": "カワサキ"
       },
       {
-        "code": "1446",
-        "name": "キャンディル"
+        "code": "3054",
+        "name": "ハイパー"
       },
       {
-        "code": "1447",
-        "name": "ＳＡＡＦホールディングス"
+        "code": "3070",
+        "name": "ジェリービーンズグループ"
       },
       {
-        "code": "1450",
-        "name": "ＴＡＮＡＫＥＮ"
+        "code": "3157",
+        "name": "ジオリーブグループ"
       },
       {
-        "code": "1711",
-        "name": "ＳＤＳホールディングス"
+        "code": "3161",
+        "name": "アゼアス"
       },
       {
-        "code": "1718",
-        "name": "美樹工業"
+        "code": "3168",
+        "name": "ＭＥＲＦ"
       },
       {
-        "code": "1724",
-        "name": "シンクレイヤ"
+        "code": "3306",
+        "name": "日本製麻"
       },
       {
-        "code": "1758",
-        "name": "太洋基礎工業"
+        "code": "3350",
+        "name": "メタプラネット"
       },
       {
-        "code": "1764",
-        "name": "工藤建設"
+        "code": "3359",
+        "name": "ｃｏｔｔａ"
       },
       {
-        "code": "1768",
-        "name": "ソネック"
+        "code": "416A",
+        "name": "富士ユナイトホールディングス"
       },
       {
-        "code": "1770",
-        "name": "藤田エンジニアリング"
+        "code": "5283",
+        "name": "高見澤"
       },
       {
-        "code": "1787",
-        "name": "ナカボーテック"
+        "code": "546A",
+        "name": "ＭＩＲＡＩＮＩホールディングス"
       },
       {
-        "code": "1788",
-        "name": "三東工業社"
+        "code": "7111",
+        "name": "ＩＮＥＳＴ"
       },
       {
-        "code": "1795",
-        "name": "マサル"
+        "code": "7115",
+        "name": "アルファパーチェス"
       },
       {
-        "code": "1798",
-        "name": "守谷商会"
+        "code": "7120",
+        "name": "ＳＨＩＮＫＯ"
       },
       {
-        "code": "1799",
-        "name": "第一建設工業"
+        "code": "7128",
+        "name": "ユニソルホールディングス"
       },
       {
-        "code": "1807",
-        "name": "佐藤渡辺"
+        "code": "7131",
+        "name": "のむら産業"
       },
       {
-        "code": "1814",
-        "name": "大末建設"
+        "code": "7413",
+        "name": "創健社"
       },
       {
-        "code": "1826",
-        "name": "佐田建設"
+        "code": "7417",
+        "name": "南陽"
       },
       {
-        "code": "1828",
-        "name": "田辺工業"
+        "code": "7422",
+        "name": "東邦レマック"
       },
       {
-        "code": "1844",
-        "name": "大盛工業"
+        "code": "7461",
+        "name": "キムラ"
       },
       {
-        "code": "1847",
-        "name": "イチケン"
+        "code": "7477",
+        "name": "ムラキ"
       },
       {
-        "code": "1848",
-        "name": "富士ピー・エス"
+        "code": "7531",
+        "name": "清和中央ホールディングス"
       },
       {
-        "code": "1853",
-        "name": "森組"
+        "code": "7602",
+        "name": "レダックス"
       },
       {
-        "code": "1867",
-        "name": "植木組"
+        "code": "7608",
+        "name": "エスケイジャパン"
       },
       {
-        "code": "1897",
-        "name": "金下建設"
+        "code": "7670",
+        "name": "オーウエル"
       },
       {
-        "code": "1960",
-        "name": "サンテック"
+        "code": "7673",
+        "name": "ダイコー通産"
       },
       {
-        "code": "1967",
-        "name": "ヤマト"
+        "code": "7677",
+        "name": "ヤシマキザイ"
       },
       {
-        "code": "1972",
-        "name": "三晃金属工業"
+        "code": "7681",
+        "name": "レオクラン"
       },
       {
-        "code": "1981",
-        "name": "協和日成"
+        "code": "7687",
+        "name": "ミクリード"
       },
       {
-        "code": "1992",
-        "name": "神田通信機"
+        "code": "7689",
+        "name": "コパ・コーポレーション"
       },
       {
-        "code": "1994",
-        "name": "高橋カーテンウォール工業"
+        "code": "8077",
+        "name": "トルク"
       },
       {
-        "code": "1997",
-        "name": "暁飯島工業"
+        "code": "8101",
+        "name": "ＧＳＩクレオス"
       },
       {
-        "code": "205A",
-        "name": "ロゴスホールディングス"
+        "code": "8105",
+        "name": "Ｂｉｔｃｏｉｎ　Ｊａｐａｎ"
       },
       {
-        "code": "211A",
-        "name": "カドス・コーポレーション"
+        "code": "8138",
+        "name": "三京化成"
       },
       {
-        "code": "253A",
-        "name": "ＥＴＳグループ"
+        "code": "8152",
+        "name": "ソマール"
       },
       {
-        "code": "341A",
-        "name": "トヨコー"
+        "code": "8158",
+        "name": "ソーダニッカ"
       },
       {
-        "code": "407A",
-        "name": "ＵＮＩＣＯＮホールディングス"
+        "code": "8225",
+        "name": "タカチホ"
       },
       {
-        "code": "50765",
-        "name": "インフロニア・ホールディングス第１回社債型種類株式"
+        "code": "8285",
+        "name": "三谷産業"
       },
       {
-        "code": "5078",
-        "name": "セレコーポレーション"
+        "code": "9264",
+        "name": "ポエック"
       },
       {
-        "code": "5079",
-        "name": "ノバック"
+        "code": "9763",
+        "name": "丸建リース"
+      },
+      {
+        "code": "9914",
+        "name": "植松商会"
+      },
+      {
+        "code": "9930",
+        "name": "北沢産業"
+      },
+      {
+        "code": "9941",
+        "name": "太洋物産"
+      },
+      {
+        "code": "9972",
+        "name": "アルテック"
+      }
+    ],
+    "小売業": [
+      {
+        "code": "245A",
+        "name": "ＩＮＧＳ"
+      },
+      {
+        "code": "2654",
+        "name": "アスモ"
+      },
+      {
+        "code": "2656",
+        "name": "ベクターホールディングス"
+      },
+      {
+        "code": "2669",
+        "name": "カネ美食品"
+      },
+      {
+        "code": "2673",
+        "name": "夢みつけ隊"
+      },
+      {
+        "code": "2683",
+        "name": "魚喜"
+      },
+      {
+        "code": "2722",
+        "name": "ＩＫホールディングス"
+      },
+      {
+        "code": "274A",
+        "name": "ガーデン"
+      },
+      {
+        "code": "297A",
+        "name": "アルピコホールディングス"
+      },
+      {
+        "code": "3011",
+        "name": "バナーズ"
+      },
+      {
+        "code": "3071",
+        "name": "ストリーム"
+      },
+      {
+        "code": "3083",
+        "name": "スターシーズ"
+      },
+      {
+        "code": "3169",
+        "name": "ミサワ"
+      },
+      {
+        "code": "3187",
+        "name": "ミラタップ"
+      },
+      {
+        "code": "3190",
+        "name": "ホットマン"
+      },
+      {
+        "code": "3195",
+        "name": "ジェネレーションパス"
+      },
+      {
+        "code": "3223",
+        "name": "エスエルディー"
+      },
+      {
+        "code": "3352",
+        "name": "バッファロー"
+      },
+      {
+        "code": "3358",
+        "name": "Ｔｒａｉｌｈｅａｄ　Ｇｌｏｂａｌ　Ｈｏｌｄｉｎｇｓ"
+      },
+      {
+        "code": "3370",
+        "name": "フジタコーポレーション"
+      },
+      {
+        "code": "3547",
+        "name": "ユニシアホールディングス"
+      },
+      {
+        "code": "3557",
+        "name": "ユナイテッド＆コレクティブ"
+      },
+      {
+        "code": "367A",
+        "name": "プリモグローバルホールディングス"
+      },
+      {
+        "code": "3726",
+        "name": "フォーシーズＨＤ"
+      },
+      {
+        "code": "3825",
+        "name": "リミックスポイント"
+      },
+      {
+        "code": "386A",
+        "name": "みのや"
+      },
+      {
+        "code": "417A",
+        "name": "ブルーゾーンホールディングス"
+      },
+      {
+        "code": "428A",
+        "name": "サイプレス・ホールディングス"
+      },
+      {
+        "code": "7112",
+        "name": "キューブ"
+      },
+      {
+        "code": "7135",
+        "name": "ジャパンクラフトホールディングス"
+      },
+      {
+        "code": "7462",
+        "name": "ＣＡＰＩＴＡ"
+      },
+      {
+        "code": "7506",
+        "name": "ハウス　オブ　ローゼ"
+      },
+      {
+        "code": "7523",
+        "name": "アールビバン"
+      },
+      {
+        "code": "7524",
+        "name": "マルシェ"
+      },
+      {
+        "code": "75505",
+        "name": "ゼンショーホールディングス第１回社債型種類株式"
+      },
+      {
+        "code": "7561",
+        "name": "ハークスレイ"
+      },
+      {
+        "code": "7571",
+        "name": "ヤマノホールディングス"
+      },
+      {
+        "code": "7603",
+        "name": "ジーイエット"
+      },
+      {
+        "code": "7614",
+        "name": "オーエムツーネットワーク"
+      },
+      {
+        "code": "7686",
+        "name": "ひとまいる"
+      },
+      {
+        "code": "9271",
+        "name": "和心"
+      },
+      {
+        "code": "9812",
+        "name": "テーオーホールディングス"
+      },
+      {
+        "code": "9878",
+        "name": "セキド"
+      },
+      {
+        "code": "9969",
+        "name": "ショクブン"
+      },
+      {
+        "code": "9973",
+        "name": "ＫＯＺＯホールディングス"
+      },
+      {
+        "code": "9980",
+        "name": "ＭＲＫホールディングス"
       }
     ],
     "化学": [
@@ -30406,6 +32913,180 @@
       {
         "code": "9845",
         "name": "パーカーコーポレーション"
+      }
+    ],
+    "不動産業": [
+      {
+        "code": "146A",
+        "name": "コロンビア・ワークス"
+      },
+      {
+        "code": "1783",
+        "name": "ｆａｎｔａｓｉｓｔａ"
+      },
+      {
+        "code": "276A",
+        "name": "ククレブ・アドバイザーズ"
+      },
+      {
+        "code": "2970",
+        "name": "ＧＬＣ　ＧＲＯＵＰ"
+      },
+      {
+        "code": "2983",
+        "name": "アールプランナー"
+      },
+      {
+        "code": "2984",
+        "name": "ヤマイチエステート"
+      },
+      {
+        "code": "2993",
+        "name": "長栄"
+      },
+      {
+        "code": "3232",
+        "name": "三重交通グループホールディングス"
+      },
+      {
+        "code": "3237",
+        "name": "イントランス"
+      },
+      {
+        "code": "3238",
+        "name": "セントラル総合開発"
+      },
+      {
+        "code": "3246",
+        "name": "コーセーアールイー"
+      },
+      {
+        "code": "3248",
+        "name": "アールエイジ"
+      },
+      {
+        "code": "3266",
+        "name": "ファンドクリエーショングループ"
+      },
+      {
+        "code": "3271",
+        "name": "ＴＨＥグローバル社"
+      },
+      {
+        "code": "3286",
+        "name": "トラストホールディングス"
+      },
+      {
+        "code": "3293",
+        "name": "アズマハウス"
+      },
+      {
+        "code": "3300",
+        "name": "アンビション　ＤＸ　ホールディングス"
+      },
+      {
+        "code": "3454",
+        "name": "ファーストブラザーズ"
+      },
+      {
+        "code": "3467",
+        "name": "アグレ都市デザイン"
+      },
+      {
+        "code": "3469",
+        "name": "デュアルタップ"
+      },
+      {
+        "code": "3474",
+        "name": "Ｇ－ＦＡＣＴＯＲＹ"
+      },
+      {
+        "code": "3477",
+        "name": "フォーライフ"
+      },
+      {
+        "code": "3484",
+        "name": "イノベーションホールディングス"
+      },
+      {
+        "code": "3490",
+        "name": "アズ企画設計"
+      },
+      {
+        "code": "3494",
+        "name": "マリオン"
+      },
+      {
+        "code": "3772",
+        "name": "ウェルス・マネジメント"
+      },
+      {
+        "code": "5527",
+        "name": "ｐｒｏｐｅｒｔｙ　ｔｅｃｈｎｏｌｏｇｉｅｓ"
+      },
+      {
+        "code": "5532",
+        "name": "リアルゲイト"
+      },
+      {
+        "code": "6620",
+        "name": "宮越ホールディングス"
+      },
+      {
+        "code": "6625",
+        "name": "ＪＡＬＣＯホールディングス"
+      },
+      {
+        "code": "8836",
+        "name": "ＲＩＳＥ"
+      },
+      {
+        "code": "8891",
+        "name": "ＡＭＧホールディングス"
+      },
+      {
+        "code": "8894",
+        "name": "ＲＥＶＯＬＵＴＩＯＮ"
+      },
+      {
+        "code": "8912",
+        "name": "エリアクエスト"
+      },
+      {
+        "code": "8927",
+        "name": "明豊エンタープライズ"
+      },
+      {
+        "code": "8938",
+        "name": "グローム・ホールディングス"
+      },
+      {
+        "code": "8944",
+        "name": "ランドビジネス"
+      },
+      {
+        "code": "8945",
+        "name": "サンネクスタグループ"
+      },
+      {
+        "code": "8946",
+        "name": "ＡＳＩＡＮ　ＳＴＡＲ"
+      },
+      {
+        "code": "8995",
+        "name": "誠建設工業"
+      },
+      {
+        "code": "8996",
+        "name": "ハウスフリーダム"
+      },
+      {
+        "code": "9816",
+        "name": "ストライダーズ"
+      },
+      {
+        "code": "9820",
+        "name": "エムティジェネックス"
       }
     ],
     "その他製品": [
@@ -30820,6 +33501,104 @@
       {
         "code": "520A",
         "name": "ジェイファーマ"
+      }
+    ],
+    "建設業": [
+      {
+        "code": "1401",
+        "name": "エムビーエス"
+      },
+      {
+        "code": "1418",
+        "name": "インターライフホールディングス"
+      },
+      {
+        "code": "1436",
+        "name": "グリーンエナジー＆カンパニー"
+      },
+      {
+        "code": "1438",
+        "name": "岐阜造園"
+      },
+      {
+        "code": "1444",
+        "name": "ニッソウ"
+      },
+      {
+        "code": "1446",
+        "name": "キャンディル"
+      },
+      {
+        "code": "1447",
+        "name": "ＳＡＡＦホールディングス"
+      },
+      {
+        "code": "1450",
+        "name": "ＴＡＮＡＫＥＮ"
+      },
+      {
+        "code": "1711",
+        "name": "ＳＤＳホールディングス"
+      },
+      {
+        "code": "1718",
+        "name": "美樹工業"
+      },
+      {
+        "code": "1764",
+        "name": "工藤建設"
+      },
+      {
+        "code": "1768",
+        "name": "ソネック"
+      },
+      {
+        "code": "1770",
+        "name": "藤田エンジニアリング"
+      },
+      {
+        "code": "1788",
+        "name": "三東工業社"
+      },
+      {
+        "code": "1795",
+        "name": "マサル"
+      },
+      {
+        "code": "1807",
+        "name": "佐藤渡辺"
+      },
+      {
+        "code": "1897",
+        "name": "金下建設"
+      },
+      {
+        "code": "1967",
+        "name": "ヤマト"
+      },
+      {
+        "code": "1994",
+        "name": "高橋カーテンウォール工業"
+      },
+      {
+        "code": "1997",
+        "name": "暁飯島工業"
+      },
+      {
+        "code": "211A",
+        "name": "カドス・コーポレーション"
+      },
+      {
+        "code": "341A",
+        "name": "トヨコー"
+      },
+      {
+        "code": "407A",
+        "name": "ＵＮＩＣＯＮホールディングス"
+      },
+      {
+        "code": "50765",
+        "name": "インフロニア・ホールディングス第１回社債型種類株式"
       }
     ],
     "ガラス・土石製品": [
