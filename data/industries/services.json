@@ -654,6 +654,14 @@
             "code": "9558"
           },
           "note": "エンジニア派遣"
+        },
+        {
+          "name": "ディスラプターズ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6538"
+          },
+          "note": "転職メディア(キャリアインデックス)"
         }
       ],
       "updated": "2026-07-23"
@@ -1327,6 +1335,46 @@
             "code": "303A"
           },
           "note": "EC向けUGC活用"
+        },
+        {
+          "name": "MUSCAT GROUP",
+          "listing": {
+            "market": "東証グロース",
+            "code": "195A"
+          },
+          "note": "SNSマーケ・D2Cブランド"
+        },
+        {
+          "name": "MIC",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "300A"
+          },
+          "note": "リテール販促総合支援(旧水上印刷)"
+        },
+        {
+          "name": "ヒット",
+          "listing": {
+            "market": "東証グロース",
+            "code": "378A"
+          },
+          "note": "屋外広告"
+        },
+        {
+          "name": "CLホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4286"
+          },
+          "note": "IP販促・テーマカフェ"
+        },
+        {
+          "name": "CRAVIA",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6573"
+          },
+          "note": "アンバサダーマーケティング"
         }
       ],
       "updated": "2026-07-23"
@@ -1676,6 +1724,14 @@
             "code": "7037"
           },
           "note": "保育園運営"
+        },
+        {
+          "name": "Smile Holdings",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7084"
+          },
+          "note": "保育・幼児教育(キッズスマイル)"
         }
       ],
       "updated": "2026-07-23"
@@ -2111,6 +2167,30 @@
             "code": "5587"
           },
           "note": "訪日客向けWiFi・支援"
+        },
+        {
+          "name": "LOIVE",
+          "listing": {
+            "market": "東証グロース",
+            "code": "352A"
+          },
+          "note": "ピラティス・ホットヨガスタジオ"
+        },
+        {
+          "name": "フィットクルー",
+          "listing": {
+            "market": "東証グロース",
+            "code": "469A"
+          },
+          "note": "パーソナルジム"
+        },
+        {
+          "name": "ジェイホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2721"
+          },
+          "note": "フットサル施設・環境・太陽光"
         }
       ],
       "updated": "2026-07-23"
@@ -2565,6 +2645,46 @@
             "code": "4346"
           },
           "note": "LED・設備サブスク"
+        },
+        {
+          "name": "アスア",
+          "listing": {
+            "market": "東証グロース",
+            "code": "246A"
+          },
+          "note": "物流安全コンサル"
+        },
+        {
+          "name": "ミトラグループ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6093"
+          },
+          "note": "金融・不動産BPO"
+        },
+        {
+          "name": "コレックホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6578"
+          },
+          "note": "営業BPO・メディア・エネルギー"
+        },
+        {
+          "name": "プラザホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7502"
+          },
+          "note": "携帯ショップ・プリント(パレットプラザ)"
+        },
+        {
+          "name": "INEST",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7111"
+          },
+          "note": "通信・生活インフラ販売代理"
         }
       ],
       "updated": "2026-07-23"
@@ -2705,6 +2825,22 @@
             "code": "319A"
           },
           "note": "製造業の事業承継M&A"
+        },
+        {
+          "name": "セイワホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "523A"
+          },
+          "note": "中小製造業の承継M&A"
+        },
+        {
+          "name": "クオンツ総研ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9552"
+          },
+          "note": "M&A仲介・オペレーティングリース"
         }
       ],
       "updated": "2026-07-23"
@@ -3148,6 +3284,22 @@
             "code": "369A"
           },
           "note": "永代供養墓"
+        },
+        {
+          "name": "T.S.I",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7362"
+          },
+          "note": "介護特化サ高住"
+        },
+        {
+          "name": "オンザページ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9160"
+          },
+          "note": "ゲストハウスウェディング"
         }
       ],
       "updated": "2026-07-23"
@@ -3162,192 +3314,7 @@
         "ring": 3,
         "angle": 10
       },
-      "companies": [
-        {
-          "name": "グリーンモンスター",
-          "listing": {
-            "market": "東証グロース",
-            "code": "157A"
-          },
-          "note": "JPX業種: サービス業"
-        },
-        {
-          "name": "D&Mカンパニー",
-          "listing": {
-            "market": "東証グロース",
-            "code": "189A"
-          },
-          "note": "JPX業種: サービス業"
-        },
-        {
-          "name": "MUSCAT GROUP",
-          "listing": {
-            "market": "東証グロース",
-            "code": "195A"
-          },
-          "note": "JPX業種: サービス業"
-        },
-        {
-          "name": "アスア",
-          "listing": {
-            "market": "東証グロース",
-            "code": "246A"
-          },
-          "note": "JPX業種: サービス業"
-        },
-        {
-          "name": "MIC",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "300A"
-          },
-          "note": "JPX業種: サービス業"
-        },
-        {
-          "name": "LOIVE",
-          "listing": {
-            "market": "東証グロース",
-            "code": "352A"
-          },
-          "note": "JPX業種: サービス業"
-        },
-        {
-          "name": "ヒット",
-          "listing": {
-            "market": "東証グロース",
-            "code": "378A"
-          },
-          "note": "JPX業種: サービス業"
-        },
-        {
-          "name": "CLホールディングス",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "4286"
-          },
-          "note": "JPX業種: サービス業"
-        },
-        {
-          "name": "フィットクルー",
-          "listing": {
-            "market": "東証グロース",
-            "code": "469A"
-          },
-          "note": "JPX業種: サービス業"
-        },
-        {
-          "name": "Def consulting",
-          "listing": {
-            "market": "東証グロース",
-            "code": "4833"
-          },
-          "note": "JPX業種: サービス業"
-        },
-        {
-          "name": "トライアイズ",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "4840"
-          },
-          "note": "JPX業種: サービス業"
-        },
-        {
-          "name": "ミトラグループ",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "6093"
-          },
-          "note": "JPX業種: サービス業"
-        },
-        {
-          "name": "ディスラプターズ",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "6538"
-          },
-          "note": "JPX業種: サービス業"
-        },
-        {
-          "name": "オープングループ",
-          "listing": {
-            "market": "東証プライム",
-            "code": "6572"
-          },
-          "note": "JPX業種: サービス業"
-        },
-        {
-          "name": "CRAVIA",
-          "listing": {
-            "market": "東証グロース",
-            "code": "6573"
-          },
-          "note": "JPX業種: サービス業"
-        },
-        {
-          "name": "コレックホールディングス",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "6578"
-          },
-          "note": "JPX業種: サービス業"
-        },
-        {
-          "name": "Smile Holdings",
-          "listing": {
-            "market": "東証グロース",
-            "code": "7084"
-          },
-          "note": "JPX業種: サービス業"
-        },
-        {
-          "name": "T.S.I",
-          "listing": {
-            "market": "東証グロース",
-            "code": "7362"
-          },
-          "note": "JPX業種: サービス業"
-        },
-        {
-          "name": "プラザホールディングス",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "7502"
-          },
-          "note": "JPX業種: サービス業"
-        },
-        {
-          "name": "オンザページ",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "9160"
-          },
-          "note": "JPX業種: サービス業"
-        },
-        {
-          "name": "アソインターナショナル",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "9340"
-          },
-          "note": "JPX業種: サービス業"
-        },
-        {
-          "name": "クオンツ総研ホールディングス",
-          "listing": {
-            "market": "東証プライム",
-            "code": "9552"
-          },
-          "note": "JPX業種: サービス業"
-        },
-        {
-          "name": "Atlas Technologies",
-          "listing": {
-            "market": "東証グロース",
-            "code": "9563"
-          },
-          "note": "JPX業種: サービス業"
-        }
-      ],
+      "companies": [],
       "note": "分類の修正提案を歓迎します",
       "updated": "2026-07-23"
     }

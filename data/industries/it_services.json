@@ -997,6 +997,86 @@
             "code": "387A"
           },
           "note": "アプリ開発"
+        },
+        {
+          "name": "イメージ情報開発",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3803"
+          },
+          "note": "SI・BPO"
+        },
+        {
+          "name": "THE WHY HOW DO COMPANY",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3823"
+          },
+          "note": "ソリューション・飲食等多角化"
+        },
+        {
+          "name": "IPSホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4335"
+          },
+          "note": "SAP・ERP導入"
+        },
+        {
+          "name": "テラテクノロジー",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "483A"
+          },
+          "note": "官公庁システム開発"
+        },
+        {
+          "name": "テクノロジーズ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5248"
+          },
+          "note": "IT・SaaS・再エネ多角"
+        },
+        {
+          "name": "トランヴィア",
+          "listing": {
+            "market": "東証プライム",
+            "code": "545A"
+          },
+          "note": "ソフトウェア開発"
+        },
+        {
+          "name": "ソフトテックス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "550A"
+          },
+          "note": "システム開発・医療IT(ORCA)"
+        },
+        {
+          "name": "LiNKX",
+          "listing": {
+            "market": "東証グロース",
+            "code": "584A"
+          },
+          "note": "金融基幹システム刷新"
+        },
+        {
+          "name": "Atlas Technologies",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9563"
+          },
+          "note": "決済・金融システム開発"
+        },
+        {
+          "name": "SHINKO",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7120"
+          },
+          "note": "医療機関向けIT保守"
         }
       ],
       "updated": "2026-07-23"
@@ -1473,6 +1553,22 @@
             "code": "149A"
           },
           "note": "顧客接点クラウド"
+        },
+        {
+          "name": "ジーネクスト",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4179"
+          },
+          "note": "顧客対応DXプラットフォーム"
+        },
+        {
+          "name": "オープングループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6572"
+          },
+          "note": "RPA(BizRobo)"
         }
       ],
       "updated": "2026-07-23"
@@ -2999,6 +3095,14 @@
             "code": "6634"
           },
           "note": "Skeb・無線機器"
+        },
+        {
+          "name": "ジェイ・エスコムホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3779"
+          },
+          "note": "デジタルギフト・通販"
         }
       ],
       "updated": "2026-07-23"
@@ -3405,6 +3509,30 @@
             "code": "478A"
           },
           "note": "製造業向けAI"
+        },
+        {
+          "name": "クオンタムソリューションズ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2338"
+          },
+          "note": "GPU・AIソリューション"
+        },
+        {
+          "name": "AIストーム",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3719"
+          },
+          "note": "AIアドバイザリー(旧ジェクシード)"
+        },
+        {
+          "name": "GreenBee",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3913"
+          },
+          "note": "映像AI・建設DX"
         }
       ],
       "updated": "2026-07-23"
@@ -3909,6 +4037,30 @@
             "code": "6696"
           },
           "note": "AI電力削減・IoT"
+        },
+        {
+          "name": "Will Smart",
+          "listing": {
+            "market": "東証グロース",
+            "code": "175A"
+          },
+          "note": "モビリティDX"
+        },
+        {
+          "name": "SCAT",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3974"
+          },
+          "note": "美容室ICT"
+        },
+        {
+          "name": "Hiクラテス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4172"
+          },
+          "note": "歯科電子カルテ"
         }
       ],
       "updated": "2026-07-23"
@@ -4458,6 +4610,14 @@
             "code": "198A"
           },
           "note": "投資情報SNS"
+        },
+        {
+          "name": "WIZE",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3664"
+          },
+          "note": "IPプロデュース・雑貨"
         }
       ],
       "updated": "2026-07-23"
@@ -4472,184 +4632,7 @@
         "ring": 3,
         "angle": 10
       },
-      "companies": [
-        {
-          "name": "Will Smart",
-          "listing": {
-            "market": "東証グロース",
-            "code": "175A"
-          },
-          "note": "JPX業種: 情報・通信業"
-        },
-        {
-          "name": "クオンタムソリューションズ",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "2338"
-          },
-          "note": "JPX業種: 情報・通信業"
-        },
-        {
-          "name": "アスリナ",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "3647"
-          },
-          "note": "JPX業種: 情報・通信業"
-        },
-        {
-          "name": "WIZE",
-          "listing": {
-            "market": "東証グロース",
-            "code": "3664"
-          },
-          "note": "JPX業種: 情報・通信業"
-        },
-        {
-          "name": "AIストーム",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "3719"
-          },
-          "note": "JPX業種: 情報・通信業"
-        },
-        {
-          "name": "ADR120S",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "3750"
-          },
-          "note": "JPX業種: 情報・通信業"
-        },
-        {
-          "name": "環境フレンドリーホールディングス",
-          "listing": {
-            "market": "東証グロース",
-            "code": "3777"
-          },
-          "note": "JPX業種: 情報・通信業"
-        },
-        {
-          "name": "ジェイ・エスコムホールディングス",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "3779"
-          },
-          "note": "JPX業種: 情報・通信業"
-        },
-        {
-          "name": "イメージ情報開発",
-          "listing": {
-            "market": "東証グロース",
-            "code": "3803"
-          },
-          "note": "JPX業種: 情報・通信業"
-        },
-        {
-          "name": "THE WHY HOW DO COMPANY",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "3823"
-          },
-          "note": "JPX業種: 情報・通信業"
-        },
-        {
-          "name": "パス",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "3840"
-          },
-          "note": "JPX業種: 情報・通信業"
-        },
-        {
-          "name": "GreenBee",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "3913"
-          },
-          "note": "JPX業種: 情報・通信業"
-        },
-        {
-          "name": "SCAT",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "3974"
-          },
-          "note": "JPX業種: 情報・通信業"
-        },
-        {
-          "name": "Hiクラテス",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "4172"
-          },
-          "note": "JPX業種: 情報・通信業"
-        },
-        {
-          "name": "ジーネクスト",
-          "listing": {
-            "market": "東証グロース",
-            "code": "4179"
-          },
-          "note": "JPX業種: 情報・通信業"
-        },
-        {
-          "name": "IPSホールディングス",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "4335"
-          },
-          "note": "JPX業種: 情報・通信業"
-        },
-        {
-          "name": "テラテクノロジー",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "483A"
-          },
-          "note": "JPX業種: 情報・通信業"
-        },
-        {
-          "name": "マーキュリー",
-          "listing": {
-            "market": "東証グロース",
-            "code": "5025"
-          },
-          "note": "JPX業種: 情報・通信業"
-        },
-        {
-          "name": "テクノロジーズ",
-          "listing": {
-            "market": "東証グロース",
-            "code": "5248"
-          },
-          "note": "JPX業種: 情報・通信業"
-        },
-        {
-          "name": "トランヴィア",
-          "listing": {
-            "market": "東証プライム",
-            "code": "545A"
-          },
-          "note": "JPX業種: 情報・通信業"
-        },
-        {
-          "name": "ソフトテックス",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "550A"
-          },
-          "note": "JPX業種: 情報・通信業"
-        },
-        {
-          "name": "LiNKX",
-          "listing": {
-            "market": "東証グロース",
-            "code": "584A"
-          },
-          "note": "JPX業種: 情報・通信業"
-        }
-      ],
+      "companies": [],
       "note": "分類の修正提案を歓迎します",
       "updated": "2026-07-23"
     }

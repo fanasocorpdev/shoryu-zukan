@@ -610,6 +610,22 @@
             "code": "6633"
           },
           "note": "金型用CAD/CAM国内首位"
+        },
+        {
+          "name": "GMSグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "544A"
+          },
+          "note": "射出成形機(日精樹脂工業)"
+        },
+        {
+          "name": "KLASS",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6233"
+          },
+          "note": "内装施工機器・産業機械"
         }
       ],
       "updated": "2026-07-23"
@@ -1801,24 +1817,7 @@
         "ring": 3,
         "angle": 10
       },
-      "companies": [
-        {
-          "name": "GMSグループ",
-          "listing": {
-            "market": "東証プライム",
-            "code": "544A"
-          },
-          "note": "JPX業種: 機械"
-        },
-        {
-          "name": "KLASS",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "6233"
-          },
-          "note": "JPX業種: 機械"
-        }
-      ],
+      "companies": [],
       "note": "分類の修正提案を歓迎します",
       "updated": "2026-07-23"
     }

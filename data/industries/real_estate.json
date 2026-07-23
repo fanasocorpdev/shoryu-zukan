@@ -230,6 +230,14 @@
             "code": "8938"
           },
           "note": "医療・ヘルスケア不動産"
+        },
+        {
+          "name": "REVOLUTION",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8894"
+          },
+          "note": "買取再販・不動産クラファン"
         }
       ],
       "updated": "2026-07-23"
@@ -639,6 +647,22 @@
             "market": "東証スタンダード",
             "code": "2970"
           }
+        },
+        {
+          "name": "fantasista",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "1783"
+          },
+          "note": "不動産販売・ヘルスケア"
+        },
+        {
+          "name": "AMGホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8891"
+          },
+          "note": "愛知・岐阜の分譲マンション"
         }
       ],
       "updated": "2026-07-23"
@@ -867,6 +891,22 @@
             "code": "137A"
           },
           "note": "不動産追客SaaS"
+        },
+        {
+          "name": "マーキュリー",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5025"
+          },
+          "note": "不動産ビッグデータ・マーケ"
+        },
+        {
+          "name": "ASIAN STAR",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8946"
+          },
+          "note": "横浜・上海の総合不動産"
         }
       ],
       "updated": "2026-07-23"
@@ -1025,6 +1065,14 @@
             "code": "9816"
           },
           "note": "ホテル・不動産再生"
+        },
+        {
+          "name": "イノベーションホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3484"
+          },
+          "note": "店舗転貸借"
         }
       ],
       "updated": "2026-07-23"
@@ -1126,48 +1174,7 @@
         "ring": 3,
         "angle": 10
       },
-      "companies": [
-        {
-          "name": "fantasista",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "1783"
-          },
-          "note": "JPX業種: 不動産業"
-        },
-        {
-          "name": "イノベーションホールディングス",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "3484"
-          },
-          "note": "JPX業種: 不動産業"
-        },
-        {
-          "name": "AMGホールディングス",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "8891"
-          },
-          "note": "JPX業種: 不動産業"
-        },
-        {
-          "name": "REVOLUTION",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "8894"
-          },
-          "note": "JPX業種: 不動産業"
-        },
-        {
-          "name": "ASIAN STAR",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "8946"
-          },
-          "note": "JPX業種: 不動産業"
-        }
-      ],
+      "companies": [],
       "note": "分類の修正提案を歓迎します",
       "updated": "2026-07-23"
     }
