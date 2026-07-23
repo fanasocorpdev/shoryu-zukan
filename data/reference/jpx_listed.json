@@ -1,7 +1,7 @@
 {
   "as_of": "20260630",
   "source": "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls",
-  "count": 3716,
+  "count": 3709,
   "companies": [
     {
       "code": "1301",
@@ -2704,13 +2704,6 @@
       "market": "プライム",
       "sector33": "食料品",
       "scale": "TOPIX Mid400"
-    },
-    {
-      "code": "25935",
-      "name": "伊藤園第１種優先株式",
-      "market": "プライム",
-      "sector33": "食料品",
-      "scale": "-"
     },
     {
       "code": "2594",
@@ -11505,13 +11498,6 @@
       "scale": "TOPIX Mid400"
     },
     {
-      "code": "50765",
-      "name": "インフロニア・ホールディングス第１回社債型種類株式",
-      "market": "プライム",
-      "sector33": "建設業",
-      "scale": "-"
-    },
-    {
       "code": "5078",
       "name": "セレコーポレーション",
       "market": "スタンダード",
@@ -19338,13 +19324,6 @@
       "scale": "TOPIX Mid400"
     },
     {
-      "code": "75505",
-      "name": "ゼンショーホールディングス第１回社債型種類株式",
-      "market": "プライム",
-      "sector33": "小売業",
-      "scale": "-"
-    },
-    {
       "code": "7551",
       "name": "ウェッズ",
       "market": "スタンダード",
@@ -23608,25 +23587,11 @@
       "scale": "TOPIX Mid400"
     },
     {
-      "code": "92015",
-      "name": "日本航空株式会社第１回社債型種類株式",
-      "market": "プライム",
-      "sector33": "空運業",
-      "scale": "-"
-    },
-    {
       "code": "9202",
       "name": "ＡＮＡホールディングス",
       "market": "プライム",
       "sector33": "空運業",
       "scale": "TOPIX Large70"
-    },
-    {
-      "code": "92025",
-      "name": "ＡＮＡホールディングス第１回社債型種類株式",
-      "market": "プライム",
-      "sector33": "空運業",
-      "scale": "-"
     },
     {
       "code": "9204",
@@ -24467,20 +24432,6 @@
       "market": "プライム",
       "sector33": "情報・通信業",
       "scale": "TOPIX Core30"
-    },
-    {
-      "code": "94345",
-      "name": "ソフトバンク第１回社債型種類株式",
-      "market": "プライム",
-      "sector33": "情報・通信業",
-      "scale": "-"
-    },
-    {
-      "code": "94346",
-      "name": "ソフトバンク第２回社債型種類株式",
-      "market": "プライム",
-      "sector33": "情報・通信業",
-      "scale": "-"
     },
     {
       "code": "9435",

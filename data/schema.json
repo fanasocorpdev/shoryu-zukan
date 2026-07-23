@@ -105,6 +105,11 @@
           "pattern": "^[a-z0-9_]+$",
           "description": "このノードが属する別業界のindustry_id(業界間リンク。地図から地図へ潜れる)"
         },
+        "unsorted": {
+          "type": "boolean",
+          "default": false,
+          "description": "分類精査中の受け皿ノード。flow型マップでもエッジ接続を必須としない"
+        },
         "segments": {
           "type": "array",
           "description": "ノード内のサブくくり(例: 需要家ノード内の「自動車」「サーバー」)。企業はcompany.segmentで紐づく。",

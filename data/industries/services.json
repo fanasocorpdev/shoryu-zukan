@@ -422,6 +422,238 @@
             "market": "東証スタンダード",
             "code": "549A"
           }
+        },
+        {
+          "name": "平山ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7781"
+          },
+          "note": "製造派遣"
+        },
+        {
+          "name": "KG情報",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2408"
+          },
+          "note": "求人情報"
+        },
+        {
+          "name": "ジェイテック",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2479"
+          },
+          "note": "技術者派遣"
+        },
+        {
+          "name": "ピーエイ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4766"
+          },
+          "note": "求人メディア"
+        },
+        {
+          "name": "エクストリーム",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6033"
+          },
+          "note": "ゲーム開発人材"
+        },
+        {
+          "name": "アクセスグループ・ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7042"
+          },
+          "note": "採用広告"
+        },
+        {
+          "name": "ハウテレビジョン",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7064"
+          },
+          "note": "採用メディア"
+        },
+        {
+          "name": "QLSホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7075"
+          },
+          "note": "保育・介護人材"
+        },
+        {
+          "name": "ヒューマンクリエイションホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7361"
+          },
+          "note": "SES"
+        },
+        {
+          "name": "ナレルグループ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9163"
+          },
+          "note": "建設人材"
+        },
+        {
+          "name": "セイファート",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9213"
+          },
+          "note": "美容師人材"
+        },
+        {
+          "name": "メディア総研",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9242"
+          },
+          "note": "高専・理系採用"
+        },
+        {
+          "name": "サクシード",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9256"
+          },
+          "note": "教育・福祉人材"
+        },
+        {
+          "name": "アクシスコンサルティング",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9344"
+          },
+          "note": "コンサル転職"
+        },
+        {
+          "name": "INTLOOP",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9556"
+          },
+          "note": "コンサル・DX人材"
+        },
+        {
+          "name": "JSH",
+          "listing": {
+            "market": "東証グロース",
+            "code": "150A"
+          },
+          "note": "地方創生・障がい者雇用"
+        },
+        {
+          "name": "ムービン・ストラテジック・キャリア",
+          "listing": {
+            "market": "東証グロース",
+            "code": "421A"
+          },
+          "note": "コンサル転職"
+        },
+        {
+          "name": "スタートライン",
+          "listing": {
+            "market": "東証グロース",
+            "code": "477A"
+          },
+          "note": "障がい者雇用支援"
+        },
+        {
+          "name": "プログレス・テクノロジーズ グループ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "339A"
+          },
+          "note": "設計開発エンジニアリング"
+        },
+        {
+          "name": "i‐plug",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4177"
+          },
+          "note": "新卒スカウト(OfferBox)"
+        },
+        {
+          "name": "ユナイトアンドグロウ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4486"
+          },
+          "note": "IT人材シェアリング"
+        },
+        {
+          "name": "ROXX",
+          "listing": {
+            "market": "東証グロース",
+            "code": "241A"
+          },
+          "note": "採用プラットフォーム"
+        },
+        {
+          "name": "TalentX",
+          "listing": {
+            "market": "東証グロース",
+            "code": "330A"
+          },
+          "note": "採用マーケティング"
+        },
+        {
+          "name": "ポート",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7047"
+          },
+          "note": "成果報酬型採用メディア"
+        },
+        {
+          "name": "フォースタートアップス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7089"
+          },
+          "note": "スタートアップ人材"
+        },
+        {
+          "name": "スポーツフィールド",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7080"
+          },
+          "note": "スポーツ人材"
+        },
+        {
+          "name": "ツナググループ・ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6551"
+          },
+          "note": "採用一元管理"
+        },
+        {
+          "name": "TWOSTONE&Sons",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7352"
+          },
+          "note": "エンジニアSES"
+        },
+        {
+          "name": "ジャパニアス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9558"
+          },
+          "note": "エンジニア派遣"
         }
       ],
       "updated": "2026-07-23"
@@ -903,6 +1135,198 @@
             "code": "2483"
           },
           "note": "翻訳"
+        },
+        {
+          "name": "イオレ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "2334"
+          },
+          "note": "求人・連絡網アプリ広告"
+        },
+        {
+          "name": "ヴィス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5071"
+          },
+          "note": "オフィスデザイン"
+        },
+        {
+          "name": "ホープ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6195"
+          },
+          "note": "自治体広告・電力"
+        },
+        {
+          "name": "ディーエムソリューションズ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6549"
+          },
+          "note": "DM・物流"
+        },
+        {
+          "name": "ブランディングテクノロジー",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7067"
+          },
+          "note": "中小企業ブランディング"
+        },
+        {
+          "name": "INCLUSIVE Holdings",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7078"
+          },
+          "note": "メディア運営"
+        },
+        {
+          "name": "グッドパッチ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7351"
+          },
+          "note": "UI/UXデザイン"
+        },
+        {
+          "name": "Enjin",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7370"
+          },
+          "note": "PR支援"
+        },
+        {
+          "name": "エフ・コード",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9211"
+          },
+          "note": "CX改善"
+        },
+        {
+          "name": "フューチャーリンクネットワーク",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9241"
+          },
+          "note": "地域情報プラットフォーム"
+        },
+        {
+          "name": "CS-C",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9258"
+          },
+          "note": "飲食店マーケ"
+        },
+        {
+          "name": "ディーエムエス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9782"
+          },
+          "note": "DM発送代行"
+        },
+        {
+          "name": "イシン",
+          "listing": {
+            "market": "東証グロース",
+            "code": "143A"
+          },
+          "note": "自治体・ベンチャーメディア"
+        },
+        {
+          "name": "マテリアルグループ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "156A"
+          },
+          "note": "PR"
+        },
+        {
+          "name": "GMOコマース",
+          "listing": {
+            "market": "東証グロース",
+            "code": "410A"
+          },
+          "note": "店舗DX"
+        },
+        {
+          "name": "ゲンダイエージェンシー",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2411"
+          },
+          "note": "パチンコ広告"
+        },
+        {
+          "name": "ネットイヤーグループ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3622"
+          },
+          "note": "デジタルマーケ"
+        },
+        {
+          "name": "アクセルマーク",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3624"
+          },
+          "note": "広告・ゲーム"
+        },
+        {
+          "name": "AnyMind Group",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5027"
+          },
+          "note": "マーケティングプラットフォーム"
+        },
+        {
+          "name": "ファインズ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5125"
+          },
+          "note": "動画マーケ"
+        },
+        {
+          "name": "アイズ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5242"
+          },
+          "note": "広告効果データ"
+        },
+        {
+          "name": "アイドママーケティングコミュニケーション",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9466"
+          },
+          "note": "店頭販促"
+        },
+        {
+          "name": "Faber Company",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "220A"
+          },
+          "note": "SEO・コンテンツマーケ"
+        },
+        {
+          "name": "visumo",
+          "listing": {
+            "market": "東証グロース",
+            "code": "303A"
+          },
+          "note": "EC向けUGC活用"
         }
       ],
       "updated": "2026-07-23"
@@ -1156,6 +1580,102 @@
             "market": "東証スタンダード",
             "code": "7367"
           }
+        },
+        {
+          "name": "Aoba‐BBT",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2464"
+          },
+          "note": "社会人教育(BBT)"
+        },
+        {
+          "name": "日本和装ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2499"
+          },
+          "note": "着付け教室・和装"
+        },
+        {
+          "name": "イトクロ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6049"
+          },
+          "note": "塾・教育ポータル"
+        },
+        {
+          "name": "AIAIグループ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6557"
+          },
+          "note": "保育"
+        },
+        {
+          "name": "Zenken",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7371"
+          },
+          "note": "語学・グローバル人材"
+        },
+        {
+          "name": "ビジネスコーチ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9562"
+          },
+          "note": "ビジネスコーチング"
+        },
+        {
+          "name": "ウィルソン・ラーニング ワールドワイド",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9610"
+          },
+          "note": "企業研修"
+        },
+        {
+          "name": "Globee",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5575"
+          },
+          "note": "英語学習アプリ(abceed)"
+        },
+        {
+          "name": "学びエイド",
+          "listing": {
+            "market": "東証グロース",
+            "code": "184A"
+          },
+          "note": "映像授業"
+        },
+        {
+          "name": "レアジョブ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6096"
+          },
+          "note": "オンライン英会話"
+        },
+        {
+          "name": "さくらさくプラス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7097"
+          },
+          "note": "保育園運営"
+        },
+        {
+          "name": "テノ.ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7037"
+          },
+          "note": "保育園運営"
         }
       ],
       "updated": "2026-07-23"
@@ -1495,6 +2015,102 @@
             "market": "東証スタンダード",
             "code": "6046"
           }
+        },
+        {
+          "name": "アールビバン",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7523"
+          },
+          "note": "アートイベント販売"
+        },
+        {
+          "name": "テルマー湯ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3521"
+          },
+          "note": "温浴施設"
+        },
+        {
+          "name": "ジェイエスエス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6074"
+          },
+          "note": "スイミングスクール"
+        },
+        {
+          "name": "伊豆シャボテンリゾート",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6819"
+          },
+          "note": "動植物公園"
+        },
+        {
+          "name": "トゥエンティーフォーセブンホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7074"
+          },
+          "note": "パーソナルジム"
+        },
+        {
+          "name": "ユーラシア旅行社",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9376"
+          },
+          "note": "秘境ツアー"
+        },
+        {
+          "name": "ホウライ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9679"
+          },
+          "note": "ゴルフ・観光牧場"
+        },
+        {
+          "name": "ホテル、ニューグランド",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9720"
+          },
+          "note": "ホテルニューグランド"
+        },
+        {
+          "name": "フィットイージー",
+          "listing": {
+            "market": "東証プライム",
+            "code": "212A"
+          },
+          "note": "24時間ジム"
+        },
+        {
+          "name": "SQUEEZE",
+          "listing": {
+            "market": "東証グロース",
+            "code": "558A"
+          },
+          "note": "宿泊運営DX"
+        },
+        {
+          "name": "ブッキングリゾート",
+          "listing": {
+            "market": "東証グロース",
+            "code": "324A"
+          },
+          "note": "貸別荘"
+        },
+        {
+          "name": "インバウンドプラットフォーム",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5587"
+          },
+          "note": "訪日客向けWiFi・支援"
         }
       ],
       "updated": "2026-07-23"
@@ -1681,6 +2297,22 @@
             "market": "東証スタンダード",
             "code": "1717"
           }
+        },
+        {
+          "name": "CSSホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2304"
+          },
+          "note": "ホテルサービス・音響"
+        },
+        {
+          "name": "アール・エス・シー",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4664"
+          },
+          "note": "警備・施設管理"
         }
       ],
       "updated": "2026-07-23"
@@ -1845,6 +2477,94 @@
             "market": "東証グロース",
             "code": "7031"
           }
+        },
+        {
+          "name": "JTP",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2488"
+          },
+          "note": "技術サポート"
+        },
+        {
+          "name": "バーチャレクス・ホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6193"
+          },
+          "note": "CRMコンサル"
+        },
+        {
+          "name": "MS&Consulting",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6555"
+          },
+          "note": "覆面調査・店舗改善"
+        },
+        {
+          "name": "ピアズ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7066"
+          },
+          "note": "通信店舗支援"
+        },
+        {
+          "name": "アディッシュ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7093"
+          },
+          "note": "ネットモニタリング"
+        },
+        {
+          "name": "アイドマ・ホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7373"
+          },
+          "note": "営業支援"
+        },
+        {
+          "name": "BCC",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7376"
+          },
+          "note": "営業・介護レク支援"
+        },
+        {
+          "name": "プロジェクトホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9246"
+          },
+          "note": "営業支援"
+        },
+        {
+          "name": "ラストワンマイル",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9252"
+          },
+          "note": "生活インフラ販売"
+        },
+        {
+          "name": "エコミック",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3802"
+          },
+          "note": "給与計算BPO"
+        },
+        {
+          "name": "NEXYZ.Group",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4346"
+          },
+          "note": "LED・設備サブスク"
         }
       ],
       "updated": "2026-07-23"
@@ -1945,6 +2665,46 @@
             "market": "東証グロース",
             "code": "5867"
           }
+        },
+        {
+          "name": "令和アカウンティング・ホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "296A"
+          },
+          "note": "会計・IPO支援"
+        },
+        {
+          "name": "ブティックス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9272"
+          },
+          "note": "介護M&A・展示会"
+        },
+        {
+          "name": "北浜キャピタルパートナーズ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2134"
+          },
+          "note": "M&A仲介"
+        },
+        {
+          "name": "バトンズ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "554A"
+          },
+          "note": "スモールM&A"
+        },
+        {
+          "name": "技術承継機構",
+          "listing": {
+            "market": "東証グロース",
+            "code": "319A"
+          },
+          "note": "製造業の事業承継M&A"
         }
       ],
       "updated": "2026-07-23"
@@ -2276,8 +3036,319 @@
             "market": "東証スタンダード",
             "code": "6063"
           }
+        },
+        {
+          "name": "ヤマノホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7571"
+          },
+          "note": "美容・和装"
+        },
+        {
+          "name": "ビューティカダンホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3041"
+          },
+          "note": "花き・葬祭花"
+        },
+        {
+          "name": "アトラグループ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6029"
+          },
+          "note": "接骨院グループ"
+        },
+        {
+          "name": "インターネットインフィニティー",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6545"
+          },
+          "note": "介護情報・レコードブック"
+        },
+        {
+          "name": "フレアス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7062"
+          },
+          "note": "在宅マッサージ"
+        },
+        {
+          "name": "リグア",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7090"
+          },
+          "note": "接骨院・医療機器"
+        },
+        {
+          "name": "リビングプラットフォーム",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7091"
+          },
+          "note": "介護・障がい福祉"
+        },
+        {
+          "name": "Recovery International",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9214"
+          },
+          "note": "訪問看護"
+        },
+        {
+          "name": "CaSy",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9215"
+          },
+          "note": "家事代行"
+        },
+        {
+          "name": "笑美面",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9237"
+          },
+          "note": "高齢者住宅紹介"
+        },
+        {
+          "name": "AB&Company",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9251"
+          },
+          "note": "美容室(Agu.)"
+        },
+        {
+          "name": "ココルポート",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9346"
+          },
+          "note": "就労移行支援"
+        },
+        {
+          "name": "アズパートナーズ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "160A"
+          },
+          "note": "介護付ホーム"
+        },
+        {
+          "name": "エータイ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "369A"
+          },
+          "note": "永代供養墓"
         }
       ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "unsorted",
+      "role": "その他(分類精査中)",
+      "layer": "category",
+      "unsorted": true,
+      "description": "JPXの業種区分でこの業界に属することは確認済みだが、マップ内での位置づけ(事業分類)を精査中の企業。IR・公式サイトの確認が済み次第、適切なノードへ移動する。",
+      "map": {
+        "ring": 3,
+        "angle": 10
+      },
+      "companies": [
+        {
+          "name": "グリーンモンスター",
+          "listing": {
+            "market": "東証グロース",
+            "code": "157A"
+          },
+          "note": "JPX業種: サービス業"
+        },
+        {
+          "name": "D&Mカンパニー",
+          "listing": {
+            "market": "東証グロース",
+            "code": "189A"
+          },
+          "note": "JPX業種: サービス業"
+        },
+        {
+          "name": "MUSCAT GROUP",
+          "listing": {
+            "market": "東証グロース",
+            "code": "195A"
+          },
+          "note": "JPX業種: サービス業"
+        },
+        {
+          "name": "アスア",
+          "listing": {
+            "market": "東証グロース",
+            "code": "246A"
+          },
+          "note": "JPX業種: サービス業"
+        },
+        {
+          "name": "MIC",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "300A"
+          },
+          "note": "JPX業種: サービス業"
+        },
+        {
+          "name": "LOIVE",
+          "listing": {
+            "market": "東証グロース",
+            "code": "352A"
+          },
+          "note": "JPX業種: サービス業"
+        },
+        {
+          "name": "ヒット",
+          "listing": {
+            "market": "東証グロース",
+            "code": "378A"
+          },
+          "note": "JPX業種: サービス業"
+        },
+        {
+          "name": "CLホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4286"
+          },
+          "note": "JPX業種: サービス業"
+        },
+        {
+          "name": "フィットクルー",
+          "listing": {
+            "market": "東証グロース",
+            "code": "469A"
+          },
+          "note": "JPX業種: サービス業"
+        },
+        {
+          "name": "Def consulting",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4833"
+          },
+          "note": "JPX業種: サービス業"
+        },
+        {
+          "name": "トライアイズ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4840"
+          },
+          "note": "JPX業種: サービス業"
+        },
+        {
+          "name": "ミトラグループ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6093"
+          },
+          "note": "JPX業種: サービス業"
+        },
+        {
+          "name": "ディスラプターズ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6538"
+          },
+          "note": "JPX業種: サービス業"
+        },
+        {
+          "name": "オープングループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6572"
+          },
+          "note": "JPX業種: サービス業"
+        },
+        {
+          "name": "CRAVIA",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6573"
+          },
+          "note": "JPX業種: サービス業"
+        },
+        {
+          "name": "コレックホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6578"
+          },
+          "note": "JPX業種: サービス業"
+        },
+        {
+          "name": "Smile Holdings",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7084"
+          },
+          "note": "JPX業種: サービス業"
+        },
+        {
+          "name": "T.S.I",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7362"
+          },
+          "note": "JPX業種: サービス業"
+        },
+        {
+          "name": "プラザホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7502"
+          },
+          "note": "JPX業種: サービス業"
+        },
+        {
+          "name": "オンザページ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9160"
+          },
+          "note": "JPX業種: サービス業"
+        },
+        {
+          "name": "アソインターナショナル",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9340"
+          },
+          "note": "JPX業種: サービス業"
+        },
+        {
+          "name": "クオンツ総研ホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9552"
+          },
+          "note": "JPX業種: サービス業"
+        },
+        {
+          "name": "Atlas Technologies",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9563"
+          },
+          "note": "JPX業種: サービス業"
+        }
+      ],
+      "note": "分類の修正提案を歓迎します",
       "updated": "2026-07-23"
     }
   ],

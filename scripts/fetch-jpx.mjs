@@ -33,8 +33,11 @@ if (localPath) {
 const wb = XLSX.read(buf, { type: "buffer" });
 const rows = XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]]);
 
+// 優先株式・社債型種類株式は同一発行体の別証券なので個社カウントから除外
+const isDuplicateSecurity = (name) => /優先株式|種類株式/.test(String(name).normalize("NFKC"));
+
 const companies = rows
-  .filter((r) => isTarget(String(r["市場・商品区分"] ?? "").trim()))
+  .filter((r) => isTarget(String(r["市場・商品区分"] ?? "").trim()) && !isDuplicateSecurity(r["銘柄名"]))
   .map((r) => ({
     code: String(r["コード"]).trim(),
     name: String(r["銘柄名"]).trim(),

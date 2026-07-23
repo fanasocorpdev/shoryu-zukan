@@ -1156,8 +1156,207 @@
             "code": "7521"
           },
           "note": "選挙・金融システム"
+        },
+        {
+          "name": "テーオーホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9812"
+          },
+          "note": "北海道流通"
+        },
+        {
+          "name": "ハイパー",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3054"
+          },
+          "note": "PC・IT卸"
+        },
+        {
+          "name": "アゼアス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3161"
+          },
+          "note": "防護服・作業環境"
+        },
+        {
+          "name": "トルク",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8077"
+          },
+          "note": "ねじ卸"
+        },
+        {
+          "name": "GSIクレオス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8101"
+          },
+          "note": "繊維・工業製品"
+        },
+        {
+          "name": "三京化成",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8138"
+          },
+          "note": "化学品"
+        },
+        {
+          "name": "ソマール",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8152"
+          },
+          "note": "化学品・電子材料"
+        },
+        {
+          "name": "ソーダニッカ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8158"
+          },
+          "note": "化学品"
+        },
+        {
+          "name": "タカチホ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8225"
+          },
+          "note": "土産・雑貨"
+        },
+        {
+          "name": "三谷産業",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "8285"
+          },
+          "note": "化学・情報・樹脂"
+        },
+        {
+          "name": "植松商会",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9914"
+          },
+          "note": "機械工具"
+        },
+        {
+          "name": "アルファパーチェス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7115"
+          },
+          "note": "MRO間接材調達"
         }
       ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "unsorted",
+      "role": "その他(分類精査中)",
+      "layer": "trade",
+      "unsorted": true,
+      "description": "JPXの業種区分でこの業界に属することは確認済みだが、マップ内での位置づけ(事業分類)を精査中の企業。IR・公式サイトの確認が済み次第、適切なノードへ移動する。",
+      "map": {
+        "ring": 3,
+        "angle": 10
+      },
+      "companies": [
+        {
+          "name": "ジェイホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2721"
+          },
+          "note": "JPX業種: 卸売業"
+        },
+        {
+          "name": "新都ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2776"
+          },
+          "note": "JPX業種: 卸売業"
+        },
+        {
+          "name": "TMH",
+          "listing": {
+            "market": "東証グロース",
+            "code": "280A"
+          },
+          "note": "JPX業種: 卸売業"
+        },
+        {
+          "name": "MERF",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3168"
+          },
+          "note": "JPX業種: 卸売業"
+        },
+        {
+          "name": "富士ユナイトホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "416A"
+          },
+          "note": "JPX業種: 卸売業"
+        },
+        {
+          "name": "MIRAINIホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "546A"
+          },
+          "note": "JPX業種: 卸売業"
+        },
+        {
+          "name": "INEST",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7111"
+          },
+          "note": "JPX業種: 卸売業"
+        },
+        {
+          "name": "SHINKO",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7120"
+          },
+          "note": "JPX業種: 卸売業"
+        },
+        {
+          "name": "ユニソルホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7128"
+          },
+          "note": "JPX業種: 卸売業"
+        },
+        {
+          "name": "レダックス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7602"
+          },
+          "note": "JPX業種: 卸売業"
+        },
+        {
+          "name": "太洋物産",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9941"
+          },
+          "note": "JPX業種: 卸売業"
+        }
+      ],
+      "note": "分類の修正提案を歓迎します",
       "updated": "2026-07-23"
     }
   ],

@@ -19,6 +19,7 @@ const norm = (s) =>
 // マップ側の掲載企業を収集
 const covered = new Map(); // code -> {name, industries[]}
 const byName = new Map(); // normalized name -> code候補照合用
+const unsortedCodes = new Set(); // 分類精査中(unsortedノード所属)
 for (const file of readdirSync(dir).filter((f) => f.endsWith(".json") && f !== "index.json")) {
   const data = JSON.parse(readFileSync(join(dir, file), "utf8"));
   const iid = data.meta?.industry_id ?? file;
@@ -28,10 +29,16 @@ for (const file of readdirSync(dir).filter((f) => f.endsWith(".json") && f !== "
         const cur = covered.get(c.listing.code) ?? { name: c.name, industries: new Set() };
         cur.industries.add(iid);
         covered.set(c.listing.code, cur);
+        if (node.unsorted) unsortedCodes.add(c.listing.code);
       }
       byName.set(norm(c.name), iid);
     }
   }
+}
+// 精査中でも他マップで分類済みなら除外
+for (const code of [...unsortedCodes]) {
+  const inds = covered.get(code);
+  if (inds && inds.industries.size > 1) unsortedCodes.delete(code);
 }
 
 // 突合
@@ -52,8 +59,8 @@ for (const co of jpx.companies) {
 
 const total = jpx.companies.length;
 const hit = hitCode + hitName;
-console.log(`基準日 ${jpx.as_of} / 国内上場 ${total}社`);
-console.log(`カバー済み: ${hit}社 (${((hit / total) * 100).toFixed(1)}%)  [コード一致 ${hitCode} / 名前一致 ${hitName}]`);
+console.log(`基準日 ${jpx.as_of} / 国内上場 ${total}社(優先株等の重複証券を除く)`);
+console.log(`カバー済み: ${hit}社 (${((hit / total) * 100).toFixed(1)}%)  [うち分類確定 ${hit - unsortedCodes.size} / 分類精査中 ${unsortedCodes.size}]`);
 console.log(`未カバー: ${total - hit}社\n`);
 
 // 規模区分別カバー率(TOPIX Core30 / Large70 / Mid400 = TOPIX500)
@@ -92,6 +99,8 @@ writeFileSync(
       total,
       covered: hit,
       percent: Number(((hit / total) * 100).toFixed(1)),
+      unsorted: unsortedCodes.size,
+      classified: hit - unsortedCodes.size,
       topix500: t500.total ? { total: t500.total, covered: t500.hit, percent: Number(((t500.hit / t500.total) * 100).toFixed(1)) } : null,
       top_gaps: ranked.slice(0, 5).map(([s, l]) => ({ sector: s, count: l.length })),
     },

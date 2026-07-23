@@ -23,7 +23,9 @@ async function coverageHTML() {
     const t5 = c.topix500;
     return `<a class="coverage" href="#/all" title="全銘柄索引を見る">
       <div class="cov-label">🗾 国内上場企業カバー率
-        <strong>${c.percent}%</strong>(${c.covered.toLocaleString()} / ${c.total.toLocaleString()}社・JPX ${asOf}基準)</div>
+        <strong>${c.percent}%</strong>(${c.covered.toLocaleString()} / ${c.total.toLocaleString()}社・JPX ${asOf}基準)${
+          c.unsorted ? `<br><span style="font-size:.72rem">うち分類確定 ${c.classified.toLocaleString()}社 / 分類精査中 ${c.unsorted.toLocaleString()}社</span>` : ""
+        }</div>
       <div class="cov-bar"><div class="cov-fill" style="width:${Math.max(c.percent, 1.5)}%"></div></div>
       ${t5 ? `<div class="cov-label" style="margin-top:8px">📈 TOPIX500(大型・中型株)
         <strong>${t5.percent}%</strong>(${t5.covered} / ${t5.total}社)</div>

@@ -1,33 +1,14 @@
 {
   "as_of": "20260630",
-  "total": 3716,
-  "covered": 2765,
-  "percent": 74.4,
+  "total": 3709,
+  "covered": 3709,
+  "percent": 100,
+  "unsorted": 81,
+  "classified": 3628,
   "topix500": {
     "total": 493,
-    "covered": 492,
-    "percent": 99.8
+    "covered": 493,
+    "percent": 100
   },
-  "top_gaps": [
-    {
-      "sector": "サービス業",
-      "count": 173
-    },
-    {
-      "sector": "情報・通信業",
-      "count": 165
-    },
-    {
-      "sector": "電気機器",
-      "count": 64
-    },
-    {
-      "sector": "機械",
-      "count": 53
-    },
-    {
-      "sector": "卸売業",
-      "count": 53
-    }
-  ]
+  "top_gaps": []
 }

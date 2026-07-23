@@ -68,7 +68,9 @@ for (const file of readdirSync(dir).filter(f => f.endsWith(".json") && f !== "in
   }
 
   if (!isCategory) {
+    const unsortedIds = new Set((data.nodes ?? []).filter(n => n.unsorted).map(n => n.id));
     const isolated = [...nodeIds].filter(id =>
+      !unsortedIds.has(id) &&
       !(data.edges ?? []).some(e => e.from === id || e.to === id));
     for (const id of isolated) err(file, `node ${id}: どのエッジにも接続されていない`);
     if (!(data.edges ?? []).length) err(file, "flow型なのにエッジが無い");

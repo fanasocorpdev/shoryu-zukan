@@ -378,6 +378,30 @@
             "market": "東証スタンダード",
             "code": "3080"
           }
+        },
+        {
+          "name": "魚喜",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2683"
+          },
+          "note": "鮮魚小売"
+        },
+        {
+          "name": "オーエムツーネットワーク",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7614"
+          },
+          "note": "精肉小売"
+        },
+        {
+          "name": "タカヨシホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9259"
+          },
+          "note": "産直市場(わくわく広場)"
         }
       ],
       "updated": "2026-07-23"
@@ -681,6 +705,30 @@
             "code": "2698"
           },
           "note": "100円ショップ"
+        },
+        {
+          "name": "ミサワ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3169"
+          },
+          "note": "家具(unico)"
+        },
+        {
+          "name": "KOZOホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9973"
+          },
+          "note": "小僧寿し"
+        },
+        {
+          "name": "ジャパンクラフトホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7135"
+          },
+          "note": "手芸(藤久)"
         }
       ],
       "updated": "2026-07-23"
@@ -1125,6 +1173,13 @@
             "market": "東証スタンダード",
             "code": "9835"
           }
+        },
+        {
+          "name": "バッファロー",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3352"
+          }
         }
       ],
       "updated": "2026-07-23"
@@ -1559,6 +1614,30 @@
             "market": "東証スタンダード",
             "code": "3536"
           }
+        },
+        {
+          "name": "セキド",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9878"
+          },
+          "note": "ブランド買取"
+        },
+        {
+          "name": "Shinwa Wise Holdings",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2437"
+          },
+          "note": "美術品オークション"
+        },
+        {
+          "name": "ReYuu Japan",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9425"
+          },
+          "note": "中古スマホ"
         }
       ],
       "updated": "2026-07-23"
@@ -1738,8 +1817,183 @@
             "code": "7695"
           },
           "note": "住宅設備EC"
+        },
+        {
+          "name": "ミラタップ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3187"
+          },
+          "note": "住宅設備EC"
+        },
+        {
+          "name": "ジェネレーションパス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3195"
+          },
+          "note": "EC運営"
+        },
+        {
+          "name": "夢みつけ隊",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2673"
+          },
+          "note": "カタログ通販"
+        },
+        {
+          "name": "ショクブン",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9969"
+          },
+          "note": "食材宅配"
+        },
+        {
+          "name": "ストリーム",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3071"
+          },
+          "note": "カメラ・家電EC"
+        },
+        {
+          "name": "コパ・コーポレーション",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7689"
+          },
+          "note": "実演販売・TV通販"
+        },
+        {
+          "name": "エアークローゼット",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9557"
+          },
+          "note": "ファッションサブスク"
+        },
+        {
+          "name": "ラクサス・テクノロジーズ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "288A"
+          },
+          "note": "バッグシェアリング"
         }
       ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "unsorted",
+      "role": "その他(分類精査中)",
+      "layer": "store",
+      "unsorted": true,
+      "description": "JPXの業種区分でこの業界に属することは確認済みだが、マップ内での位置づけ(事業分類)を精査中の企業。IR・公式サイトの確認が済み次第、適切なノードへ移動する。",
+      "map": {
+        "ring": 3,
+        "angle": 10
+      },
+      "companies": [
+        {
+          "name": "バナーズ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3011"
+          },
+          "note": "JPX業種: 小売業"
+        },
+        {
+          "name": "スターシーズ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3083"
+          },
+          "note": "JPX業種: 小売業"
+        },
+        {
+          "name": "Trailhead Global Holdings",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3358"
+          },
+          "note": "JPX業種: 小売業"
+        },
+        {
+          "name": "フジタコーポレーション",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3370"
+          },
+          "note": "JPX業種: 小売業"
+        },
+        {
+          "name": "ユニシアホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3547"
+          },
+          "note": "JPX業種: 小売業"
+        },
+        {
+          "name": "プリモグローバルホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "367A"
+          },
+          "note": "JPX業種: 小売業"
+        },
+        {
+          "name": "みのや",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "386A"
+          },
+          "note": "JPX業種: 小売業"
+        },
+        {
+          "name": "ブルーゾーンホールディングス",
+          "listing": {
+            "market": "東証プライム",
+            "code": "417A"
+          },
+          "note": "JPX業種: 小売業"
+        },
+        {
+          "name": "サイプレス・ホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "428A"
+          },
+          "note": "JPX業種: 小売業"
+        },
+        {
+          "name": "CAPITA",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7462"
+          },
+          "note": "JPX業種: 小売業"
+        },
+        {
+          "name": "ジーイエット",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7603"
+          },
+          "note": "JPX業種: 小売業"
+        },
+        {
+          "name": "ひとまいる",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7686"
+          },
+          "note": "JPX業種: 小売業"
+        }
+      ],
+      "note": "分類の修正提案を歓迎します",
       "updated": "2026-07-23"
     }
   ],

@@ -773,6 +773,230 @@
             "code": "4847"
           },
           "note": "金融システム"
+        },
+        {
+          "name": "デリバリーコンサルティング",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9240"
+          },
+          "note": "ITコンサル"
+        },
+        {
+          "name": "CAICA DIGITAL",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2315"
+          },
+          "note": "システム開発・暗号資産"
+        },
+        {
+          "name": "エヌアイデイ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2349"
+          },
+          "note": "組込・独立系SI"
+        },
+        {
+          "name": "YE DIGITAL",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2354"
+          },
+          "note": "安川電機系IT"
+        },
+        {
+          "name": "テックファームホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3625"
+          },
+          "note": "受託開発"
+        },
+        {
+          "name": "テクミラホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3627"
+          },
+          "note": "モバイルソリューション"
+        },
+        {
+          "name": "協立情報通信",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3670"
+          },
+          "note": "オフィスICT"
+        },
+        {
+          "name": "情報企画",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3712"
+          },
+          "note": "金融システム"
+        },
+        {
+          "name": "サイオス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3744"
+          },
+          "note": "OSS・サブスク基盤"
+        },
+        {
+          "name": "システムズ・デザイン",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3766"
+          },
+          "note": "データエントリー・SI"
+        },
+        {
+          "name": "ULSグループ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3798"
+          },
+          "note": "ITアーキテクトコンサル"
+        },
+        {
+          "name": "大和コンピューター",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3816"
+          },
+          "note": "受託・農業IT"
+        },
+        {
+          "name": "ノムラシステムコーポレーション",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3940"
+          },
+          "note": "SAPコンサル"
+        },
+        {
+          "name": "アクシス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4012"
+          },
+          "note": "受託・コンサル"
+        },
+        {
+          "name": "ティアンドエスグループ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4055"
+          },
+          "note": "半導体工場向けソフト"
+        },
+        {
+          "name": "シイエヌエス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4076"
+          },
+          "note": "データ基盤構築"
+        },
+        {
+          "name": "Sharing Innovations",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4178"
+          },
+          "note": "クラウドインテグレーション"
+        },
+        {
+          "name": "アジアクエスト",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4261"
+          },
+          "note": "DX開発"
+        },
+        {
+          "name": "パワーソリューションズ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4450"
+          },
+          "note": "金融・業務システム"
+        },
+        {
+          "name": "エックスネット",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4762"
+          },
+          "note": "資産運用システム"
+        },
+        {
+          "name": "サークレイス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5029"
+          },
+          "note": "Salesforce導入"
+        },
+        {
+          "name": "BTM",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5247"
+          },
+          "note": "地方創生IT人材"
+        },
+        {
+          "name": "日本ナレッジ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5252"
+          },
+          "note": "ソフトウェアテスト"
+        },
+        {
+          "name": "ARアドバンストテクノロジ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5578"
+          },
+          "note": "DX開発"
+        },
+        {
+          "name": "KYCOMホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9685"
+          },
+          "note": "受託開発"
+        },
+        {
+          "name": "情報戦略テクノロジー",
+          "listing": {
+            "market": "東証グロース",
+            "code": "155A"
+          },
+          "note": "SES・DX"
+        },
+        {
+          "name": "グロースエクスパートナーズ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "244A"
+          },
+          "note": "エンタープライズアジャイル"
+        },
+        {
+          "name": "フラー",
+          "listing": {
+            "market": "東証グロース",
+            "code": "387A"
+          },
+          "note": "アプリ開発"
         }
       ],
       "updated": "2026-07-23"
@@ -1153,6 +1377,102 @@
             "code": "173A"
           },
           "note": "IT資産管理"
+        },
+        {
+          "name": "データ・アプリケーション",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3848"
+          },
+          "note": "EDIソフト"
+        },
+        {
+          "name": "エヌ・ティ・ティ・データ・イントラマート",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3850"
+          },
+          "note": "ローコード基盤"
+        },
+        {
+          "name": "コラボス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3908"
+          },
+          "note": "コールセンターシステム"
+        },
+        {
+          "name": "ビーブレイクシステムズ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3986"
+          },
+          "note": "クラウドERP"
+        },
+        {
+          "name": "ユミルリンク",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4372"
+          },
+          "note": "メール配信"
+        },
+        {
+          "name": "ビープラッツ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4381"
+          },
+          "note": "サブスク基盤"
+        },
+        {
+          "name": "サイエンスアーツ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4412"
+          },
+          "note": "現場コミュニケーション"
+        },
+        {
+          "name": "インフォネット",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4444"
+          },
+          "note": "CMS"
+        },
+        {
+          "name": "辻・本郷ITコンサルティング",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "476A"
+          },
+          "note": "会計事務所DX"
+        },
+        {
+          "name": "ヒューマンテクノロジーズ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5621"
+          },
+          "note": "勤怠管理(KING OF TIME)"
+        },
+        {
+          "name": "L is B",
+          "listing": {
+            "market": "東証グロース",
+            "code": "145A"
+          },
+          "note": "現場チャット"
+        },
+        {
+          "name": "シンカ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "149A"
+          },
+          "note": "顧客接点クラウド"
         }
       ],
       "updated": "2026-07-23"
@@ -1308,6 +1628,70 @@
             "code": "4441"
           },
           "note": "迷惑電話対策"
+        },
+        {
+          "name": "GRCS",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9250"
+          },
+          "note": "GRC・セキュリティ支援"
+        },
+        {
+          "name": "アイビーシー",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3920"
+          },
+          "note": "システム稼働監視"
+        },
+        {
+          "name": "フーバーブレイン",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3927"
+          },
+          "note": "セキュリティソフト"
+        },
+        {
+          "name": "セグエグループ",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3968"
+          },
+          "note": "ネットワークセキュリティ"
+        },
+        {
+          "name": "ELEMENTS",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5246"
+          },
+          "note": "eKYC本人確認"
+        },
+        {
+          "name": "カウリス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "153A"
+          },
+          "note": "不正アクセス検知"
+        },
+        {
+          "name": "ZenmuTech",
+          "listing": {
+            "market": "東証グロース",
+            "code": "338A"
+          },
+          "note": "秘密分散技術"
+        },
+        {
+          "name": "サイバーソリューションズ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "436A"
+          },
+          "note": "メールセキュリティ"
         }
       ],
       "updated": "2026-07-23"
@@ -1740,6 +2124,30 @@
             "code": "9421"
           },
           "note": "ゲーム開発支援"
+        },
+        {
+          "name": "サン電子",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6736"
+          },
+          "note": "ゲーム機器・通信解析"
+        },
+        {
+          "name": "GLOE",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9565"
+          },
+          "note": "eスポーツ"
+        },
+        {
+          "name": "monoAI technology",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5240"
+          },
+          "note": "メタバース・ゲームAI"
         }
       ],
       "updated": "2026-07-23"
@@ -1931,6 +2339,70 @@
             "market": "東証スタンダード",
             "code": "4829"
           }
+        },
+        {
+          "name": "ソフトフロントホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "2321"
+          },
+          "note": "音声通信ソフト"
+        },
+        {
+          "name": "ASJ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2351"
+          },
+          "note": "ホスティング"
+        },
+        {
+          "name": "ネクストジェン",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3842"
+          },
+          "note": "音声ネットワーク"
+        },
+        {
+          "name": "ブロードエンタープライズ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4415"
+          },
+          "note": "集合住宅ネット"
+        },
+        {
+          "name": "ピー・ビーシステムズ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4447"
+          },
+          "note": "仮想化・セキュリティ"
+        },
+        {
+          "name": "FIXER",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5129"
+          },
+          "note": "クラウド構築(Azure)"
+        },
+        {
+          "name": "GMOプライム・ストラテジー",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "5250"
+          },
+          "note": "WordPressクラウド"
+        },
+        {
+          "name": "プロディライト",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5580"
+          },
+          "note": "クラウドPBX"
         }
       ],
       "updated": "2026-07-23"
@@ -2375,6 +2847,158 @@
             "market": "東証スタンダード",
             "code": "2138"
           }
+        },
+        {
+          "name": "プラネット",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2391"
+          },
+          "note": "日用品業界EDI"
+        },
+        {
+          "name": "ZETA",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6031"
+          },
+          "note": "EC商品検索エンジン"
+        },
+        {
+          "name": "Retty",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7356"
+          },
+          "note": "グルメサイト"
+        },
+        {
+          "name": "fonfun",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2323"
+          },
+          "note": "SMS配信"
+        },
+        {
+          "name": "デジタルプラス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3691"
+          },
+          "note": "デジタルギフト"
+        },
+        {
+          "name": "GMOプロダクトプラットフォーム",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3695"
+          },
+          "note": "EC・決済基盤"
+        },
+        {
+          "name": "フライトソリューションズ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3753"
+          },
+          "note": "決済端末"
+        },
+        {
+          "name": "アイリッジ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3917"
+          },
+          "note": "O2Oアプリ基盤"
+        },
+        {
+          "name": "シェアリングテクノロジー",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3989"
+          },
+          "note": "生活トラブル駆けつけ"
+        },
+        {
+          "name": "ペイクラウドホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4015"
+          },
+          "note": "キャッシュレス決済"
+        },
+        {
+          "name": "ジィ・シィ企画",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4073"
+          },
+          "note": "POS・決済"
+        },
+        {
+          "name": "ココペリ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4167"
+          },
+          "note": "中小企業経営支援"
+        },
+        {
+          "name": "AI CROSS",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4476"
+          },
+          "note": "ビジネスSMS"
+        },
+        {
+          "name": "リンカーズ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5131"
+          },
+          "note": "製造業マッチング"
+        },
+        {
+          "name": "トランザクション・メディア・ネットワークス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5258"
+          },
+          "note": "決済ネットワーク"
+        },
+        {
+          "name": "ジグザグ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "340A"
+          },
+          "note": "越境EC支援"
+        },
+        {
+          "name": "ジモティー",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7082"
+          },
+          "note": "地元掲示板"
+        },
+        {
+          "name": "ベクターホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2656"
+          },
+          "note": "ソフトウェアDLサイト"
+        },
+        {
+          "name": "JNグループ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6634"
+          },
+          "note": "Skeb・無線機器"
         }
       ],
       "updated": "2026-07-23"
@@ -2645,6 +3269,142 @@
             "code": "298A"
           },
           "note": "リーガルAI"
+        },
+        {
+          "name": "メタリアル",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6182"
+          },
+          "note": "AI翻訳"
+        },
+        {
+          "name": "TDSE",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7046"
+          },
+          "note": "データサイエンス"
+        },
+        {
+          "name": "インティメート・マージャー",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7072"
+          },
+          "note": "オーディエンスデータ"
+        },
+        {
+          "name": "ギックス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9219"
+          },
+          "note": "データインフォームド"
+        },
+        {
+          "name": "データセクション",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3905"
+          },
+          "note": "AI・データ解析"
+        },
+        {
+          "name": "フィーチャ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4052"
+          },
+          "note": "画像認識AI"
+        },
+        {
+          "name": "ニューラルグループ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4056"
+          },
+          "note": "エッジAI"
+        },
+        {
+          "name": "ブレインズテクノロジー",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4075"
+          },
+          "note": "異常検知AI"
+        },
+        {
+          "name": "Institution for a Global Society",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4265"
+          },
+          "note": "人材評価AI"
+        },
+        {
+          "name": "CINC",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4378"
+          },
+          "note": "マーケデータ分析"
+        },
+        {
+          "name": "トリプルアイズ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5026"
+          },
+          "note": "画像認識AI"
+        },
+        {
+          "name": "unerry",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5034"
+          },
+          "note": "人流データ"
+        },
+        {
+          "name": "pluszero",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5132"
+          },
+          "note": "AI開発"
+        },
+        {
+          "name": "VRAIN Solution",
+          "listing": {
+            "market": "東証グロース",
+            "code": "135A"
+          },
+          "note": "AI外観検査"
+        },
+        {
+          "name": "Hmcomm",
+          "listing": {
+            "market": "東証グロース",
+            "code": "265A"
+          },
+          "note": "音声AI"
+        },
+        {
+          "name": "Sapeet",
+          "listing": {
+            "market": "東証グロース",
+            "code": "269A"
+          },
+          "note": "姿勢推定AI"
+        },
+        {
+          "name": "フツパー",
+          "listing": {
+            "market": "東証グロース",
+            "code": "478A"
+          },
+          "note": "製造業向けAI"
         }
       ],
       "updated": "2026-07-23"
@@ -3005,6 +3765,150 @@
             "market": "東証グロース",
             "code": "4020"
           }
+        },
+        {
+          "name": "イーサポートリンク",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2493"
+          },
+          "note": "青果物流システム"
+        },
+        {
+          "name": "ギミック",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "475A"
+          },
+          "note": "医療機関メディア"
+        },
+        {
+          "name": "システム・ロケーション",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2480"
+          },
+          "note": "車両動態管理"
+        },
+        {
+          "name": "データホライゾン",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3628"
+          },
+          "note": "医療費データ"
+        },
+        {
+          "name": "アプリックス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3727"
+          },
+          "note": "IoTソフト"
+        },
+        {
+          "name": "ソフトウェア・サービス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3733"
+          },
+          "note": "電子カルテ"
+        },
+        {
+          "name": "チエル",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3933"
+          },
+          "note": "教育ICT"
+        },
+        {
+          "name": "ジャストプランニング",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4287"
+          },
+          "note": "飲食店システム"
+        },
+        {
+          "name": "ビーマップ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4316"
+          },
+          "note": "交通・位置情報"
+        },
+        {
+          "name": "FIG",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4392"
+          },
+          "note": "IoT・モバイル"
+        },
+        {
+          "name": "エクスモーション",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4394"
+          },
+          "note": "車載ソフトコンサル"
+        },
+        {
+          "name": "gooddaysホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4437"
+          },
+          "note": "住まい・暮らしIT"
+        },
+        {
+          "name": "ポーターズ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5126"
+          },
+          "note": "人材紹介SaaS"
+        },
+        {
+          "name": "マーソ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5619"
+          },
+          "note": "人間ドック予約"
+        },
+        {
+          "name": "システムソフト",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7527"
+          },
+          "note": "不動産・業務システム"
+        },
+        {
+          "name": "フォルシア",
+          "listing": {
+            "market": "東証グロース",
+            "code": "304A"
+          },
+          "note": "旅行検索エンジン"
+        },
+        {
+          "name": "イメージ ワン",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2667"
+          },
+          "note": "医用画像・衛星画像"
+        },
+        {
+          "name": "トラース・オン・プロダクト",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6696"
+          },
+          "note": "AI電力削減・IoT"
         }
       ],
       "updated": "2026-07-23"
@@ -3346,8 +4250,407 @@
             "market": "東証グロース",
             "code": "3929"
           }
+        },
+        {
+          "name": "AppBank",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6177"
+          },
+          "note": "アプリメディア"
+        },
+        {
+          "name": "GMOメディア",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6180"
+          },
+          "note": "ポイントメディア"
+        },
+        {
+          "name": "and factory",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7035"
+          },
+          "note": "マンガアプリ"
+        },
+        {
+          "name": "ALiNKインターネット",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7077"
+          },
+          "note": "天気メディア(tenki.jp)"
+        },
+        {
+          "name": "東京通信グループ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7359"
+          },
+          "note": "アプリ開発"
+        },
+        {
+          "name": "ベビーカレンダー",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7363"
+          },
+          "note": "育児メディア"
+        },
+        {
+          "name": "アイビス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9343"
+          },
+          "note": "お絵かきアプリ(アイビスペイント)"
+        },
+        {
+          "name": "フォーサイド",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2330"
+          },
+          "note": "コンテンツ配信"
+        },
+        {
+          "name": "ソケッツ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3634"
+          },
+          "note": "音楽・感性データ"
+        },
+        {
+          "name": "ディー・エル・イー",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3686"
+          },
+          "note": "アニメIP(鷹の爪)"
+        },
+        {
+          "name": "メディア工房",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3815"
+          },
+          "note": "占いコンテンツ"
+        },
+        {
+          "name": "バリューゴルフ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3931"
+          },
+          "note": "ゴルフメディア"
+        },
+        {
+          "name": "グローバルウェイ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3936"
+          },
+          "note": "キャリコネ"
+        },
+        {
+          "name": "イノベーション",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3970"
+          },
+          "note": "B2B比較メディア"
+        },
+        {
+          "name": "ニフティライフスタイル",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4262"
+          },
+          "note": "生活メディア"
+        },
+        {
+          "name": "Jストリーム",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4308"
+          },
+          "note": "動画配信基盤"
+        },
+        {
+          "name": "くふうカンパニーホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4376"
+          },
+          "note": "生活情報メディア"
+        },
+        {
+          "name": "SM ENTERTAINMENT JAPAN",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4772"
+          },
+          "note": "音楽エンタメ"
+        },
+        {
+          "name": "jig.jp",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5244"
+          },
+          "note": "ライブ配信(ふわっち)"
+        },
+        {
+          "name": "BSNメディアホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9408"
+          },
+          "note": "新潟放送"
+        },
+        {
+          "name": "SEホールディングス・アンド・インキュベーションズ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9478"
+          },
+          "note": "IT出版・投資"
+        },
+        {
+          "name": "キッズスター",
+          "listing": {
+            "market": "東証グロース",
+            "code": "248A"
+          },
+          "note": "子供向けアプリ"
+        },
+        {
+          "name": "フライヤー",
+          "listing": {
+            "market": "東証グロース",
+            "code": "323A"
+          },
+          "note": "本の要約(flier)"
+        },
+        {
+          "name": "ビジュアル・プロセッシング・ジャパン",
+          "listing": {
+            "market": "東証グロース",
+            "code": "334A"
+          },
+          "note": "映像制作ワークフロー"
+        },
+        {
+          "name": "アイフリークモバイル",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3845"
+          },
+          "note": "モバイルコンテンツ"
+        },
+        {
+          "name": "PostPrime",
+          "listing": {
+            "market": "東証グロース",
+            "code": "198A"
+          },
+          "note": "投資情報SNS"
         }
       ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "unsorted",
+      "role": "その他(分類精査中)",
+      "layer": "category",
+      "unsorted": true,
+      "description": "JPXの業種区分でこの業界に属することは確認済みだが、マップ内での位置づけ(事業分類)を精査中の企業。IR・公式サイトの確認が済み次第、適切なノードへ移動する。",
+      "map": {
+        "ring": 3,
+        "angle": 10
+      },
+      "companies": [
+        {
+          "name": "Will Smart",
+          "listing": {
+            "market": "東証グロース",
+            "code": "175A"
+          },
+          "note": "JPX業種: 情報・通信業"
+        },
+        {
+          "name": "クオンタムソリューションズ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2338"
+          },
+          "note": "JPX業種: 情報・通信業"
+        },
+        {
+          "name": "アスリナ",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3647"
+          },
+          "note": "JPX業種: 情報・通信業"
+        },
+        {
+          "name": "WIZE",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3664"
+          },
+          "note": "JPX業種: 情報・通信業"
+        },
+        {
+          "name": "AIストーム",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3719"
+          },
+          "note": "JPX業種: 情報・通信業"
+        },
+        {
+          "name": "ADR120S",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3750"
+          },
+          "note": "JPX業種: 情報・通信業"
+        },
+        {
+          "name": "環境フレンドリーホールディングス",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3777"
+          },
+          "note": "JPX業種: 情報・通信業"
+        },
+        {
+          "name": "ジェイ・エスコムホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3779"
+          },
+          "note": "JPX業種: 情報・通信業"
+        },
+        {
+          "name": "イメージ情報開発",
+          "listing": {
+            "market": "東証グロース",
+            "code": "3803"
+          },
+          "note": "JPX業種: 情報・通信業"
+        },
+        {
+          "name": "THE WHY HOW DO COMPANY",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3823"
+          },
+          "note": "JPX業種: 情報・通信業"
+        },
+        {
+          "name": "パス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3840"
+          },
+          "note": "JPX業種: 情報・通信業"
+        },
+        {
+          "name": "GreenBee",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3913"
+          },
+          "note": "JPX業種: 情報・通信業"
+        },
+        {
+          "name": "SCAT",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3974"
+          },
+          "note": "JPX業種: 情報・通信業"
+        },
+        {
+          "name": "Hiクラテス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4172"
+          },
+          "note": "JPX業種: 情報・通信業"
+        },
+        {
+          "name": "ジーネクスト",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4179"
+          },
+          "note": "JPX業種: 情報・通信業"
+        },
+        {
+          "name": "IPSホールディングス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "4335"
+          },
+          "note": "JPX業種: 情報・通信業"
+        },
+        {
+          "name": "テラテクノロジー",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "483A"
+          },
+          "note": "JPX業種: 情報・通信業"
+        },
+        {
+          "name": "マーキュリー",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5025"
+          },
+          "note": "JPX業種: 情報・通信業"
+        },
+        {
+          "name": "テクノロジーズ",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5248"
+          },
+          "note": "JPX業種: 情報・通信業"
+        },
+        {
+          "name": "トランヴィア",
+          "listing": {
+            "market": "東証プライム",
+            "code": "545A"
+          },
+          "note": "JPX業種: 情報・通信業"
+        },
+        {
+          "name": "ソフトテックス",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "550A"
+          },
+          "note": "JPX業種: 情報・通信業"
+        },
+        {
+          "name": "LiNKX",
+          "listing": {
+            "market": "東証グロース",
+            "code": "584A"
+          },
+          "note": "JPX業種: 情報・通信業"
+        }
+      ],
+      "note": "分類の修正提案を歓迎します",
       "updated": "2026-07-23"
     }
   ],
