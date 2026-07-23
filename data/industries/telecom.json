@@ -1,0 +1,658 @@
+{
+  "$schema": "../schema.json",
+  "meta": {
+    "industry_id": "telecom",
+    "industry_name": "通信",
+    "version": "0.1.0",
+    "updated": "2026-07-23",
+    "description": "通信業界の商流。キャリアを中心に、契約者の通信料、MVNOへの回線卸、基地局への設備投資、電波利用料という金流を描く。国から周波数の割当を受けるという参入障壁が構造の核。",
+    "tagline": "月額料金の裏にある、電波・基地局・回線卸のインフラ経済",
+    "editorial_note": "v1は公開情報ベース。financialsは概算でIR確定値へ差し替え前提。NTTドコモはNTT(9432)の完全子会社のため財務はNTT連結で表示。"
+  },
+  "layers": [
+    {
+      "id": "subscriber",
+      "label": "契約者",
+      "order": 1,
+      "icon": "🧑",
+      "description": "個人・法人の通信契約者"
+    },
+    {
+      "id": "carrier",
+      "label": "通信キャリア(MNO)",
+      "order": 2,
+      "icon": "🏯",
+      "description": "自前の電波と基地局網を持つ事業者。地図の中心"
+    },
+    {
+      "id": "mvno",
+      "label": "MVNO・卸",
+      "order": 3,
+      "icon": "📱",
+      "description": "回線を借りて提供する格安SIM事業者"
+    },
+    {
+      "id": "infra",
+      "label": "設備・建設",
+      "order": 4,
+      "icon": "📡",
+      "description": "基地局ベンダー・通信建設・タワー"
+    },
+    {
+      "id": "device",
+      "label": "端末",
+      "order": 5,
+      "icon": "📲",
+      "description": "スマートフォンメーカー"
+    },
+    {
+      "id": "public",
+      "label": "行政",
+      "order": 6,
+      "icon": "🏛️",
+      "description": "総務省(電波の割当と規制)"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "carrier",
+      "role": "通信キャリア(MNO)",
+      "layer": "carrier",
+      "related_industry": "datacenter",
+      "description": "周波数の割当を受け、全国に基地局網を敷く。安定した月額収入を軸に金融・エネルギーへ多角化中。",
+      "map": {
+        "ring": 0,
+        "angle": 0
+      },
+      "companies": [
+        {
+          "name": "NTT(持株)",
+          "url": "https://group.ntt/jp/",
+          "hq": "東京都千代田区",
+          "employees": 330000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "9432"
+          },
+          "financials": {
+            "revenue_oku_jpy": 137000,
+            "market_cap_oku_jpy": 130000,
+            "as_of": "2025",
+            "note": "NTT連結・概算"
+          }
+        },
+        {
+          "name": "NTTドコモ",
+          "url": "https://www.docomo.ne.jp/",
+          "hq": "東京都千代田区",
+          "employees": 47000,
+          "listing": {
+            "market": "非上場(NTT完全子会社)"
+          }
+        },
+        {
+          "name": "KDDI",
+          "url": "https://www.kddi.com/",
+          "hq": "東京都新宿区",
+          "employees": 60000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "9433"
+          },
+          "financials": {
+            "revenue_oku_jpy": 58000,
+            "market_cap_oku_jpy": 100000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "ソフトバンク",
+          "url": "https://www.softbank.jp/",
+          "hq": "東京都港区",
+          "employees": 55000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "9434"
+          },
+          "financials": {
+            "revenue_oku_jpy": 62000,
+            "market_cap_oku_jpy": 90000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "楽天モバイル",
+          "url": "https://network.mobile.rakuten.co.jp/",
+          "hq": "東京都世田谷区",
+          "listing": {
+            "market": "非上場(楽天グループ傘下)",
+            "code": "4755"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/",
+          "publisher": "総務省 情報通信白書",
+          "note": "業界構造・統計の出典"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "subscriber",
+      "role": "契約者(個人・法人)",
+      "layer": "subscriber",
+      "description": "携帯契約は2億回線超(人口超え)。月額料金という日本有数の安定金流の源泉。",
+      "map": {
+        "ring": 1,
+        "angle": 0
+      },
+      "companies": [],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "mvno",
+      "role": "MVNO(格安SIM)",
+      "layer": "mvno",
+      "description": "キャリアから回線を卸で借りて低価格プランを提供。接続料の水準が事業性を決める。",
+      "map": {
+        "ring": 1,
+        "angle": 45
+      },
+      "companies": [
+        {
+          "name": "インターネットイニシアティブ(IIJ)",
+          "url": "https://www.iij.ad.jp/",
+          "hq": "東京都千代田区",
+          "employees": 4800,
+          "listing": {
+            "market": "東証プライム",
+            "code": "3774"
+          },
+          "financials": {
+            "revenue_oku_jpy": 2800,
+            "market_cap_oku_jpy": 5000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "オプテージ",
+          "url": "https://optage.co.jp/",
+          "hq": "大阪市中央区",
+          "listing": {
+            "market": "非上場(関西電力グループ)"
+          }
+        },
+        {
+          "name": "日本通信",
+          "url": "https://www.j-com.co.jp/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "9424"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "base_station_vendor",
+      "role": "基地局・通信機器ベンダー",
+      "layer": "infra",
+      "description": "5G基地局・コアネットワーク設備。海外2強+国内勢+オープンRANの構図。",
+      "map": {
+        "ring": 1,
+        "angle": 180
+      },
+      "companies": [
+        {
+          "name": "エリクソン",
+          "url": "https://www.ericsson.com/ja",
+          "hq": "スウェーデン・ストックホルム",
+          "employees": 100000,
+          "listing": {
+            "market": "NASDAQストックホルム"
+          }
+        },
+        {
+          "name": "ノキア",
+          "url": "https://www.nokia.com/",
+          "hq": "フィンランド・エスポー",
+          "employees": 80000,
+          "listing": {
+            "market": "ヘルシンキ証取・NYSE"
+          }
+        },
+        {
+          "name": "NEC",
+          "url": "https://jpn.nec.com/",
+          "hq": "東京都港区",
+          "employees": 105000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6701"
+          },
+          "financials": {
+            "revenue_oku_jpy": 34000,
+            "market_cap_oku_jpy": 40000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "富士通",
+          "url": "https://www.fujitsu.com/jp/",
+          "hq": "川崎市中原区",
+          "employees": 124000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6702"
+          },
+          "financials": {
+            "revenue_oku_jpy": 37000,
+            "market_cap_oku_jpy": 60000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "telecom_construction",
+      "role": "通信建設会社",
+      "layer": "infra",
+      "description": "基地局・光ファイバーの工事を担う。キャリアの設備投資の実働部隊。",
+      "map": {
+        "ring": 2,
+        "angle": 210
+      },
+      "companies": [
+        {
+          "name": "コムシスホールディングス",
+          "url": "https://www.comsys-hd.co.jp/",
+          "hq": "東京都品川区",
+          "employees": 20000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "1721"
+          },
+          "financials": {
+            "revenue_oku_jpy": 6000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "エクシオグループ",
+          "url": "https://www.exeo.co.jp/",
+          "hq": "東京都渋谷区",
+          "employees": 18000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "1951"
+          },
+          "financials": {
+            "revenue_oku_jpy": 6000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "ミライト・ワン",
+          "url": "https://www.mirait-one.com/",
+          "hq": "東京都江東区",
+          "employees": 13000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "1417"
+          },
+          "financials": {
+            "revenue_oku_jpy": 5000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "tower",
+      "role": "タワー・インフラシェアリング",
+      "layer": "infra",
+      "description": "基地局用の鉄塔・屋上スペースを複数キャリアに貸す新モデル。",
+      "map": {
+        "ring": 2,
+        "angle": 150
+      },
+      "companies": [
+        {
+          "name": "JTOWER",
+          "url": "https://www.jtower.co.jp/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "非公開化(DigitalBridgeによるTOB)"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "device_maker",
+      "role": "スマートフォンメーカー",
+      "layer": "device",
+      "description": "端末はキャリアが仕入れて分割販売する日本特有の商流が中心。",
+      "map": {
+        "ring": 1,
+        "angle": 315
+      },
+      "companies": [
+        {
+          "name": "Apple",
+          "url": "https://www.apple.com/jp/",
+          "hq": "米カリフォルニア州クパチーノ",
+          "employees": 160000,
+          "listing": {
+            "market": "NASDAQ"
+          },
+          "financials": {
+            "revenue_oku_jpy": 585000,
+            "market_cap_oku_jpy": 5250000,
+            "as_of": "2025",
+            "note": "ドル150円換算・概算"
+          }
+        },
+        {
+          "name": "サムスン電子",
+          "url": "https://www.samsung.com/jp/",
+          "hq": "韓国・水原",
+          "employees": 260000,
+          "listing": {
+            "market": "韓国取引所"
+          }
+        },
+        {
+          "name": "ソニーグループ(Xperia)",
+          "url": "https://www.sony.com/ja/",
+          "hq": "東京都港区",
+          "employees": 113000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6758"
+          },
+          "financials": {
+            "revenue_oku_jpy": 130000,
+            "market_cap_oku_jpy": 200000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "シャープ",
+          "url": "https://corporate.jp.sharp/",
+          "hq": "堺市",
+          "employees": 40000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6753"
+          },
+          "financials": {
+            "revenue_oku_jpy": 22000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "mic",
+      "role": "総務省(電波行政)",
+      "layer": "public",
+      "description": "周波数の割当と電波利用料。免許制がこの業界の参入障壁そのもの。",
+      "map": {
+        "ring": 2,
+        "angle": 270
+      },
+      "companies": [
+        {
+          "name": "総務省",
+          "url": "https://www.soumu.go.jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "行政機関"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ],
+  "edges": [
+    {
+      "id": "opex_subscriber_carrier",
+      "from": "subscriber",
+      "to": "carrier",
+      "flow_type": "opex",
+      "label": "通信料金(月額)・端末分割払い",
+      "amount_note": "携帯電話の国内市場規模は年間十数兆円",
+      "sources": [
+        {
+          "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/",
+          "publisher": "総務省 情報通信白書",
+          "note": "統計へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_carrier_subscriber",
+      "from": "carrier",
+      "to": "subscriber",
+      "flow_type": "goods",
+      "label": "モバイル通信・固定回線サービス",
+      "sources": [
+        {
+          "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/",
+          "publisher": "総務省 情報通信白書"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_subscriber_mvno",
+      "from": "subscriber",
+      "to": "mvno",
+      "flow_type": "opex",
+      "label": "格安SIM料金",
+      "sources": [
+        {
+          "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/",
+          "publisher": "総務省 情報通信白書"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_mvno_subscriber",
+      "from": "mvno",
+      "to": "subscriber",
+      "flow_type": "goods",
+      "label": "MVNO通信サービス",
+      "sources": [
+        {
+          "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/",
+          "publisher": "総務省 情報通信白書"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_mvno_carrier",
+      "from": "mvno",
+      "to": "carrier",
+      "flow_type": "opex",
+      "label": "回線卸料金・接続料",
+      "note": "接続料の算定は総務省のルールに基づく。MVNOの原価の核心",
+      "sources": [
+        {
+          "url": "https://www.soumu.go.jp/",
+          "publisher": "総務省",
+          "note": "接続料規則へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_carrier_mvno",
+      "from": "carrier",
+      "to": "mvno",
+      "flow_type": "goods",
+      "label": "回線の卸提供",
+      "sources": [
+        {
+          "url": "https://www.soumu.go.jp/",
+          "publisher": "総務省"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_carrier_vendor",
+      "from": "carrier",
+      "to": "base_station_vendor",
+      "flow_type": "capex",
+      "label": "基地局・コア設備の調達",
+      "amount_note": "キャリア各社の設備投資は年間数千億円規模",
+      "sources": [
+        {
+          "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/",
+          "publisher": "総務省 情報通信白書",
+          "note": "各社IRへ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_vendor_carrier",
+      "from": "base_station_vendor",
+      "to": "carrier",
+      "flow_type": "goods",
+      "label": "基地局設備の納入",
+      "sources": [
+        {
+          "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/",
+          "publisher": "総務省 情報通信白書"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_carrier_construction",
+      "from": "carrier",
+      "to": "telecom_construction",
+      "flow_type": "capex",
+      "label": "基地局・光回線の工事費",
+      "sources": [
+        {
+          "url": "https://www.soumu.go.jp/",
+          "publisher": "総務省",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_construction_carrier",
+      "from": "telecom_construction",
+      "to": "carrier",
+      "flow_type": "goods",
+      "label": "工事・保守の施工",
+      "sources": [
+        {
+          "url": "https://www.soumu.go.jp/",
+          "publisher": "総務省",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_carrier_tower",
+      "from": "carrier",
+      "to": "tower",
+      "flow_type": "opex",
+      "label": "インフラシェアリング利用料",
+      "sources": [
+        {
+          "url": "https://www.jtower.co.jp/",
+          "publisher": "JTOWER",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_carrier_device",
+      "from": "carrier",
+      "to": "device_maker",
+      "flow_type": "opex",
+      "label": "端末の仕入",
+      "note": "キャリアが端末を仕入れて契約者に分割販売する日本特有の商流",
+      "sources": [
+        {
+          "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/",
+          "publisher": "総務省 情報通信白書"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_device_carrier",
+      "from": "device_maker",
+      "to": "carrier",
+      "flow_type": "goods",
+      "label": "スマートフォンの供給",
+      "sources": [
+        {
+          "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/",
+          "publisher": "総務省 情報通信白書"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_carrier_mic",
+      "from": "carrier",
+      "to": "mic",
+      "flow_type": "opex",
+      "label": "電波利用料",
+      "sources": [
+        {
+          "url": "https://www.soumu.go.jp/",
+          "publisher": "総務省",
+          "note": "電波利用料の公表資料へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_mic_carrier",
+      "from": "mic",
+      "to": "carrier",
+      "flow_type": "goods",
+      "label": "周波数の割当(免許)",
+      "note": "オークションではなく比較審査による割当。これが参入障壁の根源",
+      "sources": [
+        {
+          "url": "https://www.soumu.go.jp/",
+          "publisher": "総務省"
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ]
+}

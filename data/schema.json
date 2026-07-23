@@ -1,0 +1,253 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shoryu-zukan.fanaso.jp/schema/industry-graph.schema.json",
+  "title": "商流図鑑 業界グラフスキーマ",
+  "description": "業界別の商流(モノ・サービスとカネの流れ)を表すグラフデータの共通スキーマ。業界を追加しても同一スキーマで地図が自動生成できることを前提とする。",
+  "type": "object",
+  "required": ["meta", "layers", "nodes", "edges"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "エディタ補完用のスキーマ相対パス"
+    },
+    "meta": {
+      "type": "object",
+      "required": ["industry_id", "industry_name", "version", "updated"],
+      "additionalProperties": false,
+      "properties": {
+        "industry_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9_]+$",
+          "description": "業界の一意ID(URLスラッグ兼用)"
+        },
+        "industry_name": { "type": "string", "description": "業界の表示名" },
+        "version": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+$",
+          "description": "データのバージョン(semver)"
+        },
+        "updated": { "type": "string", "format": "date" },
+        "description": { "type": "string" },
+        "tagline": {
+          "type": "string",
+          "description": "業界一覧カードに出す一言(例: AI需要が動かす兆円級マネーフロー)"
+        },
+        "parent_industry": {
+          "type": "string",
+          "pattern": "^[a-z0-9_]+$",
+          "description": "親業界のindustry_id。市場が大きい子業界(例: 自動車部品)は親としても独立マップを持てる"
+        },
+        "map_style": {
+          "type": "string",
+          "enum": ["flow", "category"],
+          "default": "flow",
+          "description": "flow=商流図(エッジあり) / category=カオスマップ型(ラベル分類のみ、エッジなし可)"
+        },
+        "editorial_note": {
+          "type": "string",
+          "description": "編集方針・出典ポリシー上の注意書き"
+        }
+      }
+    },
+    "layers": {
+      "type": "array",
+      "minItems": 1,
+      "description": "業界ごとの階層定義。ノードの layer はここで宣言したidのみ使用する。",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "order"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+          "label": { "type": "string" },
+          "order": {
+            "type": "integer",
+            "description": "ズームアウト時の表示順・凡例順"
+          },
+          "icon": {
+            "type": "string",
+            "description": "地図上でこの階層のノードに付ける絵文字1文字"
+          },
+          "description": { "type": "string" }
+        }
+      }
+    },
+    "nodes": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/node" }
+    },
+    "edges": {
+      "type": "array",
+      "minItems": 0,
+      "description": "map_style=categoryの業界では空配列でよい",
+      "items": { "$ref": "#/$defs/edge" }
+    }
+  },
+  "$defs": {
+    "node": {
+      "type": "object",
+      "required": ["id", "role", "layer", "updated"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+        "role": {
+          "type": "string",
+          "description": "役割名。セマンティックズームの引き表示ではこれだけを出す。"
+        },
+        "layer": {
+          "type": "string",
+          "description": "layers[].id のいずれか"
+        },
+        "related_industry": {
+          "type": "string",
+          "pattern": "^[a-z0-9_]+$",
+          "description": "このノードが属する別業界のindustry_id(業界間リンク。地図から地図へ潜れる)"
+        },
+        "segments": {
+          "type": "array",
+          "description": "ノード内のサブくくり(例: 需要家ノード内の「自動車」「サーバー」)。企業はcompany.segmentで紐づく。",
+          "items": {
+            "type": "object",
+            "required": ["id", "label"],
+            "additionalProperties": false,
+            "properties": {
+              "id": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+              "label": { "type": "string" },
+              "related_industry": {
+                "type": "string",
+                "pattern": "^[a-z0-9_]+$",
+                "description": "このセグメントから潜れる業界のindustry_id"
+              },
+              "description": { "type": "string" }
+            }
+          }
+        },
+        "description": { "type": "string" },
+        "companies": {
+          "type": "array",
+          "description": "実名企業リスト。ズームインで表示。掲載順は編集方針で固定し課金で変えない。",
+          "items": { "$ref": "#/$defs/company" }
+        },
+        "map": {
+          "type": "object",
+          "description": "地図型レイアウトのヒント。ring=0が中央(DCサイト等)、angleは北=0の時計回り度数。",
+          "additionalProperties": false,
+          "properties": {
+            "ring": { "type": "integer", "minimum": 0 },
+            "angle": { "type": "number", "minimum": 0, "exclusiveMaximum": 360 }
+          }
+        },
+        "sources": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/source" }
+        },
+        "updated": { "type": "string", "format": "date" },
+        "note": { "type": "string" }
+      }
+    },
+    "edge": {
+      "type": "object",
+      "required": ["id", "from", "to", "flow_type", "label", "sources", "updated"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+        "from": {
+          "type": "string",
+          "description": "起点ノードid。goods=提供者、capex/opex=支払者(カネが流れる向き)。"
+        },
+        "to": { "type": "string", "description": "終点ノードid" },
+        "flow_type": {
+          "type": "string",
+          "enum": ["goods", "capex", "opex"],
+          "description": "goods=モノ・サービス / capex=カネ(一時) / opex=カネ(継続)"
+        },
+        "label": {
+          "type": "string",
+          "description": "フローの内容(例: コロケーション利用料)"
+        },
+        "amount_note": {
+          "type": "string",
+          "description": "金額感。定性的な規模表現でよい(例: 1棟あたり数百億円規模)"
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/source" }
+        },
+        "updated": { "type": "string", "format": "date" },
+        "note": { "type": "string" }
+      }
+    },
+    "company": {
+      "type": "object",
+      "required": ["name"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "hq": {
+          "type": "string",
+          "description": "本社所在地(例: 愛知県豊田市、米カリフォルニア州サンタクララ)"
+        },
+        "employees": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "従業員数(連結・概算)"
+        },
+        "listing": {
+          "type": "object",
+          "description": "上場情報",
+          "additionalProperties": false,
+          "properties": {
+            "market": {
+              "type": "string",
+              "description": "上場市場(例: 東証プライム、東証スタンダード、東証グロース、NASDAQ、NYSE、非上場)"
+            },
+            "code": { "type": "string", "description": "証券コード(例: 7203)" }
+          }
+        },
+        "segment": {
+          "type": "string",
+          "description": "所属サブくくり(node.segments[].id)"
+        },
+        "financials": {
+          "type": "object",
+          "description": "規模感の概算値。単位は億円。確定値はIRから差し替える運用。",
+          "additionalProperties": false,
+          "properties": {
+            "revenue_oku_jpy": { "type": "number", "exclusiveMinimum": 0, "description": "売上高(億円・概算)" },
+            "market_cap_oku_jpy": { "type": "number", "exclusiveMinimum": 0, "description": "時価総額(億円・概算)" },
+            "as_of": { "type": "string", "description": "概算の基準時期(例: 2025)" },
+            "note": { "type": "string", "description": "換算条件・セグメント値等の注記" }
+          }
+        },
+        "hiring": {
+          "type": "boolean",
+          "default": false,
+          "description": "採用中バッジ(採用広告枠)"
+        },
+        "plan": {
+          "type": "string",
+          "enum": ["none", "free", "paid_basic", "paid_premium"],
+          "default": "none",
+          "description": "掲載プラン。情報量・機能の差のみで、位置・順序には影響させない。"
+        },
+        "note": { "type": "string" }
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": ["url"],
+      "additionalProperties": false,
+      "properties": {
+        "url": { "type": "string", "format": "uri" },
+        "title": { "type": "string" },
+        "publisher": { "type": "string" },
+        "accessed": { "type": "string", "format": "date" },
+        "note": { "type": "string" }
+      }
+    }
+  }
+}

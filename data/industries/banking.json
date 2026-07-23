@@ -1,0 +1,832 @@
+{
+  "$schema": "../schema.json",
+  "meta": {
+    "industry_id": "banking",
+    "industry_name": "銀行・金融",
+    "version": "0.1.0",
+    "updated": "2026-07-23",
+    "description": "銀行を中心とする金融の商流。預金者から集めたカネを企業・個人に貸し、利ざやを得る基本構造に、日銀・国債・証券・保険・規制当局の金流を重ねる。",
+    "tagline": "預金と融資の利ざや、国債と日銀 — カネそのものが商品の業界",
+    "editorial_note": "v1は公開情報ベース。銀行の「売上」は経常収益ベースの概算。金利環境で大きく変動するため規模感の参考値。IR確定値へ差し替え前提。"
+  },
+  "layers": [
+    {
+      "id": "customer",
+      "label": "預金者・借り手",
+      "order": 1,
+      "icon": "🧑",
+      "description": "個人・法人の顧客"
+    },
+    {
+      "id": "bank",
+      "label": "銀行",
+      "order": 2,
+      "icon": "🏯",
+      "description": "メガバンク・信託。地図の中心"
+    },
+    {
+      "id": "regional",
+      "label": "地銀・ネット銀行",
+      "order": 3,
+      "icon": "🏦",
+      "description": "地方銀行・ネット専業銀行"
+    },
+    {
+      "id": "securities",
+      "label": "証券・運用",
+      "order": 4,
+      "icon": "📈",
+      "description": "証券会社・資産運用会社"
+    },
+    {
+      "id": "insurance",
+      "label": "保険",
+      "order": 5,
+      "icon": "🛡️",
+      "description": "生命保険会社"
+    },
+    {
+      "id": "public",
+      "label": "日銀・政府・当局",
+      "order": 6,
+      "icon": "🏛️",
+      "description": "中央銀行・財務省・金融庁"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "megabank",
+      "role": "メガバンク・大手銀行",
+      "layer": "bank",
+      "description": "預金で調達し融資・有価証券で運用する金融仲介の中核。金利上昇局面で利ざやが拡大。",
+      "map": {
+        "ring": 0,
+        "angle": 0
+      },
+      "companies": [
+        {
+          "name": "三菱UFJフィナンシャル・グループ",
+          "url": "https://www.mufg.jp/",
+          "hq": "東京都千代田区",
+          "employees": 120000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8306"
+          },
+          "financials": {
+            "revenue_oku_jpy": 120000,
+            "market_cap_oku_jpy": 240000,
+            "as_of": "2025",
+            "note": "経常収益ベース・概算"
+          }
+        },
+        {
+          "name": "三井住友フィナンシャルグループ",
+          "url": "https://www.smfg.co.jp/",
+          "hq": "東京都千代田区",
+          "employees": 120000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8316"
+          },
+          "financials": {
+            "revenue_oku_jpy": 80000,
+            "market_cap_oku_jpy": 160000,
+            "as_of": "2025",
+            "note": "経常収益ベース・概算"
+          }
+        },
+        {
+          "name": "みずほフィナンシャルグループ",
+          "url": "https://www.mizuho-fg.co.jp/",
+          "hq": "東京都千代田区",
+          "employees": 50000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8411"
+          },
+          "financials": {
+            "revenue_oku_jpy": 60000,
+            "market_cap_oku_jpy": 100000,
+            "as_of": "2025",
+            "note": "経常収益ベース・概算"
+          }
+        },
+        {
+          "name": "りそなホールディングス",
+          "url": "https://www.resona-gr.co.jp/",
+          "hq": "大阪市中央区",
+          "employees": 30000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8308"
+          },
+          "financials": {
+            "revenue_oku_jpy": 10000,
+            "market_cap_oku_jpy": 30000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "三井住友トラストグループ",
+          "url": "https://www.smtg.jp/",
+          "hq": "東京都千代田区",
+          "employees": 24000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8309"
+          },
+          "financials": {
+            "revenue_oku_jpy": 20000,
+            "market_cap_oku_jpy": 30000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.zenginkyo.or.jp/",
+          "publisher": "全国銀行協会",
+          "note": "業界構造・統計の出典"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "depositor",
+      "role": "預金者(個人・法人)",
+      "layer": "customer",
+      "description": "銀行の資金調達源。日本の個人金融資産は2,000兆円超で、その過半が現預金。",
+      "map": {
+        "ring": 1,
+        "angle": 0
+      },
+      "companies": [],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "borrower",
+      "role": "借り手(企業・住宅ローン)",
+      "layer": "customer",
+      "description": "融資の受け手。企業融資と住宅ローンが二本柱。",
+      "map": {
+        "ring": 1,
+        "angle": 45
+      },
+      "companies": [],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "regional_bank",
+      "role": "地方銀行",
+      "layer": "regional",
+      "description": "地域経済の資金循環を担う。人口減少下で再編・統合が進行中。",
+      "map": {
+        "ring": 2,
+        "angle": 30
+      },
+      "companies": [
+        {
+          "name": "コンコルディア・フィナンシャルグループ(横浜銀行)",
+          "url": "https://www.concordia-fg.jp/",
+          "hq": "横浜市西区",
+          "employees": 5000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7186"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 10000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "千葉銀行",
+          "url": "https://www.chibabank.co.jp/",
+          "hq": "千葉市中央区",
+          "employees": 4000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8331"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 10000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "ふくおかフィナンシャルグループ",
+          "url": "https://www.fukuoka-fg.com/",
+          "hq": "福岡市中央区",
+          "employees": 8000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8354"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 8000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "net_bank",
+      "role": "ネット銀行",
+      "layer": "regional",
+      "description": "店舗を持たない低コスト構造。住宅ローンと決済で高成長。",
+      "map": {
+        "ring": 2,
+        "angle": 345
+      },
+      "companies": [
+        {
+          "name": "楽天銀行",
+          "url": "https://www.rakuten-bank.co.jp/",
+          "hq": "東京都世田谷区",
+          "employees": 800,
+          "listing": {
+            "market": "東証プライム",
+            "code": "5838"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 10000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "住信SBIネット銀行",
+          "url": "https://www.netbk.co.jp/",
+          "hq": "東京都港区",
+          "employees": 700,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7163"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 5000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "PayPay銀行",
+          "url": "https://www.paypay-bank.co.jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "非上場(ソフトバンク系)"
+          }
+        },
+        {
+          "name": "セブン銀行",
+          "url": "https://www.sevenbank.co.jp/",
+          "hq": "東京都千代田区",
+          "employees": 1000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8410"
+          },
+          "financials": {
+            "revenue_oku_jpy": 2000,
+            "market_cap_oku_jpy": 3500,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "securities",
+      "role": "証券会社",
+      "layer": "securities",
+      "description": "株式・債券の売買仲介と引受。新NISAで個人マネーの流入が加速。",
+      "map": {
+        "ring": 1,
+        "angle": 90
+      },
+      "companies": [
+        {
+          "name": "野村ホールディングス",
+          "url": "https://www.nomura.com/jp/",
+          "hq": "東京都中央区",
+          "employees": 27000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8604"
+          },
+          "financials": {
+            "revenue_oku_jpy": 25000,
+            "market_cap_oku_jpy": 30000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "大和証券グループ本社",
+          "url": "https://www.daiwa-grp.jp/",
+          "hq": "東京都千代田区",
+          "employees": 15000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8601"
+          },
+          "financials": {
+            "revenue_oku_jpy": 12000,
+            "market_cap_oku_jpy": 15000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "SBIホールディングス",
+          "url": "https://www.sbigroup.co.jp/",
+          "hq": "東京都港区",
+          "employees": 20000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8473"
+          },
+          "financials": {
+            "revenue_oku_jpy": 12000,
+            "market_cap_oku_jpy": 12000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "楽天証券",
+          "url": "https://www.rakuten-sec.co.jp/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "非上場(楽天グループ傘下)"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "asset_mgmt",
+      "role": "資産運用会社",
+      "layer": "securities",
+      "description": "投資信託・年金の運用。信託報酬が収益源。",
+      "map": {
+        "ring": 2,
+        "angle": 75
+      },
+      "companies": [
+        {
+          "name": "野村アセットマネジメント",
+          "hq": "東京都江東区",
+          "listing": {
+            "market": "非上場(野村HD傘下)"
+          }
+        },
+        {
+          "name": "三菱UFJアセットマネジメント",
+          "url": "https://www.am.mufg.jp/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "非上場(MUFG傘下)"
+          }
+        },
+        {
+          "name": "アセットマネジメントOne",
+          "url": "https://www.am-one.co.jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "非上場(みずほFG系)"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "life_insurance",
+      "role": "生命保険会社",
+      "layer": "insurance",
+      "description": "保険料を長期運用する機関投資家でもある。銀行窓販が販売チャネルの一角。",
+      "map": {
+        "ring": 1,
+        "angle": 135
+      },
+      "companies": [
+        {
+          "name": "日本生命",
+          "url": "https://www.nissay.co.jp/",
+          "hq": "大阪市中央区",
+          "employees": 75000,
+          "listing": {
+            "market": "非上場(相互会社)"
+          }
+        },
+        {
+          "name": "第一生命ホールディングス",
+          "url": "https://www.dai-ichi-life-hd.com/",
+          "hq": "東京都千代田区",
+          "employees": 60000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8750"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 40000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "明治安田生命",
+          "url": "https://www.meijiyasuda.co.jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "非上場(相互会社)"
+          }
+        },
+        {
+          "name": "住友生命",
+          "url": "https://www.sumitomolife.co.jp/",
+          "hq": "大阪市中央区",
+          "listing": {
+            "market": "非上場(相互会社)"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "boj",
+      "role": "日本銀行",
+      "layer": "public",
+      "description": "銀行の銀行。政策金利と国債買入で金融環境を決める。出資証券は東証上場という小ネタも。",
+      "map": {
+        "ring": 1,
+        "angle": 315
+      },
+      "companies": [
+        {
+          "name": "日本銀行",
+          "url": "https://www.boj.or.jp/",
+          "hq": "東京都中央区",
+          "listing": {
+            "market": "東証(出資証券)",
+            "code": "8301"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "mof",
+      "role": "政府(財務省・国債)",
+      "layer": "public",
+      "description": "国債の発行体。銀行・生保・日銀が主要な買い手という日本最大級の金流。",
+      "map": {
+        "ring": 2,
+        "angle": 285
+      },
+      "companies": [
+        {
+          "name": "財務省",
+          "url": "https://www.mof.go.jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "行政機関"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "fsa",
+      "role": "金融庁・預金保険機構",
+      "layer": "public",
+      "description": "監督・規制と預金者保護。銀行は預金保険料を毎年拠出する。",
+      "map": {
+        "ring": 2,
+        "angle": 255
+      },
+      "companies": [
+        {
+          "name": "金融庁",
+          "url": "https://www.fsa.go.jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "行政機関"
+          }
+        },
+        {
+          "name": "預金保険機構",
+          "url": "https://www.dic.go.jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "認可法人"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ],
+  "edges": [
+    {
+      "id": "opex_depositor_bank",
+      "from": "depositor",
+      "to": "megabank",
+      "flow_type": "opex",
+      "label": "預金の預入",
+      "amount_note": "個人金融資産2,000兆円超の過半が現預金",
+      "sources": [
+        {
+          "url": "https://www.zenginkyo.or.jp/",
+          "publisher": "全国銀行協会",
+          "note": "資金循環統計へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_bank_depositor",
+      "from": "megabank",
+      "to": "depositor",
+      "flow_type": "opex",
+      "label": "預金利息の支払い",
+      "sources": [
+        {
+          "url": "https://www.zenginkyo.or.jp/",
+          "publisher": "全国銀行協会"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_bank_borrower",
+      "from": "megabank",
+      "to": "borrower",
+      "flow_type": "capex",
+      "label": "融資の実行(企業融資・住宅ローン)",
+      "sources": [
+        {
+          "url": "https://www.zenginkyo.or.jp/",
+          "publisher": "全国銀行協会"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_borrower_bank",
+      "from": "borrower",
+      "to": "megabank",
+      "flow_type": "opex",
+      "label": "利息・元本の返済",
+      "amount_note": "貸出金利と預金金利の差(利ざや)が銀行の本業収益",
+      "sources": [
+        {
+          "url": "https://www.zenginkyo.or.jp/",
+          "publisher": "全国銀行協会"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_bank_depositor",
+      "from": "megabank",
+      "to": "depositor",
+      "flow_type": "goods",
+      "label": "決済・送金・口座サービス",
+      "sources": [
+        {
+          "url": "https://www.zenginkyo.or.jp/",
+          "publisher": "全国銀行協会"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_boj_bank",
+      "from": "boj",
+      "to": "megabank",
+      "flow_type": "opex",
+      "label": "資金供給オペ・日銀当座預金への付利",
+      "sources": [
+        {
+          "url": "https://www.boj.or.jp/",
+          "publisher": "日本銀行",
+          "note": "金融調節の公表資料へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_bank_boj",
+      "from": "megabank",
+      "to": "boj",
+      "flow_type": "opex",
+      "label": "準備預金の預入",
+      "sources": [
+        {
+          "url": "https://www.boj.or.jp/",
+          "publisher": "日本銀行"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_bank_mof",
+      "from": "megabank",
+      "to": "mof",
+      "flow_type": "capex",
+      "label": "国債の引受・投資",
+      "amount_note": "国債残高1,000兆円超の主要な買い手",
+      "sources": [
+        {
+          "url": "https://www.mof.go.jp/",
+          "publisher": "財務省",
+          "note": "国債統計へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_mof_bank",
+      "from": "mof",
+      "to": "megabank",
+      "flow_type": "opex",
+      "label": "国債の利払い",
+      "sources": [
+        {
+          "url": "https://www.mof.go.jp/",
+          "publisher": "財務省"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_bank_fsa",
+      "from": "megabank",
+      "to": "fsa",
+      "flow_type": "opex",
+      "label": "預金保険料の拠出",
+      "sources": [
+        {
+          "url": "https://www.dic.go.jp/",
+          "publisher": "預金保険機構"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_depositor_securities",
+      "from": "depositor",
+      "to": "securities",
+      "flow_type": "opex",
+      "label": "売買手数料・投信販売手数料",
+      "amount_note": "新NISAで個人の投資マネー流入が拡大",
+      "sources": [
+        {
+          "url": "https://www.jsda.or.jp/",
+          "publisher": "日本証券業協会",
+          "note": "統計へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_securities_depositor",
+      "from": "securities",
+      "to": "depositor",
+      "flow_type": "goods",
+      "label": "証券口座・売買仲介サービス",
+      "sources": [
+        {
+          "url": "https://www.jsda.or.jp/",
+          "publisher": "日本証券業協会"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_depositor_am",
+      "from": "depositor",
+      "to": "asset_mgmt",
+      "flow_type": "opex",
+      "label": "信託報酬(投資信託経由)",
+      "sources": [
+        {
+          "url": "https://www.toushin.or.jp/",
+          "publisher": "投資信託協会",
+          "note": "統計へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_depositor_life",
+      "from": "depositor",
+      "to": "life_insurance",
+      "flow_type": "opex",
+      "label": "生命保険料",
+      "sources": [
+        {
+          "url": "https://www.seiho.or.jp/",
+          "publisher": "生命保険協会",
+          "note": "統計へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_life_bank",
+      "from": "life_insurance",
+      "to": "megabank",
+      "flow_type": "opex",
+      "label": "窓販手数料(銀行窓口での保険販売)",
+      "sources": [
+        {
+          "url": "https://www.seiho.or.jp/",
+          "publisher": "生命保険協会"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_life_mof",
+      "from": "life_insurance",
+      "to": "mof",
+      "flow_type": "capex",
+      "label": "国債・超長期債への投資",
+      "sources": [
+        {
+          "url": "https://www.mof.go.jp/",
+          "publisher": "財務省"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_depositor_regional",
+      "from": "depositor",
+      "to": "regional_bank",
+      "flow_type": "opex",
+      "label": "預金の預入(地域)",
+      "sources": [
+        {
+          "url": "https://www.chiginkyo.or.jp/",
+          "publisher": "全国地方銀行協会",
+          "note": "統計へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_regional_borrower",
+      "from": "regional_bank",
+      "to": "borrower",
+      "flow_type": "capex",
+      "label": "地域企業への融資",
+      "sources": [
+        {
+          "url": "https://www.chiginkyo.or.jp/",
+          "publisher": "全国地方銀行協会"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_depositor_netbank",
+      "from": "depositor",
+      "to": "net_bank",
+      "flow_type": "opex",
+      "label": "預金の預入(ネット)",
+      "sources": [
+        {
+          "url": "https://www.zenginkyo.or.jp/",
+          "publisher": "全国銀行協会",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_netbank_borrower",
+      "from": "net_bank",
+      "to": "borrower",
+      "flow_type": "capex",
+      "label": "住宅ローンの実行(ネット経由)",
+      "sources": [
+        {
+          "url": "https://www.zenginkyo.or.jp/",
+          "publisher": "全国銀行協会",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ]
+}

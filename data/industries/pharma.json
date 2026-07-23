@@ -1,0 +1,847 @@
+{
+  "$schema": "../schema.json",
+  "meta": {
+    "industry_id": "pharma",
+    "industry_name": "医薬品",
+    "version": "0.1.0",
+    "updated": "2026-07-23",
+    "description": "医薬品の商流。製薬メーカーを中心に、卸・病院・薬局・患者と、保険料と診療報酬という公的な金流を重ねる。薬の値段(薬価)を国が決めるという特殊構造が最大の特徴。",
+    "tagline": "患者負担は1〜3割 — 残りを動かす保険料と診療報酬の巨大金流",
+    "editorial_note": "v1は公開情報ベース。診療報酬・調剤報酬のフローは実際には審査支払機関(支払基金・国保連)を経由するが、v1では簡略化して保険者→医療機関で表現。financialsは概算でIR確定値へ差し替え前提。"
+  },
+  "layers": [
+    {
+      "id": "patient",
+      "label": "患者・被保険者",
+      "order": 1,
+      "icon": "🧑",
+      "description": "医療サービスの受け手であり保険料の払い手"
+    },
+    {
+      "id": "maker",
+      "label": "製薬メーカー",
+      "order": 2,
+      "icon": "🏯",
+      "description": "新薬の研究開発・製造。地図の中心"
+    },
+    {
+      "id": "distribution",
+      "label": "医薬品卸",
+      "order": 3,
+      "icon": "🚚",
+      "description": "全国の医療機関・薬局への配送網"
+    },
+    {
+      "id": "medical",
+      "label": "医療機関・薬局",
+      "order": 4,
+      "icon": "🏥",
+      "description": "病院・クリニック・調剤薬局"
+    },
+    {
+      "id": "rnd",
+      "label": "研究開発エコシステム",
+      "order": 5,
+      "icon": "🧬",
+      "description": "創薬ベンチャー・CRO・CDMO"
+    },
+    {
+      "id": "public",
+      "label": "保険者・行政",
+      "order": 6,
+      "icon": "🏛️",
+      "description": "健保・厚労省・PMDA"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "pharma_maker",
+      "role": "製薬メーカー(新薬)",
+      "layer": "maker",
+      "description": "1剤あたり数百億〜数千億円の研究開発費を薬価収入で回収するビジネス。特許切れまでが勝負。",
+      "map": {
+        "ring": 0,
+        "angle": 0
+      },
+      "companies": [
+        {
+          "name": "武田薬品工業",
+          "url": "https://www.takeda.com/jp/",
+          "hq": "大阪市中央区",
+          "employees": 50000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "4502"
+          },
+          "financials": {
+            "revenue_oku_jpy": 45000,
+            "market_cap_oku_jpy": 65000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "第一三共",
+          "url": "https://www.daiichisankyo.co.jp/",
+          "hq": "東京都中央区",
+          "employees": 18000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "4568"
+          },
+          "financials": {
+            "revenue_oku_jpy": 18000,
+            "market_cap_oku_jpy": 110000,
+            "as_of": "2025",
+            "note": "概算。ADC(抗体薬物複合体)で時価総額が製薬首位級"
+          }
+        },
+        {
+          "name": "アステラス製薬",
+          "url": "https://www.astellas.com/jp/",
+          "hq": "東京都中央区",
+          "employees": 14000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "4503"
+          },
+          "financials": {
+            "revenue_oku_jpy": 19000,
+            "market_cap_oku_jpy": 30000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "中外製薬",
+          "url": "https://www.chugai-pharm.co.jp/",
+          "hq": "東京都中央区",
+          "employees": 7500,
+          "listing": {
+            "market": "東証プライム",
+            "code": "4519"
+          },
+          "financials": {
+            "revenue_oku_jpy": 12000,
+            "market_cap_oku_jpy": 120000,
+            "as_of": "2025",
+            "note": "概算。ロシュ傘下"
+          }
+        },
+        {
+          "name": "大塚ホールディングス",
+          "url": "https://www.otsuka.com/jp/",
+          "hq": "東京都千代田区",
+          "employees": 34000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "4578"
+          },
+          "financials": {
+            "revenue_oku_jpy": 23000,
+            "market_cap_oku_jpy": 50000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "エーザイ",
+          "url": "https://www.eisai.co.jp/",
+          "hq": "東京都文京区",
+          "employees": 11000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "4523"
+          },
+          "financials": {
+            "revenue_oku_jpy": 7500,
+            "market_cap_oku_jpy": 20000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "塩野義製薬",
+          "url": "https://www.shionogi.com/jp/ja/",
+          "hq": "大阪市中央区",
+          "employees": 5600,
+          "listing": {
+            "market": "東証プライム",
+            "code": "4507"
+          },
+          "financials": {
+            "revenue_oku_jpy": 4500,
+            "market_cap_oku_jpy": 10000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.jpma.or.jp/",
+          "publisher": "日本製薬工業協会",
+          "note": "業界構造・統計の出典"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "wholesaler",
+      "role": "医薬品卸",
+      "layer": "distribution",
+      "description": "全国の病院・薬局に毎日配送する超低マージン・高回転のインフラ。災害時のライフラインでもある。",
+      "map": {
+        "ring": 1,
+        "angle": 180
+      },
+      "companies": [
+        {
+          "name": "メディパルホールディングス",
+          "url": "https://www.medipal.co.jp/",
+          "hq": "東京都中央区",
+          "employees": 14000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7459"
+          },
+          "financials": {
+            "revenue_oku_jpy": 35000,
+            "market_cap_oku_jpy": 4000,
+            "as_of": "2025",
+            "note": "概算。売上規模に対し利益率が薄いのが卸の特徴"
+          }
+        },
+        {
+          "name": "アルフレッサホールディングス",
+          "url": "https://www.alfresa.com/",
+          "hq": "東京都千代田区",
+          "employees": 15000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "2784"
+          },
+          "financials": {
+            "revenue_oku_jpy": 29000,
+            "market_cap_oku_jpy": 4500,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "スズケン",
+          "url": "https://www.suzuken.co.jp/",
+          "hq": "名古屋市東区",
+          "employees": 15000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "9987"
+          },
+          "financials": {
+            "revenue_oku_jpy": 24000,
+            "market_cap_oku_jpy": 2500,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "東邦ホールディングス",
+          "url": "https://www.tohohd.co.jp/",
+          "hq": "東京都世田谷区",
+          "employees": 10000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8129"
+          },
+          "financials": {
+            "revenue_oku_jpy": 15000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "hospital",
+      "role": "病院・クリニック",
+      "layer": "medical",
+      "description": "診察・処方の現場。収入の大半は保険者からの診療報酬。",
+      "map": {
+        "ring": 1,
+        "angle": 45
+      },
+      "companies": [],
+      "note": "医療法人が中心のため実名掲載なし。上場は運営支援会社等に限られる",
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "pharmacy",
+      "role": "調剤薬局・ドラッグストア",
+      "layer": "medical",
+      "description": "処方箋調剤とOTC(市販薬)販売。ドラッグストアは食品も扱う小売業の顔も持つ。",
+      "map": {
+        "ring": 2,
+        "angle": 70
+      },
+      "companies": [
+        {
+          "name": "アインホールディングス",
+          "url": "https://www.ainj.co.jp/",
+          "hq": "札幌市白石区",
+          "employees": 15000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "9627"
+          },
+          "financials": {
+            "revenue_oku_jpy": 4000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "日本調剤",
+          "url": "https://www.nicho.co.jp/",
+          "hq": "東京都千代田区",
+          "employees": 6000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "3341"
+          },
+          "financials": {
+            "revenue_oku_jpy": 3500,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "ウエルシアホールディングス",
+          "url": "https://www.welcia.co.jp/",
+          "hq": "東京都千代田区",
+          "employees": 20000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "3141"
+          },
+          "financials": {
+            "revenue_oku_jpy": 12000,
+            "as_of": "2025",
+            "note": "概算。ツルハHDと経営統合手続き中(イオン系)"
+          }
+        },
+        {
+          "name": "ツルハホールディングス",
+          "url": "https://www.tsuruha-hd.com/",
+          "hq": "札幌市東区",
+          "employees": 15000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "3391"
+          },
+          "financials": {
+            "revenue_oku_jpy": 10000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "patient",
+      "role": "患者・被保険者",
+      "layer": "patient",
+      "description": "窓口では医療費の1〜3割だけを払う。残りは保険料・税として先に払っている、という構造が見えにくい。",
+      "map": {
+        "ring": 1,
+        "angle": 0
+      },
+      "companies": [],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "insurer",
+      "role": "保険者(健保組合・協会けんぽ・国保)",
+      "layer": "public",
+      "description": "国民皆保険の担い手。集めた保険料で医療機関に診療報酬を払う、この業界最大の金庫。",
+      "map": {
+        "ring": 1,
+        "angle": 315
+      },
+      "companies": [
+        {
+          "name": "全国健康保険協会(協会けんぽ)",
+          "url": "https://www.kyoukaikenpo.or.jp/",
+          "hq": "東京都新宿区",
+          "listing": {
+            "market": "公法人"
+          }
+        },
+        {
+          "name": "健康保険組合連合会",
+          "url": "https://www.kenporen.com/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "公法人"
+          }
+        },
+        {
+          "name": "市町村国保・後期高齢者医療制度"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "mhlw",
+      "role": "厚生労働省・PMDA",
+      "layer": "public",
+      "description": "薬の承認(PMDA)と価格決定(薬価制度)の両方を握る。2年ごとの薬価改定が業界収益を直撃する。",
+      "map": {
+        "ring": 2,
+        "angle": 285
+      },
+      "companies": [
+        {
+          "name": "厚生労働省",
+          "url": "https://www.mhlw.go.jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "行政機関"
+          }
+        },
+        {
+          "name": "医薬品医療機器総合機構(PMDA)",
+          "url": "https://www.pmda.go.jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "独立行政法人"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "biotech",
+      "role": "創薬ベンチャー",
+      "layer": "rnd",
+      "description": "大学発シーズを開発し、大手にライセンスアウトして一時金とロイヤリティを得るモデル。",
+      "map": {
+        "ring": 2,
+        "angle": 225
+      },
+      "companies": [
+        {
+          "name": "ペプチドリーム",
+          "url": "https://www.peptidream.com/",
+          "hq": "川崎市川崎区",
+          "employees": 200,
+          "listing": {
+            "market": "東証プライム",
+            "code": "4587"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 3000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "ネクセラファーマ",
+          "url": "https://www.nxera.life/jp/",
+          "hq": "東京都中央区",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4565"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "cro",
+      "role": "CRO(治験受託)",
+      "layer": "rnd",
+      "description": "臨床試験の運営を受託。開発費の大きな部分がここに流れる。",
+      "map": {
+        "ring": 2,
+        "angle": 195
+      },
+      "companies": [
+        {
+          "name": "シミックホールディングス",
+          "url": "https://www.cmicgroup.com/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "非公開化(MBO)"
+          }
+        },
+        {
+          "name": "IQVIA",
+          "url": "https://www.iqvia.com/ja-jp",
+          "hq": "米ノースカロライナ州ダーラム",
+          "employees": 88000,
+          "listing": {
+            "market": "NYSE"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "cdmo",
+      "role": "CDMO(受託製造)",
+      "layer": "rnd",
+      "description": "バイオ医薬品の製造受託。半導体のファウンドリに似た構造が生まれつつある。",
+      "map": {
+        "ring": 2,
+        "angle": 255
+      },
+      "companies": [
+        {
+          "name": "富士フイルム",
+          "url": "https://www.fujifilm.com/jp/ja",
+          "hq": "東京都港区",
+          "employees": 73000,
+          "listing": {
+            "market": "東証プライム(富士フイルムホールディングス)",
+            "code": "4901"
+          },
+          "financials": {
+            "revenue_oku_jpy": 30000,
+            "market_cap_oku_jpy": 40000,
+            "as_of": "2025",
+            "note": "概算。バイオCDMOに大型投資中"
+          }
+        },
+        {
+          "name": "AGC",
+          "url": "https://www.agc.com/",
+          "hq": "東京都千代田区",
+          "employees": 55000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "5201"
+          },
+          "financials": {
+            "revenue_oku_jpy": 20000,
+            "market_cap_oku_jpy": 10000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "ニプロ",
+          "url": "https://www.nipro.co.jp/",
+          "hq": "大阪市北区",
+          "employees": 40000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8086"
+          },
+          "financials": {
+            "revenue_oku_jpy": 6000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ],
+  "edges": [
+    {
+      "id": "goods_maker_wholesaler",
+      "from": "pharma_maker",
+      "to": "wholesaler",
+      "flow_type": "goods",
+      "label": "医薬品の出荷",
+      "sources": [
+        {
+          "url": "https://www.jpma.or.jp/",
+          "publisher": "日本製薬工業協会"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_wholesaler_maker",
+      "from": "wholesaler",
+      "to": "pharma_maker",
+      "flow_type": "opex",
+      "label": "医薬品の仕入代金",
+      "sources": [
+        {
+          "url": "http://www.jpwa.or.jp/",
+          "publisher": "日本医薬品卸売業連合会",
+          "note": "統計へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_wholesaler_hospital",
+      "from": "wholesaler",
+      "to": "hospital",
+      "flow_type": "goods",
+      "label": "病院・クリニックへの配送",
+      "sources": [
+        {
+          "url": "http://www.jpwa.or.jp/",
+          "publisher": "日本医薬品卸売業連合会"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_hospital_wholesaler",
+      "from": "hospital",
+      "to": "wholesaler",
+      "flow_type": "opex",
+      "label": "医薬品の購入代金",
+      "note": "納入価と薬価の差(薬価差益)が医療機関側の収益になる",
+      "sources": [
+        {
+          "url": "http://www.jpwa.or.jp/",
+          "publisher": "日本医薬品卸売業連合会"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_wholesaler_pharmacy",
+      "from": "wholesaler",
+      "to": "pharmacy",
+      "flow_type": "goods",
+      "label": "薬局への配送",
+      "sources": [
+        {
+          "url": "http://www.jpwa.or.jp/",
+          "publisher": "日本医薬品卸売業連合会"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_pharmacy_wholesaler",
+      "from": "pharmacy",
+      "to": "wholesaler",
+      "flow_type": "opex",
+      "label": "医薬品の購入代金",
+      "sources": [
+        {
+          "url": "http://www.jpwa.or.jp/",
+          "publisher": "日本医薬品卸売業連合会"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_hospital_patient",
+      "from": "hospital",
+      "to": "patient",
+      "flow_type": "goods",
+      "label": "診察・処方",
+      "sources": [
+        {
+          "url": "https://www.mhlw.go.jp/",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_patient_hospital",
+      "from": "patient",
+      "to": "hospital",
+      "flow_type": "opex",
+      "label": "窓口負担(医療費の1〜3割)",
+      "sources": [
+        {
+          "url": "https://www.mhlw.go.jp/",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_pharmacy_patient",
+      "from": "pharmacy",
+      "to": "patient",
+      "flow_type": "goods",
+      "label": "調剤・服薬指導・OTC販売",
+      "sources": [
+        {
+          "url": "https://www.nichiyaku.or.jp/",
+          "publisher": "日本薬剤師会",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_patient_pharmacy",
+      "from": "patient",
+      "to": "pharmacy",
+      "flow_type": "opex",
+      "label": "窓口負担(調剤)・OTC購入代金",
+      "sources": [
+        {
+          "url": "https://www.mhlw.go.jp/",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_patient_insurer",
+      "from": "patient",
+      "to": "insurer",
+      "flow_type": "opex",
+      "label": "健康保険料(労使折半)",
+      "amount_note": "国民医療費は年間47兆円超。財源は保険料+公費+窓口負担",
+      "sources": [
+        {
+          "url": "https://www.mhlw.go.jp/",
+          "publisher": "厚生労働省",
+          "note": "国民医療費統計へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_insurer_hospital",
+      "from": "insurer",
+      "to": "hospital",
+      "flow_type": "opex",
+      "label": "診療報酬の支払い(7〜9割)",
+      "note": "実際は審査支払機関(支払基金・国保連)を経由。v1では簡略化",
+      "sources": [
+        {
+          "url": "https://www.ssk.or.jp/",
+          "publisher": "社会保険診療報酬支払基金",
+          "note": "統計へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_insurer_pharmacy",
+      "from": "insurer",
+      "to": "pharmacy",
+      "flow_type": "opex",
+      "label": "調剤報酬の支払い",
+      "sources": [
+        {
+          "url": "https://www.ssk.or.jp/",
+          "publisher": "社会保険診療報酬支払基金"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_gov_insurer",
+      "from": "mhlw",
+      "to": "insurer",
+      "flow_type": "opex",
+      "label": "公費(国庫負担)の投入",
+      "sources": [
+        {
+          "url": "https://www.mhlw.go.jp/",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_maker_pmda",
+      "from": "pharma_maker",
+      "to": "mhlw",
+      "flow_type": "opex",
+      "label": "承認審査手数料・安全対策拠出金",
+      "note": "薬価も厚労省(中医協)が決定。2年ごとの薬価改定が収益を左右",
+      "sources": [
+        {
+          "url": "https://www.pmda.go.jp/",
+          "publisher": "PMDA"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_maker_biotech",
+      "from": "pharma_maker",
+      "to": "biotech",
+      "flow_type": "capex",
+      "label": "ライセンス契約一時金・出資",
+      "sources": [
+        {
+          "url": "https://www.jpma.or.jp/",
+          "publisher": "日本製薬工業協会",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_maker_biotech_roy",
+      "from": "pharma_maker",
+      "to": "biotech",
+      "flow_type": "opex",
+      "label": "マイルストン・ロイヤリティ",
+      "sources": [
+        {
+          "url": "https://www.jpma.or.jp/",
+          "publisher": "日本製薬工業協会",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_biotech_maker",
+      "from": "biotech",
+      "to": "pharma_maker",
+      "flow_type": "goods",
+      "label": "創薬シーズの導出",
+      "sources": [
+        {
+          "url": "https://www.jpma.or.jp/",
+          "publisher": "日本製薬工業協会",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_maker_cro",
+      "from": "pharma_maker",
+      "to": "cro",
+      "flow_type": "opex",
+      "label": "治験の委託費",
+      "sources": [
+        {
+          "url": "https://www.jcroa.or.jp/",
+          "publisher": "日本CRO協会",
+          "note": "統計へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_maker_cdmo",
+      "from": "pharma_maker",
+      "to": "cdmo",
+      "flow_type": "opex",
+      "label": "製造委託費(バイオCDMO)",
+      "sources": [
+        {
+          "url": "https://www.jpma.or.jp/",
+          "publisher": "日本製薬工業協会",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ]
+}

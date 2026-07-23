@@ -1,0 +1,1288 @@
+{
+  "$schema": "../schema.json",
+  "meta": {
+    "industry_id": "semiconductor",
+    "industry_name": "半導体",
+    "version": "0.1.0",
+    "updated": "2026-07-23",
+    "description": "半導体産業の商流。中央のファウンドリ(前工程工場)を起点に、設計(ファブレス・IDM)、製造装置、材料、後工程、商社、需要家、公的支援のカネとモノの流れを地図化する。",
+    "tagline": "国策マネーが注ぐ前工程工場と、装置・材料の日本サプライチェーン",
+    "editorial_note": "v1は公開情報ベースの業界構造。JASM・ラピダスへの公的支援は経産省発表等の公知情報のみ記載。個別エッジの一次情報URL(認定・プレスリリース該当ページ)への差し替えが次の作業。"
+  },
+  "layers": [
+    {
+      "id": "design",
+      "label": "設計(ファブレス・EDA/IP)",
+      "order": 1,
+      "icon": "✏️",
+      "description": "回路設計を担うファブレスと、設計ツール・IPのベンダー"
+    },
+    {
+      "id": "fab",
+      "label": "前工程製造",
+      "order": 2,
+      "icon": "🏯",
+      "description": "ウェハプロセスを担うファウンドリ・IDM。地図の中心"
+    },
+    {
+      "id": "backend",
+      "label": "後工程・パッケージ",
+      "order": 3,
+      "icon": "📦",
+      "description": "OSAT・パッケージ基板"
+    },
+    {
+      "id": "equipment",
+      "label": "製造装置",
+      "order": 4,
+      "icon": "⚙️",
+      "description": "露光・成膜・エッチング・検査装置"
+    },
+    {
+      "id": "materials",
+      "label": "材料・ウェハ",
+      "order": 5,
+      "icon": "🧪",
+      "description": "シリコンウェハ・レジスト・特殊ガス"
+    },
+    {
+      "id": "distribution",
+      "label": "商社・流通",
+      "order": 6,
+      "icon": "🚢",
+      "description": "半導体商社"
+    },
+    {
+      "id": "demand",
+      "label": "需要家",
+      "order": 7,
+      "icon": "🏢",
+      "description": "サーバー・自動車・電機など最終製品側"
+    },
+    {
+      "id": "finance",
+      "label": "資金・公的支援",
+      "order": 8,
+      "icon": "💰",
+      "description": "政府・NEDO・銀行・出資企業"
+    },
+    {
+      "id": "utility",
+      "label": "ユーティリティ",
+      "order": 9,
+      "icon": "⚡",
+      "description": "電力・工業用水"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "foundry",
+      "role": "ファウンドリ(前工程工場)",
+      "layer": "fab",
+      "description": "受託でウェハプロセスを担う工場。巨額の設備投資と国策支援が集中する地図の中心。",
+      "map": {
+        "ring": 0,
+        "angle": 0
+      },
+      "companies": [
+        {
+          "name": "JASM(TSMC熊本)",
+          "url": "https://www.tsmc.com/japanese",
+          "financials": {
+            "revenue_oku_jpy": 135000,
+            "market_cap_oku_jpy": 1650000,
+            "as_of": "2025",
+            "note": "TSMC本体の連結値・ドル150円換算・概算"
+          },
+          "hq": "熊本県菊陽町",
+          "employees": 77000,
+          "listing": {
+            "market": "台湾証取・NYSE(ADR)。従業員はTSMC全体"
+          }
+        },
+        {
+          "name": "ラピダス",
+          "url": "https://www.rapidus.inc/",
+          "hq": "東京都千代田区(工場: 北海道千歳市)",
+          "employees": 1000,
+          "listing": {
+            "market": "非上場"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/",
+          "publisher": "経済産業省",
+          "note": "半導体・デジタル産業戦略の公表資料を構造出典とする"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "idm",
+      "role": "IDM(垂直統合メーカー)",
+      "layer": "fab",
+      "description": "設計から製造まで自社で担うメーカー。メモリ・パワー半導体・イメージセンサーなど。",
+      "map": {
+        "ring": 1,
+        "angle": 315
+      },
+      "companies": [
+        {
+          "name": "キオクシア",
+          "url": "https://www.kioxia.com/ja-jp/",
+          "financials": {
+            "revenue_oku_jpy": 17000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "東京都港区",
+          "employees": 15000,
+          "listing": {
+            "market": "東証プライム(キオクシアホールディングス)",
+            "code": "285A"
+          }
+        },
+        {
+          "name": "ソニーセミコンダクタソリューションズ",
+          "url": "https://www.sony-semicon.com/ja/",
+          "financials": {
+            "revenue_oku_jpy": 16000,
+            "as_of": "2025",
+            "note": "ソニーグループI&SSセグメント・概算"
+          },
+          "hq": "神奈川県厚木市",
+          "employees": 20000,
+          "listing": {
+            "market": "非上場(ソニーグループ傘下)"
+          }
+        },
+        {
+          "name": "ルネサス エレクトロニクス",
+          "url": "https://www.renesas.com/ja",
+          "financials": {
+            "revenue_oku_jpy": 13000,
+            "market_cap_oku_jpy": 25000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "東京都江東区",
+          "employees": 21000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6723"
+          }
+        },
+        {
+          "name": "ローム",
+          "url": "https://www.rohm.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 4700,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "京都市右京区",
+          "employees": 23000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6963"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "fabless",
+      "role": "ファブレス設計会社",
+      "layer": "design",
+      "description": "回路設計に特化し、製造はファウンドリに委託。AI半導体の設計主体。",
+      "map": {
+        "ring": 1,
+        "angle": 0
+      },
+      "companies": [
+        {
+          "name": "NVIDIA",
+          "url": "https://www.nvidia.com/ja-jp/",
+          "financials": {
+            "revenue_oku_jpy": 195000,
+            "market_cap_oku_jpy": 6500000,
+            "as_of": "2025",
+            "note": "ドル150円換算・概算"
+          },
+          "hq": "米カリフォルニア州サンタクララ",
+          "employees": 30000,
+          "listing": {
+            "market": "NASDAQ"
+          }
+        },
+        {
+          "name": "AMD",
+          "url": "https://www.amd.com/ja.html",
+          "financials": {
+            "revenue_oku_jpy": 39000,
+            "market_cap_oku_jpy": 400000,
+            "as_of": "2025",
+            "note": "ドル150円換算・概算"
+          },
+          "hq": "米カリフォルニア州サンタクララ",
+          "employees": 28000,
+          "listing": {
+            "market": "NASDAQ"
+          }
+        },
+        {
+          "name": "Apple",
+          "url": "https://www.apple.com/jp/",
+          "financials": {
+            "revenue_oku_jpy": 585000,
+            "market_cap_oku_jpy": 5250000,
+            "as_of": "2025",
+            "note": "ドル150円換算・概算"
+          },
+          "hq": "米カリフォルニア州クパチーノ",
+          "employees": 160000,
+          "listing": {
+            "market": "NASDAQ"
+          }
+        },
+        {
+          "name": "ソシオネクスト",
+          "url": "https://www.socionext.com/jp/",
+          "financials": {
+            "revenue_oku_jpy": 2200,
+            "market_cap_oku_jpy": 3500,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "横浜市西区",
+          "employees": 2700,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6526"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "eda_ip",
+      "role": "EDA・IPベンダー",
+      "layer": "design",
+      "description": "設計ツール(EDA)と回路IPのライセンス提供。設計工程の上流を押さえる。",
+      "map": {
+        "ring": 2,
+        "angle": 20
+      },
+      "companies": [
+        {
+          "name": "Synopsys",
+          "url": "https://www.synopsys.com/",
+          "hq": "米カリフォルニア州サニーベール",
+          "employees": 20000,
+          "listing": {
+            "market": "NASDAQ"
+          }
+        },
+        {
+          "name": "Cadence",
+          "url": "https://www.cadence.com/",
+          "hq": "米カリフォルニア州サンノゼ",
+          "employees": 12000,
+          "listing": {
+            "market": "NASDAQ"
+          }
+        },
+        {
+          "name": "Arm",
+          "url": "https://www.arm.com/",
+          "hq": "英ケンブリッジ",
+          "employees": 8000,
+          "listing": {
+            "market": "NASDAQ(ソフトバンクグループ傘下)"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "device_customer",
+      "role": "需要家(サーバー・自動車・電機)",
+      "layer": "demand",
+      "description": "最終製品に半導体を組み込む側。AIサーバーと車載が二大成長需要。サブくくりから各業界の地図へ潜れる。",
+      "map": {
+        "ring": 1,
+        "angle": 45
+      },
+      "segments": [
+        {
+          "id": "auto",
+          "label": "自動車",
+          "related_industry": "automotive",
+          "description": "車載半導体の需要家。電動化・ADASで搭載額が急増"
+        },
+        {
+          "id": "server",
+          "label": "サーバー・データセンター",
+          "related_industry": "datacenter",
+          "description": "AIサーバー・クラウド基盤の需要家"
+        },
+        {
+          "id": "electronics",
+          "label": "電機・民生",
+          "description": "スマホ・家電・ゲーム機など"
+        }
+      ],
+      "companies": [
+        {
+          "name": "トヨタ自動車",
+          "url": "https://global.toyota/jp/",
+          "segment": "auto",
+          "financials": {
+            "revenue_oku_jpy": 480000,
+            "market_cap_oku_jpy": 420000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "愛知県豊田市",
+          "employees": 380000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7203"
+          }
+        },
+        {
+          "name": "デンソー",
+          "url": "https://www.denso.com/jp/ja/",
+          "segment": "auto",
+          "financials": {
+            "revenue_oku_jpy": 71000,
+            "market_cap_oku_jpy": 60000,
+            "as_of": "2025",
+            "note": "概算"
+          },
+          "hq": "愛知県刈谷市",
+          "employees": 162000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6902"
+          }
+        },
+        {
+          "name": "デル・テクノロジーズ",
+          "url": "https://www.dell.com/ja-jp",
+          "segment": "server",
+          "financials": {
+            "revenue_oku_jpy": 143000,
+            "market_cap_oku_jpy": 120000,
+            "as_of": "2025",
+            "note": "ドル150円換算・概算"
+          },
+          "hq": "米テキサス州ラウンドロック",
+          "employees": 108000,
+          "listing": {
+            "market": "NYSE"
+          }
+        },
+        {
+          "name": "ソニーグループ",
+          "url": "https://www.sony.com/ja/",
+          "segment": "electronics",
+          "financials": {
+            "revenue_oku_jpy": 130000,
+            "market_cap_oku_jpy": 200000,
+            "as_of": "2025",
+            "note": "概算"
+          },
+          "hq": "東京都港区",
+          "employees": 113000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6758"
+          }
+        }
+      ],
+      "note": "サーバーメーカー・スマホメーカー等も含む。実名は自己登録で拡充予定",
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "trading",
+      "role": "半導体商社",
+      "layer": "distribution",
+      "description": "メーカーと需要家の間の流通・技術サポート。国内商流の太い中間層。",
+      "map": {
+        "ring": 2,
+        "angle": 60
+      },
+      "companies": [
+        {
+          "name": "マクニカ",
+          "url": "https://www.macnica.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 10000,
+            "market_cap_oku_jpy": 5000,
+            "as_of": "2025",
+            "note": "マクニカホールディングス連結・概算"
+          },
+          "hq": "横浜市港北区",
+          "employees": 4600,
+          "listing": {
+            "market": "東証プライム(マクニカホールディングス)",
+            "code": "3132"
+          }
+        },
+        {
+          "name": "東京エレクトロン デバイス",
+          "url": "https://www.teldevice.co.jp/",
+          "hq": "横浜市神奈川区",
+          "employees": 1200,
+          "listing": {
+            "market": "東証プライム",
+            "code": "2760"
+          }
+        },
+        {
+          "name": "レスターホールディングス",
+          "url": "https://www.restargp.com/",
+          "hq": "東京都品川区",
+          "employees": 4000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "3156"
+          }
+        },
+        {
+          "name": "加賀電子",
+          "url": "https://www.taxan.co.jp/",
+          "hq": "東京都千代田区",
+          "employees": 8000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8154"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "utility_power",
+      "role": "電力・工業用水",
+      "layer": "utility",
+      "description": "前工程工場は大量の電力と超純水を消費。立地選定の決定要因。",
+      "map": {
+        "ring": 2,
+        "angle": 90
+      },
+      "companies": [
+        {
+          "name": "九州電力",
+          "url": "https://www.kyuden.co.jp/",
+          "hq": "福岡市中央区",
+          "employees": 21000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "9508"
+          }
+        },
+        {
+          "name": "北海道電力",
+          "url": "https://www.hepco.co.jp/",
+          "hq": "札幌市中央区",
+          "employees": 10000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "9509"
+          }
+        }
+      ],
+      "note": "熊本(JASM)・千歳(ラピダス)の立地に対応",
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "materials_wafer",
+      "role": "シリコンウェハメーカー",
+      "layer": "materials",
+      "description": "基板となるシリコンウェハ。日本勢が世界シェアの過半を占める。",
+      "map": {
+        "ring": 1,
+        "angle": 120
+      },
+      "companies": [
+        {
+          "name": "信越化学工業",
+          "url": "https://www.shinetsu.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 25600,
+            "market_cap_oku_jpy": 120000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "東京都千代田区",
+          "employees": 26000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "4063"
+          }
+        },
+        {
+          "name": "SUMCO",
+          "url": "https://www.sumcosi.com/",
+          "financials": {
+            "revenue_oku_jpy": 4000,
+            "market_cap_oku_jpy": 4500,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "東京都港区",
+          "employees": 10000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "3436"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "materials_chem",
+      "role": "材料メーカー(レジスト・ガス・薬液)",
+      "layer": "materials",
+      "description": "フォトレジスト・特殊ガス・研磨材など。日本企業の世界シェアが高い領域。",
+      "map": {
+        "ring": 2,
+        "angle": 140
+      },
+      "companies": [
+        {
+          "name": "JSR",
+          "url": "https://www.jsr.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 4000,
+            "as_of": "2025",
+            "note": "JIC傘下・非上場。概算"
+          },
+          "hq": "東京都",
+          "employees": 9000,
+          "listing": {
+            "market": "非上場(JIC傘下)"
+          }
+        },
+        {
+          "name": "東京応化工業",
+          "url": "https://www.tok.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 2000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "川崎市中原区",
+          "employees": 2200,
+          "listing": {
+            "market": "東証プライム",
+            "code": "4186"
+          }
+        },
+        {
+          "name": "富士フイルム",
+          "url": "https://www.fujifilm.com/jp/ja",
+          "hq": "東京都港区",
+          "employees": 73000,
+          "listing": {
+            "market": "東証プライム(富士フイルムホールディングス)",
+            "code": "4901"
+          }
+        },
+        {
+          "name": "レゾナック",
+          "url": "https://www.resonac.com/jp",
+          "hq": "東京都港区",
+          "employees": 22000,
+          "listing": {
+            "market": "東証プライム(レゾナック・ホールディングス)",
+            "code": "4004"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "equipment_maker",
+      "role": "製造装置メーカー(前工程)",
+      "layer": "equipment",
+      "description": "露光・成膜・エッチング・洗浄装置。EUV露光装置は1台数百億円。",
+      "map": {
+        "ring": 1,
+        "angle": 180
+      },
+      "companies": [
+        {
+          "name": "東京エレクトロン",
+          "url": "https://www.tel.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 24000,
+            "market_cap_oku_jpy": 110000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "東京都港区",
+          "employees": 18000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8035"
+          }
+        },
+        {
+          "name": "ASML",
+          "url": "https://www.asml.com/",
+          "financials": {
+            "revenue_oku_jpy": 45000,
+            "market_cap_oku_jpy": 500000,
+            "as_of": "2025",
+            "note": "ユーロ160円換算・概算"
+          },
+          "hq": "蘭フェルトホーフェン",
+          "employees": 44000,
+          "listing": {
+            "market": "ユーロネクスト・NASDAQ"
+          }
+        },
+        {
+          "name": "アプライド マテリアルズ",
+          "url": "https://www.appliedmaterials.com/",
+          "financials": {
+            "revenue_oku_jpy": 40000,
+            "market_cap_oku_jpy": 225000,
+            "as_of": "2025",
+            "note": "ドル150円換算・概算"
+          },
+          "hq": "米カリフォルニア州サンタクララ",
+          "employees": 35000,
+          "listing": {
+            "market": "NASDAQ"
+          }
+        },
+        {
+          "name": "SCREENホールディングス",
+          "url": "https://www.screen.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 6200,
+            "market_cap_oku_jpy": 25000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "京都市上京区",
+          "employees": 7600,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7735"
+          }
+        },
+        {
+          "name": "KOKUSAI ELECTRIC",
+          "url": "https://www.kokusai-electric.com/",
+          "hq": "東京都千代田区",
+          "employees": 3000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6525"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "test_equipment",
+      "role": "検査・計測装置メーカー",
+      "layer": "equipment",
+      "description": "テスタ・マスク検査など歩留まりを支える装置群。",
+      "map": {
+        "ring": 2,
+        "angle": 200
+      },
+      "companies": [
+        {
+          "name": "アドバンテスト",
+          "url": "https://www.advantest.com/ja/",
+          "financials": {
+            "revenue_oku_jpy": 7800,
+            "market_cap_oku_jpy": 90000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "東京都千代田区",
+          "employees": 7500,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6857"
+          }
+        },
+        {
+          "name": "レーザーテック",
+          "url": "https://www.lasertec.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 2100,
+            "market_cap_oku_jpy": 15000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "横浜市港北区",
+          "employees": 800,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6920"
+          }
+        },
+        {
+          "name": "日立ハイテク",
+          "url": "https://www.hitachi-hightech.com/jp/ja/",
+          "hq": "東京都港区",
+          "employees": 13000,
+          "listing": {
+            "market": "非上場(日立製作所傘下)"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "osat",
+      "role": "後工程(OSAT・パッケージング)",
+      "layer": "backend",
+      "description": "組立・テストの受託。AI半導体で先端パッケージングの重要度が急上昇。",
+      "map": {
+        "ring": 1,
+        "angle": 240
+      },
+      "companies": [
+        {
+          "name": "ASE",
+          "url": "https://www.aseglobal.com/",
+          "hq": "台湾・高雄",
+          "employees": 100000,
+          "listing": {
+            "market": "台湾証取・NYSE(ADR)"
+          }
+        },
+        {
+          "name": "アムコー・テクノロジー",
+          "url": "https://amkor.com/",
+          "hq": "米アリゾナ州テンピ",
+          "employees": 30000,
+          "listing": {
+            "market": "NASDAQ"
+          }
+        },
+        {
+          "name": "アオイ電子",
+          "url": "https://www.aoi-electronics.co.jp/",
+          "hq": "高松市",
+          "employees": 3000,
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "6832"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "substrate",
+      "role": "パッケージ基板メーカー",
+      "layer": "backend",
+      "description": "ICパッケージ基板。AI半導体向け大型基板で日本勢が強い。",
+      "map": {
+        "ring": 2,
+        "angle": 260
+      },
+      "companies": [
+        {
+          "name": "イビデン",
+          "url": "https://www.ibiden.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 3700,
+            "market_cap_oku_jpy": 15000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "岐阜県大垣市",
+          "employees": 20000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "4062"
+          }
+        },
+        {
+          "name": "新光電気工業",
+          "url": "https://www.shinko.co.jp/",
+          "hq": "長野市",
+          "employees": 5500,
+          "listing": {
+            "market": "非公開化(JICグループによるTOB)"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "gov",
+      "role": "政府・公的機関",
+      "layer": "finance",
+      "description": "経済安全保障の観点から前工程投資に大規模補助。5G促進法・NEDO基金などのスキーム。",
+      "map": {
+        "ring": 1,
+        "angle": 285
+      },
+      "companies": [
+        {
+          "name": "経済産業省",
+          "url": "https://www.meti.go.jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "行政機関"
+          }
+        },
+        {
+          "name": "NEDO",
+          "url": "https://www.nedo.go.jp/",
+          "hq": "川崎市幸区",
+          "employees": 1600,
+          "listing": {
+            "market": "国立研究開発法人"
+          }
+        },
+        {
+          "name": "LSTC(技術研究組合最先端半導体技術センター)",
+          "url": "https://www.lstc.jp/",
+          "hq": "東京都"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "bank_investor",
+      "role": "銀行・出資企業",
+      "layer": "finance",
+      "description": "民間側の資金供給。ラピダスへはトヨタ・ソニー・NTTなど国内大手8社が出資。",
+      "map": {
+        "ring": 2,
+        "angle": 330
+      },
+      "companies": [
+        {
+          "name": "日本政策投資銀行",
+          "url": "https://www.dbj.jp/",
+          "hq": "東京都千代田区",
+          "employees": 1300,
+          "listing": {
+            "market": "非上場(政府系)"
+          }
+        },
+        {
+          "name": "三菱UFJ銀行",
+          "url": "https://www.bk.mufg.jp/",
+          "hq": "東京都千代田区",
+          "employees": 120000,
+          "listing": {
+            "market": "東証プライム(三菱UFJフィナンシャル・グループ)",
+            "code": "8306"
+          }
+        },
+        {
+          "name": "国内出資企業(トヨタ・ソニー・NTT・NEC・ソフトバンク・デンソー・キオクシア・三菱UFJ銀行)"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.rapidus.inc/",
+          "publisher": "ラピダス",
+          "note": "出資企業は設立発表の公知情報"
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ],
+  "edges": [
+    {
+      "id": "opex_fabless_foundry",
+      "from": "fabless",
+      "to": "foundry",
+      "flow_type": "opex",
+      "label": "ウェハ受託製造費",
+      "amount_note": "先端プロセスは1枚あたり数十万円規模とされる",
+      "sources": [
+        {
+          "url": "https://www.tsmc.com/japanese",
+          "publisher": "TSMC",
+          "note": "業界一般構造。個別価格は非公開"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_foundry_fabless",
+      "from": "foundry",
+      "to": "fabless",
+      "flow_type": "goods",
+      "label": "前工程済みウェハの供給",
+      "sources": [
+        {
+          "url": "https://www.tsmc.com/japanese",
+          "publisher": "TSMC",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_fabless_eda",
+      "from": "fabless",
+      "to": "eda_ip",
+      "flow_type": "opex",
+      "label": "EDAライセンス料・IPロイヤリティ",
+      "sources": [
+        {
+          "url": "https://www.arm.com/",
+          "publisher": "Arm",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_eda_fabless",
+      "from": "eda_ip",
+      "to": "fabless",
+      "flow_type": "goods",
+      "label": "設計ツール・回路IPの提供",
+      "sources": [
+        {
+          "url": "https://www.synopsys.com/",
+          "publisher": "Synopsys",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_foundry_equipment",
+      "from": "foundry",
+      "to": "equipment_maker",
+      "flow_type": "capex",
+      "label": "製造装置の購入",
+      "amount_note": "先端工場1棟の装置投資は兆円規模。EUV露光装置は1台数百億円",
+      "sources": [
+        {
+          "url": "https://www.tel.co.jp/",
+          "publisher": "東京エレクトロン",
+          "note": "決算説明資料の受注動向へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_equipment_foundry",
+      "from": "equipment_maker",
+      "to": "foundry",
+      "flow_type": "goods",
+      "label": "製造装置の納入・据付",
+      "sources": [
+        {
+          "url": "https://www.tel.co.jp/",
+          "publisher": "東京エレクトロン",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_idm_equipment",
+      "from": "idm",
+      "to": "equipment_maker",
+      "flow_type": "capex",
+      "label": "製造装置の購入(IDM設備投資)",
+      "sources": [
+        {
+          "url": "https://www.kioxia.com/ja-jp/",
+          "publisher": "キオクシア",
+          "note": "設備投資発表へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_foundry_test",
+      "from": "foundry",
+      "to": "test_equipment",
+      "flow_type": "capex",
+      "label": "検査・計測装置の購入",
+      "sources": [
+        {
+          "url": "https://www.lasertec.co.jp/",
+          "publisher": "レーザーテック",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_foundry_wafer",
+      "from": "foundry",
+      "to": "materials_wafer",
+      "flow_type": "opex",
+      "label": "シリコンウェハの仕入",
+      "amount_note": "長期契約が中心。日本勢2社で世界シェア過半",
+      "sources": [
+        {
+          "url": "https://www.sumcosi.com/",
+          "publisher": "SUMCO",
+          "note": "IR資料の市況説明へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_wafer_foundry",
+      "from": "materials_wafer",
+      "to": "foundry",
+      "flow_type": "goods",
+      "label": "シリコンウェハの供給",
+      "sources": [
+        {
+          "url": "https://www.shinetsu.co.jp/",
+          "publisher": "信越化学工業",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_foundry_chem",
+      "from": "foundry",
+      "to": "materials_chem",
+      "flow_type": "opex",
+      "label": "レジスト・特殊ガス・薬液の仕入",
+      "sources": [
+        {
+          "url": "https://www.tok.co.jp/",
+          "publisher": "東京応化工業",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_chem_foundry",
+      "from": "materials_chem",
+      "to": "foundry",
+      "flow_type": "goods",
+      "label": "プロセス材料の供給",
+      "sources": [
+        {
+          "url": "https://www.jsr.co.jp/",
+          "publisher": "JSR",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_foundry_utility",
+      "from": "foundry",
+      "to": "utility_power",
+      "flow_type": "opex",
+      "label": "電力・工業用水の料金",
+      "amount_note": "前工程工場は24時間稼働で大量の電力・超純水を消費",
+      "sources": [
+        {
+          "url": "https://www.kyuden.co.jp/",
+          "publisher": "九州電力",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_fabless_osat",
+      "from": "fabless",
+      "to": "osat",
+      "flow_type": "opex",
+      "label": "後工程委託費(パッケージング・テスト)",
+      "amount_note": "先端パッケージ(CoWoS等)が供給制約になるほど需要逼迫",
+      "sources": [
+        {
+          "url": "https://www.aseglobal.com/",
+          "publisher": "ASE",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_osat_fabless",
+      "from": "osat",
+      "to": "fabless",
+      "flow_type": "goods",
+      "label": "完成チップの納品",
+      "sources": [
+        {
+          "url": "https://www.aseglobal.com/",
+          "publisher": "ASE",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_osat_substrate",
+      "from": "osat",
+      "to": "substrate",
+      "flow_type": "opex",
+      "label": "パッケージ基板の仕入",
+      "sources": [
+        {
+          "url": "https://www.ibiden.co.jp/",
+          "publisher": "イビデン",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_substrate_osat",
+      "from": "substrate",
+      "to": "osat",
+      "flow_type": "goods",
+      "label": "パッケージ基板の供給",
+      "sources": [
+        {
+          "url": "https://www.shinko.co.jp/",
+          "publisher": "新光電気工業",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_customer_fabless",
+      "from": "device_customer",
+      "to": "fabless",
+      "flow_type": "opex",
+      "label": "半導体の直接購入(大口)",
+      "sources": [
+        {
+          "url": "https://www.nvidia.com/ja-jp/",
+          "publisher": "NVIDIA",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_customer_trading",
+      "from": "device_customer",
+      "to": "trading",
+      "flow_type": "opex",
+      "label": "半導体の購入(商社経由)",
+      "sources": [
+        {
+          "url": "https://www.macnica.co.jp/",
+          "publisher": "マクニカ",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_trading_customer",
+      "from": "trading",
+      "to": "device_customer",
+      "flow_type": "goods",
+      "label": "半導体の供給・技術サポート",
+      "sources": [
+        {
+          "url": "https://www.macnica.co.jp/",
+          "publisher": "マクニカ",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_trading_idm",
+      "from": "trading",
+      "to": "idm",
+      "flow_type": "opex",
+      "label": "半導体の仕入",
+      "sources": [
+        {
+          "url": "https://www.restargp.com/",
+          "publisher": "レスターホールディングス",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_idm_trading",
+      "from": "idm",
+      "to": "trading",
+      "flow_type": "goods",
+      "label": "半導体製品の供給",
+      "sources": [
+        {
+          "url": "https://www.renesas.com/ja",
+          "publisher": "ルネサス エレクトロニクス",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_gov_foundry",
+      "from": "gov",
+      "to": "foundry",
+      "flow_type": "capex",
+      "label": "設備投資補助・研究開発委託(5G促進法・NEDO)",
+      "amount_note": "JASM・ラピダスに対し累計数兆円規模の公的支援が公表されている",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/",
+          "publisher": "経済産業省",
+          "note": "助成決定・供給確保計画認定の該当ページへ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_gov_idm",
+      "from": "gov",
+      "to": "idm",
+      "flow_type": "capex",
+      "label": "設備投資補助(メモリ・パワー半導体等)",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/",
+          "publisher": "経済産業省",
+          "note": "個別認定の該当ページへ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_bank_foundry",
+      "from": "bank_investor",
+      "to": "foundry",
+      "flow_type": "capex",
+      "label": "出資・融資(ラピダスへの民間出資等)",
+      "sources": [
+        {
+          "url": "https://www.rapidus.inc/",
+          "publisher": "ラピダス",
+          "note": "設立時出資の公知情報"
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ]
+}

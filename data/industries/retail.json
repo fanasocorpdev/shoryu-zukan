@@ -1,0 +1,872 @@
+{
+  "$schema": "../schema.json",
+  "meta": {
+    "industry_id": "retail",
+    "industry_name": "小売",
+    "version": "0.1.0",
+    "updated": "2026-07-23",
+    "description": "小売業界の商流。この地図だけは消費者が中心。周囲にGMS・百貨店・専門店・ECの各業態を置き、仕入・テナント賃料・決済手数料・宅配という裏側の金流を描く。",
+    "tagline": "レジの向こう側 — 仕入・賃料・決済手数料・宅配網の攻防",
+    "editorial_note": "v1は公開情報ベース。小売の「売上」は営業収益ベースの概算。業態区分は代表的な括りで、実際は1社が複数業態を持つ。IR確定値へ差し替え前提。"
+  },
+  "layers": [
+    {
+      "id": "consumer",
+      "label": "消費者",
+      "order": 1,
+      "icon": "🧑",
+      "description": "この地図の中心。全業態にカネを払う"
+    },
+    {
+      "id": "store",
+      "label": "小売業態",
+      "order": 2,
+      "icon": "🏬",
+      "description": "GMS・百貨店・コンビニ・専門店・EC"
+    },
+    {
+      "id": "supply",
+      "label": "卸・メーカー",
+      "order": 3,
+      "icon": "🏭",
+      "description": "商品の供給元"
+    },
+    {
+      "id": "infra",
+      "label": "商業インフラ",
+      "order": 4,
+      "icon": "🏢",
+      "description": "商業施設・決済・物流"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "consumer",
+      "role": "消費者",
+      "layer": "consumer",
+      "description": "個人消費は日本のGDPの過半を占める約300兆円。その入口の多くが小売のレジとECの決済画面。",
+      "map": {
+        "ring": 0,
+        "angle": 0
+      },
+      "companies": [],
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/syoudou/",
+          "publisher": "経済産業省 商業動態統計",
+          "note": "市場規模の出典"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "gms_super",
+      "role": "総合スーパー・食品スーパー",
+      "layer": "store",
+      "description": "食品を軸にした最大業態。イオンとセブン&アイの2大グループが軸。",
+      "map": {
+        "ring": 1,
+        "angle": 0
+      },
+      "companies": [
+        {
+          "name": "イオン",
+          "url": "https://www.aeon.info/",
+          "hq": "千葉市美浜区",
+          "employees": 570000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8267"
+          },
+          "financials": {
+            "revenue_oku_jpy": 98000,
+            "market_cap_oku_jpy": 30000,
+            "as_of": "2025",
+            "note": "営業収益ベース・概算"
+          }
+        },
+        {
+          "name": "セブン&アイ・ホールディングス",
+          "url": "https://www.7andi.com/",
+          "hq": "東京都千代田区",
+          "employees": 150000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "3382"
+          },
+          "financials": {
+            "revenue_oku_jpy": 110000,
+            "market_cap_oku_jpy": 60000,
+            "as_of": "2025",
+            "note": "概算。コンビニ中心へ事業再編中"
+          }
+        },
+        {
+          "name": "ライフコーポレーション",
+          "url": "https://www.lifecorp.jp/",
+          "hq": "大阪市淀川区",
+          "employees": 60000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8194"
+          },
+          "financials": {
+            "revenue_oku_jpy": 8000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "ヤオコー",
+          "url": "https://www.yaoko-net.com/",
+          "hq": "埼玉県川越市",
+          "employees": 20000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8279"
+          },
+          "financials": {
+            "revenue_oku_jpy": 6000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "トライアルホールディングス",
+          "url": "https://www.trial-holdings.inc/",
+          "hq": "福岡市東区",
+          "listing": {
+            "market": "東証グロース",
+            "code": "141A"
+          },
+          "financials": {
+            "revenue_oku_jpy": 7000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "department",
+      "role": "百貨店",
+      "layer": "store",
+      "description": "インバウンドと富裕層で復活した都心型業態。消化仕入(売れた分だけ仕入計上)という独特の商流を持つ。",
+      "map": {
+        "ring": 1,
+        "angle": 50
+      },
+      "companies": [
+        {
+          "name": "三越伊勢丹ホールディングス",
+          "url": "https://www.imhds.co.jp/",
+          "hq": "東京都新宿区",
+          "employees": 20000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "3099"
+          },
+          "financials": {
+            "revenue_oku_jpy": 5500,
+            "market_cap_oku_jpy": 15000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "高島屋",
+          "url": "https://www.takashimaya.co.jp/",
+          "hq": "大阪市中央区",
+          "employees": 15000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8233"
+          },
+          "financials": {
+            "revenue_oku_jpy": 5000,
+            "market_cap_oku_jpy": 8000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "エイチ・ツー・オー リテイリング(阪急阪神百貨店)",
+          "url": "https://www.h2o-retailing.co.jp/",
+          "hq": "大阪市北区",
+          "employees": 15000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8242"
+          },
+          "financials": {
+            "revenue_oku_jpy": 7000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "cvs",
+      "role": "コンビニエンスストア",
+      "layer": "store",
+      "related_industry": "convenience_store",
+      "description": "詳細な商流(ロイヤリティ・専用工場・共同配送)は専用マップへ。",
+      "map": {
+        "ring": 1,
+        "angle": 100
+      },
+      "companies": [
+        {
+          "name": "セブン‐イレブン・ジャパン",
+          "url": "https://www.sej.co.jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "非上場(セブン&アイHD傘下)"
+          }
+        },
+        {
+          "name": "ファミリーマート",
+          "url": "https://www.family.co.jp/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "非上場(伊藤忠商事傘下)"
+          }
+        },
+        {
+          "name": "ローソン",
+          "url": "https://www.lawson.co.jp/",
+          "hq": "東京都品川区",
+          "listing": {
+            "market": "非上場(三菱商事・KDDI傘下)"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "specialty",
+      "role": "専門店・SPA",
+      "layer": "store",
+      "description": "企画から販売まで一気通貫(SPA)で粗利を取り込む勝ち組業態。ユニクロ・ニトリ・ドンキが代表。",
+      "map": {
+        "ring": 1,
+        "angle": 310
+      },
+      "companies": [
+        {
+          "name": "ファーストリテイリング",
+          "url": "https://www.fastretailing.com/jp/",
+          "hq": "山口市",
+          "employees": 60000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "9983"
+          },
+          "financials": {
+            "revenue_oku_jpy": 31000,
+            "market_cap_oku_jpy": 130000,
+            "as_of": "2025",
+            "note": "概算。小売時価総額で国内首位級"
+          }
+        },
+        {
+          "name": "ニトリホールディングス",
+          "url": "https://www.nitorihd.co.jp/",
+          "hq": "札幌市北区",
+          "employees": 40000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "9843"
+          },
+          "financials": {
+            "revenue_oku_jpy": 9500,
+            "market_cap_oku_jpy": 20000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "パン・パシフィック・インターナショナルHD(ドン・キホーテ)",
+          "url": "https://ppih.co.jp/",
+          "hq": "東京都目黒区",
+          "employees": 90000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7532"
+          },
+          "financials": {
+            "revenue_oku_jpy": 21000,
+            "market_cap_oku_jpy": 25000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "良品計画",
+          "url": "https://www.ryohin-keikaku.jp/",
+          "hq": "東京都豊島区",
+          "employees": 20000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7453"
+          },
+          "financials": {
+            "revenue_oku_jpy": 7000,
+            "market_cap_oku_jpy": 15000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "ヤマダホールディングス",
+          "url": "https://www.yamada-holdings.jp/",
+          "hq": "群馬県高崎市",
+          "employees": 20000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "9831"
+          },
+          "financials": {
+            "revenue_oku_jpy": 16000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "ec",
+      "role": "ECプラットフォーム",
+      "layer": "store",
+      "description": "物販EC化率は1割超で拡大中。出店者から手数料を取るモール型と直販型が併存。",
+      "map": {
+        "ring": 1,
+        "angle": 260
+      },
+      "companies": [
+        {
+          "name": "Amazon(日本事業)",
+          "url": "https://www.amazon.co.jp/",
+          "hq": "東京都目黒区(日本法人)",
+          "listing": {
+            "market": "NASDAQ(Amazon.com)"
+          }
+        },
+        {
+          "name": "楽天グループ",
+          "url": "https://corp.rakuten.co.jp/",
+          "hq": "東京都世田谷区",
+          "employees": 30000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "4755"
+          },
+          "financials": {
+            "revenue_oku_jpy": 22000,
+            "market_cap_oku_jpy": 20000,
+            "as_of": "2025",
+            "note": "概算。モバイル・金融を含む連結"
+          }
+        },
+        {
+          "name": "ZOZO",
+          "url": "https://corp.zozo.com/",
+          "hq": "千葉市",
+          "employees": 1700,
+          "listing": {
+            "market": "東証プライム",
+            "code": "3092"
+          },
+          "financials": {
+            "revenue_oku_jpy": 2000,
+            "market_cap_oku_jpy": 15000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "メルカリ",
+          "url": "https://about.mercari.com/",
+          "hq": "東京都港区",
+          "employees": 2000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "4385"
+          },
+          "financials": {
+            "revenue_oku_jpy": 1800,
+            "market_cap_oku_jpy": 4000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "wholesale_maker",
+      "role": "卸・消費財メーカー",
+      "layer": "supply",
+      "description": "小売の棚を埋める供給側。PB(プライベートブランド)の受託製造も拡大。",
+      "map": {
+        "ring": 1,
+        "angle": 180
+      },
+      "companies": [
+        {
+          "name": "花王",
+          "url": "https://www.kao.com/jp/",
+          "hq": "東京都中央区",
+          "employees": 33000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "4452"
+          },
+          "financials": {
+            "revenue_oku_jpy": 16000,
+            "market_cap_oku_jpy": 30000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "三菱食品",
+          "url": "https://www.mitsubishi-shokuhin.com/",
+          "hq": "東京都文京区",
+          "employees": 4000,
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7451"
+          },
+          "financials": {
+            "revenue_oku_jpy": 20000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "国分グループ本社",
+          "url": "https://www.kokubu.co.jp/",
+          "hq": "東京都中央区",
+          "employees": 5000,
+          "listing": {
+            "market": "非上場"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "sc_developer",
+      "role": "商業施設・SCデベロッパー",
+      "layer": "infra",
+      "description": "モール・駅ビルの大家。テナント賃料(売上歩合を含む)が収益。",
+      "map": {
+        "ring": 2,
+        "angle": 145
+      },
+      "companies": [
+        {
+          "name": "イオンモール",
+          "url": "https://www.aeonmall.com/",
+          "hq": "千葉市美浜区",
+          "employees": 5000,
+          "listing": {
+            "market": "東証プライム(イオン傘下)",
+            "code": "8905"
+          },
+          "financials": {
+            "revenue_oku_jpy": 4500,
+            "market_cap_oku_jpy": 8000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "三井不動産(ららぽーと)",
+          "url": "https://www.mitsuifudosan.co.jp/",
+          "hq": "東京都中央区",
+          "employees": 20000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8801"
+          },
+          "financials": {
+            "revenue_oku_jpy": 25000,
+            "market_cap_oku_jpy": 40000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "ルミネ",
+          "url": "https://www.lumine.ne.jp/",
+          "hq": "東京都渋谷区",
+          "listing": {
+            "market": "非上場(JR東日本傘下)"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "payment",
+      "role": "決済・カード会社",
+      "layer": "infra",
+      "description": "キャッシュレス化の受益者。小売から加盟店手数料を取る、見えにくいが確実な金流。",
+      "map": {
+        "ring": 2,
+        "angle": 215
+      },
+      "companies": [
+        {
+          "name": "三井住友カード",
+          "url": "https://www.smbc-card.com/",
+          "hq": "東京都江東区",
+          "listing": {
+            "market": "非上場(SMFG傘下)"
+          }
+        },
+        {
+          "name": "JCB",
+          "url": "https://www.global.jcb/ja/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "非上場"
+          }
+        },
+        {
+          "name": "楽天カード",
+          "url": "https://www.rakuten-card.co.jp/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "非上場(楽天グループ傘下)"
+          }
+        },
+        {
+          "name": "PayPay",
+          "url": "https://paypay.ne.jp/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "非上場(ソフトバンク系)"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "last_mile",
+      "role": "宅配・ラストマイル物流",
+      "layer": "infra",
+      "description": "EC拡大の実働部隊。ドライバー不足(2024年問題)が業界全体の制約に。",
+      "map": {
+        "ring": 2,
+        "angle": 245
+      },
+      "companies": [
+        {
+          "name": "ヤマトホールディングス",
+          "url": "https://www.yamato-hd.co.jp/",
+          "hq": "東京都中央区",
+          "employees": 210000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "9064"
+          },
+          "financials": {
+            "revenue_oku_jpy": 18000,
+            "market_cap_oku_jpy": 8000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "SGホールディングス(佐川急便)",
+          "url": "https://www.sg-hldgs.co.jp/",
+          "hq": "京都市南区",
+          "employees": 90000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "9143"
+          },
+          "financials": {
+            "revenue_oku_jpy": 14000,
+            "market_cap_oku_jpy": 9000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "日本郵便",
+          "url": "https://www.post.japanpost.jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "非上場(日本郵政傘下)",
+            "code": "6178"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ],
+  "edges": [
+    {
+      "id": "opex_consumer_gms",
+      "from": "consumer",
+      "to": "gms_super",
+      "flow_type": "opex",
+      "label": "食品・日用品の購入代金",
+      "amount_note": "食品スーパー・GMSは小売販売額の最大セグメント",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/syoudou/",
+          "publisher": "経済産業省 商業動態統計",
+          "note": "統計へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_gms_consumer",
+      "from": "gms_super",
+      "to": "consumer",
+      "flow_type": "goods",
+      "label": "食品・日用品の販売",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/syoudou/",
+          "publisher": "経済産業省 商業動態統計"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_consumer_department",
+      "from": "consumer",
+      "to": "department",
+      "flow_type": "opex",
+      "label": "高額品・ギフトの購入代金",
+      "note": "インバウンド免税売上も含む",
+      "sources": [
+        {
+          "url": "https://www.depart.or.jp/",
+          "publisher": "日本百貨店協会",
+          "note": "統計へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_consumer_cvs",
+      "from": "consumer",
+      "to": "cvs",
+      "flow_type": "opex",
+      "label": "コンビニでの購入代金",
+      "sources": [
+        {
+          "url": "https://www.jfa-fc.or.jp/",
+          "publisher": "日本フランチャイズチェーン協会"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_consumer_specialty",
+      "from": "consumer",
+      "to": "specialty",
+      "flow_type": "opex",
+      "label": "衣料・家具・家電の購入代金",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/syoudou/",
+          "publisher": "経済産業省 商業動態統計"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_consumer_ec",
+      "from": "consumer",
+      "to": "ec",
+      "flow_type": "opex",
+      "label": "EC購入代金",
+      "amount_note": "物販EC市場は約15兆円・EC化率1割超で拡大中",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/policy/it_policy/statistics/outlook/ie_outlook.html",
+          "publisher": "経済産業省 電子商取引実態調査",
+          "note": "最新版へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_ec_consumer",
+      "from": "ec",
+      "to": "consumer",
+      "flow_type": "goods",
+      "label": "EC販売・マーケットプレイス",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/policy/it_policy/statistics/outlook/ie_outlook.html",
+          "publisher": "経済産業省 電子商取引実態調査"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_gms_wholesale",
+      "from": "gms_super",
+      "to": "wholesale_maker",
+      "flow_type": "opex",
+      "label": "商品仕入代金(帳合)",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/syoudou/",
+          "publisher": "経済産業省 商業動態統計",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_wholesale_gms",
+      "from": "wholesale_maker",
+      "to": "gms_super",
+      "flow_type": "goods",
+      "label": "商品供給・PB受託製造",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/syoudou/",
+          "publisher": "経済産業省 商業動態統計",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_department_wholesale",
+      "from": "department",
+      "to": "wholesale_maker",
+      "flow_type": "opex",
+      "label": "消化仕入(売上計上時に仕入計上)",
+      "note": "在庫リスクを納入側が持つ百貨店特有の商流",
+      "sources": [
+        {
+          "url": "https://www.depart.or.jp/",
+          "publisher": "日本百貨店協会",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_specialty_sc",
+      "from": "specialty",
+      "to": "sc_developer",
+      "flow_type": "opex",
+      "label": "テナント賃料(固定+売上歩合)",
+      "sources": [
+        {
+          "url": "https://www.aeonmall.com/",
+          "publisher": "イオンモール",
+          "note": "IRの賃料構造説明へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_sc_specialty",
+      "from": "sc_developer",
+      "to": "specialty",
+      "flow_type": "goods",
+      "label": "売場・集客の提供",
+      "sources": [
+        {
+          "url": "https://www.aeonmall.com/",
+          "publisher": "イオンモール",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_gms_payment",
+      "from": "gms_super",
+      "to": "payment",
+      "flow_type": "opex",
+      "label": "加盟店手数料(キャッシュレス決済)",
+      "amount_note": "決済額の1〜3%程度が小売から決済側へ流れる",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/policy/mono_info_service/cashless/",
+          "publisher": "経済産業省 キャッシュレス関連資料",
+          "note": "差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_ec_payment",
+      "from": "ec",
+      "to": "payment",
+      "flow_type": "opex",
+      "label": "決済手数料",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/policy/mono_info_service/cashless/",
+          "publisher": "経済産業省 キャッシュレス関連資料"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_payment_consumer",
+      "from": "payment",
+      "to": "consumer",
+      "flow_type": "goods",
+      "label": "決済手段・ポイントの提供",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/policy/mono_info_service/cashless/",
+          "publisher": "経済産業省 キャッシュレス関連資料"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_ec_lastmile",
+      "from": "ec",
+      "to": "last_mile",
+      "flow_type": "opex",
+      "label": "配送委託費",
+      "amount_note": "宅配便は年間50億個規模。単価引き上げが続く",
+      "sources": [
+        {
+          "url": "https://www.mlit.go.jp/",
+          "publisher": "国土交通省 宅配便取扱実績",
+          "note": "統計へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_lastmile_consumer",
+      "from": "last_mile",
+      "to": "consumer",
+      "flow_type": "goods",
+      "label": "宅配・置き配",
+      "sources": [
+        {
+          "url": "https://www.mlit.go.jp/",
+          "publisher": "国土交通省"
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ]
+}

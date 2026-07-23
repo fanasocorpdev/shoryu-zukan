@@ -1,0 +1,16 @@
+{
+  "name": "new-business-map",
+  "version": "1.0.0",
+  "description": "業界別の商流(モノ・サービスとカネの流れ)をインタラクティブな地図型UIで可視化するWebサービス。 運営: 株式会社Fanaso。プロジェクト方針は [CLAUDE.md](CLAUDE.md) を参照。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}

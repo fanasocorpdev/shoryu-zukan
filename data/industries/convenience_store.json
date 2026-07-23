@@ -1,0 +1,872 @@
+{
+  "$schema": "../schema.json",
+  "meta": {
+    "industry_id": "convenience_store",
+    "industry_name": "コンビニエンスストア",
+    "version": "0.1.0",
+    "updated": "2026-07-23",
+    "description": "コンビニ業界の商流。中央の加盟店(店舗)を起点に、本部・専用工場・卸・物流・商社・金融・不動産のカネとモノの流れを地図化する。フランチャイズのロイヤリティ(粗利分配)が最大の特徴。",
+    "tagline": "1日1,000人が通る店の裏側 — ロイヤリティと専用工場の物流網",
+    "editorial_note": "v1は公開情報ベースの業界構造。ロイヤリティの仕組みは各チェーンの加盟店募集ページ(公開情報)を出典とする。料率は契約タイプで大きく異なるため規模表現にとどめる。"
+  },
+  "layers": [
+    {
+      "id": "consumer",
+      "label": "消費者",
+      "order": 1,
+      "icon": "🧑",
+      "description": "1店舗あたり1日数百〜1,000人規模の来店客"
+    },
+    {
+      "id": "store",
+      "label": "加盟店(店舗)",
+      "order": 2,
+      "icon": "🏯",
+      "description": "フランチャイズオーナーが運営する店舗。地図の中心"
+    },
+    {
+      "id": "hq",
+      "label": "チェーン本部",
+      "order": 3,
+      "icon": "🏢",
+      "description": "商標・システム・商品開発・物流網を提供する本部"
+    },
+    {
+      "id": "manufacturing",
+      "label": "製造(専用工場・メーカー)",
+      "order": 4,
+      "icon": "🏭",
+      "description": "中食専用工場とナショナルブランドメーカー"
+    },
+    {
+      "id": "wholesale_logistics",
+      "label": "卸・物流",
+      "order": 5,
+      "icon": "🚚",
+      "description": "帳合卸と共同配送センター"
+    },
+    {
+      "id": "services",
+      "label": "金融・設備・広告",
+      "order": 6,
+      "icon": "🏧",
+      "description": "ATM網・店舗設備・リテールメディア"
+    },
+    {
+      "id": "realestate",
+      "label": "不動産",
+      "order": 7,
+      "icon": "🗻",
+      "description": "店舗物件のオーナー・地主"
+    },
+    {
+      "id": "capital",
+      "label": "資本(商社)",
+      "order": 8,
+      "icon": "💰",
+      "description": "チェーン本部に出資する総合商社"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "store",
+      "role": "加盟店(フランチャイズ店舗)",
+      "layer": "store",
+      "description": "オーナーが本部と契約して運営する店舗。売上の粗利を本部と分配するのがこの業界の金流の核心。",
+      "map": {
+        "ring": 0,
+        "angle": 0
+      },
+      "companies": [],
+      "note": "全国5万店超。個人・法人オーナーの実名は自己登録ベースで拡充予定",
+      "sources": [
+        {
+          "url": "https://www.jfa-fc.or.jp/",
+          "publisher": "日本フランチャイズチェーン協会",
+          "note": "統計(店舗数・売上)の出典"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "consumer",
+      "role": "消費者",
+      "layer": "consumer",
+      "description": "日々の買い物客。決済・ATM・公共料金収納などサービス利用者でもある。",
+      "map": {
+        "ring": 1,
+        "angle": 0
+      },
+      "companies": [],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "hq",
+      "role": "チェーン本部",
+      "layer": "hq",
+      "description": "商標・経営指導・商品開発・情報システム・物流網を提供し、対価として加盟店から粗利分配を受け取る。",
+      "map": {
+        "ring": 1,
+        "angle": 300
+      },
+      "companies": [
+        {
+          "name": "セブン‐イレブン・ジャパン",
+          "url": "https://www.sej.co.jp/",
+          "financials": {
+            "as_of": "2025",
+            "note": "非上場(セブン&アイHD傘下)。チェーン全店売上は約5兆円規模"
+          },
+          "hq": "東京都千代田区",
+          "employees": 9000,
+          "listing": {
+            "market": "非上場(セブン&アイ・ホールディングス傘下)",
+            "code": "3382"
+          }
+        },
+        {
+          "name": "ファミリーマート",
+          "url": "https://www.family.co.jp/",
+          "financials": {
+            "as_of": "2025",
+            "note": "非上場(伊藤忠商事傘下)。チェーン全店売上は約3兆円規模"
+          },
+          "hq": "東京都港区",
+          "employees": 7000,
+          "listing": {
+            "market": "非上場(伊藤忠商事傘下)"
+          }
+        },
+        {
+          "name": "ローソン",
+          "url": "https://www.lawson.co.jp/",
+          "financials": {
+            "as_of": "2025",
+            "note": "非上場(三菱商事・KDDI傘下)。チェーン全店売上は約2.9兆円規模"
+          },
+          "hq": "東京都品川区",
+          "employees": 10000,
+          "listing": {
+            "market": "非上場(三菱商事・KDDI傘下)"
+          }
+        },
+        {
+          "name": "ミニストップ",
+          "url": "https://www.ministop.co.jp/",
+          "hq": "千葉市美浜区",
+          "employees": 2000,
+          "listing": {
+            "market": "東証プライム(イオン傘下)",
+            "code": "9946"
+          }
+        },
+        {
+          "name": "セコマ",
+          "url": "https://www.seicomart.co.jp/",
+          "hq": "札幌市中央区",
+          "employees": 4000,
+          "listing": {
+            "market": "非上場"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "food_vendor",
+      "role": "専用工場・中食ベンダー",
+      "layer": "manufacturing",
+      "description": "弁当・おにぎり・惣菜・サンドイッチをチェーン専用に製造。1日複数便の多頻度納品体制。",
+      "map": {
+        "ring": 1,
+        "angle": 180
+      },
+      "companies": [
+        {
+          "name": "わらべや日洋",
+          "url": "https://www.warabeya.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 2000,
+            "as_of": "2025",
+            "note": "わらべや日洋ホールディングス連結・概算"
+          },
+          "hq": "東京都小平市",
+          "employees": 4000,
+          "listing": {
+            "market": "東証プライム(わらべや日洋ホールディングス)",
+            "code": "2918"
+          }
+        },
+        {
+          "name": "プライムデリカ",
+          "hq": "相模原市中央区",
+          "employees": 3000,
+          "listing": {
+            "market": "非上場(プリマハムグループ)"
+          }
+        },
+        {
+          "name": "武蔵野ホールディングス",
+          "url": "https://www.musashino-group.co.jp/",
+          "hq": "埼玉県朝霞市",
+          "employees": 3000,
+          "listing": {
+            "market": "非上場"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "nb_maker",
+      "role": "食品・飲料メーカー(NB)",
+      "layer": "manufacturing",
+      "description": "ナショナルブランド商品の供給元。PB(プライベートブランド)の受託製造も担う。",
+      "map": {
+        "ring": 2,
+        "angle": 160
+      },
+      "companies": [
+        {
+          "name": "山崎製パン",
+          "url": "https://www.yamazakipan.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 12000,
+            "market_cap_oku_jpy": 7000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "東京都千代田区",
+          "employees": 30000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "2212"
+          }
+        },
+        {
+          "name": "日清食品",
+          "url": "https://www.nissin.com/jp/",
+          "financials": {
+            "revenue_oku_jpy": 7700,
+            "market_cap_oku_jpy": 10000,
+            "as_of": "2025",
+            "note": "日清食品ホールディングス連結・概算"
+          },
+          "hq": "大阪市淀川区",
+          "employees": 17000,
+          "listing": {
+            "market": "東証プライム(日清食品ホールディングス)",
+            "code": "2897"
+          }
+        },
+        {
+          "name": "サントリー",
+          "url": "https://www.suntory.co.jp/",
+          "hq": "大阪市北区",
+          "employees": 40000,
+          "listing": {
+            "market": "非上場(サントリーホールディングス)"
+          }
+        },
+        {
+          "name": "アサヒ飲料",
+          "url": "https://www.asahiinryo.co.jp/",
+          "hq": "東京都墨田区",
+          "employees": 3000,
+          "listing": {
+            "market": "非上場(アサヒグループHD傘下)"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "wholesale",
+      "role": "卸売(帳合卸)",
+      "layer": "wholesale_logistics",
+      "description": "メーカーとチェーンの間で商流・決済を束ねる食品卸。",
+      "map": {
+        "ring": 1,
+        "angle": 210
+      },
+      "companies": [
+        {
+          "name": "三菱食品",
+          "url": "https://www.mitsubishi-shokuhin.com/",
+          "financials": {
+            "revenue_oku_jpy": 20000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "東京都文京区",
+          "employees": 4000,
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7451"
+          }
+        },
+        {
+          "name": "日本アクセス",
+          "url": "https://www.nippon-access.co.jp/",
+          "hq": "東京都品川区",
+          "employees": 4000,
+          "listing": {
+            "market": "非上場(伊藤忠商事傘下)"
+          }
+        },
+        {
+          "name": "国分グループ本社",
+          "url": "https://www.kokubu.co.jp/",
+          "hq": "東京都中央区",
+          "employees": 5000,
+          "listing": {
+            "market": "非上場"
+          }
+        },
+        {
+          "name": "伊藤忠食品",
+          "url": "https://www.itochu-shokuhin.com/",
+          "hq": "大阪市中央区",
+          "employees": 1000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "2692"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "logistics",
+      "role": "共同配送センター・物流会社",
+      "layer": "wholesale_logistics",
+      "description": "温度帯別の共同配送センターから1日複数便で店舗へ配送。チェーン専用物流網の運営受託。",
+      "map": {
+        "ring": 2,
+        "angle": 230
+      },
+      "companies": [
+        {
+          "name": "丸和運輸機関",
+          "url": "https://www.momotaro.co.jp/",
+          "hq": "埼玉県吉川市",
+          "employees": 5000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "9090"
+          }
+        },
+        {
+          "name": "各チェーンの共同配送センター運営会社"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "bank_atm",
+      "role": "金融サービス(ATM・銀行)",
+      "layer": "services",
+      "description": "店内ATM網。提携金融機関からの受入手数料が収益源で、チェーンの重要な収益多角化。",
+      "map": {
+        "ring": 2,
+        "angle": 270
+      },
+      "companies": [
+        {
+          "name": "セブン銀行",
+          "url": "https://www.sevenbank.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 2000,
+            "market_cap_oku_jpy": 3500,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "東京都千代田区",
+          "employees": 1000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8410"
+          }
+        },
+        {
+          "name": "ローソン銀行",
+          "url": "https://www.lawsonbank.jp/",
+          "hq": "東京都品川区",
+          "employees": 400,
+          "listing": {
+            "market": "非上場(ローソン傘下)"
+          }
+        },
+        {
+          "name": "イーネット",
+          "url": "https://www.enetcom.co.jp/",
+          "hq": "東京都中央区",
+          "employees": 100,
+          "listing": {
+            "market": "非上場"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "equipment_vendor",
+      "role": "店舗設備・什器メーカー",
+      "layer": "services",
+      "description": "レジ(POS)・冷蔵冷凍ケース・フライヤー・コーヒーマシンなど店舗設備の供給。",
+      "map": {
+        "ring": 2,
+        "angle": 90
+      },
+      "companies": [
+        {
+          "name": "東芝テック",
+          "url": "https://www.toshibatec.co.jp/",
+          "hq": "東京都品川区",
+          "employees": 18000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6588"
+          }
+        },
+        {
+          "name": "富士電機",
+          "url": "https://www.fujielectric.co.jp/",
+          "hq": "東京都品川区",
+          "employees": 28000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6504"
+          }
+        },
+        {
+          "name": "ホシザキ",
+          "url": "https://www.hoshizaki.co.jp/",
+          "hq": "愛知県豊明市",
+          "employees": 17000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6465"
+          }
+        },
+        {
+          "name": "パナソニック",
+          "url": "https://www.panasonic.com/jp/",
+          "hq": "大阪府門真市",
+          "employees": 230000,
+          "listing": {
+            "market": "東証プライム(パナソニックホールディングス)",
+            "code": "6752"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "advertiser",
+      "role": "広告主(リテールメディア)",
+      "layer": "services",
+      "description": "店頭サイネージ・アプリ・購買データを使った広告出稿。チェーンの新しい収益源。",
+      "map": {
+        "ring": 2,
+        "angle": 30
+      },
+      "companies": [],
+      "note": "食品・日用品メーカーが中心。実名は自己登録ベースで拡充予定",
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "realestate_owner",
+      "role": "不動産オーナー・地主",
+      "layer": "realestate",
+      "description": "店舗物件の貸主。本部が一括で借りて加盟店に転貸する契約型が主流。",
+      "map": {
+        "ring": 1,
+        "angle": 120
+      },
+      "companies": [],
+      "note": "個人・法人地主。実名掲載なし",
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "trading_co",
+      "role": "総合商社(本部への出資)",
+      "layer": "capital",
+      "description": "チェーン本部の大株主として原料調達・海外展開・DXを支える。",
+      "map": {
+        "ring": 2,
+        "angle": 330
+      },
+      "companies": [
+        {
+          "name": "三菱商事(ローソン)",
+          "url": "https://www.mitsubishicorp.com/jp/ja/",
+          "financials": {
+            "revenue_oku_jpy": 180000,
+            "market_cap_oku_jpy": 120000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "東京都千代田区",
+          "employees": 80000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8058"
+          }
+        },
+        {
+          "name": "伊藤忠商事(ファミリーマート)",
+          "url": "https://www.itochu.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 145000,
+            "market_cap_oku_jpy": 120000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "東京都港区",
+          "employees": 110000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8001"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ],
+  "edges": [
+    {
+      "id": "opex_consumer_store",
+      "from": "consumer",
+      "to": "store",
+      "flow_type": "opex",
+      "label": "商品購入代金・サービス利用料",
+      "amount_note": "1店舗の平均日販は数十万円規模(チェーンにより差)",
+      "sources": [
+        {
+          "url": "https://www.jfa-fc.or.jp/",
+          "publisher": "日本フランチャイズチェーン協会",
+          "note": "統計データの該当ページへ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_store_consumer",
+      "from": "store",
+      "to": "consumer",
+      "flow_type": "goods",
+      "label": "商品・サービスの提供(物販・収納代行・受取拠点)",
+      "sources": [
+        {
+          "url": "https://www.jfa-fc.or.jp/",
+          "publisher": "日本フランチャイズチェーン協会"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_store_hq",
+      "from": "store",
+      "to": "hq",
+      "flow_type": "opex",
+      "label": "ロイヤリティ(粗利分配方式)",
+      "amount_note": "売上総利益の数十%。土地建物を本部が用意する契約型ほど料率が高い",
+      "sources": [
+        {
+          "url": "https://www.sej.co.jp/",
+          "publisher": "各チェーン加盟店募集ページ",
+          "note": "公開されている契約タイプ別料率へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_hq_store",
+      "from": "hq",
+      "to": "store",
+      "flow_type": "goods",
+      "label": "商標・経営指導・情報システム・物流網の提供",
+      "sources": [
+        {
+          "url": "https://www.sej.co.jp/",
+          "publisher": "各チェーン加盟店募集ページ"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_hq_store",
+      "from": "hq",
+      "to": "store",
+      "flow_type": "capex",
+      "label": "出店投資(本部が土地・建物・設備を用意する契約型)",
+      "sources": [
+        {
+          "url": "https://www.sej.co.jp/",
+          "publisher": "各チェーン加盟店募集ページ",
+          "note": "契約タイプの公開情報"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_hq_food_vendor",
+      "from": "hq",
+      "to": "food_vendor",
+      "flow_type": "opex",
+      "label": "オリジナル商品(中食)の製造委託費",
+      "amount_note": "中食はコンビニ売上の3割前後を占める主力カテゴリ",
+      "sources": [
+        {
+          "url": "https://www.warabeya.co.jp/",
+          "publisher": "わらべや日洋",
+          "note": "有報のセグメント情報へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_food_vendor_logistics",
+      "from": "food_vendor",
+      "to": "logistics",
+      "flow_type": "goods",
+      "label": "専用工場から共同配送センターへの納品",
+      "sources": [
+        {
+          "url": "https://www.warabeya.co.jp/",
+          "publisher": "わらべや日洋",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_hq_wholesale",
+      "from": "hq",
+      "to": "wholesale",
+      "flow_type": "opex",
+      "label": "NB商品の仕入代金(帳合)",
+      "sources": [
+        {
+          "url": "https://www.mitsubishi-shokuhin.com/",
+          "publisher": "三菱食品",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_wholesale_nb",
+      "from": "wholesale",
+      "to": "nb_maker",
+      "flow_type": "opex",
+      "label": "商品の仕入",
+      "sources": [
+        {
+          "url": "https://www.mitsubishi-shokuhin.com/",
+          "publisher": "三菱食品",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_nb_wholesale",
+      "from": "nb_maker",
+      "to": "wholesale",
+      "flow_type": "goods",
+      "label": "NB商品の供給",
+      "sources": [
+        {
+          "url": "https://www.yamazakipan.co.jp/",
+          "publisher": "山崎製パン",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_wholesale_logistics",
+      "from": "wholesale",
+      "to": "logistics",
+      "flow_type": "goods",
+      "label": "共同配送センターへの納品",
+      "sources": [
+        {
+          "url": "https://www.nippon-access.co.jp/",
+          "publisher": "日本アクセス",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_logistics_store",
+      "from": "logistics",
+      "to": "store",
+      "flow_type": "goods",
+      "label": "温度帯別・1日複数便の店舗配送",
+      "sources": [
+        {
+          "url": "https://www.momotaro.co.jp/",
+          "publisher": "丸和運輸機関",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_hq_logistics",
+      "from": "hq",
+      "to": "logistics",
+      "flow_type": "opex",
+      "label": "物流委託費(共同配送網の運営)",
+      "sources": [
+        {
+          "url": "https://www.momotaro.co.jp/",
+          "publisher": "丸和運輸機関",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_advertiser_hq",
+      "from": "advertiser",
+      "to": "hq",
+      "flow_type": "opex",
+      "label": "リテールメディア広告出稿費",
+      "amount_note": "購買データ連動型の店頭・アプリ広告。急成長中の新収益源",
+      "sources": [
+        {
+          "url": "https://www.family.co.jp/",
+          "publisher": "ファミリーマート",
+          "note": "リテールメディア事業発表へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_bank_hq",
+      "from": "bank_atm",
+      "to": "hq",
+      "flow_type": "opex",
+      "label": "ATM設置・業務委託に係る手数料",
+      "note": "ATM事業の収益源は提携金融機関からの受入手数料。店舗網が金融インフラ化している",
+      "sources": [
+        {
+          "url": "https://www.sevenbank.co.jp/",
+          "publisher": "セブン銀行",
+          "note": "決算説明資料の収益構造へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_bank_consumer",
+      "from": "bank_atm",
+      "to": "consumer",
+      "flow_type": "goods",
+      "label": "ATM・金融サービスの提供",
+      "sources": [
+        {
+          "url": "https://www.sevenbank.co.jp/",
+          "publisher": "セブン銀行"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_hq_equipment",
+      "from": "hq",
+      "to": "equipment_vendor",
+      "flow_type": "capex",
+      "label": "店舗設備・什器・POSの購入",
+      "sources": [
+        {
+          "url": "https://www.hoshizaki.co.jp/",
+          "publisher": "ホシザキ",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_equipment_store",
+      "from": "equipment_vendor",
+      "to": "store",
+      "flow_type": "goods",
+      "label": "店舗設備の納入・保守",
+      "sources": [
+        {
+          "url": "https://www.hoshizaki.co.jp/",
+          "publisher": "ホシザキ",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_hq_realestate",
+      "from": "hq",
+      "to": "realestate_owner",
+      "flow_type": "opex",
+      "label": "店舗賃借料(本部一括借上げ型)",
+      "sources": [
+        {
+          "url": "https://www.sej.co.jp/",
+          "publisher": "各チェーン出店情報ページ",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_store_realestate",
+      "from": "store",
+      "to": "realestate_owner",
+      "flow_type": "opex",
+      "label": "店舗賃借料(オーナー自己物件契約型)",
+      "note": "土地建物をオーナーが用意する契約型ではロイヤリティ料率が下がる",
+      "sources": [
+        {
+          "url": "https://www.sej.co.jp/",
+          "publisher": "各チェーン加盟店募集ページ",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_trading_hq",
+      "from": "trading_co",
+      "to": "hq",
+      "flow_type": "capex",
+      "label": "出資(三菱商事×ローソン、伊藤忠×ファミリーマート)",
+      "sources": [
+        {
+          "url": "https://www.mitsubishicorp.com/jp/ja/",
+          "publisher": "三菱商事",
+          "note": "出資公表の該当ページへ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_hq_trading",
+      "from": "hq",
+      "to": "trading_co",
+      "flow_type": "opex",
+      "label": "配当",
+      "sources": [
+        {
+          "url": "https://www.itochu.co.jp/",
+          "publisher": "伊藤忠商事",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ]
+}

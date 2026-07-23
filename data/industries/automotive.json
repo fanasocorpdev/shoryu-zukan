@@ -1,0 +1,1267 @@
+{
+  "$schema": "../schema.json",
+  "meta": {
+    "industry_id": "automotive",
+    "industry_name": "自動車",
+    "version": "0.1.0",
+    "updated": "2026-07-23",
+    "description": "自動車産業の商流。中央の完成車メーカー(OEM)を起点に、ティア1部品・素材・半導体・電池・生産設備・販売・金融・保険・税までのカネとモノの流れを地図化する。",
+    "tagline": "3万点の部品と、ローン・保険・税金 — 1台の車を巡る巨大な金流",
+    "editorial_note": "v1は公開情報ベースの業界構造。financialsは規模感の概算値(直近通期・外貨は概算円換算)で、IR確定値への差し替えが前提。個別エッジの一次情報URLへの差し替えも次の作業。"
+  },
+  "layers": [
+    {
+      "id": "demand",
+      "label": "ユーザー",
+      "order": 1,
+      "icon": "🧑",
+      "description": "個人・法人の自動車ユーザー"
+    },
+    {
+      "id": "oem",
+      "label": "完成車メーカー",
+      "order": 2,
+      "icon": "🏯",
+      "description": "車両を企画・開発・組立するOEM。地図の中心"
+    },
+    {
+      "id": "sales",
+      "label": "販売・流通",
+      "order": 3,
+      "icon": "🏬",
+      "description": "新車ディーラー・中古車流通"
+    },
+    {
+      "id": "tier1",
+      "label": "ティア1部品",
+      "order": 4,
+      "icon": "⚙️",
+      "description": "OEMに直接納入する部品メーカー"
+    },
+    {
+      "id": "upstream",
+      "label": "素材・半導体・電池",
+      "order": 5,
+      "icon": "🧪",
+      "description": "ティア2以深の素材・車載半導体・電池"
+    },
+    {
+      "id": "equipment",
+      "label": "生産設備",
+      "order": 6,
+      "icon": "🤖",
+      "description": "工作機械・ロボット・プレス"
+    },
+    {
+      "id": "logistics",
+      "label": "物流",
+      "order": 7,
+      "icon": "🚢",
+      "description": "完成車輸送(陸送・自動車船)"
+    },
+    {
+      "id": "energy",
+      "label": "燃料・充電",
+      "order": 8,
+      "icon": "⛽",
+      "description": "ガソリンスタンド・充電インフラ"
+    },
+    {
+      "id": "finance",
+      "label": "金融・保険・公的",
+      "order": 9,
+      "icon": "💰",
+      "description": "販売金融・損保・政府(補助金と税)"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "oem",
+      "role": "完成車メーカー(OEM)",
+      "layer": "oem",
+      "description": "車両の企画・開発・組立。約3万点の部品を束ねるサプライチェーンの頂点であり、地図の中心。",
+      "map": {
+        "ring": 0,
+        "angle": 0
+      },
+      "companies": [
+        {
+          "name": "トヨタ自動車",
+          "url": "https://global.toyota/jp/",
+          "financials": {
+            "revenue_oku_jpy": 480000,
+            "market_cap_oku_jpy": 420000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "愛知県豊田市",
+          "employees": 380000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7203"
+          }
+        },
+        {
+          "name": "ホンダ",
+          "url": "https://global.honda/jp/",
+          "financials": {
+            "revenue_oku_jpy": 217000,
+            "market_cap_oku_jpy": 75000,
+            "as_of": "2025",
+            "note": "概算"
+          },
+          "hq": "東京都港区",
+          "employees": 194000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7267"
+          }
+        },
+        {
+          "name": "日産自動車",
+          "url": "https://www.nissan-global.com/JP/",
+          "financials": {
+            "revenue_oku_jpy": 124000,
+            "market_cap_oku_jpy": 13000,
+            "as_of": "2025",
+            "note": "概算"
+          },
+          "hq": "横浜市西区",
+          "employees": 130000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7201"
+          }
+        },
+        {
+          "name": "スズキ",
+          "url": "https://www.suzuki.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 57000,
+            "market_cap_oku_jpy": 35000,
+            "as_of": "2025",
+            "note": "概算"
+          },
+          "hq": "静岡県浜松市",
+          "employees": 70000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7269"
+          }
+        },
+        {
+          "name": "マツダ",
+          "url": "https://www.mazda.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 49000,
+            "market_cap_oku_jpy": 7000,
+            "as_of": "2025",
+            "note": "概算"
+          },
+          "hq": "広島県府中町",
+          "employees": 48000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7261"
+          }
+        },
+        {
+          "name": "SUBARU",
+          "url": "https://www.subaru.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 47000,
+            "market_cap_oku_jpy": 20000,
+            "as_of": "2025",
+            "note": "概算"
+          },
+          "hq": "東京都渋谷区",
+          "employees": 37000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7270"
+          }
+        },
+        {
+          "name": "三菱自動車",
+          "url": "https://www.mitsubishi-motors.com/jp/",
+          "financials": {
+            "revenue_oku_jpy": 27000,
+            "market_cap_oku_jpy": 6000,
+            "as_of": "2025",
+            "note": "概算"
+          },
+          "hq": "東京都港区",
+          "employees": 28000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7211"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.jama.or.jp/",
+          "publisher": "日本自動車工業会(JAMA)",
+          "note": "業界統計・構造の出典"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "consumer",
+      "role": "ユーザー(個人・法人)",
+      "layer": "demand",
+      "description": "車を買い、ローンを払い、保険と税金と燃料代を払い続ける存在。1台のライフサイクルで車両価格と同規模の維持費が動く。",
+      "map": {
+        "ring": 1,
+        "angle": 0
+      },
+      "companies": [],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "dealer",
+      "role": "新車ディーラー",
+      "layer": "sales",
+      "description": "メーカー系列の販売会社。新車販売に加え、整備・車検・保険代理店が収益の柱。",
+      "map": {
+        "ring": 1,
+        "angle": 40
+      },
+      "companies": [
+        {
+          "name": "全国のメーカー系列販売会社"
+        }
+      ],
+      "note": "実名は自己登録ベースで拡充予定",
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "used_market",
+      "role": "中古車流通・オークション",
+      "layer": "sales",
+      "description": "下取り車がオークションを経て再流通する二次市場。輸出も太い出口。",
+      "map": {
+        "ring": 2,
+        "angle": 25
+      },
+      "companies": [
+        {
+          "name": "USS",
+          "url": "https://www.ussnet.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 1000,
+            "market_cap_oku_jpy": 7000,
+            "as_of": "2025",
+            "note": "概算"
+          },
+          "hq": "愛知県東海市",
+          "employees": 1200,
+          "listing": {
+            "market": "東証プライム",
+            "code": "4732"
+          }
+        },
+        {
+          "name": "IDOM(ガリバー)",
+          "url": "https://www.idom-inc.com/",
+          "financials": {
+            "revenue_oku_jpy": 5000,
+            "as_of": "2025",
+            "note": "概算"
+          },
+          "hq": "東京都千代田区",
+          "employees": 4000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7599"
+          }
+        },
+        {
+          "name": "ネクステージ",
+          "url": "https://www.nextage.jp/",
+          "financials": {
+            "revenue_oku_jpy": 5000,
+            "as_of": "2025",
+            "note": "概算"
+          },
+          "hq": "名古屋市中区",
+          "employees": 5000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "3186"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "energy",
+      "role": "燃料・充電インフラ",
+      "layer": "energy",
+      "description": "ガソリンスタンドとEV充電網。ユーザーの継続支出の大きな受け皿。",
+      "map": {
+        "ring": 1,
+        "angle": 80
+      },
+      "companies": [
+        {
+          "name": "ENEOS",
+          "url": "https://www.eneos.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 130000,
+            "market_cap_oku_jpy": 25000,
+            "as_of": "2025",
+            "note": "ENEOSホールディングス連結・概算"
+          },
+          "hq": "東京都千代田区",
+          "employees": 41000,
+          "listing": {
+            "market": "東証プライム(ENEOSホールディングス)",
+            "code": "5020"
+          }
+        },
+        {
+          "name": "出光興産",
+          "url": "https://www.idemitsu.com/jp/",
+          "financials": {
+            "revenue_oku_jpy": 87000,
+            "market_cap_oku_jpy": 13000,
+            "as_of": "2025",
+            "note": "概算"
+          },
+          "hq": "東京都千代田区",
+          "employees": 14000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "5019"
+          }
+        },
+        {
+          "name": "e-Mobility Power",
+          "url": "https://www.e-mobipower.co.jp/",
+          "listing": {
+            "market": "非上場"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "tier1",
+      "role": "ティア1部品メーカー",
+      "layer": "tier1",
+      "related_industry": "auto_parts",
+      "description": "OEMに直接納入する大手部品メーカー。系列(ケイレツ)構造が特徴だったが、電動化で再編中。",
+      "map": {
+        "ring": 1,
+        "angle": 180
+      },
+      "companies": [
+        {
+          "name": "デンソー",
+          "url": "https://www.denso.com/jp/ja/",
+          "financials": {
+            "revenue_oku_jpy": 71000,
+            "market_cap_oku_jpy": 60000,
+            "as_of": "2025",
+            "note": "概算"
+          },
+          "hq": "愛知県刈谷市",
+          "employees": 162000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6902"
+          }
+        },
+        {
+          "name": "アイシン",
+          "url": "https://www.aisin.com/jp/",
+          "financials": {
+            "revenue_oku_jpy": 49000,
+            "market_cap_oku_jpy": 15000,
+            "as_of": "2025",
+            "note": "概算"
+          },
+          "hq": "愛知県刈谷市",
+          "employees": 110000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7259"
+          }
+        },
+        {
+          "name": "豊田自動織機",
+          "url": "https://www.toyota-shokki.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 40000,
+            "as_of": "2025",
+            "note": "概算。トヨタグループによる非公開化が2025年に発表"
+          },
+          "hq": "愛知県刈谷市",
+          "employees": 75000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6201"
+          }
+        },
+        {
+          "name": "住友電気工業",
+          "url": "https://sumitomoelectric.com/jp/",
+          "financials": {
+            "revenue_oku_jpy": 46000,
+            "market_cap_oku_jpy": 30000,
+            "as_of": "2025",
+            "note": "概算"
+          },
+          "hq": "大阪市中央区",
+          "employees": 290000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "5802"
+          }
+        },
+        {
+          "name": "矢崎総業",
+          "url": "https://www.yazaki-group.com/",
+          "financials": {
+            "revenue_oku_jpy": 24000,
+            "as_of": "2025",
+            "note": "非上場・概算"
+          },
+          "hq": "東京都港区",
+          "employees": 240000,
+          "listing": {
+            "market": "非上場"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "materials",
+      "role": "素材メーカー(鋼板・アルミ・樹脂)",
+      "layer": "upstream",
+      "description": "車体を構成する素材。鋼板はOEMが集中購買してティア1に支給する商流(支給材)が特徴。",
+      "map": {
+        "ring": 2,
+        "angle": 150
+      },
+      "companies": [
+        {
+          "name": "日本製鉄",
+          "url": "https://www.nipponsteel.com/",
+          "financials": {
+            "revenue_oku_jpy": 87000,
+            "market_cap_oku_jpy": 35000,
+            "as_of": "2025",
+            "note": "概算"
+          },
+          "hq": "東京都千代田区",
+          "employees": 110000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "5401"
+          }
+        },
+        {
+          "name": "JFEスチール",
+          "url": "https://www.jfe-steel.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 49000,
+            "market_cap_oku_jpy": 12000,
+            "as_of": "2025",
+            "note": "JFEホールディングス連結・概算"
+          },
+          "hq": "東京都千代田区",
+          "employees": 62000,
+          "listing": {
+            "market": "東証プライム(JFEホールディングス)",
+            "code": "5411"
+          }
+        },
+        {
+          "name": "神戸製鋼所",
+          "url": "https://www.kobelco.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 25000,
+            "market_cap_oku_jpy": 8000,
+            "as_of": "2025",
+            "note": "概算"
+          },
+          "hq": "神戸市中央区",
+          "employees": 39000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "5406"
+          }
+        },
+        {
+          "name": "東レ",
+          "url": "https://www.toray.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 25000,
+            "market_cap_oku_jpy": 15000,
+            "as_of": "2025",
+            "note": "概算"
+          },
+          "hq": "東京都中央区",
+          "employees": 48000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "3402"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "auto_semiconductor",
+      "role": "車載半導体メーカー",
+      "layer": "upstream",
+      "related_industry": "semiconductor",
+      "description": "マイコン・パワー半導体・センサー。1台あたりの搭載額は電動化・知能化で急増中。",
+      "map": {
+        "ring": 2,
+        "angle": 195
+      },
+      "companies": [
+        {
+          "name": "ルネサス エレクトロニクス",
+          "url": "https://www.renesas.com/ja",
+          "financials": {
+            "revenue_oku_jpy": 13000,
+            "market_cap_oku_jpy": 25000,
+            "as_of": "2025",
+            "note": "概算"
+          },
+          "hq": "東京都江東区",
+          "employees": 21000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6723"
+          }
+        },
+        {
+          "name": "ローム",
+          "url": "https://www.rohm.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 4700,
+            "as_of": "2025",
+            "note": "概算"
+          },
+          "hq": "京都市右京区",
+          "employees": 23000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6963"
+          }
+        },
+        {
+          "name": "インフィニオン テクノロジーズ",
+          "url": "https://www.infineon.com/",
+          "financials": {
+            "revenue_oku_jpy": 24000,
+            "as_of": "2025",
+            "note": "ユーロ160円換算・概算"
+          },
+          "hq": "独ノイビベルク",
+          "employees": 58000,
+          "listing": {
+            "market": "フランクフルト証取"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "battery",
+      "role": "車載電池メーカー",
+      "layer": "upstream",
+      "description": "EV/HEV用電池。工場投資に国の補助金が入る、半導体と並ぶ経済安保領域。",
+      "map": {
+        "ring": 2,
+        "angle": 225
+      },
+      "companies": [
+        {
+          "name": "パナソニック エナジー",
+          "url": "https://www.panasonic.com/jp/energy.html",
+          "financials": {
+            "revenue_oku_jpy": 9000,
+            "as_of": "2025",
+            "note": "パナソニックHDのエナジーセグメント・概算"
+          },
+          "hq": "大阪府守口市",
+          "listing": {
+            "market": "非上場(パナソニックHD傘下)"
+          }
+        },
+        {
+          "name": "プライムプラネットエナジー&ソリューションズ",
+          "listing": {
+            "market": "非上場"
+          }
+        },
+        {
+          "name": "AESC",
+          "hq": "神奈川県座間市",
+          "listing": {
+            "market": "非上場"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "equipment",
+      "role": "生産設備・ロボットメーカー",
+      "layer": "equipment",
+      "description": "溶接ロボット・工作機械・プレス機。OEMと部品メーカーの設備投資の受け皿。",
+      "map": {
+        "ring": 2,
+        "angle": 255
+      },
+      "companies": [
+        {
+          "name": "ファナック",
+          "url": "https://www.fanuc.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 8000,
+            "market_cap_oku_jpy": 40000,
+            "as_of": "2025",
+            "note": "概算"
+          },
+          "hq": "山梨県忍野村",
+          "employees": 8600,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6954"
+          }
+        },
+        {
+          "name": "安川電機",
+          "url": "https://www.yaskawa.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 5800,
+            "market_cap_oku_jpy": 10000,
+            "as_of": "2025",
+            "note": "概算"
+          },
+          "hq": "北九州市八幡西区",
+          "employees": 13000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6506"
+          }
+        },
+        {
+          "name": "川崎重工業",
+          "url": "https://www.khi.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 21000,
+            "market_cap_oku_jpy": 13000,
+            "as_of": "2025",
+            "note": "概算"
+          },
+          "hq": "神戸市中央区",
+          "employees": 39000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7012"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "logistics",
+      "role": "完成車物流(陸送・自動車船)",
+      "layer": "logistics",
+      "description": "工場からディーラー・輸出港への輸送。自動車専用船は日本の海運の主力事業。",
+      "map": {
+        "ring": 2,
+        "angle": 300
+      },
+      "companies": [
+        {
+          "name": "日本郵船",
+          "url": "https://www.nyk.com/",
+          "financials": {
+            "revenue_oku_jpy": 24000,
+            "market_cap_oku_jpy": 25000,
+            "as_of": "2025",
+            "note": "概算"
+          },
+          "hq": "東京都千代田区",
+          "employees": 35000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "9101"
+          }
+        },
+        {
+          "name": "商船三井",
+          "url": "https://www.mol.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 16000,
+            "market_cap_oku_jpy": 25000,
+            "as_of": "2025",
+            "note": "概算"
+          },
+          "hq": "東京都港区",
+          "employees": 9000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "9104"
+          }
+        },
+        {
+          "name": "トヨタ輸送",
+          "hq": "愛知県豊田市",
+          "listing": {
+            "market": "非上場"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "auto_finance",
+      "role": "販売金融・リース",
+      "layer": "finance",
+      "description": "オートローン・残価設定・リース。メーカー系金融会社が販売を下支えする。",
+      "map": {
+        "ring": 1,
+        "angle": 315
+      },
+      "companies": [
+        {
+          "name": "トヨタファイナンス",
+          "hq": "名古屋市西区",
+          "listing": {
+            "market": "非上場"
+          }
+        },
+        {
+          "name": "ホンダファイナンス",
+          "listing": {
+            "market": "非上場"
+          }
+        },
+        {
+          "name": "オリックス自動車",
+          "url": "https://car.orix.co.jp/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "非上場(オリックス傘下)"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "insurer",
+      "role": "損害保険会社",
+      "layer": "finance",
+      "description": "自動車保険は損保の最大種目。ディーラーが代理店を兼ねる商流。",
+      "map": {
+        "ring": 2,
+        "angle": 340
+      },
+      "companies": [
+        {
+          "name": "東京海上日動",
+          "url": "https://www.tokiomarine-nichido.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 50000,
+            "market_cap_oku_jpy": 110000,
+            "as_of": "2025",
+            "note": "東京海上HD連結・概算"
+          },
+          "hq": "東京都千代田区",
+          "employees": 43000,
+          "listing": {
+            "market": "東証プライム(東京海上ホールディングス)",
+            "code": "8766"
+          }
+        },
+        {
+          "name": "損害保険ジャパン",
+          "url": "https://www.sompo-japan.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 35000,
+            "market_cap_oku_jpy": 45000,
+            "as_of": "2025",
+            "note": "SOMPOホールディングス連結・概算"
+          },
+          "hq": "東京都新宿区",
+          "employees": 45000,
+          "listing": {
+            "market": "東証プライム(SOMPOホールディングス)",
+            "code": "8630"
+          }
+        },
+        {
+          "name": "三井住友海上",
+          "url": "https://www.ms-ins.com/",
+          "financials": {
+            "revenue_oku_jpy": 40000,
+            "market_cap_oku_jpy": 50000,
+            "as_of": "2025",
+            "note": "MS&ADホールディングス連結・概算"
+          },
+          "hq": "東京都千代田区",
+          "employees": 40000,
+          "listing": {
+            "market": "東証プライム(MS&ADホールディングス)",
+            "code": "8725"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "gov",
+      "role": "政府・自治体(補助金と税)",
+      "layer": "finance",
+      "description": "EV購入補助(CEV補助金)・電池工場補助を出す一方、取得・保有・燃料の各段階で課税する双方向の金流。",
+      "map": {
+        "ring": 2,
+        "angle": 55
+      },
+      "companies": [
+        {
+          "name": "経済産業省",
+          "url": "https://www.meti.go.jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "行政機関"
+          }
+        },
+        {
+          "name": "国土交通省",
+          "url": "https://www.mlit.go.jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "行政機関"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ],
+  "edges": [
+    {
+      "id": "capex_consumer_dealer",
+      "from": "consumer",
+      "to": "dealer",
+      "flow_type": "capex",
+      "label": "新車購入代金",
+      "amount_note": "国内新車販売は年間400万台超・十数兆円規模",
+      "sources": [
+        {
+          "url": "https://www.jama.or.jp/",
+          "publisher": "日本自動車工業会",
+          "note": "販売統計へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_dealer_consumer",
+      "from": "dealer",
+      "to": "consumer",
+      "flow_type": "goods",
+      "label": "新車販売・整備・車検",
+      "sources": [
+        {
+          "url": "https://www.jama.or.jp/",
+          "publisher": "日本自動車工業会"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_dealer_oem",
+      "from": "dealer",
+      "to": "oem",
+      "flow_type": "opex",
+      "label": "新車仕入代金",
+      "sources": [
+        {
+          "url": "https://www.jama.or.jp/",
+          "publisher": "日本自動車工業会",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_oem_dealer",
+      "from": "oem",
+      "to": "dealer",
+      "flow_type": "goods",
+      "label": "完成車の供給",
+      "sources": [
+        {
+          "url": "https://www.jama.or.jp/",
+          "publisher": "日本自動車工業会"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_consumer_finance",
+      "from": "consumer",
+      "to": "auto_finance",
+      "flow_type": "opex",
+      "label": "オートローン返済・リース料",
+      "amount_note": "新車購入の過半にローン・残価設定・リースが関与",
+      "sources": [
+        {
+          "url": "https://car.orix.co.jp/",
+          "publisher": "オリックス自動車",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_finance_dealer",
+      "from": "auto_finance",
+      "to": "dealer",
+      "flow_type": "capex",
+      "label": "車両代金の立替払い",
+      "sources": [
+        {
+          "url": "https://www.jama.or.jp/",
+          "publisher": "日本自動車工業会",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_consumer_insurer",
+      "from": "consumer",
+      "to": "insurer",
+      "flow_type": "opex",
+      "label": "自動車保険料",
+      "amount_note": "自動車保険は損保業界最大の種目",
+      "sources": [
+        {
+          "url": "https://www.sonpo.or.jp/",
+          "publisher": "日本損害保険協会",
+          "note": "統計へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_insurer_dealer",
+      "from": "insurer",
+      "to": "dealer",
+      "flow_type": "opex",
+      "label": "代理店手数料",
+      "note": "ディーラーは保険代理店を兼ねる。修理入庫との両輪",
+      "sources": [
+        {
+          "url": "https://www.sonpo.or.jp/",
+          "publisher": "日本損害保険協会",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_consumer_energy",
+      "from": "consumer",
+      "to": "energy",
+      "flow_type": "opex",
+      "label": "燃料代・充電料金",
+      "sources": [
+        {
+          "url": "https://www.eneos.co.jp/",
+          "publisher": "ENEOS",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_consumer_gov",
+      "from": "consumer",
+      "to": "gov",
+      "flow_type": "opex",
+      "label": "自動車諸税(重量税・自動車税・燃料課税)",
+      "amount_note": "自動車関係諸税は年間数兆円規模の税収",
+      "sources": [
+        {
+          "url": "https://www.jama.or.jp/",
+          "publisher": "日本自動車工業会",
+          "note": "税制要望資料へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_gov_consumer",
+      "from": "gov",
+      "to": "consumer",
+      "flow_type": "capex",
+      "label": "EV・PHEV購入補助(CEV補助金)",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/",
+          "publisher": "経済産業省",
+          "note": "CEV補助金の該当ページへ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_gov_battery",
+      "from": "gov",
+      "to": "battery",
+      "flow_type": "capex",
+      "label": "電池工場の設備投資補助(経済安保)",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/",
+          "publisher": "経済産業省",
+          "note": "蓄電池供給確保計画認定へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_oem_tier1",
+      "from": "oem",
+      "to": "tier1",
+      "flow_type": "opex",
+      "label": "部品仕入代金",
+      "amount_note": "車両原価の大半は購入部品。約3万点のサプライチェーン",
+      "sources": [
+        {
+          "url": "https://www.jama.or.jp/",
+          "publisher": "日本自動車工業会",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_tier1_oem",
+      "from": "tier1",
+      "to": "oem",
+      "flow_type": "goods",
+      "label": "部品のジャストインタイム納入",
+      "sources": [
+        {
+          "url": "https://www.denso.com/jp/ja/",
+          "publisher": "デンソー",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_tier1_semi",
+      "from": "tier1",
+      "to": "auto_semiconductor",
+      "flow_type": "opex",
+      "label": "車載半導体の仕入",
+      "amount_note": "電動化・ADASで1台あたり搭載額が増加中",
+      "sources": [
+        {
+          "url": "https://www.renesas.com/ja",
+          "publisher": "ルネサス エレクトロニクス",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_semi_tier1",
+      "from": "auto_semiconductor",
+      "to": "tier1",
+      "flow_type": "goods",
+      "label": "マイコン・パワー半導体の供給",
+      "sources": [
+        {
+          "url": "https://www.renesas.com/ja",
+          "publisher": "ルネサス エレクトロニクス",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_oem_materials",
+      "from": "oem",
+      "to": "materials",
+      "flow_type": "opex",
+      "label": "鋼板等の集中購買(支給材)",
+      "note": "OEMが鋼板を一括購買しティア1に支給する日本特有の商流",
+      "sources": [
+        {
+          "url": "https://www.nipponsteel.com/",
+          "publisher": "日本製鉄",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_materials_oem",
+      "from": "materials",
+      "to": "oem",
+      "flow_type": "goods",
+      "label": "鋼板・アルミ・樹脂素材の供給",
+      "sources": [
+        {
+          "url": "https://www.nipponsteel.com/",
+          "publisher": "日本製鉄",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_oem_battery",
+      "from": "oem",
+      "to": "battery",
+      "flow_type": "opex",
+      "label": "車載電池の調達",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/",
+          "publisher": "経済産業省",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_battery_oem",
+      "from": "battery",
+      "to": "oem",
+      "flow_type": "goods",
+      "label": "EV/HEV用電池の供給",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/",
+          "publisher": "経済産業省",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_oem_equipment",
+      "from": "oem",
+      "to": "equipment",
+      "flow_type": "capex",
+      "label": "生産設備・ロボットへの投資",
+      "sources": [
+        {
+          "url": "https://www.fanuc.co.jp/",
+          "publisher": "ファナック",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_equipment_oem",
+      "from": "equipment",
+      "to": "oem",
+      "flow_type": "goods",
+      "label": "工作機械・ロボットの納入",
+      "sources": [
+        {
+          "url": "https://www.fanuc.co.jp/",
+          "publisher": "ファナック",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_oem_logistics",
+      "from": "oem",
+      "to": "logistics",
+      "flow_type": "opex",
+      "label": "完成車輸送費(陸送・自動車船)",
+      "sources": [
+        {
+          "url": "https://www.nyk.com/",
+          "publisher": "日本郵船",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_logistics_dealer",
+      "from": "logistics",
+      "to": "dealer",
+      "flow_type": "goods",
+      "label": "完成車の配送",
+      "sources": [
+        {
+          "url": "https://www.nyk.com/",
+          "publisher": "日本郵船",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_consumer_used",
+      "from": "consumer",
+      "to": "used_market",
+      "flow_type": "capex",
+      "label": "中古車購入代金",
+      "sources": [
+        {
+          "url": "https://www.ussnet.co.jp/",
+          "publisher": "USS",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_used_consumer",
+      "from": "used_market",
+      "to": "consumer",
+      "flow_type": "goods",
+      "label": "中古車の販売",
+      "sources": [
+        {
+          "url": "https://www.ussnet.co.jp/",
+          "publisher": "USS",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_dealer_used",
+      "from": "dealer",
+      "to": "used_market",
+      "flow_type": "goods",
+      "label": "下取り車のオークション出品",
+      "sources": [
+        {
+          "url": "https://www.ussnet.co.jp/",
+          "publisher": "USS",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ]
+}

@@ -1,0 +1,889 @@
+{
+  "$schema": "../schema.json",
+  "meta": {
+    "industry_id": "auto_parts",
+    "industry_name": "自動車部品",
+    "version": "0.1.0",
+    "updated": "2026-07-23",
+    "parent_industry": "automotive",
+    "description": "自動車部品業界。個々の部品の商流は複雑すぎるため、供給パーツのカテゴリごとにノードを分け、完成車メーカーへの納入という共通構造で示す。自動車業界の子でありつつ、市場規模的に独立した業界として成立する。",
+    "tagline": "タイヤから軸受まで — 供給パーツ別に見る日本のティア構造",
+    "editorial_note": "v1は公開情報ベース。部品カテゴリは代表的な括りであり、実際には1社が複数カテゴリにまたがる。financials・従業員数は概算でIR確定値へ差し替え前提。"
+  },
+  "layers": [
+    {
+      "id": "oem",
+      "label": "納入先(完成車)",
+      "order": 1,
+      "icon": "🚗",
+      "description": "部品の納入先となる完成車メーカー。地図の中心"
+    },
+    {
+      "id": "parts",
+      "label": "部品カテゴリ",
+      "order": 2,
+      "icon": "⚙️",
+      "description": "供給パーツごとの大分類"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "oem_customer",
+      "role": "完成車メーカー(納入先)",
+      "layer": "oem",
+      "related_industry": "automotive",
+      "description": "各部品カテゴリの納入先。詳しい商流は自動車業界マップへ。",
+      "map": {
+        "ring": 0,
+        "angle": 0
+      },
+      "companies": [
+        {
+          "name": "トヨタ自動車",
+          "url": "https://global.toyota/jp/",
+          "hq": "愛知県豊田市",
+          "employees": 380000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7203"
+          }
+        },
+        {
+          "name": "ホンダ",
+          "url": "https://global.honda/jp/",
+          "hq": "東京都港区",
+          "employees": 194000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7267"
+          }
+        },
+        {
+          "name": "日産自動車",
+          "url": "https://www.nissan-global.com/JP/",
+          "hq": "横浜市西区",
+          "employees": 130000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7201"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.japia.or.jp/",
+          "publisher": "日本自動車部品工業会(JAPIA)",
+          "note": "業界統計・構造の出典"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "electrical",
+      "role": "電装・電子部品",
+      "layer": "parts",
+      "description": "ECU・モーター・ランプ・センサー類。電動化・知能化で最も成長するカテゴリ。",
+      "map": {
+        "ring": 1,
+        "angle": 0
+      },
+      "companies": [
+        {
+          "name": "デンソー",
+          "url": "https://www.denso.com/jp/ja/",
+          "hq": "愛知県刈谷市",
+          "employees": 162000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6902"
+          },
+          "financials": {
+            "revenue_oku_jpy": 71000,
+            "market_cap_oku_jpy": 60000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "ニデック",
+          "url": "https://www.nidec.com/jp/",
+          "hq": "京都市南区",
+          "employees": 100000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6594"
+          },
+          "financials": {
+            "revenue_oku_jpy": 26000,
+            "market_cap_oku_jpy": 30000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "小糸製作所",
+          "url": "https://www.koito.co.jp/",
+          "hq": "東京都港区",
+          "employees": 26000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7276"
+          },
+          "financials": {
+            "revenue_oku_jpy": 10000,
+            "market_cap_oku_jpy": 6000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "スタンレー電気",
+          "url": "https://www.stanley.co.jp/",
+          "hq": "東京都目黒区",
+          "employees": 17000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6923"
+          },
+          "financials": {
+            "revenue_oku_jpy": 5000,
+            "market_cap_oku_jpy": 4500,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "tire",
+      "role": "タイヤ",
+      "layer": "parts",
+      "description": "新車装着(OEM納入)と補修用(市販)の二本立て。世界大手が揃う日本の強豪カテゴリ。",
+      "map": {
+        "ring": 1,
+        "angle": 40
+      },
+      "companies": [
+        {
+          "name": "ブリヂストン",
+          "url": "https://www.bridgestone.co.jp/",
+          "hq": "東京都中央区",
+          "employees": 130000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "5108"
+          },
+          "financials": {
+            "revenue_oku_jpy": 44000,
+            "market_cap_oku_jpy": 45000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "住友ゴム工業",
+          "url": "https://www.srigroup.co.jp/",
+          "hq": "神戸市中央区",
+          "employees": 40000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "5110"
+          },
+          "financials": {
+            "revenue_oku_jpy": 12000,
+            "market_cap_oku_jpy": 4500,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "横浜ゴム",
+          "url": "https://www.y-yokohama.com/",
+          "hq": "東京都港区",
+          "employees": 30000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "5101"
+          },
+          "financials": {
+            "revenue_oku_jpy": 11000,
+            "market_cap_oku_jpy": 6000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "TOYO TIRE",
+          "url": "https://www.toyotires.co.jp/",
+          "hq": "兵庫県伊丹市",
+          "employees": 14000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "5105"
+          },
+          "financials": {
+            "revenue_oku_jpy": 5600,
+            "market_cap_oku_jpy": 4000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "powertrain",
+      "role": "駆動・トランスミッション",
+      "layer": "parts",
+      "description": "変速機・クラッチ・ギア。EV化の影響を最も受けるカテゴリで再編が進む。",
+      "map": {
+        "ring": 1,
+        "angle": 80
+      },
+      "companies": [
+        {
+          "name": "アイシン",
+          "url": "https://www.aisin.com/jp/",
+          "hq": "愛知県刈谷市",
+          "employees": 110000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7259"
+          },
+          "financials": {
+            "revenue_oku_jpy": 49000,
+            "market_cap_oku_jpy": 15000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "ジヤトコ",
+          "url": "https://www.jatco.co.jp/",
+          "hq": "静岡県富士市",
+          "employees": 15000,
+          "listing": {
+            "market": "非上場(日産系)"
+          }
+        },
+        {
+          "name": "エクセディ",
+          "url": "https://www.exedy.com/",
+          "hq": "大阪府寝屋川市",
+          "employees": 16000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7278"
+          },
+          "financials": {
+            "revenue_oku_jpy": 3000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "武蔵精密工業",
+          "url": "https://www.musashi.co.jp/",
+          "hq": "愛知県豊橋市",
+          "employees": 15000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7220"
+          },
+          "financials": {
+            "revenue_oku_jpy": 3700,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "bearing",
+      "role": "軸受・機械要素",
+      "layer": "parts",
+      "description": "ベアリング・ステアリング・工作機械部品。産業機械とまたがる基盤カテゴリ。",
+      "map": {
+        "ring": 1,
+        "angle": 120
+      },
+      "companies": [
+        {
+          "name": "ジェイテクト",
+          "url": "https://www.jtekt.co.jp/",
+          "hq": "愛知県刈谷市",
+          "employees": 50000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6473"
+          },
+          "financials": {
+            "revenue_oku_jpy": 19000,
+            "market_cap_oku_jpy": 4500,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "NSK",
+          "url": "https://www.nsk.com/jp/",
+          "hq": "東京都品川区",
+          "employees": 30000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6471"
+          },
+          "financials": {
+            "revenue_oku_jpy": 8000,
+            "market_cap_oku_jpy": 4000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "NTN",
+          "url": "https://www.ntn.co.jp/",
+          "hq": "大阪市西区",
+          "employees": 23000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6472"
+          },
+          "financials": {
+            "revenue_oku_jpy": 8500,
+            "market_cap_oku_jpy": 2000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "harness",
+      "role": "ワイヤーハーネス・電線",
+      "layer": "parts",
+      "description": "車内の神経網。労働集約型で海外生産比率が高い。",
+      "map": {
+        "ring": 1,
+        "angle": 160
+      },
+      "companies": [
+        {
+          "name": "矢崎総業",
+          "url": "https://www.yazaki-group.com/",
+          "hq": "東京都港区",
+          "employees": 240000,
+          "listing": {
+            "market": "非上場"
+          }
+        },
+        {
+          "name": "住友電装",
+          "url": "https://www.sws.co.jp/",
+          "hq": "三重県四日市市",
+          "listing": {
+            "market": "非上場(住友電気工業傘下)"
+          }
+        },
+        {
+          "name": "古河電気工業",
+          "url": "https://www.furukawa.co.jp/",
+          "hq": "東京都千代田区",
+          "employees": 50000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "5801"
+          },
+          "financials": {
+            "revenue_oku_jpy": 12000,
+            "market_cap_oku_jpy": 5000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "interior",
+      "role": "内装・シート",
+      "layer": "parts",
+      "description": "シート・ドアトリム・天井。快適性と軽量化の主戦場。",
+      "map": {
+        "ring": 1,
+        "angle": 200
+      },
+      "companies": [
+        {
+          "name": "トヨタ紡織",
+          "url": "https://www.toyota-boshoku.com/jp/",
+          "hq": "愛知県刈谷市",
+          "employees": 55000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "3116"
+          },
+          "financials": {
+            "revenue_oku_jpy": 19000,
+            "market_cap_oku_jpy": 5000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "テイ・エス テック",
+          "url": "https://www.tstech.co.jp/",
+          "hq": "埼玉県朝霞市",
+          "employees": 15000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7313"
+          },
+          "financials": {
+            "revenue_oku_jpy": 4500,
+            "market_cap_oku_jpy": 3000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "body",
+      "role": "車体・プレス部品",
+      "layer": "parts",
+      "description": "ボディ骨格・プレス・樹脂成形。ギガキャスト化の影響を受ける領域。",
+      "map": {
+        "ring": 1,
+        "angle": 240
+      },
+      "companies": [
+        {
+          "name": "ユニプレス",
+          "url": "https://www.unipres.co.jp/",
+          "hq": "横浜市",
+          "employees": 12000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "5949"
+          },
+          "financials": {
+            "revenue_oku_jpy": 3000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "ジーテクト",
+          "url": "https://www.g-tekt.jp/",
+          "hq": "さいたま市",
+          "employees": 8000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "5970"
+          },
+          "financials": {
+            "revenue_oku_jpy": 2700,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "太平洋工業",
+          "url": "https://www.pacific-ind.co.jp/",
+          "hq": "岐阜県大垣市",
+          "employees": 5000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7250"
+          },
+          "financials": {
+            "revenue_oku_jpy": 2000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "brake",
+      "role": "ブレーキ・足回り",
+      "layer": "parts",
+      "description": "制動・サスペンション。安全規制と直結するカテゴリ。",
+      "map": {
+        "ring": 1,
+        "angle": 280
+      },
+      "companies": [
+        {
+          "name": "日立Astemo",
+          "url": "https://www.hitachiastemo.com/jp/",
+          "hq": "東京都千代田区",
+          "employees": 90000,
+          "listing": {
+            "market": "非上場(日立・ホンダ系)"
+          },
+          "financials": {
+            "revenue_oku_jpy": 18000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "KYB",
+          "url": "https://www.kyb.co.jp/",
+          "hq": "東京都港区",
+          "employees": 15000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7242"
+          },
+          "financials": {
+            "revenue_oku_jpy": 4600,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "曙ブレーキ工業",
+          "url": "https://www.akebono-brake.com/",
+          "hq": "埼玉県羽生市",
+          "employees": 5000,
+          "listing": {
+            "market": "東証上場",
+            "code": "7238"
+          },
+          "financials": {
+            "revenue_oku_jpy": 1500,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "glass",
+      "role": "ガラス",
+      "layer": "parts",
+      "description": "合わせガラス・調光ガラス。HUD対応など高付加価値化が進む。",
+      "map": {
+        "ring": 1,
+        "angle": 320
+      },
+      "companies": [
+        {
+          "name": "AGC",
+          "url": "https://www.agc.com/",
+          "hq": "東京都千代田区",
+          "employees": 55000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "5201"
+          },
+          "financials": {
+            "revenue_oku_jpy": 20000,
+            "market_cap_oku_jpy": 10000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "日本板硝子",
+          "url": "https://www.nsg.com/ja",
+          "hq": "東京都港区",
+          "employees": 25000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "5202"
+          },
+          "financials": {
+            "revenue_oku_jpy": 8000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ],
+  "edges": [
+    {
+      "id": "goods_electrical_oem",
+      "from": "electrical",
+      "to": "oem_customer",
+      "flow_type": "goods",
+      "label": "電装・電子部品の納入",
+      "sources": [
+        {
+          "url": "https://www.japia.or.jp/",
+          "publisher": "JAPIA",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_oem_electrical",
+      "from": "oem_customer",
+      "to": "electrical",
+      "flow_type": "opex",
+      "label": "部品代金(電装・電子)",
+      "amount_note": "電動化で1台あたり搭載額が増加中",
+      "sources": [
+        {
+          "url": "https://www.japia.or.jp/",
+          "publisher": "JAPIA",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_tire_oem",
+      "from": "tire",
+      "to": "oem_customer",
+      "flow_type": "goods",
+      "label": "新車装着タイヤの納入",
+      "sources": [
+        {
+          "url": "https://www.jatma.or.jp/",
+          "publisher": "日本自動車タイヤ協会",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_oem_tire",
+      "from": "oem_customer",
+      "to": "tire",
+      "flow_type": "opex",
+      "label": "部品代金(タイヤ)",
+      "note": "補修用タイヤは消費者向けの別商流(市販)がある",
+      "sources": [
+        {
+          "url": "https://www.jatma.or.jp/",
+          "publisher": "日本自動車タイヤ協会",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_powertrain_oem",
+      "from": "powertrain",
+      "to": "oem_customer",
+      "flow_type": "goods",
+      "label": "変速機・駆動部品の納入",
+      "sources": [
+        {
+          "url": "https://www.japia.or.jp/",
+          "publisher": "JAPIA",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_oem_powertrain",
+      "from": "oem_customer",
+      "to": "powertrain",
+      "flow_type": "opex",
+      "label": "部品代金(駆動系)",
+      "sources": [
+        {
+          "url": "https://www.japia.or.jp/",
+          "publisher": "JAPIA",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_bearing_oem",
+      "from": "bearing",
+      "to": "oem_customer",
+      "flow_type": "goods",
+      "label": "軸受・ステアリングの納入",
+      "sources": [
+        {
+          "url": "https://www.japia.or.jp/",
+          "publisher": "JAPIA",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_oem_bearing",
+      "from": "oem_customer",
+      "to": "bearing",
+      "flow_type": "opex",
+      "label": "部品代金(機械要素)",
+      "sources": [
+        {
+          "url": "https://www.japia.or.jp/",
+          "publisher": "JAPIA",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_harness_oem",
+      "from": "harness",
+      "to": "oem_customer",
+      "flow_type": "goods",
+      "label": "ワイヤーハーネスの納入",
+      "sources": [
+        {
+          "url": "https://www.japia.or.jp/",
+          "publisher": "JAPIA",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_oem_harness",
+      "from": "oem_customer",
+      "to": "harness",
+      "flow_type": "opex",
+      "label": "部品代金(ハーネス)",
+      "sources": [
+        {
+          "url": "https://www.japia.or.jp/",
+          "publisher": "JAPIA",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_interior_oem",
+      "from": "interior",
+      "to": "oem_customer",
+      "flow_type": "goods",
+      "label": "シート・内装部品の納入",
+      "sources": [
+        {
+          "url": "https://www.japia.or.jp/",
+          "publisher": "JAPIA",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_oem_interior",
+      "from": "oem_customer",
+      "to": "interior",
+      "flow_type": "opex",
+      "label": "部品代金(内装)",
+      "sources": [
+        {
+          "url": "https://www.japia.or.jp/",
+          "publisher": "JAPIA",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_body_oem",
+      "from": "body",
+      "to": "oem_customer",
+      "flow_type": "goods",
+      "label": "車体・プレス部品の納入",
+      "sources": [
+        {
+          "url": "https://www.japia.or.jp/",
+          "publisher": "JAPIA",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_oem_body",
+      "from": "oem_customer",
+      "to": "body",
+      "flow_type": "opex",
+      "label": "部品代金(車体)",
+      "sources": [
+        {
+          "url": "https://www.japia.or.jp/",
+          "publisher": "JAPIA",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_brake_oem",
+      "from": "brake",
+      "to": "oem_customer",
+      "flow_type": "goods",
+      "label": "ブレーキ・足回り部品の納入",
+      "sources": [
+        {
+          "url": "https://www.japia.or.jp/",
+          "publisher": "JAPIA",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_oem_brake",
+      "from": "oem_customer",
+      "to": "brake",
+      "flow_type": "opex",
+      "label": "部品代金(足回り)",
+      "sources": [
+        {
+          "url": "https://www.japia.or.jp/",
+          "publisher": "JAPIA",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_glass_oem",
+      "from": "glass",
+      "to": "oem_customer",
+      "flow_type": "goods",
+      "label": "自動車ガラスの納入",
+      "sources": [
+        {
+          "url": "https://www.japia.or.jp/",
+          "publisher": "JAPIA",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_oem_glass",
+      "from": "oem_customer",
+      "to": "glass",
+      "flow_type": "opex",
+      "label": "部品代金(ガラス)",
+      "sources": [
+        {
+          "url": "https://www.japia.or.jp/",
+          "publisher": "JAPIA",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ]
+}

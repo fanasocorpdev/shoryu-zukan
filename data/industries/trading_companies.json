@@ -1,0 +1,536 @@
+{
+  "$schema": "../schema.json",
+  "meta": {
+    "industry_id": "trading_companies",
+    "industry_name": "総合商社",
+    "version": "0.1.0",
+    "updated": "2026-07-23",
+    "description": "総合商社の商流。トレード(仲介)から事業投資へ重心を移した現代の商社を、資源権益・事業会社・株主(バークシャー・ハサウェイ)への金流で描く。あらゆる業界マップと接続するハブ。",
+    "tagline": "ラーメンからロケットまで — トレードと事業投資のコングロマリット",
+    "editorial_note": "v1は公開情報ベース。商社の「売上」は収益(IFRS)ベースの概算。バークシャー・ハサウェイの5大商社株保有は公知情報。IR確定値へ差し替え前提。"
+  },
+  "layers": [
+    {
+      "id": "shareholder",
+      "label": "株主・投資家",
+      "order": 1,
+      "icon": "💰",
+      "description": "バークシャー・ハサウェイ等の大株主"
+    },
+    {
+      "id": "sogo_shosha",
+      "label": "総合商社",
+      "order": 2,
+      "icon": "🏯",
+      "description": "7大商社。地図の中心"
+    },
+    {
+      "id": "upstream",
+      "label": "資源・エネルギー",
+      "order": 3,
+      "icon": "⛏️",
+      "description": "鉱山・LNG等の権益プロジェクト"
+    },
+    {
+      "id": "trade",
+      "label": "トレード取引先",
+      "order": 4,
+      "icon": "🚢",
+      "description": "メーカー・需要家との仲介取引"
+    },
+    {
+      "id": "portfolio",
+      "label": "事業会社",
+      "order": 5,
+      "icon": "🏬",
+      "description": "コンビニ・食品など連結子会社群"
+    },
+    {
+      "id": "finance",
+      "label": "金融",
+      "order": 6,
+      "icon": "🏦",
+      "description": "融資を行う銀行"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "shosha",
+      "role": "総合商社",
+      "layer": "sogo_shosha",
+      "description": "情報・物流・金融機能を束ね、トレード仲介と事業投資の両輪で稼ぐ日本特有の業態。",
+      "map": {
+        "ring": 0,
+        "angle": 0
+      },
+      "companies": [
+        {
+          "name": "三菱商事",
+          "url": "https://www.mitsubishicorp.com/jp/ja/",
+          "hq": "東京都千代田区",
+          "employees": 80000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8058"
+          },
+          "financials": {
+            "revenue_oku_jpy": 180000,
+            "market_cap_oku_jpy": 120000,
+            "as_of": "2025",
+            "note": "収益(IFRS)ベース・概算"
+          }
+        },
+        {
+          "name": "三井物産",
+          "url": "https://www.mitsui.com/jp/ja/",
+          "hq": "東京都千代田区",
+          "employees": 50000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8031"
+          },
+          "financials": {
+            "revenue_oku_jpy": 145000,
+            "market_cap_oku_jpy": 110000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "伊藤忠商事",
+          "url": "https://www.itochu.co.jp/",
+          "hq": "東京都港区",
+          "employees": 110000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8001"
+          },
+          "financials": {
+            "revenue_oku_jpy": 145000,
+            "market_cap_oku_jpy": 120000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "住友商事",
+          "url": "https://www.sumitomocorp.com/ja/jp",
+          "hq": "東京都千代田区",
+          "employees": 80000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8053"
+          },
+          "financials": {
+            "revenue_oku_jpy": 70000,
+            "market_cap_oku_jpy": 50000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "丸紅",
+          "url": "https://www.marubeni.com/jp/",
+          "hq": "東京都中央区",
+          "employees": 50000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8002"
+          },
+          "financials": {
+            "revenue_oku_jpy": 75000,
+            "market_cap_oku_jpy": 40000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "豊田通商",
+          "url": "https://www.toyota-tsusho.com/",
+          "hq": "名古屋市中村区",
+          "employees": 70000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8015"
+          },
+          "financials": {
+            "revenue_oku_jpy": 100000,
+            "market_cap_oku_jpy": 40000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "双日",
+          "url": "https://www.sojitz.com/",
+          "hq": "東京都千代田区",
+          "employees": 20000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "2768"
+          },
+          "financials": {
+            "revenue_oku_jpy": 25000,
+            "market_cap_oku_jpy": 9000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.jftc.or.jp/",
+          "publisher": "日本貿易会",
+          "note": "業界構造・統計の出典"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "berkshire",
+      "role": "大株主(バークシャー・ハサウェイ等)",
+      "layer": "shareholder",
+      "description": "ウォーレン・バフェット率いるバークシャーが5大商社株を長期保有すると公表。商社株再評価の起点になった。",
+      "map": {
+        "ring": 1,
+        "angle": 315
+      },
+      "companies": [
+        {
+          "name": "バークシャー・ハサウェイ",
+          "url": "https://www.berkshirehathaway.com/",
+          "hq": "米ネブラスカ州オマハ",
+          "listing": {
+            "market": "NYSE"
+          }
+        },
+        {
+          "name": "国内外の機関投資家・個人株主"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "resource_project",
+      "role": "資源・エネルギー権益",
+      "layer": "upstream",
+      "description": "鉄鉱石・原料炭・銅・LNGなどのプロジェクト持分。商社利益の変動要因の最大部分。",
+      "map": {
+        "ring": 1,
+        "angle": 180
+      },
+      "companies": [
+        {
+          "name": "各社の海外資源プロジェクト(豪州鉄鉱石・LNG等)"
+        }
+      ],
+      "note": "個別権益は各社IRのセグメント情報で開示される",
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "manufacturer",
+      "role": "メーカー(仕入先・パートナー)",
+      "layer": "trade",
+      "description": "商社が原料調達・販路開拓・金融機能を提供する取引先メーカー群。",
+      "map": {
+        "ring": 1,
+        "angle": 135
+      },
+      "companies": [],
+      "note": "全業界にまたがるため個別掲載しない",
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "demand_customer",
+      "role": "需要家(電力・製造業・小売)",
+      "layer": "trade",
+      "description": "資源・原料・製品の買い手。長期契約とスポットを組み合わせて調達する。",
+      "map": {
+        "ring": 1,
+        "angle": 45
+      },
+      "companies": [],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "portfolio_retail",
+      "role": "事業会社(コンビニ・食品・小売)",
+      "layer": "portfolio",
+      "related_industry": "convenience_store",
+      "description": "ローソン(三菱商事)、ファミリーマート(伊藤忠)など、商社の連結収益の柱となった生活消費領域。",
+      "map": {
+        "ring": 2,
+        "angle": 20
+      },
+      "companies": [
+        {
+          "name": "ローソン",
+          "url": "https://www.lawson.co.jp/",
+          "hq": "東京都品川区",
+          "employees": 10000,
+          "listing": {
+            "market": "非上場(三菱商事・KDDI傘下)"
+          }
+        },
+        {
+          "name": "ファミリーマート",
+          "url": "https://www.family.co.jp/",
+          "hq": "東京都港区",
+          "employees": 7000,
+          "listing": {
+            "market": "非上場(伊藤忠商事傘下)"
+          }
+        },
+        {
+          "name": "日本アクセス",
+          "url": "https://www.nippon-access.co.jp/",
+          "hq": "東京都品川区",
+          "employees": 4000,
+          "listing": {
+            "market": "非上場(伊藤忠商事傘下)"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "bank_lender",
+      "role": "銀行(融資)",
+      "layer": "finance",
+      "related_industry": "banking",
+      "description": "大型投資の資金を融資で支える。旧財閥系列(三菱・三井・住友)の名残が取引関係に残る。",
+      "map": {
+        "ring": 2,
+        "angle": 290
+      },
+      "companies": [
+        {
+          "name": "三菱UFJ銀行",
+          "url": "https://www.bk.mufg.jp/",
+          "hq": "東京都千代田区",
+          "employees": 120000,
+          "listing": {
+            "market": "東証プライム(三菱UFJフィナンシャル・グループ)",
+            "code": "8306"
+          }
+        },
+        {
+          "name": "三井住友銀行",
+          "url": "https://www.smbc.co.jp/",
+          "hq": "東京都千代田区",
+          "employees": 120000,
+          "listing": {
+            "market": "東証プライム(三井住友フィナンシャルグループ)",
+            "code": "8316"
+          }
+        },
+        {
+          "name": "みずほ銀行",
+          "url": "https://www.mizuhobank.co.jp/",
+          "hq": "東京都千代田区",
+          "employees": 50000,
+          "listing": {
+            "market": "東証プライム(みずほフィナンシャルグループ)",
+            "code": "8411"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ],
+  "edges": [
+    {
+      "id": "capex_shosha_resource",
+      "from": "shosha",
+      "to": "resource_project",
+      "flow_type": "capex",
+      "label": "資源権益への投資(鉱山・LNG)",
+      "amount_note": "1案件数百億〜数千億円規模の持分投資",
+      "sources": [
+        {
+          "url": "https://www.jftc.or.jp/",
+          "publisher": "日本貿易会",
+          "note": "各社IRセグメント情報へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_resource_shosha",
+      "from": "resource_project",
+      "to": "shosha",
+      "flow_type": "goods",
+      "label": "資源の引取(オフテイク)",
+      "sources": [
+        {
+          "url": "https://www.jftc.or.jp/",
+          "publisher": "日本貿易会"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_resource_shosha",
+      "from": "resource_project",
+      "to": "shosha",
+      "flow_type": "opex",
+      "label": "配当・持分利益",
+      "note": "資源価格に連動して大きく変動する商社利益の源泉",
+      "sources": [
+        {
+          "url": "https://www.jftc.or.jp/",
+          "publisher": "日本貿易会"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_shosha_manufacturer",
+      "from": "shosha",
+      "to": "manufacturer",
+      "flow_type": "opex",
+      "label": "商品・原料の仕入",
+      "sources": [
+        {
+          "url": "https://www.jftc.or.jp/",
+          "publisher": "日本貿易会"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_manufacturer_shosha",
+      "from": "manufacturer",
+      "to": "shosha",
+      "flow_type": "goods",
+      "label": "製品・原料の供給",
+      "sources": [
+        {
+          "url": "https://www.jftc.or.jp/",
+          "publisher": "日本貿易会"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_shosha_customer",
+      "from": "shosha",
+      "to": "demand_customer",
+      "flow_type": "goods",
+      "label": "資源・原料・製品の供給(トレード)",
+      "sources": [
+        {
+          "url": "https://www.jftc.or.jp/",
+          "publisher": "日本貿易会"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_customer_shosha",
+      "from": "demand_customer",
+      "to": "shosha",
+      "flow_type": "opex",
+      "label": "購入代金(口銭を含む)",
+      "note": "仲介手数料(口銭)がトレードビジネスの伝統的な収益",
+      "sources": [
+        {
+          "url": "https://www.jftc.or.jp/",
+          "publisher": "日本貿易会"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_shosha_portfolio",
+      "from": "shosha",
+      "to": "portfolio_retail",
+      "flow_type": "capex",
+      "label": "事業投資(子会社化・出資)",
+      "amount_note": "伊藤忠のファミマTOB、三菱商事のローソン子会社化など",
+      "sources": [
+        {
+          "url": "https://www.itochu.co.jp/",
+          "publisher": "各社IR",
+          "note": "TOB公表資料へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_portfolio_shosha",
+      "from": "portfolio_retail",
+      "to": "shosha",
+      "flow_type": "opex",
+      "label": "配当・連結利益の取込",
+      "sources": [
+        {
+          "url": "https://www.jftc.or.jp/",
+          "publisher": "日本貿易会"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_berkshire_shosha",
+      "from": "berkshire",
+      "to": "shosha",
+      "flow_type": "capex",
+      "label": "株式取得(5大商社株の長期保有)",
+      "amount_note": "バークシャーは2020年に5大商社株5%超の保有を公表、その後買い増し",
+      "sources": [
+        {
+          "url": "https://www.berkshirehathaway.com/",
+          "publisher": "バークシャー・ハサウェイ",
+          "note": "株主への手紙・大量保有報告へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_shosha_berkshire",
+      "from": "shosha",
+      "to": "berkshire",
+      "flow_type": "opex",
+      "label": "配当・自社株買い",
+      "note": "株主還元の強化が商社株再評価の一因",
+      "sources": [
+        {
+          "url": "https://www.jftc.or.jp/",
+          "publisher": "日本貿易会"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_bank_shosha",
+      "from": "bank_lender",
+      "to": "shosha",
+      "flow_type": "capex",
+      "label": "融資・コミットメントライン",
+      "sources": [
+        {
+          "url": "https://www.zenginkyo.or.jp/",
+          "publisher": "全国銀行協会",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_shosha_bank",
+      "from": "shosha",
+      "to": "bank_lender",
+      "flow_type": "opex",
+      "label": "利息・返済",
+      "sources": [
+        {
+          "url": "https://www.zenginkyo.or.jp/",
+          "publisher": "全国銀行協会",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ]
+}

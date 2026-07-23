@@ -1,0 +1,719 @@
+{
+  "$schema": "../schema.json",
+  "meta": {
+    "industry_id": "food",
+    "industry_name": "食品",
+    "version": "0.1.0",
+    "updated": "2026-07-23",
+    "description": "食品業界の商流。食品メーカーを中心に、原料(農水産・輸入穀物)から卸・小売・外食を経て消費者に届くまでと、低温物流のインフラを描く。",
+    "tagline": "食卓までの長い旅 — 輸入原料・帳合卸・低温物流のリレー",
+    "editorial_note": "v1は公開情報ベース。financialsは概算でIR確定値へ差し替え前提。原料の過半を輸入に頼る構造(食料自給率約4割)が価格転嫁問題の背景。"
+  },
+  "layers": [
+    {
+      "id": "consumer",
+      "label": "消費者",
+      "order": 1,
+      "icon": "🧑",
+      "description": "毎日の食費の払い手"
+    },
+    {
+      "id": "maker",
+      "label": "食品メーカー",
+      "order": 2,
+      "icon": "🏯",
+      "description": "加工食品・飲料・調味料。地図の中心"
+    },
+    {
+      "id": "raw",
+      "label": "原料・商社",
+      "order": 3,
+      "icon": "🌾",
+      "description": "農水産・輸入穀物・食品商社"
+    },
+    {
+      "id": "distribution",
+      "label": "卸・物流",
+      "order": 4,
+      "icon": "🚚",
+      "description": "食品卸と低温物流網"
+    },
+    {
+      "id": "sales",
+      "label": "小売・外食",
+      "order": 5,
+      "icon": "🍽️",
+      "description": "消費者との接点"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "food_maker",
+      "role": "食品・飲料メーカー",
+      "layer": "maker",
+      "description": "原料高と価格転嫁の最前線。国内市場の成熟を海外展開と高付加価値化で乗り越える局面。",
+      "map": {
+        "ring": 0,
+        "angle": 0
+      },
+      "companies": [
+        {
+          "name": "味の素",
+          "url": "https://www.ajinomoto.co.jp/",
+          "hq": "東京都中央区",
+          "employees": 34000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "2802"
+          },
+          "financials": {
+            "revenue_oku_jpy": 15000,
+            "market_cap_oku_jpy": 40000,
+            "as_of": "2025",
+            "note": "概算。半導体材料(ABF)も持つ"
+          }
+        },
+        {
+          "name": "アサヒグループホールディングス",
+          "url": "https://www.asahigroup-holdings.com/",
+          "hq": "東京都墨田区",
+          "employees": 30000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "2502"
+          },
+          "financials": {
+            "revenue_oku_jpy": 29000,
+            "market_cap_oku_jpy": 30000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "キリンホールディングス",
+          "url": "https://www.kirinholdings.com/jp/",
+          "hq": "東京都中野区",
+          "employees": 30000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "2503"
+          },
+          "financials": {
+            "revenue_oku_jpy": 23000,
+            "market_cap_oku_jpy": 20000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "サントリーホールディングス",
+          "url": "https://www.suntory.co.jp/",
+          "hq": "大阪市北区",
+          "employees": 40000,
+          "listing": {
+            "market": "非上場"
+          },
+          "financials": {
+            "revenue_oku_jpy": 32000,
+            "as_of": "2025",
+            "note": "概算。非上場では国内最大級"
+          }
+        },
+        {
+          "name": "明治ホールディングス",
+          "url": "https://www.meiji.com/",
+          "hq": "東京都中央区",
+          "employees": 17000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "2269"
+          },
+          "financials": {
+            "revenue_oku_jpy": 11000,
+            "market_cap_oku_jpy": 10000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "キッコーマン",
+          "url": "https://www.kikkoman.com/jp/",
+          "hq": "千葉県野田市",
+          "employees": 10000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "2801"
+          },
+          "financials": {
+            "revenue_oku_jpy": 7000,
+            "market_cap_oku_jpy": 25000,
+            "as_of": "2025",
+            "note": "概算。海外比率が7割超"
+          }
+        },
+        {
+          "name": "日清食品ホールディングス",
+          "url": "https://www.nissin.com/jp/",
+          "hq": "大阪市淀川区",
+          "employees": 17000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "2897"
+          },
+          "financials": {
+            "revenue_oku_jpy": 7700,
+            "market_cap_oku_jpy": 10000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "日本ハム",
+          "url": "https://www.nipponham.co.jp/",
+          "hq": "大阪市北区",
+          "employees": 26000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "2282"
+          },
+          "financials": {
+            "revenue_oku_jpy": 13000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.maff.go.jp/",
+          "publisher": "農林水産省",
+          "note": "食品産業統計の出典"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "raw_material",
+      "role": "原料生産者(農水産)",
+      "layer": "raw",
+      "description": "国内農水産と輸入原料。食料自給率はカロリーベースで約4割。",
+      "map": {
+        "ring": 1,
+        "angle": 180
+      },
+      "companies": [
+        {
+          "name": "全国農業協同組合連合会(JA全農)",
+          "url": "https://www.zennoh.or.jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "協同組合"
+          }
+        },
+        {
+          "name": "ニッスイ",
+          "url": "https://www.nissui.co.jp/",
+          "hq": "東京都港区",
+          "employees": 10000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "1332"
+          },
+          "financials": {
+            "revenue_oku_jpy": 8500,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "マルハニチロ",
+          "url": "https://www.maruha-nichiro.co.jp/",
+          "hq": "東京都江東区",
+          "employees": 12000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "1333"
+          },
+          "financials": {
+            "revenue_oku_jpy": 10000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "food_trading",
+      "role": "食品商社(穀物・原料輸入)",
+      "layer": "raw",
+      "related_industry": "trading_companies",
+      "description": "小麦・トウモロコシ・大豆などの輸入を担う。総合商社の食料部門と専門商社。",
+      "map": {
+        "ring": 2,
+        "angle": 205
+      },
+      "companies": [
+        {
+          "name": "三菱商事",
+          "url": "https://www.mitsubishicorp.com/jp/ja/",
+          "hq": "東京都千代田区",
+          "employees": 80000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8058"
+          }
+        },
+        {
+          "name": "伊藤忠商事",
+          "url": "https://www.itochu.co.jp/",
+          "hq": "東京都港区",
+          "employees": 110000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8001"
+          }
+        },
+        {
+          "name": "兼松",
+          "url": "https://www.kanematsu.co.jp/",
+          "hq": "東京都千代田区",
+          "employees": 8000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8020"
+          },
+          "financials": {
+            "revenue_oku_jpy": 10000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "food_wholesale",
+      "role": "食品卸",
+      "layer": "distribution",
+      "description": "メーカーと小売・外食をつなぐ帳合機能。物流と決済を束ねる。",
+      "map": {
+        "ring": 1,
+        "angle": 135
+      },
+      "companies": [
+        {
+          "name": "三菱食品",
+          "url": "https://www.mitsubishi-shokuhin.com/",
+          "hq": "東京都文京区",
+          "employees": 4000,
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7451"
+          },
+          "financials": {
+            "revenue_oku_jpy": 20000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "日本アクセス",
+          "url": "https://www.nippon-access.co.jp/",
+          "hq": "東京都品川区",
+          "employees": 4000,
+          "listing": {
+            "market": "非上場(伊藤忠商事傘下)"
+          }
+        },
+        {
+          "name": "国分グループ本社",
+          "url": "https://www.kokubu.co.jp/",
+          "hq": "東京都中央区",
+          "employees": 5000,
+          "listing": {
+            "market": "非上場"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "cold_logistics",
+      "role": "低温物流",
+      "layer": "distribution",
+      "description": "冷蔵・冷凍のコールドチェーン。食品の鮮度と安全を支える見えないインフラ。",
+      "map": {
+        "ring": 2,
+        "angle": 250
+      },
+      "companies": [
+        {
+          "name": "ニチレイ",
+          "url": "https://www.nichirei.co.jp/",
+          "hq": "東京都中央区",
+          "employees": 15000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "2871"
+          },
+          "financials": {
+            "revenue_oku_jpy": 7000,
+            "as_of": "2025",
+            "note": "概算。低温物流は国内最大手"
+          }
+        },
+        {
+          "name": "全国の低温物流事業者"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "food_retail",
+      "role": "小売(スーパー・コンビニ)",
+      "layer": "sales",
+      "related_industry": "retail",
+      "description": "食品販売の主戦場。詳細な商流は小売マップへ。",
+      "map": {
+        "ring": 1,
+        "angle": 60
+      },
+      "companies": [
+        {
+          "name": "イオン",
+          "url": "https://www.aeon.info/",
+          "hq": "千葉市美浜区",
+          "employees": 570000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8267"
+          }
+        },
+        {
+          "name": "セブン&アイ・ホールディングス",
+          "url": "https://www.7andi.com/",
+          "hq": "東京都千代田区",
+          "employees": 150000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "3382"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "food_service",
+      "role": "外食チェーン",
+      "layer": "sales",
+      "description": "人手不足と原料高の二重苦をDXと値上げで乗り切る。海外出店が成長ドライバー。",
+      "map": {
+        "ring": 1,
+        "angle": 315
+      },
+      "companies": [
+        {
+          "name": "ゼンショーホールディングス",
+          "url": "https://www.zensho.co.jp/",
+          "hq": "東京都港区",
+          "employees": 160000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7550"
+          },
+          "financials": {
+            "revenue_oku_jpy": 10000,
+            "market_cap_oku_jpy": 10000,
+            "as_of": "2025",
+            "note": "概算。外食売上で国内首位"
+          }
+        },
+        {
+          "name": "日本マクドナルドホールディングス",
+          "url": "https://www.mcd-holdings.co.jp/",
+          "hq": "東京都新宿区",
+          "employees": 4000,
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "2702"
+          },
+          "financials": {
+            "revenue_oku_jpy": 4000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "すかいらーくホールディングス",
+          "url": "https://corp.skylark.co.jp/",
+          "hq": "東京都武蔵野市",
+          "employees": 100000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "3197"
+          },
+          "financials": {
+            "revenue_oku_jpy": 4000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "トリドールホールディングス(丸亀製麺)",
+          "url": "https://www.toridoll.com/",
+          "hq": "神戸市中央区",
+          "employees": 60000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "3397"
+          },
+          "financials": {
+            "revenue_oku_jpy": 2500,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "consumer",
+      "role": "消費者",
+      "layer": "consumer",
+      "description": "1世帯の食費は月7〜8万円規模。エンゲル係数の上昇が近年の生活実感を映す。",
+      "map": {
+        "ring": 1,
+        "angle": 0
+      },
+      "companies": [],
+      "updated": "2026-07-23"
+    }
+  ],
+  "edges": [
+    {
+      "id": "opex_maker_raw",
+      "from": "food_maker",
+      "to": "raw_material",
+      "flow_type": "opex",
+      "label": "原材料の仕入(農水産)",
+      "sources": [
+        {
+          "url": "https://www.maff.go.jp/",
+          "publisher": "農林水産省",
+          "note": "統計へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_raw_maker",
+      "from": "raw_material",
+      "to": "food_maker",
+      "flow_type": "goods",
+      "label": "農水産原料の供給",
+      "sources": [
+        {
+          "url": "https://www.maff.go.jp/",
+          "publisher": "農林水産省"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_maker_trading",
+      "from": "food_maker",
+      "to": "food_trading",
+      "flow_type": "opex",
+      "label": "輸入原料の調達(小麦・油脂・糖)",
+      "amount_note": "食料自給率約4割。輸入価格と為替が食品価格を左右する",
+      "sources": [
+        {
+          "url": "https://www.maff.go.jp/",
+          "publisher": "農林水産省",
+          "note": "食料需給表へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_trading_maker",
+      "from": "food_trading",
+      "to": "food_maker",
+      "flow_type": "goods",
+      "label": "輸入穀物・原料の供給",
+      "sources": [
+        {
+          "url": "https://www.maff.go.jp/",
+          "publisher": "農林水産省"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_maker_wholesale",
+      "from": "food_maker",
+      "to": "food_wholesale",
+      "flow_type": "goods",
+      "label": "製品の出荷",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/syoudou/",
+          "publisher": "経済産業省 商業動態統計",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_wholesale_maker",
+      "from": "food_wholesale",
+      "to": "food_maker",
+      "flow_type": "opex",
+      "label": "商品仕入代金",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/syoudou/",
+          "publisher": "経済産業省 商業動態統計",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_wholesale_retail",
+      "from": "food_wholesale",
+      "to": "food_retail",
+      "flow_type": "goods",
+      "label": "小売への納品",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/syoudou/",
+          "publisher": "経済産業省 商業動態統計",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_retail_wholesale",
+      "from": "food_retail",
+      "to": "food_wholesale",
+      "flow_type": "opex",
+      "label": "商品仕入代金(帳合)",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/syoudou/",
+          "publisher": "経済産業省 商業動態統計",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_service_wholesale",
+      "from": "food_service",
+      "to": "food_wholesale",
+      "flow_type": "opex",
+      "label": "業務用食材の仕入",
+      "sources": [
+        {
+          "url": "https://www.jfnet.or.jp/",
+          "publisher": "日本フードサービス協会",
+          "note": "統計へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_maker_coldlogi",
+      "from": "food_maker",
+      "to": "cold_logistics",
+      "flow_type": "opex",
+      "label": "低温物流の委託費",
+      "sources": [
+        {
+          "url": "https://www.nichirei.co.jp/",
+          "publisher": "ニチレイ",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_coldlogi_retail",
+      "from": "cold_logistics",
+      "to": "food_retail",
+      "flow_type": "goods",
+      "label": "冷蔵・冷凍配送(コールドチェーン)",
+      "sources": [
+        {
+          "url": "https://www.nichirei.co.jp/",
+          "publisher": "ニチレイ",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_consumer_retail",
+      "from": "consumer",
+      "to": "food_retail",
+      "flow_type": "opex",
+      "label": "食料品の購入代金",
+      "amount_note": "1世帯の食費は月7〜8万円規模",
+      "sources": [
+        {
+          "url": "https://www.stat.go.jp/data/kakei/",
+          "publisher": "総務省 家計調査",
+          "note": "統計へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_consumer_service",
+      "from": "consumer",
+      "to": "food_service",
+      "flow_type": "opex",
+      "label": "外食費",
+      "amount_note": "外食市場は年間30兆円規模",
+      "sources": [
+        {
+          "url": "https://www.jfnet.or.jp/",
+          "publisher": "日本フードサービス協会",
+          "note": "統計へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_retail_consumer",
+      "from": "food_retail",
+      "to": "consumer",
+      "flow_type": "goods",
+      "label": "食料品の販売",
+      "sources": [
+        {
+          "url": "https://www.stat.go.jp/data/kakei/",
+          "publisher": "総務省 家計調査"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_service_consumer",
+      "from": "food_service",
+      "to": "consumer",
+      "flow_type": "goods",
+      "label": "外食サービスの提供",
+      "sources": [
+        {
+          "url": "https://www.jfnet.or.jp/",
+          "publisher": "日本フードサービス協会"
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ]
+}

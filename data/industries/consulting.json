@@ -1,0 +1,386 @@
+{
+  "$schema": "../schema.json",
+  "meta": {
+    "industry_id": "consulting",
+    "industry_name": "コンサルティング",
+    "version": "0.1.0",
+    "updated": "2026-07-23",
+    "map_style": "category",
+    "description": "コンサルティング業界。契約上の商流が図示しにくいため、カオスマップ方式で系譜・得意領域のラベルごとに分類する。中央はクライアント企業。",
+    "tagline": "戦略・総合・IT・シンクタンク — 系譜と得意領域で読むファーム勢力図",
+    "editorial_note": "v1は公開情報ベース。カテゴリは代表的な括りであり、大手ファームは複数領域にまたがる。外資系の多くは非上場のため財務値は上場企業のみ。"
+  },
+  "layers": [
+    {
+      "id": "client",
+      "label": "クライアント",
+      "order": 1,
+      "icon": "🏢",
+      "description": "あらゆる業界の発注側企業"
+    },
+    {
+      "id": "firm",
+      "label": "ファーム分類",
+      "order": 2,
+      "icon": "💼",
+      "description": "系譜・得意領域ごとの大分類"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "client",
+      "role": "クライアント企業(全業界)",
+      "layer": "client",
+      "description": "経営課題を持つあらゆる業界の企業・官公庁。プロジェクト単位のフィーでファームに発注する。",
+      "map": {
+        "ring": 0,
+        "angle": 0
+      },
+      "companies": [],
+      "note": "発注側は全業界にまたがるため個別掲載しない",
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "strategy",
+      "role": "戦略コンサル",
+      "layer": "firm",
+      "description": "経営戦略・全社変革が主戦場。外資御三家(MBB)を頂点とする系譜。",
+      "map": {
+        "ring": 1,
+        "angle": 0
+      },
+      "companies": [
+        {
+          "name": "マッキンゼー・アンド・カンパニー",
+          "url": "https://www.mckinsey.com/jp",
+          "hq": "米ニューヨーク(日本: 東京都港区)",
+          "listing": {
+            "market": "非上場"
+          }
+        },
+        {
+          "name": "ボストン コンサルティング グループ",
+          "url": "https://www.bcg.com/ja-jp/",
+          "hq": "米ボストン(日本: 東京都中央区)",
+          "listing": {
+            "market": "非上場"
+          }
+        },
+        {
+          "name": "ベイン・アンド・カンパニー",
+          "url": "https://www.bain.com/ja/",
+          "hq": "米ボストン(日本: 東京都港区)",
+          "listing": {
+            "market": "非上場"
+          }
+        },
+        {
+          "name": "アーサー・ディ・リトル",
+          "url": "https://www.adlittle.com/jp-ja",
+          "hq": "ベルギー・ブリュッセル(日本: 東京都港区)",
+          "listing": {
+            "market": "非上場"
+          }
+        },
+        {
+          "name": "ローランド・ベルガー",
+          "url": "https://www.rolandberger.com/ja/",
+          "hq": "独ミュンヘン(日本: 東京都港区)",
+          "listing": {
+            "market": "非上場"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "sogo",
+      "role": "総合コンサル",
+      "layer": "firm",
+      "description": "戦略から実行・ITまで一気通貫。監査法人系(BIG4)とアクセンチュアが二大勢力。",
+      "map": {
+        "ring": 1,
+        "angle": 60
+      },
+      "companies": [
+        {
+          "name": "アクセンチュア",
+          "url": "https://www.accenture.com/jp-ja",
+          "hq": "アイルランド・ダブリン(日本: 東京都港区)",
+          "employees": 770000,
+          "listing": {
+            "market": "NYSE"
+          },
+          "financials": {
+            "revenue_oku_jpy": 97500,
+            "market_cap_oku_jpy": 300000,
+            "as_of": "2025",
+            "note": "ドル150円換算・概算"
+          }
+        },
+        {
+          "name": "デロイト トーマツ コンサルティング",
+          "url": "https://www2.deloitte.com/jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "非上場(監査法人系)"
+          }
+        },
+        {
+          "name": "PwCコンサルティング",
+          "url": "https://www.pwc.com/jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "非上場(監査法人系)"
+          }
+        },
+        {
+          "name": "EYストラテジー・アンド・コンサルティング",
+          "url": "https://www.ey.com/ja_jp",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "非上場(監査法人系)"
+          }
+        },
+        {
+          "name": "KPMGコンサルティング",
+          "url": "https://kpmg.com/jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "非上場(監査法人系)"
+          }
+        },
+        {
+          "name": "アビームコンサルティング",
+          "url": "https://www.abeam.com/jp/",
+          "hq": "東京都中央区",
+          "employees": 8000,
+          "listing": {
+            "market": "非上場(NEC傘下)"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "it_consulting",
+      "role": "IT・DXコンサル",
+      "layer": "firm",
+      "description": "DX戦略からシステム実装まで。国内上場組の成長が著しい領域。",
+      "map": {
+        "ring": 1,
+        "angle": 120
+      },
+      "companies": [
+        {
+          "name": "ベイカレント",
+          "url": "https://www.baycurrent.co.jp/",
+          "hq": "東京都港区",
+          "employees": 5000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6532"
+          },
+          "financials": {
+            "revenue_oku_jpy": 1200,
+            "market_cap_oku_jpy": 6000,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "野村総合研究所",
+          "url": "https://www.nri.com/jp/",
+          "hq": "東京都千代田区",
+          "employees": 17000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "4307"
+          },
+          "financials": {
+            "revenue_oku_jpy": 7600,
+            "market_cap_oku_jpy": 30000,
+            "as_of": "2025",
+            "note": "概算。コンサル×SIの複合"
+          }
+        },
+        {
+          "name": "フューチャー",
+          "url": "https://www.future.co.jp/",
+          "hq": "東京都品川区",
+          "employees": 3000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "4722"
+          },
+          "financials": {
+            "revenue_oku_jpy": 600,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "シグマクシス",
+          "url": "https://www.sigmaxyz.com/",
+          "hq": "東京都港区",
+          "employees": 700,
+          "listing": {
+            "market": "東証プライム(シグマクシス・ホールディングス)",
+            "code": "6088"
+          },
+          "financials": {
+            "revenue_oku_jpy": 200,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "thinktank",
+      "role": "シンクタンク系",
+      "layer": "firm",
+      "description": "銀行・証券・官公庁系の調査研究+コンサル。政策・リサーチに強み。",
+      "map": {
+        "ring": 1,
+        "angle": 180
+      },
+      "companies": [
+        {
+          "name": "三菱総合研究所",
+          "url": "https://www.mri.co.jp/",
+          "hq": "東京都千代田区",
+          "employees": 4500,
+          "listing": {
+            "market": "東証プライム",
+            "code": "3636"
+          },
+          "financials": {
+            "revenue_oku_jpy": 1200,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "日本総合研究所",
+          "url": "https://www.jri.co.jp/",
+          "hq": "東京都品川区",
+          "listing": {
+            "market": "非上場(三井住友フィナンシャルグループ)"
+          }
+        },
+        {
+          "name": "みずほリサーチ&テクノロジーズ",
+          "url": "https://www.mizuho-rt.co.jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "非上場(みずほフィナンシャルグループ)"
+          }
+        },
+        {
+          "name": "NTTデータ経営研究所",
+          "url": "https://www.nttdata-strategy.com/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "非上場(NTTデータグループ)"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "fas",
+      "role": "財務・M&A・再生(FAS)",
+      "layer": "firm",
+      "description": "M&Aアドバイザリー・事業再生・企業価値評価。事業承継需要で拡大。",
+      "map": {
+        "ring": 1,
+        "angle": 240
+      },
+      "companies": [
+        {
+          "name": "山田コンサルティンググループ",
+          "url": "https://www.yamada-cg.co.jp/",
+          "hq": "東京都千代田区",
+          "employees": 1000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "4792"
+          },
+          "financials": {
+            "revenue_oku_jpy": 200,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "フロンティア・マネジメント",
+          "url": "https://www.frontier-mgmt.com/",
+          "hq": "東京都港区",
+          "employees": 400,
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "7038"
+          }
+        },
+        {
+          "name": "経営共創基盤(IGPI)",
+          "url": "https://www.igpi.co.jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "非上場"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "hr_org",
+      "role": "組織・人事コンサル",
+      "layer": "firm",
+      "description": "人事制度・組織開発・エンゲージメント。国内発の上場組が目立つ領域。",
+      "map": {
+        "ring": 1,
+        "angle": 300
+      },
+      "companies": [
+        {
+          "name": "リンクアンドモチベーション",
+          "url": "https://www.lmi.ne.jp/",
+          "hq": "東京都中央区",
+          "employees": 1500,
+          "listing": {
+            "market": "東証プライム",
+            "code": "2170"
+          },
+          "financials": {
+            "revenue_oku_jpy": 400,
+            "as_of": "2025",
+            "note": "概算"
+          }
+        },
+        {
+          "name": "識学",
+          "url": "https://corp.shikigaku.jp/",
+          "hq": "東京都品川区",
+          "employees": 200,
+          "listing": {
+            "market": "東証グロース",
+            "code": "7049"
+          }
+        },
+        {
+          "name": "マーサージャパン",
+          "url": "https://www.mercer.com/ja-jp/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "非上場(米Marsh McLennan傘下)"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ],
+  "edges": []
+}

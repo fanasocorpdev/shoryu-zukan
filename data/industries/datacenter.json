@@ -1,0 +1,1815 @@
+{
+  "$schema": "../schema.json",
+  "meta": {
+    "industry_id": "datacenter",
+    "industry_name": "データセンター",
+    "version": "0.1.0",
+    "updated": "2026-07-23",
+    "description": "データセンター業界の商流(モノ・サービスとカネの流れ)。中央のコロケーション事業者(DCサイト)を起点に、需要家・建設・設備・IT機器・電力通信・土地・資金・運用の各プレイヤーを地図状に配置する。",
+    "tagline": "AI需要が動かす、1棟数百億円の建設マネーと電力の奔流",
+    "editorial_note": "v1は公開情報ベースの業界構造。出典は構造レベル(JDCC・情報通信白書・各社公式サイト)にとどまるものが多く、個別エッジの一次情報URL(IR・プレスリリースの該当ページ)への差し替えが次の作業。金額感はすべて概算の規模表現であり、個社の非公開情報は含まない。"
+  },
+  "layers": [
+    {
+      "id": "demand",
+      "label": "需要家・テナント",
+      "order": 1,
+      "icon": "🏢",
+      "description": "DCを利用する側。クラウド事業者・一般企業・SIer"
+    },
+    {
+      "id": "dc_operator",
+      "label": "データセンター事業者",
+      "order": 2,
+      "icon": "🏯",
+      "description": "施設を保有・運営しラック/電力/接続性を提供する中核プレイヤー"
+    },
+    {
+      "id": "construction",
+      "label": "設計・建設",
+      "order": 3,
+      "icon": "🏗️",
+      "description": "設計事務所・ゼネコン・電気空調サブコン"
+    },
+    {
+      "id": "equipment",
+      "label": "設備・機器メーカー",
+      "order": 4,
+      "icon": "⚙️",
+      "description": "受変電・非常用発電・UPS・空調などファシリティ設備"
+    },
+    {
+      "id": "it_equipment",
+      "label": "IT機器",
+      "order": 5,
+      "icon": "🖥️",
+      "description": "サーバー・ネットワーク機器・半導体"
+    },
+    {
+      "id": "utility",
+      "label": "電力・通信",
+      "order": 6,
+      "icon": "⚡",
+      "description": "電力会社・再エネPPA・通信キャリア"
+    },
+    {
+      "id": "land",
+      "label": "土地・不動産",
+      "order": 7,
+      "icon": "🗻",
+      "description": "デベロッパー・地権者"
+    },
+    {
+      "id": "finance",
+      "label": "資金・公的支援",
+      "order": 8,
+      "icon": "💰",
+      "description": "銀行・投資ファンド・政府/自治体"
+    },
+    {
+      "id": "services",
+      "label": "運用・保守",
+      "order": 9,
+      "icon": "🛡️",
+      "description": "ファシリティマネジメント・警備"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "colo_operator",
+      "role": "コロケーション事業者(DCサイト)",
+      "layer": "dc_operator",
+      "description": "データセンター施設を保有・運営し、ラック・電力・空調・接続環境を提供する。地図の中心。",
+      "map": {
+        "ring": 0,
+        "angle": 0
+      },
+      "companies": [
+        {
+          "name": "エクイニクス・ジャパン",
+          "url": "https://www.equinix.com/",
+          "listing": {
+            "market": "NASDAQ(Equinix)"
+          }
+        },
+        {
+          "name": "NTTグローバルデータセンター",
+          "listing": {
+            "market": "非上場(NTTグループ)"
+          }
+        },
+        {
+          "name": "TELEHOUSE(KDDIグループ)",
+          "listing": {
+            "market": "非上場(KDDI傘下)"
+          }
+        },
+        {
+          "name": "アット東京",
+          "url": "https://www.attokyo.co.jp/",
+          "listing": {
+            "market": "非上場(セコムグループ等)"
+          }
+        },
+        {
+          "name": "さくらインターネット",
+          "url": "https://www.sakura.ad.jp/",
+          "financials": {
+            "revenue_oku_jpy": 260,
+            "market_cap_oku_jpy": 1500,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "大阪市北区",
+          "employees": 800,
+          "listing": {
+            "market": "東証プライム",
+            "code": "3778"
+          }
+        },
+        {
+          "name": "IDCフロンティア",
+          "url": "https://www.idcf.jp/",
+          "listing": {
+            "market": "非上場(ソフトバンク傘下)"
+          }
+        },
+        {
+          "name": "MCデジタル・リアルティ",
+          "url": "https://www.mc-digitalrealty.com/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "非上場(三菱商事×デジタル・リアルティJV)"
+          }
+        },
+        {
+          "name": "ブロードバンドタワー",
+          "employees": 300,
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3776"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.jdcc.or.jp/",
+          "publisher": "日本データセンター協会(JDCC)",
+          "note": "会員名簿を実名企業リストの主出典とする"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "hyperscaler",
+      "role": "クラウド事業者(ハイパースケーラー)",
+      "layer": "demand",
+      "description": "大口テナントであると同時に自社DCも建設する。コロケーション大口賃借(ホールセール)とIT機器大量調達の主体。",
+      "map": {
+        "ring": 1,
+        "angle": 0
+      },
+      "companies": [
+        {
+          "name": "アマゾン ウェブ サービス(AWS)",
+          "url": "https://aws.amazon.com/jp/",
+          "hq": "東京都品川区(日本法人)",
+          "listing": {
+            "market": "NASDAQ(Amazon.com)"
+          }
+        },
+        {
+          "name": "Google Cloud",
+          "url": "https://cloud.google.com/",
+          "hq": "東京都渋谷区(日本法人)",
+          "listing": {
+            "market": "NASDAQ(Alphabet)"
+          }
+        },
+        {
+          "name": "Microsoft(Azure)",
+          "url": "https://azure.microsoft.com/ja-jp/",
+          "hq": "東京都港区(日本法人)",
+          "listing": {
+            "market": "NASDAQ"
+          }
+        },
+        {
+          "name": "Oracle",
+          "url": "https://www.oracle.com/jp/",
+          "hq": "東京都港区(日本法人)",
+          "employees": 160000,
+          "listing": {
+            "market": "NYSE"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/",
+          "publisher": "総務省 情報通信白書",
+          "note": "クラウド市場・DC投資動向の構造出典"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "enterprise_user",
+      "role": "一般企業・官公庁(エンドユーザー)",
+      "layer": "demand",
+      "description": "金融・製造・官公庁など。直接またはSIer経由でコロケーション/クラウドを利用する。",
+      "map": {
+        "ring": 2,
+        "angle": 30
+      },
+      "companies": [],
+      "note": "実名掲載は企業の自己登録ベースで拡充予定",
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "sier",
+      "role": "SIer・マネージドサービス事業者",
+      "layer": "demand",
+      "description": "エンドユーザーのシステム構築・運用を受託し、DC利用や機器調達を再販の形で仲介する中間流通。",
+      "map": {
+        "ring": 1,
+        "angle": 30
+      },
+      "companies": [
+        {
+          "name": "NTTデータ",
+          "url": "https://www.nttdata.com/global/ja/",
+          "financials": {
+            "revenue_oku_jpy": 44000,
+            "market_cap_oku_jpy": 40000,
+            "as_of": "2025",
+            "note": "NTTデータグループ連結・概算"
+          },
+          "hq": "東京都江東区",
+          "employees": 195000,
+          "listing": {
+            "market": "東証プライム(NTTデータグループ)",
+            "code": "9613"
+          }
+        },
+        {
+          "name": "野村総合研究所",
+          "url": "https://www.nri.com/jp/",
+          "financials": {
+            "revenue_oku_jpy": 7600,
+            "market_cap_oku_jpy": 30000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "東京都千代田区",
+          "employees": 17000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "4307"
+          }
+        },
+        {
+          "name": "伊藤忠テクノソリューションズ",
+          "url": "https://www.ctc-g.co.jp/",
+          "employees": 10000,
+          "listing": {
+            "market": "非上場(伊藤忠商事傘下)"
+          }
+        },
+        {
+          "name": "SCSK",
+          "url": "https://www.scsk.jp/",
+          "financials": {
+            "revenue_oku_jpy": 4900,
+            "market_cap_oku_jpy": 12000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "東京都江東区",
+          "employees": 16000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "9719"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "carrier_network",
+      "role": "通信キャリア・回線事業者",
+      "layer": "utility",
+      "description": "DCへの専用線・ダークファイバー・IX接続を提供。DC内にPOPを置く場合はテナントにもなる。",
+      "map": {
+        "ring": 1,
+        "angle": 75
+      },
+      "companies": [
+        {
+          "name": "NTT東日本",
+          "url": "https://www.ntt-east.co.jp/",
+          "hq": "東京都新宿区",
+          "employees": 30000,
+          "listing": {
+            "market": "非上場(NTT傘下)"
+          }
+        },
+        {
+          "name": "NTT西日本",
+          "url": "https://www.ntt-west.co.jp/",
+          "hq": "大阪市都島区",
+          "employees": 25000,
+          "listing": {
+            "market": "非上場(NTT傘下)"
+          }
+        },
+        {
+          "name": "KDDI",
+          "url": "https://www.kddi.com/",
+          "hq": "東京都新宿区",
+          "employees": 60000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "9433"
+          }
+        },
+        {
+          "name": "ソフトバンク",
+          "url": "https://www.softbank.jp/",
+          "hq": "東京都港区",
+          "employees": 55000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "9434"
+          }
+        },
+        {
+          "name": "アルテリア・ネットワークス",
+          "url": "https://www.arteria-net.com/",
+          "hq": "東京都港区",
+          "employees": 1200,
+          "listing": {
+            "market": "非上場(丸紅グループ)"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "power_utility",
+      "role": "電力会社(小売・送配電)",
+      "layer": "utility",
+      "description": "特別高圧での受電契約。電気料金はDC運営コストの最大項目で、立地選定(系統容量)も左右する。",
+      "map": {
+        "ring": 1,
+        "angle": 105
+      },
+      "companies": [
+        {
+          "name": "東京電力エナジーパートナー",
+          "url": "https://www.tepco.co.jp/ep/",
+          "hq": "東京都千代田区",
+          "employees": 5000,
+          "listing": {
+            "market": "非上場(東京電力HD傘下)"
+          }
+        },
+        {
+          "name": "東京電力パワーグリッド",
+          "url": "https://www.tepco.co.jp/pg/",
+          "hq": "東京都千代田区",
+          "employees": 17000,
+          "listing": {
+            "market": "非上場(東京電力HD傘下)"
+          }
+        },
+        {
+          "name": "関西電力",
+          "url": "https://www.kepco.co.jp/",
+          "hq": "大阪市北区",
+          "employees": 32000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "9503"
+          }
+        },
+        {
+          "name": "北海道電力",
+          "url": "https://www.hepco.co.jp/",
+          "hq": "札幌市中央区",
+          "employees": 10000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "9509"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "renewable_ppa",
+      "role": "再エネ発電・PPA事業者",
+      "layer": "utility",
+      "description": "コーポレートPPAでDCに再エネ電力を長期供給。テナント(特にハイパースケーラー)の脱炭素要件が需要ドライバー。",
+      "map": {
+        "ring": 2,
+        "angle": 105
+      },
+      "companies": [
+        {
+          "name": "NTTアノードエナジー",
+          "url": "https://www.ntt-ae.co.jp/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "非上場(NTTグループ)"
+          }
+        },
+        {
+          "name": "自然電力",
+          "url": "https://www.shizenenergy.net/",
+          "hq": "福岡市中央区",
+          "listing": {
+            "market": "非上場"
+          }
+        },
+        {
+          "name": "クリーンエナジーコネクト",
+          "listing": {
+            "market": "非上場"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "maintenance_ops",
+      "role": "運用・保守事業者(FM・警備)",
+      "layer": "services",
+      "description": "24時間の設備監視・保守・警備・清掃。ファシリティマネジメントの受託。",
+      "map": {
+        "ring": 1,
+        "angle": 135
+      },
+      "companies": [
+        {
+          "name": "NTTファシリティーズ",
+          "url": "https://www.ntt-f.co.jp/",
+          "hq": "東京都港区",
+          "employees": 5000,
+          "listing": {
+            "market": "非上場(NTTグループ)"
+          }
+        },
+        {
+          "name": "三機工業",
+          "url": "https://www.sanki.co.jp/",
+          "hq": "東京都",
+          "employees": 2600,
+          "listing": {
+            "market": "東証プライム",
+            "code": "1961"
+          }
+        },
+        {
+          "name": "セコム",
+          "url": "https://www.secom.co.jp/",
+          "hq": "東京都渋谷区",
+          "employees": 65000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "9735"
+          }
+        },
+        {
+          "name": "ALSOK(綜合警備保障)",
+          "url": "https://www.alsok.co.jp/",
+          "hq": "東京都港区",
+          "employees": 40000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "2331"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "design_firm",
+      "role": "設計・エンジニアリング会社",
+      "layer": "construction",
+      "description": "DC特有の電源・空調・耐荷重要件を踏まえた設計・監理。",
+      "map": {
+        "ring": 2,
+        "angle": 150
+      },
+      "companies": [
+        {
+          "name": "NTTファシリティーズ",
+          "url": "https://www.ntt-f.co.jp/",
+          "hq": "東京都港区",
+          "employees": 5000,
+          "listing": {
+            "market": "非上場(NTTグループ)"
+          }
+        },
+        {
+          "name": "日建設計",
+          "url": "https://www.nikken.jp/",
+          "hq": "東京都千代田区",
+          "employees": 3000,
+          "listing": {
+            "market": "非上場"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "general_contractor",
+      "role": "ゼネコン(建設)",
+      "layer": "construction",
+      "description": "DC建屋の施工を元請けとして受注。データセンターは建設市場の主要セグメントに成長。",
+      "map": {
+        "ring": 1,
+        "angle": 165
+      },
+      "companies": [
+        {
+          "name": "鹿島建設",
+          "url": "https://www.kajima.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 26000,
+            "market_cap_oku_jpy": 16000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "東京都港区",
+          "employees": 20000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "1812"
+          }
+        },
+        {
+          "name": "大成建設",
+          "url": "https://www.taisei.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 18000,
+            "market_cap_oku_jpy": 12000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "東京都新宿区",
+          "employees": 15000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "1801"
+          }
+        },
+        {
+          "name": "大林組",
+          "url": "https://www.obayashi.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 23000,
+            "market_cap_oku_jpy": 11000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "東京都港区",
+          "employees": 16000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "1802"
+          }
+        },
+        {
+          "name": "清水建設",
+          "url": "https://www.shimz.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 20000,
+            "market_cap_oku_jpy": 8000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "東京都中央区",
+          "employees": 20000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "1803"
+          }
+        },
+        {
+          "name": "竹中工務店",
+          "url": "https://www.takenaka.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 16000,
+            "as_of": "2025",
+            "note": "非上場・概算"
+          },
+          "hq": "大阪市中央区",
+          "employees": 8000,
+          "listing": {
+            "market": "非上場"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "subcontractor",
+      "role": "電気・空調サブコン",
+      "layer": "construction",
+      "description": "ゼネコンからの下請で電気設備工事・空調衛生工事を施工。設備メーカーからの機器調達の窓口にもなる。",
+      "map": {
+        "ring": 2,
+        "angle": 180
+      },
+      "companies": [
+        {
+          "name": "きんでん",
+          "url": "https://www.kinden.co.jp/",
+          "hq": "大阪市北区",
+          "employees": 11000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "1944"
+          }
+        },
+        {
+          "name": "関電工",
+          "url": "https://www.kandenko.co.jp/",
+          "hq": "東京都港区",
+          "employees": 9000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "1942"
+          }
+        },
+        {
+          "name": "高砂熱学工業",
+          "url": "https://www.tte-net.com/",
+          "hq": "東京都新宿区",
+          "employees": 6500,
+          "listing": {
+            "market": "東証プライム",
+            "code": "1969"
+          }
+        },
+        {
+          "name": "新菱冷熱工業",
+          "url": "https://www.shinryo.com/",
+          "hq": "東京都新宿区",
+          "employees": 3000,
+          "listing": {
+            "market": "非上場"
+          }
+        },
+        {
+          "name": "ダイダン",
+          "url": "https://www.daidan.co.jp/",
+          "hq": "大阪市西区",
+          "employees": 1800,
+          "listing": {
+            "market": "東証プライム",
+            "code": "1980"
+          }
+        },
+        {
+          "name": "九電工",
+          "url": "https://www.kyudenko.co.jp/",
+          "hq": "福岡市南区",
+          "employees": 9000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "1959"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "electrical_equipment",
+      "role": "電源設備メーカー(受変電・発電機・UPS)",
+      "layer": "equipment",
+      "description": "特別高圧受変電設備・非常用発電機・UPS・PDUなど。大型機器は施主(DC事業者)直接調達の商流もある。",
+      "map": {
+        "ring": 2,
+        "angle": 210
+      },
+      "companies": [
+        {
+          "name": "三菱電機",
+          "url": "https://www.mitsubishielectric.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 55000,
+            "market_cap_oku_jpy": 60000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "東京都千代田区",
+          "employees": 150000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6503"
+          }
+        },
+        {
+          "name": "富士電機",
+          "url": "https://www.fujielectric.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 11000,
+            "market_cap_oku_jpy": 12000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "東京都品川区",
+          "employees": 28000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6504"
+          }
+        },
+        {
+          "name": "TMEIC",
+          "url": "https://www.tmeic.co.jp/",
+          "hq": "東京都中央区",
+          "listing": {
+            "market": "非上場"
+          }
+        },
+        {
+          "name": "東芝インフラシステムズ",
+          "hq": "川崎市幸区",
+          "listing": {
+            "market": "非上場(東芝傘下)"
+          }
+        },
+        {
+          "name": "シュナイダーエレクトリック",
+          "url": "https://www.se.com/jp/ja/",
+          "hq": "仏リュエイユ=マルメゾン",
+          "employees": 150000,
+          "listing": {
+            "market": "ユーロネクスト・パリ"
+          }
+        },
+        {
+          "name": "Vertiv",
+          "url": "https://www.vertiv.com/",
+          "hq": "米オハイオ州ウェスタービル",
+          "employees": 27000,
+          "listing": {
+            "market": "NYSE"
+          }
+        },
+        {
+          "name": "ヤンマーエネルギーシステム",
+          "hq": "大阪市北区",
+          "listing": {
+            "market": "非上場(ヤンマーHD傘下)"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "cooling_equipment",
+      "role": "空調・冷却設備メーカー",
+      "layer": "equipment",
+      "description": "空調機・チラー・液冷設備。AIサーバーの高発熱化で液冷(DLC)が新たな商流に。",
+      "map": {
+        "ring": 2,
+        "angle": 225
+      },
+      "companies": [
+        {
+          "name": "ダイキン工業",
+          "url": "https://www.daikin.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 47000,
+            "market_cap_oku_jpy": 55000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "大阪市北区",
+          "employees": 98000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6367"
+          }
+        },
+        {
+          "name": "新晃工業",
+          "url": "https://www.sinko.co.jp/",
+          "hq": "大阪市北区",
+          "employees": 1300,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6458"
+          }
+        },
+        {
+          "name": "三菱重工サーマルシステムズ",
+          "listing": {
+            "market": "非上場(三菱重工業傘下)"
+          }
+        },
+        {
+          "name": "Vertiv",
+          "url": "https://www.vertiv.com/",
+          "hq": "米オハイオ州ウェスタービル",
+          "employees": 27000,
+          "listing": {
+            "market": "NYSE"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "semiconductor",
+      "role": "半導体メーカー(GPU・CPU)",
+      "layer": "it_equipment",
+      "related_industry": "semiconductor",
+      "description": "AI需要の源流。GPUの供給がDC建設・電力需要全体を駆動している。",
+      "map": {
+        "ring": 2,
+        "angle": 240
+      },
+      "companies": [
+        {
+          "name": "NVIDIA",
+          "url": "https://www.nvidia.com/ja-jp/",
+          "financials": {
+            "revenue_oku_jpy": 195000,
+            "market_cap_oku_jpy": 6500000,
+            "as_of": "2025",
+            "note": "ドル150円換算・概算"
+          },
+          "hq": "米カリフォルニア州サンタクララ",
+          "employees": 30000,
+          "listing": {
+            "market": "NASDAQ"
+          }
+        },
+        {
+          "name": "AMD",
+          "url": "https://www.amd.com/ja.html",
+          "financials": {
+            "revenue_oku_jpy": 39000,
+            "market_cap_oku_jpy": 400000,
+            "as_of": "2025",
+            "note": "ドル150円換算・概算"
+          },
+          "hq": "米カリフォルニア州サンタクララ",
+          "employees": 28000,
+          "listing": {
+            "market": "NASDAQ"
+          }
+        },
+        {
+          "name": "インテル",
+          "url": "https://www.intel.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 80000,
+            "market_cap_oku_jpy": 150000,
+            "as_of": "2025",
+            "note": "ドル150円換算・概算"
+          },
+          "hq": "米カリフォルニア州サンタクララ",
+          "employees": 100000,
+          "listing": {
+            "market": "NASDAQ"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "server_vendor",
+      "role": "サーバー・ストレージベンダー",
+      "layer": "it_equipment",
+      "description": "IT機器はコロケーションではテナント側資産。ハイパースケーラー向け大量納入とSIer経由の企業向け販売の二つの商流。",
+      "map": {
+        "ring": 1,
+        "angle": 255
+      },
+      "companies": [
+        {
+          "name": "デル・テクノロジーズ",
+          "url": "https://www.dell.com/ja-jp",
+          "financials": {
+            "revenue_oku_jpy": 143000,
+            "market_cap_oku_jpy": 120000,
+            "as_of": "2025",
+            "note": "ドル150円換算・概算"
+          },
+          "hq": "米テキサス州ラウンドロック",
+          "employees": 108000,
+          "listing": {
+            "market": "NYSE"
+          }
+        },
+        {
+          "name": "HPE",
+          "url": "https://www.hpe.com/jp/",
+          "hq": "米テキサス州スプリング",
+          "employees": 60000,
+          "listing": {
+            "market": "NYSE"
+          }
+        },
+        {
+          "name": "Supermicro",
+          "url": "https://www.supermicro.com/",
+          "hq": "米カリフォルニア州サンノゼ",
+          "employees": 5700,
+          "listing": {
+            "market": "NASDAQ"
+          }
+        },
+        {
+          "name": "富士通",
+          "url": "https://www.fujitsu.com/jp/",
+          "financials": {
+            "revenue_oku_jpy": 37000,
+            "market_cap_oku_jpy": 60000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "川崎市中原区",
+          "employees": 124000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6702"
+          }
+        },
+        {
+          "name": "NEC",
+          "url": "https://jpn.nec.com/",
+          "financials": {
+            "revenue_oku_jpy": 34000,
+            "market_cap_oku_jpy": 40000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "東京都港区",
+          "employees": 105000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6701"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "network_vendor",
+      "role": "ネットワーク機器ベンダー",
+      "layer": "it_equipment",
+      "description": "スイッチ・ルーター・光トランシーバー。AIクラスタの東西トラフィック増で需要拡大。",
+      "map": {
+        "ring": 2,
+        "angle": 270
+      },
+      "companies": [
+        {
+          "name": "シスコシステムズ",
+          "url": "https://www.cisco.com/c/ja_jp/",
+          "financials": {
+            "revenue_oku_jpy": 82000,
+            "market_cap_oku_jpy": 390000,
+            "as_of": "2025",
+            "note": "ドル150円換算・概算"
+          },
+          "hq": "米カリフォルニア州サンノゼ",
+          "employees": 90000,
+          "listing": {
+            "market": "NASDAQ"
+          }
+        },
+        {
+          "name": "アリスタネットワークス",
+          "url": "https://www.arista.com/",
+          "hq": "米カリフォルニア州サンタクララ",
+          "employees": 4000,
+          "listing": {
+            "market": "NYSE"
+          }
+        },
+        {
+          "name": "ジュニパーネットワークス",
+          "url": "https://www.juniper.net/jp/",
+          "hq": "米カリフォルニア州サニーベール",
+          "employees": 11000,
+          "listing": {
+            "market": "NYSE"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "landowner",
+      "role": "不動産デベロッパー・地権者",
+      "layer": "land",
+      "description": "DC用地の供給・開発。物流施設系デベロッパーがDC開発に参入する動きが顕著。",
+      "map": {
+        "ring": 1,
+        "angle": 300
+      },
+      "companies": [
+        {
+          "name": "三井不動産",
+          "url": "https://www.mitsuifudosan.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 25000,
+            "market_cap_oku_jpy": 40000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "東京都中央区",
+          "employees": 20000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8801"
+          }
+        },
+        {
+          "name": "三菱地所",
+          "url": "https://www.mec.co.jp/",
+          "financials": {
+            "revenue_oku_jpy": 15000,
+            "market_cap_oku_jpy": 35000,
+            "as_of": "2025",
+            "note": "概算。IR確定値へ差し替え予定"
+          },
+          "hq": "東京都千代田区",
+          "employees": 11000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8802"
+          }
+        },
+        {
+          "name": "グッドマンジャパン",
+          "url": "https://www.goodman.com/",
+          "listing": {
+            "market": "非上場(豪Goodman Group)"
+          }
+        },
+        {
+          "name": "日本GLP",
+          "url": "https://www.glp.com/jp/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "非上場"
+          }
+        },
+        {
+          "name": "ESR",
+          "url": "https://www.esr.com/",
+          "listing": {
+            "market": "非上場(香港証取から非公開化)"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "government",
+      "role": "政府・自治体",
+      "layer": "finance",
+      "description": "経済安全保障(クラウドプログラム)による整備補助、自治体のDC誘致・税制優遇。受け手として固定資産税も。",
+      "map": {
+        "ring": 2,
+        "angle": 315
+      },
+      "companies": [
+        {
+          "name": "経済産業省",
+          "url": "https://www.meti.go.jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "行政機関"
+          }
+        },
+        {
+          "name": "総務省",
+          "url": "https://www.soumu.go.jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "行政機関"
+          }
+        },
+        {
+          "name": "立地自治体(例: 印西市・千歳市)"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "finance_investor",
+      "role": "投資ファンド・REIT",
+      "layer": "finance",
+      "description": "DCを不動産アセットとして保有・出資。海外系ファンドの大型投資が相次ぐ。",
+      "map": {
+        "ring": 2,
+        "angle": 330
+      },
+      "companies": [
+        {
+          "name": "産業ファンド投資法人",
+          "hq": "東京都",
+          "listing": {
+            "market": "東証REIT",
+            "code": "3249"
+          }
+        },
+        {
+          "name": "ブラックストーン",
+          "url": "https://www.blackstone.com/",
+          "hq": "米ニューヨーク",
+          "employees": 5000,
+          "listing": {
+            "market": "NYSE"
+          }
+        },
+        {
+          "name": "GIC",
+          "url": "https://www.gic.com.sg/",
+          "hq": "シンガポール",
+          "employees": 2000,
+          "listing": {
+            "market": "非上場(シンガポール政府系)"
+          }
+        },
+        {
+          "name": "KKR",
+          "url": "https://www.kkr.com/",
+          "hq": "米ニューヨーク",
+          "employees": 4000,
+          "listing": {
+            "market": "NYSE"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "bank_lender",
+      "role": "銀行・リース会社",
+      "layer": "finance",
+      "description": "プロジェクトファイナンス・設備融資・リース。大型化するDC投資の資金供給源。",
+      "map": {
+        "ring": 1,
+        "angle": 330
+      },
+      "companies": [
+        {
+          "name": "三菱UFJ銀行",
+          "url": "https://www.bk.mufg.jp/",
+          "hq": "東京都千代田区",
+          "employees": 120000,
+          "listing": {
+            "market": "東証プライム(三菱UFJフィナンシャル・グループ)",
+            "code": "8306"
+          }
+        },
+        {
+          "name": "三井住友銀行",
+          "url": "https://www.smbc.co.jp/",
+          "hq": "東京都千代田区",
+          "employees": 120000,
+          "listing": {
+            "market": "東証プライム(三井住友フィナンシャルグループ)",
+            "code": "8316"
+          }
+        },
+        {
+          "name": "みずほ銀行",
+          "url": "https://www.mizuhobank.co.jp/",
+          "hq": "東京都千代田区",
+          "employees": 50000,
+          "listing": {
+            "market": "東証プライム(みずほフィナンシャルグループ)",
+            "code": "8411"
+          }
+        },
+        {
+          "name": "日本政策投資銀行",
+          "url": "https://www.dbj.jp/",
+          "hq": "東京都千代田区",
+          "employees": 1300,
+          "listing": {
+            "market": "非上場(政府系)"
+          }
+        },
+        {
+          "name": "三井住友ファイナンス&リース",
+          "url": "https://www.smfl.co.jp/",
+          "hq": "東京都千代田区",
+          "employees": 3000,
+          "listing": {
+            "market": "非上場"
+          }
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ],
+  "edges": [
+    {
+      "id": "opex_user_colo",
+      "from": "enterprise_user",
+      "to": "colo_operator",
+      "flow_type": "opex",
+      "label": "コロケーション利用料(ラック・電力・接続)",
+      "amount_note": "月額・ラック単位の継続課金",
+      "sources": [
+        {
+          "url": "https://www.jdcc.or.jp/",
+          "publisher": "JDCC",
+          "note": "業界一般構造。個別料金体系は各社公表資料へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_colo_user",
+      "from": "colo_operator",
+      "to": "enterprise_user",
+      "flow_type": "goods",
+      "label": "ラック・電源・空調・接続環境の提供",
+      "sources": [
+        {
+          "url": "https://www.jdcc.or.jp/",
+          "publisher": "JDCC"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_user_hyperscaler",
+      "from": "enterprise_user",
+      "to": "hyperscaler",
+      "flow_type": "opex",
+      "label": "クラウド利用料",
+      "sources": [
+        {
+          "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/",
+          "publisher": "総務省 情報通信白書"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_hyperscaler_user",
+      "from": "hyperscaler",
+      "to": "enterprise_user",
+      "flow_type": "goods",
+      "label": "クラウドサービス提供(IaaS/PaaS/SaaS)",
+      "sources": [
+        {
+          "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/",
+          "publisher": "総務省 情報通信白書"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_user_sier",
+      "from": "enterprise_user",
+      "to": "sier",
+      "flow_type": "opex",
+      "label": "システム構築・運用委託費",
+      "sources": [
+        {
+          "url": "https://www.jdcc.or.jp/",
+          "publisher": "JDCC",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_sier_user",
+      "from": "sier",
+      "to": "enterprise_user",
+      "flow_type": "goods",
+      "label": "SI・マネージドサービス提供",
+      "sources": [
+        {
+          "url": "https://www.jdcc.or.jp/",
+          "publisher": "JDCC",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_sier_colo",
+      "from": "sier",
+      "to": "colo_operator",
+      "flow_type": "opex",
+      "label": "ハウジング調達費(エンドユーザー向け再販)",
+      "sources": [
+        {
+          "url": "https://www.jdcc.or.jp/",
+          "publisher": "JDCC",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_hyperscaler_colo",
+      "from": "hyperscaler",
+      "to": "colo_operator",
+      "flow_type": "opex",
+      "label": "ホールセールコロケーション賃借料(棟・フロア単位)",
+      "amount_note": "長期契約・大口。国内DC需要の主要ドライバー",
+      "sources": [
+        {
+          "url": "https://www.jdcc.or.jp/",
+          "publisher": "JDCC",
+          "note": "業界一般構造。個別契約は非公開のため構造のみ記載"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_colo_hyperscaler",
+      "from": "colo_operator",
+      "to": "hyperscaler",
+      "flow_type": "goods",
+      "label": "ホールセールコロケーション提供",
+      "sources": [
+        {
+          "url": "https://www.jdcc.or.jp/",
+          "publisher": "JDCC"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_colo_power",
+      "from": "colo_operator",
+      "to": "power_utility",
+      "flow_type": "opex",
+      "label": "電気料金(特別高圧)",
+      "amount_note": "DC運営コストの最大項目。テナントへは実費+マージンで転嫁される構造",
+      "sources": [
+        {
+          "url": "https://www.jdcc.or.jp/",
+          "publisher": "JDCC",
+          "note": "コスト構造の一般解説。比率の一次情報は要確定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_power_colo",
+      "from": "power_utility",
+      "to": "colo_operator",
+      "flow_type": "goods",
+      "label": "電力供給(特別高圧受電)",
+      "sources": [
+        {
+          "url": "https://www.jdcc.or.jp/",
+          "publisher": "JDCC"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_colo_ppa",
+      "from": "colo_operator",
+      "to": "renewable_ppa",
+      "flow_type": "opex",
+      "label": "再エネ電力購入費(コーポレートPPA)",
+      "amount_note": "長期固定価格契約が中心",
+      "sources": [
+        {
+          "url": "https://www.ntt-ae.co.jp/",
+          "publisher": "NTTアノードエナジー",
+          "note": "PPA事例のプレスリリースへ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_colo_carrier",
+      "from": "colo_operator",
+      "to": "carrier_network",
+      "flow_type": "opex",
+      "label": "専用線・ダークファイバー利用料",
+      "sources": [
+        {
+          "url": "https://www.arteria-net.com/",
+          "publisher": "アルテリア・ネットワークス",
+          "note": "サービス構造の出典。詳細ページ要確定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_carrier_colo",
+      "from": "carrier_network",
+      "to": "colo_operator",
+      "flow_type": "goods",
+      "label": "通信回線・接続性の提供",
+      "sources": [
+        {
+          "url": "https://www.jdcc.or.jp/",
+          "publisher": "JDCC"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_colo_gc",
+      "from": "colo_operator",
+      "to": "general_contractor",
+      "flow_type": "capex",
+      "label": "建設工事費",
+      "amount_note": "1棟あたり数百億〜1,000億円規模(公表案件ベースの概算)",
+      "sources": [
+        {
+          "url": "https://www.kajima.co.jp/",
+          "publisher": "ゼネコン各社",
+          "note": "受注プレスリリースの該当ページへ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_gc_colo",
+      "from": "general_contractor",
+      "to": "colo_operator",
+      "flow_type": "goods",
+      "label": "DC建屋の施工・引渡し",
+      "sources": [
+        {
+          "url": "https://www.kajima.co.jp/",
+          "publisher": "ゼネコン各社"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_hyperscaler_gc",
+      "from": "hyperscaler",
+      "to": "general_contractor",
+      "flow_type": "capex",
+      "label": "自社DC建設工事費",
+      "amount_note": "国内投資計画は数千億〜兆円規模の公表あり(AWS・Microsoft等)",
+      "sources": [
+        {
+          "url": "https://aws.amazon.com/jp/",
+          "publisher": "各社発表",
+          "note": "国内投資計画のプレスリリースへ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_colo_design",
+      "from": "colo_operator",
+      "to": "design_firm",
+      "flow_type": "capex",
+      "label": "設計・監理料",
+      "sources": [
+        {
+          "url": "https://www.ntt-f.co.jp/",
+          "publisher": "NTTファシリティーズ",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_gc_subcon",
+      "from": "general_contractor",
+      "to": "subcontractor",
+      "flow_type": "capex",
+      "label": "電気・空調工事の下請発注",
+      "amount_note": "DC建設費に占める電気・空調設備工事の比率は一般建築より高い",
+      "sources": [
+        {
+          "url": "https://www.kinden.co.jp/",
+          "publisher": "サブコン各社",
+          "note": "決算説明資料のDC受注動向へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_subcon_elec",
+      "from": "subcontractor",
+      "to": "electrical_equipment",
+      "flow_type": "capex",
+      "label": "受変電・非常用発電・UPS機器の調達",
+      "sources": [
+        {
+          "url": "https://www.jdcc.or.jp/",
+          "publisher": "JDCC",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_elec_subcon",
+      "from": "electrical_equipment",
+      "to": "subcontractor",
+      "flow_type": "goods",
+      "label": "電源設備の納入",
+      "sources": [
+        {
+          "url": "https://www.jdcc.or.jp/",
+          "publisher": "JDCC",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_subcon_cooling",
+      "from": "subcontractor",
+      "to": "cooling_equipment",
+      "flow_type": "capex",
+      "label": "空調・冷却設備の調達",
+      "sources": [
+        {
+          "url": "https://www.jdcc.or.jp/",
+          "publisher": "JDCC",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_cooling_subcon",
+      "from": "cooling_equipment",
+      "to": "subcontractor",
+      "flow_type": "goods",
+      "label": "空調・冷却設備の納入",
+      "sources": [
+        {
+          "url": "https://www.jdcc.or.jp/",
+          "publisher": "JDCC",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_colo_elec_direct",
+      "from": "colo_operator",
+      "to": "electrical_equipment",
+      "flow_type": "capex",
+      "label": "大型機器の施主直接調達",
+      "note": "発電機・UPSなど納期の長い機器は施主が直接発注する商流もある(サブコン経由と併存)",
+      "sources": [
+        {
+          "url": "https://www.jdcc.or.jp/",
+          "publisher": "JDCC",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_hyperscaler_server",
+      "from": "hyperscaler",
+      "to": "server_vendor",
+      "flow_type": "capex",
+      "label": "サーバー・ストレージの大量調達",
+      "amount_note": "AI向けGPUサーバーが投資額の中心",
+      "sources": [
+        {
+          "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/",
+          "publisher": "総務省 情報通信白書"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_server_hyperscaler",
+      "from": "server_vendor",
+      "to": "hyperscaler",
+      "flow_type": "goods",
+      "label": "サーバー・ストレージの納入",
+      "sources": [
+        {
+          "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/",
+          "publisher": "総務省 情報通信白書"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_sier_server",
+      "from": "sier",
+      "to": "server_vendor",
+      "flow_type": "capex",
+      "label": "IT機器仕入(エンドユーザー向け再販)",
+      "note": "コロケーションではIT機器はテナント側資産。SIerが調達を代行する商流が太い",
+      "sources": [
+        {
+          "url": "https://www.jdcc.or.jp/",
+          "publisher": "JDCC",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_server_semi",
+      "from": "server_vendor",
+      "to": "semiconductor",
+      "flow_type": "opex",
+      "label": "半導体仕入(GPU・CPU)",
+      "note": "継続的な部材仕入のためopexに分類",
+      "sources": [
+        {
+          "url": "https://www.nvidia.com/ja-jp/",
+          "publisher": "NVIDIA",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_semi_server",
+      "from": "semiconductor",
+      "to": "server_vendor",
+      "flow_type": "goods",
+      "label": "GPU・CPUの供給",
+      "sources": [
+        {
+          "url": "https://www.nvidia.com/ja-jp/",
+          "publisher": "NVIDIA",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_hyperscaler_network",
+      "from": "hyperscaler",
+      "to": "network_vendor",
+      "flow_type": "capex",
+      "label": "ネットワーク機器の調達",
+      "sources": [
+        {
+          "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/",
+          "publisher": "総務省 情報通信白書",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_colo_land",
+      "from": "colo_operator",
+      "to": "landowner",
+      "flow_type": "capex",
+      "label": "用地取得費",
+      "amount_note": "系統容量のある土地の希少化で高騰傾向",
+      "sources": [
+        {
+          "url": "https://www.glp.com/jp/",
+          "publisher": "デベロッパー各社",
+          "note": "DC開発プレスリリースへ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_colo_land_lease",
+      "from": "colo_operator",
+      "to": "landowner",
+      "flow_type": "opex",
+      "label": "土地・建物賃借料(BTS・リースバック型)",
+      "note": "取得ではなくデベロッパー保有物件を長期賃借する商流も併存する",
+      "sources": [
+        {
+          "url": "https://www.glp.com/jp/",
+          "publisher": "デベロッパー各社",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_gov_colo",
+      "from": "government",
+      "to": "colo_operator",
+      "flow_type": "capex",
+      "label": "整備補助金(経済安全保障・クラウドプログラム等)",
+      "amount_note": "さくらインターネットのGPUクラウド基盤整備など認定事例あり",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/",
+          "publisher": "経済産業省",
+          "note": "供給確保計画認定の該当ページへ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_colo_gov",
+      "from": "colo_operator",
+      "to": "government",
+      "flow_type": "opex",
+      "label": "固定資産税等(立地自治体の税収)",
+      "note": "自治体がDC誘致に動く経済的動機。誘致優遇とセットの双方向フロー",
+      "sources": [
+        {
+          "url": "https://www.soumu.go.jp/",
+          "publisher": "総務省",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_bank_colo",
+      "from": "bank_lender",
+      "to": "colo_operator",
+      "flow_type": "capex",
+      "label": "プロジェクトファイナンス・設備融資",
+      "sources": [
+        {
+          "url": "https://www.dbj.jp/",
+          "publisher": "日本政策投資銀行",
+          "note": "DC向けファイナンス事例へ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_colo_bank",
+      "from": "colo_operator",
+      "to": "bank_lender",
+      "flow_type": "opex",
+      "label": "利息・元本返済",
+      "sources": [
+        {
+          "url": "https://www.dbj.jp/",
+          "publisher": "日本政策投資銀行",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "capex_investor_colo",
+      "from": "finance_investor",
+      "to": "colo_operator",
+      "flow_type": "capex",
+      "label": "出資・物件取得(REIT・ファンド)",
+      "amount_note": "海外ファンドによる数千億円規模の国内DC投資が継続",
+      "sources": [
+        {
+          "url": "https://www.blackstone.com/",
+          "publisher": "ファンド各社",
+          "note": "投資発表の該当ページへ差し替え予定"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_colo_maint",
+      "from": "colo_operator",
+      "to": "maintenance_ops",
+      "flow_type": "opex",
+      "label": "運用・保守委託費(FM・警備)",
+      "sources": [
+        {
+          "url": "https://www.ntt-f.co.jp/",
+          "publisher": "NTTファシリティーズ",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_maint_colo",
+      "from": "maintenance_ops",
+      "to": "colo_operator",
+      "flow_type": "goods",
+      "label": "24時間監視・設備保守・警備サービス",
+      "sources": [
+        {
+          "url": "https://www.ntt-f.co.jp/",
+          "publisher": "NTTファシリティーズ",
+          "note": "業界一般構造"
+        }
+      ],
+      "updated": "2026-07-23"
+    }
+  ]
+}
