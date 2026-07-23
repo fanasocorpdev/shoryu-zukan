@@ -419,10 +419,10 @@
           "url": "https://global.toyota/jp/",
           "segment": "auto",
           "financials": {
-            "revenue_oku_jpy": 480000,
-            "market_cap_oku_jpy": 420000,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 506849,
+            "market_cap_oku_jpy": 428946,
+            "as_of": "2026-07-22",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-22時点"
           },
           "hq": "愛知県豊田市",
           "employees": 380000,
@@ -436,10 +436,10 @@
           "url": "https://www.denso.com/jp/ja/",
           "segment": "auto",
           "financials": {
-            "revenue_oku_jpy": 71000,
-            "market_cap_oku_jpy": 60000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 75399,
+            "market_cap_oku_jpy": 56589,
+            "as_of": "2026-05-15",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-05-15時点"
           },
           "hq": "愛知県刈谷市",
           "employees": 162000,
@@ -608,10 +608,10 @@
           "name": "信越化学工業",
           "url": "https://www.shinetsu.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 25600,
-            "market_cap_oku_jpy": 120000,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 25739,
+            "market_cap_oku_jpy": 150145,
+            "as_of": "2026-06-15",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-06-15時点"
           },
           "hq": "東京都千代田区",
           "employees": 26000,
@@ -854,10 +854,10 @@
           "name": "東京エレクトロン",
           "url": "https://www.tel.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 24000,
-            "market_cap_oku_jpy": 110000,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 24435,
+            "market_cap_oku_jpy": 150356,
+            "as_of": "2025-11",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2025-11時点"
           },
           "hq": "東京都港区",
           "employees": 18000,
@@ -1316,6 +1316,11 @@
           "listing": {
             "market": "東証プライム(三菱UFJフィナンシャル・グループ)",
             "code": "8306"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 404689,
+            "as_of": "2026-07-08",
+            "note": "持株会社MUFG連結の値。経常収益は概算。時価総額=2026-07-08時点"
           }
         },
         {

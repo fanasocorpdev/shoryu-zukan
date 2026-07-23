@@ -114,8 +114,10 @@
           "name": "セブン‐イレブン・ジャパン",
           "url": "https://www.sej.co.jp/",
           "financials": {
-            "as_of": "2025",
-            "note": "非上場(セブン&アイHD傘下)。チェーン全店売上は約5兆円規模"
+            "as_of": "2026-07",
+            "note": "親会社セブン&アイHD連結の値: 営業収益=2026年2月期実績(決算短信)、時価総額=2026-07時点",
+            "revenue_oku_jpy": 104302,
+            "market_cap_oku_jpy": 52638
           },
           "hq": "東京都千代田区",
           "employees": 9000,
@@ -517,9 +519,9 @@
           "url": "https://www.mitsubishicorp.com/jp/ja/",
           "financials": {
             "revenue_oku_jpy": 180000,
-            "market_cap_oku_jpy": 120000,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "market_cap_oku_jpy": 183449,
+            "as_of": "2026-07",
+            "note": "収益は概算。時価総額=2026-07時点"
           },
           "hq": "東京都千代田区",
           "employees": 80000,
@@ -532,10 +534,10 @@
           "name": "伊藤忠商事(ファミリーマート)",
           "url": "https://www.itochu.co.jp/",
           "financials": {
-            "revenue_oku_jpy": 145000,
-            "market_cap_oku_jpy": 120000,
-            "as_of": "2025",
-            "note": "概算。IR確定値へ差し替え予定"
+            "revenue_oku_jpy": 148231,
+            "market_cap_oku_jpy": 160153,
+            "as_of": "2026-07",
+            "note": "収益=2026年3月期実績(決算短信)、時価総額=2026-07時点"
           },
           "hq": "東京都港区",
           "employees": 110000,

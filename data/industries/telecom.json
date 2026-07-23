@@ -76,9 +76,9 @@
           },
           "financials": {
             "revenue_oku_jpy": 137000,
-            "market_cap_oku_jpy": 130000,
-            "as_of": "2025",
-            "note": "NTT連結・概算"
+            "market_cap_oku_jpy": 134014,
+            "as_of": "2026-06-12",
+            "note": "売上高は概算。時価総額=2026-06-12時点"
           }
         },
         {
@@ -100,10 +100,10 @@
             "code": "9433"
           },
           "financials": {
-            "revenue_oku_jpy": 58000,
-            "market_cap_oku_jpy": 100000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 60719,
+            "market_cap_oku_jpy": 101839,
+            "as_of": "2025-12",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2025-12時点"
           }
         },
         {
@@ -116,10 +116,10 @@
             "code": "9434"
           },
           "financials": {
-            "revenue_oku_jpy": 62000,
+            "revenue_oku_jpy": 70387,
             "market_cap_oku_jpy": 90000,
-            "as_of": "2025",
-            "note": "概算"
+            "as_of": "2026-05",
+            "note": "売上高=2026年3月期実績(決算短信)。時価総額は概算"
           }
         },
         {

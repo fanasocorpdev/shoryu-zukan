@@ -46,6 +46,12 @@
           "listing": {
             "market": "東証プライム",
             "code": "7203"
+          },
+          "financials": {
+            "revenue_oku_jpy": 506849,
+            "market_cap_oku_jpy": 428946,
+            "as_of": "2026-07-22",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-22時点"
           }
         },
         {
@@ -56,6 +62,11 @@
           "listing": {
             "market": "東証プライム",
             "code": "7267"
+          },
+          "financials": {
+            "revenue_oku_jpy": 217966,
+            "as_of": "2026-05",
+            "note": "売上収益=2026年3月期実績(決算短信)。時価総額は概算"
           }
         },
         {
@@ -98,10 +109,10 @@
             "code": "6902"
           },
           "financials": {
-            "revenue_oku_jpy": 71000,
-            "market_cap_oku_jpy": 60000,
-            "as_of": "2025",
-            "note": "概算"
+            "revenue_oku_jpy": 75399,
+            "market_cap_oku_jpy": 56589,
+            "as_of": "2026-05-15",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-05-15時点"
           }
         },
         {

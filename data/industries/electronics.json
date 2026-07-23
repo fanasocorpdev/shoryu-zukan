@@ -56,6 +56,12 @@
           "listing": {
             "market": "東証プライム",
             "code": "6501"
+          },
+          "financials": {
+            "revenue_oku_jpy": 105867,
+            "market_cap_oku_jpy": 215763,
+            "as_of": "2026-05",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-05時点"
           }
         },
         {

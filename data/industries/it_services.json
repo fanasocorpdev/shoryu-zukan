@@ -56,707 +56,808 @@
           "listing": {
             "market": "東証プライム",
             "code": "3626"
-          }
+          },
+          "segment": "major"
         },
         {
           "name": "BIPROGY",
           "listing": {
             "market": "東証プライム",
             "code": "8056"
-          }
+          },
+          "segment": "major"
         },
         {
           "name": "日鉄ソリューションズ",
           "listing": {
             "market": "東証プライム",
             "code": "2327"
-          }
+          },
+          "segment": "major"
         },
         {
           "name": "電通総研",
           "listing": {
             "market": "東証プライム",
             "code": "4812"
-          }
+          },
+          "segment": "major"
         },
         {
           "name": "DTS",
           "listing": {
             "market": "東証プライム",
             "code": "9682"
-          }
+          },
+          "segment": "major"
         },
         {
           "name": "NSD",
           "listing": {
             "market": "東証プライム",
             "code": "9759"
-          }
+          },
+          "segment": "major"
         },
         {
           "name": "システナ",
           "listing": {
             "market": "東証プライム",
             "code": "2317"
-          }
+          },
+          "segment": "major"
         },
         {
           "name": "コムチュア",
           "listing": {
             "market": "東証プライム",
             "code": "3844"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "SHIFT",
           "listing": {
             "market": "東証プライム",
             "code": "3697"
-          }
+          },
+          "segment": "qa"
         },
         {
           "name": "クレスコ",
           "listing": {
             "market": "東証プライム",
             "code": "4674"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "オープンアップグループ",
           "listing": {
             "market": "東証プライム",
             "code": "2154"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "アイネス",
           "listing": {
             "market": "東証プライム",
             "code": "9742"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "JBCCホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "9889"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "CIJ",
           "listing": {
             "market": "東証プライム",
             "code": "4826"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "TKC",
           "listing": {
             "market": "東証プライム",
             "code": "9746"
-          }
+          },
+          "segment": "major"
         },
         {
           "name": "TDCソフト",
           "listing": {
             "market": "東証プライム",
             "code": "4687"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "都築電気",
           "listing": {
             "market": "東証プライム",
             "code": "8157"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "ソフトクリエイトホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3371"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "日本ビジネスシステムズ",
           "listing": {
             "market": "東証プライム",
             "code": "5036"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "シンプレクス・ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "4373"
-          }
+          },
+          "segment": "major"
         },
         {
           "name": "ジャストシステム",
           "listing": {
             "market": "東証プライム",
             "code": "4686"
-          }
+          },
+          "segment": "major"
         },
         {
           "name": "SRAホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3817"
-          }
+          },
+          "segment": "major"
         },
         {
           "name": "CAC Holdings",
           "listing": {
             "market": "東証プライム",
             "code": "4725"
-          }
+          },
+          "segment": "major"
         },
         {
           "name": "IDホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "4709"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "アルファシステムズ",
           "listing": {
             "market": "東証プライム",
             "code": "4719"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "フォーカスシステムズ",
           "listing": {
             "market": "東証プライム",
             "code": "4662"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "JFEシステムズ",
           "listing": {
             "market": "東証スタンダード",
             "code": "4832"
-          }
+          },
+          "segment": "finance"
         },
         {
           "name": "日本システム技術",
           "listing": {
             "market": "東証プライム",
             "code": "4323"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "ハイマックス",
           "listing": {
             "market": "東証スタンダード",
             "code": "4299"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "ニーズウェル",
           "listing": {
             "market": "東証プライム",
             "code": "3992"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "システムサポートホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "4396"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "セック",
           "listing": {
             "market": "東証プライム",
             "code": "3741"
-          }
+          },
+          "segment": "embedded"
         },
         {
           "name": "ソルクシーズ",
           "listing": {
             "market": "東証スタンダード",
             "code": "4284"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "キーウェアソリューションズ",
           "listing": {
             "market": "東証スタンダード",
             "code": "3799"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "キューブシステム",
           "listing": {
             "market": "東証プライム",
             "code": "2335"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "コア",
           "listing": {
             "market": "東証プライム",
             "code": "2359"
-          }
+          },
+          "segment": "embedded"
         },
         {
           "name": "クエスト",
           "listing": {
             "market": "東証スタンダード",
             "code": "2332"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "アイティフォー",
           "listing": {
             "market": "東証プライム",
             "code": "4743"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "東計電算",
           "listing": {
             "market": "東証スタンダード",
             "code": "4746"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "さくらケーシーエス",
           "listing": {
             "market": "東証スタンダード",
             "code": "4761"
-          }
+          },
+          "segment": "finance"
         },
         {
           "name": "菱友システムズ",
           "listing": {
             "market": "東証スタンダード",
             "code": "4685"
-          }
+          },
+          "segment": "embedded"
         },
         {
           "name": "鈴与シンワート",
           "listing": {
             "market": "東証スタンダード",
             "code": "9360"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "シーイーシー",
           "listing": {
             "market": "東証プライム",
             "code": "9692"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "クレオ",
           "listing": {
             "market": "東証スタンダード",
             "code": "9698"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "アイ・エス・ビー",
           "listing": {
             "market": "東証プライム",
             "code": "9702"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "NSW",
           "listing": {
             "market": "東証プライム",
             "code": "9739"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "アイエックス・ナレッジ",
           "listing": {
             "market": "東証スタンダード",
             "code": "9753"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "NCS&A",
           "listing": {
             "market": "東証スタンダード",
             "code": "9709"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "旭情報サービス",
           "listing": {
             "market": "東証スタンダード",
             "code": "9799"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "セラク",
           "listing": {
             "market": "東証スタンダード",
             "code": "6199"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "アルゴグラフィックス",
           "listing": {
             "market": "東証プライム",
             "code": "7595"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "ビジネスエンジニアリング",
           "listing": {
             "market": "東証プライム",
             "code": "4828"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "ビジネスブレイン太田昭和",
           "listing": {
             "market": "東証プライム",
             "code": "9658"
-          }
+          },
+          "segment": "erp"
         },
         {
           "name": "電算",
           "listing": {
             "market": "東証スタンダード",
             "code": "3640"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "電算システムホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "4072"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "AGS",
           "listing": {
             "market": "東証スタンダード",
             "code": "3648"
-          }
+          },
+          "segment": "finance"
         },
         {
           "name": "構造計画研究所ホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "208A"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "テクマトリックス",
           "listing": {
             "market": "東証プライム",
             "code": "3762"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "プロシップ",
           "listing": {
             "market": "東証プライム",
             "code": "3763"
-          }
+          },
+          "segment": "erp"
         },
         {
           "name": "ユニリタ",
           "listing": {
             "market": "東証スタンダード",
             "code": "3800"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "アステリア",
           "listing": {
             "market": "東証プライム",
             "code": "3853"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "システムリサーチ",
           "listing": {
             "market": "東証プライム",
             "code": "3771"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "東海ソフト",
           "listing": {
             "market": "東証スタンダード",
             "code": "4430"
-          }
+          },
+          "segment": "embedded"
         },
         {
           "name": "バルテス・ホールディングス",
           "listing": {
             "market": "東証グロース",
             "code": "4442"
-          }
+          },
+          "segment": "qa"
         },
         {
           "name": "チェンジホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3962"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "クロスキャット",
           "listing": {
             "market": "東証プライム",
             "code": "2307"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "デジタル・インフォメーション・テクノロジー",
           "listing": {
             "market": "東証プライム",
             "code": "3916"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "Ubicomホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "3937"
-          }
+          },
+          "segment": "embedded"
         },
         {
           "name": "Sun Asterisk",
           "listing": {
             "market": "東証プライム",
             "code": "4053"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "ベース",
           "listing": {
             "market": "東証プライム",
             "code": "4481"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "スカラ",
           "listing": {
             "market": "東証スタンダード",
             "code": "4845"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "スターティアホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3393"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "システムインテグレータ",
           "listing": {
             "market": "東証スタンダード",
             "code": "3826"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "リックソフト",
           "listing": {
             "market": "東証グロース",
             "code": "4429"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "日本プロセス",
           "listing": {
             "market": "東証スタンダード",
             "code": "9651"
-          }
+          },
+          "segment": "embedded"
         },
         {
           "name": "KSK",
           "listing": {
             "market": "東証スタンダード",
             "code": "9687"
-          }
+          },
+          "segment": "embedded"
         },
         {
           "name": "両毛システムズ",
           "listing": {
             "market": "東証スタンダード",
             "code": "9691"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "昭和システムエンジニアリング",
           "listing": {
             "market": "東証スタンダード",
             "code": "4752"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "コンピューターマネージメント",
           "listing": {
             "market": "東証スタンダード",
             "code": "4491"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "ディ・アイ・システム",
           "listing": {
             "market": "東証スタンダード",
             "code": "4421"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "システムエグゼ",
           "listing": {
             "market": "東証スタンダード",
             "code": "548A"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "ノバシステム",
           "listing": {
             "market": "東証スタンダード",
             "code": "5257"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "オービーシステム",
           "listing": {
             "market": "東証スタンダード",
             "code": "5576"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "日本ラッド",
           "listing": {
             "market": "東証スタンダード",
             "code": "4736"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "ネクストウェア",
           "listing": {
             "market": "東証スタンダード",
             "code": "4814"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "アクモス",
           "listing": {
             "market": "東証スタンダード",
             "code": "6888"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "NCD",
           "listing": {
             "market": "東証スタンダード",
             "code": "4783"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "IC",
           "listing": {
             "market": "東証スタンダード",
             "code": "4769"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "MITホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "4016"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "SYSホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "3988"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "PCIホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "3918"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "SIGグループ",
           "listing": {
             "market": "東証スタンダード",
             "code": "4386"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "DAIKO XTECH",
           "listing": {
             "market": "東証スタンダード",
             "code": "8023"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "モンスターラボ",
           "listing": {
             "market": "東証グロース",
             "code": "5255"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "ハイブリッドテクノロジーズ",
           "listing": {
             "market": "東証グロース",
             "code": "4260"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "BlueMeme",
           "listing": {
             "market": "東証グロース",
             "code": "4069"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "ラキール",
           "listing": {
             "market": "東証グロース",
             "code": "4074"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "テンダ",
           "listing": {
             "market": "東証スタンダード",
             "code": "4198"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "アピリッツ",
           "listing": {
             "market": "東証スタンダード",
             "code": "4174"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "Fusic",
           "listing": {
             "market": "東証グロース",
             "code": "5256"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "フレクト",
           "listing": {
             "market": "東証グロース",
             "code": "4414"
-          }
+          },
+          "segment": "indep"
         },
         {
           "name": "コアコンセプト・テクノロジー",
@@ -764,7 +865,8 @@
             "market": "東証グロース",
             "code": "4371"
           },
-          "note": "製造業DX"
+          "note": "製造業DX",
+          "segment": "embedded"
         },
         {
           "name": "インテリジェント ウェイブ",
@@ -772,7 +874,8 @@
             "market": "東証プライム",
             "code": "4847"
           },
-          "note": "金融システム"
+          "note": "金融システム",
+          "segment": "finance"
         },
         {
           "name": "デリバリーコンサルティング",
@@ -780,7 +883,8 @@
             "market": "東証グロース",
             "code": "9240"
           },
-          "note": "ITコンサル"
+          "note": "ITコンサル",
+          "segment": "erp"
         },
         {
           "name": "CAICA DIGITAL",
@@ -788,7 +892,8 @@
             "market": "東証スタンダード",
             "code": "2315"
           },
-          "note": "システム開発・暗号資産"
+          "note": "システム開発・暗号資産",
+          "segment": "indep"
         },
         {
           "name": "エヌアイデイ",
@@ -796,7 +901,8 @@
             "market": "東証スタンダード",
             "code": "2349"
           },
-          "note": "組込・独立系SI"
+          "note": "組込・独立系SI",
+          "segment": "embedded"
         },
         {
           "name": "YE DIGITAL",
@@ -804,7 +910,8 @@
             "market": "東証スタンダード",
             "code": "2354"
           },
-          "note": "安川電機系IT"
+          "note": "安川電機系IT",
+          "segment": "embedded"
         },
         {
           "name": "テックファームホールディングス",
@@ -812,7 +919,8 @@
             "market": "東証グロース",
             "code": "3625"
           },
-          "note": "受託開発"
+          "note": "受託開発",
+          "segment": "indep"
         },
         {
           "name": "テクミラホールディングス",
@@ -820,7 +928,8 @@
             "market": "東証スタンダード",
             "code": "3627"
           },
-          "note": "モバイルソリューション"
+          "note": "モバイルソリューション",
+          "segment": "indep"
         },
         {
           "name": "協立情報通信",
@@ -828,7 +937,8 @@
             "market": "東証スタンダード",
             "code": "3670"
           },
-          "note": "オフィスICT"
+          "note": "オフィスICT",
+          "segment": "indep"
         },
         {
           "name": "情報企画",
@@ -836,7 +946,8 @@
             "market": "東証スタンダード",
             "code": "3712"
           },
-          "note": "金融システム"
+          "note": "金融システム",
+          "segment": "finance"
         },
         {
           "name": "サイオス",
@@ -844,7 +955,8 @@
             "market": "東証スタンダード",
             "code": "3744"
           },
-          "note": "OSS・サブスク基盤"
+          "note": "OSS・サブスク基盤",
+          "segment": "indep"
         },
         {
           "name": "システムズ・デザイン",
@@ -852,7 +964,8 @@
             "market": "東証スタンダード",
             "code": "3766"
           },
-          "note": "データエントリー・SI"
+          "note": "データエントリー・SI",
+          "segment": "indep"
         },
         {
           "name": "ULSグループ",
@@ -860,7 +973,8 @@
             "market": "東証スタンダード",
             "code": "3798"
           },
-          "note": "ITアーキテクトコンサル"
+          "note": "ITアーキテクトコンサル",
+          "segment": "erp"
         },
         {
           "name": "大和コンピューター",
@@ -868,7 +982,8 @@
             "market": "東証スタンダード",
             "code": "3816"
           },
-          "note": "受託・農業IT"
+          "note": "受託・農業IT",
+          "segment": "indep"
         },
         {
           "name": "ノムラシステムコーポレーション",
@@ -876,7 +991,8 @@
             "market": "東証スタンダード",
             "code": "3940"
           },
-          "note": "SAPコンサル"
+          "note": "SAPコンサル",
+          "segment": "erp"
         },
         {
           "name": "アクシス",
@@ -884,7 +1000,8 @@
             "market": "東証スタンダード",
             "code": "4012"
           },
-          "note": "受託・コンサル"
+          "note": "受託・コンサル",
+          "segment": "indep"
         },
         {
           "name": "ティアンドエスグループ",
@@ -892,7 +1009,8 @@
             "market": "東証グロース",
             "code": "4055"
           },
-          "note": "半導体工場向けソフト"
+          "note": "半導体工場向けソフト",
+          "segment": "embedded"
         },
         {
           "name": "シイエヌエス",
@@ -900,7 +1018,8 @@
             "market": "東証グロース",
             "code": "4076"
           },
-          "note": "データ基盤構築"
+          "note": "データ基盤構築",
+          "segment": "indep"
         },
         {
           "name": "Sharing Innovations",
@@ -908,7 +1027,8 @@
             "market": "東証グロース",
             "code": "4178"
           },
-          "note": "クラウドインテグレーション"
+          "note": "クラウドインテグレーション",
+          "segment": "indep"
         },
         {
           "name": "アジアクエスト",
@@ -916,7 +1036,8 @@
             "market": "東証グロース",
             "code": "4261"
           },
-          "note": "DX開発"
+          "note": "DX開発",
+          "segment": "indep"
         },
         {
           "name": "パワーソリューションズ",
@@ -924,7 +1045,8 @@
             "market": "東証グロース",
             "code": "4450"
           },
-          "note": "金融・業務システム"
+          "note": "金融・業務システム",
+          "segment": "finance"
         },
         {
           "name": "エックスネット",
@@ -932,7 +1054,8 @@
             "market": "東証スタンダード",
             "code": "4762"
           },
-          "note": "資産運用システム"
+          "note": "資産運用システム",
+          "segment": "finance"
         },
         {
           "name": "サークレイス",
@@ -940,7 +1063,8 @@
             "market": "東証グロース",
             "code": "5029"
           },
-          "note": "Salesforce導入"
+          "note": "Salesforce導入",
+          "segment": "erp"
         },
         {
           "name": "BTM",
@@ -948,7 +1072,8 @@
             "market": "東証グロース",
             "code": "5247"
           },
-          "note": "地方創生IT人材"
+          "note": "地方創生IT人材",
+          "segment": "indep"
         },
         {
           "name": "日本ナレッジ",
@@ -956,7 +1081,8 @@
             "market": "東証グロース",
             "code": "5252"
           },
-          "note": "ソフトウェアテスト"
+          "note": "ソフトウェアテスト",
+          "segment": "qa"
         },
         {
           "name": "ARアドバンストテクノロジ",
@@ -964,7 +1090,8 @@
             "market": "東証グロース",
             "code": "5578"
           },
-          "note": "DX開発"
+          "note": "DX開発",
+          "segment": "indep"
         },
         {
           "name": "KYCOMホールディングス",
@@ -972,7 +1099,8 @@
             "market": "東証スタンダード",
             "code": "9685"
           },
-          "note": "受託開発"
+          "note": "受託開発",
+          "segment": "indep"
         },
         {
           "name": "情報戦略テクノロジー",
@@ -980,7 +1108,8 @@
             "market": "東証グロース",
             "code": "155A"
           },
-          "note": "SES・DX"
+          "note": "SES・DX",
+          "segment": "indep"
         },
         {
           "name": "グロースエクスパートナーズ",
@@ -988,7 +1117,8 @@
             "market": "東証グロース",
             "code": "244A"
           },
-          "note": "エンタープライズアジャイル"
+          "note": "エンタープライズアジャイル",
+          "segment": "indep"
         },
         {
           "name": "フラー",
@@ -996,7 +1126,8 @@
             "market": "東証グロース",
             "code": "387A"
           },
-          "note": "アプリ開発"
+          "note": "アプリ開発",
+          "segment": "indep"
         },
         {
           "name": "イメージ情報開発",
@@ -1004,7 +1135,8 @@
             "market": "東証グロース",
             "code": "3803"
           },
-          "note": "SI・BPO"
+          "note": "SI・BPO",
+          "segment": "indep"
         },
         {
           "name": "THE WHY HOW DO COMPANY",
@@ -1012,7 +1144,8 @@
             "market": "東証スタンダード",
             "code": "3823"
           },
-          "note": "ソリューション・飲食等多角化"
+          "note": "ソリューション・飲食等多角化",
+          "segment": "indep"
         },
         {
           "name": "IPSホールディングス",
@@ -1020,7 +1153,8 @@
             "market": "東証スタンダード",
             "code": "4335"
           },
-          "note": "SAP・ERP導入"
+          "note": "SAP・ERP導入",
+          "segment": "erp"
         },
         {
           "name": "テラテクノロジー",
@@ -1028,7 +1162,8 @@
             "market": "東証スタンダード",
             "code": "483A"
           },
-          "note": "官公庁システム開発"
+          "note": "官公庁システム開発",
+          "segment": "finance"
         },
         {
           "name": "テクノロジーズ",
@@ -1036,7 +1171,8 @@
             "market": "東証グロース",
             "code": "5248"
           },
-          "note": "IT・SaaS・再エネ多角"
+          "note": "IT・SaaS・再エネ多角",
+          "segment": "indep"
         },
         {
           "name": "トランヴィア",
@@ -1044,7 +1180,8 @@
             "market": "東証プライム",
             "code": "545A"
           },
-          "note": "ソフトウェア開発"
+          "note": "ソフトウェア開発",
+          "segment": "indep"
         },
         {
           "name": "ソフトテックス",
@@ -1052,7 +1189,8 @@
             "market": "東証スタンダード",
             "code": "550A"
           },
-          "note": "システム開発・医療IT(ORCA)"
+          "note": "システム開発・医療IT(ORCA)",
+          "segment": "indep"
         },
         {
           "name": "LiNKX",
@@ -1060,7 +1198,8 @@
             "market": "東証グロース",
             "code": "584A"
           },
-          "note": "金融基幹システム刷新"
+          "note": "金融基幹システム刷新",
+          "segment": "finance"
         },
         {
           "name": "Atlas Technologies",
@@ -1068,7 +1207,8 @@
             "market": "東証グロース",
             "code": "9563"
           },
-          "note": "決済・金融システム開発"
+          "note": "決済・金融システム開発",
+          "segment": "finance"
         },
         {
           "name": "SHINKO",
@@ -1076,10 +1216,43 @@
             "market": "東証スタンダード",
             "code": "7120"
           },
-          "note": "医療機関向けIT保守"
+          "note": "医療機関向けIT保守",
+          "segment": "indep"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "segments": [
+        {
+          "id": "major",
+          "label": "大手・準大手SIer",
+          "description": "売上1,000億円規模以上の総合SI"
+        },
+        {
+          "id": "finance",
+          "label": "金融・官公庁系SI",
+          "description": "銀行・証券・保険・官公庁向けが主力"
+        },
+        {
+          "id": "embedded",
+          "label": "組込・製造業系SI",
+          "description": "組込ソフト・製造業・車載向け"
+        },
+        {
+          "id": "erp",
+          "label": "ERP・パッケージ導入",
+          "description": "SAP等の導入・業務パッケージ"
+        },
+        {
+          "id": "qa",
+          "label": "テスト・品質保証",
+          "description": "ソフトウェアテスト・検証"
+        },
+        {
+          "id": "indep",
+          "label": "独立系受託開発",
+          "description": "受託開発・SES"
+        }
+      ]
     },
     {
       "id": "erp_saas",
@@ -1891,6 +2064,12 @@
           "listing": {
             "market": "東証プライム",
             "code": "7974"
+          },
+          "financials": {
+            "revenue_oku_jpy": 23130,
+            "market_cap_oku_jpy": 103000,
+            "as_of": "2026-07",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07時点概算"
           }
         },
         {
@@ -2519,35 +2698,40 @@
           "listing": {
             "market": "東証プライム",
             "code": "4689"
-          }
+          },
+          "segment": "commerce"
         },
         {
           "name": "GMOペイメントゲートウェイ",
           "listing": {
             "market": "東証プライム",
             "code": "3769"
-          }
+          },
+          "segment": "payment"
         },
         {
           "name": "デジタルガレージ",
           "listing": {
             "market": "東証プライム",
             "code": "4819"
-          }
+          },
+          "segment": "commerce"
         },
         {
           "name": "BASE",
           "listing": {
             "market": "東証グロース",
             "code": "4477"
-          }
+          },
+          "segment": "commerce"
         },
         {
           "name": "GMOフィナンシャルゲート",
           "listing": {
             "market": "東証プライム",
             "code": "4051"
-          }
+          },
+          "segment": "payment"
         },
         {
           "name": "ウェルネット",
@@ -2555,210 +2739,240 @@
             "market": "東証スタンダード",
             "code": "2428"
           },
-          "note": "決済"
+          "note": "決済",
+          "segment": "payment"
         },
         {
           "name": "出前館",
           "listing": {
             "market": "東証スタンダード",
             "code": "2484"
-          }
+          },
+          "segment": "commerce"
         },
         {
           "name": "ラクーンホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3031"
-          }
+          },
+          "segment": "commerce"
         },
         {
           "name": "エニグモ",
           "listing": {
             "market": "東証プライム",
             "code": "3665"
-          }
+          },
+          "segment": "commerce"
         },
         {
           "name": "オークネット",
           "listing": {
             "market": "東証プライム",
             "code": "3964"
-          }
+          },
+          "segment": "commerce"
         },
         {
           "name": "オークファン",
           "listing": {
             "market": "東証グロース",
             "code": "3674"
-          }
+          },
+          "segment": "commerce"
         },
         {
           "name": "マクアケ",
           "listing": {
             "market": "東証グロース",
             "code": "4479"
-          }
+          },
+          "segment": "matching"
         },
         {
           "name": "ココナラ",
           "listing": {
             "market": "東証グロース",
             "code": "4176"
-          }
+          },
+          "segment": "matching"
         },
         {
           "name": "クリーマ",
           "listing": {
             "market": "東証グロース",
             "code": "4017"
-          }
+          },
+          "segment": "matching"
         },
         {
           "name": "ランサーズ",
           "listing": {
             "market": "東証グロース",
             "code": "4484"
-          }
+          },
+          "segment": "matching"
         },
         {
           "name": "ビザスク",
           "listing": {
             "market": "東証グロース",
             "code": "4490"
-          }
+          },
+          "segment": "matching"
         },
         {
           "name": "ウォンテッドリー",
           "listing": {
             "market": "東証グロース",
             "code": "3991"
-          }
+          },
+          "segment": "other"
         },
         {
           "name": "オープンワーク",
           "listing": {
             "market": "東証グロース",
             "code": "5139"
-          }
+          },
+          "segment": "career"
         },
         {
           "name": "ワンキャリア",
           "listing": {
             "market": "東証グロース",
             "code": "4377"
-          }
+          },
+          "segment": "career"
         },
         {
           "name": "PRONI",
           "listing": {
             "market": "東証グロース",
             "code": "479A"
-          }
+          },
+          "segment": "career"
         },
         {
           "name": "シンクロ・フード",
           "listing": {
             "market": "東証プライム",
             "code": "3963"
-          }
+          },
+          "segment": "matching"
         },
         {
           "name": "カヤック",
           "listing": {
             "market": "東証グロース",
             "code": "3904"
-          }
+          },
+          "segment": "other"
         },
         {
           "name": "GMOペパボ",
           "listing": {
             "market": "東証スタンダード",
             "code": "3633"
-          }
+          },
+          "segment": "commerce"
         },
         {
           "name": "ネットスターズ",
           "listing": {
             "market": "東証グロース",
             "code": "5590"
-          }
+          },
+          "segment": "payment"
         },
         {
           "name": "ROBOT PAYMENT",
           "listing": {
             "market": "東証グロース",
             "code": "4374"
-          }
+          },
+          "segment": "payment"
         },
         {
           "name": "ビリングシステム",
           "listing": {
             "market": "東証グロース",
             "code": "3623"
-          }
+          },
+          "segment": "payment"
         },
         {
           "name": "アクリート",
           "listing": {
             "market": "東証グロース",
             "code": "4395"
-          }
+          },
+          "segment": "payment"
         },
         {
           "name": "インフキュリオン",
           "listing": {
             "market": "東証グロース",
             "code": "438A"
-          }
+          },
+          "segment": "payment"
         },
         {
           "name": "Finatextホールディングス",
           "listing": {
             "market": "東証グロース",
             "code": "4419"
-          }
+          },
+          "segment": "payment"
         },
         {
           "name": "ミンカブ・ジ・インフォノイド",
           "listing": {
             "market": "東証グロース",
             "code": "4436"
-          }
+          },
+          "segment": "payment"
         },
         {
           "name": "ZUU",
           "listing": {
             "market": "東証グロース",
             "code": "4387"
-          }
+          },
+          "segment": "payment"
         },
         {
           "name": "ウィルズ",
           "listing": {
             "market": "東証グロース",
             "code": "4482"
-          }
+          },
+          "segment": "payment"
         },
         {
           "name": "フィスコ",
           "listing": {
             "market": "東証グロース",
             "code": "3807"
-          }
+          },
+          "segment": "payment"
         },
         {
           "name": "アイスタイル",
           "listing": {
             "market": "東証プライム",
             "code": "3660"
-          }
+          },
+          "segment": "other"
         },
         {
           "name": "エイチームホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3662"
-          }
+          },
+          "segment": "career"
         },
         {
           "name": "手間いらず",
@@ -2766,14 +2980,16 @@
             "market": "東証スタンダード",
             "code": "2477"
           },
-          "note": "宿泊管理"
+          "note": "宿泊管理",
+          "segment": "matching"
         },
         {
           "name": "セレス",
           "listing": {
             "market": "東証プライム",
             "code": "3696"
-          }
+          },
+          "segment": "other"
         },
         {
           "name": "PR TIMES",
@@ -2781,7 +2997,8 @@
             "market": "東証プライム",
             "code": "3922"
           },
-          "note": "リリース配信"
+          "note": "リリース配信",
+          "segment": "other"
         },
         {
           "name": "オープンドア",
@@ -2789,7 +3006,8 @@
             "market": "東証スタンダード",
             "code": "3926"
           },
-          "note": "旅行比較"
+          "note": "旅行比較",
+          "segment": "matching"
         },
         {
           "name": "NE",
@@ -2797,7 +3015,8 @@
             "market": "東証グロース",
             "code": "441A"
           },
-          "note": "EC支援"
+          "note": "EC支援",
+          "segment": "other"
         },
         {
           "name": "ピクスタ",
@@ -2805,7 +3024,8 @@
             "market": "東証スタンダード",
             "code": "3416"
           },
-          "note": "画像素材"
+          "note": "画像素材",
+          "segment": "other"
         },
         {
           "name": "富士山マガジンサービス",
@@ -2813,7 +3033,8 @@
             "market": "東証スタンダード",
             "code": "3138"
           },
-          "note": "雑誌定期購読"
+          "note": "雑誌定期購読",
+          "segment": "other"
         },
         {
           "name": "ピーバンドットコム",
@@ -2821,7 +3042,8 @@
             "market": "東証スタンダード",
             "code": "3559"
           },
-          "note": "基板EC"
+          "note": "基板EC",
+          "segment": "commerce"
         },
         {
           "name": "GO",
@@ -2829,7 +3051,8 @@
             "market": "東証グロース",
             "code": "581A"
           },
-          "note": "タクシーアプリ"
+          "note": "タクシーアプリ",
+          "segment": "matching"
         },
         {
           "name": "ジョルダン",
@@ -2837,14 +3060,16 @@
             "market": "東証スタンダード",
             "code": "3710"
           },
-          "note": "乗換案内"
+          "note": "乗換案内",
+          "segment": "matching"
         },
         {
           "name": "駅探",
           "listing": {
             "market": "東証スタンダード",
             "code": "3646"
-          }
+          },
+          "segment": "matching"
         },
         {
           "name": "ブイキューブ",
@@ -2852,28 +3077,32 @@
             "market": "東証プライム",
             "code": "3681"
           },
-          "note": "Web会議"
+          "note": "Web会議",
+          "segment": "other"
         },
         {
           "name": "スペースマーケット",
           "listing": {
             "market": "東証グロース",
             "code": "4487"
-          }
+          },
+          "segment": "matching"
         },
         {
           "name": "Speee",
           "listing": {
             "market": "東証スタンダード",
             "code": "4499"
-          }
+          },
+          "segment": "other"
         },
         {
           "name": "ナイル",
           "listing": {
             "market": "東証グロース",
             "code": "5618"
-          }
+          },
+          "segment": "other"
         },
         {
           "name": "ENECHANGE",
@@ -2881,14 +3110,16 @@
             "market": "東証グロース",
             "code": "4169"
           },
-          "note": "電力切替"
+          "note": "電力切替",
+          "segment": "matching"
         },
         {
           "name": "Kaizen Platform",
           "listing": {
             "market": "東証グロース",
             "code": "4170"
-          }
+          },
+          "segment": "other"
         },
         {
           "name": "リスクモンスター",
@@ -2896,7 +3127,8 @@
             "market": "東証スタンダード",
             "code": "3768"
           },
-          "note": "与信管理"
+          "note": "与信管理",
+          "segment": "payment"
         },
         {
           "name": "雨風太陽",
@@ -2904,7 +3136,8 @@
             "market": "東証グロース",
             "code": "5616"
           },
-          "note": "ポケットマルシェ"
+          "note": "ポケットマルシェ",
+          "segment": "matching"
         },
         {
           "name": "ハッチ・ワーク",
@@ -2912,7 +3145,8 @@
             "market": "東証グロース",
             "code": "148A"
           },
-          "note": "月極駐車場"
+          "note": "月極駐車場",
+          "segment": "matching"
         },
         {
           "name": "Rebase",
@@ -2920,7 +3154,8 @@
             "market": "東証グロース",
             "code": "5138"
           },
-          "note": "スペース予約"
+          "note": "スペース予約",
+          "segment": "matching"
         },
         {
           "name": "tripla",
@@ -2928,21 +3163,24 @@
             "market": "東証グロース",
             "code": "5136"
           },
-          "note": "ホテル予約SaaS"
+          "note": "ホテル予約SaaS",
+          "segment": "matching"
         },
         {
           "name": "カラダノート",
           "listing": {
             "market": "東証グロース",
             "code": "4014"
-          }
+          },
+          "segment": "matching"
         },
         {
           "name": "クルーズ",
           "listing": {
             "market": "東証スタンダード",
             "code": "2138"
-          }
+          },
+          "segment": "commerce"
         },
         {
           "name": "プラネット",
@@ -2950,7 +3188,8 @@
             "market": "東証スタンダード",
             "code": "2391"
           },
-          "note": "日用品業界EDI"
+          "note": "日用品業界EDI",
+          "segment": "other"
         },
         {
           "name": "ZETA",
@@ -2958,7 +3197,8 @@
             "market": "東証グロース",
             "code": "6031"
           },
-          "note": "EC商品検索エンジン"
+          "note": "EC商品検索エンジン",
+          "segment": "other"
         },
         {
           "name": "Retty",
@@ -2966,7 +3206,8 @@
             "market": "東証グロース",
             "code": "7356"
           },
-          "note": "グルメサイト"
+          "note": "グルメサイト",
+          "segment": "matching"
         },
         {
           "name": "fonfun",
@@ -2974,7 +3215,8 @@
             "market": "東証スタンダード",
             "code": "2323"
           },
-          "note": "SMS配信"
+          "note": "SMS配信",
+          "segment": "payment"
         },
         {
           "name": "デジタルプラス",
@@ -2982,7 +3224,8 @@
             "market": "東証グロース",
             "code": "3691"
           },
-          "note": "デジタルギフト"
+          "note": "デジタルギフト",
+          "segment": "commerce"
         },
         {
           "name": "GMOプロダクトプラットフォーム",
@@ -2990,7 +3233,8 @@
             "market": "東証グロース",
             "code": "3695"
           },
-          "note": "EC・決済基盤"
+          "note": "EC・決済基盤",
+          "segment": "commerce"
         },
         {
           "name": "フライトソリューションズ",
@@ -2998,7 +3242,8 @@
             "market": "東証スタンダード",
             "code": "3753"
           },
-          "note": "決済端末"
+          "note": "決済端末",
+          "segment": "payment"
         },
         {
           "name": "アイリッジ",
@@ -3006,7 +3251,8 @@
             "market": "東証グロース",
             "code": "3917"
           },
-          "note": "O2Oアプリ基盤"
+          "note": "O2Oアプリ基盤",
+          "segment": "other"
         },
         {
           "name": "シェアリングテクノロジー",
@@ -3014,7 +3260,8 @@
             "market": "東証グロース",
             "code": "3989"
           },
-          "note": "生活トラブル駆けつけ"
+          "note": "生活トラブル駆けつけ",
+          "segment": "matching"
         },
         {
           "name": "ペイクラウドホールディングス",
@@ -3022,7 +3269,8 @@
             "market": "東証グロース",
             "code": "4015"
           },
-          "note": "キャッシュレス決済"
+          "note": "キャッシュレス決済",
+          "segment": "payment"
         },
         {
           "name": "ジィ・シィ企画",
@@ -3030,7 +3278,8 @@
             "market": "東証グロース",
             "code": "4073"
           },
-          "note": "POS・決済"
+          "note": "POS・決済",
+          "segment": "payment"
         },
         {
           "name": "ココペリ",
@@ -3038,7 +3287,8 @@
             "market": "東証グロース",
             "code": "4167"
           },
-          "note": "中小企業経営支援"
+          "note": "中小企業経営支援",
+          "segment": "matching"
         },
         {
           "name": "AI CROSS",
@@ -3046,7 +3296,8 @@
             "market": "東証グロース",
             "code": "4476"
           },
-          "note": "ビジネスSMS"
+          "note": "ビジネスSMS",
+          "segment": "payment"
         },
         {
           "name": "リンカーズ",
@@ -3054,7 +3305,8 @@
             "market": "東証グロース",
             "code": "5131"
           },
-          "note": "製造業マッチング"
+          "note": "製造業マッチング",
+          "segment": "matching"
         },
         {
           "name": "トランザクション・メディア・ネットワークス",
@@ -3062,7 +3314,8 @@
             "market": "東証グロース",
             "code": "5258"
           },
-          "note": "決済ネットワーク"
+          "note": "決済ネットワーク",
+          "segment": "payment"
         },
         {
           "name": "ジグザグ",
@@ -3070,7 +3323,8 @@
             "market": "東証グロース",
             "code": "340A"
           },
-          "note": "越境EC支援"
+          "note": "越境EC支援",
+          "segment": "commerce"
         },
         {
           "name": "ジモティー",
@@ -3078,7 +3332,8 @@
             "market": "東証グロース",
             "code": "7082"
           },
-          "note": "地元掲示板"
+          "note": "地元掲示板",
+          "segment": "other"
         },
         {
           "name": "ベクターホールディングス",
@@ -3086,7 +3341,8 @@
             "market": "東証スタンダード",
             "code": "2656"
           },
-          "note": "ソフトウェアDLサイト"
+          "note": "ソフトウェアDLサイト",
+          "segment": "commerce"
         },
         {
           "name": "JNグループ",
@@ -3094,7 +3350,8 @@
             "market": "東証スタンダード",
             "code": "6634"
           },
-          "note": "Skeb・無線機器"
+          "note": "Skeb・無線機器",
+          "segment": "other"
         },
         {
           "name": "ジェイ・エスコムホールディングス",
@@ -3102,10 +3359,38 @@
             "market": "東証スタンダード",
             "code": "3779"
           },
-          "note": "デジタルギフト・通販"
+          "note": "デジタルギフト・通販",
+          "segment": "other"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "segments": [
+        {
+          "id": "commerce",
+          "label": "EC・マーケットプレイス",
+          "description": "物販EC・CtoC・BtoB取引"
+        },
+        {
+          "id": "payment",
+          "label": "決済・フィンテック",
+          "description": "オンライン決済・金融情報"
+        },
+        {
+          "id": "matching",
+          "label": "マッチング・予約",
+          "description": "スキル・スペース・飲食等の仲介"
+        },
+        {
+          "id": "career",
+          "label": "キャリア・クチコミ",
+          "description": "就職・企業情報プラットフォーム"
+        },
+        {
+          "id": "other",
+          "label": "その他基盤",
+          "description": ""
+        }
+      ]
     },
     {
       "id": "ai_data",
@@ -4080,91 +4365,104 @@
           "listing": {
             "market": "東証プライム",
             "code": "9602"
-          }
+          },
+          "segment": "film_anime"
         },
         {
           "name": "東映",
           "listing": {
             "market": "東証プライム",
             "code": "9605"
-          }
+          },
+          "segment": "film_anime"
         },
         {
           "name": "松竹",
           "listing": {
             "market": "東証プライム",
             "code": "9601"
-          }
+          },
+          "segment": "film_anime"
         },
         {
           "name": "KADOKAWA",
           "listing": {
             "market": "東証プライム",
             "code": "9468"
-          }
+          },
+          "segment": "film_anime"
         },
         {
           "name": "日本テレビホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "9404"
-          }
+          },
+          "segment": "broadcast"
         },
         {
           "name": "TBSホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "9401"
-          }
+          },
+          "segment": "broadcast"
         },
         {
           "name": "フジ・メディア・ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "4676"
-          }
+          },
+          "segment": "broadcast"
         },
         {
           "name": "テレビ朝日ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "9409"
-          }
+          },
+          "segment": "broadcast"
         },
         {
           "name": "テレビ東京ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "9413"
-          }
+          },
+          "segment": "broadcast"
         },
         {
           "name": "WOWOW",
           "listing": {
             "market": "東証プライム",
             "code": "4839"
-          }
+          },
+          "segment": "broadcast"
         },
         {
           "name": "エイベックス",
           "listing": {
             "market": "東証プライム",
             "code": "7860"
-          }
+          },
+          "segment": "music_live"
         },
         {
           "name": "アミューズ",
           "listing": {
             "market": "東証プライム",
             "code": "4301"
-          }
+          },
+          "segment": "music_live"
         },
         {
           "name": "スカパーJSAT",
           "listing": {
             "market": "東証プライム",
             "code": "9412"
-          }
+          },
+          "segment": "broadcast"
         },
         {
           "name": "東京テアトル",
@@ -4172,21 +4470,24 @@
             "market": "東証スタンダード",
             "code": "9633"
           },
-          "note": "映画・不動産"
+          "note": "映画・不動産",
+          "segment": "webmedia"
         },
         {
           "name": "東映アニメーション",
           "listing": {
             "market": "東証スタンダード",
             "code": "4816"
-          }
+          },
+          "segment": "film_anime"
         },
         {
           "name": "IGポート",
           "listing": {
             "market": "東証スタンダード",
             "code": "3791"
-          }
+          },
+          "segment": "film_anime"
         },
         {
           "name": "メディアドゥ",
@@ -4194,147 +4495,168 @@
             "market": "東証プライム",
             "code": "3678"
           },
-          "note": "電子書籍取次"
+          "note": "電子書籍取次",
+          "segment": "publishing"
         },
         {
           "name": "パピレス",
           "listing": {
             "market": "東証スタンダード",
             "code": "3641"
-          }
+          },
+          "segment": "publishing"
         },
         {
           "name": "ビーグリー",
           "listing": {
             "market": "東証スタンダード",
             "code": "3981"
-          }
+          },
+          "segment": "publishing"
         },
         {
           "name": "Amazia",
           "listing": {
             "market": "東証グロース",
             "code": "4424"
-          }
+          },
+          "segment": "publishing"
         },
         {
           "name": "Link-Uグループ",
           "listing": {
             "market": "東証プライム",
             "code": "4446"
-          }
+          },
+          "segment": "publishing"
         },
         {
           "name": "アルファポリス",
           "listing": {
             "market": "東証グロース",
             "code": "9467"
-          }
+          },
+          "segment": "publishing"
         },
         {
           "name": "スターツ出版",
           "listing": {
             "market": "東証スタンダード",
             "code": "7849"
-          }
+          },
+          "segment": "publishing"
         },
         {
           "name": "TOブックス",
           "listing": {
             "market": "東証スタンダード",
             "code": "500A"
-          }
+          },
+          "segment": "publishing"
         },
         {
           "name": "オーバーラップホールディングス",
           "listing": {
             "market": "東証グロース",
             "code": "414A"
-          }
+          },
+          "segment": "publishing"
         },
         {
           "name": "note",
           "listing": {
             "market": "東証グロース",
             "code": "5243"
-          }
+          },
+          "segment": "publishing"
         },
         {
           "name": "はてな",
           "listing": {
             "market": "東証グロース",
             "code": "3930"
-          }
+          },
+          "segment": "publishing"
         },
         {
           "name": "U-NEXT HOLDINGS",
           "listing": {
             "market": "東証プライム",
             "code": "9418"
-          }
+          },
+          "segment": "music_live"
         },
         {
           "name": "朝日放送グループホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "9405"
-          }
+          },
+          "segment": "broadcast"
         },
         {
           "name": "日本BS放送",
           "listing": {
             "market": "東証スタンダード",
             "code": "9414"
-          }
+          },
+          "segment": "broadcast"
         },
         {
           "name": "東北新社",
           "listing": {
             "market": "東証スタンダード",
             "code": "2329"
-          }
+          },
+          "segment": "film_anime"
         },
         {
           "name": "ウェザーニューズ",
           "listing": {
             "market": "東証プライム",
             "code": "4825"
-          }
+          },
+          "segment": "webmedia"
         },
         {
           "name": "オリコン",
           "listing": {
             "market": "東証スタンダード",
             "code": "4800"
-          }
+          },
+          "segment": "webmedia"
         },
         {
           "name": "ゼンリン",
           "listing": {
             "market": "東証プライム",
             "code": "9474"
-          }
+          },
+          "segment": "webmedia"
         },
         {
           "name": "昭文社ホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "9475"
-          }
+          },
+          "segment": "webmedia"
         },
         {
           "name": "エムアップホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3661"
-          }
+          },
+          "segment": "music_live"
         },
         {
           "name": "エムティーアイ",
           "listing": {
             "market": "東証プライム",
             "code": "9438"
-          }
+          },
+          "segment": "webmedia"
         },
         {
           "name": "円谷フィールズホールディングス",
@@ -4342,7 +4664,8 @@
             "market": "東証プライム",
             "code": "2767"
           },
-          "note": "ウルトラマン・遊技機"
+          "note": "ウルトラマン・遊技機",
+          "segment": "film_anime"
         },
         {
           "name": "NexTone",
@@ -4350,14 +4673,16 @@
             "market": "東証グロース",
             "code": "7094"
           },
-          "note": "音楽著作権"
+          "note": "音楽著作権",
+          "segment": "music_live"
         },
         {
           "name": "KeyHolder",
           "listing": {
             "market": "東証スタンダード",
             "code": "4712"
-          }
+          },
+          "segment": "music_live"
         },
         {
           "name": "モイ",
@@ -4365,21 +4690,24 @@
             "market": "東証グロース",
             "code": "5031"
           },
-          "note": "ツイキャス"
+          "note": "ツイキャス",
+          "segment": "music_live"
         },
         {
           "name": "THECOO",
           "listing": {
             "market": "東証グロース",
             "code": "4255"
-          }
+          },
+          "segment": "music_live"
         },
         {
           "name": "スペースシャワーSKIYAKIホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "4838"
-          }
+          },
+          "segment": "music_live"
         },
         {
           "name": "中央経済社ホールディングス",
@@ -4387,21 +4715,24 @@
             "market": "東証スタンダード",
             "code": "9476"
           },
-          "note": "出版"
+          "note": "出版",
+          "segment": "publishing"
         },
         {
           "name": "まぐまぐ",
           "listing": {
             "market": "東証スタンダード",
             "code": "4059"
-          }
+          },
+          "segment": "publishing"
         },
         {
           "name": "ソーシャルワイヤー",
           "listing": {
             "market": "東証グロース",
             "code": "3929"
-          }
+          },
+          "segment": "webmedia"
         },
         {
           "name": "AppBank",
@@ -4409,7 +4740,8 @@
             "market": "東証グロース",
             "code": "6177"
           },
-          "note": "アプリメディア"
+          "note": "アプリメディア",
+          "segment": "webmedia"
         },
         {
           "name": "GMOメディア",
@@ -4417,7 +4749,8 @@
             "market": "東証グロース",
             "code": "6180"
           },
-          "note": "ポイントメディア"
+          "note": "ポイントメディア",
+          "segment": "webmedia"
         },
         {
           "name": "and factory",
@@ -4425,7 +4758,8 @@
             "market": "東証スタンダード",
             "code": "7035"
           },
-          "note": "マンガアプリ"
+          "note": "マンガアプリ",
+          "segment": "publishing"
         },
         {
           "name": "ALiNKインターネット",
@@ -4433,7 +4767,8 @@
             "market": "東証グロース",
             "code": "7077"
           },
-          "note": "天気メディア(tenki.jp)"
+          "note": "天気メディア(tenki.jp)",
+          "segment": "webmedia"
         },
         {
           "name": "東京通信グループ",
@@ -4441,7 +4776,8 @@
             "market": "東証グロース",
             "code": "7359"
           },
-          "note": "アプリ開発"
+          "note": "アプリ開発",
+          "segment": "webmedia"
         },
         {
           "name": "ベビーカレンダー",
@@ -4449,7 +4785,8 @@
             "market": "東証グロース",
             "code": "7363"
           },
-          "note": "育児メディア"
+          "note": "育児メディア",
+          "segment": "publishing"
         },
         {
           "name": "アイビス",
@@ -4457,7 +4794,8 @@
             "market": "東証グロース",
             "code": "9343"
           },
-          "note": "お絵かきアプリ(アイビスペイント)"
+          "note": "お絵かきアプリ(アイビスペイント)",
+          "segment": "webmedia"
         },
         {
           "name": "フォーサイド",
@@ -4465,7 +4803,8 @@
             "market": "東証スタンダード",
             "code": "2330"
           },
-          "note": "コンテンツ配信"
+          "note": "コンテンツ配信",
+          "segment": "publishing"
         },
         {
           "name": "ソケッツ",
@@ -4473,7 +4812,8 @@
             "market": "東証スタンダード",
             "code": "3634"
           },
-          "note": "音楽・感性データ"
+          "note": "音楽・感性データ",
+          "segment": "music_live"
         },
         {
           "name": "ディー・エル・イー",
@@ -4481,7 +4821,8 @@
             "market": "東証スタンダード",
             "code": "3686"
           },
-          "note": "アニメIP(鷹の爪)"
+          "note": "アニメIP(鷹の爪)",
+          "segment": "film_anime"
         },
         {
           "name": "メディア工房",
@@ -4489,7 +4830,8 @@
             "market": "東証グロース",
             "code": "3815"
           },
-          "note": "占いコンテンツ"
+          "note": "占いコンテンツ",
+          "segment": "publishing"
         },
         {
           "name": "バリューゴルフ",
@@ -4497,7 +4839,8 @@
             "market": "東証グロース",
             "code": "3931"
           },
-          "note": "ゴルフメディア"
+          "note": "ゴルフメディア",
+          "segment": "webmedia"
         },
         {
           "name": "グローバルウェイ",
@@ -4505,7 +4848,8 @@
             "market": "東証グロース",
             "code": "3936"
           },
-          "note": "キャリコネ"
+          "note": "キャリコネ",
+          "segment": "webmedia"
         },
         {
           "name": "イノベーション",
@@ -4513,7 +4857,8 @@
             "market": "東証スタンダード",
             "code": "3970"
           },
-          "note": "B2B比較メディア"
+          "note": "B2B比較メディア",
+          "segment": "webmedia"
         },
         {
           "name": "ニフティライフスタイル",
@@ -4521,7 +4866,8 @@
             "market": "東証グロース",
             "code": "4262"
           },
-          "note": "生活メディア"
+          "note": "生活メディア",
+          "segment": "webmedia"
         },
         {
           "name": "Jストリーム",
@@ -4529,7 +4875,8 @@
             "market": "東証グロース",
             "code": "4308"
           },
-          "note": "動画配信基盤"
+          "note": "動画配信基盤",
+          "segment": "broadcast"
         },
         {
           "name": "くふうカンパニーホールディングス",
@@ -4537,7 +4884,8 @@
             "market": "東証グロース",
             "code": "4376"
           },
-          "note": "生活情報メディア"
+          "note": "生活情報メディア",
+          "segment": "webmedia"
         },
         {
           "name": "SM ENTERTAINMENT JAPAN",
@@ -4545,7 +4893,8 @@
             "market": "東証グロース",
             "code": "4772"
           },
-          "note": "音楽エンタメ"
+          "note": "音楽エンタメ",
+          "segment": "music_live"
         },
         {
           "name": "jig.jp",
@@ -4553,7 +4902,8 @@
             "market": "東証グロース",
             "code": "5244"
           },
-          "note": "ライブ配信(ふわっち)"
+          "note": "ライブ配信(ふわっち)",
+          "segment": "music_live"
         },
         {
           "name": "BSNメディアホールディングス",
@@ -4561,7 +4911,8 @@
             "market": "東証スタンダード",
             "code": "9408"
           },
-          "note": "新潟放送"
+          "note": "新潟放送",
+          "segment": "broadcast"
         },
         {
           "name": "SEホールディングス・アンド・インキュベーションズ",
@@ -4569,7 +4920,8 @@
             "market": "東証スタンダード",
             "code": "9478"
           },
-          "note": "IT出版・投資"
+          "note": "IT出版・投資",
+          "segment": "publishing"
         },
         {
           "name": "キッズスター",
@@ -4577,7 +4929,8 @@
             "market": "東証グロース",
             "code": "248A"
           },
-          "note": "子供向けアプリ"
+          "note": "子供向けアプリ",
+          "segment": "film_anime"
         },
         {
           "name": "フライヤー",
@@ -4585,7 +4938,8 @@
             "market": "東証グロース",
             "code": "323A"
           },
-          "note": "本の要約(flier)"
+          "note": "本の要約(flier)",
+          "segment": "publishing"
         },
         {
           "name": "ビジュアル・プロセッシング・ジャパン",
@@ -4593,7 +4947,8 @@
             "market": "東証グロース",
             "code": "334A"
           },
-          "note": "映像制作ワークフロー"
+          "note": "映像制作ワークフロー",
+          "segment": "webmedia"
         },
         {
           "name": "アイフリークモバイル",
@@ -4601,7 +4956,8 @@
             "market": "東証スタンダード",
             "code": "3845"
           },
-          "note": "モバイルコンテンツ"
+          "note": "モバイルコンテンツ",
+          "segment": "webmedia"
         },
         {
           "name": "PostPrime",
@@ -4609,7 +4965,8 @@
             "market": "東証グロース",
             "code": "198A"
           },
-          "note": "投資情報SNS"
+          "note": "投資情報SNS",
+          "segment": "webmedia"
         },
         {
           "name": "WIZE",
@@ -4617,10 +4974,43 @@
             "market": "東証グロース",
             "code": "3664"
           },
-          "note": "IPプロデュース・雑貨"
+          "note": "IPプロデュース・雑貨",
+          "segment": "webmedia"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "segments": [
+        {
+          "id": "film_anime",
+          "label": "映画・アニメ・IP",
+          "description": "映画会社・アニメ制作・IPホルダー"
+        },
+        {
+          "id": "broadcast",
+          "label": "テレビ・放送",
+          "description": "キー局・地方局・衛星放送"
+        },
+        {
+          "id": "publishing",
+          "label": "出版・電子書籍",
+          "description": "出版社・電子書籍取次・マンガアプリ"
+        },
+        {
+          "id": "music_live",
+          "label": "音楽・ライブ・配信",
+          "description": "音楽レーベル・ライブ配信・著作権"
+        },
+        {
+          "id": "webmedia",
+          "label": "Webメディア・情報サービス",
+          "description": "ニュース・専門情報・地図"
+        },
+        {
+          "id": "other",
+          "label": "その他",
+          "description": ""
+        }
+      ]
     },
     {
       "id": "unsorted",

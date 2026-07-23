@@ -56,105 +56,120 @@
           "listing": {
             "market": "東証プライム",
             "code": "6141"
-          }
+          },
+          "segment": "mt"
         },
         {
           "name": "オークマ",
           "listing": {
             "market": "東証プライム",
             "code": "6103"
-          }
+          },
+          "segment": "mt"
         },
         {
           "name": "ツガミ",
           "listing": {
             "market": "東証プライム",
             "code": "6101"
-          }
+          },
+          "segment": "mt"
         },
         {
           "name": "芝浦機械",
           "listing": {
             "market": "東証プライム",
             "code": "6104"
-          }
+          },
+          "segment": "mt"
         },
         {
           "name": "ソディック",
           "listing": {
             "market": "東証プライム",
             "code": "6143"
-          }
+          },
+          "segment": "molding"
         },
         {
           "name": "牧野フライス製作所",
           "listing": {
             "market": "東証プライム",
             "code": "6135"
-          }
+          },
+          "segment": "mt"
         },
         {
           "name": "不二越",
           "listing": {
             "market": "東証プライム",
             "code": "6474"
-          }
+          },
+          "segment": "tool"
         },
         {
           "name": "オーエスジー",
           "listing": {
             "market": "東証プライム",
             "code": "6136"
-          }
+          },
+          "segment": "tool"
         },
         {
           "name": "アマダ",
           "listing": {
             "market": "東証プライム",
             "code": "6113"
-          }
+          },
+          "segment": "mt"
         },
         {
           "name": "京都機械工具",
           "listing": {
             "market": "東証スタンダード",
             "code": "5966"
-          }
+          },
+          "segment": "tool"
         },
         {
           "name": "TONE",
           "listing": {
             "market": "東証スタンダード",
             "code": "5967"
-          }
+          },
+          "segment": "tool"
         },
         {
           "name": "スーパーツール",
           "listing": {
             "market": "東証スタンダード",
             "code": "5990"
-          }
+          },
+          "segment": "tool"
         },
         {
           "name": "ロブテックス",
           "listing": {
             "market": "東証スタンダード",
             "code": "5969"
-          }
+          },
+          "segment": "tool"
         },
         {
           "name": "兼房",
           "listing": {
             "market": "東証スタンダード",
             "code": "5984"
-          }
+          },
+          "segment": "tool"
         },
         {
           "name": "天龍製鋸",
           "listing": {
             "market": "東証スタンダード",
             "code": "5945"
-          }
+          },
+          "segment": "tool"
         },
         {
           "name": "マキタ",
@@ -162,7 +177,8 @@
             "market": "東証プライム",
             "code": "6586"
           },
-          "note": "電動工具"
+          "note": "電動工具",
+          "segment": "tool"
         },
         {
           "name": "アイダエンジニアリング",
@@ -170,14 +186,16 @@
             "market": "東証プライム",
             "code": "6118"
           },
-          "note": "プレス機"
+          "note": "プレス機",
+          "segment": "mt"
         },
         {
           "name": "旭ダイヤモンド工業",
           "listing": {
             "market": "東証プライム",
             "code": "6140"
-          }
+          },
+          "segment": "tool"
         },
         {
           "name": "島精機製作所",
@@ -185,14 +203,16 @@
             "market": "東証プライム",
             "code": "6222"
           },
-          "note": "編機"
+          "note": "編機",
+          "segment": "other"
         },
         {
           "name": "ユニオンツール",
           "listing": {
             "market": "東証プライム",
             "code": "6278"
-          }
+          },
+          "segment": "other"
         },
         {
           "name": "日精エー・エス・ビー機械",
@@ -200,7 +220,8 @@
             "market": "東証プライム",
             "code": "6284"
           },
-          "note": "ブロー成形機"
+          "note": "ブロー成形機",
+          "segment": "other"
         },
         {
           "name": "小森コーポレーション",
@@ -208,7 +229,8 @@
             "market": "東証プライム",
             "code": "6349"
           },
-          "note": "印刷機械"
+          "note": "印刷機械",
+          "segment": "industry_machine"
         },
         {
           "name": "マックス",
@@ -216,7 +238,8 @@
             "market": "東証プライム",
             "code": "6454"
           },
-          "note": "釘打機・文具"
+          "note": "釘打機・文具",
+          "segment": "industry_machine"
         },
         {
           "name": "オプトラン",
@@ -224,42 +247,48 @@
             "market": "東証プライム",
             "code": "6235"
           },
-          "note": "光学薄膜装置"
+          "note": "光学薄膜装置",
+          "segment": "industry_machine"
         },
         {
           "name": "日東工器",
           "listing": {
             "market": "東証プライム",
             "code": "6151"
-          }
+          },
+          "segment": "other"
         },
         {
           "name": "日進工具",
           "listing": {
             "market": "東証スタンダード",
             "code": "6157"
-          }
+          },
+          "segment": "tool"
         },
         {
           "name": "冨士ダイス",
           "listing": {
             "market": "東証プライム",
             "code": "6167"
-          }
+          },
+          "segment": "tool"
         },
         {
           "name": "ワイエイシイホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "6298"
-          }
+          },
+          "segment": "other"
         },
         {
           "name": "新東工業",
           "listing": {
             "market": "東証プライム",
             "code": "6339"
-          }
+          },
+          "segment": "other"
         },
         {
           "name": "レオン自動機",
@@ -267,7 +296,8 @@
             "market": "東証プライム",
             "code": "6272"
           },
-          "note": "食品機械"
+          "note": "食品機械",
+          "segment": "industry_machine"
         },
         {
           "name": "瑞光",
@@ -275,7 +305,8 @@
             "market": "東証プライム",
             "code": "6279"
           },
-          "note": "衛生用品機械"
+          "note": "衛生用品機械",
+          "segment": "industry_machine"
         },
         {
           "name": "澁谷工業",
@@ -283,7 +314,8 @@
             "market": "東証プライム",
             "code": "6340"
           },
-          "note": "ボトリング・医療機器"
+          "note": "ボトリング・医療機器",
+          "segment": "industry_machine"
         },
         {
           "name": "JUKI",
@@ -291,7 +323,8 @@
             "market": "東証プライム",
             "code": "6440"
           },
-          "note": "ミシン"
+          "note": "ミシン",
+          "segment": "industry_machine"
         },
         {
           "name": "ジャノメ",
@@ -299,7 +332,8 @@
             "market": "東証プライム",
             "code": "6445"
           },
-          "note": "ミシン"
+          "note": "ミシン",
+          "segment": "industry_machine"
         },
         {
           "name": "理想科学工業",
@@ -307,42 +341,48 @@
             "market": "東証プライム",
             "code": "6413"
           },
-          "note": "孔版印刷機"
+          "note": "孔版印刷機",
+          "segment": "industry_machine"
         },
         {
           "name": "マルマエ",
           "listing": {
             "market": "東証プライム",
             "code": "6264"
-          }
+          },
+          "segment": "other"
         },
         {
           "name": "北川鉄工所",
           "listing": {
             "market": "東証スタンダード",
             "code": "6317"
-          }
+          },
+          "segment": "other"
         },
         {
           "name": "巴工業",
           "listing": {
             "market": "東証プライム",
             "code": "6309"
-          }
+          },
+          "segment": "other"
         },
         {
           "name": "木村化工機",
           "listing": {
             "market": "東証スタンダード",
             "code": "6378"
-          }
+          },
+          "segment": "other"
         },
         {
           "name": "日本金銭機械",
           "listing": {
             "market": "東証プライム",
             "code": "6418"
-          }
+          },
+          "segment": "industry_machine"
         },
         {
           "name": "岡本工作機械製作所",
@@ -350,7 +390,8 @@
             "market": "東証スタンダード",
             "code": "6125"
           },
-          "note": "研削盤"
+          "note": "研削盤",
+          "segment": "mt"
         },
         {
           "name": "NITTOKU",
@@ -358,14 +399,16 @@
             "market": "東証スタンダード",
             "code": "6145"
           },
-          "note": "巻線機"
+          "note": "巻線機",
+          "segment": "other"
         },
         {
           "name": "豊和工業",
           "listing": {
             "market": "東証スタンダード",
             "code": "6203"
-          }
+          },
+          "segment": "mt"
         },
         {
           "name": "津田駒工業",
@@ -373,14 +416,16 @@
             "market": "東証スタンダード",
             "code": "6217"
           },
-          "note": "織機"
+          "note": "織機",
+          "segment": "industry_machine"
         },
         {
           "name": "エンシュウ",
           "listing": {
             "market": "東証スタンダード",
             "code": "6218"
-          }
+          },
+          "segment": "mt"
         },
         {
           "name": "鈴茂器工",
@@ -388,7 +433,8 @@
             "market": "東証スタンダード",
             "code": "6405"
           },
-          "note": "寿司ロボット"
+          "note": "寿司ロボット",
+          "segment": "industry_machine"
         },
         {
           "name": "東京機械製作所",
@@ -396,7 +442,8 @@
             "market": "東証スタンダード",
             "code": "6335"
           },
-          "note": "輪転機"
+          "note": "輪転機",
+          "segment": "industry_machine"
         },
         {
           "name": "ヒラノテクシード",
@@ -404,28 +451,32 @@
             "market": "東証スタンダード",
             "code": "6245"
           },
-          "note": "塗工機"
+          "note": "塗工機",
+          "segment": "industry_machine"
         },
         {
           "name": "ダイジェット工業",
           "listing": {
             "market": "東証スタンダード",
             "code": "6138"
-          }
+          },
+          "segment": "tool"
         },
         {
           "name": "エーワン精密",
           "listing": {
             "market": "東証スタンダード",
             "code": "6156"
-          }
+          },
+          "segment": "tool"
         },
         {
           "name": "パンチ工業",
           "listing": {
             "market": "東証スタンダード",
             "code": "6165"
-          }
+          },
+          "segment": "tool"
         },
         {
           "name": "ミロク",
@@ -433,7 +484,8 @@
             "market": "東証スタンダード",
             "code": "7983"
           },
-          "note": "猟銃・工作機械"
+          "note": "猟銃・工作機械",
+          "segment": "industry_machine"
         },
         {
           "name": "小池酸素工業",
@@ -441,7 +493,8 @@
             "market": "東証スタンダード",
             "code": "6137"
           },
-          "note": "溶断・ガス機器"
+          "note": "溶断・ガス機器",
+          "segment": "mt"
         },
         {
           "name": "ヤマザキ",
@@ -449,7 +502,8 @@
             "market": "東証スタンダード",
             "code": "6147"
           },
-          "note": "工作機械"
+          "note": "工作機械",
+          "segment": "mt"
         },
         {
           "name": "タケダ機械",
@@ -457,7 +511,8 @@
             "market": "東証スタンダード",
             "code": "6150"
           },
-          "note": "鋼材加工機"
+          "note": "鋼材加工機",
+          "segment": "mt"
         },
         {
           "name": "高松機械工業",
@@ -465,7 +520,8 @@
             "market": "東証スタンダード",
             "code": "6155"
           },
-          "note": "CNC旋盤"
+          "note": "CNC旋盤",
+          "segment": "mt"
         },
         {
           "name": "和井田製作所",
@@ -473,7 +529,8 @@
             "market": "東証スタンダード",
             "code": "6158"
           },
-          "note": "研削盤"
+          "note": "研削盤",
+          "segment": "mt"
         },
         {
           "name": "ミクロン精密",
@@ -481,7 +538,8 @@
             "market": "東証スタンダード",
             "code": "6159"
           },
-          "note": "研削盤"
+          "note": "研削盤",
+          "segment": "mt"
         },
         {
           "name": "エスティック",
@@ -489,7 +547,8 @@
             "market": "東証スタンダード",
             "code": "6161"
           },
-          "note": "ねじ締め機"
+          "note": "ねじ締め機",
+          "segment": "molding"
         },
         {
           "name": "中村超硬",
@@ -497,7 +556,8 @@
             "market": "東証グロース",
             "code": "6166"
           },
-          "note": "ダイヤモンドワイヤ"
+          "note": "ダイヤモンドワイヤ",
+          "segment": "tool"
         },
         {
           "name": "放電精密加工研究所",
@@ -505,7 +565,8 @@
             "market": "東証スタンダード",
             "code": "6469"
           },
-          "note": "放電加工"
+          "note": "放電加工",
+          "segment": "molding"
         },
         {
           "name": "黒田精工",
@@ -513,7 +574,8 @@
             "market": "東証スタンダード",
             "code": "7726"
           },
-          "note": "精密測定機器"
+          "note": "精密測定機器",
+          "segment": "mt"
         },
         {
           "name": "不二精機",
@@ -521,7 +583,8 @@
             "market": "東証スタンダード",
             "code": "6400"
           },
-          "note": "金型"
+          "note": "金型",
+          "segment": "molding"
         },
         {
           "name": "石井表記",
@@ -529,7 +592,8 @@
             "market": "東証スタンダード",
             "code": "6336"
           },
-          "note": "基板製造装置"
+          "note": "基板製造装置",
+          "segment": "industry_machine"
         },
         {
           "name": "太平製作所",
@@ -537,7 +601,8 @@
             "market": "東証スタンダード",
             "code": "6342"
           },
-          "note": "合板機械"
+          "note": "合板機械",
+          "segment": "industry_machine"
         },
         {
           "name": "キクカワエンタープライズ",
@@ -545,7 +610,8 @@
             "market": "東証スタンダード",
             "code": "6346"
           },
-          "note": "木工機械"
+          "note": "木工機械",
+          "segment": "industry_machine"
         },
         {
           "name": "北川精機",
@@ -553,7 +619,8 @@
             "market": "東証スタンダード",
             "code": "6327"
           },
-          "note": "プレス関連"
+          "note": "プレス関連",
+          "segment": "other"
         },
         {
           "name": "石川製作所",
@@ -561,7 +628,8 @@
             "market": "東証スタンダード",
             "code": "6208"
           },
-          "note": "紙工機械・防衛機器"
+          "note": "紙工機械・防衛機器",
+          "segment": "industry_machine"
         },
         {
           "name": "PEGASUS",
@@ -569,7 +637,8 @@
             "market": "東証スタンダード",
             "code": "6262"
           },
-          "note": "工業用ミシン"
+          "note": "工業用ミシン",
+          "segment": "industry_machine"
         },
         {
           "name": "アルテック",
@@ -577,7 +646,8 @@
             "market": "東証スタンダード",
             "code": "9972"
           },
-          "note": "樹脂機械・産機商社"
+          "note": "樹脂機械・産機商社",
+          "segment": "molding"
         },
         {
           "name": "松屋アールアンドディ",
@@ -585,7 +655,8 @@
             "market": "東証グロース",
             "code": "7317"
           },
-          "note": "エアバッグ縫製システム"
+          "note": "エアバッグ縫製システム",
+          "segment": "industry_machine"
         },
         {
           "name": "フリージア・マクロス",
@@ -593,7 +664,8 @@
             "market": "東証スタンダード",
             "code": "6343"
           },
-          "note": "工作機械・住宅"
+          "note": "工作機械・住宅",
+          "segment": "industry_machine"
         },
         {
           "name": "テクノスマート",
@@ -601,7 +673,8 @@
             "market": "東証スタンダード",
             "code": "6246"
           },
-          "note": "塗工・乾燥装置"
+          "note": "塗工・乾燥装置",
+          "segment": "industry_machine"
         },
         {
           "name": "CGSホールディングス",
@@ -609,7 +682,8 @@
             "market": "東証スタンダード",
             "code": "6633"
           },
-          "note": "金型用CAD/CAM国内首位"
+          "note": "金型用CAD/CAM国内首位",
+          "segment": "other"
         },
         {
           "name": "GMSグループ",
@@ -617,7 +691,8 @@
             "market": "東証プライム",
             "code": "544A"
           },
-          "note": "射出成形機(日精樹脂工業)"
+          "note": "射出成形機(日精樹脂工業)",
+          "segment": "molding"
         },
         {
           "name": "KLASS",
@@ -625,10 +700,38 @@
             "market": "東証スタンダード",
             "code": "6233"
           },
-          "note": "内装施工機器・産業機械"
+          "note": "内装施工機器・産業機械",
+          "segment": "industry_machine"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "segments": [
+        {
+          "id": "mt",
+          "label": "工作機械",
+          "description": "切削・研削・プレス等のマザーマシン"
+        },
+        {
+          "id": "tool",
+          "label": "工具・消耗品",
+          "description": "切削工具・作業工具"
+        },
+        {
+          "id": "molding",
+          "label": "成形・射出・特殊加工",
+          "description": "射出成形機・放電加工・金型"
+        },
+        {
+          "id": "industry_machine",
+          "label": "産業用専用機",
+          "description": "包装・印刷・繊維・食品等の専用機械"
+        },
+        {
+          "id": "other",
+          "label": "その他",
+          "description": ""
+        }
+      ]
     },
     {
       "id": "robot_fa",

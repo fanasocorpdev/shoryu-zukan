@@ -381,6 +381,11 @@
           "listing": {
             "market": "東証プライム",
             "code": "8058"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 183449,
+            "as_of": "2026-07",
+            "note": "収益は概算。時価総額=2026-07時点"
           }
         },
         {
@@ -391,6 +396,12 @@
           "listing": {
             "market": "東証プライム",
             "code": "8001"
+          },
+          "financials": {
+            "revenue_oku_jpy": 148231,
+            "market_cap_oku_jpy": 160153,
+            "as_of": "2026-07",
+            "note": "収益=2026年3月期実績(決算短信)、時価総額=2026-07時点"
           }
         },
         {
@@ -773,6 +784,12 @@
           "listing": {
             "market": "東証プライム",
             "code": "3382"
+          },
+          "financials": {
+            "revenue_oku_jpy": 104302,
+            "market_cap_oku_jpy": 52638,
+            "as_of": "2026-07",
+            "note": "営業収益=2026年2月期実績(決算短信)、時価総額=2026-07時点"
           }
         }
       ],
@@ -802,7 +819,8 @@
             "market_cap_oku_jpy": 10000,
             "as_of": "2025",
             "note": "概算。外食売上で国内首位"
-          }
+          },
+          "segment": "fast"
         },
         {
           "name": "日本マクドナルドホールディングス",
@@ -817,7 +835,8 @@
             "revenue_oku_jpy": 4000,
             "as_of": "2025",
             "note": "概算"
-          }
+          },
+          "segment": "fast"
         },
         {
           "name": "すかいらーくホールディングス",
@@ -832,7 +851,8 @@
             "revenue_oku_jpy": 4000,
             "as_of": "2025",
             "note": "概算"
-          }
+          },
+          "segment": "family"
         },
         {
           "name": "トリドールホールディングス(丸亀製麺)",
@@ -847,343 +867,392 @@
             "revenue_oku_jpy": 2500,
             "as_of": "2025",
             "note": "概算"
-          }
+          },
+          "segment": "fast"
         },
         {
           "name": "FOOD & LIFE COMPANIES",
           "listing": {
             "market": "東証プライム",
             "code": "3563"
-          }
+          },
+          "segment": "fast"
         },
         {
           "name": "くら寿司",
           "listing": {
             "market": "東証プライム",
             "code": "2695"
-          }
+          },
+          "segment": "fast"
         },
         {
           "name": "コロワイド",
           "listing": {
             "market": "東証プライム",
             "code": "7616"
-          }
+          },
+          "segment": "family"
         },
         {
           "name": "アトム",
           "listing": {
             "market": "東証スタンダード",
             "code": "7412"
-          }
+          },
+          "segment": "family"
         },
         {
           "name": "カッパ・クリエイト",
           "listing": {
             "market": "東証プライム",
             "code": "7421"
-          }
+          },
+          "segment": "family"
         },
         {
           "name": "ワタミ",
           "listing": {
             "market": "東証プライム",
             "code": "7522"
-          }
+          },
+          "segment": "izakaya"
         },
         {
           "name": "吉野家ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "9861"
-          }
+          },
+          "segment": "fast"
         },
         {
           "name": "松屋フーズホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "9887"
-          }
+          },
+          "segment": "fast"
         },
         {
           "name": "壱番屋",
           "listing": {
             "market": "東証プライム",
             "code": "7630"
-          }
+          },
+          "segment": "fast"
         },
         {
           "name": "王将フードサービス",
           "listing": {
             "market": "東証プライム",
             "code": "9936"
-          }
+          },
+          "segment": "fast"
         },
         {
           "name": "ハチバン",
           "listing": {
             "market": "東証スタンダード",
             "code": "9950"
-          }
+          },
+          "segment": "fast"
         },
         {
           "name": "リンガーハット",
           "listing": {
             "market": "東証プライム",
             "code": "8200"
-          }
+          },
+          "segment": "fast"
         },
         {
           "name": "ハイデイ日高",
           "listing": {
             "market": "東証プライム",
             "code": "7611"
-          }
+          },
+          "segment": "fast"
         },
         {
           "name": "幸楽苑",
           "listing": {
             "market": "東証プライム",
             "code": "7554"
-          }
+          },
+          "segment": "fast"
         },
         {
           "name": "力の源ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3561"
-          }
+          },
+          "segment": "fast"
         },
         {
           "name": "丸千代山岡家",
           "listing": {
             "market": "東証スタンダード",
             "code": "3399"
-          }
+          },
+          "segment": "fast"
         },
         {
           "name": "ギフトホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "9279"
-          }
+          },
+          "segment": "fast"
         },
         {
           "name": "魁力屋",
           "listing": {
             "market": "東証スタンダード",
             "code": "5891"
-          }
+          },
+          "segment": "fast"
         },
         {
           "name": "大戸屋ホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "2705"
-          }
+          },
+          "segment": "family"
         },
         {
           "name": "サイゼリヤ",
           "listing": {
             "market": "東証プライム",
             "code": "7581"
-          }
+          },
+          "segment": "family"
         },
         {
           "name": "ブロンコビリー",
           "listing": {
             "market": "東証プライム",
             "code": "3091"
-          }
+          },
+          "segment": "family"
         },
         {
           "name": "あみやき亭",
           "listing": {
             "market": "東証プライム",
             "code": "2753"
-          }
+          },
+          "segment": "family"
         },
         {
           "name": "安楽亭",
           "listing": {
             "market": "東証スタンダード",
             "code": "7562"
-          }
+          },
+          "segment": "family"
         },
         {
           "name": "木曽路",
           "listing": {
             "market": "東証プライム",
             "code": "8160"
-          }
+          },
+          "segment": "family"
         },
         {
           "name": "SRSホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "8163"
-          }
+          },
+          "segment": "family"
         },
         {
           "name": "サガミホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "9900"
-          }
+          },
+          "segment": "fast"
         },
         {
           "name": "グルメ杵屋",
           "listing": {
             "market": "東証プライム",
             "code": "9850"
-          }
+          },
+          "segment": "fast"
         },
         {
           "name": "ドトール・日レスホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3087"
-          }
+          },
+          "segment": "cafe"
         },
         {
           "name": "サンマルクホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3395"
-          }
+          },
+          "segment": "cafe"
         },
         {
           "name": "コメダホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3543"
-          }
+          },
+          "segment": "cafe"
         },
         {
           "name": "銀座ルノアール",
           "listing": {
             "market": "東証スタンダード",
             "code": "9853"
-          }
+          },
+          "segment": "cafe"
         },
         {
           "name": "東和フードサービス",
           "listing": {
             "market": "東証スタンダード",
             "code": "3329"
-          }
+          },
+          "segment": "cafe"
         },
         {
           "name": "ロイヤルホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "8179"
-          }
+          },
+          "segment": "family"
         },
         {
           "name": "クリエイト・レストランツ・ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3387"
-          }
+          },
+          "segment": "family"
         },
         {
           "name": "モスフードサービス",
           "listing": {
             "market": "東証プライム",
             "code": "8153"
-          }
+          },
+          "segment": "fast"
         },
         {
           "name": "物語コーポレーション",
           "listing": {
             "market": "東証プライム",
             "code": "3097"
-          }
+          },
+          "segment": "family"
         },
         {
           "name": "ホットランドホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3196"
-          }
+          },
+          "segment": "fast"
         },
         {
           "name": "エターナルホスピタリティグループ",
           "listing": {
             "market": "東証プライム",
             "code": "3193"
-          }
+          },
+          "segment": "izakaya"
         },
         {
           "name": "テンアライド",
           "listing": {
             "market": "東証スタンダード",
             "code": "8207"
-          }
+          },
+          "segment": "izakaya"
         },
         {
           "name": "大庄",
           "listing": {
             "market": "東証スタンダード",
             "code": "9979"
-          }
+          },
+          "segment": "izakaya"
         },
         {
           "name": "チムニー",
           "listing": {
             "market": "東証スタンダード",
             "code": "3178"
-          }
+          },
+          "segment": "izakaya"
         },
         {
           "name": "ひらまつ",
           "listing": {
             "market": "東証スタンダード",
             "code": "2764"
-          }
+          },
+          "segment": "izakaya"
         },
         {
           "name": "うかい",
           "listing": {
             "market": "東証スタンダード",
             "code": "7621"
-          }
+          },
+          "segment": "izakaya"
         },
         {
           "name": "WDI",
           "listing": {
             "market": "東証スタンダード",
             "code": "3068"
-          }
+          },
+          "segment": "izakaya"
         },
         {
           "name": "フジオフードグループ本社",
           "listing": {
             "market": "東証プライム",
             "code": "2752"
-          }
+          },
+          "segment": "family"
         },
         {
           "name": "ヨシックスホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3221"
-          }
+          },
+          "segment": "family"
         },
         {
           "name": "銚子丸",
           "listing": {
             "market": "東証スタンダード",
             "code": "3075"
-          }
+          },
+          "segment": "fast"
         },
         {
           "name": "ペッパーフードサービス",
           "listing": {
             "market": "東証スタンダード",
             "code": "3053"
-          }
+          },
+          "segment": "fast"
         },
         {
           "name": "Genki Global Dining Concepts",
@@ -1191,7 +1260,8 @@
             "market": "東証スタンダード",
             "code": "9828"
           },
-          "note": "元気寿司"
+          "note": "元気寿司",
+          "segment": "fast"
         },
         {
           "name": "ライドオンエクスプレスホールディングス",
@@ -1199,21 +1269,24 @@
             "market": "東証スタンダード",
             "code": "6082"
           },
-          "note": "銀のさら"
+          "note": "銀のさら",
+          "segment": "delivery"
         },
         {
           "name": "焼肉坂井ホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "2694"
-          }
+          },
+          "segment": "izakaya"
         },
         {
           "name": "カルラ",
           "listing": {
             "market": "東証スタンダード",
             "code": "2789"
-          }
+          },
+          "segment": "family"
         },
         {
           "name": "ハブ",
@@ -1221,119 +1294,136 @@
             "market": "東証スタンダード",
             "code": "3030"
           },
-          "note": "英国風パブ"
+          "note": "英国風パブ",
+          "segment": "izakaya"
         },
         {
           "name": "ジェイグループホールディングス",
           "listing": {
             "market": "東証グロース",
             "code": "3063"
-          }
+          },
+          "segment": "izakaya"
         },
         {
           "name": "きちりホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "3082"
-          }
+          },
+          "segment": "izakaya"
         },
         {
           "name": "フライングガーデン",
           "listing": {
             "market": "東証スタンダード",
             "code": "3317"
-          }
+          },
+          "segment": "fast"
         },
         {
           "name": "あさくま",
           "listing": {
             "market": "東証スタンダード",
             "code": "7678"
-          }
+          },
+          "segment": "family"
         },
         {
           "name": "浜木綿",
           "listing": {
             "market": "東証スタンダード",
             "code": "7682"
-          }
+          },
+          "segment": "family"
         },
         {
           "name": "梅の花グループ",
           "listing": {
             "market": "東証スタンダード",
             "code": "7604"
-          }
+          },
+          "segment": "izakaya"
         },
         {
           "name": "グローバルダイニング",
           "listing": {
             "market": "東証スタンダード",
             "code": "7625"
-          }
+          },
+          "segment": "izakaya"
         },
         {
           "name": "バルニバービ",
           "listing": {
             "market": "東証グロース",
             "code": "3418"
-          }
+          },
+          "segment": "izakaya"
         },
         {
           "name": "ヴィア・ホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "7918"
-          }
+          },
+          "segment": "izakaya"
         },
         {
           "name": "東天紅",
           "listing": {
             "market": "東証スタンダード",
             "code": "8181"
-          }
+          },
+          "segment": "izakaya"
         },
         {
           "name": "かんなん丸",
           "listing": {
             "market": "東証スタンダード",
             "code": "7585"
-          }
+          },
+          "segment": "fast"
         },
         {
           "name": "海帆",
           "listing": {
             "market": "東証グロース",
             "code": "3133"
-          }
+          },
+          "segment": "izakaya"
         },
         {
           "name": "ライフフーズ",
           "listing": {
             "market": "東証スタンダード",
             "code": "3065"
-          }
+          },
+          "segment": "fast"
         },
         {
           "name": "東京一番フーズ",
           "listing": {
             "market": "東証スタンダード",
             "code": "3067"
-          }
+          },
+          "segment": "izakaya"
         },
         {
           "name": "ゼネラル・オイスター",
           "listing": {
             "market": "東証グロース",
             "code": "3224"
-          }
+          },
+          "segment": "izakaya"
         },
         {
           "name": "一家ホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "7127"
-          }
+          },
+          "segment": "izakaya"
         },
         {
           "name": "NATTY SWANKYホールディングス",
@@ -1341,35 +1431,40 @@
             "market": "東証グロース",
             "code": "7674"
           },
-          "note": "肉汁餃子のダンダダン"
+          "note": "肉汁餃子のダンダダン",
+          "segment": "izakaya"
         },
         {
           "name": "光フードサービス",
           "listing": {
             "market": "東証グロース",
             "code": "138A"
-          }
+          },
+          "segment": "other"
         },
         {
           "name": "ワイズテーブルコーポレーション",
           "listing": {
             "market": "東証スタンダード",
             "code": "2798"
-          }
+          },
+          "segment": "izakaya"
         },
         {
           "name": "SANKO MARKETING FOODS",
           "listing": {
             "market": "東証スタンダード",
             "code": "2762"
-          }
+          },
+          "segment": "izakaya"
         },
         {
           "name": "ホリイフードサービス",
           "listing": {
             "market": "東証スタンダード",
             "code": "3077"
-          }
+          },
+          "segment": "izakaya"
         },
         {
           "name": "エー・ピーホールディングス",
@@ -1377,7 +1472,8 @@
             "market": "東証スタンダード",
             "code": "3175"
           },
-          "note": "塚田農場"
+          "note": "塚田農場",
+          "segment": "izakaya"
         },
         {
           "name": "関門海",
@@ -1385,7 +1481,8 @@
             "market": "東証スタンダード",
             "code": "3372"
           },
-          "note": "ふぐ料理"
+          "note": "ふぐ料理",
+          "segment": "family"
         },
         {
           "name": "ファンデリー",
@@ -1393,7 +1490,8 @@
             "market": "東証スタンダード",
             "code": "3137"
           },
-          "note": "食事宅配"
+          "note": "食事宅配",
+          "segment": "delivery"
         },
         {
           "name": "ハークスレイ",
@@ -1401,7 +1499,8 @@
             "market": "東証スタンダード",
             "code": "7561"
           },
-          "note": "ほっかほっか亭・アルヘイム"
+          "note": "ほっかほっか亭・アルヘイム",
+          "segment": "other"
         },
         {
           "name": "マルシェ",
@@ -1409,7 +1508,8 @@
             "market": "東証スタンダード",
             "code": "7524"
           },
-          "note": "居酒屋"
+          "note": "居酒屋",
+          "segment": "izakaya"
         },
         {
           "name": "ユナイテッド&コレクティブ",
@@ -1417,7 +1517,8 @@
             "market": "東証グロース",
             "code": "3557"
           },
-          "note": "居酒屋(てけてけ)"
+          "note": "居酒屋(てけてけ)",
+          "segment": "izakaya"
         },
         {
           "name": "エスエルディー",
@@ -1425,7 +1526,8 @@
             "market": "東証スタンダード",
             "code": "3223"
           },
-          "note": "カフェ・飲食"
+          "note": "カフェ・飲食",
+          "segment": "izakaya"
         },
         {
           "name": "INGS",
@@ -1433,7 +1535,8 @@
             "market": "東証グロース",
             "code": "245A"
           },
-          "note": "ラーメン・飲食"
+          "note": "ラーメン・飲食",
+          "segment": "fast"
         },
         {
           "name": "ガーデン",
@@ -1441,7 +1544,8 @@
             "market": "東証スタンダード",
             "code": "274A"
           },
-          "note": "ラーメン"
+          "note": "ラーメン",
+          "segment": "fast"
         },
         {
           "name": "G-FACTORY",
@@ -1449,7 +1553,8 @@
             "market": "東証グロース",
             "code": "3474"
           },
-          "note": "飲食店出店・経営支援"
+          "note": "飲食店出店・経営支援",
+          "segment": "delivery"
         },
         {
           "name": "Trailhead Global Holdings",
@@ -1457,7 +1562,8 @@
             "market": "東証スタンダード",
             "code": "3358"
           },
-          "note": "ラーメンFC・厨房機器"
+          "note": "ラーメンFC・厨房機器",
+          "segment": "fast"
         },
         {
           "name": "フジタコーポレーション",
@@ -1465,7 +1571,8 @@
             "market": "東証スタンダード",
             "code": "3370"
           },
-          "note": "北海道FC飲食(かつてん)"
+          "note": "北海道FC飲食(かつてん)",
+          "segment": "fast"
         },
         {
           "name": "ユニシアホールディングス",
@@ -1473,7 +1580,8 @@
             "market": "東証スタンダード",
             "code": "3547"
           },
-          "note": "串カツ田中"
+          "note": "串カツ田中",
+          "segment": "izakaya"
         },
         {
           "name": "サイプレス・ホールディングス",
@@ -1481,10 +1589,43 @@
             "market": "東証スタンダード",
             "code": "428A"
           },
-          "note": "多業態飲食(築地食堂源ちゃん)"
+          "note": "多業態飲食(築地食堂源ちゃん)",
+          "segment": "izakaya"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "segments": [
+        {
+          "id": "fast",
+          "label": "ファストフード・麺・丼",
+          "description": "回転寿司・ラーメン・牛丼・カレー等"
+        },
+        {
+          "id": "izakaya",
+          "label": "居酒屋・ディナー",
+          "description": "居酒屋・ディナーレストラン"
+        },
+        {
+          "id": "family",
+          "label": "ファミレス・定食",
+          "description": "ファミリーレストラン・食堂・焼肉"
+        },
+        {
+          "id": "cafe",
+          "label": "カフェ・喫茶",
+          "description": "カフェ・コーヒーチェーン"
+        },
+        {
+          "id": "delivery",
+          "label": "宅配・給食",
+          "description": "宅配・弁当・給食"
+        },
+        {
+          "id": "other",
+          "label": "その他業態",
+          "description": ""
+        }
+      ]
     },
     {
       "id": "consumer",
