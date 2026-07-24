@@ -1,7 +1,30 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607241907";
+import { createMapView } from "./mapview.js?v=202607241914";
 
 const app = document.getElementById("app");
+
+// ---- テーマ(ライト/ダーク)。既定はOS設定に追従 ----
+const THEME_KEY = "akinai_theme";
+function applyTheme(t) {
+  document.documentElement.dataset.theme = t;
+  const btn = document.querySelector(".theme-toggle");
+  if (btn) btn.textContent = t === "dark" ? "☀️" : "🌙";
+}
+{
+  const saved = localStorage.getItem(THEME_KEY);
+  const initial = saved ?? (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  const btn = document.createElement("button");
+  btn.className = "theme-toggle";
+  btn.title = "ライト/ダーク切替";
+  btn.addEventListener("click", () => {
+    const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+    localStorage.setItem(THEME_KEY, next);
+    applyTheme(next);
+  });
+  document.body.appendChild(btn);
+  applyTheme(initial);
+}
+
 const cache = {};
 
 async function fetchJSON(path) {
