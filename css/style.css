@@ -1,21 +1,21 @@
 /* ============ あきないマップ — 冒険地図テーマ ============ */
 :root {
-  --ink: #2d2519;
-  --ink-soft: #75674c;
-  --paper: #f6f1e6;
-  --paper-deep: #ebe2cf;
-  --paper-edge: #d9cdb0;
-  --gold: #96742a;
-  --goods: #128371;
-  --capex: #c07d0c;
-  --opex: #c14e69;
-  --hq-glow: #fbf6e9;
-  --surface: rgba(255, 255, 255, .42);
-  --surface-2: rgba(255, 255, 255, .62);
-  --surface-solid: #faf5ea;
-  --surface-border: rgba(120, 100, 60, .18);
-  --grad-a: rgba(252, 247, 238, .96);
-  --grad-b: rgba(240, 232, 216, .96);
+  --ink: #1f2a33;
+  --ink-soft: #64748b;
+  --paper: #f5f7f9;
+  --paper-deep: #eceff3;
+  --paper-edge: #dbe2e8;
+  --gold: #0f766e;
+  --goods: #059669;
+  --capex: #d97706;
+  --opex: #e11d48;
+  --hq-glow: #ffffff;
+  --surface: rgba(255, 255, 255, .72);
+  --surface-2: #ffffff;
+  --surface-solid: #ffffff;
+  --surface-border: rgba(30, 42, 51, .1);
+  --grad-a: rgba(255, 255, 255, .95);
+  --grad-b: rgba(246, 248, 250, .95);
   font-size: 15px;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -28,8 +28,9 @@ body {
   overflow: hidden;
 }
 h1, h2, h3, .serif {
-  font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
-  letter-spacing: 0.04em;
+  font-family: inherit;
+  font-weight: 700;
+  letter-spacing: 0.01em;
 }
 a { color: var(--gold); }
 button { font-family: inherit; cursor: pointer; }
@@ -139,7 +140,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 .cov-fill {
   height: 100%; border-radius: 999px;
-  background: linear-gradient(90deg, var(--gold), #c8a24a);
+  background: var(--gold);
   transition: width .6s ease;
 }
 
@@ -528,9 +529,9 @@ svg.focus .edge.lit path.line { stroke-width: 3.6; }
 /* ---- カネの旅(ガイドツアー) ---- */
 .journey-launch {
   position: absolute; bottom: 18px; left: 50%; transform: translateX(-50%); z-index: 19;
-  font-family: inherit; font-size: .88rem; font-weight: 700; color: #fff8ea;
-  background: linear-gradient(160deg, #8a5a24, #6e451a);
-  border: 1.5px solid #d8b878; border-radius: 999px; padding: 12px 22px;
+  font-family: inherit; font-size: .88rem; font-weight: 700; color: #fff;
+  background: var(--gold);
+  border: 1.5px solid transparent; border-radius: 999px; padding: 12px 22px;
   cursor: pointer; box-shadow: 0 4px 16px rgba(60,40,10,.35);
   min-height: 44px; white-space: nowrap; max-width: calc(100% - 24px);
   overflow: hidden; text-overflow: ellipsis;
@@ -546,7 +547,7 @@ svg.focus .edge.lit path.line { stroke-width: 3.6; }
 }
 .journey-bar .j-head { font-weight: 700; margin-bottom: 4px; }
 .journey-bar .j-count {
-  display: inline-block; background: #92640c; color: #fff8ea; border-radius: 999px;
+  display: inline-block; background: var(--gold); color: #fff; border-radius: 999px;
   font-size: .72rem; padding: 1px 9px; margin-right: 6px; font-weight: 700;
 }
 .journey-bar .j-route { font-size: .78rem; color: var(--ink-soft); margin-bottom: 4px; }
@@ -561,7 +562,7 @@ svg.focus .edge.lit path.line { stroke-width: 3.6; }
   border: 1.5px solid var(--paper-edge); border-radius: 8px; padding: 8px 16px;
   background: rgba(255,255,255,.65); color: var(--ink); min-height: 40px;
 }
-.journey-bar .j-nav button[data-j="next"] { background: #8a5a24; color: #fff8ea; border-color: #d8b878; }
+.journey-bar .j-nav button[data-j="next"] { background: var(--gold); color: #fff; border-color: transparent; }
 .journey-bar .j-nav button:disabled { opacity: .4; cursor: default; }
 .journey-bar .j-nav .j-close { margin-left: auto; }
 .journeying .edges .edge { opacity: .05; pointer-events: none; }
@@ -578,15 +579,15 @@ svg.focus .edge.lit path.line { stroke-width: 3.6; }
 /* ---- ホームカードのカネの旅バッジ ---- */
 .card .journey-tag {
   display: inline-block; margin: 2px 0 6px; padding: 2px 10px;
-  font-size: .72rem; font-weight: 700; color: #6e451a;
-  background: rgba(184,138,58,.16); border: 1px solid rgba(138,90,36,.4);
+  font-size: .72rem; font-weight: 700; color: var(--gold);
+  background: rgba(15,118,110,.08); border: 1px solid rgba(15,118,110,.3);
   border-radius: 999px; white-space: nowrap; overflow: hidden;
   text-overflow: ellipsis; max-width: 100%;
 }
 
 /* ---- 提携・取引表示 ---- */
 .c-deals { color: var(--ink); }
-.c-deals a { color: #92640c; text-decoration: underline dotted; }
+.c-deals a { color: var(--gold); text-decoration: underline dotted; }
 .deals-more { color: var(--ink-soft); }
 
 /* ---- ロゴ紋章 ---- */
@@ -597,7 +598,7 @@ svg.focus .edge.lit path.line { stroke-width: 3.6; }
 .card-photo {
   height: 96px; margin: -20px -20px 12px; border-radius: 10.5px 10.5px 0 0;
   background-size: cover; background-position: center;
-  filter: sepia(.38) saturate(.72) contrast(.94) brightness(1.02);
+  filter: saturate(.85) contrast(.96);
   opacity: .92; position: relative;
   border-bottom: 1.5px solid var(--paper-edge);
   transition: filter .2s, opacity .2s;
@@ -607,7 +608,7 @@ svg.focus .edge.lit path.line { stroke-width: 3.6; }
   background: linear-gradient(180deg, transparent, var(--paper));opacity:.55;
   pointer-events: none;
 }
-.card:hover .card-photo { filter: sepia(.12) saturate(.9) contrast(.97); opacity: 1; }
+.card:hover .card-photo { filter: saturate(1) contrast(1); opacity: 1; }
 
 /* ---- セマンティックズーム: 寄った時の強調 ---- */
 .node .top-company {
@@ -687,9 +688,9 @@ svg.near .node .count-badge text { font-size: 13px; }
 }
 #gate-form button {
   margin-top: 4px; padding: 13px; font-family: inherit; font-size: 1rem; font-weight: 700;
-  color: #fff; background: linear-gradient(160deg, #b8860b, #92640c);
+  color: #fff; background: var(--gold);
   border: none; border-radius: 999px; cursor: pointer; min-height: 48px;
-  box-shadow: 0 3px 10px rgba(146,100,12,.35);
+  box-shadow: 0 2px 8px rgba(15,118,110,.25);
 }
 #gate-form button:hover { filter: brightness(1.08); }
 .gate-note { font-size: .72rem; color: var(--ink-soft); text-align: center; }
@@ -699,7 +700,7 @@ svg.near .node .count-badge text { font-size: 13px; }
   padding: 6px 14px; border: 1.5px solid var(--gold); border-radius: 999px;
   color: var(--ink); font-weight: 700; background: var(--surface-2);
 }
-.gate-chip:hover { background: rgba(184,138,58,.15); }
+.gate-chip:hover { background: rgba(15,118,110,.08); }
 .card .access-tag {
   display: inline-block; margin: 2px 0 6px; padding: 2px 10px;
   font-size: .7rem; font-weight: 700; color: var(--ink-soft);
@@ -720,7 +721,7 @@ svg.near .node .count-badge text { font-size: 13px; }
   border: 1.5px solid var(--paper-edge); border-radius: 999px; color: var(--ink-soft);
   background: var(--surface-2); transition: all .12s;
 }
-.ind-chip input:checked + span { border-color: var(--gold); color: #6e451a; background: rgba(184,138,58,.18); }
+.ind-chip input:checked + span { border-color: var(--gold); color: var(--gold); background: rgba(15,118,110,.08); }
 .ind-chip input:disabled + span { opacity: .4; cursor: not-allowed; }
 
 /* ---- 渋滞対策: エッジが多いマップ(dense)は引きでラベルを畳み、線も薄く ---- */
@@ -739,7 +740,7 @@ svg.focus .node.lit { opacity: 1; }
   border: 1.5px solid var(--paper-edge); background: var(--surface-2); color: var(--ink-soft);
   vertical-align: 1px;
 }
-.cmp-add.on { border-color: var(--gold); color: #6e451a; background: rgba(184,138,58,.18); }
+.cmp-add.on { border-color: var(--gold); color: var(--gold); background: rgba(15,118,110,.08); }
 .cmp-add:hover { border-color: var(--gold); }
 .cmp-wrap { overflow-x: auto; }
 .cmp-table { width: 100%; border-collapse: collapse; font-size: .84rem; background: var(--surface); border-radius: 10px; }
@@ -751,7 +752,7 @@ svg.focus .node.lit { opacity: 1; }
 .cmp-copy {
   margin-top: 12px; font-family: inherit; font-size: .86rem; font-weight: 700; cursor: pointer;
   padding: 9px 18px; border-radius: 999px; border: 1.5px solid var(--gold);
-  background: rgba(184,138,58,.12); color: #6e451a; min-height: 42px;
+  background: rgba(15,118,110,.08); color: var(--gold); min-height: 42px;
 }
 .guide-card .g-talk { border-top: 1px dashed var(--paper-edge); padding-top: 8px; margin-top: 2px; }
 .hero-uses { font-size: .86rem; color: var(--gold); font-weight: 700; }
@@ -762,28 +763,28 @@ html { -webkit-font-smoothing: antialiased; }
 
 /* 夜の航海図(ダークモード) */
 :root[data-theme="dark"] {
-  --ink: #e9e4d8;
-  --ink-soft: #a29a88;
-  --paper: #141926;
-  --paper-deep: #0d1119;
-  --paper-edge: #333c52;
-  --gold: #c39b4e;
-  --goods: #4aa892;
-  --capex: #c9973f;
-  --opex: #c96b7f;
-  --hq-glow: #1d2434;
-  --surface: rgba(255, 255, 255, .05);
-  --surface-2: rgba(255, 255, 255, .09);
-  --surface-solid: #1a2130;
-  --surface-border: rgba(255, 255, 255, .12);
-  --grad-a: rgba(30, 37, 54, .96);
-  --grad-b: rgba(20, 25, 38, .96);
+  --ink: #e6ebf0;
+  --ink-soft: #94a3b8;
+  --paper: #101820;
+  --paper-deep: #0b1117;
+  --paper-edge: #2b3844;
+  --gold: #3db8a5;
+  --goods: #34a884;
+  --capex: #cf9440;
+  --opex: #d9647e;
+  --hq-glow: #1a2530;
+  --surface: rgba(255, 255, 255, .04);
+  --surface-2: rgba(255, 255, 255, .08);
+  --surface-solid: #172029;
+  --surface-border: rgba(255, 255, 255, .1);
+  --grad-a: rgba(26, 35, 44, .96);
+  --grad-b: rgba(16, 24, 32, .96);
 }
 :root[data-theme="dark"] body {
-  background: radial-gradient(ellipse at 50% 0%, #171c2b 0%, var(--paper) 50%, var(--paper-deep) 100%);
+  background: var(--paper);
 }
 body {
-  background: radial-gradient(ellipse at 20% 10%, #faf5ea 0%, var(--paper) 45%, var(--paper-deep) 100%);
+  background: var(--paper);
 }
 :root[data-theme="dark"] .card { background: var(--surface); }
 :root[data-theme="dark"] .card-photo { filter: sepia(.15) saturate(.8) contrast(.95) brightness(.8); opacity: .85; }
@@ -838,7 +839,7 @@ marker[id="arrow-opex"] path { fill: var(--opex); }
 
 /* ---- ダーク時の残ページ調整(索引・パネル内・バッジ・フォーム部品) ---- */
 :root[data-theme="dark"] .journey-tag,
-:root[data-theme="dark"] .card .journey-tag { color: var(--gold); border-color: rgba(217,169,74,.4); background: rgba(217,169,74,.12); }
+:root[data-theme="dark"] .card .journey-tag { color: var(--gold); border-color: rgba(61,184,165,.35); background: rgba(61,184,165,.1); }
 :root[data-theme="dark"] .access-tag.open { color: #5fd08a; border-color: #5fd08a; background: rgba(95,208,138,.1); }
 :root[data-theme="dark"] .dir-chip { background: var(--surface); border-color: var(--surface-border); color: var(--ink-soft); }
 :root[data-theme="dark"] .dir-chip.covered { color: var(--gold); border-color: var(--gold); }
@@ -849,15 +850,15 @@ marker[id="arrow-opex"] path { fill: var(--opex); }
 :root[data-theme="dark"] .company { background: var(--surface); border-color: var(--surface-border); }
 :root[data-theme="dark"] .sort-note, :root[data-theme="dark"] .gate-note { color: var(--ink-soft); }
 :root[data-theme="dark"] .cmp-add { background: var(--surface); color: var(--ink-soft); border-color: var(--surface-border); }
-:root[data-theme="dark"] .cmp-add.on { color: var(--gold); border-color: var(--gold); background: rgba(217,169,74,.14); }
-:root[data-theme="dark"] .cmp-copy { color: var(--gold); background: rgba(217,169,74,.12); }
+:root[data-theme="dark"] .cmp-add.on { color: var(--gold); border-color: var(--gold); background: rgba(61,184,165,.12); }
+:root[data-theme="dark"] .cmp-copy { color: var(--gold); background: rgba(61,184,165,.1); }
 :root[data-theme="dark"] .planned-chip { background: var(--surface); border-color: var(--surface-border); color: var(--ink-soft); }
 :root[data-theme="dark"] .coverage { background: var(--surface); }
 :root[data-theme="dark"] .about-sec { background: var(--surface); }
 :root[data-theme="dark"] .gate-chip { background: var(--surface); color: var(--ink); }
 :root[data-theme="dark"] .child-chip { color: var(--gold); border-color: var(--gold); }
 :root[data-theme="dark"] .style-tag { color: var(--gold); border-color: var(--gold); }
-:root[data-theme="dark"] .journey-launch { border-color: #a8834a; }
+:root[data-theme="dark"] .journey-launch { border-color: var(--gold); }
 
 /* ---- 脱・絵文字後のラベルタイポグラフィ(編集誌風の小ラベル) ---- */
 .guide-card p strong {
@@ -883,7 +884,7 @@ marker[id="arrow-opex"] path { fill: var(--opex); }
 .rank-cta { margin-top: 14px; text-align: center; }
 .rank-cta a {
   display: inline-block; padding: 12px 26px; border-radius: 999px; font-weight: 700;
-  color: #fff8ea; background: linear-gradient(160deg, #8a5a24, #6e451a);
-  border: 1.5px solid #d8b878;
+  color: #fff; background: var(--gold);
+  border: 1.5px solid transparent;
 }
 .rank-table .cmp-add { margin-left: 8px; }

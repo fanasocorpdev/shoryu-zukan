@@ -15,27 +15,27 @@ function New-OgImage {
 
   # 羊皮紙グラデーション背景
   $rect = New-Object System.Drawing.Rectangle(0, 0, 1200, 630)
-  $bg = New-Object System.Drawing.Drawing2D.LinearGradientBrush($rect, [System.Drawing.Color]::FromArgb(244,232,208), [System.Drawing.Color]::FromArgb(228,210,178), 55)
+  $bg = New-Object System.Drawing.Drawing2D.LinearGradientBrush($rect, [System.Drawing.Color]::FromArgb(248,250,252), [System.Drawing.Color]::FromArgb(232,237,242), 55)
   $g.FillRectangle($bg, $rect)
 
   # 装飾: 経緯線風の薄い円弧
-  $pen = New-Object System.Drawing.Pen([System.Drawing.Color]::FromArgb(40, 120, 90, 50), 2)
+  $pen = New-Object System.Drawing.Pen([System.Drawing.Color]::FromArgb(30, 100, 115, 125), 2)
   $g.DrawEllipse($pen, 700, -150, 700, 700)
   $g.DrawEllipse($pen, 780, -70, 540, 540)
   $g.DrawEllipse($pen, 860, 10, 380, 380)
-  $penD = New-Object System.Drawing.Pen([System.Drawing.Color]::FromArgb(60, 120, 90, 50), 3)
+  $penD = New-Object System.Drawing.Pen([System.Drawing.Color]::FromArgb(40, 100, 115, 125), 3)
   $penD.DashStyle = "Dash"
   $g.DrawLine($penD, 80, 500, 1120, 500)
 
   # 枠線(二重)
-  $penB = New-Object System.Drawing.Pen([System.Drawing.Color]::FromArgb(180, 92, 64, 32), 4)
+  $penB = New-Object System.Drawing.Pen([System.Drawing.Color]::FromArgb(150, 61, 75, 88), 4)
   $g.DrawRectangle($penB, 18, 18, 1163, 593)
-  $penB2 = New-Object System.Drawing.Pen([System.Drawing.Color]::FromArgb(120, 92, 64, 32), 2)
+  $penB2 = New-Object System.Drawing.Pen([System.Drawing.Color]::FromArgb(100, 61, 75, 88), 2)
   $g.DrawRectangle($penB2, 28, 28, 1143, 573)
 
-  $ink = New-Object System.Drawing.SolidBrush([System.Drawing.Color]::FromArgb(58, 40, 20))
-  $inkSoft = New-Object System.Drawing.SolidBrush([System.Drawing.Color]::FromArgb(200, 92, 64, 32))
-  $gold = New-Object System.Drawing.SolidBrush([System.Drawing.Color]::FromArgb(146, 100, 12))
+  $ink = New-Object System.Drawing.SolidBrush([System.Drawing.Color]::FromArgb(31, 42, 51))
+  $inkSoft = New-Object System.Drawing.SolidBrush([System.Drawing.Color]::FromArgb(200, 85, 100, 115))
+  $gold = New-Object System.Drawing.SolidBrush([System.Drawing.Color]::FromArgb(15, 118, 110))
 
   # コンパスローズ紋章(8方位)
   function Draw-Rose {
@@ -67,24 +67,24 @@ function New-OgImage {
     $gr.FillEllipse($mainBrush, ($cx - $R * 0.09), ($cy - $R * 0.09), ($R * 0.18), ($R * 0.18))
   }
   # 右側の大きな透かしローズ
-  $wmMain = New-Object System.Drawing.SolidBrush([System.Drawing.Color]::FromArgb(26, 146, 100, 12))
-  $wmSub = New-Object System.Drawing.SolidBrush([System.Drawing.Color]::FromArgb(20, 92, 64, 32))
+  $wmMain = New-Object System.Drawing.SolidBrush([System.Drawing.Color]::FromArgb(22, 15, 118, 110))
+  $wmSub = New-Object System.Drawing.SolidBrush([System.Drawing.Color]::FromArgb(16, 61, 75, 88))
   Draw-Rose $g 1030 170 190 $wmMain $wmSub $null
   # ブランド紋章
-  $penC = New-Object System.Drawing.Pen([System.Drawing.Color]::FromArgb(220, 92, 64, 32), 3)
+  $penC = New-Object System.Drawing.Pen([System.Drawing.Color]::FromArgb(200, 61, 75, 88), 3)
   $g.DrawEllipse($penC, 57, 53, 50, 50)
-  $penC2 = New-Object System.Drawing.Pen([System.Drawing.Color]::FromArgb(120, 138, 106, 58), 1.5)
+  $penC2 = New-Object System.Drawing.Pen([System.Drawing.Color]::FromArgb(90, 138, 160, 178), 1.5)
   $g.DrawEllipse($penC2, 62, 58, 40, 40)
-  $roseOutline = New-Object System.Drawing.Pen([System.Drawing.Color]::FromArgb(180, 92, 64, 32), 1)
+  $roseOutline = New-Object System.Drawing.Pen([System.Drawing.Color]::FromArgb(150, 61, 75, 88), 1)
   Draw-Rose $g 82 78 21 $gold $inkSoft $roseOutline
-  $brand = New-Object System.Drawing.Font("Yu Mincho", 30, [System.Drawing.FontStyle]::Bold)
+  $brand = New-Object System.Drawing.Font("Yu Gothic UI", 30, [System.Drawing.FontStyle]::Bold)
   $g.DrawString("あきないマップ", $brand, $inkSoft, 116, 58)
 
   # タイトル(業界名)
   $titleSize = 92
   if ($Title.Length -gt 8) { $titleSize = 72 }
   if ($Title.Length -gt 12) { $titleSize = 56 }
-  $fTitle = New-Object System.Drawing.Font("Yu Mincho", $titleSize, [System.Drawing.FontStyle]::Bold)
+  $fTitle = New-Object System.Drawing.Font("Yu Gothic UI", $titleSize, [System.Drawing.FontStyle]::Bold)
   $g.DrawString($Title, $fTitle, $ink, 52, 150)
 
   # タグライン(長ければ折返し)

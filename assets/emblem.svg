@@ -2,36 +2,36 @@
   <!-- あきないマップ 紋章: 羊皮紙地のコンパスローズ -->
   <defs>
     <radialGradient id="paper" cx="50%" cy="42%" r="65%">
-      <stop offset="0%" stop-color="#faf2e2"/>
-      <stop offset="78%" stop-color="#f1e3c8"/>
-      <stop offset="100%" stop-color="#e6d2ac"/>
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="78%" stop-color="#f4f7f9"/>
+      <stop offset="100%" stop-color="#e6ebf0"/>
     </radialGradient>
   </defs>
-  <circle cx="60" cy="60" r="56" fill="url(#paper)" stroke="#5c4020" stroke-width="3.5"/>
-  <circle cx="60" cy="60" r="48" fill="none" stroke="#8a6a3a" stroke-width="1" stroke-dasharray="2.5 3.5" opacity=".75"/>
+  <circle cx="60" cy="60" r="56" fill="url(#paper)" stroke="#3d4b58" stroke-width="3.5"/>
+  <circle cx="60" cy="60" r="48" fill="none" stroke="#8aa0b2" stroke-width="1" stroke-dasharray="2.5 3.5" opacity=".75"/>
   <!-- 目盛り -->
-  <g stroke="#8a6a3a" stroke-width="1.4" opacity=".65">
+  <g stroke="#8aa0b2" stroke-width="1.4" opacity=".65">
     <line x1="60" y1="7" x2="60" y2="13"/><line x1="60" y1="107" x2="60" y2="113"/>
     <line x1="7" y1="60" x2="13" y2="60"/><line x1="107" y1="60" x2="113" y2="60"/>
   </g>
   <!-- 斜め4方位(墨) -->
-  <g fill="#6b4c26">
+  <g fill="#64748b">
     <polygon points="60,60 68,52 88,32 68,45"/>
     <polygon points="60,60 68,68 88,88 75,68"/>
     <polygon points="60,60 52,68 32,88 52,75"/>
     <polygon points="60,60 52,52 32,32 45,52"/>
   </g>
   <!-- 主4方位(北=金の長針) -->
-  <g stroke="#5c4020" stroke-width="1" stroke-linejoin="round">
-    <polygon points="60,14 66,54 60,60 54,54" fill="#c9971c"/>
-    <polygon points="60,14 60,60 54,54" fill="#a37812"/>
-    <polygon points="106,60 66,66 60,60 66,54" fill="#e8dcc0"/>
-    <polygon points="106,60 60,60 66,66" fill="#cdbb92"/>
-    <polygon points="60,106 54,66 60,60 66,66" fill="#e8dcc0"/>
-    <polygon points="60,106 60,60 54,66" fill="#cdbb92"/>
-    <polygon points="14,60 54,54 60,60 54,66" fill="#e8dcc0"/>
-    <polygon points="14,60 60,60 54,54" fill="#cdbb92"/>
+  <g stroke="#3d4b58" stroke-width="1" stroke-linejoin="round">
+    <polygon points="60,14 66,54 60,60 54,54" fill="#0f9182"/>
+    <polygon points="60,14 60,60 54,54" fill="#0b6e62"/>
+    <polygon points="106,60 66,66 60,60 66,54" fill="#e2e8ee"/>
+    <polygon points="106,60 60,60 66,66" fill="#c3cdd6"/>
+    <polygon points="60,106 54,66 60,60 66,66" fill="#e2e8ee"/>
+    <polygon points="60,106 60,60 54,66" fill="#c3cdd6"/>
+    <polygon points="14,60 54,54 60,60 54,66" fill="#e2e8ee"/>
+    <polygon points="14,60 60,60 54,54" fill="#c3cdd6"/>
   </g>
-  <circle cx="60" cy="60" r="6" fill="#c9971c" stroke="#5c4020" stroke-width="1.5"/>
-  <circle cx="60" cy="60" r="2" fill="#5c4020"/>
+  <circle cx="60" cy="60" r="6" fill="#0f9182" stroke="#3d4b58" stroke-width="1.5"/>
+  <circle cx="60" cy="60" r="2" fill="#3d4b58"/>
 </svg>

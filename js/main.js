@@ -1,5 +1,5 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607242149";
+import { createMapView } from "./mapview.js?v=202607242155";
 
 const app = document.getElementById("app");
 
@@ -287,8 +287,9 @@ async function loadAllCompanies() {
           foreign: /NASDAQ|NYSE|ユーロネクスト|台湾|海外/.test(c.listing?.market ?? ""),
         };
         const prev = byKey.get(key);
-        // 年収>財務>先勝ちの順で情報が濃いレコードを採用
-        if (!prev || (rec.salary && !prev.salary) || (!prev.salary && rec.rev && !prev.rev)) byKey.set(key, rec);
+        // 代表レコードの選定: 本業のマップを優先(括弧付き役割名や親会社コード借用の子会社を避ける)
+        const score = (r) => (r.salary ? 4 : 0) + (r.rev ? 2 : 0) + (/[((]/.test(r.name) ? 0 : 3) + (/非上場/.test(r.market) ? 0 : 1);
+        if (!prev || score(rec) > score(prev)) byKey.set(key, rec);
       }
     }
   }
