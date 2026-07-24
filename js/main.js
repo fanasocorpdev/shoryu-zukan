@@ -72,7 +72,7 @@ async function renderHome() {
     <div class="home"><div class="home-inner">
       <div class="hero">
         <div class="compass">🧭</div>
-        <h1>あきないマップ<span style="font-size:.55em">(仮)</span></h1>
+        <h1>あきないマップ</h1>
         <p class="sub">業界のカネとモノの流れを、冒険する地図に。<br>
         誰が誰に、何を届けて、いくら払うのか — ズームして確かめよう。</p>
         <div class="free-banner">商流マップは永久無料で公開します</div>
