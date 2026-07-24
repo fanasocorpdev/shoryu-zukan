@@ -617,3 +617,8 @@ svg.near .node .count-badge text { font-size: 13px; }
 
 /* 地図ドラッグ時にラベルがテキスト選択されるのを防止 */
 .map-wrap svg { user-select: none; -webkit-user-select: none; }
+
+/* ---- 子マップへのポータル(クリック可能) ---- */
+.portal-btn { cursor: pointer; }
+.portal-btn .portal-hit { fill: transparent; }
+.portal-btn:hover .portal { filter: drop-shadow(0 0 4px rgba(184,138,58,.9)); }

@@ -67,13 +67,6 @@ export function createMapView(container, data) {
       })
     );
   }
-  const compass = svgEl("g", { class: "compass", transform: `translate(${VB.x + 84}, ${VB.y + 96})` });
-  compass.appendChild(svgEl("circle", { cx: 0, cy: 0, r: 34, fill: "none", stroke: "#8a6d2f", "stroke-width": 1.5, opacity: 0.5 }));
-  compass.appendChild(svgEl("path", { d: "M0,-30 L7,8 L0,2 L-7,8 Z", fill: "#8a6d2f", opacity: 0.75 }));
-  const compassN = svgEl("text", { x: 0, y: -42, "text-anchor": "middle", "font-size": 17 });
-  compassN.textContent = "N";
-  compass.appendChild(compassN);
-  terrain.appendChild(compass);
   world.appendChild(terrain);
 
   // ---------- エッジ ----------
@@ -145,12 +138,26 @@ export function createMapView(container, data) {
     icon.textContent = layerById[n.layer]?.icon ?? "●";
     g.appendChild(icon);
 
-    if (n.related_industry || n.segments?.some((s) => s.related_industry)) {
-      const portal = svgEl("text", {
+    const portalTarget =
+      n.related_industry ?? n.segments?.find((s) => s.related_industry)?.related_industry;
+    if (portalTarget) {
+      const portal = svgEl("g", { class: "portal-btn" });
+      portal.appendChild(svgEl("circle", {
+        class: "portal-hit", cx: -r * 0.78, cy: -r * 0.6, r: 15,
+      }));
+      const pIcon = svgEl("text", {
         class: "portal", x: -r * 0.78, y: -r * 0.55,
-        "font-size": 16, "text-anchor": "middle",
+        "font-size": 17, "text-anchor": "middle",
       });
-      portal.textContent = "🧭";
+      pIcon.textContent = "🧭";
+      portal.appendChild(pIcon);
+      const tip = svgEl("title", {});
+      tip.textContent = "クリックで関連マップへ潜る";
+      portal.appendChild(tip);
+      portal.addEventListener("click", (ev) => {
+        ev.stopPropagation();
+        location.hash = `#/i/${portalTarget}`;
+      });
       g.appendChild(portal);
     }
 
