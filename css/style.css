@@ -72,7 +72,7 @@ button { font-family: inherit; cursor: pointer; }
   box-shadow: 0 10px 24px rgba(90, 70, 30, .18);
   border-color: var(--gold);
 }
-.card .c-icon { font-size: 2rem; }
+.card .c-icon { min-height: 0; }
 .card h2 { font-size: 1.25rem; margin: 8px 0 6px; }
 .card .tagline { color: var(--ink-soft); font-size: .88rem; line-height: 1.7; min-height: 3em; }
 .card .stats { margin-top: 12px; font-size: .8rem; color: var(--gold); display: flex; gap: 14px; }
@@ -868,3 +868,12 @@ marker[id="arrow-opex"] path { fill: var(--opex); }
 :root[data-theme="dark"] .child-chip { color: var(--gold); border-color: var(--gold); }
 :root[data-theme="dark"] .style-tag { color: var(--gold); border-color: var(--gold); }
 :root[data-theme="dark"] .journey-launch { border-color: #a8834a; }
+
+/* ---- 脱・絵文字後のラベルタイポグラフィ(編集誌風の小ラベル) ---- */
+.guide-card p strong {
+  display: block; font-size: .7rem; letter-spacing: .14em;
+  color: var(--gold); margin-bottom: 3px; font-family: inherit;
+}
+.guide-card summary { letter-spacing: .06em; }
+.card .journey-tag, .card .access-tag { letter-spacing: .03em; }
+.topbar .home-link { letter-spacing: .04em; }

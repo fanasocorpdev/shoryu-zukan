@@ -1,5 +1,5 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607241935";
+import { createMapView } from "./mapview.js?v=202607242137";
 
 const app = document.getElementById("app");
 
@@ -45,12 +45,12 @@ async function coverageHTML() {
     const asOf = String(c.as_of).replace(/^(\d{4})(\d{2})(\d{2})$/, "$1-$2-$3");
     const t5 = c.topix500;
     return `<a class="coverage" href="#/all" title="全銘柄索引を見る">
-      <div class="cov-label">🗾 国内上場企業カバー率
+      <div class="cov-label">国内上場企業カバー率
         <strong>${c.percent}%</strong>(${c.covered.toLocaleString()} / ${c.total.toLocaleString()}社・JPX ${asOf}基準)${
           c.unsorted ? `<br><span style="font-size:.72rem">うち分類確定 ${c.classified.toLocaleString()}社 / 分類精査中 ${c.unsorted.toLocaleString()}社</span>` : ""
         }</div>
       <div class="cov-bar"><div class="cov-fill" style="width:${Math.max(c.percent, 1.5)}%"></div></div>
-      ${t5 ? `<div class="cov-label" style="margin-top:8px">📈 TOPIX500(大型・中型株)
+      ${t5 ? `<div class="cov-label" style="margin-top:8px">TOPIX500(大型・中型株)
         <strong>${t5.percent}%</strong>(${t5.covered} / ${t5.total}社)</div>
       <div class="cov-bar"><div class="cov-fill" style="width:${Math.max(t5.percent, 1.5)}%"></div></div>` : ""}
       <div class="cov-more">全銘柄索引 →</div>
@@ -80,7 +80,7 @@ async function renderGate(id) {
         <p class="sub">${data?.meta.tagline ?? "興味業界の保存と企業比較リストが使えます"}</p>
       </div>
       <div class="gate-card">
-        <h2>🔓 無料メンバー登録で、全業界のマップが見られます</h2>
+        <h2>無料メンバー登録で、全業界のマップが見られます</h2>
         <p>お試し業界に加えて、お好きな1業界までは登録なしで見られます。ここから先は無料登録(1分)で — 全${idx.industries.length}業界の商流マップ、
         企業データ(売上・時価総額・平均年収)、「カネの旅」、そして<strong>マイマップ(興味業界の保存・企業比較リスト)</strong>がすべて使えます。</p>
         <form id="gate-form">
@@ -155,7 +155,7 @@ async function renderGate(id) {
         <div class="gate-open">
           <p>登録なしで見られる業界:</p>
           <div class="gate-chips">${opens
-            .map((d) => `<a class="gate-chip" href="#/i/${d.meta.industry_id}">${centerIcon(d)} ${d.meta.industry_name}</a>`)
+            .map((d) => `<a class="gate-chip" href="#/i/${d.meta.industry_id}">${d.meta.industry_name}</a>`)
             .join("")}</div>
         </div>
       </div>
@@ -231,19 +231,19 @@ async function renderMy() {
         <p class="sub">${member.email} さんの業界研究ノート</p>
       </div>
       <section class="about-sec">
-        <h2>⭐ 興味のある業界</h2>
+        <h2>興味のある業界</h2>
         <div class="gate-chips">${mine.filter(Boolean)
-          .map((d) => `<a class="gate-chip" href="#/i/${d.meta.industry_id}">${centerIcon(d)} ${d.meta.industry_name}</a>`)
+          .map((d) => `<a class="gate-chip" href="#/i/${d.meta.industry_id}">${d.meta.industry_name}</a>`)
           .join("") || "<p>未設定です。</p>"}</div>
       </section>
       <section class="about-sec">
-        <h2>📋 企業比較リスト(${cmp.length}/12)</h2>
+        <h2>企業比較リスト(${cmp.length}/12)</h2>
         ${cmp.length ? `
         <div class="cmp-wrap"><table class="cmp-table">
           <thead><tr><th>企業</th><th>業界</th><th>売上</th><th>時価総額</th><th>従業員</th><th>平均年収</th><th></th></tr></thead>
           <tbody>${cmp.map(row).join("")}</tbody>
         </table></div>
-        <button id="cmp-copy" class="cmp-copy">📄 表をコピー(ES・メモ用)</button>`
+        <button id="cmp-copy" class="cmp-copy">表をコピー(ES・メモ用)</button>`
         : `<p>まだ空です。各業界マップの企業一覧にある「+比較」ボタンで、気になる企業を追加できます(最大12社)。
            同業他社を並べて売上・年収を見比べたり、コピーしてESや面接メモに使えます。</p>`}
       </section>
@@ -261,7 +261,7 @@ async function renderMy() {
     navigator.clipboard.writeText([head, ...lines].join("\n")).then(() => {
       const btn = document.getElementById("cmp-copy");
       btn.textContent = "✓ コピーしました";
-      setTimeout(() => (btn.textContent = "📄 表をコピー(ES・メモ用)"), 1500);
+      setTimeout(() => (btn.textContent = "表をコピー(ES・メモ用)"), 1500);
     });
   });
 }
@@ -319,11 +319,11 @@ async function renderHome() {
     return `
       <a class="card" href="#/i/${d.meta.industry_id}">
         <div class="card-photo" style="background-image:url('assets/photo/${d.meta.industry_id}.jpg')"></div>
-        <div class="c-icon">${centerIcon(d)}${d.meta.map_style === "category" ? '<span class="style-tag">カオスマップ</span>' : ""}</div>
+        <div class="c-icon">${d.meta.map_style === "category" ? '<span class="style-tag">カオスマップ</span>' : ""}</div>
         <h2>${d.meta.industry_name}</h2>
         <p class="tagline">${d.meta.tagline ?? ""}</p>
-        ${d.meta.journey ? `<div class="journey-tag">🚶 カネの旅つき: ${d.meta.journey.title}</div>` : ""}
-        ${openSet.has(d.meta.industry_id) ? '<div class="access-tag open">🔓 登録なしで閲覧OK</div>' : (memberNow ? "" : '<div class="access-tag">✉️ 無料登録で閲覧</div>')}
+        ${d.meta.journey ? `<div class="journey-tag">カネの旅: ${d.meta.journey.title}</div>` : ""}
+        ${openSet.has(d.meta.industry_id) ? '<div class="access-tag open">登録なしで閲覧OK</div>' : (memberNow ? "" : '<div class="access-tag">無料登録で閲覧</div>')}
         <div class="stats">
           <span>プレイヤー ${d.nodes.length}</span>
           ${d.edges.length ? `<span>フロー ${d.edges.length}</span>` : ""}
@@ -352,7 +352,7 @@ async function renderHome() {
       ${await coverageHTML()}
       ${planned.length
         ? `<div class="planned">
-            <h3>⚒ 準備中の業界(時価総額の大きい業種から順次追加 → 最終的に全上場企業をカバー)</h3>
+            <h3>準備中の業界(時価総額の大きい業種から順次追加 → 最終的に全上場企業をカバー)</h3>
             <div class="planned-chips">${planned
               .map((p) => `<span class="planned-chip" title="${p.note ?? ""}">${p.name}</span>`)
               .join("")}</div>
@@ -360,7 +360,7 @@ async function renderHome() {
         : ""}
       <div class="home-foot">
         出典は官公庁統計・IR・プレスリリース等の一次情報のみを使用しています。<br>
-        <a href="#/my">⭐ マイマップ(興味業界・企業比較)</a> ・ <a href="#/about">あきないマップについて</a> ・ <a href="#/privacy">プライバシーポリシー</a><br>
+        <a href="#/my">マイマップ</a> ・ <a href="#/about">あきないマップについて</a> ・ <a href="#/privacy">プライバシーポリシー</a><br>
         運営: 株式会社Fanaso
       </div>
     </div></div>`;
@@ -404,11 +404,11 @@ async function renderDirectory() {
   app.innerHTML = `
     <div class="home"><div class="home-inner directory">
       <div class="hero">
-        <div class="compass">🗾</div>
+        <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="72" height="72">
         <h1>全銘柄索引</h1>
         <p class="sub">国内上場 ${jpx.companies.length.toLocaleString()}社(JPX ${String(jpx.as_of).replace(/^(\d{4})(\d{2})(\d{2})$/, "$1-$2-$3")}基準)。
         <span class="dir-legend"><span class="dir-chip covered demo">金色=マップ掲載済み(クリックで地図へ)</span></span></p>
-        <input id="dir-search" type="search" placeholder="🔍 社名・証券コードで検索" autocomplete="off">
+        <input id="dir-search" type="search" placeholder="社名・証券コードで検索" autocomplete="off">
       </div>
       <div id="dir-sections">
         ${sectors
@@ -448,19 +448,19 @@ function renderAbout() {
         <h1>あきないマップについて</h1>
       </div>
       <section class="about-sec">
-        <h2>📖 閲覧は無料です</h2>
+        <h2>閲覧は無料です</h2>
         <p>あきないマップの閲覧は無料です。データセンター・コンビニ・自動車の3業界は登録なしでそのまま、
         全業界は無料のメンバー登録(メールアドレスのみ・30秒)でご覧いただけます。
         閲覧を有料化する予定はありません。</p>
       </section>
       <section class="about-sec">
-        <h2>⚖️ 地図の中立性</h2>
+        <h2>地図の中立性</h2>
         <p>マップ上のプレイヤーの位置・掲載順は編集方針にもとづいて決めており、
         広告や掲載プランによって変わることはありません。
         有料プランで変わるのは「情報量と機能」だけです(詳細プロフィール・問い合わせ受信・採用バッジなど)。</p>
       </section>
       <section class="about-sec">
-        <h2>🔍 出典ポリシー</h2>
+        <h2>出典ポリシー</h2>
         <p>データの主原料は一次情報のみです: 官公庁統計、有価証券報告書・IR資料、
         業界団体の公開名簿、プレスリリース、企業公式サイト、そして企業自身による登録データ。
         出典はノード・フロー単位で記録し、詳細パネルからいつでも確認できます。
@@ -471,16 +471,16 @@ function renderAbout() {
         非上場企業は公表値または親会社連結の値であることを注記しています。</p>
       </section>
       <section class="about-sec">
-        <h2>✏️ 修正の提案</h2>
+        <h2>修正の提案</h2>
         <p>「この会社が抜けている」「このフローは今は違う」といった事実の修正提案を歓迎します。
         提案は出典(公開情報)を添えて、<a href="https://github.com/fanasocorpdev/shoryu-zukan/issues" target="_blank" rel="noopener">GitHubのIssue</a>
         または下記メールでお送りください。内容を確認のうえ反映します。
         ※ 第三者の取引条件・マージン率など、公開情報で確認できない情報は掲載できません。</p>
       </section>
       <section class="about-sec">
-        <h2>🏢 企業の方へ・お問い合わせ</h2>
+        <h2>企業の方へ・お問い合わせ</h2>
         <p>基本掲載は無料です(位置・掲載順は編集方針で決まり、課金で変わることはありません)。</p>
-        <p><strong>📣 採用枠のご案内:</strong> 業界研究中の学生が自社の業界マップを見るその場所に、
+        <p><strong>採用枠のご案内:</strong> 業界研究中の学生が自社の業界マップを見るその場所に、
         「採用中」バッジと求人ページへのリンクを掲出できます。
         料金は<strong>月額5万円〜</strong>(企業規模により応相談)。
         マップ上の位置や掲載順は変わらない、文脈広告型の採用枠です。</p>
@@ -489,7 +489,7 @@ function renderAbout() {
         までお寄せください。</p>
       </section>
       <section class="about-sec">
-        <h2>⚠️ 免責</h2>
+        <h2>免責</h2>
         <p>本サイトの情報は公開情報にもとづき正確性に努めていますが、内容を保証するものではありません。
         投資判断・取引判断の根拠としての利用は想定していません。誤りを見つけた場合はお知らせください —
         迅速に確認・訂正します。</p>
@@ -517,14 +517,14 @@ async function renderIndustry(id) {
   app.innerHTML = `
     <div class="mapapp">
       <header class="topbar">
-        <a class="home-link" href="#/"><img class="nav-emblem" src="assets/emblem.svg" alt=""> マップトップ</a>
-        <a class="home-link" href="#/all" title="全銘柄索引">🗾 索引</a>
-        <a class="home-link" href="#/my" title="マイマップ">⭐ マイ</a>
+        <a class="home-link" href="#/">トップ</a>
+        <a class="home-link" href="#/all" title="全銘柄索引">索引</a>
+        <a class="home-link" href="#/my" title="マイマップ">マイマップ</a>
         ${parent ? `<a class="home-link parent-link" href="#/i/${parent.meta.industry_id}">⬆ ${parent.meta.industry_name}</a>` : ""}
         <div class="title-wrap"><h1>${data.meta.industry_name}の商流</h1><span class="tag">${data.meta.tagline ?? ""}</span></div>
-        <button id="share-btn" class="home-link share-btn" title="この業界のリンクをコピー / シェア">🔗 シェア</button>
+        <button id="share-btn" class="home-link share-btn" title="この業界のリンクをコピー / シェア"> シェア</button>
         <span class="spacer"></span>
-        <input id="map-search" type="search" list="search-list" placeholder="🔍 企業名・役割で探す" autocomplete="off">
+        <input id="map-search" type="search" list="search-list" placeholder="企業名・役割で探す" autocomplete="off">
         <datalist id="search-list"></datalist>
         <select id="industry-select" title="業界を切り替え"></select>
         <nav class="filters" id="filters">
@@ -570,10 +570,10 @@ async function renderIndustry(id) {
     card.className = "guide-card";
     card.open = localStorage.getItem("guideCollapsed") !== "1";
     card.innerHTML = `
-      <summary>🗺 この業界の歩き方</summary>
-      <p><strong>💴 稼ぎ方:</strong> ${g.earn}</p>
-      <p><strong>🔭 見どころ:</strong> ${g.watch}</p>
-      ${g.talk ? `<p class="g-talk"><strong>💬 面接でこう使う:</strong> ${g.talk}</p>` : ""}`;
+      <summary>この業界の歩き方</summary>
+      <p><strong>稼ぎ方</strong> ${g.earn}</p>
+      <p><strong>見どころ</strong> ${g.watch}</p>
+      ${g.talk ? `<p class="g-talk"><strong>面接でこう使う</strong> ${g.talk}</p>` : ""}`;
     card.addEventListener("toggle", () =>
       localStorage.setItem("guideCollapsed", card.open ? "0" : "1"));
     wrap.appendChild(card);
@@ -588,7 +588,7 @@ async function renderIndustry(id) {
       const fromRole = fromData.nodes.find((x) => x.id === fromNodeId)?.role ?? "";
       const banner = document.createElement("div");
       banner.className = "jump-banner";
-      banner.innerHTML = `<span class="jb-text">⬅ <strong>${fromData.meta.industry_name}</strong>${
+      banner.innerHTML = `<span class="jb-text">← <strong>${fromData.meta.industry_name}</strong>${
         fromRole ? `「${fromRole}」` : ""
       }から潜ってきました</span>
         <a href="#/i/${fromId}">元の地図へ戻る</a>

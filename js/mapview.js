@@ -363,7 +363,7 @@ export function createMapView(container, data) {
         </select>
       </div>
       <p class="sort-note">標準の掲載順は編集方針で固定(課金で変わりません)。財務値は決算短信等の実績値(各行に基準期を記載)。「概算」とある値のみ規模感の目安です。</p>
-      ${comps.length > 20 ? `<input type="search" class="company-filter" placeholder="🔍 この中から絞り込む(社名・証券コード)" autocomplete="off">` : ""}`;
+      ${comps.length > 20 ? `<input type="search" class="company-filter" placeholder="この中から絞り込む(社名・証券コード)" autocomplete="off">` : ""}`;
     let body;
     if (n.segments?.length) {
       const bySeg = new Map(n.segments.map((s) => [s.id, []]));
@@ -376,7 +376,7 @@ export function createMapView(container, data) {
         .map((s) => {
           const rows = bySeg.get(s.id).map(companyRowHTML).join("");
           const portal = s.related_industry
-            ? `<a class="seg-portal" href="#/i/${esc(s.related_industry)}?from=${data.meta.industry_id}:${n.id}">🧭 地図へ潜る</a>`
+            ? `<a class="seg-portal" href="#/i/${esc(s.related_industry)}?from=${data.meta.industry_id}:${n.id}">地図へ潜る →</a>`
             : "";
           return `<div class="seg">
             <div class="seg-h"><span class="seg-label">${esc(s.label)}</span>${portal}</div>
@@ -420,7 +420,7 @@ export function createMapView(container, data) {
     return `<li class="flow-item">
       <span class="f-chip ${e.flow_type}">${e.flow_type.toUpperCase()}</span>
       ${arrow} <span class="f-peer">${esc(peer?.role ?? "?")}</span><br>${esc(e.label)}
-      ${e.amount_note ? `<span class="f-amount">💰 ${esc(e.amount_note)}</span>` : ""}
+      ${e.amount_note ? `<span class="f-amount">金額感: ${esc(e.amount_note)}</span>` : ""}
     </li>`;
   }
 
@@ -440,8 +440,8 @@ export function createMapView(container, data) {
     panel.innerHTML = `
       ${nodeHeaderHTML(n)}
       ${n.description ? `<p class="p-desc">${esc(n.description)}</p>` : ""}
-      ${n.note ? `<p class="p-note">📝 ${esc(n.note)}</p>` : ""}
-      ${n.related_industry ? `<a class="portal-link" href="#/i/${esc(n.related_industry)}?from=${data.meta.industry_id}:${n.id}">🧭 この業界の地図へ潜る →</a>` : ""}
+      ${n.note ? `<p class="p-note">${esc(n.note)}</p>` : ""}
+      ${n.related_industry ? `<a class="portal-link" href="#/i/${esc(n.related_industry)}?from=${data.meta.industry_id}:${n.id}">この業界の地図へ潜る →</a>` : ""}
       ${companiesListHTML(n)}
       ${outs.length ? `<h3>出ていくフロー(${outs.length})</h3><ul>${outs.map((e) => flowItemHTML(e, "out")).join("")}</ul>` : ""}
       ${ins.length ? `<h3>入ってくるフロー(${ins.length})</h3><ul>${ins.map((e) => flowItemHTML(e, "in")).join("")}</ul>` : ""}
@@ -458,7 +458,7 @@ export function createMapView(container, data) {
     if (pinned) return;
     panel.innerHTML = `
       ${nodeHeaderHTML(n)}
-      ${companiesListHTML(n) || (n.note ? `<p class="p-note">📝 ${esc(n.note)}</p>` : "")}
+      ${companiesListHTML(n) || (n.note ? `<p class="p-note">${esc(n.note)}</p>` : "")}
       <p class="preview-hint">クリックで詳細(フロー・出典)を固定表示</p>`;
     panel.querySelector(".close").addEventListener("click", closePanel);
     bindSortSelect(() => openNodePreview(n));
@@ -476,8 +476,8 @@ export function createMapView(container, data) {
       <h2 style="margin-top:10px">${esc(e.label)}</h2>
       <p class="p-desc"><span class="f-peer" style="color:var(--gold);font-weight:700">${esc(from?.role)}</span>
        → <span style="color:var(--gold);font-weight:700">${esc(to?.role)}</span></p>
-      ${e.amount_note ? `<p class="p-desc">💰 ${esc(e.amount_note)}</p>` : ""}
-      ${e.note ? `<p class="p-note">📝 ${esc(e.note)}</p>` : ""}
+      ${e.amount_note ? `<p class="p-desc">金額感: ${esc(e.amount_note)}</p>` : ""}
+      ${e.note ? `<p class="p-note">${esc(e.note)}</p>` : ""}
       ${sourcesHTML(e.sources)}
       <div class="p-meta">最終更新: ${esc(e.updated)}</div>`;
     panel.querySelector(".close").addEventListener("click", closePanel);
@@ -527,7 +527,7 @@ export function createMapView(container, data) {
       const to = data.nodes.find((n) => n.id === edge.to);
       tooltip.innerHTML = `<span class="t-flow ${edge.flow_type}">${FLOW_LABEL[edge.flow_type]}</span><br>
         ${esc(from?.role)} → ${esc(to?.role)}<br><strong>${esc(edge.label)}</strong>
-        ${edge.amount_note ? `<div class="t-amount">💰 ${esc(edge.amount_note)}</div>` : ""}`;
+        ${edge.amount_note ? `<div class="t-amount">金額感: ${esc(edge.amount_note)}</div>` : ""}`;
       tooltip.classList.add("show");
     });
     el.addEventListener("mouseleave", () => tooltip.classList.remove("show"));
@@ -666,12 +666,12 @@ export function createMapView(container, data) {
   const legend = document.createElement("div");
   legend.className = "legend";
   legend.innerHTML = data.meta.map_style === "category"
-    ? `<div class="row">🗂 カオスマップ型(分類のみ・商流エッジなし)</div>
-       <div class="hint">🖱 ドラッグで移動 / ホイールでズーム<br>🔍 ズームインで実名企業が現れる</div>`
+    ? `<div class="row">カオスマップ型(分類のみ・商流エッジなし)</div>
+       <div class="hint">ドラッグで移動 / ホイールでズーム — ズームインで実名企業が現れる</div>`
     : `<div class="row"><span class="swatch goods"></span>モノ・サービスの流れ</div>
        <div class="row"><span class="swatch capex"></span>カネ CAPEX(一時投資)</div>
        <div class="row"><span class="swatch opex"></span>カネ OPEX(継続支払い)</div>
-       <div class="hint">🖱 ドラッグで移動 / ホイールでズーム<br>🔍 ズームインで実名企業が現れる</div>`;
+       <div class="hint">ドラッグで移動 / ホイールでズーム — ズームインで実名企業が現れる</div>`;
   container.appendChild(legend);
 
   const zoomctl = document.createElement("div");
@@ -695,7 +695,7 @@ export function createMapView(container, data) {
     const steps = J.steps.filter((s) => edgeEls.has(s.edge));
     const launch = document.createElement("button");
     launch.className = "journey-launch";
-    launch.innerHTML = `🚶 ${J.title}`;
+    launch.innerHTML = `${J.title} →`;
     launch.title = "カネの旅 — 1本ずつ金流を辿るガイドツアー";
     container.appendChild(launch);
 
@@ -730,7 +730,7 @@ export function createMapView(container, data) {
         <p class="j-say">${st.say}</p>
         <div class="j-nav">
           <button data-j="prev" ${i === 0 ? "disabled" : ""}>← 前へ</button>
-          <button data-j="next">${i === steps.length - 1 ? "旅を終える 🏁" : "次へ →"}</button>
+          <button data-j="next">${i === steps.length - 1 ? "旅を終える" : "次へ →"}</button>
           <button data-j="end" class="j-close" title="終了">✕</button>
         </div>`;
     };
