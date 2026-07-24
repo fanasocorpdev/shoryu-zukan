@@ -81,6 +81,19 @@
 4. IR・公式サイトで事業内容を確認し、reassign用スペックを書いて
    `node scripts/reassign.mjs <spec.mjs>` で適切なノードへ移動(根拠をnoteに記録)
 5. 上場廃止はJPX不一致として検出されるので、listing表記を「非上場」へ修正
+6. `node scripts/fetch-mcap.mjs` でJPX時価総額順位表(月末公式値)を取り込む
+   (日付付きIR確定値を持つ企業は自動スキップ)
+
+上記1〜6は毎月5日朝にクラウドエージェント(claude.ai/code/routines の
+「商流図鑑 月次JPXデータメンテナンス」)が自動実行し、GitHubリポジトリへPRを作る。
+PRをマージしたら、ローカルへは次で取り込む:
+
+```bash
+git fetch origin && git checkout main && git checkout origin/main -- data && git commit -am "月次JPXメンテ取込"
+```
+
+新規上場銘柄の業界分類(受け皿→本ノードへの移動)は自動化せず、
+従来どおりIR確認のうえ `reassign.mjs` で行う。
 
 ## 掲載の中立性
 
