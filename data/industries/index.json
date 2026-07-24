@@ -36,5 +36,10 @@
       "name": "未カバー中小型株の分類",
       "note": "残り約1,800社を各マップへ順次収容"
     }
+  ],
+  "open_industries": [
+    "datacenter",
+    "convenience_store",
+    "automotive"
   ]
 }

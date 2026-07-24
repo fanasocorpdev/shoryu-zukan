@@ -96,7 +96,7 @@ function New-OgImage {
   $fStats = New-Object System.Drawing.Font("Yu Gothic UI", 26, [System.Drawing.FontStyle]::Bold)
   $g.DrawString($Stats, $fStats, $gold, 60, 520)
   $fUrl = New-Object System.Drawing.Font("Yu Gothic UI", 24)
-  $g.DrawString("fanasocorpdev.github.io/shoryu-zukan — 永久無料", $fUrl, $inkSoft, 600, 522)
+  $g.DrawString("fanasocorpdev.github.io/shoryu-zukan", $fUrl, $inkSoft, 600, 522)
 
   $g.Dispose()
   $bmp.Save($OutFile, [System.Drawing.Imaging.ImageFormat]::Png)

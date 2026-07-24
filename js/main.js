@@ -1,5 +1,5 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607241757";
+import { createMapView } from "./mapview.js?v=202607241824";
 
 const app = document.getElementById("app");
 const cache = {};
@@ -37,6 +37,59 @@ async function coverageHTML() {
   }
 }
 
+
+// ---- 無料メンバー登録(就活生向け)。このブラウザ内で解放状態を保持する ----
+const MEMBER_KEY = "akinai_member";
+const isMember = () => !!localStorage.getItem(MEMBER_KEY);
+
+async function renderGate(id) {
+  const [idx, data] = await Promise.all([loadIndex(), loadIndustry(id)]);
+  const opens = await Promise.all((idx.open_industries ?? []).map(loadIndustry));
+  app.innerHTML = `
+    <div class="home"><div class="home-inner gate">
+      <div class="hero">
+        <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="72" height="72">
+        <h1>${data.meta.industry_name}の商流マップ</h1>
+        <p class="sub">${data.meta.tagline ?? ""}</p>
+      </div>
+      <div class="gate-card">
+        <h2>🔓 無料メンバー登録で、全業界のマップが見られます</h2>
+        <p>登録は30秒・完全無料。業界研究に使える全${idx.industries.length}業界の商流マップ、
+        企業データ(売上・時価総額・平均年収)、ガイドツアー「カネの旅」がすべて解放されます。</p>
+        <form id="gate-form">
+          <label>メールアドレス
+            <input type="email" name="email" required placeholder="you@example.com" autocomplete="email"></label>
+          <label>あなたは
+            <select name="grad">
+              <option value="2027卒">就活生(2027卒)</option>
+              <option value="2028卒">就活生(2028卒)</option>
+              <option value="2029卒以降">学生(2029卒以降)</option>
+              <option value="社会人">社会人</option>
+              <option value="その他">その他</option>
+            </select></label>
+          <button type="submit">無料で全業界を解放する</button>
+          <p class="gate-note">登録情報はマップの改善とお知らせにのみ使用します。</p>
+        </form>
+        <div class="gate-open">
+          <p>登録なしで見られる業界:</p>
+          <div class="gate-chips">${opens
+            .map((d) => `<a class="gate-chip" href="#/i/${d.meta.industry_id}">${centerIcon(d)} ${d.meta.industry_name}</a>`)
+            .join("")}</div>
+        </div>
+      </div>
+      <div class="home-foot"><a href="#/">← マップトップへ戻る</a></div>
+    </div></div>`;
+  document.getElementById("gate-form").addEventListener("submit", (ev) => {
+    ev.preventDefault();
+    const fd = new FormData(ev.target);
+    const rec = { email: fd.get("email"), grad: fd.get("grad"), ts: new Date().toISOString() };
+    localStorage.setItem(MEMBER_KEY, JSON.stringify(rec));
+    const ep = window.AKINAI_CONFIG?.registrationEndpoint;
+    if (ep) fetch(ep, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(rec) }).catch(() => {});
+    route();
+  });
+}
+
 function centerIcon(data) {
   const center = data.nodes.find((n) => n.map?.ring === 0) ?? data.nodes[0];
   const layer = data.layers.find((l) => l.id === center.layer);
@@ -44,7 +97,9 @@ function centerIcon(data) {
 }
 
 async function renderHome() {
-  const { industries, planned = [] } = await loadIndex();
+  const { industries, planned = [], open_industries = [] } = await loadIndex();
+  const openSet = new Set(open_industries);
+  const memberNow = isMember();
   const datas = await Promise.all(industries.map(loadIndustry));
   const parents = datas.filter((d) => !d.meta.parent_industry);
   const childrenOf = (pid) => datas.filter((d) => d.meta.parent_industry === pid);
@@ -57,6 +112,7 @@ async function renderHome() {
         <h2>${d.meta.industry_name}</h2>
         <p class="tagline">${d.meta.tagline ?? ""}</p>
         ${d.meta.journey ? `<div class="journey-tag">🚶 カネの旅つき: ${d.meta.journey.title}</div>` : ""}
+        ${openSet.has(d.meta.industry_id) ? '<div class="access-tag open">🔓 登録なしで閲覧OK</div>' : (memberNow ? "" : '<div class="access-tag">✉️ 無料登録で閲覧</div>')}
         <div class="stats">
           <span>プレイヤー ${d.nodes.length}</span>
           ${d.edges.length ? `<span>フロー ${d.edges.length}</span>` : ""}
@@ -77,7 +133,6 @@ async function renderHome() {
         <h1>あきないマップ</h1>
         <p class="sub">業界のカネとモノの流れを、冒険する地図に。<br>
         誰が誰に、何を届けて、いくら払うのか — ズームして確かめよう。</p>
-        <div class="free-banner">商流マップは永久無料で公開します</div>
       </div>
       <div class="cards">
         ${parents.map(card).join("")}
@@ -181,9 +236,10 @@ function renderAbout() {
         <h1>あきないマップについて</h1>
       </div>
       <section class="about-sec">
-        <h2>📖 商流マップは永久無料</h2>
-        <p>すべての商流マップは、これからもずっと無料で公開します。
-        あとから閲覧を有料化することはありません。最初にここで宣言しておきます。</p>
+        <h2>📖 閲覧は無料です</h2>
+        <p>あきないマップの閲覧は無料です。データセンター・コンビニ・自動車の3業界は登録なしでそのまま、
+        全業界は無料のメンバー登録(メールアドレスのみ・30秒)でご覧いただけます。
+        閲覧を有料化する予定はありません。</p>
       </section>
       <section class="about-sec">
         <h2>⚖️ 地図の中立性</h2>
@@ -211,9 +267,13 @@ function renderAbout() {
       </section>
       <section class="about-sec">
         <h2>🏢 企業の方へ・お問い合わせ</h2>
-        <p>自社の掲載(無料)や、詳細プロフィール・採用バッジの掲出をご希望の企業向けの
-        登録フォームを準備中です。それまでの間、掲載のご希望・修正のご連絡は
-        <a href="mailto:yuhei.n@fansojp.com?subject=%E5%95%86%E6%B5%81%E5%9B%B3%E9%91%91">yuhei.n@fansojp.com</a>
+        <p>基本掲載は無料です(位置・掲載順は編集方針で決まり、課金で変わることはありません)。</p>
+        <p><strong>📣 採用枠のご案内:</strong> 業界研究中の学生が自社の業界マップを見るその場所に、
+        「採用中」バッジと求人ページへのリンクを掲出できます。
+        料金は<strong>月額5万円〜</strong>(企業規模により応相談)。
+        マップ上の位置や掲載順は変わらない、文脈広告型の採用枠です。</p>
+        <p>採用枠のお申し込み・自社掲載のご希望・修正のご連絡は
+        <a href="mailto:yuhei.n@fansojp.com?subject=%E3%81%82%E3%81%8D%E3%81%AA%E3%81%84%E3%83%9E%E3%83%83%E3%83%97">yuhei.n@fansojp.com</a>
         までお寄せください。</p>
       </section>
       <section class="about-sec">
@@ -232,6 +292,8 @@ function renderAbout() {
 let destroyMap = null;
 
 async function renderIndustry(id) {
+  const idx0 = await loadIndex();
+  if (!(idx0.open_industries ?? []).includes(id) && !isMember()) { await renderGate(id); return; }
   const [{ industries }, data] = await Promise.all([loadIndex(), loadIndustry(id)]);
   const parent = data.meta.parent_industry ? await loadIndustry(data.meta.parent_industry) : null;
   app.innerHTML = `

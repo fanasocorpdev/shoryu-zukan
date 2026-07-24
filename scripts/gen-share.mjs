@@ -21,7 +21,7 @@ for (const id of index.industries) {
   const tagline = data.meta.tagline ?? data.meta.description?.slice(0, 80) ?? "";
   const companies = data.nodes.reduce((a, n) => a + (n.companies?.length ?? 0), 0);
   const title = `${name}の商流地図 — あきないマップ`;
-  const desc = `${tagline} ${companies}社を収容。誰が誰に何を届けて、いくら払うのかを地図でズーム。永久無料。`;
+  const desc = `${tagline} ${companies}社を収容。誰が誰に何を届けて、いくら払うのかを地図でズーム。閲覧無料。`;
   const html = `<!DOCTYPE html>
 <html lang="ja">
 <head>
