@@ -1,5 +1,5 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607241824";
+import { createMapView } from "./mapview.js?v=202607241840";
 
 const app = document.getElementById("app");
 const cache = {};
@@ -45,6 +45,10 @@ const isMember = () => !!localStorage.getItem(MEMBER_KEY);
 async function renderGate(id) {
   const [idx, data] = await Promise.all([loadIndex(), loadIndustry(id)]);
   const opens = await Promise.all((idx.open_industries ?? []).map(loadIndustry));
+  const allParents = (await Promise.all(idx.industries.map(loadIndustry)))
+    .filter((d) => !d.meta.parent_industry);
+  const indChip = (d) => `<label class="ind-chip"><input type="checkbox" name="industries" value="${d.meta.industry_id}"
+    ${d.meta.industry_id === id ? "checked" : ""}><span>${d.meta.industry_name}</span></label>`;
   app.innerHTML = `
     <div class="home"><div class="home-inner gate">
       <div class="hero">
@@ -54,21 +58,75 @@ async function renderGate(id) {
       </div>
       <div class="gate-card">
         <h2>🔓 無料メンバー登録で、全業界のマップが見られます</h2>
-        <p>登録は30秒・完全無料。業界研究に使える全${idx.industries.length}業界の商流マップ、
+        <p>登録は1分・完全無料。全${idx.industries.length}業界の商流マップ、
         企業データ(売上・時価総額・平均年収)、ガイドツアー「カネの旅」がすべて解放されます。</p>
         <form id="gate-form">
           <label>メールアドレス
             <input type="email" name="email" required placeholder="you@example.com" autocomplete="email"></label>
           <label>あなたは
-            <select name="grad">
-              <option value="2027卒">就活生(2027卒)</option>
-              <option value="2028卒">就活生(2028卒)</option>
-              <option value="2029卒以降">学生(2029卒以降)</option>
-              <option value="社会人">社会人</option>
-              <option value="その他">その他</option>
+            <select name="segment" id="gate-segment">
+              <option value="">選択してください</option>
+              <option value="student">学生(就活中・就活予定)</option>
+              <option value="worker">社会人(転職検討・情報収集)</option>
+              <option value="other">その他(投資・研究など)</option>
             </select></label>
+
+          <div class="gate-branch" data-branch="student" hidden>
+            <label>卒業予定
+              <select name="grad">
+                <option value="2027卒">2027卒</option>
+                <option value="2028卒">2028卒</option>
+                <option value="2029卒以降">2029卒以降</option>
+                <option value="既卒">既卒</option>
+              </select></label>
+            <label>文理 <span class="opt">(任意)</span>
+              <select name="bunri">
+                <option value="">選択しない</option>
+                <option value="文系">文系</option><option value="理系">理系</option><option value="その他">その他</option>
+              </select></label>
+            <label>学校区分 <span class="opt">(任意)</span>
+              <select name="school">
+                <option value="">選択しない</option>
+                <option value="大学">大学</option><option value="大学院">大学院</option>
+                <option value="高専・短大・専門">高専・短大・専門</option><option value="その他">その他</option>
+              </select></label>
+          </div>
+
+          <div class="gate-branch" data-branch="worker" hidden>
+            <label>現在の職種
+              <select name="job">
+                <option value="">選択してください</option>
+                <option>営業</option><option>企画・マーケティング</option>
+                <option>ITエンジニア</option><option>エンジニア(機械・電気・化学等)</option>
+                <option>研究開発</option><option>製造・技能・品質</option>
+                <option>経理・人事・法務等の管理部門</option><option>コンサルタント</option>
+                <option>金融専門職</option><option>医療・福祉</option>
+                <option>公務員</option><option>経営・役員</option><option>その他</option>
+              </select></label>
+            <label>現年収 <span class="opt">(任意)</span>
+              <select name="income">
+                <option value="">回答しない</option>
+                <option>〜300万円</option><option>300〜500万円</option>
+                <option>500〜700万円</option><option>700〜1,000万円</option>
+                <option>1,000万円〜</option>
+              </select></label>
+            <label>転職意向 <span class="opt">(任意)</span>
+              <select name="intent">
+                <option value="">回答しない</option>
+                <option>すぐにでも転職したい</option><option>1年以内に考えたい</option>
+                <option>いい会社があれば</option><option>情報収集のみ</option>
+              </select></label>
+          </div>
+
+          <fieldset class="ind-select">
+            <legend>興味のある業界 <span class="opt">(最大3つ)</span></legend>
+            <div class="ind-chips">${allParents.map(indChip).join("")}</div>
+          </fieldset>
+
           <button type="submit">無料で全業界を解放する</button>
-          <p class="gate-note">登録情報はマップの改善とお知らせにのみ使用します。</p>
+          <p class="gate-note">登録情報はマップの改善・お知らせ・業界別の閲覧動向の集計にのみ使用します。
+          個人を特定できる形で第三者に提供することはありません。
+          <a href="#/privacy">プライバシーポリシー</a></p>
         </form>
         <div class="gate-open">
           <p>登録なしで見られる業界:</p>
@@ -79,15 +137,86 @@ async function renderGate(id) {
       </div>
       <div class="home-foot"><a href="#/">← マップトップへ戻る</a></div>
     </div></div>`;
+
+  // 属性による入力項目の分岐
+  const seg = document.getElementById("gate-segment");
+  const branches = [...document.querySelectorAll(".gate-branch")];
+  seg.addEventListener("change", () => {
+    for (const b of branches) {
+      const on = b.dataset.branch === seg.value;
+      b.hidden = !on;
+      // 非表示ブランチの必須を外す(worker職種のみ必須)
+      b.querySelectorAll("select").forEach((s) => (s.required = on && s.name === "job"));
+    }
+  });
+
+  // 興味業界は最大3つまで
+  const boxes = [...document.querySelectorAll('input[name="industries"]')];
+  const limit = () => {
+    const on = boxes.filter((b) => b.checked);
+    boxes.forEach((b) => (b.disabled = !b.checked && on.length >= 3));
+  };
+  boxes.forEach((b) => b.addEventListener("change", limit));
+  limit();
+
   document.getElementById("gate-form").addEventListener("submit", (ev) => {
     ev.preventDefault();
     const fd = new FormData(ev.target);
-    const rec = { email: fd.get("email"), grad: fd.get("grad"), ts: new Date().toISOString() };
+    const rec = {
+      email: fd.get("email"),
+      segment: fd.get("segment"),
+      industries: fd.getAll("industries"),
+      ts: new Date().toISOString(),
+    };
+    if (rec.segment === "student") {
+      rec.grad = fd.get("grad");
+      if (fd.get("bunri")) rec.bunri = fd.get("bunri");
+      if (fd.get("school")) rec.school = fd.get("school");
+    } else if (rec.segment === "worker") {
+      rec.job = fd.get("job");
+      if (fd.get("income")) rec.income = fd.get("income");
+      if (fd.get("intent")) rec.intent = fd.get("intent");
+    }
     localStorage.setItem(MEMBER_KEY, JSON.stringify(rec));
     const ep = window.AKINAI_CONFIG?.registrationEndpoint;
     if (ep) fetch(ep, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(rec) }).catch(() => {});
     route();
   });
+}
+
+function renderPrivacy() {
+  app.innerHTML = `
+    <div class="home"><div class="home-inner about">
+      <div class="hero">
+        <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="72" height="72">
+        <h1>プライバシーポリシー</h1>
+      </div>
+      <section class="about-sec">
+        <h2>取得する情報</h2>
+        <p>無料メンバー登録では次の情報を取得します: メールアドレス、属性(学生/社会人等)、
+        学生の方は卒業年度・文理・学校区分(任意)、社会人の方は職種・年収帯(任意)・転職意向(任意)、
+        興味のある業界。氏名・住所・電話番号は取得しません。</p>
+      </section>
+      <section class="about-sec">
+        <h2>利用目的</h2>
+        <p>(1) サービスの改善、(2) 新しい業界マップや機能のお知らせ、
+        (3) 業界別の閲覧動向・登録者属性の<strong>統計的な集計</strong>。
+        集計値(例:「◯◯業界に興味のある登録者数」)は採用枠を掲出する企業への説明に使用することがありますが、
+        メールアドレス等の個人を特定できる情報を第三者に提供することはありません。</p>
+      </section>
+      <section class="about-sec">
+        <h2>保管と削除</h2>
+        <p>登録情報の削除をご希望の場合は
+        <a href="mailto:yuhei.n@fansojp.com?subject=%E7%99%BB%E9%8C%B2%E5%89%8A%E9%99%A4">yuhei.n@fansojp.com</a>
+        までご連絡ください。すみやかに削除します。</p>
+      </section>
+      <section class="about-sec">
+        <h2>お問い合わせ</h2>
+        <p>本ポリシーに関するお問い合わせ: 株式会社Fanaso(yuhei.n@fansojp.com)<br>
+        制定日: 2026年7月24日</p>
+      </section>
+      <div class="home-foot"><a href="#/">← マップトップへ戻る</a></div>
+    </div></div>`;
 }
 
 function centerIcon(data) {
@@ -416,6 +545,7 @@ async function route() {
   try {
     const m = hash.match(/^#\/i\/([a-z0-9_]+)/);
     if (m) await renderIndustry(m[1]);
+    else if (hash.startsWith("#/privacy")) renderPrivacy();
     else if (hash.startsWith("#/about")) renderAbout();
     else if (hash.startsWith("#/all")) await renderDirectory();
     else await renderHome();
