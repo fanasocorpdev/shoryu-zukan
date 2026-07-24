@@ -112,7 +112,29 @@
             "market_cap_oku_jpy": 135825,
             "as_of": "2026-07-23",
             "note": "営業収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
-          }
+          },
+          "salary": {
+            "man_jpy": 1056,
+            "fy": "2026年3月期"
+          },
+          "deals": [
+            {
+              "with": "NEC",
+              "type": "alliance",
+              "label": "資本業務提携(O-RAN・IOWNの共同研究開発)",
+              "url": "https://group.ntt/jp/newsrelease/2020/06/25/200625b.html",
+              "publisher": "日本電信電話",
+              "date": "2020-06-25"
+            },
+            {
+              "with": "トヨタ自動車",
+              "type": "alliance",
+              "label": "モビリティAI基盤の共同構築に合意",
+              "url": "https://group.ntt/jp/newsrelease/2024/10/31/241031b.html",
+              "publisher": "日本電信電話",
+              "date": "2024-10-31"
+            }
+          ]
         },
         {
           "name": "NTTドコモ",
@@ -137,7 +159,21 @@
             "market_cap_oku_jpy": 101839,
             "as_of": "2025-12",
             "note": "売上高=2026年3月期実績(決算短信)、時価総額=2025-12時点"
-          }
+          },
+          "salary": {
+            "man_jpy": 1051,
+            "fy": "2026年3月期"
+          },
+          "deals": [
+            {
+              "with": "三菱商事・ローソン",
+              "type": "alliance",
+              "label": "資本業務提携(三菱商事・KDDIの共同経営体制)",
+              "url": "https://www.lawson.co.jp/company/news/detail/1480843_2504.html",
+              "publisher": "ローソン",
+              "date": "2024-02-06"
+            }
+          ]
         },
         {
           "name": "ソフトバンク",
@@ -153,7 +189,21 @@
             "market_cap_oku_jpy": 105509,
             "as_of": "2026-07-23",
             "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
-          }
+          },
+          "salary": {
+            "man_jpy": 871,
+            "fy": "2026年3月期"
+          },
+          "deals": [
+            {
+              "with": "NVIDIA",
+              "type": "alliance",
+              "label": "AI-RAN「AITRAS」でのAIインフラ協業",
+              "url": "https://www.softbank.jp/corp/news/press/sbkk/2024/20241113_01/",
+              "publisher": "ソフトバンク",
+              "date": "2024-11-13"
+            }
+          ]
         },
         {
           "name": "楽天モバイル",
@@ -181,7 +231,21 @@
             "market_cap_oku_jpy": 340597,
             "as_of": "2026-06-30",
             "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
-          }
+          },
+          "salary": {
+            "man_jpy": 1319,
+            "fy": "2026年3月期・持株会社単体"
+          },
+          "deals": [
+            {
+              "with": "OpenAI",
+              "type": "jv",
+              "label": "合弁SB OAI Japan発足(Cristal Intelligence)",
+              "url": "https://group.softbank/news/press/20251105",
+              "publisher": "ソフトバンクグループ",
+              "date": "2025-11-05"
+            }
+          ]
         },
         {
           "name": "沖縄セルラー電話",
@@ -322,7 +386,21 @@
             "market_cap_oku_jpy": 59399,
             "as_of": "2026-07-17",
             "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-17時点"
-          }
+          },
+          "salary": {
+            "man_jpy": 993,
+            "fy": "2026年3月期"
+          },
+          "deals": [
+            {
+              "with": "NTT",
+              "type": "alliance",
+              "label": "資本業務提携(O-RAN・IOWNの共同研究開発)",
+              "url": "https://group.ntt/jp/newsrelease/2020/06/25/200625b.html",
+              "publisher": "日本電信電話",
+              "date": "2020-06-25"
+            }
+          ]
         },
         {
           "name": "富士通",
@@ -338,6 +416,10 @@
             "market_cap_oku_jpy": 56438,
             "as_of": "2026-07-23",
             "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
+          },
+          "salary": {
+            "man_jpy": 1012,
+            "fy": "2026年3月期"
           }
         },
         {
@@ -521,7 +603,29 @@
             "market_cap_oku_jpy": 211860,
             "as_of": "2026-07-23",
             "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
-          }
+          },
+          "salary": {
+            "man_jpy": 1155,
+            "fy": "2026年3月期"
+          },
+          "deals": [
+            {
+              "with": "ホンダ",
+              "type": "jv",
+              "label": "ソニー・ホンダモビリティ設立(EV「AFEELA」)",
+              "url": "https://global.honda/jp/news/2022/c220616.html",
+              "publisher": "本田技研工業",
+              "date": "2022-06-16"
+            },
+            {
+              "with": "KADOKAWA",
+              "type": "alliance",
+              "label": "戦略的資本業務提携(ソニーが筆頭株主に)",
+              "url": "https://group.kadokawa.co.jp/information/news_release/entry-12447.html",
+              "publisher": "KADOKAWA",
+              "date": "2024-12-19"
+            }
+          ]
         },
         {
           "name": "シャープ",

@@ -5,7 +5,7 @@
     "industry_name": "生活用品・スポーツ・ホビー",
     "version": "0.1.0",
     "updated": "2026-07-23",
-    "map_style": "category",
+    "map_style": "flow",
     "description": "スポーツ用品・玩具・楽器・文具・ベビー用品など、生活を彩る「その他製品」セクターの分類カオスマップ。IPとブランドの海外展開が共通の成長軸。",
     "tagline": "アシックスからタカラトミーまで — ブランドとIPで世界を獲る",
     "editorial_note": "v1は公開情報ベース。分類は編集部整理。上場情報はJPX上場銘柄一覧(2026-06)と突合済み。",
@@ -999,5 +999,112 @@
       "updated": "2026-07-23"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "id": "opex_consumer_sports",
+      "from": "consumer",
+      "to": "sports",
+      "flow_type": "opex",
+      "label": "スポーツ用品の購入",
+      "sources": [
+        {
+          "url": "https://www.mext.go.jp/sports/b_menu/sports/mcatetop02/list/detail/1411943_00002.htm",
+          "publisher": "スポーツ庁",
+          "note": "日本版スポーツサテライトアカウント(スポーツ産業の経済規模推計)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_consumer_toys",
+      "from": "consumer",
+      "to": "toys_games",
+      "flow_type": "opex",
+      "label": "玩具・トレカの購入",
+      "amount_note": "国内玩具市場は1兆円超に拡大",
+      "sources": [
+        {
+          "url": "https://www.toys.or.jp/toukei_siryou_data.html",
+          "publisher": "日本玩具協会",
+          "note": "玩具市場規模調査(2025年度1兆1,664億円)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_consumer_instruments",
+      "from": "consumer",
+      "to": "musical_instruments",
+      "flow_type": "opex",
+      "label": "楽器・音響機器の購入",
+      "sources": [
+        {
+          "url": "https://www.e-stat.go.jp/stat-search/database?stat_infid=000008629768&layout=dataset&statdisp_id=0003043828",
+          "publisher": "経済産業省(e-Stat)",
+          "note": "生産動態統計「楽器」製品月表(生産・出荷・在庫)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_consumer_stationery",
+      "from": "consumer",
+      "to": "stationery_office",
+      "flow_type": "opex",
+      "label": "文具・オフィス用品の購入",
+      "sources": [
+        {
+          "url": "https://www.jwima.org/toukei/hinmoku_kunibetu/hinmoku_kunibetu.html",
+          "publisher": "日本筆記具工業会",
+          "note": "品目別・国別統計(筆記具の生産・販売・輸出入)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_consumer_baby",
+      "from": "consumer",
+      "to": "baby_care",
+      "flow_type": "opex",
+      "label": "ベビー用品・生活雑貨の購入",
+      "sources": [
+        {
+          "url": "https://www.stat.go.jp/data/kakei/index.html",
+          "publisher": "総務省統計局",
+          "note": "家計調査(品目別消費支出。ベビー用品・生活雑貨を含む)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_consumer_apparel",
+      "from": "consumer",
+      "to": "apparel_brand",
+      "flow_type": "opex",
+      "label": "衣料品の購入",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/syoudou/index.html",
+          "publisher": "経済産業省",
+          "note": "商業動態統計(織物・衣服・身の回り品小売業の販売額)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_consumer_amusement",
+      "from": "consumer",
+      "to": "amusement",
+      "flow_type": "opex",
+      "label": "遊技・アミューズメント支出",
+      "sources": [
+        {
+          "url": "https://www.npa.go.jp/publications/statistics/safetylife/080423huzokukankeitoukei.pdf",
+          "publisher": "警察庁",
+          "note": "風俗営業等の現状と取締り状況(ぱちんこ営業所数・遊技機台数)"
+        }
+      ],
+      "updated": "2026-07-24"
+    }
+  ]
 }

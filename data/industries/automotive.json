@@ -136,7 +136,61 @@
           "listing": {
             "market": "東証プライム",
             "code": "7203"
-          }
+          },
+          "salary": {
+            "man_jpy": 1006,
+            "fy": "2026年3月期"
+          },
+          "deals": [
+            {
+              "with": "パナソニック",
+              "type": "jv",
+              "label": "車載電池の合弁PPES設立",
+              "url": "https://news.panasonic.com/jp/press/jn200203-1",
+              "publisher": "パナソニック",
+              "date": "2020-02-03"
+            },
+            {
+              "with": "JASM・ソニーセミコンダクタソリューションズ・デンソー",
+              "type": "investment",
+              "label": "熊本JASMへの共同出資・第二工場建設",
+              "url": "https://www.sony-semicon.com/ja/news/2024/2024020601.html",
+              "publisher": "ソニーセミコンダクタソリューションズ",
+              "date": "2024-02-06"
+            },
+            {
+              "with": "スズキ",
+              "type": "alliance",
+              "label": "資本提携に合意",
+              "url": "https://www.suzuki.co.jp/release/d/2019/0828/",
+              "publisher": "スズキ",
+              "date": "2019-08-28"
+            },
+            {
+              "with": "SUBARU",
+              "type": "alliance",
+              "label": "業務資本提携(EV共同開発bZ4X/ソルテラへ)",
+              "url": "https://www.subaru.co.jp/press/news/2019_09_27_7759/",
+              "publisher": "SUBARU",
+              "date": "2019-09-27"
+            },
+            {
+              "with": "マツダ",
+              "type": "alliance",
+              "label": "業務資本提携(米国合弁工場MTMを含む)",
+              "url": "https://global.toyota/jp/detail/18012121",
+              "publisher": "トヨタ自動車",
+              "date": "2017-08-04"
+            },
+            {
+              "with": "NTT",
+              "type": "alliance",
+              "label": "モビリティAI基盤の共同構築に合意",
+              "url": "https://group.ntt/jp/newsrelease/2024/10/31/241031b.html",
+              "publisher": "日本電信電話",
+              "date": "2024-10-31"
+            }
+          ]
         },
         {
           "name": "ホンダ",
@@ -152,7 +206,37 @@
           "listing": {
             "market": "東証プライム",
             "code": "7267"
-          }
+          },
+          "salary": {
+            "man_jpy": 932,
+            "fy": "2026年3月期"
+          },
+          "deals": [
+            {
+              "with": "ソニーグループ",
+              "type": "jv",
+              "label": "ソニー・ホンダモビリティ設立(EV「AFEELA」)",
+              "url": "https://global.honda/jp/news/2022/c220616.html",
+              "publisher": "本田技研工業",
+              "date": "2022-06-16"
+            },
+            {
+              "with": "日立製作所",
+              "type": "jv",
+              "label": "日立Astemo経営統合(車載4社統合)",
+              "url": "https://www.hitachi.com/ja-jp/press/articles/2021/01/0106/",
+              "publisher": "日立製作所",
+              "date": "2021-01-06"
+            },
+            {
+              "with": "GSユアサ",
+              "type": "jv",
+              "label": "EV電池の合弁Honda・GS Yuasa EV Battery R&D設立",
+              "url": "https://global.honda/jp/news/2023/c230511b.html",
+              "publisher": "本田技研工業",
+              "date": "2023-05-11"
+            }
+          ]
         },
         {
           "name": "日産自動車",
@@ -184,7 +268,21 @@
           "listing": {
             "market": "東証プライム",
             "code": "7269"
-          }
+          },
+          "salary": {
+            "man_jpy": 785,
+            "fy": "2025年3月期"
+          },
+          "deals": [
+            {
+              "with": "トヨタ自動車",
+              "type": "alliance",
+              "label": "資本提携に合意",
+              "url": "https://www.suzuki.co.jp/release/d/2019/0828/",
+              "publisher": "スズキ",
+              "date": "2019-08-28"
+            }
+          ]
         },
         {
           "name": "マツダ",
@@ -200,7 +298,17 @@
           "listing": {
             "market": "東証プライム",
             "code": "7261"
-          }
+          },
+          "deals": [
+            {
+              "with": "トヨタ自動車",
+              "type": "alliance",
+              "label": "業務資本提携(米国合弁工場MTMを含む)",
+              "url": "https://global.toyota/jp/detail/18012121",
+              "publisher": "トヨタ自動車",
+              "date": "2017-08-04"
+            }
+          ]
         },
         {
           "name": "SUBARU",
@@ -216,7 +324,21 @@
           "listing": {
             "market": "東証プライム",
             "code": "7270"
-          }
+          },
+          "salary": {
+            "man_jpy": 731,
+            "fy": "2025年3月期"
+          },
+          "deals": [
+            {
+              "with": "トヨタ自動車",
+              "type": "alliance",
+              "label": "業務資本提携(EV共同開発bZ4X/ソルテラへ)",
+              "url": "https://www.subaru.co.jp/press/news/2019_09_27_7759/",
+              "publisher": "SUBARU",
+              "date": "2019-09-27"
+            }
+          ]
         },
         {
           "name": "三菱自動車",
@@ -425,6 +547,10 @@
           "listing": {
             "market": "東証プライム(ENEOSホールディングス)",
             "code": "5020"
+          },
+          "salary": {
+            "man_jpy": 1069,
+            "fy": "2025年3月期"
           }
         },
         {
@@ -478,7 +604,29 @@
           "listing": {
             "market": "東証プライム",
             "code": "6902"
-          }
+          },
+          "salary": {
+            "man_jpy": 915,
+            "fy": "2026年3月期"
+          },
+          "deals": [
+            {
+              "with": "JASM・ソニーセミコンダクタソリューションズ・トヨタ自動車",
+              "type": "investment",
+              "label": "熊本JASMへの共同出資・第二工場建設",
+              "url": "https://www.sony-semicon.com/ja/news/2024/2024020601.html",
+              "publisher": "ソニーセミコンダクタソリューションズ",
+              "date": "2024-02-06"
+            },
+            {
+              "with": "アイシン",
+              "type": "jv",
+              "label": "駆動モジュール合弁BluE Nexus設立",
+              "url": "https://www.aisin.com/jp/news/2018/001389.html",
+              "publisher": "アイシン",
+              "date": "2018-12-26"
+            }
+          ]
         },
         {
           "name": "アイシン",
@@ -494,7 +642,17 @@
           "listing": {
             "market": "東証プライム",
             "code": "7259"
-          }
+          },
+          "deals": [
+            {
+              "with": "デンソー",
+              "type": "jv",
+              "label": "駆動モジュール合弁BluE Nexus設立",
+              "url": "https://www.aisin.com/jp/news/2018/001389.html",
+              "publisher": "アイシン",
+              "date": "2018-12-26"
+            }
+          ]
         },
         {
           "name": "豊田自動織機",
@@ -524,6 +682,10 @@
           "listing": {
             "market": "東証プライム",
             "code": "5802"
+          },
+          "salary": {
+            "man_jpy": 896,
+            "fy": "2026年3月期"
           }
         },
         {
@@ -567,6 +729,10 @@
           "listing": {
             "market": "東証プライム",
             "code": "5401"
+          },
+          "salary": {
+            "man_jpy": 905,
+            "fy": "2025年3月期"
           }
         },
         {
@@ -645,6 +811,10 @@
           "listing": {
             "market": "東証プライム",
             "code": "6723"
+          },
+          "salary": {
+            "man_jpy": 750,
+            "fy": "2025年12月期"
           }
         },
         {
@@ -661,6 +831,10 @@
           "listing": {
             "market": "東証プライム",
             "code": "6963"
+          },
+          "salary": {
+            "man_jpy": 810,
+            "fy": "2025年3月期"
           }
         },
         {
@@ -744,6 +918,10 @@
           "listing": {
             "market": "東証プライム",
             "code": "6954"
+          },
+          "salary": {
+            "man_jpy": 1144,
+            "fy": "2026年3月期"
           }
         },
         {
@@ -776,6 +954,10 @@
           "listing": {
             "market": "東証プライム",
             "code": "7012"
+          },
+          "salary": {
+            "man_jpy": 793,
+            "fy": "2025年3月期"
           }
         }
       ],
@@ -805,6 +987,10 @@
           "listing": {
             "market": "東証プライム",
             "code": "9101"
+          },
+          "salary": {
+            "man_jpy": 1435,
+            "fy": "2025年3月期"
           }
         },
         {
@@ -821,6 +1007,10 @@
           "listing": {
             "market": "東証プライム",
             "code": "9104"
+          },
+          "salary": {
+            "man_jpy": 1437,
+            "fy": "2025年3月期"
           }
         },
         {
@@ -891,6 +1081,10 @@
           "listing": {
             "market": "東証プライム(東京海上ホールディングス)",
             "code": "8766"
+          },
+          "salary": {
+            "man_jpy": 1487,
+            "fy": "2026年3月期"
           }
         },
         {
@@ -907,6 +1101,10 @@
           "listing": {
             "market": "東証プライム(SOMPOホールディングス)",
             "code": "8630"
+          },
+          "salary": {
+            "man_jpy": 1259,
+            "fy": "2026年3月期・持株会社単体"
           }
         },
         {
@@ -923,6 +1121,10 @@
           "listing": {
             "market": "東証プライム(MS&ADホールディングス)",
             "code": "8725"
+          },
+          "salary": {
+            "man_jpy": 1237,
+            "fy": "2026年3月期・持株会社単体"
           }
         }
       ],

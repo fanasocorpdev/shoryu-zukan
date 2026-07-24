@@ -87,7 +87,21 @@
             "market_cap_oku_jpy": 37104,
             "as_of": "2026-07-23",
             "note": "営業収益=2026年2月期実績(決算短信)、時価総額=2026-07-23時点"
-          }
+          },
+          "salary": {
+            "man_jpy": 933,
+            "fy": "2026年2月期・持株会社単体"
+          },
+          "deals": [
+            {
+              "with": "ツルハホールディングス",
+              "type": "alliance",
+              "label": "資本業務提携(ウエルシア統合の枠組み)",
+              "url": "https://www.aeon.info/wp-content/uploads/news/pdf/2024/02/240228R_5_3.pdf",
+              "publisher": "イオン",
+              "date": "2024-02-28"
+            }
+          ]
         },
         {
           "name": "セブン&アイ・ホールディングス",
@@ -103,6 +117,10 @@
             "market_cap_oku_jpy": 52638,
             "as_of": "2026-07",
             "note": "営業収益=2026年2月期実績(決算短信)、時価総額=2026-07時点"
+          },
+          "salary": {
+            "man_jpy": 855,
+            "fy": "2026年2月期・持株会社単体"
           }
         },
         {
@@ -571,7 +589,17 @@
           "hq": "東京都港区",
           "listing": {
             "market": "非上場(伊藤忠商事傘下)"
-          }
+          },
+          "deals": [
+            {
+              "with": "伊藤忠商事",
+              "type": "investment",
+              "label": "TOBによる完全子会社化",
+              "url": "https://www.itochu.co.jp/ja/ir/news/2020/__icsFiles/afieldfile/2020/07/08/ITC200708_J.pdf",
+              "publisher": "伊藤忠商事",
+              "date": "2020-07-08"
+            }
+          ]
         },
         {
           "name": "ローソン",
@@ -579,7 +607,17 @@
           "hq": "東京都品川区",
           "listing": {
             "market": "非上場(三菱商事・KDDI傘下)"
-          }
+          },
+          "deals": [
+            {
+              "with": "三菱商事・KDDI",
+              "type": "alliance",
+              "label": "資本業務提携(三菱商事・KDDIの共同経営体制)",
+              "url": "https://www.lawson.co.jp/company/news/detail/1480843_2504.html",
+              "publisher": "ローソン",
+              "date": "2024-02-06"
+            }
+          ]
         }
       ],
       "updated": "2026-07-23"
@@ -608,6 +646,10 @@
             "market_cap_oku_jpy": 261291,
             "as_of": "2026-07-10",
             "note": "売上収益=2025年8月期実績(決算短信)、時価総額=2026-07-10時点"
+          },
+          "salary": {
+            "man_jpy": 1250,
+            "fy": "2025年8月期"
           }
         },
         {
@@ -640,6 +682,10 @@
             "market_cap_oku_jpy": 27197,
             "as_of": "2026-07-23",
             "note": "売上高=2025年6月期実績(決算短信)、時価総額=2026-07-23時点"
+          },
+          "salary": {
+            "man_jpy": 690,
+            "fy": "2025年6月期"
           }
         },
         {
@@ -656,6 +702,10 @@
             "market_cap_oku_jpy": 23720,
             "as_of": "2026-07-23",
             "note": "営業収益=2025年8月期実績(決算短信)、時価総額=2026-07-23時点"
+          },
+          "salary": {
+            "man_jpy": 670,
+            "fy": "2025年8月期"
           }
         },
         {
@@ -815,7 +865,17 @@
             "market_cap_oku_jpy": 17333,
             "as_of": "2026-07-23",
             "note": "売上収益=2025年12月期実績(決算短信)、時価総額=2026-07-23時点"
-          }
+          },
+          "deals": [
+            {
+              "with": "日本郵政",
+              "type": "alliance",
+              "label": "資本・業務提携に合意",
+              "url": "https://corp.rakuten.co.jp/news/press/2021/0312_02.html",
+              "publisher": "楽天グループ",
+              "date": "2021-03-12"
+            }
+          ]
         },
         {
           "name": "ZOZO",
@@ -942,6 +1002,10 @@
             "market_cap_oku_jpy": 42882,
             "as_of": "2026-07-06",
             "note": "営業収益=2026年3月期実績(決算短信)、時価総額=2026-07-06時点"
+          },
+          "salary": {
+            "man_jpy": 1855,
+            "fy": "2026年3月期"
           }
         },
         {

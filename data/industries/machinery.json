@@ -5,7 +5,7 @@
     "industry_name": "機械",
     "version": "0.1.0",
     "updated": "2026-07-23",
-    "map_style": "category",
+    "map_style": "flow",
     "description": "機械業界。工作機械からロボット・建機・重工まで、製品分野のラベルごとに分類するカオスマップ。中央は需要側の製造業・建設業。",
     "tagline": "世界シェア上位がゴロゴロ — 日本のものづくりの背骨",
     "editorial_note": "v1は公開情報ベース。分類は編集部整理。上場情報はJPX上場銘柄一覧(2026-06)と突合済み。",
@@ -912,6 +912,10 @@
             "market_cap_oku_jpy": 58443,
             "as_of": "2026-06-30",
             "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          },
+          "salary": {
+            "man_jpy": 902,
+            "fy": "2026年3月期"
           }
         },
         {
@@ -1111,6 +1115,10 @@
             "market_cap_oku_jpy": 123677,
             "as_of": "2026-06-30",
             "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          },
+          "salary": {
+            "man_jpy": 1072,
+            "fy": "2026年3月期"
           }
         },
         {
@@ -1979,5 +1987,128 @@
       "updated": "2026-07-23"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "id": "capex_user_mt",
+      "from": "user",
+      "to": "machine_tools",
+      "flow_type": "capex",
+      "label": "工作機械の設備投資",
+      "amount_note": "工作機械受注は年1.5兆円規模",
+      "sources": [
+        {
+          "url": "https://www.jmtba.or.jp/statistics/",
+          "publisher": "日本工作機械工業会",
+          "note": "受注統計(速報・確報、月次)の統計情報ページ"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "capex_user_robot",
+      "from": "user",
+      "to": "robot_fa",
+      "flow_type": "capex",
+      "label": "ロボット・FA設備導入",
+      "sources": [
+        {
+          "url": "https://www.jara.jp/data/press/2026/260601.html",
+          "publisher": "日本ロボット工業会",
+          "note": "ロボット統計 受注・生産・出荷実績(2025年暦年・受注1兆456億円)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "capex_user_cm",
+      "from": "user",
+      "to": "construction_machinery",
+      "flow_type": "capex",
+      "label": "建設機械の購入・レンタル",
+      "sources": [
+        {
+          "url": "https://www.cema.or.jp/general/news/2025/202503.html",
+          "publisher": "日本建設機械工業会",
+          "note": "建設機械出荷金額統計(2024年度通期)の公表ページ"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "capex_user_agri",
+      "from": "user",
+      "to": "agri_machinery",
+      "flow_type": "capex",
+      "label": "農業機械の購入",
+      "sources": [
+        {
+          "url": "http://www.jfmma.or.jp/statistics.html",
+          "publisher": "日本農業機械工業会",
+          "note": "統計資料ページ(生産出荷実績・輸出入)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "capex_user_heavy",
+      "from": "user",
+      "to": "heavy_industry",
+      "flow_type": "capex",
+      "label": "プラント建設・防衛調達",
+      "sources": [
+        {
+          "url": "https://www.mod.go.jp/atla/souhon/supply/jisseki/pdf/r05_chotatsu_jisseki.pdf",
+          "publisher": "防衛装備庁",
+          "note": "令和5年度中央調達の調達実績(金額)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "capex_user_fluid",
+      "from": "user",
+      "to": "fluid_machinery",
+      "flow_type": "capex",
+      "label": "ポンプ・コンプレッサ等の設備投資",
+      "sources": [
+        {
+          "url": "https://www.jsim.or.jp/statistical-data/",
+          "publisher": "日本産業機械工業会",
+          "note": "統計資料ページ。ポンプ・圧縮機の受注・生産統計を掲載"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "capex_user_mh",
+      "from": "user",
+      "to": "material_handling",
+      "flow_type": "capex",
+      "label": "マテハン・物流自動化投資",
+      "amount_note": "EC拡大で物流センター自動化が成長",
+      "sources": [
+        {
+          "url": "https://www1.logistics.or.jp/data/manufacture/",
+          "publisher": "日本ロジスティクスシステム協会(JILS)",
+          "note": "物流システム機器生産出荷統計(2024年度まで掲載)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "capex_user_engine",
+      "from": "user",
+      "to": "engine_turbine",
+      "flow_type": "capex",
+      "label": "エンジン・タービン調達",
+      "sources": [
+        {
+          "url": "https://www.lema.or.jp/prospect.html",
+          "publisher": "日本陸用内燃機関協会(LEMA)",
+          "note": "陸用内燃機関の生産見通し・需要部門別出荷実績"
+        }
+      ],
+      "updated": "2026-07-24"
+    }
+  ]
 }

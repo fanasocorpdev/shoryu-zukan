@@ -5,7 +5,7 @@
     "industry_name": "素材・金属",
     "version": "0.1.0",
     "updated": "2026-07-23",
-    "map_style": "category",
+    "map_style": "flow",
     "description": "鉄鋼・非鉄・セメント・ガラス・紙パルプなど基礎素材の分類カオスマップ。自動車・建設・半導体マップの素材ノードと直結。",
     "tagline": "脱炭素の最前線 — 電炉シフトと資源リサイクルの地殻変動",
     "editorial_note": "v1は公開情報ベース。分類は編集部整理。上場情報はJPX上場銘柄一覧(2026-06)と突合済み。",
@@ -66,6 +66,10 @@
             "market_cap_oku_jpy": 32768,
             "as_of": "2026-07",
             "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07時点"
+          },
+          "salary": {
+            "man_jpy": 905,
+            "fy": "2025年3月期"
           }
         },
         {
@@ -416,6 +420,10 @@
             "market_cap_oku_jpy": 110735,
             "as_of": "2026-06-30",
             "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          },
+          "salary": {
+            "man_jpy": 934,
+            "fy": "2026年3月期"
           }
         },
         {
@@ -1658,5 +1666,128 @@
       "updated": "2026-07-23"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "id": "opex_user_steel",
+      "from": "user",
+      "to": "steel",
+      "flow_type": "opex",
+      "label": "鋼材の購入",
+      "amount_note": "粗鋼生産は年8,000万トン台",
+      "sources": [
+        {
+          "url": "https://www.jisf.or.jp/data/seisan/index.html",
+          "publisher": "日本鉄鋼連盟",
+          "note": "鋼材生産統計(月次・年次)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_user_nonferrous",
+      "from": "user",
+      "to": "nonferrous",
+      "flow_type": "opex",
+      "label": "非鉄金属・電線の調達",
+      "sources": [
+        {
+          "url": "https://www.jcma2.jp/toukei/index.html",
+          "publisher": "日本電線工業会",
+          "note": "統計資料ページ(電線出荷実績・銅量/金額)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_user_cement",
+      "from": "user",
+      "to": "cement_ceramics",
+      "flow_type": "opex",
+      "label": "セメント・ガラスの調達",
+      "sources": [
+        {
+          "url": "https://www.jcassoc.or.jp/cement/1jpn/jh1.html",
+          "publisher": "セメント協会",
+          "note": "「セメントの需給」月別・都道府県別需給実績"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_user_paper",
+      "from": "user",
+      "to": "paper_pulp",
+      "flow_type": "opex",
+      "label": "紙・板紙・段ボールの購入",
+      "sources": [
+        {
+          "url": "https://www.jpa.gr.jp/states/paper/index.html",
+          "publisher": "日本製紙連合会",
+          "note": "紙・板紙の需要・生産・輸出入統計"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_user_metal",
+      "from": "user",
+      "to": "metal_products",
+      "flow_type": "opex",
+      "label": "金属製品(ばね・ねじ等)の調達",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/seidou/index.html",
+          "publisher": "経済産業省",
+          "note": "生産動態統計調査(金属製品を含む)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_user_printing",
+      "from": "user",
+      "to": "printing_packaging",
+      "flow_type": "opex",
+      "label": "印刷・パッケージの発注",
+      "sources": [
+        {
+          "url": "https://www.jfpi.or.jp/topics_detail6/id=4674",
+          "publisher": "日本印刷産業連合会",
+          "note": "印刷・同関連業の製造品出荷額統計を掲載する年次動向ページ"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "goods_recycle_steel",
+      "from": "recycle",
+      "to": "steel",
+      "flow_type": "goods",
+      "label": "鉄スクラップの供給(電炉原料)",
+      "amount_note": "電炉は鉄スクラップを主原料とする",
+      "sources": [
+        {
+          "url": "https://www.jisri.or.jp/market",
+          "publisher": "日本鉄リサイクル工業会",
+          "note": "マーケット情報(鉄スクラップ国内市況・輸出統計)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_user_recycle",
+      "from": "user",
+      "to": "recycle",
+      "flow_type": "opex",
+      "label": "廃棄物処理・リサイクル委託費",
+      "sources": [
+        {
+          "url": "https://www.env.go.jp/recycle/waste/sangyo.html",
+          "publisher": "環境省",
+          "note": "産業廃棄物の排出及び処理状況等"
+        }
+      ],
+      "updated": "2026-07-24"
+    }
+  ]
 }

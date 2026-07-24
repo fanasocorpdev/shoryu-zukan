@@ -5,7 +5,7 @@
     "industry_name": "不動産",
     "version": "0.1.0",
     "updated": "2026-07-23",
-    "map_style": "category",
+    "map_style": "flow",
     "description": "不動産業界。総合デベロッパーから分譲・流通・管理・不動産テックまでの分類カオスマップ。建設マップ・データセンターマップと直結。",
     "tagline": "都心再開発・タワマン・データセンター用地 — 土地に流れ込むマネー",
     "editorial_note": "v1は公開情報ベース。分類は編集部整理。J-REITは市場区分が異なるため本マップの対象外(将来追加)。上場情報はJPX上場銘柄一覧(2026-06)と突合済み。",
@@ -66,6 +66,10 @@
             "market_cap_oku_jpy": 42882,
             "as_of": "2026-07-06",
             "note": "営業収益=2026年3月期実績(決算短信)、時価総額=2026-07-06時点"
+          },
+          "salary": {
+            "man_jpy": 1855,
+            "fy": "2026年3月期"
           }
         },
         {
@@ -79,6 +83,10 @@
             "market_cap_oku_jpy": 51768,
             "as_of": "2026-07-06",
             "note": "営業収益=2026年3月期実績(決算短信)、時価総額=2026-07-06時点"
+          },
+          "salary": {
+            "man_jpy": 1759,
+            "fy": "2026年3月期"
           }
         },
         {
@@ -1215,5 +1223,97 @@
       "updated": "2026-07-23"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "id": "opex_tenant_developer",
+      "from": "user",
+      "to": "developer",
+      "flow_type": "opex",
+      "label": "オフィス・商業施設の賃料",
+      "sources": [
+        {
+          "url": "https://www.e-miki.com/rent/tokyo.html",
+          "publisher": "三鬼商事",
+          "note": "東京ビジネス地区オフィスマーケットデータ(平均空室率・平均賃料、月次)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "capex_buyer_condo",
+      "from": "user",
+      "to": "condo_developer",
+      "flow_type": "capex",
+      "label": "マンション・戸建の購入代金",
+      "amount_note": "首都圏新築マンション平均価格は高騰続く",
+      "sources": [
+        {
+          "url": "https://www.fudousankeizai.co.jp/mansion",
+          "publisher": "不動産経済研究所",
+          "note": "首都圏・近畿圏 新築分譲マンション市場動向(発売戸数・平均価格、月次)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_user_brokerage",
+      "from": "user",
+      "to": "brokerage_tech",
+      "flow_type": "opex",
+      "label": "仲介手数料",
+      "sources": [
+        {
+          "url": "https://www.retpc.jp/chosa/tokei/",
+          "publisher": "不動産流通推進センター",
+          "note": "不動産業統計集(レインズ成約件数等)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_owner_mgmt",
+      "from": "user",
+      "to": "property_mgmt",
+      "flow_type": "opex",
+      "label": "管理費・修繕積立金",
+      "sources": [
+        {
+          "url": "https://www.mlit.go.jp/report/press/house03_hh_000210.html",
+          "publisher": "国土交通省",
+          "note": "マンション総合調査結果(修繕積立金の設定状況・管理実態)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_tenant_logistics",
+      "from": "user",
+      "to": "logistics_industrial",
+      "flow_type": "opex",
+      "label": "物流施設の賃料",
+      "sources": [
+        {
+          "url": "https://www.ichigo-re.co.jp/report/report-market/",
+          "publisher": "一五不動産情報サービス",
+          "note": "物流施設の賃貸マーケット調査(募集賃料・空室率、年4回)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_user_parking",
+      "from": "user",
+      "to": "parking",
+      "flow_type": "opex",
+      "label": "駐車場利用料",
+      "sources": [
+        {
+          "url": "https://www.park24.co.jp/ir/financial/monthly.html",
+          "publisher": "パーク24",
+          "note": "IR月次業績状況(タイムズパーキング売上高等)"
+        }
+      ],
+      "updated": "2026-07-24"
+    }
+  ]
 }

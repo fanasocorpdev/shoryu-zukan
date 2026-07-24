@@ -82,7 +82,21 @@
             "market_cap_oku_jpy": 198062,
             "as_of": "2026-07-23",
             "note": "収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
-          }
+          },
+          "salary": {
+            "man_jpy": 2112,
+            "fy": "2026年3月期"
+          },
+          "deals": [
+            {
+              "with": "KDDI・ローソン",
+              "type": "alliance",
+              "label": "資本業務提携(三菱商事・KDDIの共同経営体制)",
+              "url": "https://www.lawson.co.jp/company/news/detail/1480843_2504.html",
+              "publisher": "ローソン",
+              "date": "2024-02-06"
+            }
+          ]
         },
         {
           "name": "三井物産",
@@ -98,6 +112,10 @@
             "market_cap_oku_jpy": 151540,
             "as_of": "2026-05-29",
             "note": "収益=2026年3月期実績(決算短信)、時価総額=2026-05-29時点"
+          },
+          "salary": {
+            "man_jpy": 2058,
+            "fy": "2026年3月期"
           }
         },
         {
@@ -114,7 +132,21 @@
             "market_cap_oku_jpy": 160153,
             "as_of": "2026-07",
             "note": "収益=2026年3月期実績(決算短信)、時価総額=2026-07時点"
-          }
+          },
+          "salary": {
+            "man_jpy": 1991,
+            "fy": "2026年3月期"
+          },
+          "deals": [
+            {
+              "with": "ファミリーマート",
+              "type": "investment",
+              "label": "TOBによる完全子会社化",
+              "url": "https://www.itochu.co.jp/ja/ir/news/2020/__icsFiles/afieldfile/2020/07/08/ITC200708_J.pdf",
+              "publisher": "伊藤忠商事",
+              "date": "2020-07-08"
+            }
+          ]
         },
         {
           "name": "住友商事",
@@ -130,6 +162,10 @@
             "market_cap_oku_jpy": 77802,
             "as_of": "2026-07-23",
             "note": "収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
+          },
+          "salary": {
+            "man_jpy": 1840,
+            "fy": "2026年3月期"
           }
         },
         {
@@ -146,6 +182,10 @@
             "market_cap_oku_jpy": 89415,
             "as_of": "2026-07-23",
             "note": "収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
+          },
+          "salary": {
+            "man_jpy": 1784,
+            "fy": "2026年3月期"
           }
         },
         {
@@ -162,6 +202,10 @@
             "market_cap_oku_jpy": 73375,
             "as_of": "2026-05-22",
             "note": "収益=2026年3月期実績(決算短信)、時価総額=2026-05-22時点"
+          },
+          "salary": {
+            "man_jpy": 1421,
+            "fy": "2026年3月期"
           }
         },
         {
@@ -274,7 +318,17 @@
           "employees": 10000,
           "listing": {
             "market": "非上場(三菱商事・KDDI傘下)"
-          }
+          },
+          "deals": [
+            {
+              "with": "三菱商事・KDDI",
+              "type": "alliance",
+              "label": "資本業務提携(三菱商事・KDDIの共同経営体制)",
+              "url": "https://www.lawson.co.jp/company/news/detail/1480843_2504.html",
+              "publisher": "ローソン",
+              "date": "2024-02-06"
+            }
+          ]
         },
         {
           "name": "ファミリーマート",
@@ -283,7 +337,17 @@
           "employees": 7000,
           "listing": {
             "market": "非上場(伊藤忠商事傘下)"
-          }
+          },
+          "deals": [
+            {
+              "with": "伊藤忠商事",
+              "type": "investment",
+              "label": "TOBによる完全子会社化",
+              "url": "https://www.itochu.co.jp/ja/ir/news/2020/__icsFiles/afieldfile/2020/07/08/ITC200708_J.pdf",
+              "publisher": "伊藤忠商事",
+              "date": "2020-07-08"
+            }
+          ]
         },
         {
           "name": "日本アクセス",
@@ -322,6 +386,10 @@
             "as_of": "2026-07-23",
             "note": "持株会社MUFG連結の値。経常収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点",
             "revenue_oku_jpy": 146208
+          },
+          "salary": {
+            "man_jpy": 1170,
+            "fy": "2026年3月期"
           }
         },
         {
@@ -338,6 +406,10 @@
             "as_of": "2026-07-23",
             "note": "持株会社SMFG連結の値。経常収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点",
             "market_cap_oku_jpy": 274316
+          },
+          "salary": {
+            "man_jpy": 1180,
+            "fy": "2026年3月期"
           }
         },
         {
@@ -354,6 +426,10 @@
             "market_cap_oku_jpy": 218260,
             "as_of": "2026-07-23",
             "note": "経常収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
+          },
+          "salary": {
+            "man_jpy": 1166,
+            "fy": "2026年3月期"
           }
         }
       ],

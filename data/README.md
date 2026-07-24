@@ -58,6 +58,14 @@
   note の先頭に「親会社○○連結の値」と明記する
 - 数値が入れられない場合(非上場等)は note のみでもよい
 
+## 平均年収(salary)と提携・実取引(deals)
+
+- `company.salary = {man_jpy, fy}` は**有価証券報告書記載の平均年間給与のみ**(推計サイトの値は不可)。
+  提出会社が持株会社の場合は fy に「・持株会社単体」を付け、事業会社の実態と乖離しうることを示す
+- `company.deals[]` は**当事者の公式プレスリリースURLで裏付けられる提携・出資・取引のみ**。
+  {with(相手), type(supply/jv/investment/alliance/contract), label, url, publisher, date}
+- どちらも親会社コードを借用した非上場行には適用しない(apply-salary.mjs が自動スキップ)
+
 ## 業界の親子関係とマップ形式
 
 - `meta.parent_industry` で親業界を宣言(例: auto_parts → automotive)。

@@ -174,7 +174,17 @@
           "employees": 7000,
           "listing": {
             "market": "非上場(伊藤忠商事傘下)"
-          }
+          },
+          "deals": [
+            {
+              "with": "伊藤忠商事",
+              "type": "investment",
+              "label": "TOBによる完全子会社化",
+              "url": "https://www.itochu.co.jp/ja/ir/news/2020/__icsFiles/afieldfile/2020/07/08/ITC200708_J.pdf",
+              "publisher": "伊藤忠商事",
+              "date": "2020-07-08"
+            }
+          ]
         },
         {
           "name": "ローソン",
@@ -187,7 +197,17 @@
           "employees": 10000,
           "listing": {
             "market": "非上場(三菱商事・KDDI傘下)"
-          }
+          },
+          "deals": [
+            {
+              "with": "三菱商事・KDDI",
+              "type": "alliance",
+              "label": "資本業務提携(三菱商事・KDDIの共同経営体制)",
+              "url": "https://www.lawson.co.jp/company/news/detail/1480843_2504.html",
+              "publisher": "ローソン",
+              "date": "2024-02-06"
+            }
+          ]
         },
         {
           "name": "ミニストップ",
@@ -502,6 +522,10 @@
             "market_cap_oku_jpy": 19677,
             "as_of": "2026-07-23",
             "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
+          },
+          "salary": {
+            "man_jpy": 810,
+            "fy": "2025年3月期"
           }
         },
         {
@@ -527,7 +551,21 @@
             "market_cap_oku_jpy": 110508,
             "as_of": "2026-06-30",
             "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
-          }
+          },
+          "salary": {
+            "man_jpy": 988,
+            "fy": "2026年3月期"
+          },
+          "deals": [
+            {
+              "with": "トヨタ自動車",
+              "type": "jv",
+              "label": "車載電池の合弁PPES設立",
+              "url": "https://news.panasonic.com/jp/press/jn200203-1",
+              "publisher": "パナソニック",
+              "date": "2020-02-03"
+            }
+          ]
         }
       ],
       "updated": "2026-07-23"
@@ -582,7 +620,21 @@
           "listing": {
             "market": "東証プライム",
             "code": "8058"
-          }
+          },
+          "salary": {
+            "man_jpy": 2112,
+            "fy": "2026年3月期"
+          },
+          "deals": [
+            {
+              "with": "KDDI・ローソン",
+              "type": "alliance",
+              "label": "資本業務提携(三菱商事・KDDIの共同経営体制)",
+              "url": "https://www.lawson.co.jp/company/news/detail/1480843_2504.html",
+              "publisher": "ローソン",
+              "date": "2024-02-06"
+            }
+          ]
         },
         {
           "name": "伊藤忠商事(ファミリーマート)",
@@ -598,7 +650,21 @@
           "listing": {
             "market": "東証プライム",
             "code": "8001"
-          }
+          },
+          "salary": {
+            "man_jpy": 1991,
+            "fy": "2026年3月期"
+          },
+          "deals": [
+            {
+              "with": "ファミリーマート",
+              "type": "investment",
+              "label": "TOBによる完全子会社化",
+              "url": "https://www.itochu.co.jp/ja/ir/news/2020/__icsFiles/afieldfile/2020/07/08/ITC200708_J.pdf",
+              "publisher": "伊藤忠商事",
+              "date": "2020-07-08"
+            }
+          ]
         }
       ],
       "updated": "2026-07-23"

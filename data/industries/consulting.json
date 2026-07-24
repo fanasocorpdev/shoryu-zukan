@@ -5,13 +5,13 @@
     "industry_name": "コンサルティング",
     "version": "0.1.0",
     "updated": "2026-07-23",
-    "map_style": "category",
+    "map_style": "flow",
     "description": "コンサルティング業界。契約上の商流が図示しにくいため、カオスマップ方式で系譜・得意領域のラベルごとに分類する。中央はクライアント企業。",
     "tagline": "戦略・総合・IT・シンクタンク — 系譜と得意領域で読むファーム勢力図",
     "editorial_note": "v1は公開情報ベース。カテゴリは代表的な括りであり、大手ファームは複数領域にまたがる。外資系の多くは非上場のため財務値は上場企業のみ。",
     "guide": {
       "earn": "コンサルは商流図が描きにくい業界の代表格。クライアント企業からプロジェクト単位の報酬を受け取り、人月×単価が収益の基本式。戦略・総合・IT・シンクタンクで単価と規模感が大きく異なる。",
-      "watch": "このマップは系譜・得意領域で分類したカオスマップ型。戦略系と総合系の企業数の差、IT系の急拡大が読みどころ。"
+      "watch": "系譜・得意領域の分類に加え、クライアント企業からの報酬の流れをエッジで表示。戦略系と総合系の企業数の差、IT系の急拡大が読みどころ。"
     }
   },
   "layers": [
@@ -297,6 +297,10 @@
             "market_cap_oku_jpy": 28498,
             "as_of": "2026-07-23",
             "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
+          },
+          "salary": {
+            "man_jpy": 1322,
+            "fy": "2025年3月期"
           }
         },
         {
@@ -482,5 +486,97 @@
       "updated": "2026-07-23"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "id": "opex_client_strategy",
+      "from": "client",
+      "to": "strategy",
+      "flow_type": "opex",
+      "label": "戦略プロジェクト報酬",
+      "amount_note": "経営課題単位のプロジェクトフィー",
+      "sources": [
+        {
+          "url": "https://www.stat.go.jp/data/mbss/index.html",
+          "publisher": "総務省統計局",
+          "note": "サービス産業動態統計調査。経営コンサルティング業を含む月次売上高統計"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_client_sogo",
+      "from": "client",
+      "to": "sogo",
+      "flow_type": "opex",
+      "label": "総合コンサル・DX案件報酬",
+      "sources": [
+        {
+          "url": "https://www.deloitte.com/jp/ja/services/consulting.html",
+          "publisher": "デロイト トーマツ グループ",
+          "note": "総合コンサルの公式サービス一覧(戦略・DX等のサービスライン)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_client_itc",
+      "from": "client",
+      "to": "it_consulting",
+      "flow_type": "opex",
+      "label": "IT導入・DX支援報酬",
+      "sources": [
+        {
+          "url": "https://it-shien.smrj.go.jp/",
+          "publisher": "中小企業庁・中小機構",
+          "note": "IT導入補助金(現デジタル化・AI導入補助金)の公式サイト"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_client_thinktank",
+      "from": "client",
+      "to": "thinktank",
+      "flow_type": "opex",
+      "label": "調査研究・官公庁受託",
+      "sources": [
+        {
+          "url": "https://www.nri.com/jp/service/industry/public_sector/index.html",
+          "publisher": "野村総合研究所",
+          "note": "官公庁・公共向けの政策調査・制度設計サービス紹介"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_client_fas",
+      "from": "client",
+      "to": "fas",
+      "flow_type": "opex",
+      "label": "M&A・財務アドバイザリー報酬",
+      "sources": [
+        {
+          "url": "https://ma-shienkikan.go.jp/",
+          "publisher": "中小企業庁",
+          "note": "M&A支援機関登録制度の公式サイト(登録FA・仲介の検索)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_client_hr",
+      "from": "client",
+      "to": "hr_org",
+      "flow_type": "opex",
+      "label": "組織・人事コンサル報酬",
+      "sources": [
+        {
+          "url": "https://www.mercer.com/ja-jp/solutions/talent-and-rewards/hr-systems-transformation/",
+          "publisher": "マーサージャパン",
+          "note": "人事制度変革コンサルティングのサービスページ"
+        }
+      ],
+      "updated": "2026-07-24"
+    }
+  ]
 }

@@ -591,3 +591,8 @@ svg.near .node .companies { opacity: 1; }
   border-radius: 999px; white-space: nowrap; overflow: hidden;
   text-overflow: ellipsis; max-width: 100%;
 }
+
+/* ---- 提携・取引表示 ---- */
+.c-deals { color: var(--ink); }
+.c-deals a { color: #92640c; text-decoration: underline dotted; }
+.deals-more { color: var(--ink-soft); }

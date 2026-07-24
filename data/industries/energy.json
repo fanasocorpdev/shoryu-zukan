@@ -5,7 +5,7 @@
     "industry_name": "エネルギー",
     "version": "0.1.0",
     "updated": "2026-07-23",
-    "map_style": "category",
+    "map_style": "flow",
     "description": "電力・ガス・石油・再エネ・資源開発の分類カオスマップ。データセンター・半導体マップの電力ノードと直結する、AI時代の裏の主役。",
     "tagline": "AIとEVが電気を食う — 電源と系統に殺到する投資",
     "editorial_note": "v1は公開情報ベース。分類は編集部整理。上場情報はJPX上場銘柄一覧(2026-06)と突合済み。",
@@ -283,6 +283,10 @@
             "market_cap_oku_jpy": 36189,
             "as_of": "2026-07-23",
             "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
+          },
+          "salary": {
+            "man_jpy": 1069,
+            "fy": "2025年3月期"
           }
         },
         {
@@ -577,5 +581,99 @@
       "updated": "2026-07-23"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "id": "opex_user_power",
+      "from": "user",
+      "to": "electric_power",
+      "flow_type": "opex",
+      "label": "電気料金",
+      "amount_note": "販売電力量は年8,000億kWh規模",
+      "sources": [
+        {
+          "url": "https://www.enecho.meti.go.jp/statistics/electric_power/ep002/",
+          "publisher": "資源エネルギー庁",
+          "note": "電力調査統計(需要実績・発電量・燃料消費)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_user_gas",
+      "from": "user",
+      "to": "gas",
+      "flow_type": "opex",
+      "label": "都市ガス料金",
+      "sources": [
+        {
+          "url": "https://www.enecho.meti.go.jp/statistics/gas/ga001/",
+          "publisher": "資源エネルギー庁",
+          "note": "ガス事業生産動態統計調査(ガス生産・販売量)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_user_oil",
+      "from": "user",
+      "to": "oil",
+      "flow_type": "opex",
+      "label": "ガソリン・燃料油の購入",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/sekiyuka/index.html",
+          "publisher": "経済産業省",
+          "note": "石油統計(燃料油の生産・販売)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_power_renewable",
+      "from": "electric_power",
+      "to": "renewable",
+      "flow_type": "opex",
+      "label": "再エネ電気の買取(FIT/FIP)",
+      "amount_note": "FIT買取費用は年4兆円規模で賦課金が原資",
+      "sources": [
+        {
+          "url": "https://www.enecho.meti.go.jp/category/saving_and_new/saiene/kaitori/fit_kakaku.html",
+          "publisher": "資源エネルギー庁",
+          "note": "FIT・FIP制度 買取価格・期間等ページ"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_oil_resource",
+      "from": "oil",
+      "to": "resource_dev",
+      "flow_type": "opex",
+      "label": "原油・LNGの調達費",
+      "amount_note": "原油はほぼ全量輸入",
+      "sources": [
+        {
+          "url": "https://www.enecho.meti.go.jp/about/whitepaper/",
+          "publisher": "資源エネルギー庁",
+          "note": "エネルギー白書(原油・LNG調達動向を収録)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_gas_resource",
+      "from": "gas",
+      "to": "resource_dev",
+      "flow_type": "opex",
+      "label": "LNGの調達費",
+      "sources": [
+        {
+          "url": "https://journal.jogmec.go.jp/oilgas/nglng/index.html",
+          "publisher": "JOGMEC",
+          "note": "天然ガス・LNG関連情報(スポット価格・統計)"
+        }
+      ],
+      "updated": "2026-07-24"
+    }
+  ]
 }

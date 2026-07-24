@@ -5,7 +5,7 @@
     "industry_name": "サービス",
     "version": "0.1.0",
     "updated": "2026-07-23",
-    "map_style": "category",
+    "map_style": "flow",
     "description": "サービス業界。人材・広告・教育・レジャー・BPOなど、提供価値のラベルごとに分類するカオスマップ。中央は利用者(個人・企業)。",
     "tagline": "人手不足の時代に伸びる、人材・BPO・レジャーの人間産業",
     "editorial_note": "v1は公開情報ベース。分類は編集部整理で、複数領域にまたがる企業は主たる事業で分類。上場情報はJPX上場銘柄一覧(2026-06)と突合済み。",
@@ -65,6 +65,10 @@
             "market_cap_oku_jpy": 166834,
             "as_of": "2026-06-30",
             "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          },
+          "salary": {
+            "man_jpy": 1162,
+            "fy": "2026年3月期・持株会社単体"
           }
         },
         {
@@ -3585,5 +3589,127 @@
       "updated": "2026-07-23"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "id": "opex_client_hr",
+      "from": "user",
+      "to": "hr",
+      "flow_type": "opex",
+      "label": "人材紹介手数料・派遣料金",
+      "sources": [
+        {
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/haken-shoukai/otheritaku_00002.html",
+          "publisher": "厚生労働省",
+          "note": "需給調整事業課業務統計。労働者派遣事業・職業紹介事業の事業報告集計"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_client_ad",
+      "from": "user",
+      "to": "ad_marketing",
+      "flow_type": "opex",
+      "label": "広告出稿・販促費",
+      "amount_note": "日本の総広告費は7兆円超",
+      "sources": [
+        {
+          "url": "https://www.dentsu.co.jp/news/release/2026/0305-011003.html",
+          "publisher": "電通",
+          "note": "「2025年 日本の広告費」ニュースリリース。総広告費8兆623億円"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_consumer_education",
+      "from": "user",
+      "to": "education",
+      "flow_type": "opex",
+      "label": "授業料・受講料",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/tokusabido/index.html",
+          "publisher": "経済産業省",
+          "note": "特定サービス産業動態統計調査(学習塾を含む。2025年からサービス産業動態統計へ統合)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_consumer_leisure",
+      "from": "user",
+      "to": "leisure_travel",
+      "flow_type": "opex",
+      "label": "旅行代金・宿泊費",
+      "sources": [
+        {
+          "url": "https://www.mlit.go.jp/kankocho/tokei_hakusyo/shohidoko.html",
+          "publisher": "観光庁",
+          "note": "旅行・観光消費動向調査(年間値・四半期値)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_client_facility",
+      "from": "user",
+      "to": "facility",
+      "flow_type": "opex",
+      "label": "警備・清掃・ビルメン委託費",
+      "sources": [
+        {
+          "url": "https://www.npa.go.jp/publications/statistics/safetylife/reiwa6keibigaikyo.pdf",
+          "publisher": "警察庁",
+          "note": "「令和6年における警備業の概況」(業者数・警備員数等)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_client_bpo",
+      "from": "user",
+      "to": "bpo",
+      "flow_type": "opex",
+      "label": "業務委託費(BPO・コールセンター)",
+      "sources": [
+        {
+          "url": "https://ccaj.or.jp/telemarketing/research.html",
+          "publisher": "日本コンタクトセンター協会(CCAJ)",
+          "note": "コンタクトセンター企業実態調査の公表ページ"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_client_ma",
+      "from": "user",
+      "to": "ma_professional",
+      "flow_type": "opex",
+      "label": "M&A仲介・士業支援手数料",
+      "sources": [
+        {
+          "url": "https://ma-shienkikan.go.jp/statistics-report",
+          "publisher": "中小企業庁",
+          "note": "M&A支援機関登録制度の中小M&A集計結果(譲渡価額・手数料の集計)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_consumer_lifestyle",
+      "from": "user",
+      "to": "lifestyle",
+      "flow_type": "opex",
+      "label": "冠婚葬祭・介護サービス料",
+      "sources": [
+        {
+          "url": "https://www.mhlw.go.jp/toukei/list/45-1.html",
+          "publisher": "厚生労働省",
+          "note": "介護給付費等実態統計(介護サービス費用の悉皆データ)"
+        }
+      ],
+      "updated": "2026-07-24"
+    }
+  ]
 }

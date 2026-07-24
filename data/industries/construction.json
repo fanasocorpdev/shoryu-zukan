@@ -5,7 +5,7 @@
     "industry_name": "建設",
     "version": "0.1.0",
     "updated": "2026-07-23",
-    "map_style": "category",
+    "map_style": "flow",
     "description": "建設業界。ゼネコン・サブコン・道路・住宅・専門工事の分類カオスマップ。データセンターマップの建設ノードと直結。",
     "tagline": "人手不足×国土強靭化 — 受注は潤沢、担い手が足りない",
     "editorial_note": "v1は公開情報ベース。分類は編集部整理。上場情報はJPX上場銘柄一覧(2026-06)と突合済み。",
@@ -66,6 +66,10 @@
             "market_cap_oku_jpy": 29895,
             "as_of": "2026-07-23",
             "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
+          },
+          "salary": {
+            "man_jpy": 1185,
+            "fy": "2025年3月期"
           }
         },
         {
@@ -79,6 +83,10 @@
             "market_cap_oku_jpy": 22552,
             "as_of": "2026-07-23",
             "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
+          },
+          "salary": {
+            "man_jpy": 1058,
+            "fy": "2025年3月期"
           }
         },
         {
@@ -92,6 +100,10 @@
             "market_cap_oku_jpy": 22559,
             "as_of": "2026-07-22",
             "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-22時点"
+          },
+          "salary": {
+            "man_jpy": 1140,
+            "fy": "2025年3月期"
           }
         },
         {
@@ -1997,5 +2009,98 @@
       "updated": "2026-07-23"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "id": "capex_client_gc",
+      "from": "client",
+      "to": "general_contractor",
+      "flow_type": "capex",
+      "label": "建設工事費(元請契約)",
+      "amount_note": "建設投資は年70兆円規模",
+      "sources": [
+        {
+          "url": "https://www.mlit.go.jp/report/press/joho04_hh_001369.html",
+          "publisher": "国土交通省",
+          "note": "建設工事受注動態統計調査報告。元請受注額を発注者別・業種別に集計"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "capex_gc_subcon",
+      "from": "general_contractor",
+      "to": "subcontractor",
+      "flow_type": "capex",
+      "label": "設備工事の下請発注",
+      "sources": [
+        {
+          "url": "https://www.mlit.go.jp/report/press/joho04_hh_001361.html",
+          "publisher": "国土交通省",
+          "note": "建設工事施工統計調査。完成工事高(元請・下請別)を業種別に集計"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "capex_gc_specialist",
+      "from": "general_contractor",
+      "to": "specialist",
+      "flow_type": "capex",
+      "label": "専門工事の下請発注(躯体・仮設・地盤)",
+      "sources": [
+        {
+          "url": "https://www.mlit.go.jp/sogoseisaku/jouhouka/t-other-2_tk_000192.html",
+          "publisher": "国土交通省",
+          "note": "建設工事統計調査の公式ページ。職別(専門)工事業の下請完成工事高を含む"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "capex_client_road",
+      "from": "client",
+      "to": "road_infra",
+      "flow_type": "capex",
+      "label": "道路・インフラ工事(公共発注)",
+      "sources": [
+        {
+          "url": "https://www.mlit.go.jp/road/ir/ir-data/tokei-nen/2025/nenpo05.html",
+          "publisher": "国土交通省",
+          "note": "道路統計年報「道路事業費」。道路種別ごとの公共道路投資額"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "capex_client_house",
+      "from": "client",
+      "to": "house_builder",
+      "flow_type": "capex",
+      "label": "住宅の建築請負・購入",
+      "amount_note": "新設住宅着工は年80万戸前後",
+      "sources": [
+        {
+          "url": "https://www.mlit.go.jp/report/press/joho04_hh_001366.html",
+          "publisher": "国土交通省",
+          "note": "建築着工統計調査報告。新設住宅着工戸数・工事費予定額"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "goods_equipment_house",
+      "from": "housing_equipment",
+      "to": "house_builder",
+      "flow_type": "goods",
+      "label": "建材・住宅設備の供給",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/seidou/index.html",
+          "publisher": "経済産業省",
+          "note": "生産動態統計調査(窯業・建材統計月報を含む)"
+        }
+      ],
+      "updated": "2026-07-24"
+    }
+  ]
 }

@@ -223,6 +223,7 @@ export function createMapView(container, data) {
     const metric = (c) =>
       sortMode === "revenue" ? c.financials?.revenue_oku_jpy
       : sortMode === "mcap" ? c.financials?.market_cap_oku_jpy
+      : sortMode === "salary" ? c.salary?.man_jpy
       : c.employees;
     return [...comps].sort((a, b) => (metric(b) ?? -1) - (metric(a) ?? -1));
   }
@@ -233,14 +234,20 @@ export function createMapView(container, data) {
     if (fin?.revenue_oku_jpy) finParts.push(`💰 売上 約${fmtOku(fin.revenue_oku_jpy)}`);
     if (fin?.market_cap_oku_jpy) finParts.push(`📈 時価総額 約${fmtOku(fin.market_cap_oku_jpy)}`);
     const finLine = finParts.length
-      ? `<div class="fin" title="${esc(fin?.note ?? "")}">${finParts.join("　")}<span class="fin-asof">(${esc(fin?.as_of ?? "")}・概算)</span></div>`
+      ? `<div class="fin" title="${esc(fin?.note ?? "")}">${finParts.join("　")}<span class="fin-asof">(${esc(fin?.as_of ?? "")}${/概算/.test(fin?.note ?? "") ? "・概算" : ""})</span></div>`
       : fin?.note
         ? `<div class="fin note-only">${esc(fin.note)}</div>`
         : "";
     const bizParts = [];
     if (c.listing?.market) bizParts.push(`🏛 ${esc(c.listing.market)}${c.listing.code ? ` <span class="ticker">${esc(c.listing.code)}</span>` : ""}`);
     if (c.employees) bizParts.push(`👥 約${fmtEmp(c.employees)}`);
+    if (c.salary?.man_jpy) bizParts.push(`<span title="有価証券報告書記載の平均年間給与(${esc(c.salary.fy ?? "")})">💴 平均年収 ${c.salary.man_jpy.toLocaleString("ja-JP")}万円</span>`);
     const bizLine = bizParts.length ? `<div class="c-meta c-biz">${bizParts.join("　")}</div>` : "";
+    const dealsLine = c.deals?.length
+      ? `<div class="c-meta c-deals">${c.deals.slice(0, 2).map((d) =>
+          `🤝 ${d.url ? `<a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.label)}</a>` : esc(d.label)}${d.with ? `(→${esc(d.with)})` : ""}`
+        ).join("　")}${c.deals.length > 2 ? `<span class="deals-more"> +${c.deals.length - 2}件</span>` : ""}</div>`
+      : "";
     const metaParts = [];
     if (c.hq) metaParts.push(`📍 ${esc(c.hq)}`);
     if (c.url) {
@@ -256,6 +263,7 @@ export function createMapView(container, data) {
       }${c.hiring ? '<span class="badge hiring">採用中</span>' : ""}${planBadge}</div>
       ${finLine}
       ${bizLine}
+      ${dealsLine}
       ${metaLine}
       ${c.note ? `<div class="c-meta c-note">${esc(c.note)}</div>` : ""}
     </li>`;
@@ -272,6 +280,7 @@ export function createMapView(container, data) {
           <option value="revenue"${sortMode === "revenue" ? " selected" : ""}>売上高順</option>
           <option value="mcap"${sortMode === "mcap" ? " selected" : ""}>時価総額順</option>
           <option value="emp"${sortMode === "emp" ? " selected" : ""}>従業員数順</option>
+          <option value="salary"${sortMode === "salary" ? " selected" : ""}>平均年収順</option>
         </select>
       </div>
       <p class="sort-note">標準の掲載順は編集方針で固定(課金で変わりません)。財務値は決算短信等の実績値(各行に基準期を記載)。「概算」とある値のみ規模感の目安です。</p>

@@ -225,6 +225,31 @@
           "type": "string",
           "description": "本社所在地(例: 愛知県豊田市、米カリフォルニア州サンタクララ)"
         },
+        "salary": {
+          "type": "object",
+          "description": "有価証券報告書記載の平均年間給与",
+          "properties": {
+            "man_jpy": { "type": "number", "exclusiveMinimum": 0, "description": "平均年間給与(万円)" },
+            "fy": { "type": "string", "description": "対象期(例: 2026年3月期)" }
+          },
+          "required": ["man_jpy", "fy"]
+        },
+        "deals": {
+          "type": "array",
+          "description": "公表済みの提携・取引・出資(プレスリリース裏付け)",
+          "items": {
+            "type": "object",
+            "properties": {
+              "with": { "type": "string", "description": "相手企業名" },
+              "type": { "type": "string", "enum": ["supply", "jv", "investment", "alliance", "contract"] },
+              "label": { "type": "string", "description": "内容の一言(例: EV電池の合弁会社設立)" },
+              "url": { "type": "string", "format": "uri", "description": "プレスリリース等の一次情報URL" },
+              "publisher": { "type": "string" },
+              "date": { "type": "string", "description": "公表日(YYYY-MM-DD)" }
+            },
+            "required": ["with", "label", "url"]
+          }
+        },
         "employees": {
           "type": "number",
           "exclusiveMinimum": 0,

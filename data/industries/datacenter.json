@@ -301,6 +301,10 @@
           "listing": {
             "market": "東証プライム",
             "code": "4307"
+          },
+          "salary": {
+            "man_jpy": 1322,
+            "fy": "2025年3月期"
           }
         },
         {
@@ -377,7 +381,21 @@
             "market_cap_oku_jpy": 101839,
             "as_of": "2025-12",
             "note": "売上高=2026年3月期実績(決算短信)、時価総額=2025-12時点"
-          }
+          },
+          "salary": {
+            "man_jpy": 1051,
+            "fy": "2026年3月期"
+          },
+          "deals": [
+            {
+              "with": "三菱商事・ローソン",
+              "type": "alliance",
+              "label": "資本業務提携(三菱商事・KDDIの共同経営体制)",
+              "url": "https://www.lawson.co.jp/company/news/detail/1480843_2504.html",
+              "publisher": "ローソン",
+              "date": "2024-02-06"
+            }
+          ]
         },
         {
           "name": "ソフトバンク",
@@ -393,7 +411,21 @@
             "as_of": "2026-07-23",
             "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点",
             "market_cap_oku_jpy": 105509
-          }
+          },
+          "salary": {
+            "man_jpy": 871,
+            "fy": "2026年3月期"
+          },
+          "deals": [
+            {
+              "with": "NVIDIA",
+              "type": "alliance",
+              "label": "AI-RAN「AITRAS」でのAIインフラ協業",
+              "url": "https://www.softbank.jp/corp/news/press/sbkk/2024/20241113_01/",
+              "publisher": "ソフトバンク",
+              "date": "2024-11-13"
+            }
+          ]
         },
         {
           "name": "アルテリア・ネットワークス",
@@ -600,6 +632,10 @@
           "listing": {
             "market": "東証プライム",
             "code": "1812"
+          },
+          "salary": {
+            "man_jpy": 1185,
+            "fy": "2025年3月期"
           }
         },
         {
@@ -616,6 +652,10 @@
           "listing": {
             "market": "東証プライム",
             "code": "1801"
+          },
+          "salary": {
+            "man_jpy": 1058,
+            "fy": "2025年3月期"
           }
         },
         {
@@ -632,6 +672,10 @@
           "listing": {
             "market": "東証プライム",
             "code": "1802"
+          },
+          "salary": {
+            "man_jpy": 1140,
+            "fy": "2025年3月期"
           }
         },
         {
@@ -763,6 +807,10 @@
           "listing": {
             "market": "東証プライム",
             "code": "6503"
+          },
+          "salary": {
+            "man_jpy": 913,
+            "fy": "2026年3月期"
           }
         },
         {
@@ -779,6 +827,10 @@
           "listing": {
             "market": "東証プライム",
             "code": "6504"
+          },
+          "salary": {
+            "man_jpy": 810,
+            "fy": "2025年3月期"
           }
         },
         {
@@ -872,6 +924,10 @@
           "listing": {
             "market": "東証プライム",
             "code": "6367"
+          },
+          "salary": {
+            "man_jpy": 896,
+            "fy": "2026年3月期"
           }
         },
         {
@@ -926,7 +982,17 @@
           "employees": 30000,
           "listing": {
             "market": "NASDAQ"
-          }
+          },
+          "deals": [
+            {
+              "with": "ソフトバンク",
+              "type": "alliance",
+              "label": "AI-RAN「AITRAS」でのAIインフラ協業",
+              "url": "https://www.softbank.jp/corp/news/press/sbkk/2024/20241113_01/",
+              "publisher": "ソフトバンク",
+              "date": "2024-11-13"
+            }
+          ]
         },
         {
           "name": "AMD",
@@ -1018,6 +1084,10 @@
           "listing": {
             "market": "東証プライム",
             "code": "6702"
+          },
+          "salary": {
+            "man_jpy": 1012,
+            "fy": "2026年3月期"
           }
         },
         {
@@ -1034,7 +1104,21 @@
           "listing": {
             "market": "東証プライム",
             "code": "6701"
-          }
+          },
+          "salary": {
+            "man_jpy": 993,
+            "fy": "2026年3月期"
+          },
+          "deals": [
+            {
+              "with": "NTT",
+              "type": "alliance",
+              "label": "資本業務提携(O-RAN・IOWNの共同研究開発)",
+              "url": "https://group.ntt/jp/newsrelease/2020/06/25/200625b.html",
+              "publisher": "日本電信電話",
+              "date": "2020-06-25"
+            }
+          ]
         },
         {
           "name": "ジーデップ・アドバンス",
@@ -1125,6 +1209,10 @@
           "listing": {
             "market": "東証プライム",
             "code": "8801"
+          },
+          "salary": {
+            "man_jpy": 1855,
+            "fy": "2026年3月期"
           }
         },
         {
@@ -1141,6 +1229,10 @@
           "listing": {
             "market": "東証プライム",
             "code": "8802"
+          },
+          "salary": {
+            "man_jpy": 1759,
+            "fy": "2026年3月期"
           }
         },
         {
@@ -1272,6 +1364,10 @@
             "as_of": "2026-07-23",
             "note": "持株会社MUFG連結の値。経常収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点",
             "revenue_oku_jpy": 146208
+          },
+          "salary": {
+            "man_jpy": 1170,
+            "fy": "2026年3月期"
           }
         },
         {
@@ -1288,6 +1384,10 @@
             "as_of": "2026-07-23",
             "note": "持株会社SMFG連結の値。経常収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点",
             "market_cap_oku_jpy": 274316
+          },
+          "salary": {
+            "man_jpy": 1180,
+            "fy": "2026年3月期"
           }
         },
         {
@@ -1304,6 +1404,10 @@
             "market_cap_oku_jpy": 218260,
             "as_of": "2026-07-23",
             "note": "経常収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
+          },
+          "salary": {
+            "man_jpy": 1166,
+            "fy": "2026年3月期"
           }
         },
         {

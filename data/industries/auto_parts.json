@@ -56,7 +56,61 @@
             "market_cap_oku_jpy": 428946,
             "as_of": "2026-07-22",
             "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-22時点"
-          }
+          },
+          "salary": {
+            "man_jpy": 1006,
+            "fy": "2026年3月期"
+          },
+          "deals": [
+            {
+              "with": "パナソニック",
+              "type": "jv",
+              "label": "車載電池の合弁PPES設立",
+              "url": "https://news.panasonic.com/jp/press/jn200203-1",
+              "publisher": "パナソニック",
+              "date": "2020-02-03"
+            },
+            {
+              "with": "JASM・ソニーセミコンダクタソリューションズ・デンソー",
+              "type": "investment",
+              "label": "熊本JASMへの共同出資・第二工場建設",
+              "url": "https://www.sony-semicon.com/ja/news/2024/2024020601.html",
+              "publisher": "ソニーセミコンダクタソリューションズ",
+              "date": "2024-02-06"
+            },
+            {
+              "with": "スズキ",
+              "type": "alliance",
+              "label": "資本提携に合意",
+              "url": "https://www.suzuki.co.jp/release/d/2019/0828/",
+              "publisher": "スズキ",
+              "date": "2019-08-28"
+            },
+            {
+              "with": "SUBARU",
+              "type": "alliance",
+              "label": "業務資本提携(EV共同開発bZ4X/ソルテラへ)",
+              "url": "https://www.subaru.co.jp/press/news/2019_09_27_7759/",
+              "publisher": "SUBARU",
+              "date": "2019-09-27"
+            },
+            {
+              "with": "マツダ",
+              "type": "alliance",
+              "label": "業務資本提携(米国合弁工場MTMを含む)",
+              "url": "https://global.toyota/jp/detail/18012121",
+              "publisher": "トヨタ自動車",
+              "date": "2017-08-04"
+            },
+            {
+              "with": "NTT",
+              "type": "alliance",
+              "label": "モビリティAI基盤の共同構築に合意",
+              "url": "https://group.ntt/jp/newsrelease/2024/10/31/241031b.html",
+              "publisher": "日本電信電話",
+              "date": "2024-10-31"
+            }
+          ]
         },
         {
           "name": "ホンダ",
@@ -72,7 +126,37 @@
             "as_of": "2026-07-21",
             "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-21時点",
             "market_cap_oku_jpy": 70578
-          }
+          },
+          "salary": {
+            "man_jpy": 932,
+            "fy": "2026年3月期"
+          },
+          "deals": [
+            {
+              "with": "ソニーグループ",
+              "type": "jv",
+              "label": "ソニー・ホンダモビリティ設立(EV「AFEELA」)",
+              "url": "https://global.honda/jp/news/2022/c220616.html",
+              "publisher": "本田技研工業",
+              "date": "2022-06-16"
+            },
+            {
+              "with": "日立製作所",
+              "type": "jv",
+              "label": "日立Astemo経営統合(車載4社統合)",
+              "url": "https://www.hitachi.com/ja-jp/press/articles/2021/01/0106/",
+              "publisher": "日立製作所",
+              "date": "2021-01-06"
+            },
+            {
+              "with": "GSユアサ",
+              "type": "jv",
+              "label": "EV電池の合弁Honda・GS Yuasa EV Battery R&D設立",
+              "url": "https://global.honda/jp/news/2023/c230511b.html",
+              "publisher": "本田技研工業",
+              "date": "2023-05-11"
+            }
+          ]
         },
         {
           "name": "日産自動車",
@@ -124,7 +208,29 @@
             "market_cap_oku_jpy": 56589,
             "as_of": "2026-05-15",
             "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-05-15時点"
-          }
+          },
+          "salary": {
+            "man_jpy": 915,
+            "fy": "2026年3月期"
+          },
+          "deals": [
+            {
+              "with": "JASM・ソニーセミコンダクタソリューションズ・トヨタ自動車",
+              "type": "investment",
+              "label": "熊本JASMへの共同出資・第二工場建設",
+              "url": "https://www.sony-semicon.com/ja/news/2024/2024020601.html",
+              "publisher": "ソニーセミコンダクタソリューションズ",
+              "date": "2024-02-06"
+            },
+            {
+              "with": "アイシン",
+              "type": "jv",
+              "label": "駆動モジュール合弁BluE Nexus設立",
+              "url": "https://www.aisin.com/jp/news/2018/001389.html",
+              "publisher": "アイシン",
+              "date": "2018-12-26"
+            }
+          ]
         },
         {
           "name": "ニデック",
@@ -140,6 +246,10 @@
             "market_cap_oku_jpy": 30053,
             "as_of": "2026-07-23",
             "note": "売上は概算(2026年3月期通期は第三者委員会調査により未発表・中間売上1兆3,023億円)、時価総額=2026-07-23時点"
+          },
+          "salary": {
+            "man_jpy": 760,
+            "fy": "2025年3月期"
           }
         },
         {
@@ -303,6 +413,10 @@
             "market_cap_oku_jpy": 45584,
             "as_of": "2026-07-23",
             "note": "売上収益=2025年12月期実績(決算短信)、時価総額=2026-07-23時点"
+          },
+          "salary": {
+            "man_jpy": 771,
+            "fy": "2025年12月期"
           }
         },
         {
@@ -406,7 +520,17 @@
             "market_cap_oku_jpy": 17670,
             "as_of": "2026-07-23",
             "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
-          }
+          },
+          "deals": [
+            {
+              "with": "デンソー",
+              "type": "jv",
+              "label": "駆動モジュール合弁BluE Nexus設立",
+              "url": "https://www.aisin.com/jp/news/2018/001389.html",
+              "publisher": "アイシン",
+              "date": "2018-12-26"
+            }
+          ]
         },
         {
           "name": "ジヤトコ",
@@ -806,6 +930,10 @@
             "market_cap_oku_jpy": 24825,
             "as_of": "2026-07-23",
             "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
+          },
+          "salary": {
+            "man_jpy": 698,
+            "fy": "2025年3月期"
           }
         }
       ],
