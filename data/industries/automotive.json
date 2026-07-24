@@ -577,7 +577,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "energy"
     },
     {
       "id": "tier1",
@@ -784,7 +785,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "materials"
     },
     {
       "id": "auto_semiconductor",
@@ -892,7 +894,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "electronics"
     },
     {
       "id": "equipment",
@@ -961,7 +964,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "machinery"
     },
     {
       "id": "logistics",
@@ -1021,7 +1025,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "transport"
     },
     {
       "id": "auto_finance",
@@ -1055,7 +1060,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "banking"
     },
     {
       "id": "insurer",
@@ -1128,7 +1134,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "banking"
     },
     {
       "id": "gov",
@@ -1417,7 +1424,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "related_industry": "materials"
     }
   ],
   "edges": [

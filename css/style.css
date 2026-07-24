@@ -636,3 +636,10 @@ svg.near .node .count-badge text { font-size: 13px; }
 .c-deals li { margin: 2px 0; }
 .deal-with { color: var(--ink-soft); }
 .c-foot { margin-top: 4px; font-size: .75rem; color: var(--ink-soft); }
+
+/* ポータルの視認性: ゆっくり明滅して「押せる」ことを示す */
+.portal-btn .portal { animation: portal-pulse 2.6s ease-in-out infinite; }
+@keyframes portal-pulse {
+  0%, 100% { opacity: .75; }
+  50% { opacity: 1; filter: drop-shadow(0 0 3px rgba(184,138,58,.8)); }
+}

@@ -2953,7 +2953,8 @@
           "note": "通信・生活インフラ販売代理"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "it_services"
     },
     {
       "id": "ma_professional",

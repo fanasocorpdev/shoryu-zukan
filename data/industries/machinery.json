@@ -1033,7 +1033,8 @@
           "note": "建機・産機商社"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "construction"
     },
     {
       "id": "agri_machinery",
@@ -2023,7 +2024,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "related_industry": "auto_parts"
     }
   ],
   "edges": [

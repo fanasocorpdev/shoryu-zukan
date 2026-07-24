@@ -337,7 +337,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "it_services"
     },
     {
       "id": "carrier_network",
@@ -437,7 +438,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "telecom"
     },
     {
       "id": "power_utility",
@@ -488,7 +490,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "energy"
     },
     {
       "id": "renewable_ppa",
@@ -523,7 +526,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "energy"
     },
     {
       "id": "maintenance_ops",
@@ -709,7 +713,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "construction"
     },
     {
       "id": "subcontractor",
@@ -781,7 +786,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "construction"
     },
     {
       "id": "electrical_equipment",
@@ -898,7 +904,8 @@
           "note": "変電機器"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "electronics"
     },
     {
       "id": "cooling_equipment",
@@ -956,7 +963,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "machinery"
     },
     {
       "id": "semiconductor",
@@ -1137,7 +1145,8 @@
           "note": "科学技術計算サーバー"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "electronics"
     },
     {
       "id": "network_vendor",
@@ -1258,7 +1267,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "real_estate"
     },
     {
       "id": "government",
@@ -1429,7 +1439,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "banking"
     },
     {
       "id": "grid",

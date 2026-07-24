@@ -1125,7 +1125,8 @@
           "note": "店舗転貸借"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "services"
     },
     {
       "id": "logistics_industrial",

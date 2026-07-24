@@ -628,7 +628,8 @@
           "note": "レドックスフロー電池"
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "related_industry": "electronics"
     }
   ],
   "edges": [

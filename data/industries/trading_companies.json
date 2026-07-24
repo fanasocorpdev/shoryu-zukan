@@ -273,7 +273,8 @@
         }
       ],
       "note": "個別権益は各社IRのセグメント情報で開示される",
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "materials"
     },
     {
       "id": "manufacturer",
@@ -1581,7 +1582,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "related_industry": "food"
     },
     {
       "id": "power_ipp",
@@ -1599,7 +1601,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "related_industry": "energy"
     }
   ],
   "edges": [

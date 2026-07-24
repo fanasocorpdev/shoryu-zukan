@@ -742,7 +742,8 @@
           "note": "製造装置部品販売・修理"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "trading_companies"
     },
     {
       "id": "utility_power",
@@ -776,7 +777,8 @@
         }
       ],
       "note": "熊本(JASM)・千歳(ラピダス)の立地に対応",
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "energy"
     },
     {
       "id": "materials_wafer",
@@ -1594,7 +1596,8 @@
           "note": "出資企業は設立発表の公知情報"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "banking"
     },
     {
       "id": "poly_si",

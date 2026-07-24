@@ -359,7 +359,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "food"
     },
     {
       "id": "wholesale",
@@ -413,7 +414,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "food"
     },
     {
       "id": "logistics",
@@ -439,7 +441,8 @@
           "name": "各チェーンの共同配送センター運営会社"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "transport"
     },
     {
       "id": "bank_atm",
@@ -486,7 +489,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "payments"
     },
     {
       "id": "equipment_vendor",
@@ -568,7 +572,8 @@
           ]
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "electronics"
     },
     {
       "id": "advertiser",
@@ -581,7 +586,8 @@
       },
       "companies": [],
       "note": "食品・日用品メーカーが中心。実名は自己登録ベースで拡充予定",
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "services"
     },
     {
       "id": "realestate_owner",
@@ -594,7 +600,8 @@
       },
       "companies": [],
       "note": "個人・法人地主。実名掲載なし",
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "real_estate"
     },
     {
       "id": "trading_co",
@@ -667,7 +674,8 @@
           ]
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "trading_companies"
     },
     {
       "id": "packaging",
@@ -693,7 +701,8 @@
           "note": "食品容器大手"
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "related_industry": "materials"
     }
   ],
   "edges": [

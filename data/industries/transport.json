@@ -1038,7 +1038,8 @@
           "note": "舶用エンジン(ダイハツディーゼル)"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "machinery"
     },
     {
       "id": "unsorted",
@@ -1094,7 +1095,8 @@
           "note": "川崎車両"
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "related_industry": "machinery"
     },
     {
       "id": "port_terminal",

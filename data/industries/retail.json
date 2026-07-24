@@ -1017,7 +1017,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "real_estate"
     },
     {
       "id": "payment",
@@ -1062,7 +1063,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "payments"
     },
     {
       "id": "last_mile",
@@ -1116,7 +1118,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "transport"
     },
     {
       "id": "consumer_electronics",
@@ -1192,7 +1195,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "electronics"
     },
     {
       "id": "home_center",
@@ -1591,7 +1595,8 @@
           "note": "カジュアル衣料(マックハウス)"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "consumer_goods"
     },
     {
       "id": "reuse",
@@ -2072,7 +2077,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "related_industry": "food"
     }
   ],
   "edges": [

@@ -387,7 +387,8 @@
           "note": "カーエアコン"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "electronics"
     },
     {
       "id": "tire",
@@ -1408,7 +1409,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "related_industry": "machinery"
     }
   ],
   "edges": [

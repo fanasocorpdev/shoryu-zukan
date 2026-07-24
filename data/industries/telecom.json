@@ -471,7 +471,8 @@
           "note": "無線システム販売施工"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "electronics"
     },
     {
       "id": "telecom_construction",
@@ -532,7 +533,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "construction"
     },
     {
       "id": "tower",
@@ -644,7 +646,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "electronics"
     },
     {
       "id": "mic",
@@ -690,7 +693,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "related_industry": "it_services"
     }
   ],
   "edges": [

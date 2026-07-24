@@ -1425,7 +1425,8 @@
           "note": "衛生陶器"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "related_industry": "materials"
     },
     {
       "id": "specialist",
@@ -2044,7 +2045,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "related_industry": "machinery"
     },
     {
       "id": "ready_mixed",
@@ -2071,7 +2073,8 @@
           "note": "ジャパンパイルの持株会社"
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "related_industry": "materials"
     }
   ],
   "edges": [

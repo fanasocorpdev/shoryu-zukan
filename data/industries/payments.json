@@ -262,7 +262,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "related_industry": "it_services"
     },
     {
       "id": "pos_terminal",
@@ -294,7 +295,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "related_industry": "electronics"
     },
     {
       "id": "bank_network",
