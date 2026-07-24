@@ -36,7 +36,7 @@ for (const id of index.industries) {
 <meta property="og:site_name" content="あきないマップ">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="${BASE}/assets/og/${id}.png">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧭</text></svg>">
+<link rel="icon" href="${BASE}/assets/emblem.svg" type="image/svg+xml">
 </head>
 <body>
 <p><a href="../#/i/${id}">${esc(name)}の商流地図を開く →</a></p>

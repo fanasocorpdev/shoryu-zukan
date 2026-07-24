@@ -596,3 +596,7 @@ svg.near .node .companies { opacity: 1; }
 .c-deals { color: var(--ink); }
 .c-deals a { color: #92640c; text-decoration: underline dotted; }
 .deals-more { color: var(--ink-soft); }
+
+/* ---- ロゴ紋章 ---- */
+.logo-emblem { display: block; margin: 0 auto 6px; filter: drop-shadow(0 3px 8px rgba(60,40,10,.25)); }
+.nav-emblem { width: 17px; height: 17px; vertical-align: -3px; margin-right: 2px; }

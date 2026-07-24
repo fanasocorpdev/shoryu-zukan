@@ -37,15 +37,48 @@ function New-OgImage {
   $inkSoft = New-Object System.Drawing.SolidBrush([System.Drawing.Color]::FromArgb(200, 92, 64, 32))
   $gold = New-Object System.Drawing.SolidBrush([System.Drawing.Color]::FromArgb(146, 100, 12))
 
-  # コンパス紋章(円+針)
-  $penC = New-Object System.Drawing.Pen([System.Drawing.Color]::FromArgb(200, 92, 64, 32), 3)
-  $g.DrawEllipse($penC, 62, 58, 40, 40)
-  $needle = [System.Drawing.PointF[]]@(
-    (New-Object System.Drawing.PointF(82, 62)), (New-Object System.Drawing.PointF(89, 78)),
-    (New-Object System.Drawing.PointF(82, 94)), (New-Object System.Drawing.PointF(75, 78)))
-  $g.FillPolygon($gold, $needle)
+  # コンパスローズ紋章(8方位)
+  function Draw-Rose {
+    param($gr, [float]$cx, [float]$cy, [float]$R, $mainBrush, $subBrush, $outlinePen)
+    $w = $R * 0.19
+    $r2 = $R * 0.58
+    $pt = { param($x, $y) New-Object System.Drawing.PointF($x, $y) }
+    # 斜め4方位(小)
+    foreach ($a in @(45, 135, 225, 315)) {
+      $rad = $a * [Math]::PI / 180
+      $tipX = $cx + $r2 * [Math]::Sin($rad); $tipY = $cy - $r2 * [Math]::Cos($rad)
+      $perp = $rad + [Math]::PI / 2
+      $bx = $w * 0.6 * [Math]::Sin($perp); $by = -$w * 0.6 * [Math]::Cos($perp)
+      $gr.FillPolygon($subBrush, [System.Drawing.PointF[]]@(
+        (& $pt $tipX $tipY), (& $pt ($cx + $bx) ($cy + $by)), (& $pt $cx $cy), (& $pt ($cx - $bx) ($cy - $by))))
+    }
+    # 主4方位(北=金)
+    foreach ($a in @(0, 90, 180, 270)) {
+      $rad = $a * [Math]::PI / 180
+      $tipX = $cx + $R * [Math]::Sin($rad); $tipY = $cy - $R * [Math]::Cos($rad)
+      $perp = $rad + [Math]::PI / 2
+      $bx = $w * [Math]::Sin($perp); $by = -$w * [Math]::Cos($perp)
+      $brush = if ($a -eq 0) { $mainBrush } else { $subBrush }
+      $poly = [System.Drawing.PointF[]]@(
+        (& $pt $tipX $tipY), (& $pt ($cx + $bx) ($cy + $by)), (& $pt $cx $cy), (& $pt ($cx - $bx) ($cy - $by)))
+      $gr.FillPolygon($brush, $poly)
+      if ($outlinePen) { $gr.DrawPolygon($outlinePen, $poly) }
+    }
+    $gr.FillEllipse($mainBrush, ($cx - $R * 0.09), ($cy - $R * 0.09), ($R * 0.18), ($R * 0.18))
+  }
+  # 右側の大きな透かしローズ
+  $wmMain = New-Object System.Drawing.SolidBrush([System.Drawing.Color]::FromArgb(26, 146, 100, 12))
+  $wmSub = New-Object System.Drawing.SolidBrush([System.Drawing.Color]::FromArgb(20, 92, 64, 32))
+  Draw-Rose $g 1030 170 190 $wmMain $wmSub $null
+  # ブランド紋章
+  $penC = New-Object System.Drawing.Pen([System.Drawing.Color]::FromArgb(220, 92, 64, 32), 3)
+  $g.DrawEllipse($penC, 57, 53, 50, 50)
+  $penC2 = New-Object System.Drawing.Pen([System.Drawing.Color]::FromArgb(120, 138, 106, 58), 1.5)
+  $g.DrawEllipse($penC2, 62, 58, 40, 40)
+  $roseOutline = New-Object System.Drawing.Pen([System.Drawing.Color]::FromArgb(180, 92, 64, 32), 1)
+  Draw-Rose $g 82 78 21 $gold $inkSoft $roseOutline
   $brand = New-Object System.Drawing.Font("Yu Mincho", 30, [System.Drawing.FontStyle]::Bold)
-  $g.DrawString("あきないマップ", $brand, $inkSoft, 112, 58)
+  $g.DrawString("あきないマップ", $brand, $inkSoft, 116, 58)
 
   # タイトル(業界名)
   $titleSize = 92

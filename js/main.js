@@ -72,7 +72,7 @@ async function renderHome() {
   app.innerHTML = `
     <div class="home"><div class="home-inner">
       <div class="hero">
-        <div class="compass">🧭</div>
+        <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="84" height="84">
         <h1>あきないマップ</h1>
         <p class="sub">業界のカネとモノの流れを、冒険する地図に。<br>
         誰が誰に、何を届けて、いくら払うのか — ズームして確かめよう。</p>
@@ -176,7 +176,7 @@ function renderAbout() {
   app.innerHTML = `
     <div class="home"><div class="home-inner about">
       <div class="hero">
-        <div class="compass">🧭</div>
+        <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="84" height="84">
         <h1>あきないマップについて</h1>
       </div>
       <section class="about-sec">
@@ -235,7 +235,7 @@ async function renderIndustry(id) {
   app.innerHTML = `
     <div class="mapapp">
       <header class="topbar">
-        <a class="home-link" href="#/">🧭 マップトップ</a>
+        <a class="home-link" href="#/"><img class="nav-emblem" src="assets/emblem.svg" alt=""> マップトップ</a>
         <a class="home-link" href="#/all" title="全銘柄索引">🗾 索引</a>
         ${parent ? `<a class="home-link parent-link" href="#/i/${parent.meta.industry_id}">⬆ ${parent.meta.industry_name}</a>` : ""}
         <div class="title-wrap"><h1>${data.meta.industry_name}の商流</h1><span class="tag">${data.meta.tagline ?? ""}</span></div>
