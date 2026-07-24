@@ -1,5 +1,5 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607241840";
+import { createMapView } from "./mapview.js?v=202607241859";
 
 const app = document.getElementById("app");
 const cache = {};

@@ -74,6 +74,7 @@ export function createMapView(container, data) {
   }
 
   // ---------- SVG骨格 ----------
+  const DENSE = (data.edges ?? []).length >= 18;
   const svg = svgEl("svg", { class: "mapsvg", viewBox: `${VB.x} ${VB.y} ${VB.w} ${VB.h}` });
   const defs = svgEl("defs");
   for (const [ft, color] of [["goods", "#2e7d6e"], ["capex", "#b97a12"], ["opex", "#a84a5f"]]) {
@@ -226,6 +227,7 @@ export function createMapView(container, data) {
     nodeEls.set(n.id, g);
   });
 
+  if (DENSE) svg.classList.add("dense");
   container.appendChild(svg);
 
   // ---------- ツールチップ ----------

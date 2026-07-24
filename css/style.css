@@ -716,3 +716,12 @@ svg.near .node .count-badge text { font-size: 13px; }
 }
 .ind-chip input:checked + span { border-color: var(--gold); color: #6e451a; background: rgba(184,138,58,.18); }
 .ind-chip input:disabled + span { opacity: .4; cursor: not-allowed; }
+
+/* ---- 渋滞対策: エッジが多いマップ(dense)は引きでラベルを畳み、線も薄く ---- */
+svg.dense .edge { opacity: .45; }
+svg.dense .edge text.elabel { opacity: 0; }
+svg.dense.near .edge { opacity: .8; }
+svg.dense.near .edge text.elabel { opacity: 1; }
+.edge:hover text.elabel { opacity: 1 !important; }
+svg.focus .edge.lit text.elabel { opacity: 1 !important; }
+svg.focus .node.lit { opacity: 1; }
