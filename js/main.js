@@ -1,5 +1,5 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607241859";
+import { createMapView } from "./mapview.js?v=202607241907";
 
 const app = document.getElementById("app");
 const cache = {};
@@ -43,7 +43,7 @@ const MEMBER_KEY = "akinai_member";
 const isMember = () => !!localStorage.getItem(MEMBER_KEY);
 
 async function renderGate(id) {
-  const [idx, data] = await Promise.all([loadIndex(), loadIndustry(id)]);
+  const [idx, data] = await Promise.all([loadIndex(), id ? loadIndustry(id) : Promise.resolve(null)]);
   const opens = await Promise.all((idx.open_industries ?? []).map(loadIndustry));
   const allParents = (await Promise.all(idx.industries.map(loadIndustry)))
     .filter((d) => !d.meta.parent_industry);
@@ -53,13 +53,13 @@ async function renderGate(id) {
     <div class="home"><div class="home-inner gate">
       <div class="hero">
         <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="72" height="72">
-        <h1>${data.meta.industry_name}の商流マップ</h1>
-        <p class="sub">${data.meta.tagline ?? ""}</p>
+        <h1>${data ? `${data.meta.industry_name}の商流マップ` : "マイマップ"}</h1>
+        <p class="sub">${data?.meta.tagline ?? "興味業界の保存と企業比較リストが使えます"}</p>
       </div>
       <div class="gate-card">
         <h2>🔓 無料メンバー登録で、全業界のマップが見られます</h2>
-        <p>登録は1分・完全無料。全${idx.industries.length}業界の商流マップ、
-        企業データ(売上・時価総額・平均年収)、ガイドツアー「カネの旅」がすべて解放されます。</p>
+        <p>お試し業界に加えて、お好きな1業界までは登録なしで見られます。ここから先は無料登録(1分)で — 全${idx.industries.length}業界の商流マップ、
+        企業データ(売上・時価総額・平均年収)、「カネの旅」、そして<strong>マイマップ(興味業界の保存・企業比較リスト)</strong>がすべて使えます。</p>
         <form id="gate-form">
           <label>メールアドレス
             <input type="email" name="email" required placeholder="you@example.com" autocomplete="email"></label>
@@ -68,7 +68,8 @@ async function renderGate(id) {
               <option value="">選択してください</option>
               <option value="student">学生(就活中・就活予定)</option>
               <option value="worker">社会人(転職検討・情報収集)</option>
-              <option value="other">その他(投資・研究など)</option>
+              <option value="investor">個人投資家・金融関係</option>
+              <option value="other">その他(研究・その他)</option>
             </select></label>
 
           <div class="gate-branch" data-branch="student" hidden>
@@ -184,6 +185,64 @@ async function renderGate(id) {
   });
 }
 
+
+async function renderMy() {
+  if (!isMember()) { await renderGate(null); return; }
+  const member = JSON.parse(localStorage.getItem(MEMBER_KEY));
+  const idx = await loadIndex();
+  const mine = await Promise.all((member.industries ?? []).map((i) => loadIndustry(i).catch(() => null)));
+  const cmp = JSON.parse(localStorage.getItem("akinai_compare") ?? "[]");
+  const oku = (v) => (v == null ? "—" : v >= 10000 ? `${(v / 10000).toFixed(1)}兆円` : `${Math.round(v).toLocaleString("ja-JP")}億円`);
+  const row = (c) => `<tr>
+    <td><strong>${c.name}</strong><br><span class="cmp-sub">${c.code || ""} ${c.market || ""}</span></td>
+    <td><a href="#/i/${c.industry}">${c.industryName}</a></td>
+    <td>${oku(c.rev)}</td><td>${oku(c.mcap)}</td>
+    <td>${c.emp == null ? "—" : c.emp >= 10000 ? (c.emp / 10000).toFixed(1) + "万人" : c.emp.toLocaleString("ja-JP") + "人"}</td>
+    <td>${c.salary == null ? "—" : c.salary.toLocaleString("ja-JP") + "万円"}</td>
+    <td><button class="cmp-del" data-name="${c.name}">削除</button></td></tr>`;
+  app.innerHTML = `
+    <div class="home"><div class="home-inner mypage">
+      <div class="hero">
+        <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="72" height="72">
+        <h1>マイマップ</h1>
+        <p class="sub">${member.email} さんの業界研究ノート</p>
+      </div>
+      <section class="about-sec">
+        <h2>⭐ 興味のある業界</h2>
+        <div class="gate-chips">${mine.filter(Boolean)
+          .map((d) => `<a class="gate-chip" href="#/i/${d.meta.industry_id}">${centerIcon(d)} ${d.meta.industry_name}</a>`)
+          .join("") || "<p>未設定です。</p>"}</div>
+      </section>
+      <section class="about-sec">
+        <h2>📋 企業比較リスト(${cmp.length}/12)</h2>
+        ${cmp.length ? `
+        <div class="cmp-wrap"><table class="cmp-table">
+          <thead><tr><th>企業</th><th>業界</th><th>売上</th><th>時価総額</th><th>従業員</th><th>平均年収</th><th></th></tr></thead>
+          <tbody>${cmp.map(row).join("")}</tbody>
+        </table></div>
+        <button id="cmp-copy" class="cmp-copy">📄 表をコピー(ES・メモ用)</button>`
+        : `<p>まだ空です。各業界マップの企業一覧にある「+比較」ボタンで、気になる企業を追加できます(最大12社)。
+           同業他社を並べて売上・年収を見比べたり、コピーしてESや面接メモに使えます。</p>`}
+      </section>
+      <div class="home-foot"><a href="#/">← マップトップへ戻る</a></div>
+    </div></div>`;
+  app.querySelectorAll(".cmp-del").forEach((b) =>
+    b.addEventListener("click", () => {
+      const list = JSON.parse(localStorage.getItem("akinai_compare") ?? "[]").filter((x) => x.name !== b.dataset.name);
+      localStorage.setItem("akinai_compare", JSON.stringify(list));
+      renderMy();
+    }));
+  document.getElementById("cmp-copy")?.addEventListener("click", () => {
+    const head = ["企業", "業界", "売上", "時価総額", "従業員", "平均年収"].join("\t");
+    const lines = cmp.map((c) => [c.name, c.industryName, oku(c.rev), oku(c.mcap), c.emp ?? "", c.salary ? c.salary + "万円" : ""].join("\t"));
+    navigator.clipboard.writeText([head, ...lines].join("\n")).then(() => {
+      const btn = document.getElementById("cmp-copy");
+      btn.textContent = "✓ コピーしました";
+      setTimeout(() => (btn.textContent = "📄 表をコピー(ES・メモ用)"), 1500);
+    });
+  });
+}
+
 function renderPrivacy() {
   app.innerHTML = `
     <div class="home"><div class="home-inner about">
@@ -261,7 +320,8 @@ async function renderHome() {
         <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="84" height="84">
         <h1>あきないマップ</h1>
         <p class="sub">業界のカネとモノの流れを、冒険する地図に。<br>
-        誰が誰に、何を届けて、いくら払うのか — ズームして確かめよう。</p>
+        誰が誰に、何を届けて、いくら払うのか — ズームして確かめよう。<br>
+        <span class="hero-uses">就活・転職の業界研究に。個人投資家の銘柄探しに。</span></p>
       </div>
       <div class="cards">
         ${parents.map(card).join("")}
@@ -277,7 +337,7 @@ async function renderHome() {
         : ""}
       <div class="home-foot">
         出典は官公庁統計・IR・プレスリリース等の一次情報のみを使用しています。<br>
-        <a href="#/about">あきないマップについて(掲載・編集方針)</a><br>
+        <a href="#/my">⭐ マイマップ(興味業界・企業比較)</a> ・ <a href="#/about">あきないマップについて</a> ・ <a href="#/privacy">プライバシーポリシー</a><br>
         運営: 株式会社Fanaso
       </div>
     </div></div>`;
@@ -422,7 +482,13 @@ let destroyMap = null;
 
 async function renderIndustry(id) {
   const idx0 = await loadIndex();
-  if (!(idx0.open_industries ?? []).includes(id) && !isMember()) { await renderGate(id); return; }
+  if (!(idx0.open_industries ?? []).includes(id) && !isMember()) {
+    const viewed = JSON.parse(localStorage.getItem("akinai_viewed") ?? "[]");
+    if (!viewed.includes(id)) {
+      if (viewed.length >= 1) { await renderGate(id); return; }
+      localStorage.setItem("akinai_viewed", JSON.stringify([...viewed, id]));
+    }
+  }
   const [{ industries }, data] = await Promise.all([loadIndex(), loadIndustry(id)]);
   const parent = data.meta.parent_industry ? await loadIndustry(data.meta.parent_industry) : null;
   app.innerHTML = `
@@ -430,6 +496,7 @@ async function renderIndustry(id) {
       <header class="topbar">
         <a class="home-link" href="#/"><img class="nav-emblem" src="assets/emblem.svg" alt=""> マップトップ</a>
         <a class="home-link" href="#/all" title="全銘柄索引">🗾 索引</a>
+        <a class="home-link" href="#/my" title="マイマップ">⭐ マイ</a>
         ${parent ? `<a class="home-link parent-link" href="#/i/${parent.meta.industry_id}">⬆ ${parent.meta.industry_name}</a>` : ""}
         <div class="title-wrap"><h1>${data.meta.industry_name}の商流</h1><span class="tag">${data.meta.tagline ?? ""}</span></div>
         <button id="share-btn" class="home-link share-btn" title="この業界のリンクをコピー / シェア">🔗 シェア</button>
@@ -482,7 +549,8 @@ async function renderIndustry(id) {
     card.innerHTML = `
       <summary>🗺 この業界の歩き方</summary>
       <p><strong>💴 稼ぎ方:</strong> ${g.earn}</p>
-      <p><strong>🔭 見どころ:</strong> ${g.watch}</p>`;
+      <p><strong>🔭 見どころ:</strong> ${g.watch}</p>
+      ${g.talk ? `<p class="g-talk"><strong>💬 面接でこう使う:</strong> ${g.talk}</p>` : ""}`;
     card.addEventListener("toggle", () =>
       localStorage.setItem("guideCollapsed", card.open ? "0" : "1"));
     wrap.appendChild(card);
@@ -545,6 +613,7 @@ async function route() {
   try {
     const m = hash.match(/^#\/i\/([a-z0-9_]+)/);
     if (m) await renderIndustry(m[1]);
+    else if (hash.startsWith("#/my")) await renderMy();
     else if (hash.startsWith("#/privacy")) renderPrivacy();
     else if (hash.startsWith("#/about")) renderAbout();
     else if (hash.startsWith("#/all")) await renderDirectory();

@@ -725,3 +725,27 @@ svg.dense.near .edge text.elabel { opacity: 1; }
 .edge:hover text.elabel { opacity: 1 !important; }
 svg.focus .edge.lit text.elabel { opacity: 1 !important; }
 svg.focus .node.lit { opacity: 1; }
+
+/* ---- 比較ボタン・マイマップ ---- */
+.cmp-add {
+  font-family: inherit; font-size: .68rem; font-weight: 700; cursor: pointer;
+  padding: 2px 9px; margin-left: 8px; border-radius: 999px;
+  border: 1.5px solid var(--paper-edge); background: rgba(255,255,255,.6); color: var(--ink-soft);
+  vertical-align: 1px;
+}
+.cmp-add.on { border-color: var(--gold); color: #6e451a; background: rgba(184,138,58,.18); }
+.cmp-add:hover { border-color: var(--gold); }
+.cmp-wrap { overflow-x: auto; }
+.cmp-table { width: 100%; border-collapse: collapse; font-size: .84rem; background: rgba(255,255,255,.45); border-radius: 10px; }
+.cmp-table th, .cmp-table td { padding: 9px 10px; text-align: left; border-bottom: 1px solid var(--paper-edge); white-space: nowrap; }
+.cmp-table th { font-size: .74rem; color: var(--ink-soft); }
+.cmp-sub { font-size: .7rem; color: var(--ink-soft); }
+.cmp-del { font-family: inherit; font-size: .7rem; cursor: pointer; border: 1px solid var(--paper-edge); background: none; border-radius: 6px; padding: 2px 8px; color: var(--ink-soft); }
+.cmp-del:hover { color: #a84a5f; border-color: #a84a5f; }
+.cmp-copy {
+  margin-top: 12px; font-family: inherit; font-size: .86rem; font-weight: 700; cursor: pointer;
+  padding: 9px 18px; border-radius: 999px; border: 1.5px solid var(--gold);
+  background: rgba(184,138,58,.12); color: #6e451a; min-height: 42px;
+}
+.guide-card .g-talk { border-top: 1px dashed var(--paper-edge); padding-top: 8px; margin-top: 2px; }
+.hero-uses { font-size: .86rem; color: var(--gold); font-weight: 700; }

@@ -4,6 +4,9 @@ const VB = { x: -760, y: -540, w: 1520, h: 1080 };
 const RING_R = [0, 235, 400, 555];
 const FLOW_LABEL = { goods: "モノ・サービス", capex: "カネ CAPEX(一時)", opex: "カネ OPEX(継続)" };
 const NEAR_ZOOM = 1.45;
+const CMP_KEY = "akinai_compare";
+const cmpList = () => JSON.parse(localStorage.getItem(CMP_KEY) ?? "[]");
+const cmpHas = (name) => cmpList().some((x) => x.name === name);
 
 function svgEl(tag, attrs = {}) {
   const el = document.createElementNS(NS, tag);
@@ -236,7 +239,39 @@ export function createMapView(container, data) {
   container.appendChild(tooltip);
 
   // ---------- 詳細パネル ----------
+  const panelCompanies = new Map();
   const panel = document.createElement("aside");
+  // 比較リストへの追加/削除(委譲)
+  panel.addEventListener("click", (ev) => {
+    const btn = ev.target.closest(".cmp-add");
+    if (!btn) return;
+    ev.preventDefault();
+    ev.stopPropagation();
+    const c = panelCompanies.get(btn.dataset.name);
+    if (!c) return;
+    let list = cmpList();
+    if (list.some((x) => x.name === c.name)) {
+      list = list.filter((x) => x.name !== c.name);
+      btn.classList.remove("on");
+      btn.textContent = "+比較";
+    } else {
+      if (list.length >= 12) { btn.textContent = "上限12社"; setTimeout(() => (btn.textContent = "+比較"), 1200); return; }
+      list.push({
+        name: c.name,
+        code: c.listing?.code ?? "",
+        market: c.listing?.market ?? "",
+        industry: data.meta.industry_id,
+        industryName: data.meta.industry_name,
+        rev: c.financials?.revenue_oku_jpy ?? null,
+        mcap: c.financials?.market_cap_oku_jpy ?? null,
+        emp: c.employees ?? null,
+        salary: c.salary?.man_jpy ?? null,
+      });
+      btn.classList.add("on");
+      btn.textContent = "✓ 比較中";
+    }
+    localStorage.setItem(CMP_KEY, JSON.stringify(list));
+  });
   panel.className = "panel";
   container.appendChild(panel);
   let pinned = false; // クリックで固定表示中か(ホバープレビューと区別)
@@ -303,7 +338,7 @@ export function createMapView(container, data) {
     return `<li class="company">
       <div class="c-main">${
         c.url ? `<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.name)}</a>` : esc(c.name)
-      }${c.hiring ? '<span class="badge hiring">採用中</span>' : ""}${planBadge}${listing}</div>
+      }<button class="cmp-add${cmpHas(c.name) ? " on" : ""}" data-name="${esc(c.name)}" title="比較リストに追加/削除">${cmpHas(c.name) ? "✓ 比較中" : "+比較"}</button>${c.hiring ? '<span class="badge hiring">採用中</span>' : ""}${planBadge}${listing}</div>
       ${statsLine}
       ${finNoteOnly}
       ${dealsLine}
@@ -314,6 +349,7 @@ export function createMapView(container, data) {
 
   function companiesListHTML(n) {
     const comps = n.companies ?? [];
+    comps.forEach((c) => panelCompanies.set(c.name, c));
     if (!comps.length) return "";
     const sortSel = `
       <div class="sort-row">
