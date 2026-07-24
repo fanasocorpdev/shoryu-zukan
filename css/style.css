@@ -291,20 +291,6 @@ svg.focus .edge.lit path.line { stroke-width: 3.6; }
 .node .count-badge circle { fill: var(--gold); }
 .node .count-badge text { fill: #fff; font-size: 11px; text-anchor: middle; font-weight: 700; }
 
-/* セマンティックズーム: 寄った時だけ企業名 */
-.node .companies { opacity: 0; transition: opacity .3s; pointer-events: none; }
-svg.near .node .companies { opacity: 1; }
-.node .companies text {
-  text-anchor: middle;
-  font-size: 10.5px;
-  fill: var(--ink-soft);
-  paint-order: stroke;
-  stroke: var(--paper);
-  stroke-width: 3px;
-  stroke-linejoin: round;
-}
-.node .companies text.more { fill: var(--gold); font-weight: 700; }
-
 /* 登場アニメーション */
 .node { animation: pop .5s backwards; }
 @keyframes pop {

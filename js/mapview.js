@@ -168,21 +168,7 @@ export function createMapView(container, data) {
       bt.textContent = n.companies.length;
       badge.appendChild(bt);
       g.appendChild(badge);
-
-      const comp = svgEl("g", { class: "companies" });
-      const baseY = r + 18 + roleLines.length * 17;
-      const shown = n.companies.slice(0, 4);
-      shown.forEach((c, ci) => {
-        const t = svgEl("text", { y: baseY + ci * 13 });
-        t.textContent = c.name + (c.hiring ? " 🔥" : "");
-        comp.appendChild(t);
-      });
-      if (n.companies.length > 4) {
-        const t = svgEl("text", { class: "more", y: baseY + shown.length * 13 });
-        t.textContent = `ほか${n.companies.length - 4}社`;
-        comp.appendChild(t);
-      }
-      g.appendChild(comp);
+      // 企業一覧は右側パネルに表示するため、地図上には社数バッジのみ出す
     }
     nodesG.appendChild(g);
     nodeEls.set(n.id, g);
