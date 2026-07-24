@@ -39,6 +39,40 @@ export function createMapView(container, data) {
   const pos = Object.fromEntries(data.nodes.map((n) => [n.id, nodePos(n)]));
   const radius = (n) => (n.map?.ring === 0 ? 58 : 34);
 
+  // 手置きの角度が近すぎてノードが重なる場合に、反復的に押し離して解消する。
+  // 中央(ring0)は動かさない。ラベル分を含めた余白で判定する。
+  {
+    const movable = data.nodes.filter((n) => n.map?.ring !== 0);
+    const all = data.nodes;
+    for (let it = 0; it < 120; it++) {
+      let moved = false;
+      for (let i = 0; i < all.length; i++) {
+        for (let j = i + 1; j < all.length; j++) {
+          const a = all[i], b = all[j];
+          const pa = pos[a.id], pb = pos[b.id];
+          const min = radius(a) + radius(b) + 54;
+          let dx = pb.x - pa.x, dy = pb.y - pa.y;
+          let d = Math.hypot(dx, dy);
+          if (d < 0.5) { dx = Math.cos(i + j); dy = Math.sin(i + j); d = 1; }
+          if (d >= min) continue;
+          const push = (min - d) / 2;
+          dx /= d; dy /= d;
+          const aMov = a.map?.ring !== 0, bMov = b.map?.ring !== 0;
+          if (aMov && bMov) {
+            pa.x -= dx * push; pa.y -= dy * push;
+            pb.x += dx * push; pb.y += dy * push;
+          } else if (aMov) {
+            pa.x -= dx * push * 2; pa.y -= dy * push * 2;
+          } else if (bMov) {
+            pb.x += dx * push * 2; pb.y += dy * push * 2;
+          }
+          moved = true;
+        }
+      }
+      if (!moved) break;
+    }
+  }
+
   // ---------- SVG骨格 ----------
   const svg = svgEl("svg", { class: "mapsvg", viewBox: `${VB.x} ${VB.y} ${VB.w} ${VB.h}` });
   const defs = svgEl("defs");
@@ -495,8 +529,12 @@ export function createMapView(container, data) {
   let drag = null;
   let pinch = null;
 
+  // 絵文字テキスト等の上からのドラッグがネイティブD&D(コピーカーソル)や
+  // テキスト選択に化けるのを防ぐ
+  svg.addEventListener("dragstart", (ev) => ev.preventDefault());
   svg.addEventListener("pointerdown", (ev) => {
     if (ev.pointerType === "mouse" && ev.button !== 0) return;
+    ev.preventDefault();
     pointers.set(ev.pointerId, { x: ev.clientX, y: ev.clientY });
     try { svg.setPointerCapture(ev.pointerId); } catch { /* 合成イベント等でIDが無効な場合 */ }
     if (pointers.size === 1) {
