@@ -539,12 +539,16 @@ export function createMapView(container, data) {
     if (ev.pointerType === "mouse" && ev.button !== 0) return;
     ev.preventDefault();
     pointers.set(ev.pointerId, { x: ev.clientX, y: ev.clientY });
-    try { svg.setPointerCapture(ev.pointerId); } catch { /* 合成イベント等でIDが無効な場合 */ }
+    // 注意: ここでsetPointerCaptureするとclickの行き先がsvgに付け替えられ、
+    // ノード・ポータルのクリックが一切効かなくなる。捕捉はドラッグ開始後に行う。
     if (pointers.size === 1) {
       drag = { sx: ev.clientX, sy: ev.clientY, vx: view.x, vy: view.y, moved: false };
       svg.classList.add("dragging");
     } else if (pointers.size === 2) {
       drag = null;
+      for (const id of pointers.keys()) {
+        try { svg.setPointerCapture(id); } catch { /* 合成イベント等でIDが無効な場合 */ }
+      }
       const [a, b] = [...pointers.values()];
       pinch = { d0: Math.hypot(a.x - b.x, a.y - b.y) || 1, k0: view.k };
     }
@@ -562,7 +566,11 @@ export function createMapView(container, data) {
       const scale = VB.w / svg.getBoundingClientRect().width;
       const dx = (ev.clientX - drag.sx) * scale;
       const dy = (ev.clientY - drag.sy) * scale;
-      if (Math.hypot(dx, dy) > 4) drag.moved = true;
+      if (!drag.moved && Math.hypot(dx, dy) > 4) {
+        drag.moved = true;
+        // ドラッグと確定してから捕捉する(クリックのターゲットを壊さないため)
+        try { svg.setPointerCapture(ev.pointerId); } catch { /* 合成イベント等 */ }
+      }
       view.x = drag.vx + dx;
       view.y = drag.vy + dy;
       applyView();
