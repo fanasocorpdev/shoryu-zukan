@@ -462,6 +462,8 @@ export function createMapView(container, data) {
   function applyView() {
     world.setAttribute("transform", `translate(${view.x} ${view.y}) scale(${view.k})`);
     svg.classList.toggle("near", view.k >= NEAR_ZOOM);
+    // ズームアウト時もフローラベルが読めるよう逆スケール(上限1.6倍)
+    svg.style.setProperty("--lblk", Math.min(1.6, Math.max(1, 1 / view.k)).toFixed(3));
   }
   function clientToViewBox(cx, cy) {
     const pt = new DOMPoint(cx, cy).matrixTransform(svg.getScreenCTM().inverse());

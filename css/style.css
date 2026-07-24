@@ -234,17 +234,17 @@ svg.mapsvg.dragging { cursor: grabbing; }
 .edge path.hit { fill: none; stroke: transparent; stroke-width: 18; cursor: pointer; }
 .edge text.elabel {
   text-anchor: middle;
-  font-size: 10px;
+  font-size: calc(10px * var(--lblk, 1));
   fill: var(--ink-soft);
   paint-order: stroke;
   stroke: var(--paper);
   stroke-width: 3px;
   stroke-linejoin: round;
-  opacity: 0;
+  opacity: .88;
   transition: opacity .3s;
   pointer-events: none;
 }
-svg.near .edge text.elabel { opacity: .95; }
+svg.near .edge text.elabel { opacity: 1; }
 .edge { opacity: .8; }
 .edge:hover { opacity: 1; }
 .edge:hover path.line { stroke-width: 4; }
@@ -614,3 +614,6 @@ svg.near .node .top-company { opacity: 1; }
 .node .count-badge text { transition: font-size .25s; }
 svg.near .node .count-badge circle { r: 14px; }
 svg.near .node .count-badge text { font-size: 13px; }
+
+/* 地図ドラッグ時にラベルがテキスト選択されるのを防止 */
+.map-wrap svg { user-select: none; -webkit-user-select: none; }
