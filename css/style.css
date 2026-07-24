@@ -622,3 +622,17 @@ svg.near .node .count-badge text { font-size: 13px; }
 .portal-btn { cursor: pointer; }
 .portal-btn .portal-hit { fill: transparent; }
 .portal-btn:hover .portal { filter: drop-shadow(0 0 4px rgba(184,138,58,.9)); }
+
+/* ---- 企業カードの構造化(絵文字レス) ---- */
+.c-listing { margin-left: 8px; font-size: .72rem; color: var(--ink-soft); font-weight: 400; white-space: nowrap; }
+.c-stats {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 3px 14px;
+  margin: 6px 0 2px; font-size: .86rem;
+}
+.c-stats .stat .sl { color: var(--ink-soft); font-size: .72rem; margin-right: 6px; }
+.c-deals { margin: 4px 0 2px; font-size: .8rem; }
+.c-deals summary { cursor: pointer; color: var(--gold); user-select: none; }
+.c-deals ul { margin: 4px 0 0; padding-left: 18px; }
+.c-deals li { margin: 2px 0; }
+.deal-with { color: var(--ink-soft); }
+.c-foot { margin-top: 4px; font-size: .75rem; color: var(--ink-soft); }

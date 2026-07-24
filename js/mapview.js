@@ -268,41 +268,44 @@ export function createMapView(container, data) {
 
   function companyRowHTML(c) {
     const fin = c.financials;
-    const finParts = [];
-    if (fin?.revenue_oku_jpy) finParts.push(`💰 売上 約${fmtOku(fin.revenue_oku_jpy)}`);
-    if (fin?.market_cap_oku_jpy) finParts.push(`📈 時価総額 約${fmtOku(fin.market_cap_oku_jpy)}`);
-    const finLine = finParts.length
-      ? `<div class="fin" title="${esc(fin?.note ?? "")}">${finParts.join("　")}<span class="fin-asof">(${esc(fin?.as_of ?? "")}${/概算/.test(fin?.note ?? "") ? "・概算" : ""})</span></div>`
-      : fin?.note
-        ? `<div class="fin note-only">${esc(fin.note)}</div>`
-        : "";
-    const bizParts = [];
-    if (c.listing?.market) bizParts.push(`🏛 ${esc(c.listing.market)}${c.listing.code ? ` <span class="ticker">${esc(c.listing.code)}</span>` : ""}`);
-    if (c.employees) bizParts.push(`👥 約${fmtEmp(c.employees)}`);
-    if (c.salary?.man_jpy) bizParts.push(`<span title="有価証券報告書記載の平均年間給与(${esc(c.salary.fy ?? "")})">💴 平均年収 ${c.salary.man_jpy.toLocaleString("ja-JP")}万円</span>`);
-    const bizLine = bizParts.length ? `<div class="c-meta c-biz">${bizParts.join("　")}</div>` : "";
+    const stat = (label, value, title) =>
+      `<span class="stat"${title ? ` title="${esc(title)}"` : ""}><span class="sl">${label}</span>${value}</span>`;
+    const stats = [];
+    if (fin?.revenue_oku_jpy) stats.push(stat("売上", `約${fmtOku(fin.revenue_oku_jpy)}`, fin?.note));
+    if (fin?.market_cap_oku_jpy)
+      stats.push(stat("時価総額", `約${fmtOku(fin.market_cap_oku_jpy)}<span class="fin-asof">(${esc(fin?.as_of ?? "")}${/概算/.test(fin?.note ?? "") ? "・概算" : ""})</span>`, fin?.note));
+    if (c.employees) stats.push(stat("従業員", `約${fmtEmp(c.employees)}`));
+    if (c.salary?.man_jpy)
+      stats.push(stat("平均年収", `${c.salary.man_jpy.toLocaleString("ja-JP")}万円`, `有価証券報告書記載の平均年間給与(${c.salary.fy ?? ""})`));
+    const statsLine = stats.length ? `<div class="c-stats">${stats.join("")}</div>` : "";
+    const finNoteOnly = !stats.length && fin?.note ? `<div class="fin note-only">${esc(fin.note)}</div>` : "";
+
     const dealsLine = c.deals?.length
-      ? `<div class="c-meta c-deals">${c.deals.slice(0, 2).map((d) =>
-          `🤝 ${d.url ? `<a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.label)}</a>` : esc(d.label)}${d.with ? `(→${esc(d.with)})` : ""}`
-        ).join("　")}${c.deals.length > 2 ? `<span class="deals-more"> +${c.deals.length - 2}件</span>` : ""}</div>`
+      ? `<details class="c-deals"><summary>提携・取引 ${c.deals.length}件</summary><ul>${c.deals.map((d) =>
+          `<li>${d.url ? `<a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.label)}</a>` : esc(d.label)}${d.with ? `<span class="deal-with">(→${esc(d.with)})</span>` : ""}</li>`
+        ).join("")}</ul></details>`
       : "";
-    const metaParts = [];
-    if (c.hq) metaParts.push(`📍 ${esc(c.hq)}`);
+
+    const footParts = [];
+    if (c.hq) footParts.push(esc(c.hq));
     if (c.url) {
-      try { metaParts.push(`🔗 ${new URL(c.url).hostname.replace(/^www\./, "")}`); } catch { /* URL不正は無視 */ }
+      try { footParts.push(new URL(c.url).hostname.replace(/^www\./, "")); } catch { /* URL不正は無視 */ }
     }
-    const metaLine = metaParts.length ? `<div class="c-meta">${metaParts.join("　")}</div>` : "";
+    const footLine = footParts.length ? `<div class="c-foot">${footParts.join(" ・ ")}</div>` : "";
     const planBadge =
       c.plan === "free" ? `<span class="badge plan-free">無料掲載</span>`
       : c.plan?.startsWith("paid") ? `<span class="badge plan-paid">掲載企業</span>` : "";
+    const listing = c.listing?.market
+      ? `<span class="c-listing">${esc(c.listing.market)}${c.listing.code ? ` <span class="ticker">${esc(c.listing.code)}</span>` : ""}</span>`
+      : "";
     return `<li class="company">
       <div class="c-main">${
         c.url ? `<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.name)}</a>` : esc(c.name)
-      }${c.hiring ? '<span class="badge hiring">採用中</span>' : ""}${planBadge}</div>
-      ${finLine}
-      ${bizLine}
+      }${c.hiring ? '<span class="badge hiring">採用中</span>' : ""}${planBadge}${listing}</div>
+      ${statsLine}
+      ${finNoteOnly}
       ${dealsLine}
-      ${metaLine}
+      ${footLine}
       ${c.note ? `<div class="c-meta c-note">${esc(c.note)}</div>` : ""}
     </li>`;
   }
