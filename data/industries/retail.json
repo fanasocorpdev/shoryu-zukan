@@ -1996,10 +1996,10 @@
         {
           "url": "https://www.meti.go.jp/statistics/tyo/syoudou/",
           "publisher": "経済産業省 商業動態統計",
-          "note": "統計へ差し替え予定"
+          "note": "商業動態統計(小売業販売額)の統計ページ"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "goods_gms_consumer",
@@ -2024,12 +2024,12 @@
       "note": "インバウンド免税売上も含む",
       "sources": [
         {
-          "url": "https://www.depart.or.jp/",
+          "url": "https://www.depart.or.jp/store_sale/",
           "publisher": "日本百貨店協会",
-          "note": "統計へ差し替え予定"
+          "note": "百貨店売上高の月次統計ページ(全国・地区別・商品別)"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "opex_consumer_cvs",
@@ -2070,10 +2070,10 @@
         {
           "url": "https://www.meti.go.jp/policy/it_policy/statistics/outlook/ie_outlook.html",
           "publisher": "経済産業省 電子商取引実態調査",
-          "note": "最新版へ差し替え予定"
+          "note": "電子商取引実態調査の公表ページ(BtoC-EC市場規模)"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "goods_ec_consumer",
@@ -2143,12 +2143,12 @@
       "label": "テナント賃料(固定+売上歩合)",
       "sources": [
         {
-          "url": "https://www.aeonmall.com/",
+          "url": "https://www.aeonmall.com/ir/library/results/",
           "publisher": "イオンモール",
-          "note": "IRの賃料構造説明へ差し替え予定"
+          "note": "決算短信一覧。専門店賃料等からなる営業収益を開示"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "goods_sc_specialty",
@@ -2174,12 +2174,12 @@
       "amount_note": "決済額の1〜3%程度が小売から決済側へ流れる",
       "sources": [
         {
-          "url": "https://www.meti.go.jp/policy/mono_info_service/cashless/",
-          "publisher": "経済産業省 キャッシュレス関連資料",
-          "note": "差し替え予定"
+          "url": "https://www.meti.go.jp/press/2025/03/20260331006/20260331006.html",
+          "publisher": "経済産業省",
+          "note": "2025年キャッシュレス決済比率(58.0%)算出のプレスリリース"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "opex_ec_payment",
@@ -2218,12 +2218,12 @@
       "amount_note": "宅配便は年間50億個規模。単価引き上げが続く",
       "sources": [
         {
-          "url": "https://www.mlit.go.jp/",
-          "publisher": "国土交通省 宅配便取扱実績",
-          "note": "統計へ差し替え予定"
+          "url": "https://www.mlit.go.jp/report/press/jidosha04_hh_000341.html",
+          "publisher": "国土交通省",
+          "note": "令和6年度 宅配便・メール便取扱実績の報道発表"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "goods_lastmile_consumer",

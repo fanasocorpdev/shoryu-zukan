@@ -55,6 +55,7 @@ async function renderHome() {
         <div class="c-icon">${centerIcon(d)}${d.meta.map_style === "category" ? '<span class="style-tag">カオスマップ</span>' : ""}</div>
         <h2>${d.meta.industry_name}</h2>
         <p class="tagline">${d.meta.tagline ?? ""}</p>
+        ${d.meta.journey ? `<div class="journey-tag">🚶 カネの旅つき: ${d.meta.journey.title}</div>` : ""}
         <div class="stats">
           <span>プレイヤー ${d.nodes.length}</span>
           ${d.edges.length ? `<span>フロー ${d.edges.length}</span>` : ""}

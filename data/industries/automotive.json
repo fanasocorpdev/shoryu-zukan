@@ -1177,12 +1177,12 @@
       "amount_note": "国内新車販売は年間400万台超・十数兆円規模",
       "sources": [
         {
-          "url": "https://www.jama.or.jp/",
+          "url": "https://www.jama.or.jp/statistics/facts/four_wheeled/index.html",
           "publisher": "日本自動車工業会",
-          "note": "販売統計へ差し替え予定"
+          "note": "四輪車統計ページ。新車販売台数(年別)を掲載"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "goods_dealer_consumer",
@@ -1267,12 +1267,12 @@
       "amount_note": "自動車保険は損保業界最大の種目",
       "sources": [
         {
-          "url": "https://www.sonpo.or.jp/",
+          "url": "https://www.sonpo.or.jp/report/statistics/syumoku/index.html",
           "publisher": "日本損害保険協会",
-          "note": "統計へ差し替え予定"
+          "note": "保険種目別データ。自動車保険の正味収入保険料統計を掲載"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "opex_insurer_dealer",
@@ -1314,12 +1314,12 @@
       "amount_note": "自動車関係諸税は年間数兆円規模の税収",
       "sources": [
         {
-          "url": "https://www.jama.or.jp/",
+          "url": "https://www.jama.or.jp/operation/tax/burden/index.html",
           "publisher": "日本自動車工業会",
-          "note": "税制要望資料へ差し替え予定"
+          "note": "自動車ユーザーの税負担ページ。9種の自動車関係諸税を解説"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "capex_gov_consumer",
@@ -1329,12 +1329,12 @@
       "label": "EV・PHEV購入補助(CEV補助金)",
       "sources": [
         {
-          "url": "https://www.meti.go.jp/",
+          "url": "https://www.meti.go.jp/policy/mono_info_service/mono/automobile/cev/cleanenergyvehicle.html",
           "publisher": "経済産業省",
-          "note": "CEV補助金の該当ページへ差し替え予定"
+          "note": "クリーンエネルギー自動車の導入補助金(CEV補助金)総合ページ"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "capex_gov_battery",
@@ -1344,12 +1344,12 @@
       "label": "電池工場の設備投資補助(経済安保)",
       "sources": [
         {
-          "url": "https://www.meti.go.jp/",
+          "url": "https://www.meti.go.jp/policy/mono_info_service/mono/automobile/battery/battery-grants.html",
           "publisher": "経済産業省",
-          "note": "蓄電池供給確保計画認定へ差し替え予定"
+          "note": "蓄電池の国内生産基盤確保のための先端生産技術導入・開発促進事業"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "opex_oem_tier1",

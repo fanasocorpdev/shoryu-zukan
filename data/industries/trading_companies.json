@@ -1500,12 +1500,12 @@
       "amount_note": "1案件数百億〜数千億円規模の持分投資",
       "sources": [
         {
-          "url": "https://www.jftc.or.jp/",
-          "publisher": "日本貿易会",
-          "note": "各社IRセグメント情報へ差し替え予定"
+          "url": "https://www.mitsui.com/jp/ja/company/business/units/metal/index.html",
+          "publisher": "三井物産",
+          "note": "金属資源本部の事業紹介。豪州鉄鉱石・チリ銅等の鉱山権益投資を記載"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "goods_resource_shosha",
@@ -1602,12 +1602,12 @@
       "amount_note": "伊藤忠のファミマTOB、三菱商事のローソン子会社化など",
       "sources": [
         {
-          "url": "https://www.itochu.co.jp/",
-          "publisher": "各社IR",
-          "note": "TOB公表資料へ差し替え予定"
+          "url": "https://www.itochu.co.jp/ja/ir/financial_statements/index.html",
+          "publisher": "伊藤忠商事",
+          "note": "決算公表資料(決算短信等)の公式一覧ページ"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "opex_portfolio_shosha",
@@ -1632,12 +1632,12 @@
       "amount_note": "バークシャーは2020年に5大商社株5%超の保有を公表、その後買い増し",
       "sources": [
         {
-          "url": "https://www.berkshirehathaway.com/",
+          "url": "https://www.berkshirehathaway.com/news/aug3020.pdf",
           "publisher": "バークシャー・ハサウェイ",
-          "note": "株主への手紙・大量保有報告へ差し替え予定"
+          "note": "2020年8月31日付・5大商社株5%超取得の公式ニュースリリース"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "opex_shosha_berkshire",

@@ -1826,12 +1826,12 @@
       "amount_note": "個人金融資産2,000兆円超の過半が現預金",
       "sources": [
         {
-          "url": "https://www.zenginkyo.or.jp/",
+          "url": "https://www.zenginkyo.or.jp/stats/month1-01/",
           "publisher": "全国銀行協会",
-          "note": "資金循環統計へ差し替え予定"
+          "note": "全国銀行預金・貸出金速報。総預金の月末残高を毎月掲載"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "opex_bank_depositor",
@@ -1898,12 +1898,12 @@
       "label": "資金供給オペ・日銀当座預金への付利",
       "sources": [
         {
-          "url": "https://www.boj.or.jp/",
+          "url": "https://www.boj.or.jp/mopo/measures/mkt_ope/index.htm",
           "publisher": "日本銀行",
-          "note": "金融調節の公表資料へ差し替え予定"
+          "note": "オペレーション等の一覧。資金供給オペと補完当座預金制度を掲載"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "opex_bank_boj",
@@ -1928,12 +1928,12 @@
       "amount_note": "国債残高1,000兆円超の主要な買い手",
       "sources": [
         {
-          "url": "https://www.mof.go.jp/",
+          "url": "https://www.mof.go.jp/jgbs/auction/index.html",
           "publisher": "財務省",
-          "note": "国債統計へ差し替え予定"
+          "note": "国債の入札情報ページ。入札カレンダー・過去の入札結果"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "opex_mof_bank",
@@ -1972,12 +1972,12 @@
       "amount_note": "新NISAで個人の投資マネー流入が拡大",
       "sources": [
         {
-          "url": "https://www.jsda.or.jp/",
+          "url": "https://www.jsda.or.jp/shiryoshitsu/toukei/",
           "publisher": "日本証券業協会",
-          "note": "統計へ差し替え予定"
+          "note": "統計情報・調査結果。株式売買・投信販売等の統計ポータル"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "goods_securities_depositor",
@@ -2001,12 +2001,12 @@
       "label": "信託報酬(投資信託経由)",
       "sources": [
         {
-          "url": "https://www.toushin.or.jp/",
+          "url": "https://www.toushin.or.jp/statistics/statistics/index.html",
           "publisher": "投資信託協会",
-          "note": "統計へ差し替え予定"
+          "note": "投資信託の統計データ一覧。純資産総額・資金流出入等"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "opex_depositor_life",
@@ -2016,12 +2016,12 @@
       "label": "生命保険料",
       "sources": [
         {
-          "url": "https://www.seiho.or.jp/",
+          "url": "https://www.seiho.or.jp/data/statistics/trend/",
           "publisher": "生命保険協会",
-          "note": "統計へ差し替え予定"
+          "note": "生命保険の動向。収入保険料等の年次統計を掲載"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "opex_life_bank",
@@ -2059,12 +2059,12 @@
       "label": "預金の預入(地域)",
       "sources": [
         {
-          "url": "https://www.chiginkyo.or.jp/",
+          "url": "https://www.chiginkyo.or.jp/data/deposit_loan/",
           "publisher": "全国地方銀行協会",
-          "note": "統計へ差し替え予定"
+          "note": "地方銀行の預金・貸出金等。四半期更新の残高統計"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "capex_regional_borrower",

@@ -614,12 +614,12 @@
       "amount_note": "1店舗の平均日販は数十万円規模(チェーンにより差)",
       "sources": [
         {
-          "url": "https://www.jfa-fc.or.jp/",
+          "url": "https://www.jfa-fc.or.jp/particle/320.html",
           "publisher": "日本フランチャイズチェーン協会",
-          "note": "統計データの該当ページへ差し替え予定"
+          "note": "コンビニエンスストア統計データ。店舗売上高・店舗数を月別掲載"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "goods_store_consumer",
@@ -644,12 +644,12 @@
       "amount_note": "売上総利益の数十%。土地建物を本部が用意する契約型ほど料率が高い",
       "sources": [
         {
-          "url": "https://www.sej.co.jp/",
-          "publisher": "各チェーン加盟店募集ページ",
-          "note": "公開されている契約タイプ別料率へ差し替え予定"
+          "url": "https://www.sej.co.jp/owner/type-a/",
+          "publisher": "セブン-イレブン・ジャパン",
+          "note": "加盟店募集Aタイプ契約ページ。チャージ=売上総利益×45%を明記"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "goods_hq_store",
@@ -689,12 +689,12 @@
       "amount_note": "中食はコンビニ売上の3割前後を占める主力カテゴリ",
       "sources": [
         {
-          "url": "https://www.warabeya.co.jp/",
+          "url": "https://www.warabeya.co.jp/ja/business/food.html",
           "publisher": "わらべや日洋",
-          "note": "有報のセグメント情報へ差し替え予定"
+          "note": "国内食品関連事業ページ。セブン-イレブン向け調理済食品の開発・製造受託を明記"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "goods_food_vendor_logistics",
@@ -810,12 +810,12 @@
       "amount_note": "購買データ連動型の店頭・アプリ広告。急成長中の新収益源",
       "sources": [
         {
-          "url": "https://www.family.co.jp/",
+          "url": "https://www.family.co.jp/company/ad.html",
           "publisher": "ファミリーマート",
-          "note": "リテールメディア事業発表へ差し替え予定"
+          "note": "店内メディア(広告出稿案内)ページ。サイネージ等のリテールメディア枠を説明"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "opex_bank_hq",
@@ -826,12 +826,12 @@
       "note": "ATM事業の収益源は提携金融機関からの受入手数料。店舗網が金融インフラ化している",
       "sources": [
         {
-          "url": "https://www.sevenbank.co.jp/",
+          "url": "https://www.sevenbank.co.jp/ir/yogo/",
           "publisher": "セブン銀行",
-          "note": "決算説明資料の収益構造へ差し替え予定"
+          "note": "IR用語集。ATM受入手数料・ATM設置支払手数料の定義を記載"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "goods_bank_consumer",
@@ -916,12 +916,12 @@
       "label": "出資(三菱商事×ローソン、伊藤忠×ファミリーマート)",
       "sources": [
         {
-          "url": "https://www.mitsubishicorp.com/jp/ja/",
+          "url": "https://www.mitsubishicorp.com/jp/ja/news/release/2024/0000052862.html",
           "publisher": "三菱商事",
-          "note": "出資公表の該当ページへ差し替え予定"
+          "note": "2024年2月6日 三菱商事・KDDI・ローソン資本業務提携のニュースリリース"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "opex_hq_trading",

@@ -1338,12 +1338,12 @@
       "amount_note": "月額・ラック単位の継続課金",
       "sources": [
         {
-          "url": "https://www.jdcc.or.jp/",
+          "url": "https://www.jdcc.or.jp/activity/datacenter/",
           "publisher": "JDCC",
-          "note": "業界一般構造。個別料金体系は各社公表資料へ差し替え予定"
+          "note": "協会による「データセンターとは」解説ページ。施設・サービスの定義"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "goods_colo_user",
@@ -1501,12 +1501,12 @@
       "amount_note": "長期固定価格契約が中心",
       "sources": [
         {
-          "url": "https://www.ntt-ae.co.jp/",
+          "url": "https://www.ntt-ae.co.jp/solution/001/",
           "publisher": "NTTアノードエナジー",
-          "note": "PPA事例のプレスリリースへ差し替え予定"
+          "note": "オフサイトPPA(コーポレートPPA)による再エネ供給サービスの公式紹介ページ"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "opex_colo_carrier",
@@ -1546,12 +1546,12 @@
       "amount_note": "1棟あたり数百億〜1,000億円規模(公表案件ベースの概算)",
       "sources": [
         {
-          "url": "https://www.kajima.co.jp/",
-          "publisher": "ゼネコン各社",
-          "note": "受注プレスリリースの該当ページへ差し替え予定"
+          "url": "https://www.kajima.co.jp/tech/data_center/index.html",
+          "publisher": "鹿島建設",
+          "note": "データセンター設計施工の技術・サービス紹介ページ"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "goods_gc_colo",
@@ -1576,12 +1576,12 @@
       "amount_note": "国内投資計画は数千億〜兆円規模の公表あり(AWS・Microsoft等)",
       "sources": [
         {
-          "url": "https://aws.amazon.com/jp/",
-          "publisher": "各社発表",
-          "note": "国内投資計画のプレスリリースへ差し替え予定"
+          "url": "https://aws.amazon.com/jp/about-aws/whats-new/2024/01/aws-commits-2trillion-yen-investment-into-japan-ai-and-digital-transformation-from-2023-to-2027",
+          "publisher": "AWS",
+          "note": "2024年1月19日 日本へ2兆2,600億円のインフラ投資計画の公式発表"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "capex_colo_design",
@@ -1607,12 +1607,12 @@
       "amount_note": "DC建設費に占める電気・空調設備工事の比率は一般建築より高い",
       "sources": [
         {
-          "url": "https://www.kinden.co.jp/",
-          "publisher": "サブコン各社",
-          "note": "決算説明資料のDC受注動向へ差し替え予定"
+          "url": "https://www.kinden.co.jp/solution/denki_02/",
+          "publisher": "きんでん",
+          "note": "データセンター等停電困難施設の電気設備構築ソリューション紹介ページ"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "capex_subcon_elec",
@@ -1790,12 +1790,12 @@
       "amount_note": "系統容量のある土地の希少化で高騰傾向",
       "sources": [
         {
-          "url": "https://www.glp.com/jp/",
-          "publisher": "デベロッパー各社",
-          "note": "DC開発プレスリリースへ差し替え予定"
+          "url": "https://www.glpjp.com/topics/press/699/",
+          "publisher": "日本GLP",
+          "note": "2023年8月10日 DCキャンパスTKW1着工リリース。用地・600MW電力確保に言及"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "opex_colo_land_lease",
@@ -1822,12 +1822,12 @@
       "amount_note": "さくらインターネットのGPUクラウド基盤整備など認定事例あり",
       "sources": [
         {
-          "url": "https://www.meti.go.jp/",
+          "url": "https://www.meti.go.jp/policy/economy/economic_security/cloud/index.html",
           "publisher": "経済産業省",
-          "note": "供給確保計画認定の該当ページへ差し替え予定"
+          "note": "経済安保推進法クラウドプログラムの供給確保計画認定・支援ページ"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "opex_colo_gov",
@@ -1853,12 +1853,12 @@
       "label": "プロジェクトファイナンス・設備融資",
       "sources": [
         {
-          "url": "https://www.dbj.jp/",
+          "url": "https://www.dbj.jp/topics/case/html/20200405_59.html",
           "publisher": "日本政策投資銀行",
-          "note": "DC向けファイナンス事例へ差し替え予定"
+          "note": "大規模DC保有SPC(デジタル大阪1)へのノンリコースローン取組事例"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "opex_colo_bank",
@@ -1884,12 +1884,12 @@
       "amount_note": "海外ファンドによる数千億円規模の国内DC投資が継続",
       "sources": [
         {
-          "url": "https://www.blackstone.com/",
-          "publisher": "ファンド各社",
-          "note": "投資発表の該当ページへ差し替え予定"
+          "url": "https://www.blackstone.com/news/press/blackstone-announces-agreement-to-acquire-airtrunk-in-a-a24b-transaction/",
+          "publisher": "Blackstone",
+          "note": "2024年9月4日 AirTrunk(APAC DC)をA$24Bで買収する公式プレスリリース"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "opex_colo_maint",

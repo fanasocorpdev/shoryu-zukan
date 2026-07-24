@@ -1489,12 +1489,12 @@
       "amount_note": "先端工場1棟の装置投資は兆円規模。EUV露光装置は1台数百億円",
       "sources": [
         {
-          "url": "https://www.tel.co.jp/",
+          "url": "https://www.tel.co.jp/ir/library/report/index.html",
           "publisher": "東京エレクトロン",
-          "note": "決算説明資料の受注動向へ差し替え予定"
+          "note": "決算短信・決算説明会資料の一覧。半導体製造装置の販売実績の一次資料"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "goods_equipment_foundry",
@@ -1519,12 +1519,12 @@
       "label": "製造装置の購入(IDM設備投資)",
       "sources": [
         {
-          "url": "https://www.kioxia.com/ja-jp/",
+          "url": "https://www.kioxia.com/ja-jp/about/news/2025/20250930-1.html",
           "publisher": "キオクシア",
-          "note": "設備投資発表へ差し替え予定"
+          "note": "北上工場第2製造棟(K2)稼働開始の公式リリース。設備投資の裏付け"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "capex_foundry_test",
@@ -1550,12 +1550,12 @@
       "amount_note": "長期契約が中心。日本勢2社で世界シェア過半",
       "sources": [
         {
-          "url": "https://www.sumcosi.com/",
+          "url": "https://www.sumcosi.com/products/about.html",
           "publisher": "SUMCO",
-          "note": "IR資料の市況説明へ差し替え予定"
+          "note": "半導体用シリコンウェーハの公式製品説明ページ"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "goods_wafer_foundry",
@@ -1763,12 +1763,12 @@
       "amount_note": "JASM・ラピダスに対し累計数兆円規模の公的支援が公表されている",
       "sources": [
         {
-          "url": "https://www.meti.go.jp/",
+          "url": "https://www.meti.go.jp/policy/mono_info_service/joho/laws/semiconductor/semiconductor_plan.html",
           "publisher": "経済産業省",
-          "note": "助成決定・供給確保計画認定の該当ページへ差し替え予定"
+          "note": "5G促進法に基づく認定特定半導体生産施設整備等計画の一覧ページ"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "capex_gov_idm",
@@ -1778,12 +1778,12 @@
       "label": "設備投資補助(メモリ・パワー半導体等)",
       "sources": [
         {
-          "url": "https://www.meti.go.jp/",
-          "publisher": "経済産業省",
-          "note": "個別認定の該当ページへ差し替え予定"
+          "url": "https://www.kioxia.com/ja-jp/about/news/2024/20240206-1.html",
+          "publisher": "キオクシア",
+          "note": "経産省認定(メモリ設備投資へ最大1500億円助成)の公式発表"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "capex_bank_foundry",

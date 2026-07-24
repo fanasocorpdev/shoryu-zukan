@@ -582,3 +582,12 @@ svg.near .node .companies { opacity: 1; }
 @media (max-width: 640px) {
   .journey-bar { font-size: .82rem; }
 }
+
+/* ---- ホームカードのカネの旅バッジ ---- */
+.card .journey-tag {
+  display: inline-block; margin: 2px 0 6px; padding: 2px 10px;
+  font-size: .72rem; font-weight: 700; color: #6e451a;
+  background: rgba(184,138,58,.16); border: 1px solid rgba(138,90,36,.4);
+  border-radius: 999px; white-space: nowrap; overflow: hidden;
+  text-overflow: ellipsis; max-width: 100%;
+}

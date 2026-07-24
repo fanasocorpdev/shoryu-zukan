@@ -1521,12 +1521,12 @@
       "label": "医薬品の仕入代金",
       "sources": [
         {
-          "url": "http://www.jpwa.or.jp/",
+          "url": "https://jpwa.or.jp/jpwa/oroshi/",
           "publisher": "日本医薬品卸売業連合会",
-          "note": "統計へ差し替え予定"
+          "note": "「医療を支える医薬品卸」。卸の使命・流通機能を解説する資料ページ"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "goods_wholesaler_hospital",
@@ -1651,12 +1651,12 @@
       "amount_note": "国民医療費は年間47兆円超。財源は保険料+公費+窓口負担",
       "sources": [
         {
-          "url": "https://www.mhlw.go.jp/",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/index.html",
           "publisher": "厚生労働省",
-          "note": "国民医療費統計へ差し替え予定"
+          "note": "医療保険制度の政策ポータル。保険料・給付の各制度情報を集約"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "opex_insurer_hospital",
@@ -1667,12 +1667,12 @@
       "note": "実際は審査支払機関(支払基金・国保連)を経由。v1では簡略化",
       "sources": [
         {
-          "url": "https://www.ssk.or.jp/",
+          "url": "https://www.ssk.or.jp/aboutkikin/rinen/soshikigaiyo_01.html",
           "publisher": "社会保険診療報酬支払基金",
-          "note": "統計へ差し替え予定"
+          "note": "支払基金の位置づけ。保険者と医療機関を結ぶ審査支払の説明"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "opex_insurer_pharmacy",
@@ -1770,12 +1770,12 @@
       "label": "治験の委託費",
       "sources": [
         {
-          "url": "https://www.jcroa.or.jp/",
+          "url": "https://www.jcroa.or.jp/customers/report/",
           "publisher": "日本CRO協会",
-          "note": "統計へ差し替え予定"
+          "note": "年次業績報告。会員CROの売上高・従業員数等を毎年公表"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "opex_maker_cdmo",

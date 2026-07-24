@@ -574,12 +574,12 @@
       "amount_note": "携帯電話の国内市場規模は年間十数兆円",
       "sources": [
         {
-          "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/",
-          "publisher": "総務省 情報通信白書",
-          "note": "統計へ差し替え予定"
+          "url": "https://www.soumu.go.jp/menu_news/s-news/01kiban03_02000990.html",
+          "publisher": "総務省",
+          "note": "電気通信サービスに係る内外価格差調査(令和6年度)の報道資料"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "goods_carrier_subscriber",
@@ -632,12 +632,12 @@
       "note": "接続料の算定は総務省のルールに基づく。MVNOの原価の核心",
       "sources": [
         {
-          "url": "https://www.soumu.go.jp/",
+          "url": "https://www.soumu.go.jp/menu_seisaku/ictseisaku/dai1syudai2syu/108254-05.html",
           "publisher": "総務省",
-          "note": "接続料規則へ差し替え予定"
+          "note": "第二種指定電気通信設備(携帯大手)の接続約款・接続料の情報ページ"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "goods_carrier_mvno",
@@ -662,12 +662,12 @@
       "amount_note": "キャリア各社の設備投資は年間数千億円規模",
       "sources": [
         {
-          "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/",
+          "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r07/html/nd215120.html",
           "publisher": "総務省 情報通信白書",
-          "note": "各社IRへ差し替え予定"
+          "note": "令和7年版白書・機器別市場動向。5G基地局等ベンダーのシェア"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "goods_vendor_carrier",
@@ -765,12 +765,12 @@
       "label": "電波利用料",
       "sources": [
         {
-          "url": "https://www.soumu.go.jp/",
+          "url": "https://www.tele.soumu.go.jp/j/sys/fees/purpose/",
           "publisher": "総務省",
-          "note": "電波利用料の公表資料へ差し替え予定"
+          "note": "電波利用ポータルの電波利用料制度(目的・仕組み)解説ページ"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "goods_mic_carrier",

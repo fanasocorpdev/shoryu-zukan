@@ -2560,12 +2560,12 @@
       "label": "原材料の仕入(農水産)",
       "sources": [
         {
-          "url": "https://www.maff.go.jp/",
+          "url": "https://www.maff.go.jp/j/shokusan/sanki/soumu/syokuhin_gen_zairyou.html",
           "publisher": "農林水産省",
-          "note": "統計へ差し替え予定"
+          "note": "食品産業の原材料の安定調達ページ。国産原材料調達支援策を掲載"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "goods_raw_maker",
@@ -2590,12 +2590,12 @@
       "amount_note": "食料自給率約4割。輸入価格と為替が食品価格を左右する",
       "sources": [
         {
-          "url": "https://www.maff.go.jp/",
+          "url": "https://www.maff.go.jp/j/seisan/boueki/mugi_zyukyuu/",
           "publisher": "農林水産省",
-          "note": "食料需給表へ差し替え予定"
+          "note": "「麦の需給と価格」ページ。輸入小麦の政府売渡価格・需給見通しを掲載"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "goods_trading_maker",
@@ -2725,12 +2725,12 @@
       "amount_note": "1世帯の食費は月7〜8万円規模",
       "sources": [
         {
-          "url": "https://www.stat.go.jp/data/kakei/",
-          "publisher": "総務省 家計調査",
-          "note": "統計へ差し替え予定"
+          "url": "https://www.stat.go.jp/data/kakei/sokuhou/tsuki/index.html",
+          "publisher": "総務省統計局",
+          "note": "家計調査報告(家計収支編)月次結果。食料への消費支出を公表"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "opex_consumer_service",
@@ -2741,12 +2741,12 @@
       "amount_note": "外食市場は年間30兆円規模",
       "sources": [
         {
-          "url": "https://www.jfnet.or.jp/",
+          "url": "https://www.jfnet.or.jp/industry_report/",
           "publisher": "日本フードサービス協会",
-          "note": "統計へ差し替え予定"
+          "note": "外食産業市場動向調査の公表ページ(月次・年間の売上・客数)"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24"
     },
     {
       "id": "goods_retail_consumer",
