@@ -1,5 +1,5 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607242155";
+import { createMapView } from "./mapview.js?v=202607242203";
 
 const app = document.getElementById("app");
 
@@ -273,6 +273,13 @@ async function loadAllCompanies() {
   if (rankCache) return rankCache;
   const { industries } = await loadIndex();
   const datas = await Promise.all(industries.map(loadIndustry));
+  // JPXの33業種→ホームマップ対応を「正」として代表業界を決める
+  const [jpx, sectorMap] = await Promise.all([
+    fetchJSON("data/reference/jpx_listed.json").catch(() => null),
+    fetchJSON("data/reference/sector-map.json").catch(() => null),
+  ]);
+  const codeSector = new Map((jpx?.companies ?? []).map((x) => [x.code, x.sector33]));
+  const homeMaps = (code) => sectorMap?.sectors?.[codeSector.get(code)]?.maps ?? [];
   const byKey = new Map();
   for (const d of datas) {
     for (const n of d.nodes ?? []) {
@@ -287,8 +294,14 @@ async function loadAllCompanies() {
           foreign: /NASDAQ|NYSE|ユーロネクスト|台湾|海外/.test(c.listing?.market ?? ""),
         };
         const prev = byKey.get(key);
-        // 代表レコードの選定: 本業のマップを優先(括弧付き役割名や親会社コード借用の子会社を避ける)
-        const score = (r) => (r.salary ? 4 : 0) + (r.rev ? 2 : 0) + (/[((]/.test(r.name) ? 0 : 3) + (/非上場/.test(r.market) ? 0 : 1);
+        // 代表レコードの選定: JPX業種のホームマップを最優先し、素の社名・情報の濃さで補強
+        const score = (r) => {
+          const idx = r.code ? homeMaps(r.code).indexOf(r.industry) : -1;
+          return (idx >= 0 ? 100 - idx * 10 : 0)
+            + (/[((]/.test(r.name) ? 0 : 5)
+            + (r.salary ? 2 : 0) + (r.rev ? 1 : 0)
+            + (/非上場/.test(r.market) ? -3 : 0);
+        };
         if (!prev || score(rec) > score(prev)) byKey.set(key, rec);
       }
     }

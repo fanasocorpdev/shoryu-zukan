@@ -1910,6 +1910,68 @@
       ],
       "updated": "2026-07-24",
       "icon": "🤝"
+    },
+    {
+      "id": "nonlife_insurance",
+      "role": "損害保険会社",
+      "layer": "insurance",
+      "description": "自動車・火災・傷害等の損害保険。保険料収入を運用しつつ保険金を支払う。メガ損保3グループに集約が進む。",
+      "map": {
+        "ring": 1,
+        "angle": 165
+      },
+      "icon": "🛡️",
+      "companies": [
+        {
+          "name": "東京海上ホールディングス",
+          "url": "https://www.tokiomarinehd.com/",
+          "hq": "東京都千代田区",
+          "employees": 43000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8766"
+          },
+          "financials": {
+            "revenue_oku_jpy": 88722,
+            "market_cap_oku_jpy": 153907,
+            "as_of": "2026-07-23",
+            "note": "経常収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
+          }
+        },
+        {
+          "name": "MS&ADインシュアランスグループホールディングス",
+          "url": "https://www.ms-ad-hd.com/",
+          "hq": "東京都中央区",
+          "employees": 40000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8725"
+          },
+          "financials": {
+            "revenue_oku_jpy": 76530,
+            "market_cap_oku_jpy": 72732,
+            "as_of": "2026-07-23",
+            "note": "経常収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
+          }
+        },
+        {
+          "name": "SOMPOホールディングス",
+          "url": "https://www.sompo-hd.com/",
+          "hq": "東京都新宿区",
+          "employees": 45000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "8630"
+          },
+          "financials": {
+            "revenue_oku_jpy": 53729,
+            "market_cap_oku_jpy": 57735,
+            "as_of": "2026-04-08",
+            "note": "保険収益=2026年3月期実績(決算短信)、時価総額=2026-04-08時点"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ],
   "edges": [
@@ -2275,6 +2337,21 @@
           "url": "https://www.zenshinhoren.or.jp/guarantee-system/hoshoryo/",
           "publisher": "全国信用保証協会連合会",
           "note": "信用保証料の解説ページ(9区分の料率体系)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_policyholder_nonlife",
+      "from": "depositor",
+      "to": "nonlife_insurance",
+      "flow_type": "opex",
+      "label": "損害保険料(自動車・火災ほか)",
+      "sources": [
+        {
+          "url": "https://www.sonpo.or.jp/report/statistics/syumoku/index.html",
+          "publisher": "日本損害保険協会",
+          "note": "保険種目別データ(正味収入保険料の統計)"
         }
       ],
       "updated": "2026-07-24"
