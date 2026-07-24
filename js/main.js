@@ -1,5 +1,5 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607242137";
+import { createMapView } from "./mapview.js?v=202607242149";
 
 const app = document.getElementById("app");
 
@@ -266,6 +266,123 @@ async function renderMy() {
   });
 }
 
+
+// ---- 全業界横断の企業ランキング(求職者向け) ----
+let rankCache = null;
+async function loadAllCompanies() {
+  if (rankCache) return rankCache;
+  const { industries } = await loadIndex();
+  const datas = await Promise.all(industries.map(loadIndustry));
+  const byKey = new Map();
+  for (const d of datas) {
+    for (const n of d.nodes ?? []) {
+      if (n.unsorted) continue;
+      for (const c of n.companies ?? []) {
+        const key = c.listing?.code || "n:" + c.name;
+        const rec = {
+          name: c.name, code: c.listing?.code ?? "", market: c.listing?.market ?? "",
+          industry: d.meta.industry_id, industryName: d.meta.industry_name,
+          rev: c.financials?.revenue_oku_jpy ?? null, mcap: c.financials?.market_cap_oku_jpy ?? null,
+          emp: c.employees ?? null, salary: c.salary?.man_jpy ?? null, hiring: !!c.hiring,
+          foreign: /NASDAQ|NYSE|ユーロネクスト|台湾|海外/.test(c.listing?.market ?? ""),
+        };
+        const prev = byKey.get(key);
+        // 年収>財務>先勝ちの順で情報が濃いレコードを採用
+        if (!prev || (rec.salary && !prev.salary) || (!prev.salary && rec.rev && !prev.rev)) byKey.set(key, rec);
+      }
+    }
+  }
+  rankCache = [...byKey.values()];
+  return rankCache;
+}
+
+async function renderRanking() {
+  const all = await loadAllCompanies();
+  const { industries } = await loadIndex();
+  const indNames = {};
+  for (const iid of industries) indNames[iid] = (await loadIndustry(iid)).meta.industry_name;
+  const member = isMember();
+
+  const state = { metric: "salary", industry: "", q: "", scope: "domestic" };
+  const oku = (v) => (v == null ? "—" : v >= 10000 ? `${(v / 10000).toFixed(1)}兆円` : `${Math.round(v).toLocaleString("ja-JP")}億円`);
+  const METRIC_LABEL = { salary: "平均年収", rev: "売上高", mcap: "時価総額", emp: "従業員数" };
+
+  const render = () => {
+    let list = all.filter((c) => c[state.metric] != null);
+    if (state.scope === "domestic") list = list.filter((c) => !c.foreign);
+    if (state.industry) list = list.filter((c) => c.industry === state.industry);
+    if (state.q) {
+      const q = state.q.toLowerCase();
+      list = list.filter((c) => c.name.toLowerCase().includes(q) || c.code.includes(q));
+    }
+    list.sort((a, b) => (b[state.metric] ?? -1) - (a[state.metric] ?? -1));
+    const total = list.length;
+    const limit = member ? 200 : 10;
+    list = list.slice(0, limit);
+    const cmp = JSON.parse(localStorage.getItem("akinai_compare") ?? "[]");
+    const rows = list.map((c, i) => `<tr>
+      <td class="rank-no">${i + 1}</td>
+      <td><strong>${c.name}</strong>${c.code ? `<span class="cmp-sub"> ${c.code}</span>` : ""}
+        <button class="cmp-add${cmp.some((x) => x.name === c.name) ? " on" : ""}" data-name="${c.name}">${cmp.some((x) => x.name === c.name) ? "✓" : "+比較"}</button></td>
+      <td><a href="#/i/${c.industry}">${c.industryName}</a></td>
+      <td class="rank-val">${state.metric === "salary" ? (c.salary?.toLocaleString("ja-JP") ?? "—") + "万円"
+        : state.metric === "emp" ? (c.emp >= 10000 ? (c.emp / 10000).toFixed(1) + "万人" : c.emp?.toLocaleString("ja-JP") + "人")
+        : oku(c[state.metric])}</td>
+      <td class="rank-sub">${state.metric !== "salary" && c.salary ? c.salary.toLocaleString("ja-JP") + "万円" : state.metric !== "rev" ? oku(c.rev) : oku(c.mcap)}</td>
+    </tr>`).join("");
+    document.getElementById("rank-body").innerHTML = `
+      <div class="cmp-wrap"><table class="cmp-table rank-table">
+        <thead><tr><th>#</th><th>企業</th><th>業界</th><th>${METRIC_LABEL[state.metric]}</th><th>${state.metric === "salary" ? "売上" : state.metric === "rev" ? "時価総額" : "平均年収"}</th></tr></thead>
+        <tbody>${rows || '<tr><td colspan="5">該当する企業がありません</td></tr>'}</tbody>
+      </table></div>
+      <p class="rank-note">${METRIC_LABEL[state.metric]}のデータがある ${total.toLocaleString("ja-JP")}社中 ${Math.min(limit, total)}社を表示。
+      平均年収は有価証券報告書記載の平均年間給与。</p>
+      ${!member && total > 10 ? `<div class="rank-cta"><a href="#/register">無料登録して全${total.toLocaleString("ja-JP")}社のランキングを見る →</a></div>` : ""}`;
+    document.querySelectorAll("#rank-body .cmp-add").forEach((btn) =>
+      btn.addEventListener("click", () => {
+        const c = all.find((x) => x.name === btn.dataset.name);
+        let lst = JSON.parse(localStorage.getItem("akinai_compare") ?? "[]");
+        if (lst.some((x) => x.name === c.name)) lst = lst.filter((x) => x.name !== c.name);
+        else if (lst.length < 12) lst.push({ name: c.name, code: c.code, market: c.market, industry: c.industry, industryName: c.industryName, rev: c.rev, mcap: c.mcap, emp: c.emp, salary: c.salary });
+        localStorage.setItem("akinai_compare", JSON.stringify(lst));
+        render();
+      }));
+  };
+
+  app.innerHTML = `
+    <div class="home"><div class="home-inner ranking">
+      <div class="hero">
+        <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="72" height="72">
+        <h1>企業ランキング</h1>
+        <p class="sub">全${industries.length}業界・上場3,700社超を横断して並び替え。就職・転職先の比較に。</p>
+      </div>
+      <div class="rank-controls">
+        <select id="rank-metric">
+          <option value="salary">平均年収が高い順</option>
+          <option value="rev">売上高が大きい順</option>
+          <option value="mcap">時価総額が大きい順</option>
+          <option value="emp">従業員数が多い順</option>
+        </select>
+        <select id="rank-scope">
+          <option value="domestic">国内企業のみ</option>
+          <option value="all">海外企業を含む</option>
+        </select>
+        <select id="rank-industry">
+          <option value="">すべての業界</option>
+          ${industries.map((i) => `<option value="${i}">${indNames[i]}</option>`).join("")}
+        </select>
+        <input id="rank-q" type="search" placeholder="社名・証券コードで絞り込む" autocomplete="off">
+      </div>
+      <div id="rank-body"></div>
+      <div class="home-foot"><a href="#/my">マイマップ(比較リスト)</a> ・ <a href="#/">トップへ戻る</a></div>
+    </div></div>`;
+  document.getElementById("rank-metric").addEventListener("change", (e) => { state.metric = e.target.value; render(); });
+  document.getElementById("rank-scope").addEventListener("change", (e) => { state.scope = e.target.value; render(); });
+  document.getElementById("rank-industry").addEventListener("change", (e) => { state.industry = e.target.value; render(); });
+  document.getElementById("rank-q").addEventListener("input", (e) => { state.q = e.target.value.trim(); render(); });
+  render();
+}
+
 function renderPrivacy() {
   app.innerHTML = `
     <div class="home"><div class="home-inner about">
@@ -360,7 +477,7 @@ async function renderHome() {
         : ""}
       <div class="home-foot">
         出典は官公庁統計・IR・プレスリリース等の一次情報のみを使用しています。<br>
-        <a href="#/my">マイマップ</a> ・ <a href="#/about">あきないマップについて</a> ・ <a href="#/privacy">プライバシーポリシー</a><br>
+        <a href="#/rank">企業ランキング</a> ・ <a href="#/my">マイマップ</a> ・ <a href="#/about">あきないマップについて</a> ・ <a href="#/privacy">プライバシーポリシー</a><br>
         運営: 株式会社Fanaso
       </div>
     </div></div>`;
@@ -519,6 +636,7 @@ async function renderIndustry(id) {
       <header class="topbar">
         <a class="home-link" href="#/">トップ</a>
         <a class="home-link" href="#/all" title="全銘柄索引">索引</a>
+        <a class="home-link" href="#/rank" title="企業ランキング">ランキング</a>
         <a class="home-link" href="#/my" title="マイマップ">マイマップ</a>
         ${parent ? `<a class="home-link parent-link" href="#/i/${parent.meta.industry_id}">⬆ ${parent.meta.industry_name}</a>` : ""}
         <div class="title-wrap"><h1>${data.meta.industry_name}の商流</h1><span class="tag">${data.meta.tagline ?? ""}</span></div>
@@ -636,6 +754,8 @@ async function route() {
   try {
     const m = hash.match(/^#\/i\/([a-z0-9_]+)/);
     if (m) await renderIndustry(m[1]);
+    else if (hash.startsWith("#/rank")) await renderRanking();
+    else if (hash.startsWith("#/register")) await renderGate(null);
     else if (hash.startsWith("#/my")) await renderMy();
     else if (hash.startsWith("#/privacy")) renderPrivacy();
     else if (hash.startsWith("#/about")) renderAbout();

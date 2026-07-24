@@ -627,7 +627,7 @@ svg.near .node .count-badge text { font-size: 13px; }
 /* ---- 子マップへのポータル(クリック可能) ---- */
 .portal-btn { cursor: pointer; }
 .portal-btn .portal-hit { fill: transparent; }
-.portal-btn:hover .portal { filter: drop-shadow(0 0 4px rgba(184,138,58,.9)); }
+.portal-btn:hover .portal { opacity: 1; }
 
 /* ---- 企業カードの構造化(絵文字レス) ---- */
 .c-listing { margin-left: 8px; font-size: .72rem; color: var(--ink-soft); font-weight: 400; white-space: nowrap; }
@@ -646,8 +646,8 @@ svg.near .node .count-badge text { font-size: 13px; }
 /* ポータルの視認性: ゆっくり明滅して「押せる」ことを示す */
 .portal-btn .portal { animation: portal-pulse 2.6s ease-in-out infinite; }
 @keyframes portal-pulse {
-  0%, 100% { opacity: .75; }
-  50% { opacity: 1; filter: drop-shadow(0 0 3px rgba(184,138,58,.8)); }
+  0%, 100% { opacity: .65; }
+  50% { opacity: 1; }
 }
 
 /* ---- ポータル遷移元バナー+対応ノードの強調 ---- */
@@ -767,10 +767,10 @@ html { -webkit-font-smoothing: antialiased; }
   --paper: #141926;
   --paper-deep: #0d1119;
   --paper-edge: #333c52;
-  --gold: #d9a94a;
-  --goods: #3ad1b0;
-  --capex: #f2a93b;
-  --opex: #f4718f;
+  --gold: #c39b4e;
+  --goods: #4aa892;
+  --capex: #c9973f;
+  --opex: #c96b7f;
   --hq-glow: #1d2434;
   --surface: rgba(255, 255, 255, .05);
   --surface-2: rgba(255, 255, 255, .09);
@@ -780,16 +780,10 @@ html { -webkit-font-smoothing: antialiased; }
   --grad-b: rgba(20, 25, 38, .96);
 }
 :root[data-theme="dark"] body {
-  background:
-    radial-gradient(ellipse 55% 40% at 18% 8%, rgba(58, 209, 176, .07), transparent),
-    radial-gradient(ellipse 50% 45% at 85% 15%, rgba(217, 169, 74, .06), transparent),
-    radial-gradient(ellipse at 50% 100%, var(--paper) 0%, var(--paper-deep) 100%);
+  background: radial-gradient(ellipse at 50% 0%, #171c2b 0%, var(--paper) 50%, var(--paper-deep) 100%);
 }
 body {
-  background:
-    radial-gradient(ellipse 55% 40% at 18% 8%, rgba(18, 131, 113, .05), transparent),
-    radial-gradient(ellipse 50% 45% at 85% 15%, rgba(192, 125, 12, .05), transparent),
-    radial-gradient(ellipse at 20% 10%, #faf5ea 0%, var(--paper) 45%, var(--paper-deep) 100%);
+  background: radial-gradient(ellipse at 20% 10%, #faf5ea 0%, var(--paper) 45%, var(--paper-deep) 100%);
 }
 :root[data-theme="dark"] .card { background: var(--surface); }
 :root[data-theme="dark"] .card-photo { filter: sepia(.15) saturate(.8) contrast(.95) brightness(.8); opacity: .85; }
@@ -797,31 +791,27 @@ body {
 
 /* ガラスモーフィズム(控えめなブラー+薄い縁) */
 .topbar, .panel, .guide-card, .journey-bar, .jump-banner, .gate-card {
-  backdrop-filter: blur(14px) saturate(1.15);
-  -webkit-backdrop-filter: blur(14px) saturate(1.15);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
   border-color: var(--surface-border);
 }
 .guide-card, .jump-banner {
   background: linear-gradient(160deg, var(--grad-a), var(--grad-b));
 }
-.panel { box-shadow: 0 12px 40px rgba(0, 0, 0, .18); }
+.panel { box-shadow: 0 8px 24px rgba(0, 0, 0, .14); }
 .card, .gate-card, .about-sec, .coverage {
   border-color: var(--surface-border);
   border-radius: 16px;
 }
 .card { transition: transform .18s cubic-bezier(.2,.8,.3,1.1), box-shadow .18s, border-color .18s; }
-.card:hover { transform: translateY(-3px); box-shadow: 0 14px 34px rgba(40, 28, 8, .16); }
-:root[data-theme="dark"] .card:hover { box-shadow: 0 14px 34px rgba(0, 0, 0, .5); }
+.card:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(40, 28, 8, .12); }
+:root[data-theme="dark"] .card:hover { box-shadow: 0 8px 20px rgba(0, 0, 0, .35); }
 
 /* 矢印マーカーもテーマ変数に追従させる */
 marker[id="arrow-goods"] path { fill: var(--goods); }
 marker[id="arrow-capex"] path { fill: var(--capex); }
 marker[id="arrow-opex"] path { fill: var(--opex); }
 
-/* ダーク時: フローラインをネオン発光させる(夜の航海図) */
-:root[data-theme="dark"] .edge.flow-goods path.line { filter: drop-shadow(0 0 4px rgba(58, 209, 176, .55)); }
-:root[data-theme="dark"] .edge.flow-capex path.line { filter: drop-shadow(0 0 4px rgba(242, 169, 59, .55)); }
-:root[data-theme="dark"] .edge.flow-opex path.line { filter: drop-shadow(0 0 4px rgba(244, 113, 143, .55)); }
 :root[data-theme="dark"] .node circle.body { stroke: var(--paper-edge); }
 :root[data-theme="dark"] .node:hover circle.body,
 :root[data-theme="dark"] .node.center circle.body { stroke: var(--gold); }
@@ -838,8 +828,8 @@ marker[id="arrow-opex"] path { fill: var(--opex); }
   width: 44px; height: 44px; border-radius: 50%;
   border: 1.5px solid var(--surface-border);
   background: var(--surface-2);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
   font-size: 1.15rem; line-height: 1;
   box-shadow: 0 4px 14px rgba(0, 0, 0, .18);
   transition: transform .15s;
@@ -877,3 +867,23 @@ marker[id="arrow-opex"] path { fill: var(--opex); }
 .guide-card summary { letter-spacing: .06em; }
 .card .journey-tag, .card .access-tag { letter-spacing: .03em; }
 .topbar .home-link { letter-spacing: .04em; }
+
+/* ---- 企業ランキング ---- */
+.rank-controls { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; }
+.rank-controls select, .rank-controls input {
+  font-family: inherit; font-size: .9rem; padding: 9px 12px;
+  border: 1.5px solid var(--paper-edge); border-radius: 8px;
+  background: var(--surface-2); color: var(--ink);
+}
+.rank-controls input { flex: 1; min-width: 200px; }
+.rank-table .rank-no { color: var(--ink-soft); font-size: .8rem; width: 2em; }
+.rank-table .rank-val { font-weight: 700; }
+.rank-table .rank-sub { color: var(--ink-soft); }
+.rank-note { margin-top: 10px; font-size: .76rem; color: var(--ink-soft); }
+.rank-cta { margin-top: 14px; text-align: center; }
+.rank-cta a {
+  display: inline-block; padding: 12px 26px; border-radius: 999px; font-weight: 700;
+  color: #fff8ea; background: linear-gradient(160deg, #8a5a24, #6e451a);
+  border: 1.5px solid #d8b878;
+}
+.rank-table .cmp-add { margin-left: 8px; }
