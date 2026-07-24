@@ -28,6 +28,12 @@
       "order": 2,
       "icon": "🔧",
       "description": "製品分野別の分類"
+    },
+    {
+      "id": "deep",
+      "label": "川上・川下(深掘り)",
+      "order": 90,
+      "icon": "⛏"
     }
   ],
   "nodes": [
@@ -1985,6 +1991,39 @@
       "companies": [],
       "note": "分類の修正提案を歓迎します",
       "updated": "2026-07-23"
+    },
+    {
+      "id": "machine_components",
+      "role": "要素部品(減速機・直動・軸受)",
+      "layer": "deep",
+      "map": {
+        "ring": 2,
+        "angle": 22
+      },
+      "companies": [
+        {
+          "name": "ＴＨＫ",
+          "listing": {
+            "market": "プライム",
+            "code": "6481"
+          }
+        },
+        {
+          "name": "ナブテスコ",
+          "listing": {
+            "market": "プライム",
+            "code": "6268"
+          }
+        },
+        {
+          "name": "ハーモニック・ドライブ・システムズ",
+          "listing": {
+            "market": "プライム",
+            "code": "6324"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ],
   "edges": [
@@ -2106,6 +2145,21 @@
           "url": "https://www.lema.or.jp/prospect.html",
           "publisher": "日本陸用内燃機関協会(LEMA)",
           "note": "陸用内燃機関の生産見通し・需要部門別出荷実績"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "goods_components_mt",
+      "from": "machine_components",
+      "to": "machine_tools",
+      "flow_type": "goods",
+      "label": "減速機・直動部品等の供給",
+      "sources": [
+        {
+          "url": "https://precision.nabtesco.com/ja/products/",
+          "publisher": "ナブテスコ精機カンパニー",
+          "note": "精密減速機等の製品一覧"
         }
       ],
       "updated": "2026-07-24"

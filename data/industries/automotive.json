@@ -1367,6 +1367,57 @@
         }
       ],
       "updated": "2026-07-23"
+    },
+    {
+      "id": "rental_share",
+      "role": "レンタカー・カーシェア",
+      "layer": "sales",
+      "map": {
+        "ring": 2,
+        "angle": 330
+      },
+      "companies": [
+        {
+          "name": "パーク２４",
+          "listing": {
+            "market": "プライム",
+            "code": "4666"
+          },
+          "note": "タイムズカー(カーシェア国内最大手)"
+        },
+        {
+          "name": "トヨタレンタリース",
+          "listing": {
+            "market": "非上場(トヨタ系販社)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "recycle",
+      "role": "自動車リサイクル・解体",
+      "layer": "sales",
+      "map": {
+        "ring": 3,
+        "angle": 40
+      },
+      "companies": [
+        {
+          "name": "エンビプロ・ホールディングス",
+          "listing": {
+            "market": "スタンダード",
+            "code": "5698"
+          }
+        },
+        {
+          "name": "会宝産業",
+          "listing": {
+            "market": "非上場(中古部品輸出大手)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ],
   "edges": [
@@ -1870,6 +1921,36 @@
           "note": "業界一般構造"
         }
       ]
+    },
+    {
+      "id": "opex_consumer_rental",
+      "from": "consumer",
+      "to": "rental_share",
+      "flow_type": "opex",
+      "label": "レンタカー・カーシェア利用料",
+      "sources": [
+        {
+          "url": "https://www.rentacar.or.jp/about/archives/",
+          "publisher": "全国レンタカー協会",
+          "note": "統計資料(レンタカー車両数・カーシェア関連)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_consumer_recycle",
+      "from": "consumer",
+      "to": "recycle",
+      "flow_type": "opex",
+      "label": "自動車リサイクル料金",
+      "sources": [
+        {
+          "url": "https://www.jarc.or.jp/automobile/fee/feeindex/",
+          "publisher": "自動車リサイクル促進センター",
+          "note": "自動車リサイクル料金の構成・金額表"
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ]
 }

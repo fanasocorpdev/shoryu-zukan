@@ -28,6 +28,12 @@
       "order": 2,
       "icon": "🔌",
       "description": "製品分野別の分類"
+    },
+    {
+      "id": "deep",
+      "label": "川上・川下(深掘り)",
+      "order": 90,
+      "icon": "⛏"
     }
   ],
   "nodes": [
@@ -1928,6 +1934,38 @@
       "companies": [],
       "note": "分類の修正提案を歓迎します",
       "updated": "2026-07-23"
+    },
+    {
+      "id": "ems",
+      "role": "EMS・受託製造",
+      "layer": "deep",
+      "map": {
+        "ring": 2,
+        "angle": 20
+      },
+      "companies": [
+        {
+          "name": "シークス",
+          "listing": {
+            "market": "プライム",
+            "code": "7613"
+          }
+        },
+        {
+          "name": "加賀電子",
+          "listing": {
+            "market": "プライム",
+            "code": "8154"
+          }
+        },
+        {
+          "name": "UMCエレクトロニクス",
+          "listing": {
+            "market": "非上場(上場廃止)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ],
   "edges": [
@@ -2033,6 +2071,21 @@
           "url": "https://www.jeita.or.jp/japanese/stat/shipment/",
           "publisher": "電子情報技術産業協会(JEITA)",
           "note": "民生用電子機器国内出荷統計(月次)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_conglomerate_ems",
+      "from": "conglomerate",
+      "to": "ems",
+      "flow_type": "opex",
+      "label": "電子機器の製造委託費",
+      "sources": [
+        {
+          "url": "https://www.siix.co.jp/business/ems/",
+          "publisher": "シークス",
+          "note": "EMS(電子機器製造受託)事業ページ"
         }
       ],
       "updated": "2026-07-24"

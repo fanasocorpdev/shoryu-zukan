@@ -28,6 +28,12 @@
       "order": 2,
       "icon": "🎽",
       "description": "製品分野別の分類"
+    },
+    {
+      "id": "deep",
+      "label": "川上・川下(深掘り)",
+      "order": 90,
+      "icon": "⛏"
     }
   ],
   "nodes": [
@@ -997,6 +1003,25 @@
       "companies": [],
       "note": "分類の修正提案を歓迎します",
       "updated": "2026-07-23"
+    },
+    {
+      "id": "oem_factory",
+      "role": "生産委託・縫製工場(国内外OEM)",
+      "layer": "deep",
+      "map": {
+        "ring": 2,
+        "angle": 355
+      },
+      "companies": [
+        {
+          "name": "マツオカコーポレーション",
+          "listing": {
+            "market": "スタンダード",
+            "code": "3611"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ],
   "edges": [
@@ -1102,6 +1127,21 @@
           "url": "https://www.npa.go.jp/publications/statistics/safetylife/080423huzokukankeitoukei.pdf",
           "publisher": "警察庁",
           "note": "風俗営業等の現状と取締り状況(ぱちんこ営業所数・遊技機台数)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_apparel_oem",
+      "from": "apparel_brand",
+      "to": "oem_factory",
+      "flow_type": "opex",
+      "label": "縫製・生産委託費",
+      "sources": [
+        {
+          "url": "https://www.matuoka.co.jp/business/",
+          "publisher": "マツオカコーポレーション",
+          "note": "アパレルOEM(縫製)事業内容"
         }
       ],
       "updated": "2026-07-24"

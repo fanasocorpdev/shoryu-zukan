@@ -1,0 +1,491 @@
+{
+  "$schema": "../schema.json",
+  "meta": {
+    "industry_id": "semiconductor_materials",
+    "industry_name": "半導体材料・部材",
+    "version": "0.1.0",
+    "updated": "2026-07-24",
+    "description": "半導体材料・部材の商流を深掘りする子マップ。世界シェア過半 — 日本の化学が支える1枚のウェーハ",
+    "tagline": "世界シェア過半 — 日本の化学が支える1枚のウェーハ",
+    "parent_industry": "semiconductor",
+    "map_style": "flow",
+    "guide": {
+      "earn": "半導体材料は日本勢が世界シェアの過半を握る領域。ウェーハ・フォトレジスト・高純度ガス・封止材などを前工程・後工程の半導体メーカーに納め、微細化のたびに単価が上がる。",
+      "watch": "中心の半導体メーカーに集まる8系統の材料供給が見どころ。各ノードの企業は世界シェア首位級が密集している。"
+    }
+  },
+  "layers": [
+    {
+      "id": "fab",
+      "label": "半導体メーカー(納入先)",
+      "order": 1,
+      "icon": "🏭"
+    },
+    {
+      "id": "materials",
+      "label": "素材(前工程)",
+      "order": 2,
+      "icon": "🧪"
+    },
+    {
+      "id": "parts",
+      "label": "部材(後工程・治具)",
+      "order": 3,
+      "icon": "🔩"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "chip_maker",
+      "role": "半導体メーカー(前工程・後工程)",
+      "layer": "fab",
+      "note": "納入先。顔ぶれは半導体マップ参照",
+      "map": {
+        "ring": 0,
+        "angle": 0
+      },
+      "related_industry": "semiconductor",
+      "companies": [],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "wafer",
+      "role": "シリコンウェーハ",
+      "layer": "materials",
+      "map": {
+        "ring": 1,
+        "angle": 0
+      },
+      "companies": [
+        {
+          "name": "信越化学工業",
+          "listing": {
+            "market": "プライム",
+            "code": "4063"
+          }
+        },
+        {
+          "name": "ＳＵＭＣＯ",
+          "listing": {
+            "market": "プライム",
+            "code": "3436"
+          }
+        },
+        {
+          "name": "グローバルウェーハズ・ジャパン",
+          "listing": {
+            "market": "非上場(台湾GlobalWafers傘下)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "photoresist",
+      "role": "フォトレジスト・感光材",
+      "layer": "materials",
+      "map": {
+        "ring": 1,
+        "angle": 45
+      },
+      "companies": [
+        {
+          "name": "東京応化工業",
+          "listing": {
+            "market": "プライム",
+            "code": "4186"
+          }
+        },
+        {
+          "name": "JSR",
+          "listing": {
+            "market": "非上場(JIC傘下)"
+          }
+        },
+        {
+          "name": "信越化学工業",
+          "listing": {
+            "market": "プライム",
+            "code": "4063"
+          }
+        },
+        {
+          "name": "富士フイルムホールディングス",
+          "listing": {
+            "market": "プライム",
+            "code": "4901"
+          }
+        },
+        {
+          "name": "住友化学",
+          "listing": {
+            "market": "プライム",
+            "code": "4005"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "gas_chemical",
+      "role": "高純度ガス・薬液",
+      "layer": "materials",
+      "map": {
+        "ring": 1,
+        "angle": 90
+      },
+      "companies": [
+        {
+          "name": "日本酸素ホールディングス",
+          "listing": {
+            "market": "プライム",
+            "code": "4091"
+          }
+        },
+        {
+          "name": "エア・ウォーター",
+          "listing": {
+            "market": "プライム",
+            "code": "4088"
+          }
+        },
+        {
+          "name": "関東電化工業",
+          "listing": {
+            "market": "プライム",
+            "code": "4047"
+          }
+        },
+        {
+          "name": "セントラル硝子",
+          "listing": {
+            "market": "プライム",
+            "code": "4044"
+          }
+        },
+        {
+          "name": "ステラ　ケミファ",
+          "listing": {
+            "market": "プライム",
+            "code": "4109"
+          }
+        },
+        {
+          "name": "トリケミカル研究所",
+          "listing": {
+            "market": "プライム",
+            "code": "4369"
+          }
+        },
+        {
+          "name": "ＡＤＥＫＡ",
+          "listing": {
+            "market": "プライム",
+            "code": "4401"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "mask_blanks",
+      "role": "フォトマスク・ブランクス",
+      "layer": "materials",
+      "map": {
+        "ring": 1,
+        "angle": 135
+      },
+      "companies": [
+        {
+          "name": "ＨＯＹＡ",
+          "listing": {
+            "market": "プライム",
+            "code": "7741"
+          }
+        },
+        {
+          "name": "ＴＯＰＰＡＮホールディングス",
+          "listing": {
+            "market": "プライム",
+            "code": "7911"
+          }
+        },
+        {
+          "name": "大日本印刷",
+          "listing": {
+            "market": "プライム",
+            "code": "7912"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "cmp_slurry",
+      "role": "CMPスラリー・研磨材",
+      "layer": "materials",
+      "map": {
+        "ring": 1,
+        "angle": 180
+      },
+      "companies": [
+        {
+          "name": "フジミインコーポレーテッド",
+          "listing": {
+            "market": "プライム",
+            "code": "5384"
+          }
+        },
+        {
+          "name": "レゾナック・ホールディングス",
+          "listing": {
+            "market": "プライム",
+            "code": "4004"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "substrate_abf",
+      "role": "パッケージ基板・ABF",
+      "layer": "parts",
+      "map": {
+        "ring": 1,
+        "angle": 225
+      },
+      "companies": [
+        {
+          "name": "イビデン",
+          "listing": {
+            "market": "プライム",
+            "code": "4062"
+          }
+        },
+        {
+          "name": "味の素",
+          "listing": {
+            "market": "プライム",
+            "code": "2802"
+          },
+          "note": "ABF(味の素ビルドアップフィルム)が事実上の世界標準"
+        },
+        {
+          "name": "京セラ",
+          "listing": {
+            "market": "プライム",
+            "code": "6971"
+          }
+        },
+        {
+          "name": "新光電気工業",
+          "listing": {
+            "market": "非上場(JIC等による非公開化)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "backend_materials",
+      "role": "リードフレーム・封止材・ワイヤ",
+      "layer": "parts",
+      "map": {
+        "ring": 1,
+        "angle": 270
+      },
+      "companies": [
+        {
+          "name": "三井ハイテック",
+          "listing": {
+            "market": "プライム",
+            "code": "6966"
+          }
+        },
+        {
+          "name": "住友ベークライト",
+          "listing": {
+            "market": "プライム",
+            "code": "4203"
+          }
+        },
+        {
+          "name": "田中貴金属グループ",
+          "listing": {
+            "market": "非上場(TANAKA HD)"
+          }
+        },
+        {
+          "name": "古河電気工業",
+          "listing": {
+            "market": "プライム",
+            "code": "5801"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "quartz_jig",
+      "role": "石英・カーボン・治具",
+      "layer": "parts",
+      "map": {
+        "ring": 1,
+        "angle": 315
+      },
+      "companies": [
+        {
+          "name": "東ソー",
+          "listing": {
+            "market": "プライム",
+            "code": "4042"
+          }
+        },
+        {
+          "name": "フェローテック",
+          "listing": {
+            "market": "スタンダード",
+            "code": "6890"
+          }
+        },
+        {
+          "name": "東海カーボン",
+          "listing": {
+            "market": "プライム",
+            "code": "5301"
+          }
+        },
+        {
+          "name": "日本カーボン",
+          "listing": {
+            "market": "プライム",
+            "code": "5302"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    }
+  ],
+  "edges": [
+    {
+      "id": "opex_chip_wafer",
+      "from": "chip_maker",
+      "to": "wafer",
+      "flow_type": "opex",
+      "label": "シリコンウェーハの購入",
+      "sources": [
+        {
+          "url": "https://www.sumcosi.com/products/",
+          "publisher": "SUMCO",
+          "note": "シリコンウェーハ製品情報ページ"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "goods_resist_chip",
+      "from": "photoresist",
+      "to": "chip_maker",
+      "flow_type": "goods",
+      "label": "フォトレジストの供給",
+      "sources": [
+        {
+          "url": "https://www.tok.co.jp/products/semiconductor-pre",
+          "publisher": "東京応化工業",
+          "note": "半導体製造前工程ページ(フォトレジスト・関連薬品)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_chip_gas",
+      "from": "chip_maker",
+      "to": "gas_chemical",
+      "flow_type": "opex",
+      "label": "高純度ガス・薬液の調達",
+      "sources": [
+        {
+          "url": "https://jp.nipponsanso.com/business/electronics/product/",
+          "publisher": "日本酸素ホールディングス",
+          "note": "エレクトロニクス事業の取扱い製品(電子材料ガス等)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "goods_mask_chip",
+      "from": "mask_blanks",
+      "to": "chip_maker",
+      "flow_type": "goods",
+      "label": "フォトマスクの供給",
+      "sources": [
+        {
+          "url": "https://www.hoya.com/business/info-communication/",
+          "publisher": "HOYA",
+          "note": "マスクブランクス・フォトマスク(世界シェア首位)の事業ページ"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_chip_slurry",
+      "from": "chip_maker",
+      "to": "cmp_slurry",
+      "flow_type": "opex",
+      "label": "CMPスラリーの調達",
+      "sources": [
+        {
+          "url": "https://www.fujimiinc.co.jp/service/cmp/index.html",
+          "publisher": "フジミインコーポレーテッド",
+          "note": "半導体向けCMP研磨材(スラリー)の製品ページ"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "goods_substrate_chip",
+      "from": "substrate_abf",
+      "to": "chip_maker",
+      "flow_type": "goods",
+      "label": "パッケージ基板・ABFの供給",
+      "sources": [
+        {
+          "url": "https://www.ajinomoto.co.jp/company/jp/rd/our_innovation/abf/",
+          "publisher": "味の素",
+          "note": "味の素ビルドアップフィルム(ABF)紹介ページ"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_chip_backend",
+      "from": "chip_maker",
+      "to": "backend_materials",
+      "flow_type": "opex",
+      "label": "リードフレーム・封止材の調達",
+      "sources": [
+        {
+          "url": "https://www.mitsui-high-tec.com/products/lf/",
+          "publisher": "三井ハイテック",
+          "note": "リードフレーム製品ページ"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "goods_quartz_chip",
+      "from": "quartz_jig",
+      "to": "chip_maker",
+      "flow_type": "goods",
+      "label": "石英部材・治具の供給",
+      "sources": [
+        {
+          "url": "https://www.tosoh.co.jp/product/functionality/quartz_glass.html",
+          "publisher": "東ソー",
+          "note": "石英ガラス製品ページ(半導体製造用炉芯管等)"
+        }
+      ],
+      "updated": "2026-07-24"
+    }
+  ]
+}

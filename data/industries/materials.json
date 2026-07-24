@@ -28,6 +28,12 @@
       "order": 2,
       "icon": "⛏️",
       "description": "素材分野別の分類"
+    },
+    {
+      "id": "deep",
+      "label": "川上・川下(深掘り)",
+      "order": 90,
+      "icon": "⛏"
     }
   ],
   "nodes": [
@@ -1664,6 +1670,30 @@
       "companies": [],
       "note": "分類の修正提案を歓迎します",
       "updated": "2026-07-23"
+    },
+    {
+      "id": "mining_upstream",
+      "role": "鉱山・原料上流(鉄鉱石・原料炭・銅鉱)",
+      "layer": "deep",
+      "map": {
+        "ring": 2,
+        "angle": 30
+      },
+      "companies": [
+        {
+          "name": "BHP・リオティント等の海外資源メジャー",
+          "listing": {
+            "market": "海外(豪英上場)"
+          }
+        },
+        {
+          "name": "日本製鉄の原料権益",
+          "listing": {
+            "market": "非上場(権益・出資形態)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ],
   "edges": [
@@ -1785,6 +1815,21 @@
           "url": "https://www.env.go.jp/recycle/waste/sangyo.html",
           "publisher": "環境省",
           "note": "産業廃棄物の排出及び処理状況等"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_steel_mining",
+      "from": "steel",
+      "to": "mining_upstream",
+      "flow_type": "opex",
+      "label": "鉄鉱石・原料炭の調達費",
+      "sources": [
+        {
+          "url": "https://www.customs.go.jp/toukei/info/",
+          "publisher": "財務省(税関)",
+          "note": "貿易統計(鉄鉱石・原料炭の輸入額)"
         }
       ],
       "updated": "2026-07-24"

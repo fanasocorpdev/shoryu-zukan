@@ -28,6 +28,12 @@
       "order": 2,
       "icon": "💻",
       "description": "事業モデル別の分類"
+    },
+    {
+      "id": "deep",
+      "label": "川上・川下(深掘り)",
+      "order": 90,
+      "icon": "⛏"
     }
   ],
   "nodes": [
@@ -5150,6 +5156,25 @@
       },
       "companies": [],
       "updated": "2026-07-24"
+    },
+    {
+      "id": "offshore",
+      "role": "オフショア・ニアショア開発",
+      "layer": "deep",
+      "map": {
+        "ring": 2,
+        "angle": 25
+      },
+      "companies": [
+        {
+          "name": "ハイブリッドテクノロジーズ",
+          "listing": {
+            "market": "グロース",
+            "code": "4260"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ],
   "edges": [
@@ -5317,6 +5342,21 @@
           "url": "https://cloud.sakura.ad.jp/",
           "publisher": "さくらインターネット",
           "note": "さくらのクラウド公式サービスページ"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_sier_offshore",
+      "from": "sier",
+      "to": "offshore",
+      "flow_type": "opex",
+      "label": "開発のオフショア委託費",
+      "sources": [
+        {
+          "url": "https://hybrid-technologies.co.jp/service/",
+          "publisher": "ハイブリッドテクノロジーズ",
+          "note": "日本×ベトナムのハイブリッド開発サービス"
         }
       ],
       "updated": "2026-07-24"

@@ -28,6 +28,12 @@
       "order": 2,
       "icon": "🤝",
       "description": "提供価値別の分類"
+    },
+    {
+      "id": "deep",
+      "label": "川上・川下(深掘り)",
+      "order": 90,
+      "icon": "⛏"
     }
   ],
   "nodes": [
@@ -3587,6 +3593,31 @@
       "companies": [],
       "note": "分類の修正提案を歓迎します",
       "updated": "2026-07-23"
+    },
+    {
+      "id": "uniform_supply",
+      "role": "ユニフォーム・業務資材",
+      "layer": "deep",
+      "map": {
+        "ring": 2,
+        "angle": 200
+      },
+      "companies": [
+        {
+          "name": "自重堂",
+          "listing": {
+            "market": "スタンダード",
+            "code": "3597"
+          }
+        },
+        {
+          "name": "ミドリ安全",
+          "listing": {
+            "market": "非上場"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ],
   "edges": [
@@ -3707,6 +3738,21 @@
           "url": "https://www.mhlw.go.jp/toukei/list/45-1.html",
           "publisher": "厚生労働省",
           "note": "介護給付費等実態統計(介護サービス費用の悉皆データ)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_facility_uniform",
+      "from": "facility",
+      "to": "uniform_supply",
+      "flow_type": "opex",
+      "label": "制服・業務資材の調達",
+      "sources": [
+        {
+          "url": "https://www.jichodo.co.jp/",
+          "publisher": "自重堂",
+          "note": "ユニフォーム・作業服メーカー公式サイト"
         }
       ],
       "updated": "2026-07-24"

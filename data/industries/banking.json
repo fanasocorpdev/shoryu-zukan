@@ -1831,7 +1831,8 @@
           "note": "医療機関ファクタリング・経営支援"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24",
+      "related_industry": "payments"
     },
     {
       "id": "exchange",
@@ -1866,6 +1867,34 @@
       "companies": [],
       "note": "分類の修正提案を歓迎します",
       "updated": "2026-07-23"
+    },
+    {
+      "id": "guarantee",
+      "role": "信用保証(保証会社)",
+      "layer": "bank",
+      "map": {
+        "ring": 3,
+        "angle": 140
+      },
+      "companies": [
+        {
+          "name": "全国保証",
+          "listing": {
+            "market": "プライム",
+            "code": "7164"
+          },
+          "note": "住宅ローン保証の独立系最大手"
+        },
+        {
+          "name": "イー・ギャランティ",
+          "listing": {
+            "market": "プライム",
+            "code": "8771"
+          },
+          "note": "売掛債権保証"
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ],
   "edges": [
@@ -2219,6 +2248,21 @@
           "publisher": "日本取引所グループ"
         }
       ]
+    },
+    {
+      "id": "opex_borrower_guarantee",
+      "from": "borrower",
+      "to": "guarantee",
+      "flow_type": "opex",
+      "label": "信用保証料(住宅ローン・事業融資)",
+      "sources": [
+        {
+          "url": "https://www.zenshinhoren.or.jp/guarantee-system/hoshoryo/",
+          "publisher": "全国信用保証協会連合会",
+          "note": "信用保証料の解説ページ(9区分の料率体系)"
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ]
 }

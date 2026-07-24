@@ -1,0 +1,423 @@
+{
+  "$schema": "../schema.json",
+  "meta": {
+    "industry_id": "drug_discovery",
+    "industry_name": "創薬・臨床開発",
+    "version": "0.1.0",
+    "updated": "2026-07-24",
+    "description": "創薬・臨床開発の商流を深掘りする子マップ。1剤1,000億円の開発レース — シーズからPMDA承認まで",
+    "tagline": "1剤1,000億円の開発レース — シーズからPMDA承認まで",
+    "parent_industry": "pharma",
+    "map_style": "flow",
+    "guide": {
+      "earn": "新薬1剤の開発には10年超・数百億〜千億円規模がかかる。製薬会社はベンチャーからシーズを導入し(一時金+マイルストン)、治験をCRO・医療機関へ、製造をCDMOへ委託する分業が進む。",
+      "watch": "カネの出どころ(VC・製薬)とシーズの流れ(大学→ベンチャー→製薬)が逆向きに走るのがこの地図の核心。"
+    }
+  },
+  "layers": [
+    {
+      "id": "sponsor",
+      "label": "製薬企業(スポンサー)",
+      "order": 1,
+      "icon": "💊"
+    },
+    {
+      "id": "seeds",
+      "label": "シーズ(大学・ベンチャー)",
+      "order": 2,
+      "icon": "🧬"
+    },
+    {
+      "id": "development",
+      "label": "開発支援(CRO・SMO・医療機関)",
+      "order": 3,
+      "icon": "🏥"
+    },
+    {
+      "id": "manufacturing",
+      "label": "製造受託",
+      "order": 4,
+      "icon": "🏭"
+    },
+    {
+      "id": "regulator",
+      "label": "規制当局",
+      "order": 5,
+      "icon": "🏛"
+    },
+    {
+      "id": "money",
+      "label": "リスクマネー",
+      "order": 6,
+      "icon": "💰"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "pharma_sponsor",
+      "role": "製薬企業(スポンサー)",
+      "layer": "sponsor",
+      "note": "顔ぶれは医薬品マップ参照",
+      "map": {
+        "ring": 0,
+        "angle": 0
+      },
+      "related_industry": "pharma",
+      "companies": [],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "biotech",
+      "role": "創薬ベンチャー",
+      "layer": "seeds",
+      "map": {
+        "ring": 1,
+        "angle": 0
+      },
+      "companies": [
+        {
+          "name": "ペプチドリーム",
+          "listing": {
+            "market": "プライム",
+            "code": "4587"
+          }
+        },
+        {
+          "name": "カルナバイオサイエンス",
+          "listing": {
+            "market": "グロース",
+            "code": "4572"
+          }
+        },
+        {
+          "name": "ラクオリア創薬",
+          "listing": {
+            "market": "グロース",
+            "code": "4579"
+          }
+        },
+        {
+          "name": "ヘリオス",
+          "listing": {
+            "market": "グロース",
+            "code": "4593"
+          }
+        },
+        {
+          "name": "ステムリム",
+          "listing": {
+            "market": "グロース",
+            "code": "4599"
+          }
+        },
+        {
+          "name": "ネクセラファーマ",
+          "listing": {
+            "market": "プライム",
+            "code": "4565"
+          },
+          "note": "旧そーせいグループ"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "academia",
+      "role": "大学・アカデミア(技術移転)",
+      "layer": "seeds",
+      "map": {
+        "ring": 2,
+        "angle": 330
+      },
+      "companies": [
+        {
+          "name": "東京大学TLO",
+          "listing": {
+            "market": "非上場(東大系技術移転機関)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "vc_fund",
+      "role": "創薬VC・ファンド",
+      "layer": "money",
+      "map": {
+        "ring": 2,
+        "angle": 30
+      },
+      "companies": [
+        {
+          "name": "ジャフコ　グループ",
+          "listing": {
+            "market": "プライム",
+            "code": "8595"
+          }
+        },
+        {
+          "name": "ファストトラックイニシアティブ",
+          "listing": {
+            "market": "非上場(ライフサイエンス特化VC)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "cro",
+      "role": "CRO(臨床開発受託)",
+      "layer": "development",
+      "map": {
+        "ring": 1,
+        "angle": 90
+      },
+      "companies": [
+        {
+          "name": "リニカル",
+          "listing": {
+            "market": "スタンダード",
+            "code": "2183"
+          }
+        },
+        {
+          "name": "新日本科学",
+          "listing": {
+            "market": "プライム",
+            "code": "2395"
+          }
+        },
+        {
+          "name": "シミックホールディングス",
+          "listing": {
+            "market": "非上場(MBOにより非公開化)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "smo",
+      "role": "SMO(治験施設支援)",
+      "layer": "development",
+      "map": {
+        "ring": 2,
+        "angle": 120
+      },
+      "companies": [
+        {
+          "name": "EPSホールディングス",
+          "listing": {
+            "market": "非上場(2022年非公開化)"
+          }
+        },
+        {
+          "name": "アイロムグループ",
+          "listing": {
+            "market": "非上場(上場廃止)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "hospital_site",
+      "role": "治験実施医療機関",
+      "layer": "development",
+      "map": {
+        "ring": 1,
+        "angle": 150
+      },
+      "companies": [
+        {
+          "name": "国立がん研究センター",
+          "listing": {
+            "market": "非上場(国立研究開発法人)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "cdmo",
+      "role": "CDMO・原薬(製造受託)",
+      "layer": "manufacturing",
+      "map": {
+        "ring": 1,
+        "angle": 225
+      },
+      "companies": [
+        {
+          "name": "富士フイルムホールディングス",
+          "listing": {
+            "market": "プライム",
+            "code": "4901"
+          },
+          "note": "バイオCDMO(Diosynth)を大型投資で拡大"
+        },
+        {
+          "name": "ＡＧＣ",
+          "listing": {
+            "market": "プライム",
+            "code": "5201"
+          }
+        },
+        {
+          "name": "カネカ",
+          "listing": {
+            "market": "プライム",
+            "code": "4118"
+          }
+        },
+        {
+          "name": "ダイト",
+          "listing": {
+            "market": "プライム",
+            "code": "4577"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "pmda",
+      "role": "PMDA(審査)・厚労省",
+      "layer": "regulator",
+      "map": {
+        "ring": 2,
+        "angle": 195
+      },
+      "companies": [
+        {
+          "name": "医薬品医療機器総合機構(PMDA)",
+          "listing": {
+            "market": "非上場(独立行政法人)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    }
+  ],
+  "edges": [
+    {
+      "id": "capex_vc_biotech",
+      "from": "vc_fund",
+      "to": "biotech",
+      "flow_type": "capex",
+      "label": "創薬ベンチャーへの出資",
+      "sources": [
+        {
+          "url": "https://www.vec.or.jp/survey",
+          "publisher": "ベンチャーエンタープライズセンター(VEC)",
+          "note": "ベンチャーキャピタル等投資動向調査ページ"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "goods_academia_biotech",
+      "from": "academia",
+      "to": "biotech",
+      "flow_type": "goods",
+      "label": "創薬シーズの導出(技術移転)",
+      "sources": [
+        {
+          "url": "https://todaitlo.com/corporate",
+          "publisher": "東京大学TLO",
+          "note": "企業向け技術移転(ライセンス・共同研究)の説明ページ"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "capex_sponsor_biotech",
+      "from": "pharma_sponsor",
+      "to": "biotech",
+      "flow_type": "capex",
+      "label": "ライセンス導入の一時金・マイルストン",
+      "sources": [
+        {
+          "url": "https://www.peptidream.com/ir/blog/000449.html",
+          "publisher": "ペプチドリーム",
+          "note": "契約一時金・マイルストーンの収益構造を自社解説するIRページ"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_sponsor_cro",
+      "from": "pharma_sponsor",
+      "to": "cro",
+      "flow_type": "opex",
+      "label": "臨床試験の委託費",
+      "sources": [
+        {
+          "url": "https://www.jcroa.or.jp/customers/report/",
+          "publisher": "日本CRO協会",
+          "note": "年次業績報告(会員CROの売上等)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_sponsor_site",
+      "from": "pharma_sponsor",
+      "to": "hospital_site",
+      "flow_type": "opex",
+      "label": "治験費用(症例単位)",
+      "sources": [
+        {
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/chiken.html",
+          "publisher": "厚生労働省",
+          "note": "治験の制度説明ページ"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_site_smo",
+      "from": "hospital_site",
+      "to": "smo",
+      "flow_type": "opex",
+      "label": "治験業務の支援委託",
+      "sources": [
+        {
+          "url": "https://www.jasmo.org/business/outline/index.html",
+          "publisher": "日本SMO協会",
+          "note": "「SMOの役割と主な業務」ページ"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_sponsor_cdmo",
+      "from": "pharma_sponsor",
+      "to": "cdmo",
+      "flow_type": "opex",
+      "label": "原薬・製剤の製造委託費",
+      "sources": [
+        {
+          "url": "https://www.fujifilm.com/jp/ja/business/cdmo/medical/bio",
+          "publisher": "富士フイルム",
+          "note": "バイオ医薬品CDMO事業ページ"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_sponsor_pmda",
+      "from": "pharma_sponsor",
+      "to": "pmda",
+      "flow_type": "opex",
+      "label": "承認審査・相談の手数料",
+      "sources": [
+        {
+          "url": "https://www.pmda.go.jp/review-services/drug-reviews/user-fees/0001.html",
+          "publisher": "PMDA",
+          "note": "審査等手数料・対面助言手数料のページ"
+        }
+      ],
+      "updated": "2026-07-24"
+    }
+  ]
+}

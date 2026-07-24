@@ -168,7 +168,18 @@ export function createMapView(container, data) {
       bt.textContent = n.companies.length;
       badge.appendChild(bt);
       g.appendChild(badge);
-      // 企業一覧は右側パネルに表示するため、地図上には社数バッジのみ出す
+
+      // 寄ったときだけ代表1社(時価総額最大)を表示。一覧は右側パネルに集約
+      const top = [...n.companies].sort(
+        (a, b) => (b.financials?.market_cap_oku_jpy ?? -1) - (a.financials?.market_cap_oku_jpy ?? -1))[0];
+      const rep = svgEl("text", {
+        class: "top-company",
+        y: r + 18 + roleLines.length * 17 + 2,
+      });
+      rep.textContent = n.companies.length > 1
+        ? `${top.name} ほか${n.companies.length - 1}社`
+        : top.name;
+      g.appendChild(rep);
     }
     nodesG.appendChild(g);
     nodeEls.set(n.id, g);

@@ -28,6 +28,12 @@
       "order": 2,
       "icon": "🏙️",
       "description": "事業モデル別の分類"
+    },
+    {
+      "id": "deep",
+      "label": "川上・川下(深掘り)",
+      "order": 90,
+      "icon": "⛏"
     }
   ],
   "nodes": [
@@ -1221,6 +1227,30 @@
       "companies": [],
       "note": "分類の修正提案を歓迎します",
       "updated": "2026-07-23"
+    },
+    {
+      "id": "reit",
+      "role": "J-REIT・不動産ファンド",
+      "layer": "deep",
+      "map": {
+        "ring": 2,
+        "angle": 30
+      },
+      "companies": [
+        {
+          "name": "日本ビルファンド投資法人",
+          "listing": {
+            "market": "J-REIT(投資法人・本マップの分母外)"
+          }
+        },
+        {
+          "name": "GLP投資法人",
+          "listing": {
+            "market": "J-REIT(投資法人・本マップの分母外)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ],
   "edges": [
@@ -1311,6 +1341,21 @@
           "url": "https://www.park24.co.jp/ir/financial/monthly.html",
           "publisher": "パーク24",
           "note": "IR月次業績状況(タイムズパーキング売上高等)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "capex_reit_developer",
+      "from": "reit",
+      "to": "developer",
+      "flow_type": "capex",
+      "label": "物件の取得(デベロッパーの出口)",
+      "sources": [
+        {
+          "url": "https://www.ares.or.jp/action/jreit/",
+          "publisher": "不動産証券化協会(ARES)",
+          "note": "Jリート統計情報(J-REIT Databook)"
         }
       ],
       "updated": "2026-07-24"

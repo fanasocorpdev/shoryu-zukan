@@ -1375,6 +1375,40 @@
       "companies": [],
       "note": "分類の修正提案を歓迎します",
       "updated": "2026-07-23"
+    },
+    {
+      "id": "mold_die",
+      "role": "金型・精密プレス部品",
+      "layer": "parts",
+      "map": {
+        "ring": 2,
+        "angle": 300
+      },
+      "companies": [
+        {
+          "name": "三井ハイテック",
+          "listing": {
+            "market": "プライム",
+            "code": "6966"
+          },
+          "note": "EV駆動モーターコアで世界大手"
+        },
+        {
+          "name": "パンチ工業",
+          "listing": {
+            "market": "スタンダード",
+            "code": "6165"
+          }
+        },
+        {
+          "name": "黒田精工",
+          "listing": {
+            "market": "スタンダード",
+            "code": "7726"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ],
   "edges": [
@@ -1649,6 +1683,21 @@
         }
       ],
       "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_mold_oem",
+      "from": "mold_die",
+      "to": "oem_customer",
+      "flow_type": "goods",
+      "label": "金型・モーターコア等の供給",
+      "sources": [
+        {
+          "url": "https://www.mitsui-high-tec.com/products/mk/",
+          "publisher": "三井ハイテック",
+          "note": "モーターコア製品ページ(車載用世界シェア首位)"
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ]
 }

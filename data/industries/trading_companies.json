@@ -1564,6 +1564,42 @@
       "companies": [],
       "note": "分類の修正提案を歓迎します",
       "updated": "2026-07-23"
+    },
+    {
+      "id": "food_resource",
+      "role": "食料・アグリ上流(穀物集荷・農業)",
+      "layer": "upstream",
+      "map": {
+        "ring": 3,
+        "angle": 330
+      },
+      "companies": [
+        {
+          "name": "Gavilon",
+          "listing": {
+            "market": "非上場(米穀物集荷。丸紅が買収後一部売却)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "power_ipp",
+      "role": "海外電力・インフラ事業(IPP)",
+      "layer": "upstream",
+      "map": {
+        "ring": 3,
+        "angle": 30
+      },
+      "companies": [
+        {
+          "name": "三菱商事洋上風力",
+          "listing": {
+            "market": "非上場(三菱商事の洋上風力事業会社)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ],
   "edges": [
@@ -1804,6 +1840,36 @@
           "note": "業界一般構造"
         }
       ]
+    },
+    {
+      "id": "capex_shosha_food",
+      "from": "shosha",
+      "to": "food_resource",
+      "flow_type": "capex",
+      "label": "穀物集荷網・食料上流への投資",
+      "sources": [
+        {
+          "url": "https://www.mitsubishicorp.com/jp/ja/bg/food-industry-group/",
+          "publisher": "三菱商事",
+          "note": "食品産業グループ事業紹介(穀物・食料上流)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "capex_shosha_ipp",
+      "from": "shosha",
+      "to": "power_ipp",
+      "flow_type": "capex",
+      "label": "海外発電・インフラ事業への投資",
+      "sources": [
+        {
+          "url": "https://www.marubeni.com/jp/business/power/",
+          "publisher": "丸紅",
+          "note": "電力本部(海外IPP・発電事業)の事業紹介"
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ]
 }

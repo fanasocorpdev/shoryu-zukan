@@ -1337,7 +1337,8 @@
           "note": "細胞治療・医療機器(旧サイトリ)"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24",
+      "related_industry": "drug_discovery"
     },
     {
       "id": "cro",
@@ -1446,7 +1447,8 @@
           "note": "治験支援"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24",
+      "related_industry": "drug_discovery"
     },
     {
       "id": "cdmo",
@@ -1534,6 +1536,32 @@
       "companies": [],
       "note": "分類の修正提案を歓迎します",
       "updated": "2026-07-23"
+    },
+    {
+      "id": "generic",
+      "role": "ジェネリック医薬品メーカー",
+      "layer": "maker",
+      "map": {
+        "ring": 2,
+        "angle": 230
+      },
+      "companies": [
+        {
+          "name": "サワイグループホールディングス",
+          "listing": {
+            "market": "プライム",
+            "code": "4887"
+          }
+        },
+        {
+          "name": "東和薬品",
+          "listing": {
+            "market": "プライム",
+            "code": "4553"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ],
   "edges": [
@@ -1829,6 +1857,21 @@
         }
       ],
       "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_generic_wholesaler",
+      "from": "generic",
+      "to": "wholesaler",
+      "flow_type": "goods",
+      "label": "後発医薬品の供給",
+      "sources": [
+        {
+          "url": "https://www.jga.gr.jp/news/250926_005762.html",
+          "publisher": "日本ジェネリック製薬協会",
+          "note": "ジェネリック医薬品数量シェア分析結果(令和7年度第1四半期)"
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ]
 }

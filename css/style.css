@@ -602,3 +602,15 @@ svg.focus .edge.lit path.line { stroke-width: 3.6; }
   pointer-events: none;
 }
 .card:hover .card-photo { filter: sepia(.12) saturate(.9) contrast(.97); opacity: 1; }
+
+/* ---- セマンティックズーム: 寄った時の強調 ---- */
+.node .top-company {
+  opacity: 0; transition: opacity .3s; pointer-events: none;
+  text-anchor: middle; font-size: 10.5px; fill: var(--ink-soft);
+  paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round;
+}
+svg.near .node .top-company { opacity: 1; }
+.node .count-badge circle { transition: r .25s; }
+.node .count-badge text { transition: font-size .25s; }
+svg.near .node .count-badge circle { r: 14px; }
+svg.near .node .count-badge text { font-size: 13px; }

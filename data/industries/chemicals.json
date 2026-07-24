@@ -28,6 +28,12 @@
       "order": 2,
       "icon": "🧪",
       "description": "事業領域別の分類"
+    },
+    {
+      "id": "deep",
+      "label": "川上・川下(深掘り)",
+      "order": 90,
+      "icon": "⛏"
     }
   ],
   "nodes": [
@@ -1799,6 +1805,37 @@
       "companies": [],
       "note": "分類の修正提案を歓迎します",
       "updated": "2026-07-23"
+    },
+    {
+      "id": "plastic_processing",
+      "role": "樹脂加工・成形品",
+      "layer": "deep",
+      "map": {
+        "ring": 2,
+        "angle": 18
+      },
+      "companies": [
+        {
+          "name": "三光合成",
+          "listing": {
+            "market": "プライム",
+            "code": "7888"
+          }
+        },
+        {
+          "name": "天馬",
+          "listing": {
+            "market": "非上場(MBOにより非公開化)"
+          }
+        },
+        {
+          "name": "タキロンシーアイ",
+          "listing": {
+            "market": "非上場(伊藤忠TOBにより非公開化)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ],
   "edges": [
@@ -1934,6 +1971,21 @@
           "url": "https://www.meti.go.jp/statistics/tyo/seidou/result-3.html",
           "publisher": "経済産業省",
           "note": "生産動態統計「調査の結果」(化学工業・繊維を含む)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "goods_general_plastic",
+      "from": "general_chemicals",
+      "to": "plastic_processing",
+      "flow_type": "goods",
+      "label": "樹脂原料の供給",
+      "sources": [
+        {
+          "url": "https://www.jpif.gr.jp/statistics/",
+          "publisher": "日本プラスチック工業連盟",
+          "note": "プラスチック原材料・製品の生産・販売実績統計"
         }
       ],
       "updated": "2026-07-24"

@@ -2046,6 +2046,33 @@
       "companies": [],
       "note": "分類の修正提案を歓迎します",
       "updated": "2026-07-23"
+    },
+    {
+      "id": "pb_oem",
+      "role": "PB受託製造(OEM)",
+      "layer": "supply",
+      "map": {
+        "ring": 3,
+        "angle": 210
+      },
+      "companies": [
+        {
+          "name": "わらべや日洋ホールディングス",
+          "listing": {
+            "market": "プライム",
+            "code": "2918"
+          },
+          "note": "セブンプレミアム等PB中食の受託大手"
+        },
+        {
+          "name": "寿スピリッツ",
+          "listing": {
+            "market": "プライム",
+            "code": "2222"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ],
   "edges": [
@@ -2374,6 +2401,21 @@
           "publisher": "経済産業省 商業動態統計"
         }
       ]
+    },
+    {
+      "id": "opex_gms_pboem",
+      "from": "gms_super",
+      "to": "pb_oem",
+      "flow_type": "opex",
+      "label": "PB商品の製造委託費",
+      "sources": [
+        {
+          "url": "https://7premium.jp/7premium",
+          "publisher": "セブン&アイ・ホールディングス",
+          "note": "セブンプレミアム(PB)の公式説明ページ"
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ]
 }

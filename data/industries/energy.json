@@ -28,6 +28,12 @@
       "order": 2,
       "icon": "⚡",
       "description": "エネルギー源別の分類"
+    },
+    {
+      "id": "deep",
+      "label": "川上・川下(深掘り)",
+      "order": 90,
+      "icon": "⛏"
     }
   ],
   "nodes": [
@@ -579,6 +585,50 @@
       "companies": [],
       "note": "分類の修正提案を歓迎します",
       "updated": "2026-07-23"
+    },
+    {
+      "id": "grid_network",
+      "role": "送配電・ガス導管(ネットワーク部門)",
+      "layer": "deep",
+      "map": {
+        "ring": 2,
+        "angle": 36
+      },
+      "companies": [
+        {
+          "name": "東京電力パワーグリッド",
+          "listing": {
+            "market": "非上場(東京電力HD傘下)"
+          }
+        },
+        {
+          "name": "大阪ガスネットワーク",
+          "listing": {
+            "market": "非上場(大阪ガス傘下)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "battery_storage",
+      "role": "系統用蓄電池・調整力",
+      "layer": "deep",
+      "map": {
+        "ring": 2,
+        "angle": 252
+      },
+      "companies": [
+        {
+          "name": "住友電気工業",
+          "listing": {
+            "market": "プライム",
+            "code": "5802"
+          },
+          "note": "レドックスフロー電池"
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ],
   "edges": [
@@ -671,6 +721,36 @@
           "url": "https://journal.jogmec.go.jp/oilgas/nglng/index.html",
           "publisher": "JOGMEC",
           "note": "天然ガス・LNG関連情報(スポット価格・統計)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_power_gridnet",
+      "from": "electric_power",
+      "to": "grid_network",
+      "flow_type": "opex",
+      "label": "託送料金",
+      "sources": [
+        {
+          "url": "https://www.enecho.meti.go.jp/category/electricity_and_gas/electric/wheeling_charges.html",
+          "publisher": "資源エネルギー庁",
+          "note": "「託送料金について」制度ページ"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_power_battery",
+      "from": "electric_power",
+      "to": "battery_storage",
+      "flow_type": "opex",
+      "label": "調整力・容量市場での調達",
+      "sources": [
+        {
+          "url": "https://www.occto.or.jp/capacity-market/",
+          "publisher": "電力広域的運営推進機関(OCCTO)",
+          "note": "容量市場の公式解説ページ"
         }
       ],
       "updated": "2026-07-24"

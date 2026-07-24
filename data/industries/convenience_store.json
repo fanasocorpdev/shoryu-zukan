@@ -668,6 +668,32 @@
         }
       ],
       "updated": "2026-07-23"
+    },
+    {
+      "id": "packaging",
+      "role": "包装資材・食品容器",
+      "layer": "manufacturing",
+      "map": {
+        "ring": 2,
+        "angle": 195
+      },
+      "companies": [
+        {
+          "name": "エフピコ",
+          "listing": {
+            "market": "プライム",
+            "code": "7947"
+          }
+        },
+        {
+          "name": "中央化学",
+          "listing": {
+            "market": "非上場(上場廃止)"
+          },
+          "note": "食品容器大手"
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ],
   "edges": [
@@ -1003,6 +1029,21 @@
         }
       ],
       "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_vendor_packaging",
+      "from": "food_vendor",
+      "to": "packaging",
+      "flow_type": "opex",
+      "label": "弁当容器・包材の調達費",
+      "sources": [
+        {
+          "url": "https://www.fpco.jp/product.html",
+          "publisher": "エフピコ",
+          "note": "弁当容器・惣菜容器等の製品情報ページ"
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ]
 }

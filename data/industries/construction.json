@@ -28,6 +28,12 @@
       "order": 2,
       "icon": "🏗️",
       "description": "工事分野別の分類"
+    },
+    {
+      "id": "deep",
+      "label": "川上・川下(深掘り)",
+      "order": 90,
+      "icon": "⛏"
     }
   ],
   "nodes": [
@@ -2007,6 +2013,65 @@
       "companies": [],
       "note": "分類の修正提案を歓迎します",
       "updated": "2026-07-23"
+    },
+    {
+      "id": "machinery_rental",
+      "role": "建機レンタル",
+      "layer": "deep",
+      "map": {
+        "ring": 2,
+        "angle": 40
+      },
+      "companies": [
+        {
+          "name": "カナモト",
+          "listing": {
+            "market": "プライム",
+            "code": "9678"
+          }
+        },
+        {
+          "name": "レント",
+          "listing": {
+            "market": "スタンダード",
+            "code": "372A"
+          }
+        },
+        {
+          "name": "アクティオ",
+          "listing": {
+            "market": "非上場(建機レンタル大手)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "ready_mixed",
+      "role": "生コン・基礎杭",
+      "layer": "deep",
+      "map": {
+        "ring": 2,
+        "angle": 90
+      },
+      "companies": [
+        {
+          "name": "三谷セキサン",
+          "listing": {
+            "market": "スタンダード",
+            "code": "5273"
+          }
+        },
+        {
+          "name": "アジアパイルホールディングス",
+          "listing": {
+            "market": "プライム",
+            "code": "5288"
+          },
+          "note": "ジャパンパイルの持株会社"
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ],
   "edges": [
@@ -2098,6 +2163,36 @@
           "url": "https://www.meti.go.jp/statistics/tyo/seidou/index.html",
           "publisher": "経済産業省",
           "note": "生産動態統計調査(窯業・建材統計月報を含む)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_gc_rental",
+      "from": "general_contractor",
+      "to": "machinery_rental",
+      "flow_type": "opex",
+      "label": "建設機械のレンタル料",
+      "sources": [
+        {
+          "url": "https://www.kanamoto.co.jp/business/b_rental/",
+          "publisher": "カナモト",
+          "note": "建機レンタル事業概要"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_gc_readymixed",
+      "from": "general_contractor",
+      "to": "ready_mixed",
+      "flow_type": "opex",
+      "label": "生コン・杭工事の調達",
+      "sources": [
+        {
+          "url": "https://www.zennama.or.jp/3-toukei/getuji/index.html",
+          "publisher": "全国生コンクリート工業組合連合会",
+          "note": "生コンクリート月次出荷実績統計"
         }
       ],
       "updated": "2026-07-24"

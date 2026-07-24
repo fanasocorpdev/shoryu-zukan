@@ -28,6 +28,12 @@
       "order": 2,
       "icon": "🚆",
       "description": "輸送モード別の分類"
+    },
+    {
+      "id": "deep",
+      "label": "川上・川下(深掘り)",
+      "order": 90,
+      "icon": "⛏"
     }
   ],
   "nodes": [
@@ -1047,6 +1053,79 @@
       "companies": [],
       "note": "分類の修正提案を歓迎します",
       "updated": "2026-07-23"
+    },
+    {
+      "id": "rolling_stock",
+      "role": "鉄道車両メーカー",
+      "layer": "deep",
+      "map": {
+        "ring": 2,
+        "angle": 25
+      },
+      "companies": [
+        {
+          "name": "近畿車輛",
+          "listing": {
+            "market": "スタンダード",
+            "code": "7122"
+          }
+        },
+        {
+          "name": "日本車輌製造",
+          "listing": {
+            "market": "プライム",
+            "code": "7102"
+          }
+        },
+        {
+          "name": "日立製作所",
+          "listing": {
+            "market": "プライム",
+            "code": "6501"
+          },
+          "note": "鉄道ビジネスユニット(英国等で車両製造)"
+        },
+        {
+          "name": "川崎重工業",
+          "listing": {
+            "market": "プライム",
+            "code": "7012"
+          },
+          "note": "川崎車両"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "port_terminal",
+      "role": "港湾運送・ターミナル荷役",
+      "layer": "deep",
+      "map": {
+        "ring": 2,
+        "angle": 215
+      },
+      "companies": [
+        {
+          "name": "上組",
+          "listing": {
+            "market": "プライム",
+            "code": "9364"
+          }
+        },
+        {
+          "name": "名港海運",
+          "listing": {
+            "market": "名証上場(東証外のため分母外)"
+          }
+        },
+        {
+          "name": "伊勢湾海運",
+          "listing": {
+            "market": "名証上場(東証外のため分母外)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ],
   "edges": [
@@ -1183,6 +1262,51 @@
           "url": "https://sajn.or.jp/info/%E9%80%A0%E8%88%B9%E9%96%A2%E4%BF%82%E8%B3%87%E6%96%99-2026%E5%B9%B43%E6%9C%88-%E4%BC%9A%E5%93%A1%E5%90%91%E3%81%91-%E4%B8%80%E8%88%AC%E5%90%91%E3%81%91pdf%E7%89%88%E3%82%92%E7%99%BA%E8%A1%8C/",
           "publisher": "日本造船工業会",
           "note": "造船関係資料2026年3月版(新造船受注量等の統計)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "capex_jr_rollingstock",
+      "from": "jr",
+      "to": "rolling_stock",
+      "flow_type": "capex",
+      "label": "鉄道車両の新造発注",
+      "sources": [
+        {
+          "url": "https://www.mlit.go.jp/k-toukei/tetsudousyaryou.html",
+          "publisher": "国土交通省",
+          "note": "鉄道車両等生産動態統計調査"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "capex_private_rollingstock",
+      "from": "private_rail",
+      "to": "rolling_stock",
+      "flow_type": "capex",
+      "label": "車両の新造・更新発注",
+      "sources": [
+        {
+          "url": "https://www.tetsushako.or.jp/data02.html",
+          "publisher": "日本鉄道車輌工業会",
+          "note": "国内車両生産両数(JR/民鉄の需要先別)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_shipping_port",
+      "from": "shipping",
+      "to": "port_terminal",
+      "flow_type": "opex",
+      "label": "港湾荷役・ターミナル利用料",
+      "sources": [
+        {
+          "url": "https://www.mlit.go.jp/k-toukei/kouwan.html",
+          "publisher": "国土交通省",
+          "note": "港湾調査(港湾統計)"
         }
       ],
       "updated": "2026-07-24"

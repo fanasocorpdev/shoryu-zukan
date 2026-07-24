@@ -1430,6 +1430,64 @@
         }
       ],
       "updated": "2026-07-23"
+    },
+    {
+      "id": "grid",
+      "role": "送配電網(一般送配電事業者)",
+      "layer": "utility",
+      "note": "東京電力PG・関西電力送配電など各エリアの一般送配電事業者(いずれも非上場子会社)",
+      "map": {
+        "ring": 3,
+        "angle": 75
+      },
+      "companies": [
+        {
+          "name": "東京電力パワーグリッド",
+          "listing": {
+            "market": "非上場(東京電力HD傘下)"
+          }
+        },
+        {
+          "name": "関西電力送配電",
+          "listing": {
+            "market": "非上場(関西電力傘下)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "optical_parts",
+      "role": "光モジュール・光ファイバー部材",
+      "layer": "it_equipment",
+      "map": {
+        "ring": 3,
+        "angle": 250
+      },
+      "companies": [
+        {
+          "name": "フジクラ",
+          "listing": {
+            "market": "プライム",
+            "code": "5803"
+          }
+        },
+        {
+          "name": "住友電気工業",
+          "listing": {
+            "market": "プライム",
+            "code": "5802"
+          }
+        },
+        {
+          "name": "古河電気工業",
+          "listing": {
+            "market": "プライム",
+            "code": "5801"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ],
   "edges": [
@@ -2024,6 +2082,36 @@
         }
       ],
       "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_power_grid",
+      "from": "power_utility",
+      "to": "grid",
+      "flow_type": "opex",
+      "label": "託送料金(送配電網の利用料)",
+      "sources": [
+        {
+          "url": "https://www.egc.meti.go.jp/info/revenue_cap/",
+          "publisher": "電力・ガス取引監視等委員会",
+          "note": "託送料金とレベニューキャップ制度の解説ページ"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "goods_optical_network",
+      "from": "optical_parts",
+      "to": "network_vendor",
+      "flow_type": "goods",
+      "label": "光モジュール・ファイバーの供給",
+      "sources": [
+        {
+          "url": "https://sumitomoelectric.com/jp/products/optigate/optical-fiber",
+          "publisher": "住友電気工業",
+          "note": "光ファイバ・光ケーブル製品ページ"
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ]
 }

@@ -833,7 +833,8 @@
           "note": "ウェハ再生"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24",
+      "related_industry": "semiconductor_materials"
     },
     {
       "id": "materials_chem",
@@ -1046,7 +1047,8 @@
           "note": "石英部品・分析機器"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24",
+      "related_industry": "semiconductor_materials"
     },
     {
       "id": "equipment_maker",
@@ -1504,7 +1506,8 @@
           "note": "リードフレーム金型"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-24",
+      "related_industry": "semiconductor_materials"
     },
     {
       "id": "gov",
@@ -1592,6 +1595,32 @@
         }
       ],
       "updated": "2026-07-23"
+    },
+    {
+      "id": "poly_si",
+      "role": "多結晶シリコン・上流素材",
+      "layer": "materials",
+      "map": {
+        "ring": 3,
+        "angle": 205
+      },
+      "companies": [
+        {
+          "name": "トクヤマ",
+          "listing": {
+            "market": "プライム",
+            "code": "4043"
+          }
+        },
+        {
+          "name": "大阪チタニウムテクノロジーズ",
+          "listing": {
+            "market": "プライム",
+            "code": "5726"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ],
   "edges": [
@@ -1975,6 +2004,21 @@
         }
       ],
       "updated": "2026-07-23"
+    },
+    {
+      "id": "goods_polysi_wafer",
+      "from": "poly_si",
+      "to": "materials_wafer",
+      "flow_type": "goods",
+      "label": "多結晶シリコンの供給(ウェーハ原料)",
+      "sources": [
+        {
+          "url": "https://www.tokuyama.co.jp/products/electronic_materials/polysilicon.html",
+          "publisher": "トクヤマ",
+          "note": "高純度多結晶シリコン製品ページ(半導体用ウエハー向け)"
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ]
 }

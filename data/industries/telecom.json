@@ -666,6 +666,31 @@
         }
       ],
       "updated": "2026-07-23"
+    },
+    {
+      "id": "cdn_content",
+      "role": "動画配信・コンテンツ(通信の中身)",
+      "layer": "device",
+      "map": {
+        "ring": 3,
+        "angle": 300
+      },
+      "companies": [
+        {
+          "name": "Ｕ－ＮＥＸＴ　ＨＯＬＤＩＮＧＳ",
+          "listing": {
+            "market": "プライム",
+            "code": "9418"
+          }
+        },
+        {
+          "name": "ネットフリックス",
+          "listing": {
+            "market": "海外(米NASDAQ上場)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ],
   "edges": [
@@ -890,6 +915,21 @@
         }
       ],
       "updated": "2026-07-23"
+    },
+    {
+      "id": "opex_subscriber_content",
+      "from": "subscriber",
+      "to": "cdn_content",
+      "flow_type": "opex",
+      "label": "動画・音楽サブスク料金",
+      "sources": [
+        {
+          "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r07/html/nd217400.html",
+          "publisher": "総務省",
+          "note": "情報通信白書「動画配信・音楽配信・電子書籍」市場規模"
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ]
 }

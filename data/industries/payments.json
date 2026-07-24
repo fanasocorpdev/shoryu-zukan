@@ -1,0 +1,470 @@
+{
+  "$schema": "../schema.json",
+  "meta": {
+    "industry_id": "payments",
+    "industry_name": "決済・カード",
+    "version": "0.1.0",
+    "updated": "2026-07-24",
+    "description": "決済・カードの商流を深掘りする子マップ。1回のタッチの裏側 — 手数料が流れる見えない配管",
+    "tagline": "1回のタッチの裏側 — 手数料が流れる見えない配管",
+    "parent_industry": "banking",
+    "map_style": "flow",
+    "guide": {
+      "earn": "キャッシュレス決済のたびに、加盟店が払う数%の手数料がアクワイアラ→イシュア→国際ブランドへと分配される。発行側はリボ・分割の金利収入、決済代行は取扱高×料率で稼ぐ。",
+      "watch": "「カネOPEX」フィルタで、消費者は年会費以外ほぼ払わず、加盟店側が手数料を負担している構造を確かめよう。"
+    }
+  },
+  "layers": [
+    {
+      "id": "user",
+      "label": "消費者",
+      "order": 1,
+      "icon": "🧑"
+    },
+    {
+      "id": "merchant",
+      "label": "加盟店",
+      "order": 2,
+      "icon": "🏪"
+    },
+    {
+      "id": "issuing",
+      "label": "カード発行(イシュア)",
+      "order": 3,
+      "icon": "💳"
+    },
+    {
+      "id": "acquiring",
+      "label": "加盟店管理(アクワイアラ)",
+      "order": 4,
+      "icon": "🤝"
+    },
+    {
+      "id": "network",
+      "label": "ブランド・ネットワーク",
+      "order": 5,
+      "icon": "🌐"
+    },
+    {
+      "id": "infra",
+      "label": "端末・決済代行",
+      "order": 6,
+      "icon": "🖥"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "merchant",
+      "role": "加盟店(小売・飲食・EC)",
+      "layer": "merchant",
+      "note": "あらゆる店舗・ECが加盟店。手数料負担の起点",
+      "map": {
+        "ring": 0,
+        "angle": 0
+      },
+      "companies": [],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "consumer",
+      "role": "消費者",
+      "layer": "user",
+      "map": {
+        "ring": 1,
+        "angle": 0
+      },
+      "companies": [],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "card_issuer",
+      "role": "カード発行会社(イシュア)",
+      "layer": "issuing",
+      "map": {
+        "ring": 1,
+        "angle": 300
+      },
+      "companies": [
+        {
+          "name": "クレディセゾン",
+          "listing": {
+            "market": "プライム",
+            "code": "8253"
+          }
+        },
+        {
+          "name": "イオンフィナンシャルサービス",
+          "listing": {
+            "market": "プライム",
+            "code": "8570"
+          }
+        },
+        {
+          "name": "ジャックス",
+          "listing": {
+            "market": "プライム",
+            "code": "8584"
+          }
+        },
+        {
+          "name": "オリエントコーポレーション",
+          "listing": {
+            "market": "プライム",
+            "code": "8585"
+          }
+        },
+        {
+          "name": "三菱UFJニコス",
+          "listing": {
+            "market": "非上場(MUFG傘下)"
+          }
+        },
+        {
+          "name": "三井住友カード",
+          "listing": {
+            "market": "非上場(SMBCグループ)"
+          }
+        },
+        {
+          "name": "楽天カード",
+          "listing": {
+            "market": "非上場(楽天グループ)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "acquirer",
+      "role": "アクワイアラ(加盟店管理)",
+      "layer": "acquiring",
+      "map": {
+        "ring": 1,
+        "angle": 240
+      },
+      "companies": [
+        {
+          "name": "ＧＭＯフィナンシャルゲート",
+          "listing": {
+            "market": "プライム",
+            "code": "4051"
+          }
+        },
+        {
+          "name": "三井住友カード",
+          "listing": {
+            "market": "非上場(SMBCグループ)"
+          }
+        },
+        {
+          "name": "SBペイメントサービス",
+          "listing": {
+            "market": "非上場(ソフトバンク傘下)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "brand_network",
+      "role": "国際ブランド",
+      "layer": "network",
+      "map": {
+        "ring": 2,
+        "angle": 270
+      },
+      "companies": [
+        {
+          "name": "JCB",
+          "listing": {
+            "market": "非上場"
+          }
+        },
+        {
+          "name": "Visa",
+          "listing": {
+            "market": "海外(米NYSE上場)"
+          }
+        },
+        {
+          "name": "Mastercard",
+          "listing": {
+            "market": "海外(米NYSE上場)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "qr_wallet",
+      "role": "QR決済・ウォレット",
+      "layer": "issuing",
+      "map": {
+        "ring": 1,
+        "angle": 60
+      },
+      "companies": [
+        {
+          "name": "PayPay",
+          "listing": {
+            "market": "非上場(ソフトバンク・SBG系)"
+          }
+        },
+        {
+          "name": "楽天ペイメント",
+          "listing": {
+            "market": "非上場(楽天グループ)"
+          }
+        },
+        {
+          "name": "NTTドコモ",
+          "listing": {
+            "market": "非上場(NTT傘下・d払い)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "psp_gateway",
+      "role": "決済代行(PSP)",
+      "layer": "infra",
+      "map": {
+        "ring": 1,
+        "angle": 120
+      },
+      "companies": [
+        {
+          "name": "ＧＭＯペイメントゲートウェイ",
+          "listing": {
+            "market": "プライム",
+            "code": "3769"
+          }
+        },
+        {
+          "name": "デジタルガレージ",
+          "listing": {
+            "market": "プライム",
+            "code": "4819"
+          }
+        },
+        {
+          "name": "ＲＯＢＯＴ　ＰＡＹＭＥＮＴ",
+          "listing": {
+            "market": "グロース",
+            "code": "4374"
+          }
+        },
+        {
+          "name": "ソニーペイメントサービス",
+          "listing": {
+            "market": "非上場(ソニーグループ系)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "pos_terminal",
+      "role": "決済端末・POS",
+      "layer": "infra",
+      "map": {
+        "ring": 1,
+        "angle": 180
+      },
+      "companies": [
+        {
+          "name": "東芝テック",
+          "listing": {
+            "market": "プライム",
+            "code": "6588"
+          }
+        },
+        {
+          "name": "ビリングシステム",
+          "listing": {
+            "market": "グロース",
+            "code": "3623"
+          }
+        },
+        {
+          "name": "NECプラットフォームズ",
+          "listing": {
+            "market": "非上場(NEC傘下)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "bank_network",
+      "role": "銀行口座・全銀ネット",
+      "layer": "network",
+      "map": {
+        "ring": 2,
+        "angle": 150
+      },
+      "related_industry": "banking",
+      "companies": [
+        {
+          "name": "ゆうちょ銀行",
+          "listing": {
+            "market": "プライム",
+            "code": "7182"
+          }
+        },
+        {
+          "name": "セブン銀行",
+          "listing": {
+            "market": "プライム",
+            "code": "8410"
+          }
+        },
+        {
+          "name": "全国銀行資金決済ネットワーク",
+          "listing": {
+            "market": "非上場(一般社団法人)"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    }
+  ],
+  "edges": [
+    {
+      "id": "opex_consumer_merchant",
+      "from": "consumer",
+      "to": "merchant",
+      "flow_type": "opex",
+      "label": "キャッシュレス決済での支払い",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/press/2025/03/20260331006/20260331006.html",
+          "publisher": "経済産業省",
+          "note": "2025年のキャッシュレス決済比率(58.0%・162.7兆円)の公表ページ"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_merchant_acquirer",
+      "from": "merchant",
+      "to": "acquirer",
+      "flow_type": "opex",
+      "label": "加盟店手数料",
+      "sources": [
+        {
+          "url": "https://www.jftc.go.jp/houdou/pressrelease/2023/jun/230601creditcard.html",
+          "publisher": "公正取引委員会",
+          "note": "クレジットカードの加盟店手数料の配分率の公開について"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_acquirer_issuer",
+      "from": "acquirer",
+      "to": "card_issuer",
+      "flow_type": "opex",
+      "label": "インターチェンジフィー",
+      "sources": [
+        {
+          "url": "https://www.jftc.go.jp/houdou/pressrelease/2022/nov/221130creditcard.html",
+          "publisher": "公正取引委員会",
+          "note": "インターチェンジフィーの標準料率の公開について"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_issuer_brand",
+      "from": "card_issuer",
+      "to": "brand_network",
+      "flow_type": "opex",
+      "label": "ブランドフィー",
+      "sources": [
+        {
+          "url": "https://www.jftc.go.jp/houdou/pressrelease/2022/apr/220408_pressrelease2.pdf",
+          "publisher": "公正取引委員会",
+          "note": "クレジットカードの取引に関する実態調査報告書(ブランドフィー含む)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_consumer_issuer",
+      "from": "consumer",
+      "to": "card_issuer",
+      "flow_type": "opex",
+      "label": "年会費・リボ/分割手数料",
+      "sources": [
+        {
+          "url": "https://www.j-credit.or.jp/information/statistics/index.html",
+          "publisher": "日本クレジット協会",
+          "note": "クレジット関連統計(信用供与額・発行枚数等)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_merchant_psp",
+      "from": "merchant",
+      "to": "psp_gateway",
+      "flow_type": "opex",
+      "label": "決済代行手数料",
+      "sources": [
+        {
+          "url": "https://www.gmo-pg.com/service/",
+          "publisher": "GMOペイメントゲートウェイ",
+          "note": "決済代行サービス一覧ページ"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "capex_merchant_pos",
+      "from": "merchant",
+      "to": "pos_terminal",
+      "flow_type": "capex",
+      "label": "決済端末・POSの導入",
+      "sources": [
+        {
+          "url": "https://www.toshibatec.co.jp/product/pos-store/",
+          "publisher": "東芝テック",
+          "note": "POS・店舗システム商品情報ページ"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_consumer_qr",
+      "from": "consumer",
+      "to": "qr_wallet",
+      "flow_type": "opex",
+      "label": "チャージ・QR決済",
+      "sources": [
+        {
+          "url": "https://paymentsjapan.or.jp/publications/research/code-payment/",
+          "publisher": "キャッシュレス推進協議会",
+          "note": "コード決済利用動向調査(店舗利用額・チャージ残高等)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_qr_bank",
+      "from": "qr_wallet",
+      "to": "bank_network",
+      "flow_type": "opex",
+      "label": "銀行接続・チャージ(口座連携)",
+      "sources": [
+        {
+          "url": "https://www.zengin-net.jp/zengin_system/",
+          "publisher": "全国銀行資金決済ネットワーク",
+          "note": "全銀システムの公式解説(資金移動業者への参加拡大を含む)"
+        }
+      ],
+      "updated": "2026-07-24"
+    }
+  ]
+}

@@ -2611,6 +2611,72 @@
       "companies": [],
       "note": "分類の修正提案を歓迎します",
       "updated": "2026-07-23"
+    },
+    {
+      "id": "agriculture",
+      "role": "農業・畜産・水産(国内生産者)",
+      "layer": "raw",
+      "map": {
+        "ring": 3,
+        "angle": 150
+      },
+      "companies": [
+        {
+          "name": "ホクト",
+          "listing": {
+            "market": "プライム",
+            "code": "1379"
+          }
+        },
+        {
+          "name": "サカタのタネ",
+          "listing": {
+            "market": "プライム",
+            "code": "1377"
+          }
+        },
+        {
+          "name": "ベルグアース",
+          "listing": {
+            "market": "スタンダード",
+            "code": "1383"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "food_packaging",
+      "role": "食品包装・容器(缶・トレー・フィルム)",
+      "layer": "raw",
+      "map": {
+        "ring": 3,
+        "angle": 110
+      },
+      "companies": [
+        {
+          "name": "東洋製罐グループホールディングス",
+          "listing": {
+            "market": "プライム",
+            "code": "5901"
+          }
+        },
+        {
+          "name": "ホッカンホールディングス",
+          "listing": {
+            "market": "プライム",
+            "code": "5902"
+          }
+        },
+        {
+          "name": "エフピコ",
+          "listing": {
+            "market": "プライム",
+            "code": "7947"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ],
   "edges": [
@@ -2897,6 +2963,36 @@
           "note": "業界一般構造"
         }
       ]
+    },
+    {
+      "id": "goods_agri_maker",
+      "from": "agriculture",
+      "to": "food_maker",
+      "flow_type": "goods",
+      "label": "国産農畜水産原料の供給",
+      "sources": [
+        {
+          "url": "https://www.maff.go.jp/j/tokei/kouhyou/nougyou_sansyutu/",
+          "publisher": "農林水産省",
+          "note": "生産農業所得統計(農業総産出額)"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_maker_packaging",
+      "from": "food_maker",
+      "to": "food_packaging",
+      "flow_type": "opex",
+      "label": "缶・容器・包材の調達費",
+      "sources": [
+        {
+          "url": "https://www.toyo-seikan.co.jp/product/",
+          "publisher": "東洋製罐",
+          "note": "缶・PETボトル・パウチ等の容器製品情報"
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ]
 }

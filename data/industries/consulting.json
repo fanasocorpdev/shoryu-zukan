@@ -28,6 +28,12 @@
       "order": 2,
       "icon": "💼",
       "description": "系譜・得意領域ごとの大分類"
+    },
+    {
+      "id": "deep",
+      "label": "川上・川下(深掘り)",
+      "order": 90,
+      "icon": "⛏"
     }
   ],
   "nodes": [
@@ -484,6 +490,25 @@
         }
       ],
       "updated": "2026-07-23"
+    },
+    {
+      "id": "subcontract",
+      "role": "協力会社・フリーランス人材",
+      "layer": "deep",
+      "map": {
+        "ring": 2,
+        "angle": 210
+      },
+      "companies": [
+        {
+          "name": "みらいワークス",
+          "listing": {
+            "market": "グロース",
+            "code": "6563"
+          }
+        }
+      ],
+      "updated": "2026-07-24"
     }
   ],
   "edges": [
@@ -574,6 +599,21 @@
           "url": "https://www.mercer.com/ja-jp/solutions/talent-and-rewards/hr-systems-transformation/",
           "publisher": "マーサージャパン",
           "note": "人事制度変革コンサルティングのサービスページ"
+        }
+      ],
+      "updated": "2026-07-24"
+    },
+    {
+      "id": "opex_sogo_subcontract",
+      "from": "sogo",
+      "to": "subcontract",
+      "flow_type": "opex",
+      "label": "外注費(フリーコンサル・協力会社)",
+      "sources": [
+        {
+          "url": "https://mirai-works.co.jp/business/",
+          "publisher": "みらいワークス",
+          "note": "フリーコンサルタントの業務委託マッチング事業"
         }
       ],
       "updated": "2026-07-24"
