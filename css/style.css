@@ -176,7 +176,8 @@ button { font-family: inherit; cursor: pointer; }
 .topbar .home-link:hover { color: var(--gold); border-color: var(--gold); }
 .topbar .share-btn { font-family: inherit; cursor: pointer; white-space: nowrap; }
 .topbar h1 { font-size: 1.25rem; }
-.topbar h1 .tag { font-size: .75rem; color: var(--ink-soft); font-weight: normal; margin-left: 10px; }
+.topbar .title-wrap { display: flex; align-items: baseline; min-width: 0; }
+.topbar .tag { font-size: .75rem; color: var(--ink-soft); font-weight: normal; margin-left: 10px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 #map-search {
   font-family: inherit; font-size: .88rem; padding: 6px 12px;
   border: 1.5px solid var(--paper-edge); border-radius: 999px;
@@ -501,11 +502,83 @@ svg.near .node .companies { opacity: 1; }
 @media (max-width: 720px) {
   .topbar { padding: 8px 10px; gap: 8px; }
   .topbar h1 { font-size: 1.02rem; }
-  .topbar h1 .tag { display: none; }
-  .topbar .home-link { padding: 4px 8px; font-size: .78rem; }
+  .topbar .tag { display: none; }
+  .topbar .home-link { padding: 10px 10px; font-size: .78rem; }
   #map-search { flex: 1; width: 100px; min-width: 0; }
   .filters { width: 100%; overflow-x: auto; scrollbar-width: none; }
-  .filters button { padding: 4px 10px; font-size: .76rem; white-space: nowrap; }
+  .filters button { padding: 12px 14px; font-size: .82rem; white-space: nowrap; min-height: 44px; }
   .legend { display: none; }
   .panel { width: 100vw; max-width: 100vw; }
+}
+
+/* ---- 業界の歩き方カード ---- */
+.guide-card {
+  position: absolute; left: 14px; top: 14px; z-index: 18;
+  max-width: 360px; padding: 0;
+  background: linear-gradient(160deg, rgba(250,242,224,.96), rgba(238,222,192,.96));
+  border: 1.5px solid var(--paper-edge); border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(60,40,10,.18);
+  font-size: .82rem; line-height: 1.65; color: var(--ink);
+}
+.guide-card summary {
+  cursor: pointer; padding: 10px 14px; font-weight: 700; color: var(--ink);
+  list-style: none; user-select: none; min-height: 24px;
+}
+.guide-card summary::-webkit-details-marker { display: none; }
+.guide-card summary::after { content: "▸"; float: right; color: var(--ink-soft); transition: transform .15s; }
+.guide-card[open] summary::after { transform: rotate(90deg); }
+.guide-card p { margin: 0; padding: 0 14px 10px; }
+.guide-card p strong { color: var(--gold-ink, #92640c); }
+@media (max-width: 640px) {
+  .guide-card { left: 8px; right: 8px; max-width: none; top: 8px; font-size: .8rem; }
+}
+
+/* ---- カネの旅(ガイドツアー) ---- */
+.journey-launch {
+  position: absolute; bottom: 18px; left: 50%; transform: translateX(-50%); z-index: 19;
+  font-family: inherit; font-size: .88rem; font-weight: 700; color: #fff8ea;
+  background: linear-gradient(160deg, #8a5a24, #6e451a);
+  border: 1.5px solid #d8b878; border-radius: 999px; padding: 12px 22px;
+  cursor: pointer; box-shadow: 0 4px 16px rgba(60,40,10,.35);
+  min-height: 44px; white-space: nowrap; max-width: calc(100% - 24px);
+  overflow: hidden; text-overflow: ellipsis;
+}
+.journey-launch:hover { filter: brightness(1.12); }
+.journey-bar {
+  position: absolute; bottom: 14px; left: 50%; transform: translateX(-50%); z-index: 20;
+  width: min(560px, calc(100% - 20px));
+  background: linear-gradient(160deg, rgba(250,242,224,.97), rgba(238,222,192,.97));
+  border: 1.5px solid var(--paper-edge); border-radius: 14px;
+  box-shadow: 0 6px 24px rgba(60,40,10,.3);
+  padding: 12px 16px; font-size: .86rem; line-height: 1.6; color: var(--ink);
+}
+.journey-bar .j-head { font-weight: 700; margin-bottom: 4px; }
+.journey-bar .j-count {
+  display: inline-block; background: #92640c; color: #fff8ea; border-radius: 999px;
+  font-size: .72rem; padding: 1px 9px; margin-right: 6px; font-weight: 700;
+}
+.journey-bar .j-route { font-size: .78rem; color: var(--ink-soft); margin-bottom: 4px; }
+.journey-bar .j-flow { border-radius: 4px; padding: 1px 6px; font-weight: 700; color: #fff; font-size: .7rem; margin-right: 4px; }
+.journey-bar .j-flow.goods { background: #2e7d6e; }
+.journey-bar .j-flow.capex { background: #b97a12; }
+.journey-bar .j-flow.opex { background: #a84a5f; }
+.journey-bar .j-say { margin: 0 0 8px; }
+.journey-bar .j-nav { display: flex; gap: 8px; }
+.journey-bar .j-nav button {
+  font-family: inherit; font-size: .82rem; font-weight: 700; cursor: pointer;
+  border: 1.5px solid var(--paper-edge); border-radius: 8px; padding: 8px 16px;
+  background: rgba(255,255,255,.65); color: var(--ink); min-height: 40px;
+}
+.journey-bar .j-nav button[data-j="next"] { background: #8a5a24; color: #fff8ea; border-color: #d8b878; }
+.journey-bar .j-nav button:disabled { opacity: .4; cursor: default; }
+.journey-bar .j-nav .j-close { margin-left: auto; }
+.journeying .edges .edge { opacity: .05; pointer-events: none; }
+.journeying .nodes .node { opacity: .3; }
+.journeying .edge.journey-hot { opacity: 1 !important; pointer-events: auto; }
+.journeying .edge.journey-hot path.line { stroke-width: 4.5; }
+.journeying .edge.journey-hot .elabel { opacity: 1; }
+.journeying .node.journey-node { opacity: 1; }
+.journeying .guide-card { display: none; }
+@media (max-width: 640px) {
+  .journey-bar { font-size: .82rem; }
 }

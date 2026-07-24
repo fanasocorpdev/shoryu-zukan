@@ -33,6 +33,35 @@
           "type": "string",
           "description": "業界一覧カードに出す一言(例: AI需要が動かす兆円級マネーフロー)"
         },
+        "guide": {
+          "type": "object",
+          "description": "業界の歩き方(初見者向けの読み解きガイド)",
+          "properties": {
+            "earn": { "type": "string", "description": "この業界の稼ぎ方の2〜3行サマリ" },
+            "watch": { "type": "string", "description": "この地図の見どころ・読み方のヒント" }
+          },
+          "required": ["earn", "watch"]
+        },
+        "journey": {
+          "type": "object",
+          "description": "カネの旅(消費者起点でエッジを1本ずつ辿るガイドツアー)",
+          "properties": {
+            "title": { "type": "string", "description": "ツアー名(例: おにぎり1個・150円の旅)" },
+            "steps": {
+              "type": "array",
+              "minItems": 2,
+              "items": {
+                "type": "object",
+                "properties": {
+                  "edge": { "type": "string", "description": "辿るエッジのid(実在必須)" },
+                  "say": { "type": "string", "description": "このステップのナレーション" }
+                },
+                "required": ["edge", "say"]
+              }
+            }
+          },
+          "required": ["title", "steps"]
+        },
         "parent_industry": {
           "type": "string",
           "pattern": "^[a-z0-9_]+$",

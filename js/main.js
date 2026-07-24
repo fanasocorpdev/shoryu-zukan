@@ -237,7 +237,7 @@ async function renderIndustry(id) {
         <a class="home-link" href="#/">🧭 マップトップ</a>
         <a class="home-link" href="#/all" title="全銘柄索引">🗾 索引</a>
         ${parent ? `<a class="home-link parent-link" href="#/i/${parent.meta.industry_id}">⬆ ${parent.meta.industry_name}</a>` : ""}
-        <h1>${data.meta.industry_name}の商流<span class="tag">${data.meta.tagline ?? ""}</span></h1>
+        <div class="title-wrap"><h1>${data.meta.industry_name}の商流</h1><span class="tag">${data.meta.tagline ?? ""}</span></div>
         <button id="share-btn" class="home-link share-btn" title="この業界のリンクをコピー / シェア">🔗 シェア</button>
         <span class="spacer"></span>
         <input id="map-search" type="search" list="search-list" placeholder="🔍 企業名・役割で探す" autocomplete="off">
@@ -279,6 +279,20 @@ async function renderIndustry(id) {
 
   const map = createMapView(wrap, data);
   destroyMap = map.destroy;
+
+  if (data.meta.guide) {
+    const g = data.meta.guide;
+    const card = document.createElement("details");
+    card.className = "guide-card";
+    card.open = localStorage.getItem("guideCollapsed") !== "1";
+    card.innerHTML = `
+      <summary>🗺 この業界の歩き方</summary>
+      <p><strong>💴 稼ぎ方:</strong> ${g.earn}</p>
+      <p><strong>🔭 見どころ:</strong> ${g.watch}</p>`;
+    card.addEventListener("toggle", () =>
+      localStorage.setItem("guideCollapsed", card.open ? "0" : "1"));
+    wrap.appendChild(card);
+  }
 
   const searchInput = document.getElementById("map-search");
   const datalist = document.getElementById("search-list");

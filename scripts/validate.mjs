@@ -67,6 +67,11 @@ for (const file of readdirSync(dir).filter(f => f.endsWith(".json") && f !== "in
     if (!DATE_RE.test(e.updated ?? "")) err(file, `edge ${e.id}: updated が日付でない`);
   }
 
+  for (const st of data.meta?.journey?.steps ?? []) {
+    if (!edgeIds.has(st.edge)) err(file, `journey: エッジ "${st.edge}" が存在しない`);
+    if (!st.say) err(file, `journey: エッジ "${st.edge}" のsayが空`);
+  }
+
   if (!isCategory) {
     const unsortedIds = new Set((data.nodes ?? []).filter(n => n.unsorted).map(n => n.id));
     const isolated = [...nodeIds].filter(id =>

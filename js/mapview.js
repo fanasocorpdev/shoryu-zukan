@@ -274,7 +274,7 @@ export function createMapView(container, data) {
           <option value="emp"${sortMode === "emp" ? " selected" : ""}>従業員数順</option>
         </select>
       </div>
-      <p class="sort-note">標準の掲載順は編集方針で固定(課金で変わりません)。財務値は公開情報ベースの概算です。</p>
+      <p class="sort-note">標準の掲載順は編集方針で固定(課金で変わりません)。財務値は決算短信等の実績値(各行に基準期を記載)。「概算」とある値のみ規模感の目安です。</p>
       ${comps.length > 20 ? `<input type="search" class="company-filter" placeholder="🔍 この中から絞り込む(社名・証券コード)" autocomplete="off">` : ""}`;
     let body;
     if (n.segments?.length) {
@@ -529,6 +529,9 @@ export function createMapView(container, data) {
   function flyTo(nodeId, targetK) {
     const p = pos[nodeId];
     if (!p) return;
+    flyToPoint(p, targetK);
+  }
+  function flyToPoint(p, targetK) {
     const k = targetK ?? Math.max(view.k, 1.8);
     const to = { x: -p.x * k, y: -p.y * k, k };
     cancelAnimationFrame(flyAnim);
@@ -582,6 +585,70 @@ export function createMapView(container, data) {
     else if (z === "reset") { view = { x: 0, y: 0, k: 1 }; applyView(); }
   });
   container.appendChild(zoomctl);
+
+  // ---------- カネの旅(ガイドツアー) ----------
+  let journeyBar = null;
+  if (data.meta.journey?.steps?.length) {
+    const J = data.meta.journey;
+    const steps = J.steps.filter((s) => edgeEls.has(s.edge));
+    const launch = document.createElement("button");
+    launch.className = "journey-launch";
+    launch.innerHTML = `🚶 ${J.title}`;
+    launch.title = "カネの旅 — 1本ずつ金流を辿るガイドツアー";
+    container.appendChild(launch);
+
+    let idx = 0;
+    const clearHighlight = () => {
+      for (const { el } of edgeEls.values()) el.classList.remove("journey-hot");
+      for (const el of nodeEls.values()) el.classList.remove("journey-node");
+    };
+    const endJourney = () => {
+      clearHighlight();
+      container.classList.remove("journeying");
+      journeyBar?.remove();
+      journeyBar = null;
+      launch.style.display = "";
+    };
+    const FLOW_LABEL = { goods: "モノ・サービス", capex: "カネCAPEX(一時)", opex: "カネOPEX(継続)" };
+    const showStep = (i) => {
+      idx = i;
+      clearHighlight();
+      const st = steps[i];
+      const { el, edge } = edgeEls.get(st.edge);
+      el.classList.add("journey-hot");
+      nodeEls.get(edge.from)?.classList.add("journey-node");
+      nodeEls.get(edge.to)?.classList.add("journey-node");
+      const A = pos[edge.from], B = pos[edge.to];
+      flyToPoint({ x: (A.x + B.x) / 2, y: (A.y + B.y) / 2 }, 1.5);
+      const fromRole = data.nodes.find((n) => n.id === edge.from)?.role ?? edge.from;
+      const toRole = data.nodes.find((n) => n.id === edge.to)?.role ?? edge.to;
+      journeyBar.innerHTML = `
+        <div class="j-head"><span class="j-count">${i + 1} / ${steps.length}</span> ${J.title}</div>
+        <div class="j-route"><span class="j-flow ${edge.flow_type}">${FLOW_LABEL[edge.flow_type]}</span> ${fromRole} → ${toRole}</div>
+        <p class="j-say">${st.say}</p>
+        <div class="j-nav">
+          <button data-j="prev" ${i === 0 ? "disabled" : ""}>← 前へ</button>
+          <button data-j="next">${i === steps.length - 1 ? "旅を終える 🏁" : "次へ →"}</button>
+          <button data-j="end" class="j-close" title="終了">✕</button>
+        </div>`;
+    };
+    launch.addEventListener("click", () => {
+      launch.style.display = "none";
+      container.classList.add("journeying");
+      journeyBar = document.createElement("div");
+      journeyBar.className = "journey-bar";
+      journeyBar.addEventListener("click", (ev) => {
+        const b = ev.target.closest("button[data-j]");
+        if (!b) return;
+        if (b.dataset.j === "prev") showStep(Math.max(0, idx - 1));
+        else if (b.dataset.j === "next") idx === steps.length - 1 ? endJourney() : showStep(idx + 1);
+        else endJourney();
+      });
+      container.appendChild(journeyBar);
+      closePanel();
+      showStep(0);
+    });
+  }
 
   // ---------- 検索(役割名・企業名) ----------
   function search(query) {
