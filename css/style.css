@@ -169,7 +169,7 @@ button { font-family: inherit; cursor: pointer; }
 .topbar {
   display: flex; align-items: center; gap: 14px;
   padding: 10px 16px;
-  background: linear-gradient(#efe3c4, #e7d6ae);
+  background: linear-gradient(var(--grad-a), var(--grad-b));
   border-bottom: 2px solid var(--paper-edge);
   flex-wrap: wrap;
   z-index: 5;
@@ -342,7 +342,7 @@ svg.focus .edge.lit path.line { stroke-width: 3.6; }
 .tooltip {
   position: absolute;
   pointer-events: none;
-  background: #fffdf6;
+  background: var(--surface-solid);
   border: 1.5px solid var(--gold);
   border-radius: 8px;
   padding: 8px 12px;
@@ -367,7 +367,7 @@ svg.focus .edge.lit path.line { stroke-width: 3.6; }
   top: 0; right: 0; bottom: 0;
   width: 360px;
   max-width: 92vw;
-  background: linear-gradient(#faf4e3, #f3e9d0);
+  background: linear-gradient(var(--grad-a), var(--grad-b));
   border-left: 2px solid var(--paper-edge);
   box-shadow: -8px 0 24px rgba(80, 60, 20, .15);
   transform: translateX(105%);
@@ -507,7 +507,7 @@ svg.focus .edge.lit path.line { stroke-width: 3.6; }
 .guide-card {
   position: absolute; left: 14px; top: 14px; z-index: 18;
   max-width: 360px; padding: 0;
-  background: linear-gradient(160deg, rgba(250,242,224,.96), rgba(238,222,192,.96));
+  background: linear-gradient(160deg, var(--grad-a), var(--grad-b));
   border: 1.5px solid var(--paper-edge); border-radius: 12px;
   box-shadow: 0 4px 18px rgba(60,40,10,.18);
   font-size: .82rem; line-height: 1.65; color: var(--ink);
@@ -520,7 +520,7 @@ svg.focus .edge.lit path.line { stroke-width: 3.6; }
 .guide-card summary::after { content: "▸"; float: right; color: var(--ink-soft); transition: transform .15s; }
 .guide-card[open] summary::after { transform: rotate(90deg); }
 .guide-card p { margin: 0; padding: 0 14px 10px; }
-.guide-card p strong { color: var(--gold-ink, #92640c); }
+.guide-card p strong { color: var(--gold); }
 @media (max-width: 640px) {
   .guide-card { left: 8px; right: 8px; max-width: none; top: 8px; font-size: .8rem; }
 }
@@ -604,7 +604,7 @@ svg.focus .edge.lit path.line { stroke-width: 3.6; }
 }
 .card-photo::after {
   content: ""; position: absolute; inset: 0;
-  background: linear-gradient(180deg, rgba(244,232,208,.12), rgba(244,232,208,.5));
+  background: linear-gradient(180deg, transparent, var(--paper));opacity:.55;
   pointer-events: none;
 }
 .card:hover .card-photo { filter: sepia(.12) saturate(.9) contrast(.97); opacity: 1; }
@@ -845,3 +845,26 @@ marker[id="arrow-opex"] path { fill: var(--opex); }
   transition: transform .15s;
 }
 .theme-toggle:hover { transform: scale(1.08); }
+
+/* ---- ダーク時の残ページ調整(索引・パネル内・バッジ・フォーム部品) ---- */
+:root[data-theme="dark"] .journey-tag,
+:root[data-theme="dark"] .card .journey-tag { color: var(--gold); border-color: rgba(217,169,74,.4); background: rgba(217,169,74,.12); }
+:root[data-theme="dark"] .access-tag.open { color: #5fd08a; border-color: #5fd08a; background: rgba(95,208,138,.1); }
+:root[data-theme="dark"] .dir-chip { background: var(--surface); border-color: var(--surface-border); color: var(--ink-soft); }
+:root[data-theme="dark"] .dir-chip.covered { color: var(--gold); border-color: var(--gold); }
+:root[data-theme="dark"] .dir-sec summary { color: var(--ink); }
+:root[data-theme="dark"] select, :root[data-theme="dark"] input[type="search"] {
+  background: var(--surface-2); color: var(--ink); border-color: var(--surface-border);
+}
+:root[data-theme="dark"] .company { background: var(--surface); border-color: var(--surface-border); }
+:root[data-theme="dark"] .sort-note, :root[data-theme="dark"] .gate-note { color: var(--ink-soft); }
+:root[data-theme="dark"] .cmp-add { background: var(--surface); color: var(--ink-soft); border-color: var(--surface-border); }
+:root[data-theme="dark"] .cmp-add.on { color: var(--gold); border-color: var(--gold); background: rgba(217,169,74,.14); }
+:root[data-theme="dark"] .cmp-copy { color: var(--gold); background: rgba(217,169,74,.12); }
+:root[data-theme="dark"] .planned-chip { background: var(--surface); border-color: var(--surface-border); color: var(--ink-soft); }
+:root[data-theme="dark"] .coverage { background: var(--surface); }
+:root[data-theme="dark"] .about-sec { background: var(--surface); }
+:root[data-theme="dark"] .gate-chip { background: var(--surface); color: var(--ink); }
+:root[data-theme="dark"] .child-chip { color: var(--gold); border-color: var(--gold); }
+:root[data-theme="dark"] .style-tag { color: var(--gold); border-color: var(--gold); }
+:root[data-theme="dark"] .journey-launch { border-color: #a8834a; }
