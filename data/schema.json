@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://shoryu-zukan.fanaso.jp/schema/industry-graph.schema.json",
-  "title": "商流図鑑 業界グラフスキーマ",
+  "title": "あきないマップ 業界グラフスキーマ",
   "description": "業界別の商流(モノ・サービスとカネの流れ)を表すグラフデータの共通スキーマ。業界を追加しても同一スキーマで地図が自動生成できることを前提とする。",
   "type": "object",
   "required": ["meta", "layers", "nodes", "edges"],

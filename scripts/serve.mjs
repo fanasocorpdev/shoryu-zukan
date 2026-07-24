@@ -33,4 +33,4 @@ createServer(async (req, res) => {
     res.writeHead(404, { "Content-Type": "text/plain; charset=utf-8" });
     res.end("404 Not Found");
   }
-}).listen(PORT, () => console.log(`商流図鑑 dev server: http://localhost:${PORT}`));
+}).listen(PORT, () => console.log(`あきないマップ dev server: http://localhost:${PORT}`));

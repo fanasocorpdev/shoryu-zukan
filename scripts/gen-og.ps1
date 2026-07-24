@@ -45,7 +45,7 @@ function New-OgImage {
     (New-Object System.Drawing.PointF(82, 94)), (New-Object System.Drawing.PointF(75, 78)))
   $g.FillPolygon($gold, $needle)
   $brand = New-Object System.Drawing.Font("Yu Mincho", 30, [System.Drawing.FontStyle]::Bold)
-  $g.DrawString("商流図鑑", $brand, $inkSoft, 112, 58)
+  $g.DrawString("あきないマップ", $brand, $inkSoft, 112, 58)
 
   # タイトル(業界名)
   $titleSize = 92
@@ -73,7 +73,7 @@ function New-OgImage {
 $meta = Get-Content $MetaPath -Raw -Encoding UTF8 | ConvertFrom-Json
 
 # サイト全体のデフォルト
-New-OgImage -OutFile (Join-Path $outDir "default.png") -Title "商流を冒険する地図" -Subtitle "誰が誰に、何を届けて、いくら払うのか。全上場3,709社を業界地図に収容。" -Stats "23業界 / 上場全社カバー"
+New-OgImage -OutFile (Join-Path $outDir "default.png") -Title "日本の商流が見える地図" -Subtitle "誰が誰に、何を届けて、いくら払うのか。全上場3,709社を業界地図に収容。" -Stats "23業界 / 上場全社カバー"
 
 foreach ($m in $meta) {
   $stats = "$($m.nodes)ノード / $($m.companies)社を収容"

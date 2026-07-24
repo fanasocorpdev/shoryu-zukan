@@ -20,7 +20,7 @@ for (const id of index.industries) {
   const name = data.meta.industry_name;
   const tagline = data.meta.tagline ?? data.meta.description?.slice(0, 80) ?? "";
   const companies = data.nodes.reduce((a, n) => a + (n.companies?.length ?? 0), 0);
-  const title = `${name}の商流地図 — 商流図鑑`;
+  const title = `${name}の商流地図 — あきないマップ`;
   const desc = `${tagline} ${companies}社を収容。誰が誰に何を届けて、いくら払うのかを地図でズーム。永久無料。`;
   const html = `<!DOCTYPE html>
 <html lang="ja">
@@ -33,7 +33,7 @@ for (const id of index.industries) {
 <meta property="og:type" content="website">
 <meta property="og:url" content="${BASE}/share/${id}.html">
 <meta property="og:image" content="${BASE}/assets/og/${id}.png">
-<meta property="og:site_name" content="商流図鑑">
+<meta property="og:site_name" content="あきないマップ">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="${BASE}/assets/og/${id}.png">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧭</text></svg>">

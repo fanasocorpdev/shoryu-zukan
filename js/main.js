@@ -1,4 +1,4 @@
-// 商流図鑑 — エントリポイント(ハッシュルーティング + トップページ)
+// あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
 import { createMapView } from "./mapview.js";
 
 const app = document.getElementById("app");
@@ -72,7 +72,7 @@ async function renderHome() {
     <div class="home"><div class="home-inner">
       <div class="hero">
         <div class="compass">🧭</div>
-        <h1>商流図鑑<span style="font-size:.55em">(仮)</span></h1>
+        <h1>あきないマップ<span style="font-size:.55em">(仮)</span></h1>
         <p class="sub">業界のカネとモノの流れを、冒険する地図に。<br>
         誰が誰に、何を届けて、いくら払うのか — ズームして確かめよう。</p>
         <div class="free-banner">商流マップは永久無料で公開します</div>
@@ -91,7 +91,7 @@ async function renderHome() {
         : ""}
       <div class="home-foot">
         出典は官公庁統計・IR・プレスリリース等の一次情報のみを使用しています。<br>
-        <a href="#/about">この図鑑について(掲載・編集方針)</a><br>
+        <a href="#/about">あきないマップについて(掲載・編集方針)</a><br>
         運営: 株式会社Fanaso
       </div>
     </div></div>`;
@@ -152,7 +152,7 @@ async function renderDirectory() {
           })
           .join("")}
       </div>
-      <div class="home-foot"><a href="#/">← 図鑑トップへ戻る</a></div>
+      <div class="home-foot"><a href="#/">← マップトップへ戻る</a></div>
     </div></div>`;
 
   const search = document.getElementById("dir-search");
@@ -176,7 +176,7 @@ function renderAbout() {
     <div class="home"><div class="home-inner about">
       <div class="hero">
         <div class="compass">🧭</div>
-        <h1>この図鑑について</h1>
+        <h1>あきないマップについて</h1>
       </div>
       <section class="about-sec">
         <h2>📖 商流マップは永久無料</h2>
@@ -220,7 +220,7 @@ function renderAbout() {
         迅速に確認・訂正します。</p>
       </section>
       <div class="home-foot">
-        <a href="#/">← 図鑑トップへ戻る</a><br>
+        <a href="#/">← マップトップへ戻る</a><br>
         運営: 株式会社Fanaso
       </div>
     </div></div>`;
@@ -234,7 +234,7 @@ async function renderIndustry(id) {
   app.innerHTML = `
     <div class="mapapp">
       <header class="topbar">
-        <a class="home-link" href="#/">🧭 図鑑トップ</a>
+        <a class="home-link" href="#/">🧭 マップトップ</a>
         <a class="home-link" href="#/all" title="全銘柄索引">🗾 索引</a>
         ${parent ? `<a class="home-link parent-link" href="#/i/${parent.meta.industry_id}">⬆ ${parent.meta.industry_name}</a>` : ""}
         <h1>${data.meta.industry_name}の商流<span class="tag">${data.meta.tagline ?? ""}</span></h1>
@@ -298,7 +298,7 @@ async function renderIndustry(id) {
   const shareBtn = document.getElementById("share-btn");
   shareBtn.addEventListener("click", async () => {
     const url = new URL(`share/${id}.html`, location.href.replace(/#.*$/, "").replace(/index\.html$/, "")).href;
-    const title = `${data.meta.industry_name}の商流地図 — 商流図鑑`;
+    const title = `${data.meta.industry_name}の商流地図 — あきないマップ`;
     if (navigator.share) {
       try { await navigator.share({ title, url }); return; } catch { /* キャンセル時はコピーに落とす */ }
     }
