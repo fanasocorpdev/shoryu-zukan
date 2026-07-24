@@ -600,3 +600,19 @@ svg.near .node .companies { opacity: 1; }
 /* ---- ロゴ紋章 ---- */
 .logo-emblem { display: block; margin: 0 auto 6px; filter: drop-shadow(0 3px 8px rgba(60,40,10,.25)); }
 .nav-emblem { width: 17px; height: 17px; vertical-align: -3px; margin-right: 2px; }
+
+/* ---- 業界カードの写真帯(セピア調で羊皮紙に馴染ませる) ---- */
+.card-photo {
+  height: 96px; margin: -20px -20px 12px; border-radius: 10.5px 10.5px 0 0;
+  background-size: cover; background-position: center;
+  filter: sepia(.38) saturate(.72) contrast(.94) brightness(1.02);
+  opacity: .92; position: relative;
+  border-bottom: 1.5px solid var(--paper-edge);
+  transition: filter .2s, opacity .2s;
+}
+.card-photo::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(244,232,208,.12), rgba(244,232,208,.5));
+  pointer-events: none;
+}
+.card:hover .card-photo { filter: sepia(.12) saturate(.9) contrast(.97); opacity: 1; }

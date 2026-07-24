@@ -52,6 +52,7 @@ async function renderHome() {
     const children = childrenOf(d.meta.industry_id);
     return `
       <a class="card" href="#/i/${d.meta.industry_id}">
+        <div class="card-photo" style="background-image:url('assets/photo/${d.meta.industry_id}.jpg')"></div>
         <div class="c-icon">${centerIcon(d)}${d.meta.map_style === "category" ? '<span class="style-tag">カオスマップ</span>' : ""}</div>
         <h2>${d.meta.industry_name}</h2>
         <p class="tagline">${d.meta.tagline ?? ""}</p>
@@ -196,6 +197,7 @@ function renderAbout() {
         業界団体の公開名簿、プレスリリース、企業公式サイト、そして企業自身による登録データ。
         出典はノード・フロー単位で記録し、詳細パネルからいつでも確認できます。
         金額感はすべて公表情報にもとづく規模表現で、個社の非公開情報は掲載しません。</p>
+        <p style="font-size:.85em;color:var(--ink-soft)">業界カードの写真は <a href="https://commons.wikimedia.org/" target="_blank" rel="noopener">Wikimedia Commons</a> のCC0/パブリックドメイン画像を使用しています(<a href="assets/photo/credits.json" target="_blank">出典一覧</a>)。</p>
         <p>財務値の見方: 売上高は各社決算短信の直近通期<strong>実績</strong>、時価総額は取得日付きの掲載値です
         (基準日は各社の注記に記載)。「概算」と明記された値のみ、換算レートやセグメント値にもとづく規模感です。
         非上場企業は公表値または親会社連結の値であることを注記しています。</p>

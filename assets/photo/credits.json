@@ -1,0 +1,140 @@
+[
+ {
+  "industry": "datacenter",
+  "page": "https://commons.wikimedia.org/wiki/File:Technician_with_laptop_working_on_server_rack_at_NERSC.jpg",
+  "license": "CC0",
+  "desc": "サーバーラックで作業する技術者(NERSC)"
+ },
+ {
+  "industry": "semiconductor",
+  "page": "https://commons.wikimedia.org/wiki/File:Silicon_wafer_researcher.jpg",
+  "license": "Public Domain (PD-USGov-DOE)",
+  "desc": "シリコンウェーハを手にする研究者(LLNL)"
+ },
+ {
+  "industry": "convenience_store",
+  "page": "https://commons.wikimedia.org/wiki/File:JP_%E6%97%A5%E6%9C%AC_Japan_%E6%B2%96%E7%B9%A9_OKINAWA_%E9%82%A3%E9%9C%B8_Naha_shop_FamilyMart_Store_February_2026_N13P_116.jpg",
+  "license": "CC0",
+  "desc": "那覇のファミリーマート店頭(2026年2月)"
+ },
+ {
+  "industry": "automotive",
+  "page": "https://commons.wikimedia.org/wiki/File:Industry-car-factory-car-door_(23698477234).jpg",
+  "license": "CC0",
+  "desc": "自動車工場の生産ライン(ドアパネル)"
+ },
+ {
+  "industry": "auto_parts",
+  "page": "https://commons.wikimedia.org/wiki/File:Toyota_K_engine_cutaway.jpg",
+  "license": "CC0",
+  "desc": "トヨタKエンジンのカットモデル(トヨタ産業技術記念館)"
+ },
+ {
+  "industry": "consulting",
+  "page": "https://commons.wikimedia.org/wiki/File:Communal_Coworking_interior_(Unsplash).jpg",
+  "license": "CC0",
+  "desc": "モダンなオフィス内観"
+ },
+ {
+  "industry": "banking",
+  "page": "https://commons.wikimedia.org/wiki/File:Bank_of_Japan,_Otaru_Branch.jpg",
+  "license": "CC0",
+  "desc": "日本銀行旧小樽支店の石造建築"
+ },
+ {
+  "industry": "pharma",
+  "page": "https://commons.wikimedia.org/wiki/File:Generic_Drug_Research_(5956)_(8493712946).jpg",
+  "license": "Public Domain (PD-USGov-FDA)",
+  "desc": "医薬品研究室での分析(FDA)"
+ },
+ {
+  "industry": "telecom",
+  "page": "https://commons.wikimedia.org/wiki/File:Antenna_tower_Podgornyi_02.jpg",
+  "license": "CC0",
+  "desc": "携帯基地局の鉄塔アンテナ(青空)"
+ },
+ {
+  "industry": "trading_companies",
+  "page": "https://commons.wikimedia.org/wiki/File:Containers_carrier_with_cranes,_Tokyo,_seen_from_Jonanjima_Park.jpg",
+  "license": "CC0",
+  "desc": "東京港のコンテナ船とガントリークレーン"
+ },
+ {
+  "industry": "retail",
+  "page": "https://commons.wikimedia.org/wiki/File:Keikyu_Kamata_Shopping_Street_Asuto.jpg",
+  "license": "CC0",
+  "desc": "京急蒲田の商店街アーケード"
+ },
+ {
+  "industry": "food",
+  "page": "https://commons.wikimedia.org/wiki/File:August_2007_Tsukiji_fish_market_2.jpg",
+  "license": "CC0",
+  "desc": "築地市場の水産卸売風景"
+ },
+ {
+  "industry": "it_services",
+  "page": "https://commons.wikimedia.org/wiki/File:Code_on_computer_monitor_(Unsplash).jpg",
+  "license": "CC0",
+  "desc": "モニターのソースコード"
+ },
+ {
+  "industry": "services",
+  "page": "https://commons.wikimedia.org/wiki/File:Tokyo_Metropolitan_Government_Building_No.1_%26_No._2_(2016-04-15_by_Prota_@Pixabay_1342657).jpg",
+  "license": "CC0",
+  "desc": "西新宿の超高層オフィス街"
+ },
+ {
+  "industry": "machinery",
+  "page": "https://commons.wikimedia.org/wiki/File:Direct_Connection_Lathe_(21032514580).jpg",
+  "license": "CC0",
+  "desc": "直結式旋盤(ヤマザキマザック工作機械博物館)"
+ },
+ {
+  "industry": "electronics",
+  "page": "https://commons.wikimedia.org/wiki/File:Electronics_PCB_circuit_board_001_(51131861296).jpg",
+  "license": "CC0",
+  "desc": "スマートフォン基板のマクロ撮影"
+ },
+ {
+  "industry": "chemicals",
+  "page": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Chemical_Hiroshima_from_Harumi_Rinkai_Park_wide.jpg",
+  "license": "CC0",
+  "desc": "三菱ケミカル広島事業所の工場群"
+ },
+ {
+  "industry": "construction",
+  "page": "https://commons.wikimedia.org/wiki/File:Cranes_building_Shirokane_The_Sky.jpg",
+  "license": "CC0",
+  "desc": "白金ザ・スカイ建設現場のタワークレーン群"
+ },
+ {
+  "industry": "real_estate",
+  "page": "https://commons.wikimedia.org/wiki/File:Skyscrapers_in_Chiyoda-ku,_Tokyo,_view_from_Imperial_Palace_Plaza_(2015-05-17_by_Samuele_Schir%C3%B2_@Pixabay_1189079).jpg",
+  "license": "CC0",
+  "desc": "皇居前広場から望む千代田区の高層ビル群"
+ },
+ {
+  "industry": "transport",
+  "page": "https://commons.wikimedia.org/wiki/File:Shinkansen_N700_Z13.jpg",
+  "license": "CC0",
+  "desc": "東海道新幹線N700系"
+ },
+ {
+  "industry": "materials",
+  "page": "https://commons.wikimedia.org/wiki/File:Higashida_First_Blast_Furnace.JPG",
+  "license": "Public Domain",
+  "desc": "北九州・東田第一高炉(官営八幡製鉄所由来)"
+ },
+ {
+  "industry": "energy",
+  "page": "https://commons.wikimedia.org/wiki/File:%E5%BE%B3%E4%B9%8B%E5%B3%B6%E4%B8%96%E7%95%8C%E9%81%BA%E7%94%A3%E7%B7%A9%E8%A1%9D%E5%9C%B0%E5%B8%AF%E9%A2%A8%E5%8A%9B%E7%99%BA%E9%9B%BB%E9%A2%A8%E8%BB%8A_01.jpg",
+  "license": "CC0",
+  "desc": "徳之島の風力発電風車"
+ },
+ {
+  "industry": "consumer_goods",
+  "page": "https://commons.wikimedia.org/wiki/File:Sugamo_Ekimae_Shopping_Street.jpg",
+  "license": "CC0",
+  "desc": "巣鴨駅前商店街の店頭風景"
+ }
+]
