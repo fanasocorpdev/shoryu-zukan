@@ -196,8 +196,18 @@
           "note": "会員名簿を実名企業リストの主出典とする"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🏯"
+      "updated": "2026-07-24",
+      "icon": "🏯",
+      "market_size": {
+        "oku_jpy": 27361,
+        "label": "国内データセンターサービス市場規模",
+        "as_of": "2023",
+        "source": {
+          "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r07/html/nd218100.html",
+          "publisher": "総務省 情報通信白書"
+        },
+        "note": "2028年には5兆円超へ拡大見込み"
+      }
     },
     {
       "id": "hyperscaler",
@@ -797,9 +807,19 @@
           }
         }
       ],
-      "updated": "2026-07-23",
+      "updated": "2026-07-24",
       "related_industry": "construction",
-      "icon": "🛠️"
+      "icon": "🛠️",
+      "market_size": {
+        "oku_jpy": 41137,
+        "label": "電気工事+管工事の受注高(主要各20社)",
+        "as_of": "2024年度",
+        "source": {
+          "url": "https://www.mlit.go.jp/sogoseisaku/jouhouka/sosei_jouhouka_tk4_000010.html",
+          "publisher": "国土交通省"
+        },
+        "note": "大手のみで業界全体はこれより大きい"
+      }
     },
     {
       "id": "electrical_equipment",
@@ -916,9 +936,19 @@
           "note": "変電機器"
         }
       ],
-      "updated": "2026-07-23",
+      "updated": "2026-07-24",
       "related_industry": "electronics",
-      "icon": "🔋"
+      "icon": "🔋",
+      "market_size": {
+        "oku_jpy": 36351,
+        "label": "重電機器の国内生産額",
+        "as_of": "2024年度",
+        "source": {
+          "url": "https://www.jema-net.or.jp/about/news/sc9lq500000006pm-att/2024mi_data.pdf",
+          "publisher": "日本電機工業会(JEMA)"
+        },
+        "note": "受変電・発電機・UPS等を含む重電機器全体"
+      }
     },
     {
       "id": "cooling_equipment",
@@ -1160,9 +1190,19 @@
           "note": "科学技術計算サーバー"
         }
       ],
-      "updated": "2026-07-23",
+      "updated": "2026-07-24",
       "related_industry": "electronics",
-      "icon": "🖥️"
+      "icon": "🖥️",
+      "market_size": {
+        "oku_jpy": 2244,
+        "label": "国内IAサーバ出荷金額",
+        "as_of": "2024年度",
+        "source": {
+          "url": "https://www.jeita.or.jp/japanese/stat/server/2024.html",
+          "publisher": "JEITA"
+        },
+        "note": "統計参加6社のみ。外資直販を含まず実勢より小さい"
+      }
     },
     {
       "id": "network_vendor",

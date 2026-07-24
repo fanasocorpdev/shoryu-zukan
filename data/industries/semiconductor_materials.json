@@ -48,7 +48,16 @@
       "related_industry": "semiconductor",
       "companies": [],
       "updated": "2026-07-24",
-      "icon": "🏯"
+      "icon": "🏯",
+      "market_size": {
+        "oku_jpy": 70797,
+        "label": "日本の半導体市場(WSTS日本市場)",
+        "as_of": "2024",
+        "source": {
+          "url": "https://www.jeita.or.jp/japanese/stat/wsts/docs/20251202WSTS.pdf",
+          "publisher": "WSTS/JEITA"
+        }
+      }
     },
     {
       "id": "wafer",
@@ -292,7 +301,17 @@
         }
       ],
       "updated": "2026-07-24",
-      "icon": "🧱"
+      "icon": "🧱",
+      "market_size": {
+        "oku_jpy": 1096,
+        "label": "リジッドビルドアップ多層配線板の国内生産金額",
+        "as_of": "2024",
+        "source": {
+          "url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000040293825",
+          "publisher": "経済産業省 生産動態統計"
+        },
+        "note": "最近接品目。海外生産を含まない"
+      }
     },
     {
       "id": "backend_materials",

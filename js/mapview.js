@@ -2,7 +2,7 @@
 const NS = "http://www.w3.org/2000/svg";
 const VB = { x: -760, y: -540, w: 1520, h: 1080 };
 const RING_R = [0, 235, 400, 555];
-const FLOW_LABEL = { goods: "モノ・サービス", capex: "カネ CAPEX(一時)", opex: "カネ OPEX(継続)" };
+const FLOW_LABEL = { goods: "モノ・サービス", capex: "カネ(設備投資などの一時金)", opex: "カネ(利用料・仕入れなどの継続払い)" };
 const NEAR_ZOOM = 1.45;
 const CMP_KEY = "akinai_compare";
 const cmpList = () => JSON.parse(localStorage.getItem(CMP_KEY) ?? "[]");
@@ -303,6 +303,22 @@ export function createMapView(container, data) {
     return [...comps].sort((a, b) => (metric(b) ?? -1) - (metric(a) ?? -1));
   }
 
+  function companyLink(c) {
+    if (c.url) return c.url;
+    if (c.listing?.code) return `https://finance.yahoo.co.jp/quote/${c.listing.code}.T`;
+    return null;
+  }
+  function companyLogoHTML(c) {
+    if (c.url) {
+      try {
+        const host = new URL(c.url).hostname;
+        return `<img class="c-logo" src="https://www.google.com/s2/favicons?domain=${host}&sz=64" alt="" loading="lazy"
+          onerror="this.outerHTML='<span class=&quot;c-logo fallback&quot;>${esc(c.name.slice(0, 1))}</span>'">`;
+      } catch { /* URL不正はイニシャルへ */ }
+    }
+    return `<span class="c-logo fallback">${esc(c.name.slice(0, 1))}</span>`;
+  }
+
   function companyRowHTML(c) {
     const fin = c.financials;
     const stat = (label, value, title) =>
@@ -336,9 +352,10 @@ export function createMapView(container, data) {
       ? `<span class="c-listing">${esc(c.listing.market)}${c.listing.code ? ` <span class="ticker">${esc(c.listing.code)}</span>` : ""}</span>`
       : "";
     return `<li class="company">
-      <div class="c-main">${
-        c.url ? `<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.name)}</a>` : esc(c.name)
-      }<button class="cmp-add${cmpHas(c.name) ? " on" : ""}" data-name="${esc(c.name)}" title="比較リストに追加/削除">${cmpHas(c.name) ? "✓ 比較中" : "+比較"}</button>${c.hiring ? '<span class="badge hiring">採用中</span>' : ""}${planBadge}${listing}</div>
+      <div class="c-main">${companyLogoHTML(c)}${(() => {
+        const href = companyLink(c);
+        return href ? `<a href="${esc(href)}" target="_blank" rel="noopener"${c.url ? "" : ' title="Yahoo!ファイナンスの銘柄ページを開く"'}>${esc(c.name)}</a>` : esc(c.name);
+      })()}<button class="cmp-add${cmpHas(c.name) ? " on" : ""}" data-name="${esc(c.name)}" title="比較リストに追加/削除">${cmpHas(c.name) ? "✓ 比較中" : "+比較"}</button>${c.hiring ? '<span class="badge hiring">採用中</span>' : ""}${planBadge}${listing}</div>
       ${statsLine}
       ${finNoteOnly}
       ${dealsLine}
@@ -440,6 +457,7 @@ export function createMapView(container, data) {
     panel.innerHTML = `
       ${nodeHeaderHTML(n)}
       ${n.description ? `<p class="p-desc">${esc(n.description)}</p>` : ""}
+      ${n.market_size ? `<p class="p-market">市場規模: <strong>約${n.market_size.oku_jpy >= 10000 ? (n.market_size.oku_jpy / 10000).toFixed(1) + "兆円" : Math.round(n.market_size.oku_jpy).toLocaleString("ja-JP") + "億円"}</strong><span class="ms-sub">(${esc(n.market_size.label)}・${esc(n.market_size.as_of)}) <a href="${esc(n.market_size.source.url)}" target="_blank" rel="noopener">出典: ${esc(n.market_size.source.publisher)}</a></span></p>` : ""}
       ${n.note ? `<p class="p-note">${esc(n.note)}</p>` : ""}
       ${n.related_industry ? `<a class="portal-link" href="#/i/${esc(n.related_industry)}?from=${data.meta.industry_id}:${n.id}">この業界の地図へ潜る →</a>` : ""}
       ${companiesListHTML(n)}
@@ -458,6 +476,7 @@ export function createMapView(container, data) {
     if (pinned) return;
     panel.innerHTML = `
       ${nodeHeaderHTML(n)}
+      ${n.market_size ? `<p class="p-market">市場規模: <strong>約${n.market_size.oku_jpy >= 10000 ? (n.market_size.oku_jpy / 10000).toFixed(1) + "兆円" : Math.round(n.market_size.oku_jpy).toLocaleString("ja-JP") + "億円"}</strong><span class="ms-sub">(${esc(n.market_size.label)}・${esc(n.market_size.as_of)}) <a href="${esc(n.market_size.source.url)}" target="_blank" rel="noopener">出典: ${esc(n.market_size.source.publisher)}</a></span></p>` : ""}
       ${companiesListHTML(n) || (n.note ? `<p class="p-note">${esc(n.note)}</p>` : "")}
       <p class="preview-hint">クリックで詳細(フロー・出典)を固定表示</p>`;
     panel.querySelector(".close").addEventListener("click", closePanel);

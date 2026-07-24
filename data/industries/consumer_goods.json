@@ -891,8 +891,17 @@
           "note": "ブライダルジュエリー(I-PRIMO)"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "👗"
+      "updated": "2026-07-24",
+      "icon": "👗",
+      "market_size": {
+        "oku_jpy": 87500,
+        "label": "織物・衣服・身の回り品小売業 販売額(商業動態統計)",
+        "as_of": "2024",
+        "source": {
+          "url": "https://www.meti.go.jp/statistics/toppage/report/archive/kako/20250610_1.html",
+          "publisher": "経済産業省"
+        }
+      }
     },
     {
       "id": "amusement",

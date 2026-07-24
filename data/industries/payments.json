@@ -65,7 +65,17 @@
       },
       "companies": [],
       "updated": "2026-07-24",
-      "icon": "🏪"
+      "icon": "🏪",
+      "market_size": {
+        "oku_jpy": 1627000,
+        "label": "キャッシュレス決済額",
+        "as_of": "2025",
+        "source": {
+          "url": "https://www.meti.go.jp/press/2025/03/20260331006/20260331006.html",
+          "publisher": "経済産業省"
+        },
+        "note": "決済比率58.0%"
+      }
     },
     {
       "id": "consumer",
@@ -136,7 +146,16 @@
         }
       ],
       "updated": "2026-07-24",
-      "icon": "💳"
+      "icon": "💳",
+      "market_size": {
+        "oku_jpy": 1346000,
+        "label": "クレジットカードショッピング信用供与額",
+        "as_of": "2025",
+        "source": {
+          "url": "https://www.j-credit.or.jp/whats_new_statistics.html",
+          "publisher": "日本クレジット協会"
+        }
+      }
     },
     {
       "id": "acquirer",

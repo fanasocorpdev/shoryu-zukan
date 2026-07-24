@@ -365,8 +365,18 @@
           "note": "業界統計・構造の出典"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🏯"
+      "updated": "2026-07-24",
+      "icon": "🏯",
+      "market_size": {
+        "oku_jpy": 249000,
+        "label": "自動車(完成車)の製造品出荷額等",
+        "as_of": "2023",
+        "source": {
+          "url": "https://www.jama.or.jp/statistics/facts/industry/",
+          "publisher": "日本自動車工業会"
+        },
+        "note": "部品含む自動車関連出荷額計は62.7兆円"
+      }
     },
     {
       "id": "consumer",
@@ -439,8 +449,18 @@
         }
       ],
       "note": "実名は自己登録ベースで拡充予定",
-      "updated": "2026-07-23",
-      "icon": "🏬"
+      "updated": "2026-07-24",
+      "icon": "🏬",
+      "market_size": {
+        "oku_jpy": 175780,
+        "label": "自動車小売業の年間販売額(商業動態統計)",
+        "as_of": "2024",
+        "source": {
+          "url": "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00550030&tstat=000001081875",
+          "publisher": "経済産業省"
+        },
+        "note": "新車・中古車小売を含む"
+      }
     },
     {
       "id": "used_market",

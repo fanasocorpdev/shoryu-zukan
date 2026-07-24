@@ -124,8 +124,18 @@
           "note": "統計(店舗数・売上)の出典"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🏪"
+      "updated": "2026-07-24",
+      "icon": "🏪",
+      "market_size": {
+        "oku_jpy": 117953,
+        "label": "コンビニ全店売上高(主要7社)",
+        "as_of": "2024",
+        "source": {
+          "url": "https://www.jfa-fc.or.jp/particle/320.html",
+          "publisher": "日本フランチャイズチェーン協会"
+        },
+        "note": "3年連続過去最高"
+      }
     },
     {
       "id": "consumer",
@@ -364,9 +374,18 @@
           }
         }
       ],
-      "updated": "2026-07-23",
+      "updated": "2026-07-24",
       "related_industry": "food",
-      "icon": "🥤"
+      "icon": "🥤",
+      "market_size": {
+        "oku_jpy": 383000,
+        "label": "食料品製造業の製造品出荷額等",
+        "as_of": "2022",
+        "source": {
+          "url": "https://www.maff.go.jp/j/shokusan/sanki/soumu/attach/pdf/meguzi-65.pdf",
+          "publisher": "農林水産省"
+        }
+      }
     },
     {
       "id": "wholesale",
@@ -420,9 +439,18 @@
           }
         }
       ],
-      "updated": "2026-07-23",
+      "updated": "2026-07-24",
       "related_industry": "food",
-      "icon": "📦"
+      "icon": "📦",
+      "market_size": {
+        "oku_jpy": 665250,
+        "label": "食料・飲料卸売業の年間販売額(商業動態統計)",
+        "as_of": "2024",
+        "source": {
+          "url": "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00550030&tstat=000001081875",
+          "publisher": "経済産業省"
+        }
+      }
     },
     {
       "id": "logistics",

@@ -165,8 +165,18 @@
           "note": "半導体・デジタル産業戦略の公表資料を構造出典とする"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🏯"
+      "updated": "2026-07-24",
+      "icon": "🏯",
+      "market_size": {
+        "oku_jpy": 70797,
+        "label": "日本の半導体市場(WSTS日本市場)",
+        "as_of": "2024",
+        "source": {
+          "url": "https://www.jeita.or.jp/japanese/stat/wsts/docs/20251202WSTS.pdf",
+          "publisher": "WSTS/JEITA"
+        },
+        "note": "日本地域の半導体販売額全体"
+      }
     },
     {
       "id": "idm",
@@ -1060,7 +1070,17 @@
       ],
       "updated": "2026-07-24",
       "related_industry": "semiconductor_materials",
-      "icon": "🧪"
+      "icon": "🧪",
+      "market_size": {
+        "oku_jpy": 9884,
+        "label": "日本の半導体材料市場(SEMI)",
+        "as_of": "2024",
+        "source": {
+          "url": "https://www.semi.org/jp/news-resources/press/20250430",
+          "publisher": "SEMI"
+        },
+        "note": "65.24億ドルを1ドル=151.5円で換算"
+      }
     },
     {
       "id": "equipment_maker",
@@ -1268,8 +1288,17 @@
           "note": "プラズマ電源"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "⚙️"
+      "updated": "2026-07-24",
+      "icon": "⚙️",
+      "market_size": {
+        "oku_jpy": 48634,
+        "label": "日本製半導体製造装置販売高",
+        "as_of": "2025年度予測",
+        "source": {
+          "url": "https://www.seaj.or.jp/file/july2025seajforecastforpress_j.pdf",
+          "publisher": "日本半導体製造装置協会(SEAJ)"
+        }
+      }
     },
     {
       "id": "test_equipment",

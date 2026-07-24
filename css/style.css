@@ -888,3 +888,21 @@ marker[id="arrow-opex"] path { fill: var(--opex); }
   border: 1.5px solid transparent;
 }
 .rank-table .cmp-add { margin-left: 8px; }
+
+/* ---- 企業ロゴ(favicon/イニシャル) ---- */
+.c-logo {
+  width: 20px; height: 20px; border-radius: 5px; vertical-align: -4px; margin-right: 7px;
+  border: 1px solid var(--surface-border); background: #fff; object-fit: contain;
+}
+:root[data-theme="dark"] .c-logo { background: #e6ebf0; }
+.c-logo.fallback {
+  display: inline-flex; align-items: center; justify-content: center;
+  font-size: .7rem; font-weight: 700; color: var(--ink-soft);
+  background: var(--paper-deep);
+}
+.rank-table .c-logo { vertical-align: -5px; }
+
+/* ---- 市場規模表示 ---- */
+.p-market { font-size: .86rem; margin: 4px 0 8px; }
+.p-market strong { color: var(--gold); font-size: 1rem; }
+.p-market .ms-sub { display: block; font-size: .72rem; color: var(--ink-soft); margin-top: 2px; }

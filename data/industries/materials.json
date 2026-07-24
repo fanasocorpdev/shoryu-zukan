@@ -363,8 +363,17 @@
           "note": "鋼材流通"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "⚒️"
+      "updated": "2026-07-24",
+      "icon": "⚒️",
+      "market_size": {
+        "oku_jpy": 239410,
+        "label": "鉄鋼業 製造品出荷額等",
+        "as_of": "2022",
+        "source": {
+          "url": "https://www.meti.go.jp/statistics/tyo/kkj/pdf/seizo_gaikyo2023.pdf",
+          "publisher": "経済構造実態調査"
+        }
+      }
     },
     {
       "id": "nonferrous",
@@ -586,8 +595,17 @@
           "note": "ニッケル・不動産・暗号資産"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🥉"
+      "updated": "2026-07-24",
+      "icon": "🥉",
+      "market_size": {
+        "oku_jpy": 133586,
+        "label": "非鉄金属製造業 製造品出荷額等",
+        "as_of": "2022",
+        "source": {
+          "url": "https://www.meti.go.jp/statistics/tyo/kkj/pdf/seizo_gaikyo2023.pdf",
+          "publisher": "経済構造実態調査"
+        }
+      }
     },
     {
       "id": "cement_ceramics",
@@ -884,8 +902,17 @@
           "note": "ガラス加工"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🧱"
+      "updated": "2026-07-24",
+      "icon": "🧱",
+      "market_size": {
+        "oku_jpy": 84171,
+        "label": "窯業・土石製品製造業 製造品出荷額等",
+        "as_of": "2022",
+        "source": {
+          "url": "https://www.meti.go.jp/statistics/tyo/kkj/pdf/seizo_gaikyo2023.pdf",
+          "publisher": "経済構造実態調査"
+        }
+      }
     },
     {
       "id": "paper_pulp",
@@ -1663,8 +1690,17 @@
           "note": "総合印刷・BPO"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🖨️"
+      "updated": "2026-07-24",
+      "icon": "🖨️",
+      "market_size": {
+        "oku_jpy": 50468,
+        "label": "印刷・同関連業 製造品出荷額等",
+        "as_of": "2022",
+        "source": {
+          "url": "https://www.meti.go.jp/statistics/tyo/kkj/pdf/seizo_gaikyo2023.pdf",
+          "publisher": "経済構造実態調査"
+        }
+      }
     },
     {
       "id": "unsorted",

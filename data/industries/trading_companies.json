@@ -233,8 +233,18 @@
           "note": "業界構造・統計の出典"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🏯"
+      "updated": "2026-07-24",
+      "icon": "🏯",
+      "market_size": {
+        "oku_jpy": 776566,
+        "label": "大手総合商社7社の収益合計(IFRS)",
+        "as_of": "2026年3月期",
+        "source": {
+          "url": "https://www.mitsubishicorp.com/jp/ja/ir/library/earnings/pdf/202605j.pdf",
+          "publisher": "各社決算短信の合算"
+        },
+        "note": "三菱商事・伊藤忠・三井物産・豊田通商・丸紅・住友商事・双日"
+      }
     },
     {
       "id": "berkshire",

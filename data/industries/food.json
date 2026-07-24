@@ -261,8 +261,17 @@
           "note": "食品産業統計の出典"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🏯"
+      "updated": "2026-07-24",
+      "icon": "🏯",
+      "market_size": {
+        "oku_jpy": 383000,
+        "label": "食料品製造業 製造品出荷額等(酒類・飲料含む)",
+        "as_of": "2022",
+        "source": {
+          "url": "https://www.maff.go.jp/j/shokusan/sanki/soumu/attach/pdf/meguzi-65.pdf",
+          "publisher": "農林水産省"
+        }
+      }
     },
     {
       "id": "raw_material",
@@ -1716,7 +1725,7 @@
           "segment": "izakaya"
         }
       ],
-      "updated": "2026-07-23",
+      "updated": "2026-07-24",
       "segments": [
         {
           "id": "fast",
@@ -1749,7 +1758,16 @@
           "description": ""
         }
       ],
-      "icon": "🍽️"
+      "icon": "🍽️",
+      "market_size": {
+        "oku_jpy": 241512,
+        "label": "外食産業市場規模推計",
+        "as_of": "2023",
+        "source": {
+          "url": "http://anan-zaidan.or.jp/data/2024-1-1.pdf",
+          "publisher": "食の安全・安心財団"
+        }
+      }
     },
     {
       "id": "consumer",
@@ -2059,8 +2077,18 @@
           "note": "アサイー"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🍫"
+      "updated": "2026-07-24",
+      "icon": "🍫",
+      "market_size": {
+        "oku_jpy": 38785,
+        "label": "菓子小売金額",
+        "as_of": "2024",
+        "source": {
+          "url": "https://anka-kashi.com/statistics.html",
+          "publisher": "全日本菓子協会"
+        },
+        "note": "菓子のみ。飲料・乳業は含まない"
+      }
     },
     {
       "id": "ingredients_processing",

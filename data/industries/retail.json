@@ -454,8 +454,17 @@
           "note": "埼玉地盤の食品スーパー"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🛒"
+      "updated": "2026-07-24",
+      "icon": "🛒",
+      "market_size": {
+        "oku_jpy": 160530,
+        "label": "スーパー年間販売額(商業動態統計)",
+        "as_of": "2024",
+        "source": {
+          "url": "https://www.meti.go.jp/statistics/tyo/syoudou/result/2024_2.html",
+          "publisher": "経済産業省"
+        }
+      }
     },
     {
       "id": "department",
@@ -1608,9 +1617,18 @@
           "note": "カジュアル衣料(マックハウス)"
         }
       ],
-      "updated": "2026-07-23",
+      "updated": "2026-07-24",
       "related_industry": "consumer_goods",
-      "icon": "👕"
+      "icon": "👕",
+      "market_size": {
+        "oku_jpy": 87500,
+        "label": "織物・衣服・身の回り品小売業 年間販売額(商業動態統計)",
+        "as_of": "2024",
+        "source": {
+          "url": "https://www.meti.go.jp/statistics/tyo/syoudou/result/2024_2.html",
+          "publisher": "経済産業省"
+        }
+      }
     },
     {
       "id": "reuse",
@@ -1799,8 +1817,17 @@
           "note": "中古スマホ"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "♻️"
+      "updated": "2026-07-24",
+      "icon": "♻️",
+      "market_size": {
+        "oku_jpy": 31227,
+        "label": "リユース市場規模(中古品販売額)",
+        "as_of": "2023",
+        "source": {
+          "url": "https://www.env.go.jp/content/000321556.pdf",
+          "publisher": "環境省"
+        }
+      }
     },
     {
       "id": "mail_order",
@@ -2051,8 +2078,18 @@
           "note": "酒販宅配(カクヤス)"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "📮"
+      "updated": "2026-07-24",
+      "icon": "📮",
+      "market_size": {
+        "oku_jpy": 152194,
+        "label": "BtoC-EC物販系市場規模(電子商取引実態調査)",
+        "as_of": "2024",
+        "source": {
+          "url": "https://www.meti.go.jp/press/2025/08/20250826005/20250826005.html",
+          "publisher": "経済産業省"
+        },
+        "note": "物販EC化率9.78%"
+      }
     },
     {
       "id": "unsorted",

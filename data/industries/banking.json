@@ -236,8 +236,17 @@
           "note": "業界構造・統計の出典"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🏯"
+      "updated": "2026-07-24",
+      "icon": "🏯",
+      "market_size": {
+        "oku_jpy": 334928,
+        "label": "全国銀行108行の経常収益合計(単体)",
+        "as_of": "2024年度",
+        "source": {
+          "url": "https://www.zenginkyo.or.jp/stats/year2-02/account2024-terminal/",
+          "publisher": "全国銀行協会"
+        }
+      }
     },
     {
       "id": "depositor",
@@ -794,8 +803,18 @@
           }
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🏦"
+      "updated": "2026-07-24",
+      "icon": "🏦",
+      "market_size": {
+        "oku_jpy": 46613,
+        "label": "地方銀行のコア業務粗利益合計",
+        "as_of": "2025年度",
+        "source": {
+          "url": "https://www.chiginkyo.or.jp/data/result/001559.html",
+          "publisher": "全国地方銀行協会"
+        },
+        "note": "経常収益は非公表のためコア業務粗利益を採用"
+      }
     },
     {
       "id": "net_bank",
@@ -1141,8 +1160,17 @@
           "note": "投資学習アプリ"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "📈"
+      "updated": "2026-07-24",
+      "icon": "📈",
+      "market_size": {
+        "oku_jpy": 68688,
+        "label": "証券会社(日証協会員)の営業収益合計",
+        "as_of": "2025年度",
+        "source": {
+          "url": "https://www.jsda.or.jp/shiryoshitsu/toukei/kessan/files/fy2025.pdf",
+          "publisher": "日本証券業協会"
+        }
+      }
     },
     {
       "id": "asset_mgmt",
@@ -1845,7 +1873,16 @@
       ],
       "updated": "2026-07-24",
       "related_industry": "payments",
-      "icon": "💳"
+      "icon": "💳",
+      "market_size": {
+        "oku_jpy": 52984,
+        "label": "リース取扱高",
+        "as_of": "2025年度",
+        "source": {
+          "url": "https://www.leasing.or.jp/statistics/docs/2026_04.pdf",
+          "publisher": "リース事業協会"
+        }
+      }
     },
     {
       "id": "exchange",

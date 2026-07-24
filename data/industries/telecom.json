@@ -269,8 +269,17 @@
           "note": "業界構造・統計の出典"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🏯"
+      "updated": "2026-07-24",
+      "icon": "🏯",
+      "market_size": {
+        "oku_jpy": 162352,
+        "label": "電気通信業の売上高(情報通信業基本調査)",
+        "as_of": "2024年度",
+        "source": {
+          "url": "https://www.soumu.go.jp/johotsusintokei/statistics/data/jouhoutsuusin260331.pdf",
+          "publisher": "総務省"
+        }
+      }
     },
     {
       "id": "subscriber",
@@ -475,9 +484,19 @@
           "note": "無線システム販売施工"
         }
       ],
-      "updated": "2026-07-23",
+      "updated": "2026-07-24",
       "related_industry": "electronics",
-      "icon": "📡"
+      "icon": "📡",
+      "market_size": {
+        "oku_jpy": 46938,
+        "label": "通信機器の国内需要(CIAJ中期需要予測)",
+        "as_of": "2025年度予測",
+        "source": {
+          "url": "https://prtimes.jp/main/html/rd/p/000000002.000175159.html",
+          "publisher": "情報通信ネットワーク産業協会(CIAJ)"
+        },
+        "note": "端末機器を含む通信機器全体"
+      }
     },
     {
       "id": "telecom_construction",

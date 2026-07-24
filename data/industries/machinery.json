@@ -716,7 +716,7 @@
           "segment": "industry_machine"
         }
       ],
-      "updated": "2026-07-23",
+      "updated": "2026-07-24",
       "segments": [
         {
           "id": "mt",
@@ -744,7 +744,16 @@
           "description": ""
         }
       ],
-      "icon": "🔧"
+      "icon": "🔧",
+      "market_size": {
+        "oku_jpy": 14851,
+        "label": "工作機械受注総額",
+        "as_of": "2024",
+        "source": {
+          "url": "https://www.jmtba.or.jp/statistics/",
+          "publisher": "日本工作機械工業会"
+        }
+      }
     },
     {
       "id": "robot_fa",
@@ -1322,8 +1331,18 @@
           "note": "ドローンソリューション"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🚀"
+      "updated": "2026-07-24",
+      "icon": "🚀",
+      "market_size": {
+        "oku_jpy": 57943,
+        "label": "防衛省中央調達 調達実績(契約額)",
+        "as_of": "2024年度",
+        "source": {
+          "url": "https://www.mod.go.jp/atla/souhon/supply/jisseki/pdf/r06_chotatsu_jisseki.pdf",
+          "publisher": "防衛装備庁"
+        },
+        "note": "防衛調達のみ。プラント受注は含まない"
+      }
     },
     {
       "id": "fluid_machinery",
@@ -1649,8 +1668,18 @@
           "note": "自吸式ポンプ"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "💧"
+      "updated": "2026-07-24",
+      "icon": "💧",
+      "market_size": {
+        "oku_jpy": 7808,
+        "label": "ポンプ+圧縮機 受注額(産業機械受注状況)",
+        "as_of": "2024年度",
+        "source": {
+          "url": "https://kenkey.jp/news/article/2673",
+          "publisher": "日本産業機械工業会"
+        },
+        "note": "原資料は産機工の受注統計"
+      }
     },
     {
       "id": "material_handling",
@@ -1921,8 +1950,18 @@
           "note": "ゴム・不動産"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "📦"
+      "updated": "2026-07-24",
+      "icon": "📦",
+      "market_size": {
+        "oku_jpy": 4814,
+        "label": "運搬機械 受注額(産業機械受注状況)",
+        "as_of": "2024年度",
+        "source": {
+          "url": "https://kenkey.jp/news/article/2673",
+          "publisher": "日本産業機械工業会"
+        },
+        "note": "原資料は産機工の受注統計"
+      }
     },
     {
       "id": "engine_turbine",

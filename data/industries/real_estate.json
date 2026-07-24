@@ -272,8 +272,17 @@
           "note": "買取再販・不動産クラファン"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🏙️"
+      "updated": "2026-07-24",
+      "icon": "🏙️",
+      "market_size": {
+        "oku_jpy": 588245,
+        "label": "不動産業 売上高(法人企業統計)",
+        "as_of": "2024年度",
+        "source": {
+          "url": "https://www.mof.go.jp/pri/reference/ssc/results/data.htm",
+          "publisher": "財務省"
+        }
+      }
     },
     {
       "id": "condo_developer",
@@ -708,8 +717,18 @@
           "note": "愛知・岐阜の分譲マンション"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🏘️"
+      "updated": "2026-07-24",
+      "icon": "🏘️",
+      "market_size": {
+        "oku_jpy": 29182,
+        "label": "首都圏+近畿圏 新築マンション発売額(戸数×平均価格の算出値)",
+        "as_of": "2025",
+        "source": {
+          "url": "https://www.nikkei.com/article/DGXZRSP703538_V20C26A2000000/",
+          "publisher": "不動産経済研究所"
+        },
+        "note": "発売総額は非公表のため算出値"
+      }
     },
     {
       "id": "brokerage_tech",
@@ -958,8 +977,18 @@
           "note": "横浜・上海の総合不動産"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🔑"
+      "updated": "2026-07-24",
+      "icon": "🔑",
+      "market_size": {
+        "oku_jpy": 34013,
+        "label": "首都圏 中古マンション+戸建 成約総額(算出値)",
+        "as_of": "2025",
+        "source": {
+          "url": "https://www.reins.or.jp/pdf/trend/sf/sf_2025.pdf",
+          "publisher": "東日本不動産流通機構(レインズ)"
+        },
+        "note": "首都圏のみ。全国はこれより大きい"
+      }
     },
     {
       "id": "property_mgmt",

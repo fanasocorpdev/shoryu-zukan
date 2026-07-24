@@ -1,5 +1,5 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607242203";
+import { createMapView } from "./mapview.js?v=202607242320";
 
 const app = document.getElementById("app");
 
@@ -289,6 +289,7 @@ async function loadAllCompanies() {
         const rec = {
           name: c.name, code: c.listing?.code ?? "", market: c.listing?.market ?? "",
           industry: d.meta.industry_id, industryName: d.meta.industry_name,
+          url: c.url ?? null,
           rev: c.financials?.revenue_oku_jpy ?? null, mcap: c.financials?.market_cap_oku_jpy ?? null,
           emp: c.employees ?? null, salary: c.salary?.man_jpy ?? null, hiring: !!c.hiring,
           foreign: /NASDAQ|NYSE|ユーロネクスト|台湾|海外/.test(c.listing?.market ?? ""),
@@ -336,7 +337,7 @@ async function renderRanking() {
     const cmp = JSON.parse(localStorage.getItem("akinai_compare") ?? "[]");
     const rows = list.map((c, i) => `<tr>
       <td class="rank-no">${i + 1}</td>
-      <td><strong>${c.name}</strong>${c.code ? `<span class="cmp-sub"> ${c.code}</span>` : ""}
+      <td>${logo(c)}<strong>${c.name}</strong>${c.code ? `<span class="cmp-sub"> ${c.code}</span>` : ""}
         <button class="cmp-add${cmp.some((x) => x.name === c.name) ? " on" : ""}" data-name="${c.name}">${cmp.some((x) => x.name === c.name) ? "✓" : "+比較"}</button></td>
       <td><a href="#/i/${c.industry}">${c.industryName}</a></td>
       <td class="rank-val">${state.metric === "salary" ? (c.salary?.toLocaleString("ja-JP") ?? "—") + "万円"
@@ -662,8 +663,8 @@ async function renderIndustry(id) {
         <nav class="filters" id="filters">
           <button data-f="all" class="active">すべて</button>
           <button data-f="goods"><span class="dot goods"></span>モノ・サービス</button>
-          <button data-f="capex"><span class="dot capex"></span>カネ CAPEX</button>
-          <button data-f="opex"><span class="dot opex"></span>カネ OPEX</button>
+          <button data-f="capex" title="設備投資・出資・買収などの一回きりの大きな支払い"><span class="dot capex"></span>カネ(一時金)</button>
+          <button data-f="opex" title="利用料・仕入れ・家賃・保険料などの続く支払い"><span class="dot opex"></span>カネ(継続払い)</button>
         </nav>
       </header>
       <div class="map-wrap" id="map-wrap" data-filter="all"></div>

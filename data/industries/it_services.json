@@ -1232,7 +1232,7 @@
           "segment": "indep"
         }
       ],
-      "updated": "2026-07-23",
+      "updated": "2026-07-24",
       "segments": [
         {
           "id": "major",
@@ -1265,7 +1265,16 @@
           "description": "受託開発・SES"
         }
       ],
-      "icon": "🧑‍💻"
+      "icon": "🧑‍💻",
+      "market_size": {
+        "oku_jpy": 179203,
+        "label": "情報サービス業 年間売上高(特定サービス産業動態統計)",
+        "as_of": "2024",
+        "source": {
+          "url": "https://www.jisa.or.jp/Portals/0/resource/statistics/dotai2024.pdf",
+          "publisher": "経済産業省(JISA集計)"
+        }
+      }
     },
     {
       "id": "erp_saas",
@@ -3450,7 +3459,7 @@
           "segment": "other"
         }
       ],
-      "updated": "2026-07-23",
+      "updated": "2026-07-24",
       "segments": [
         {
           "id": "commerce",
@@ -3478,7 +3487,16 @@
           "description": ""
         }
       ],
-      "icon": "🛒"
+      "icon": "🛒",
+      "market_size": {
+        "oku_jpy": 261000,
+        "label": "BtoC-EC市場規模全体(電子商取引実態調査)",
+        "as_of": "2024",
+        "source": {
+          "url": "https://www.meti.go.jp/press/2025/08/20250826005/20250826005.html",
+          "publisher": "経済産業省"
+        }
+      }
     },
     {
       "id": "ai_data",
@@ -5108,7 +5126,7 @@
           "segment": "webmedia"
         }
       ],
-      "updated": "2026-07-23",
+      "updated": "2026-07-24",
       "segments": [
         {
           "id": "film_anime",
@@ -5141,7 +5159,16 @@
           "description": ""
         }
       ],
-      "icon": "📺"
+      "icon": "📺",
+      "market_size": {
+        "oku_jpy": 36259,
+        "label": "放送事業者全体の売上高",
+        "as_of": "2023年度",
+        "source": {
+          "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r07/pdf/n2130000.pdf",
+          "publisher": "総務省 情報通信白書"
+        }
+      }
     },
     {
       "id": "unsorted",

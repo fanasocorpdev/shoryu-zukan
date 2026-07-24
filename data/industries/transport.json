@@ -287,8 +287,18 @@
           "note": "鉄道車両部品卸"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🚃"
+      "updated": "2026-07-24",
+      "icon": "🚃",
+      "market_size": {
+        "oku_jpy": 17328,
+        "label": "大手民鉄16社 鉄軌道事業営業収益",
+        "as_of": "2024年度",
+        "source": {
+          "url": "https://prtimes.jp/main/html/rd/p/000000013.000152883.html",
+          "publisher": "日本民営鉄道協会"
+        },
+        "note": "大手16社のみ"
+      }
     },
     {
       "id": "trucking",
@@ -524,8 +534,17 @@
           "note": "EC物流支援"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🚚"
+      "updated": "2026-07-24",
+      "icon": "🚚",
+      "market_size": {
+        "oku_jpy": 193576,
+        "label": "トラック運送業(営業用)営業収入",
+        "as_of": "2019年度",
+        "source": {
+          "url": "https://www.mlit.go.jp/seisakutokatsu/freight/content/001709358.pdf",
+          "publisher": "国土交通省"
+        }
+      }
     },
     {
       "id": "intl_logistics",
@@ -694,8 +713,18 @@
           }
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🚢"
+      "updated": "2026-07-24",
+      "icon": "🚢",
+      "market_size": {
+        "oku_jpy": 24357,
+        "label": "外航海運業 営業収入",
+        "as_of": "2019年度",
+        "source": {
+          "url": "https://www.mlit.go.jp/seisakutokatsu/freight/content/001709358.pdf",
+          "publisher": "国土交通省"
+        },
+        "note": "運賃市況により大きく変動(2021-22年度は4兆円超)"
+      }
     },
     {
       "id": "airline",
@@ -928,8 +957,17 @@
           "note": "港湾・海運"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "📦"
+      "updated": "2026-07-24",
+      "icon": "📦",
+      "market_size": {
+        "oku_jpy": 25000,
+        "label": "倉庫業 営業収入",
+        "as_of": "2019年度",
+        "source": {
+          "url": "https://www.mlit.go.jp/seisakutokatsu/freight/content/001709358.pdf",
+          "publisher": "国土交通省"
+        }
+      }
     },
     {
       "id": "bus_taxi",

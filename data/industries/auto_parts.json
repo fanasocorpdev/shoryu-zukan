@@ -183,8 +183,17 @@
           "note": "業界統計・構造の出典"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🚗"
+      "updated": "2026-07-24",
+      "icon": "🚗",
+      "market_size": {
+        "oku_jpy": 207070,
+        "label": "自動車部品出荷額(JAPIA会員)",
+        "as_of": "2024年度",
+        "source": {
+          "url": "https://www.japia.or.jp/files/user/japia/research/shukka/2024shukka.pdf",
+          "publisher": "日本自動車部品工業会"
+        }
+      }
     },
     {
       "id": "electrical",
@@ -389,9 +398,19 @@
           "note": "カーエアコン"
         }
       ],
-      "updated": "2026-07-23",
+      "updated": "2026-07-24",
       "related_industry": "electronics",
-      "icon": "🔌"
+      "icon": "🔌",
+      "market_size": {
+        "oku_jpy": 61929,
+        "label": "電装品・電子部品の出荷額",
+        "as_of": "2024年度",
+        "source": {
+          "url": "https://www.japia.or.jp/files/user/japia/research/shukka/2024shukka.pdf",
+          "publisher": "日本自動車部品工業会"
+        },
+        "note": "エンジン関係+車体関係の合算"
+      }
     },
     {
       "id": "tire",
@@ -818,8 +837,17 @@
           }
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "⚙️"
+      "updated": "2026-07-24",
+      "icon": "⚙️",
+      "market_size": {
+        "oku_jpy": 35230,
+        "label": "駆動・伝導及び操縦装置部品の出荷額",
+        "as_of": "2024年度",
+        "source": {
+          "url": "https://www.japia.or.jp/files/user/japia/research/shukka/2024shukka.pdf",
+          "publisher": "日本自動車部品工業会"
+        }
+      }
     },
     {
       "id": "bearing",
@@ -1244,8 +1272,17 @@
           "note": "エアバッグ・車載プレス部品"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🛠️"
+      "updated": "2026-07-24",
+      "icon": "🛠️",
+      "market_size": {
+        "oku_jpy": 43597,
+        "label": "車体部品の出荷額",
+        "as_of": "2024年度",
+        "source": {
+          "url": "https://www.japia.or.jp/files/user/japia/research/shukka/2024shukka.pdf",
+          "publisher": "日本自動車部品工業会"
+        }
+      }
     },
     {
       "id": "brake",

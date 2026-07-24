@@ -773,7 +773,7 @@
           "segment": "platform"
         }
       ],
-      "updated": "2026-07-23",
+      "updated": "2026-07-24",
       "segments": [
         {
           "id": "platform",
@@ -801,7 +801,16 @@
           "description": ""
         }
       ],
-      "icon": "👥"
+      "icon": "👥",
+      "market_size": {
+        "oku_jpy": 98862,
+        "label": "労働者派遣売上高+職業紹介手数料収入",
+        "as_of": "2023年度",
+        "source": {
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000079194.html",
+          "publisher": "厚生労働省"
+        }
+      }
     },
     {
       "id": "ad_marketing",
@@ -1609,7 +1618,7 @@
           "segment": "agency"
         }
       ],
-      "updated": "2026-07-23",
+      "updated": "2026-07-24",
       "segments": [
         {
           "id": "agency",
@@ -1637,7 +1646,16 @@
           "description": ""
         }
       ],
-      "icon": "📣"
+      "icon": "📣",
+      "market_size": {
+        "oku_jpy": 80623,
+        "label": "日本の総広告費",
+        "as_of": "2025",
+        "source": {
+          "url": "https://www.dentsu.co.jp/news/release/2026/0305-011003.html",
+          "publisher": "電通"
+        }
+      }
     },
     {
       "id": "education",
@@ -2464,8 +2482,17 @@
           "note": "フットサル施設・環境・太陽光"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "✈️"
+      "updated": "2026-07-24",
+      "icon": "✈️",
+      "market_size": {
+        "oku_jpy": 251536,
+        "label": "日本人国内旅行消費額",
+        "as_of": "2024",
+        "source": {
+          "url": "https://www.mlit.go.jp/kankocho/topics02_00014.html",
+          "publisher": "観光庁"
+        }
+      }
     },
     {
       "id": "facility",
@@ -3588,8 +3615,18 @@
           "note": "ゲストハウスウェディング"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "💐"
+      "updated": "2026-07-24",
+      "icon": "💐",
+      "market_size": {
+        "oku_jpy": 115139,
+        "label": "介護費用額(介護給付費+自己負担)",
+        "as_of": "2023年度",
+        "source": {
+          "url": "https://www.mhlw.go.jp/toukei/saikin/hw/kaigo/kyufu/23/index.html",
+          "publisher": "厚生労働省"
+        },
+        "note": "冠婚葬祭は含まない"
+      }
     },
     {
       "id": "unsorted",

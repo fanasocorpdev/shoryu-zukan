@@ -810,8 +810,18 @@
           "note": "メモリモジュール・HPC"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🧲"
+      "updated": "2026-07-24",
+      "icon": "🧲",
+      "market_size": {
+        "oku_jpy": 45323,
+        "label": "日系電子部品メーカー グローバル出荷額",
+        "as_of": "2024年度",
+        "source": {
+          "url": "https://www.jeita.or.jp/japanese/stat/",
+          "publisher": "JEITA"
+        },
+        "note": "世界出荷ベース"
+      }
     },
     {
       "id": "measurement_control",
@@ -1366,8 +1376,18 @@
           "note": "画像検査装置"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "📏"
+      "updated": "2026-07-24",
+      "icon": "📏",
+      "market_size": {
+        "oku_jpy": 7500,
+        "label": "電気計測器 国内売上+輸出",
+        "as_of": "2024年度",
+        "source": {
+          "url": "https://dempa-digital.com/article/703747",
+          "publisher": "日本電気計測器工業会(JEMIMA)"
+        },
+        "note": "原資料はJEMIMA中期見通し"
+      }
     },
     {
       "id": "optics_precision",
@@ -1506,8 +1526,18 @@
           "note": "時計・精密部品"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "📷"
+      "updated": "2026-07-24",
+      "icon": "📷",
+      "market_size": {
+        "oku_jpy": 17149,
+        "label": "事務機械 総出荷額(JBMIA出荷統計)",
+        "as_of": "2024",
+        "source": {
+          "url": "https://www.jbmia.or.jp/statistical_data/",
+          "publisher": "JBMIA"
+        },
+        "note": "会員企業の全世界向け出荷"
+      }
     },
     {
       "id": "medical_devices",
@@ -1755,8 +1785,17 @@
           "note": "歯科矯正装置・技工"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🩺"
+      "updated": "2026-07-24",
+      "icon": "🩺",
+      "market_size": {
+        "oku_jpy": 48709,
+        "label": "医療機器 国内向け出荷額(薬事工業生産動態統計)",
+        "as_of": "2023",
+        "source": {
+          "url": "https://www.mhlw.go.jp/stf/newpage_47794.html",
+          "publisher": "厚生労働省"
+        }
+      }
     },
     {
       "id": "battery_energy",

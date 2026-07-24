@@ -454,8 +454,17 @@
           "note": "東北地域ゼネコン連合"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🏗️"
+      "updated": "2026-07-24",
+      "icon": "🏗️",
+      "market_size": {
+        "oku_jpy": 755700,
+        "label": "名目建設投資(建設投資見通し)",
+        "as_of": "2025年度見通し",
+        "source": {
+          "url": "https://www.mlit.go.jp/report/press/joho04_hh_001319.html",
+          "publisher": "国土交通省"
+        }
+      }
     },
     {
       "id": "subcontractor",
@@ -751,8 +760,17 @@
           "note": "給排水・空調"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🔌"
+      "updated": "2026-07-24",
+      "icon": "🔌",
+      "market_size": {
+        "oku_jpy": 380481,
+        "label": "設備工事業 完成工事高(建設工事施工統計)",
+        "as_of": "2024年度",
+        "source": {
+          "url": "https://www.mlit.go.jp/report/press/content/001996222.pdf",
+          "publisher": "国土交通省"
+        }
+      }
     },
     {
       "id": "road_infra",
@@ -2006,8 +2024,17 @@
           "note": "建設コンサル(河川・砂防)・多角"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "⚒️"
+      "updated": "2026-07-24",
+      "icon": "⚒️",
+      "market_size": {
+        "oku_jpy": 637315,
+        "label": "下請完成工事高(建設工事施工統計)",
+        "as_of": "2024年度",
+        "source": {
+          "url": "https://www.mlit.go.jp/report/press/content/001996222.pdf",
+          "publisher": "国土交通省"
+        }
+      }
     },
     {
       "id": "unsorted",

@@ -66,7 +66,16 @@
       "related_industry": "pharma",
       "companies": [],
       "updated": "2026-07-24",
-      "icon": "🏯"
+      "icon": "🏯",
+      "market_size": {
+        "oku_jpy": 15386,
+        "label": "医薬品製造業の研究開発費(科学技術研究調査)",
+        "as_of": "2023年度",
+        "source": {
+          "url": "https://www.stat.go.jp/data/kagaku/kekka/pdf/06pamphlet.pdf",
+          "publisher": "総務省統計局"
+        }
+      }
     },
     {
       "id": "biotech",
@@ -200,7 +209,16 @@
         }
       ],
       "updated": "2026-07-24",
-      "icon": "🔬"
+      "icon": "🔬",
+      "market_size": {
+        "oku_jpy": 2168,
+        "label": "日本CRO協会会員の総売上高",
+        "as_of": "2025",
+        "source": {
+          "url": "https://www.jcroa.or.jp/customers/report/",
+          "publisher": "日本CRO協会"
+        }
+      }
     },
     {
       "id": "smo",

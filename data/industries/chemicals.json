@@ -565,8 +565,17 @@
           "note": "マイクロ波化学プロセス"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🧪"
+      "updated": "2026-07-24",
+      "icon": "🧪",
+      "market_size": {
+        "oku_jpy": 333840,
+        "label": "化学工業 製造品出荷額等",
+        "as_of": "2023",
+        "source": {
+          "url": "https://www.nikkakyo.org/upload_files/chemical_industry/01_shipments.pdf",
+          "publisher": "日本化学工業協会(原資料: 経済構造実態調査)"
+        }
+      }
     },
     {
       "id": "electronic_materials",
@@ -1314,8 +1323,17 @@
           "note": "コスメ(エクスボーテ)"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🧴"
+      "updated": "2026-07-24",
+      "icon": "🧴",
+      "market_size": {
+        "oku_jpy": 13745,
+        "label": "化粧品出荷金額(生産動態統計)",
+        "as_of": "2024",
+        "source": {
+          "url": "https://www.jcia.org/user/statistics/shipment",
+          "publisher": "経済産業省(日本化粧品工業会掲載)"
+        }
+      }
     },
     {
       "id": "films_fibers",
@@ -1652,8 +1670,18 @@
           "note": "麻・リネン"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🎞️"
+      "updated": "2026-07-24",
+      "icon": "🎞️",
+      "market_size": {
+        "oku_jpy": 37000,
+        "label": "繊維工業 製造品出荷額",
+        "as_of": "2021",
+        "source": {
+          "url": "https://www.meti.go.jp/policy/mono_info_service/mono/fiber/pdf/240904-4.pdf",
+          "publisher": "経済産業省"
+        },
+        "note": "フィルムは化学工業側に分類"
+      }
     },
     {
       "id": "agchem_fine",

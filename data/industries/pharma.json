@@ -441,8 +441,17 @@
           "note": "業界構造・統計の出典"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🏯"
+      "updated": "2026-07-24",
+      "icon": "🏯",
+      "market_size": {
+        "oku_jpy": 102485,
+        "label": "医薬品の国内生産金額(薬事工業生産動態統計)",
+        "as_of": "2024",
+        "source": {
+          "url": "https://www.mhlw.go.jp/toukei/list/dl/yakuji_nenpou_all.pdf",
+          "publisher": "厚生労働省"
+        }
+      }
     },
     {
       "id": "wholesaler",
@@ -611,8 +620,18 @@
           "note": "病院設備・医療機器"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🚚"
+      "updated": "2026-07-24",
+      "icon": "🚚",
+      "market_size": {
+        "oku_jpy": 352410,
+        "label": "医薬品・化粧品卸売業の年間販売額(商業動態統計)",
+        "as_of": "2024",
+        "source": {
+          "url": "https://www.meti.go.jp/statistics/tyo/syoudou/result/2024_2.html",
+          "publisher": "経済産業省"
+        },
+        "note": "化粧品卸を含む区分"
+      }
     },
     {
       "id": "hospital",
@@ -836,8 +855,17 @@
           "note": "配置薬"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "⚕️"
+      "updated": "2026-07-24",
+      "icon": "⚕️",
+      "market_size": {
+        "oku_jpy": 84000,
+        "label": "調剤医療費(概算医療費ベース)",
+        "as_of": "2024年度",
+        "source": {
+          "url": "https://www.mhlw.go.jp/topics/medias/year/24/dl/iryouhi_data.pdf",
+          "publisher": "厚生労働省"
+        }
+      }
     },
     {
       "id": "patient",

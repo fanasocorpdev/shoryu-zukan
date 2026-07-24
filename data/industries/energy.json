@@ -141,8 +141,18 @@
           }
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "⚡"
+      "updated": "2026-07-24",
+      "icon": "⚡",
+      "market_size": {
+        "oku_jpy": 180000,
+        "label": "電力小売市場規模(小売全面自由化時点)",
+        "as_of": "2016",
+        "source": {
+          "url": "https://www.enecho.meti.go.jp/category/electricity_and_gas/electric/summary/pdf/sijyo-gaiyo.pdf",
+          "publisher": "資源エネルギー庁"
+        },
+        "note": "直近の料金収入統計はなく自由化時点の公表値"
+      }
     },
     {
       "id": "gas",
@@ -268,8 +278,17 @@
           "note": "LPガス"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🔥"
+      "updated": "2026-07-24",
+      "icon": "🔥",
+      "market_size": {
+        "oku_jpy": 40682,
+        "label": "都市ガス販売額(ガス事業生産動態統計)",
+        "as_of": "2024年度",
+        "source": {
+          "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040378072&fileKind=0",
+          "publisher": "資源エネルギー庁"
+        }
+      }
     },
     {
       "id": "oil",
@@ -380,8 +399,17 @@
           "note": "燃料供給・リサイクル"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🛢️"
+      "updated": "2026-07-24",
+      "icon": "🛢️",
+      "market_size": {
+        "oku_jpy": 187990,
+        "label": "石油製品・石炭製品製造業 製造品出荷額等",
+        "as_of": "2022",
+        "source": {
+          "url": "https://www.meti.go.jp/statistics/tyo/kkj/pdf/seizo_gaikyo2023.pdf",
+          "publisher": "経済構造実態調査"
+        }
+      }
     },
     {
       "id": "renewable",
@@ -526,8 +554,17 @@
           "note": "再エネ・環境"
         }
       ],
-      "updated": "2026-07-23",
-      "icon": "🌞"
+      "updated": "2026-07-24",
+      "icon": "🌞",
+      "market_size": {
+        "oku_jpy": 48540,
+        "label": "FIT/FIP再エネ買取費用(賦課金算定上の見込み)",
+        "as_of": "2025年度見込み",
+        "source": {
+          "url": "https://www.meti.go.jp/press/2024/03/20250321006/20250321006.html",
+          "publisher": "経済産業省"
+        }
+      }
     },
     {
       "id": "resource_dev",
