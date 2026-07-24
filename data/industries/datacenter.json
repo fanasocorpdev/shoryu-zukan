@@ -195,7 +195,8 @@
           "note": "会員名簿を実名企業リストの主出典とする"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏯"
     },
     {
       "id": "hyperscaler",
@@ -248,7 +249,8 @@
           "note": "クラウド市場・DC投資動向の構造出典"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "☁️"
     },
     {
       "id": "enterprise_user",
@@ -261,7 +263,8 @@
       },
       "companies": [],
       "note": "実名掲載は企業の自己登録ベースで拡充予定",
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏢"
     },
     {
       "id": "sier",
@@ -338,7 +341,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "it_services"
+      "related_industry": "it_services",
+      "icon": "🧑‍💻"
     },
     {
       "id": "carrier_network",
@@ -439,7 +443,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "telecom"
+      "related_industry": "telecom",
+      "icon": "📡"
     },
     {
       "id": "power_utility",
@@ -491,7 +496,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "energy"
+      "related_industry": "energy",
+      "icon": "⚡"
     },
     {
       "id": "renewable_ppa",
@@ -527,7 +533,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "energy"
+      "related_industry": "energy",
+      "icon": "🌞"
     },
     {
       "id": "maintenance_ops",
@@ -579,7 +586,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🛡️"
     },
     {
       "id": "design_firm",
@@ -610,7 +618,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "📐"
     },
     {
       "id": "general_contractor",
@@ -714,7 +723,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "construction"
+      "related_industry": "construction",
+      "icon": "🏗️"
     },
     {
       "id": "subcontractor",
@@ -787,7 +797,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "construction"
+      "related_industry": "construction",
+      "icon": "🛠️"
     },
     {
       "id": "electrical_equipment",
@@ -905,7 +916,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "electronics"
+      "related_industry": "electronics",
+      "icon": "🔋"
     },
     {
       "id": "cooling_equipment",
@@ -964,7 +976,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "machinery"
+      "related_industry": "machinery",
+      "icon": "❄️"
     },
     {
       "id": "semiconductor",
@@ -1033,7 +1046,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "💠"
     },
     {
       "id": "server_vendor",
@@ -1146,7 +1160,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "electronics"
+      "related_industry": "electronics",
+      "icon": "🖥️"
     },
     {
       "id": "network_vendor",
@@ -1192,7 +1207,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🌐"
     },
     {
       "id": "landowner",
@@ -1268,7 +1284,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "real_estate"
+      "related_industry": "real_estate",
+      "icon": "🗻"
     },
     {
       "id": "government",
@@ -1300,7 +1317,8 @@
           "name": "立地自治体(例: 印西市・千歳市)"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏛️"
     },
     {
       "id": "finance_investor",
@@ -1348,7 +1366,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "💰"
     },
     {
       "id": "bank_lender",
@@ -1440,7 +1459,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "banking"
+      "related_industry": "banking",
+      "icon": "🏦"
     },
     {
       "id": "grid",
@@ -1465,7 +1485,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "🗼"
     },
     {
       "id": "optical_parts",
@@ -1498,7 +1519,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "🔦"
     }
   ],
   "edges": [

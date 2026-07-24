@@ -48,7 +48,8 @@
       },
       "note": "需要側は全産業にまたがるため個別掲載しない",
       "companies": [],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏭"
     },
     {
       "id": "machine_tools",
@@ -741,7 +742,8 @@
           "label": "その他",
           "description": ""
         }
-      ]
+      ],
+      "icon": "🔧"
     },
     {
       "id": "robot_fa",
@@ -896,7 +898,8 @@
           "note": "アルミ構造材・FA部材"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🤖"
     },
     {
       "id": "construction_machinery",
@@ -1034,7 +1037,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "construction"
+      "related_industry": "construction",
+      "icon": "🚧"
     },
     {
       "id": "agri_machinery",
@@ -1099,7 +1103,8 @@
           "note": "製粉機械"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🚜"
     },
     {
       "id": "heavy_industry",
@@ -1316,7 +1321,8 @@
           "note": "ドローンソリューション"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🚀"
     },
     {
       "id": "fluid_machinery",
@@ -1642,7 +1648,8 @@
           "note": "自吸式ポンプ"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "💧"
     },
     {
       "id": "material_handling",
@@ -1913,7 +1920,8 @@
           "note": "ゴム・不動産"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "📦"
     },
     {
       "id": "engine_turbine",
@@ -1977,7 +1985,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "⚙️"
     },
     {
       "id": "unsorted",
@@ -2025,7 +2034,8 @@
         }
       ],
       "updated": "2026-07-24",
-      "related_industry": "auto_parts"
+      "related_industry": "auto_parts",
+      "icon": "🔩"
     }
   ],
   "edges": [

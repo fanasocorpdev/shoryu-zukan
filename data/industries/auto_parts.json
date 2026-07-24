@@ -182,7 +182,8 @@
           "note": "業界統計・構造の出典"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🚗"
     },
     {
       "id": "electrical",
@@ -388,7 +389,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "electronics"
+      "related_industry": "electronics",
+      "icon": "🔌"
     },
     {
       "id": "tire",
@@ -495,7 +497,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🛞"
     },
     {
       "id": "powertrain",
@@ -814,7 +817,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "⚙️"
     },
     {
       "id": "bearing",
@@ -883,7 +887,8 @@
           "note": "無給油軸受"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🔩"
     },
     {
       "id": "harness",
@@ -938,7 +943,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🔗"
     },
     {
       "id": "interior",
@@ -1006,7 +1012,8 @@
           "note": "樹脂部品"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "💺"
     },
     {
       "id": "body",
@@ -1236,7 +1243,8 @@
           "note": "エアバッグ・車載プレス部品"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🛠️"
     },
     {
       "id": "brake",
@@ -1316,7 +1324,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🛑"
     },
     {
       "id": "glass",
@@ -1361,7 +1370,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🪟"
     },
     {
       "id": "unsorted",
@@ -1410,7 +1420,8 @@
         }
       ],
       "updated": "2026-07-24",
-      "related_industry": "machinery"
+      "related_industry": "machinery",
+      "icon": "🗜️"
     }
   ],
   "edges": [

@@ -232,7 +232,8 @@
           "note": "業界構造・統計の出典"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏯"
     },
     {
       "id": "berkshire",
@@ -256,7 +257,8 @@
           "name": "国内外の機関投資家・個人株主"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🎩"
     },
     {
       "id": "resource_project",
@@ -274,7 +276,8 @@
       ],
       "note": "個別権益は各社IRのセグメント情報で開示される",
       "updated": "2026-07-23",
-      "related_industry": "materials"
+      "related_industry": "materials",
+      "icon": "⛏️"
     },
     {
       "id": "manufacturer",
@@ -287,7 +290,8 @@
       },
       "companies": [],
       "note": "全業界にまたがるため個別掲載しない",
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏭"
     },
     {
       "id": "demand_customer",
@@ -299,7 +303,8 @@
         "angle": 45
       },
       "companies": [],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏢"
     },
     {
       "id": "portfolio_retail",
@@ -360,7 +365,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏪"
     },
     {
       "id": "bank_lender",
@@ -434,7 +440,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏦"
     },
     {
       "id": "senmon_shosha",
@@ -1550,7 +1557,8 @@
           "label": "総合・その他",
           "description": "複数分野・その他"
         }
-      ]
+      ],
+      "icon": "🚢"
     },
     {
       "id": "unsorted",
@@ -1583,7 +1591,8 @@
         }
       ],
       "updated": "2026-07-24",
-      "related_industry": "food"
+      "related_industry": "food",
+      "icon": "🌾"
     },
     {
       "id": "power_ipp",
@@ -1602,7 +1611,8 @@
         }
       ],
       "updated": "2026-07-24",
-      "related_industry": "energy"
+      "related_industry": "energy",
+      "icon": "⚡"
     }
   ],
   "edges": [

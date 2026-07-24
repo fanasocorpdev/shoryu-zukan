@@ -48,7 +48,8 @@
       },
       "note": "需要側は全産業にまたがるため個別掲載しない",
       "companies": [],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏢"
     },
     {
       "id": "general_chemicals",
@@ -563,7 +564,8 @@
           "note": "マイクロ波化学プロセス"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🧪"
     },
     {
       "id": "electronic_materials",
@@ -796,7 +798,8 @@
           "note": "電子材料中間体"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "💠"
     },
     {
       "id": "industrial_gas",
@@ -839,7 +842,8 @@
           "note": "アセチレン"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "💨"
     },
     {
       "id": "paint_ink",
@@ -1017,7 +1021,8 @@
           "note": "塗料卸"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🎨"
     },
     {
       "id": "toiletries_cosmetics",
@@ -1308,7 +1313,8 @@
           "note": "コスメ(エクスボーテ)"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🧴"
     },
     {
       "id": "films_fibers",
@@ -1645,7 +1651,8 @@
           "note": "麻・リネン"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🎞️"
     },
     {
       "id": "agchem_fine",
@@ -1733,7 +1740,8 @@
           "note": "ファインケミカル"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🌱"
     },
     {
       "id": "oil_refinery",
@@ -1791,7 +1799,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "energy"
+      "related_industry": "energy",
+      "icon": "🛢️"
     },
     {
       "id": "unsorted",
@@ -1836,7 +1845,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "🧷"
     }
   ],
   "edges": [

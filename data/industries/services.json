@@ -48,7 +48,8 @@
       },
       "note": "需要側は全業界・全世代にまたがるため個別掲載しない",
       "companies": [],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🧑"
     },
     {
       "id": "hr",
@@ -798,7 +799,8 @@
           "label": "その他",
           "description": ""
         }
-      ]
+      ],
+      "icon": "👥"
     },
     {
       "id": "ad_marketing",
@@ -1633,7 +1635,8 @@
           "label": "その他",
           "description": ""
         }
-      ]
+      ],
+      "icon": "📣"
     },
     {
       "id": "education",
@@ -1990,7 +1993,8 @@
           "note": "保育・幼児教育(キッズスマイル)"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🎓"
     },
     {
       "id": "leisure_travel",
@@ -2459,7 +2463,8 @@
           "note": "フットサル施設・環境・太陽光"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "✈️"
     },
     {
       "id": "facility",
@@ -2661,7 +2666,8 @@
           "note": "警備・施設管理"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🧹"
     },
     {
       "id": "bpo",
@@ -2954,7 +2960,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "it_services"
+      "related_industry": "it_services",
+      "icon": "🎧"
     },
     {
       "id": "ma_professional",
@@ -3115,7 +3122,8 @@
           "note": "M&A仲介・オペレーティングリース"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "⚖️"
     },
     {
       "id": "lifestyle",
@@ -3579,7 +3587,8 @@
           "note": "ゲストハウスウェディング"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "💐"
     },
     {
       "id": "unsorted",
@@ -3618,7 +3627,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "👔"
     }
   ],
   "edges": [

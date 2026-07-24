@@ -260,7 +260,8 @@
           "note": "食品産業統計の出典"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏯"
     },
     {
       "id": "raw_material",
@@ -417,7 +418,8 @@
           "note": "飼料"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🌾"
     },
     {
       "id": "food_trading",
@@ -507,7 +509,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🚢"
     },
     {
       "id": "food_wholesale",
@@ -802,7 +805,8 @@
           "note": "畜産物輸出入商社"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "📦"
     },
     {
       "id": "cold_logistics",
@@ -842,7 +846,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "transport"
+      "related_industry": "transport",
+      "icon": "🧊"
     },
     {
       "id": "food_retail",
@@ -906,7 +911,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🛒"
     },
     {
       "id": "food_service",
@@ -1741,7 +1747,8 @@
           "label": "その他業態",
           "description": ""
         }
-      ]
+      ],
+      "icon": "🍽️"
     },
     {
       "id": "consumer",
@@ -1753,7 +1760,8 @@
         "angle": 0
       },
       "companies": [],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🧑"
     },
     {
       "id": "confectionery_beverage",
@@ -2050,7 +2058,8 @@
           "note": "アサイー"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🍫"
     },
     {
       "id": "ingredients_processing",
@@ -2597,7 +2606,8 @@
           "note": "食品(ウェルディッシュ)"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🧂"
     },
     {
       "id": "unsorted",
@@ -2644,7 +2654,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "🚜"
     },
     {
       "id": "food_packaging",
@@ -2678,7 +2689,8 @@
         }
       ],
       "updated": "2026-07-24",
-      "related_industry": "materials"
+      "related_industry": "materials",
+      "icon": "🥫"
     }
   ],
   "edges": [

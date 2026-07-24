@@ -169,7 +169,7 @@ export function createMapView(container, data) {
     g.appendChild(svgEl("circle", { class: "body", r }));
 
     const icon = svgEl("text", { class: "icon", y: r * 0.28, "font-size": r * 0.92 });
-    icon.textContent = layerById[n.layer]?.icon ?? "●";
+    icon.textContent = n.icon ?? layerById[n.layer]?.icon ?? "●";
     g.appendChild(icon);
 
     const portalTarget =

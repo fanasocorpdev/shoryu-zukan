@@ -46,7 +46,8 @@
       },
       "related_industry": "semiconductor",
       "companies": [],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "🏯"
     },
     {
       "id": "wafer",
@@ -78,7 +79,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "💿"
     },
     {
       "id": "photoresist",
@@ -124,7 +126,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "🎞️"
     },
     {
       "id": "gas_chemical",
@@ -185,7 +188,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "🧪"
     },
     {
       "id": "mask_blanks",
@@ -218,7 +222,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "🎭"
     },
     {
       "id": "cmp_slurry",
@@ -244,7 +249,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "🌀"
     },
     {
       "id": "substrate_abf",
@@ -284,7 +290,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "🧱"
     },
     {
       "id": "backend_materials",
@@ -323,7 +330,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "🔗"
     },
     {
       "id": "quartz_jig",
@@ -363,7 +371,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "🔮"
     }
   ],
   "edges": [

@@ -48,7 +48,8 @@
       },
       "note": "需要側は個別掲載しない",
       "companies": [],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🧑"
     },
     {
       "id": "jr",
@@ -90,7 +91,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🚅"
     },
     {
       "id": "private_rail",
@@ -284,7 +286,8 @@
           "note": "鉄道車両部品卸"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🚃"
     },
     {
       "id": "trucking",
@@ -520,7 +523,8 @@
           "note": "EC物流支援"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🚚"
     },
     {
       "id": "intl_logistics",
@@ -556,7 +560,8 @@
           "note": "国際フォワーダー"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🌏"
     },
     {
       "id": "shipping",
@@ -688,7 +693,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🚢"
     },
     {
       "id": "airline",
@@ -737,7 +743,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "✈️"
     },
     {
       "id": "warehouse",
@@ -920,7 +927,8 @@
           "note": "港湾・海運"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "📦"
     },
     {
       "id": "bus_taxi",
@@ -970,7 +978,8 @@
           "note": "アルピコ交通・スーパー"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🚌"
     },
     {
       "id": "shipbuilding",
@@ -1039,7 +1048,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "machinery"
+      "related_industry": "machinery",
+      "icon": "🛳️"
     },
     {
       "id": "unsorted",
@@ -1096,7 +1106,8 @@
         }
       ],
       "updated": "2026-07-24",
-      "related_industry": "machinery"
+      "related_industry": "machinery",
+      "icon": "🚋"
     },
     {
       "id": "port_terminal",
@@ -1127,7 +1138,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "⚓"
     }
   ],
   "edges": [

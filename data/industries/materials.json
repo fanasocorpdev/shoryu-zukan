@@ -48,7 +48,8 @@
       },
       "note": "需要側は各業界マップを参照",
       "companies": [],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏢"
     },
     {
       "id": "steel",
@@ -361,7 +362,8 @@
           "note": "鋼材流通"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "⚒️"
     },
     {
       "id": "nonferrous",
@@ -583,7 +585,8 @@
           "note": "ニッケル・不動産・暗号資産"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🥉"
     },
     {
       "id": "cement_ceramics",
@@ -880,7 +883,8 @@
           "note": "ガラス加工"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🧱"
     },
     {
       "id": "paper_pulp",
@@ -1026,7 +1030,8 @@
           "note": "製紙用具"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "📄"
     },
     {
       "id": "recycle",
@@ -1144,7 +1149,8 @@
           "note": "銅リサイクル・鋳物"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "♻️"
     },
     {
       "id": "metal_products",
@@ -1302,7 +1308,8 @@
           "note": "ねじ・精密ばね・電線"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🔩"
     },
     {
       "id": "printing_packaging",
@@ -1655,7 +1662,8 @@
           "note": "総合印刷・BPO"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🖨️"
     },
     {
       "id": "unsorted",
@@ -1694,7 +1702,8 @@
         }
       ],
       "updated": "2026-07-24",
-      "related_industry": "trading_companies"
+      "related_industry": "trading_companies",
+      "icon": "⛏️"
     }
   ],
   "edges": [

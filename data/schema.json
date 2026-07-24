@@ -129,6 +129,10 @@
           "type": "string",
           "description": "layers[].id のいずれか"
         },
+        "icon": {
+          "type": "string",
+          "description": "ノード個別のアイコン絵文字(未指定時はlayerのiconを使用)"
+        },
         "related_industry": {
           "type": "string",
           "pattern": "^[a-z0-9_]+$",

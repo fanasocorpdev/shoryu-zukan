@@ -48,7 +48,8 @@
       },
       "note": "需要側は個別掲載しない。住宅ローンは銀行マップ参照",
       "companies": [],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🧑"
     },
     {
       "id": "developer",
@@ -270,7 +271,8 @@
           "note": "買取再販・不動産クラファン"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏙️"
     },
     {
       "id": "condo_developer",
@@ -705,7 +707,8 @@
           "note": "愛知・岐阜の分譲マンション"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏘️"
     },
     {
       "id": "brokerage_tech",
@@ -954,7 +957,8 @@
           "note": "横浜・上海の総合不動産"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🔑"
     },
     {
       "id": "property_mgmt",
@@ -1126,7 +1130,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "services"
+      "related_industry": "services",
+      "icon": "🛎️"
     },
     {
       "id": "logistics_industrial",
@@ -1147,7 +1152,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "📦"
     },
     {
       "id": "parking",
@@ -1213,7 +1219,8 @@
           "note": "駐車場機器・ロッカー"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🅿️"
     },
     {
       "id": "unsorted",
@@ -1251,7 +1258,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "💰"
     }
   ],
   "edges": [

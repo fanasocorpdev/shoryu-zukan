@@ -123,7 +123,8 @@
           "note": "統計(店舗数・売上)の出典"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏪"
     },
     {
       "id": "consumer",
@@ -135,7 +136,8 @@
         "angle": 0
       },
       "companies": [],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🧑"
     },
     {
       "id": "hq",
@@ -245,7 +247,8 @@
           "note": "ローソン提携"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏢"
     },
     {
       "id": "food_vendor",
@@ -291,7 +294,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🍱"
     },
     {
       "id": "nb_maker",
@@ -360,7 +364,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "food"
+      "related_industry": "food",
+      "icon": "🥤"
     },
     {
       "id": "wholesale",
@@ -415,7 +420,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "food"
+      "related_industry": "food",
+      "icon": "📦"
     },
     {
       "id": "logistics",
@@ -442,7 +448,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "transport"
+      "related_industry": "transport",
+      "icon": "🚚"
     },
     {
       "id": "bank_atm",
@@ -490,7 +497,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "payments"
+      "related_industry": "payments",
+      "icon": "🏧"
     },
     {
       "id": "equipment_vendor",
@@ -573,7 +581,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "electronics"
+      "related_industry": "electronics",
+      "icon": "🧊"
     },
     {
       "id": "advertiser",
@@ -587,7 +596,8 @@
       "companies": [],
       "note": "食品・日用品メーカーが中心。実名は自己登録ベースで拡充予定",
       "updated": "2026-07-23",
-      "related_industry": "services"
+      "related_industry": "services",
+      "icon": "📣"
     },
     {
       "id": "realestate_owner",
@@ -601,7 +611,8 @@
       "companies": [],
       "note": "個人・法人地主。実名掲載なし",
       "updated": "2026-07-23",
-      "related_industry": "real_estate"
+      "related_industry": "real_estate",
+      "icon": "🗻"
     },
     {
       "id": "trading_co",
@@ -675,7 +686,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "trading_companies"
+      "related_industry": "trading_companies",
+      "icon": "🚢"
     },
     {
       "id": "packaging",
@@ -702,7 +714,8 @@
         }
       ],
       "updated": "2026-07-24",
-      "related_industry": "materials"
+      "related_industry": "materials",
+      "icon": "🥡"
     }
   ],
   "edges": [

@@ -440,7 +440,8 @@
           "note": "業界構造・統計の出典"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏯"
     },
     {
       "id": "wholesaler",
@@ -609,7 +610,8 @@
           "note": "病院設備・医療機器"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🚚"
     },
     {
       "id": "hospital",
@@ -622,7 +624,8 @@
       },
       "companies": [],
       "note": "医療法人が中心のため実名掲載なし。上場は運営支援会社等に限られる",
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏥"
     },
     {
       "id": "pharmacy",
@@ -832,7 +835,8 @@
           "note": "配置薬"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "⚕️"
     },
     {
       "id": "patient",
@@ -844,7 +848,8 @@
         "angle": 0
       },
       "companies": [],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🧑"
     },
     {
       "id": "insurer",
@@ -876,7 +881,8 @@
           "name": "市町村国保・後期高齢者医療制度"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🛡️"
     },
     {
       "id": "mhlw",
@@ -905,7 +911,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏛️"
     },
     {
       "id": "biotech",
@@ -1338,7 +1345,8 @@
         }
       ],
       "updated": "2026-07-24",
-      "related_industry": "drug_discovery"
+      "related_industry": "drug_discovery",
+      "icon": "🧬"
     },
     {
       "id": "cro",
@@ -1448,7 +1456,8 @@
         }
       ],
       "updated": "2026-07-24",
-      "related_industry": "drug_discovery"
+      "related_industry": "drug_discovery",
+      "icon": "🔬"
     },
     {
       "id": "cdmo",
@@ -1522,7 +1531,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "drug_discovery"
+      "related_industry": "drug_discovery",
+      "icon": "🏭"
     },
     {
       "id": "unsorted",
@@ -1562,7 +1572,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "💊"
     }
   ],
   "edges": [

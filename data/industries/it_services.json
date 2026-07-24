@@ -48,7 +48,8 @@
       },
       "note": "発注側は全業界にまたがるため個別掲載しない",
       "companies": [],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏢"
     },
     {
       "id": "sier",
@@ -1262,7 +1263,8 @@
           "label": "独立系受託開発",
           "description": "受託開発・SES"
         }
-      ]
+      ],
+      "icon": "🧑‍💻"
     },
     {
       "id": "erp_saas",
@@ -1769,7 +1771,8 @@
           "note": "RPA(BizRobo)"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "📊"
     },
     {
       "id": "security",
@@ -1998,7 +2001,8 @@
           "note": "メールセキュリティ"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🛡️"
     },
     {
       "id": "internet_media",
@@ -2087,7 +2091,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "📣"
     },
     {
       "id": "game",
@@ -2479,7 +2484,8 @@
           "note": "メタバース・ゲームAI"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🎮"
     },
     {
       "id": "net_infra",
@@ -2744,7 +2750,8 @@
           "note": "クラウドPBX"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🗄️"
     },
     {
       "id": "platform_ec",
@@ -3469,7 +3476,8 @@
           "label": "その他基盤",
           "description": ""
         }
-      ]
+      ],
+      "icon": "🛒"
     },
     {
       "id": "ai_data",
@@ -3919,7 +3927,8 @@
           "note": "映像AI・建設DX"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🤖"
     },
     {
       "id": "vertical_saas",
@@ -4447,7 +4456,8 @@
           "note": "歯科電子カルテ"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🧩"
     },
     {
       "id": "media_broadcast",
@@ -5129,7 +5139,8 @@
           "label": "その他",
           "description": ""
         }
-      ]
+      ],
+      "icon": "📺"
     },
     {
       "id": "unsorted",
@@ -5155,7 +5166,8 @@
         "angle": 200
       },
       "companies": [],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "🧑"
     },
     {
       "id": "offshore",
@@ -5174,7 +5186,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "🌏"
     }
   ],
   "edges": [

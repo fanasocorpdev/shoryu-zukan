@@ -48,7 +48,8 @@
       },
       "note": "需要側は個別掲載しない",
       "companies": [],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🧑"
     },
     {
       "id": "sports",
@@ -180,7 +181,8 @@
           "note": "ゴルフアパレル"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "⚽"
     },
     {
       "id": "toys_games",
@@ -249,7 +251,8 @@
           "note": "キャラクター雑貨"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🧸"
     },
     {
       "id": "musical_instruments",
@@ -299,7 +302,8 @@
           "note": "音響機器"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🎸"
     },
     {
       "id": "stationery_office",
@@ -422,7 +426,8 @@
           "note": "転写・OA"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "✏️"
     },
     {
       "id": "baby_care",
@@ -549,7 +554,8 @@
           "note": "ゴム製品"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🍼"
     },
     {
       "id": "apparel_brand",
@@ -884,7 +890,8 @@
           "note": "ブライダルジュエリー(I-PRIMO)"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "👗"
     },
     {
       "id": "amusement",
@@ -988,7 +995,8 @@
           "note": "パチンコ周辺機器"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🎰"
     },
     {
       "id": "unsorted",
@@ -1021,7 +1029,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "🧵"
     }
   ],
   "edges": [

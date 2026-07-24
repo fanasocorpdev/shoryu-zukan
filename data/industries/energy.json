@@ -48,7 +48,8 @@
       },
       "note": "大口需要家はデータセンター・半導体マップを参照",
       "companies": [],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏢"
     },
     {
       "id": "electric_power",
@@ -139,7 +140,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "⚡"
     },
     {
       "id": "gas",
@@ -265,7 +267,8 @@
           "note": "LPガス"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🔥"
     },
     {
       "id": "oil",
@@ -376,7 +379,8 @@
           "note": "燃料供給・リサイクル"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🛢️"
     },
     {
       "id": "renewable",
@@ -521,7 +525,8 @@
           "note": "再エネ・環境"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🌞"
     },
     {
       "id": "resource_dev",
@@ -570,7 +575,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "⛏️"
     },
     {
       "id": "unsorted",
@@ -608,7 +614,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "🗼"
     },
     {
       "id": "battery_storage",
@@ -629,7 +636,8 @@
         }
       ],
       "updated": "2026-07-24",
-      "related_industry": "electronics"
+      "related_industry": "electronics",
+      "icon": "🔋"
     }
   ],
   "edges": [

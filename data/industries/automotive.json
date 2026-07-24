@@ -364,7 +364,8 @@
           "note": "業界統計・構造の出典"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏯"
     },
     {
       "id": "consumer",
@@ -376,7 +377,8 @@
         "angle": 0
       },
       "companies": [],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🧑"
     },
     {
       "id": "dealer",
@@ -436,7 +438,8 @@
         }
       ],
       "note": "実名は自己登録ベースで拡充予定",
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏬"
     },
     {
       "id": "used_market",
@@ -521,7 +524,8 @@
           "note": "中古車買取直販(カーチス)"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🔁"
     },
     {
       "id": "energy",
@@ -578,7 +582,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "energy"
+      "related_industry": "energy",
+      "icon": "⛽"
     },
     {
       "id": "tier1",
@@ -704,7 +709,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "⚙️"
     },
     {
       "id": "materials",
@@ -786,7 +792,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "materials"
+      "related_industry": "materials",
+      "icon": "🪨"
     },
     {
       "id": "auto_semiconductor",
@@ -855,7 +862,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "💠"
     },
     {
       "id": "battery",
@@ -895,7 +903,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "electronics"
+      "related_industry": "electronics",
+      "icon": "🔋"
     },
     {
       "id": "equipment",
@@ -965,7 +974,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "machinery"
+      "related_industry": "machinery",
+      "icon": "🤖"
     },
     {
       "id": "logistics",
@@ -1026,7 +1036,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "transport"
+      "related_industry": "transport",
+      "icon": "🚢"
     },
     {
       "id": "auto_finance",
@@ -1061,7 +1072,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "banking"
+      "related_industry": "banking",
+      "icon": "💳"
     },
     {
       "id": "insurer",
@@ -1135,7 +1147,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "banking"
+      "related_industry": "banking",
+      "icon": "🛡️"
     },
     {
       "id": "gov",
@@ -1164,7 +1177,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏛️"
     },
     {
       "id": "motorcycle",
@@ -1185,7 +1199,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏍️"
     },
     {
       "id": "truck_bus",
@@ -1239,7 +1254,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🚚"
     },
     {
       "id": "aftermarket",
@@ -1373,7 +1389,8 @@
           "note": "車両メンテナンス管理"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🧰"
     },
     {
       "id": "rental_share",
@@ -1399,7 +1416,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "🔑"
     },
     {
       "id": "recycle",
@@ -1425,7 +1443,8 @@
         }
       ],
       "updated": "2026-07-24",
-      "related_industry": "materials"
+      "related_industry": "materials",
+      "icon": "♻️"
     }
   ],
   "edges": [

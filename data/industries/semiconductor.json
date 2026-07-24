@@ -164,7 +164,8 @@
           "note": "半導体・デジタル産業戦略の公表資料を構造出典とする"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏯"
     },
     {
       "id": "idm",
@@ -269,7 +270,8 @@
           "note": "パワー半導体"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏭"
     },
     {
       "id": "fabless",
@@ -405,7 +407,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "✏️"
     },
     {
       "id": "eda_ip",
@@ -469,7 +472,8 @@
           "note": "映像処理IPコア"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "📐"
     },
     {
       "id": "device_customer",
@@ -667,7 +671,8 @@
         }
       ],
       "note": "サーバーメーカー・スマホメーカー等も含む。実名は自己登録で拡充予定",
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏢"
     },
     {
       "id": "trading",
@@ -743,7 +748,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "trading_companies"
+      "related_industry": "trading_companies",
+      "icon": "🚢"
     },
     {
       "id": "utility_power",
@@ -778,7 +784,8 @@
       ],
       "note": "熊本(JASM)・千歳(ラピダス)の立地に対応",
       "updated": "2026-07-23",
-      "related_industry": "energy"
+      "related_industry": "energy",
+      "icon": "⚡"
     },
     {
       "id": "materials_wafer",
@@ -836,7 +843,8 @@
         }
       ],
       "updated": "2026-07-24",
-      "related_industry": "semiconductor_materials"
+      "related_industry": "semiconductor_materials",
+      "icon": "💿"
     },
     {
       "id": "materials_chem",
@@ -1050,7 +1058,8 @@
         }
       ],
       "updated": "2026-07-24",
-      "related_industry": "semiconductor_materials"
+      "related_industry": "semiconductor_materials",
+      "icon": "🧪"
     },
     {
       "id": "equipment_maker",
@@ -1258,7 +1267,8 @@
           "note": "プラズマ電源"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "⚙️"
     },
     {
       "id": "test_equipment",
@@ -1409,7 +1419,8 @@
           "note": "基板検査機・FPC試作"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🔬"
     },
     {
       "id": "osat",
@@ -1450,7 +1461,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "📦"
     },
     {
       "id": "substrate",
@@ -1509,7 +1521,8 @@
         }
       ],
       "updated": "2026-07-24",
-      "related_industry": "semiconductor_materials"
+      "related_industry": "semiconductor_materials",
+      "icon": "🧱"
     },
     {
       "id": "gov",
@@ -1544,7 +1557,8 @@
           "hq": "東京都"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏛️"
     },
     {
       "id": "bank_investor",
@@ -1597,7 +1611,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "banking"
+      "related_industry": "banking",
+      "icon": "🏦"
     },
     {
       "id": "poly_si",
@@ -1623,7 +1638,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "⛏️"
     }
   ],
   "edges": [

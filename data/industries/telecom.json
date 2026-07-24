@@ -268,7 +268,8 @@
           "note": "業界構造・統計の出典"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏯"
     },
     {
       "id": "subscriber",
@@ -280,7 +281,8 @@
         "angle": 0
       },
       "companies": [],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🧑"
     },
     {
       "id": "mvno",
@@ -342,7 +344,8 @@
           "note": "販売代理店"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "📶"
     },
     {
       "id": "base_station_vendor",
@@ -472,7 +475,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "electronics"
+      "related_industry": "electronics",
+      "icon": "📡"
     },
     {
       "id": "telecom_construction",
@@ -534,7 +538,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "construction"
+      "related_industry": "construction",
+      "icon": "🏗️"
     },
     {
       "id": "tower",
@@ -555,7 +560,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🗼"
     },
     {
       "id": "device_maker",
@@ -647,7 +653,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "electronics"
+      "related_industry": "electronics",
+      "icon": "📱"
     },
     {
       "id": "mic",
@@ -668,7 +675,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏛️"
     },
     {
       "id": "cdn_content",
@@ -694,7 +702,8 @@
         }
       ],
       "updated": "2026-07-24",
-      "related_industry": "it_services"
+      "related_industry": "it_services",
+      "icon": "🎬"
     }
   ],
   "edges": [

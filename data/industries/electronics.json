@@ -48,7 +48,8 @@
       },
       "note": "需要側は全産業にまたがるため個別掲載しない",
       "companies": [],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏢"
     },
     {
       "id": "conglomerate",
@@ -239,7 +240,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🔌"
     },
     {
       "id": "electronic_components",
@@ -807,7 +809,8 @@
           "note": "メモリモジュール・HPC"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🧲"
     },
     {
       "id": "measurement_control",
@@ -1362,7 +1365,8 @@
           "note": "画像検査装置"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "📏"
     },
     {
       "id": "optics_precision",
@@ -1501,7 +1505,8 @@
           "note": "時計・精密部品"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "📷"
     },
     {
       "id": "medical_devices",
@@ -1749,7 +1754,8 @@
           "note": "歯科矯正装置・技工"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🩺"
     },
     {
       "id": "battery_energy",
@@ -1792,7 +1798,8 @@
           "note": "電池セパレータ"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🔋"
     },
     {
       "id": "display_others",
@@ -1919,7 +1926,8 @@
           "note": "LEDサイネージ"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🖥️"
     },
     {
       "id": "unsorted",
@@ -1965,7 +1973,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "🏭"
     }
   ],
   "edges": [

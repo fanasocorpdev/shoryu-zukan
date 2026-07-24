@@ -63,7 +63,8 @@
         "angle": 0
       },
       "companies": [],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "🏪"
     },
     {
       "id": "consumer",
@@ -74,7 +75,8 @@
         "angle": 0
       },
       "companies": [],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "🧑"
     },
     {
       "id": "card_issuer",
@@ -132,7 +134,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "💳"
     },
     {
       "id": "acquirer",
@@ -163,7 +166,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "🧾"
     },
     {
       "id": "brand_network",
@@ -193,7 +197,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "🌐"
     },
     {
       "id": "qr_wallet",
@@ -223,7 +228,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "📱"
     },
     {
       "id": "psp_gateway",
@@ -263,7 +269,8 @@
         }
       ],
       "updated": "2026-07-24",
-      "related_industry": "it_services"
+      "related_industry": "it_services",
+      "icon": "🔗"
     },
     {
       "id": "pos_terminal",
@@ -296,7 +303,8 @@
         }
       ],
       "updated": "2026-07-24",
-      "related_industry": "electronics"
+      "related_industry": "electronics",
+      "icon": "🧮"
     },
     {
       "id": "bank_network",
@@ -329,7 +337,8 @@
           }
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "🏦"
     }
   ],
   "edges": [

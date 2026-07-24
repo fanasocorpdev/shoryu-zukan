@@ -48,7 +48,8 @@
       },
       "note": "発注側は不動産・全産業マップを参照",
       "companies": [],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏢"
     },
     {
       "id": "general_contractor",
@@ -452,7 +453,8 @@
           "note": "東北地域ゼネコン連合"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏗️"
     },
     {
       "id": "subcontractor",
@@ -748,7 +750,8 @@
           "note": "給排水・空調"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🔌"
     },
     {
       "id": "road_infra",
@@ -879,7 +882,8 @@
           "note": "公共施設管理・環境"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🛣️"
     },
     {
       "id": "house_builder",
@@ -995,7 +999,8 @@
           "note": "木造構造設計"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏠"
     },
     {
       "id": "housing_equipment",
@@ -1426,7 +1431,8 @@
         }
       ],
       "updated": "2026-07-23",
-      "related_industry": "materials"
+      "related_industry": "materials",
+      "icon": "🚿"
     },
     {
       "id": "specialist",
@@ -1999,7 +2005,8 @@
           "note": "建設コンサル(河川・砂防)・多角"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "⚒️"
     },
     {
       "id": "unsorted",
@@ -2046,7 +2053,8 @@
         }
       ],
       "updated": "2026-07-24",
-      "related_industry": "machinery"
+      "related_industry": "machinery",
+      "icon": "🚧"
     },
     {
       "id": "ready_mixed",
@@ -2074,7 +2082,8 @@
         }
       ],
       "updated": "2026-07-24",
-      "related_industry": "materials"
+      "related_industry": "materials",
+      "icon": "🧱"
     }
   ],
   "edges": [

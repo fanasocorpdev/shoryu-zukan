@@ -1,5 +1,5 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607241747";
+import { createMapView } from "./mapview.js?v=202607241757";
 
 const app = document.getElementById("app");
 const cache = {};
@@ -40,7 +40,7 @@ async function coverageHTML() {
 function centerIcon(data) {
   const center = data.nodes.find((n) => n.map?.ring === 0) ?? data.nodes[0];
   const layer = data.layers.find((l) => l.id === center.layer);
-  return layer?.icon ?? "🗺️";
+  return center.icon ?? layer?.icon ?? "🗺️";
 }
 
 async function renderHome() {

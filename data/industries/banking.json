@@ -235,7 +235,8 @@
           "note": "業界構造・統計の出典"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏯"
     },
     {
       "id": "depositor",
@@ -247,7 +248,8 @@
         "angle": 0
       },
       "companies": [],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🧑"
     },
     {
       "id": "borrower",
@@ -259,7 +261,8 @@
         "angle": 45
       },
       "companies": [],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏠"
     },
     {
       "id": "regional_bank",
@@ -790,7 +793,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏦"
     },
     {
       "id": "net_bank",
@@ -857,7 +861,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "📱"
     },
     {
       "id": "securities",
@@ -1135,7 +1140,8 @@
           "note": "投資学習アプリ"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "📈"
     },
     {
       "id": "asset_mgmt",
@@ -1242,7 +1248,8 @@
           "note": "投資・ファンド・投資銀行"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "💹"
     },
     {
       "id": "life_insurance",
@@ -1380,7 +1387,8 @@
           "note": "保険ショップ"
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🛡️"
     },
     {
       "id": "boj",
@@ -1402,7 +1410,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🏛️"
     },
     {
       "id": "mof",
@@ -1423,7 +1432,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "💴"
     },
     {
       "id": "fsa",
@@ -1452,7 +1462,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "⚖️"
     },
     {
       "id": "lease_credit",
@@ -1832,7 +1843,8 @@
         }
       ],
       "updated": "2026-07-24",
-      "related_industry": "payments"
+      "related_industry": "payments",
+      "icon": "💳"
     },
     {
       "id": "exchange",
@@ -1852,7 +1864,8 @@
           }
         }
       ],
-      "updated": "2026-07-23"
+      "updated": "2026-07-23",
+      "icon": "🔔"
     },
     {
       "id": "unsorted",
@@ -1894,7 +1907,8 @@
           "note": "売掛債権保証"
         }
       ],
-      "updated": "2026-07-24"
+      "updated": "2026-07-24",
+      "icon": "🤝"
     }
   ],
   "edges": [
