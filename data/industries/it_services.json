@@ -1339,6 +1339,11 @@
           "listing": {
             "market": "東証グロース",
             "code": "4478"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 1193,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -1353,6 +1358,11 @@
           "listing": {
             "market": "東証グロース",
             "code": "4431"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 531,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -1367,6 +1377,11 @@
           "listing": {
             "market": "東証グロース",
             "code": "4475"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 370,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -1768,6 +1783,11 @@
           "listing": {
             "market": "東証グロース",
             "code": "3692"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 391,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -1803,6 +1823,11 @@
           "listing": {
             "market": "東証グロース",
             "code": "4417"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 589,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -2044,7 +2069,12 @@
             "market": "東証グロース",
             "code": "299A"
           },
-          "note": "レシピ動画"
+          "note": "レシピ動画",
+          "financials": {
+            "market_cap_oku_jpy": 410,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         }
       ],
       "updated": "2026-07-23"
@@ -2190,7 +2220,12 @@
             "market": "東証グロース",
             "code": "5253"
           },
-          "note": "ホロライブ"
+          "note": "ホロライブ",
+          "financials": {
+            "market_cap_oku_jpy": 900,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "ANYCOLOR",
@@ -2406,7 +2441,12 @@
             "market": "東証スタンダード",
             "code": "6736"
           },
-          "note": "ゲーム機器・通信解析"
+          "note": "ゲーム機器・通信解析",
+          "financials": {
+            "market_cap_oku_jpy": 2059,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "GLOE",
@@ -2457,6 +2497,11 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "4716"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 10649,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -2478,6 +2523,11 @@
           "listing": {
             "market": "東証グロース",
             "code": "147A"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 461,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -2844,7 +2894,12 @@
             "market": "東証グロース",
             "code": "4377"
           },
-          "segment": "career"
+          "segment": "career",
+          "financials": {
+            "market_cap_oku_jpy": 359,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "PRONI",
@@ -2924,7 +2979,12 @@
             "market": "東証グロース",
             "code": "4419"
           },
-          "segment": "payment"
+          "segment": "payment",
+          "financials": {
+            "market_cap_oku_jpy": 705,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "ミンカブ・ジ・インフォノイド",
@@ -3052,7 +3112,12 @@
             "code": "581A"
           },
           "note": "タクシーアプリ",
-          "segment": "matching"
+          "segment": "matching",
+          "financials": {
+            "market_cap_oku_jpy": 1712,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "ジョルダン",
@@ -3415,6 +3480,11 @@
           "listing": {
             "market": "東証グロース",
             "code": "4259"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 775,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -3436,6 +3506,11 @@
           "listing": {
             "market": "東証グロース",
             "code": "4375"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 356,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -3697,7 +3772,12 @@
             "market": "東証グロース",
             "code": "3905"
           },
-          "note": "AI・データ解析"
+          "note": "AI・データ解析",
+          "financials": {
+            "market_cap_oku_jpy": 1109,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "フィーチャ",
@@ -3769,7 +3849,12 @@
             "market": "東証グロース",
             "code": "135A"
           },
-          "note": "AI外観検査"
+          "note": "AI外観検査",
+          "financials": {
+            "market_cap_oku_jpy": 435,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "Hmcomm",
@@ -4479,7 +4564,12 @@
             "market": "東証スタンダード",
             "code": "4816"
           },
-          "segment": "film_anime"
+          "segment": "film_anime",
+          "financials": {
+            "market_cap_oku_jpy": 5111,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "IGポート",
@@ -4568,7 +4658,12 @@
             "market": "東証グロース",
             "code": "5243"
           },
-          "segment": "publishing"
+          "segment": "publishing",
+          "financials": {
+            "market_cap_oku_jpy": 371,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "はてな",

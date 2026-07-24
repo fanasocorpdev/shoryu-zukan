@@ -134,6 +134,11 @@
           "listing": {
             "market": "東証プライム",
             "code": "6752"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 110508,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -190,6 +195,11 @@
           "listing": {
             "market": "東証プライム",
             "code": "6981"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 223684,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -197,6 +207,11 @@
           "listing": {
             "market": "東証プライム",
             "code": "6762"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 69395,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -295,6 +310,11 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "3891"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 1038,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -447,6 +467,11 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "6834"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 2874,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -484,13 +509,23 @@
             "market": "東証スタンダード",
             "code": "6524"
           },
-          "note": "光部品"
+          "note": "光部品",
+          "financials": {
+            "market_cap_oku_jpy": 1383,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "santec Holdings",
           "listing": {
             "market": "東証スタンダード",
             "code": "6777"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 3180,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -720,6 +755,11 @@
           "listing": {
             "market": "東証プライム",
             "code": "6861"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 197144,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -1064,7 +1104,12 @@
             "market": "東証スタンダード",
             "code": "1909"
           },
-          "note": "消防設備"
+          "note": "消防設備",
+          "financials": {
+            "market_cap_oku_jpy": 1061,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "櫻護謨",
@@ -1296,6 +1341,11 @@
           "listing": {
             "market": "東証プライム",
             "code": "7741"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 86890,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -1419,6 +1469,11 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "7716"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 2757,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -1447,6 +1502,11 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "6960"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 4250,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {

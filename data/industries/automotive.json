@@ -971,6 +971,11 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "7222"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 1282,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -1061,6 +1066,11 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "8117"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 1213,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {

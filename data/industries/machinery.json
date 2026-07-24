@@ -831,7 +831,12 @@
             "market": "東証スタンダード",
             "code": "6877"
           },
-          "note": "溶接"
+          "note": "溶接",
+          "financials": {
+            "market_cap_oku_jpy": 1268,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "ツバキ・ナカシマ",
@@ -898,6 +903,11 @@
           "listing": {
             "market": "東証プライム",
             "code": "6301"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 58443,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -1092,6 +1102,11 @@
           "listing": {
             "market": "東証プライム",
             "code": "7011"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 123677,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -1120,6 +1135,11 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "6366"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 1744,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -1156,7 +1176,12 @@
             "market": "東証グロース",
             "code": "186A"
           },
-          "note": "宇宙デブリ除去"
+          "note": "宇宙デブリ除去",
+          "financials": {
+            "market_cap_oku_jpy": 1632,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "ispace",
@@ -1164,7 +1189,12 @@
             "market": "東証グロース",
             "code": "9348"
           },
-          "note": "月面輸送"
+          "note": "月面輸送",
+          "financials": {
+            "market_cap_oku_jpy": 656,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "QPSホールディングス",
@@ -1172,7 +1202,12 @@
             "market": "東証グロース",
             "code": "464A"
           },
-          "note": "小型SAR衛星"
+          "note": "小型SAR衛星",
+          "financials": {
+            "market_cap_oku_jpy": 1088,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "Synspective",
@@ -1180,7 +1215,12 @@
             "market": "東証グロース",
             "code": "290A"
           },
-          "note": "小型SAR衛星"
+          "note": "小型SAR衛星",
+          "financials": {
+            "market_cap_oku_jpy": 1626,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "アクセルスペースホールディングス",
@@ -1212,7 +1252,12 @@
             "market": "東証グロース",
             "code": "278A"
           },
-          "note": "ドローン測量"
+          "note": "ドローン測量",
+          "financials": {
+            "market_cap_oku_jpy": 752,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "AeroEdge",
@@ -1220,7 +1265,12 @@
             "market": "東証グロース",
             "code": "7409"
           },
-          "note": "航空機エンジン部品"
+          "note": "航空機エンジン部品",
+          "financials": {
+            "market_cap_oku_jpy": 446,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "三精テクノロジーズ",

@@ -56,7 +56,12 @@
             "market": "東証プライム",
             "code": "6098"
           },
-          "segment": "platform"
+          "segment": "platform",
+          "financials": {
+            "market_cap_oku_jpy": 166834,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "パーソルホールディングス",
@@ -104,7 +109,12 @@
             "market": "東証グロース",
             "code": "215A"
           },
-          "segment": "platform"
+          "segment": "platform",
+          "financials": {
+            "market_cap_oku_jpy": 1533,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "クラウドワークス",
@@ -2047,6 +2057,11 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "9708"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 1182,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -2159,6 +2174,11 @@
           "listing": {
             "market": "東証グロース",
             "code": "9166"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 1129,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -3056,7 +3076,12 @@
             "market": "東証グロース",
             "code": "319A"
           },
-          "note": "製造業の事業承継M&A"
+          "note": "製造業の事業承継M&A",
+          "financials": {
+            "market_cap_oku_jpy": 1400,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "セイワホールディングス",
@@ -3320,7 +3345,12 @@
             "market": "東証グロース",
             "code": "6574"
           },
-          "note": "ネイル"
+          "note": "ネイル",
+          "financials": {
+            "market_cap_oku_jpy": 448,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "デコルテ・ホールディングス",

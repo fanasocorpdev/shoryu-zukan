@@ -663,6 +663,11 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "3549"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 3447,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -882,6 +887,11 @@
           "listing": {
             "market": "東証グロース",
             "code": "4593"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 341,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -889,6 +899,11 @@
           "listing": {
             "market": "東証グロース",
             "code": "4592"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 779,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -910,6 +925,11 @@
           "listing": {
             "market": "東証グロース",
             "code": "2160"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 1590,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -959,6 +979,11 @@
           "listing": {
             "market": "東証グロース",
             "code": "4588"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 866,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -980,6 +1005,11 @@
           "listing": {
             "market": "東証グロース",
             "code": "7777"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 472,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -1027,7 +1057,12 @@
             "market": "東証グロース",
             "code": "219A"
           },
-          "note": "創薬・再生医療"
+          "note": "創薬・再生医療",
+          "financials": {
+            "market_cap_oku_jpy": 381,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "オンコセラピー・サイエンス",
@@ -1187,7 +1222,12 @@
             "market": "東証グロース",
             "code": "4894"
           },
-          "note": "創薬・再生医療"
+          "note": "創薬・再生医療",
+          "financials": {
+            "market_cap_oku_jpy": 357,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "ケイファーマ",

@@ -143,7 +143,12 @@
             "market": "東証プライム",
             "code": "9984"
           },
-          "note": "投資持株会社"
+          "note": "投資持株会社",
+          "financials": {
+            "market_cap_oku_jpy": 340597,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "沖縄セルラー電話",
@@ -151,7 +156,12 @@
             "market": "東証スタンダード",
             "code": "9436"
           },
-          "note": "KDDIグループ"
+          "note": "KDDIグループ",
+          "financials": {
+            "market_cap_oku_jpy": 3387,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         }
       ],
       "sources": [

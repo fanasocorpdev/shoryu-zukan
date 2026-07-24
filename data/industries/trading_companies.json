@@ -523,7 +523,12 @@
             "market": "東証スタンダード",
             "code": "8131"
           },
-          "segment": "chemical_energy"
+          "segment": "chemical_energy",
+          "financials": {
+            "market_cap_oku_jpy": 1117,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "シナネンホールディングス",
@@ -939,7 +944,12 @@
             "market": "東証スタンダード",
             "code": "8066"
           },
-          "segment": "general"
+          "segment": "general",
+          "financials": {
+            "market_cap_oku_jpy": 2296,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "東京産業",

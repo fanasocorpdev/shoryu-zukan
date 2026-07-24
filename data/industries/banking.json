@@ -149,6 +149,11 @@
           "listing": {
             "market": "東証プライム",
             "code": "7182"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 109529,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -958,6 +963,11 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "7177"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 1201,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -1102,6 +1112,11 @@
           "listing": {
             "market": "東証グロース",
             "code": "5842"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 960,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -1244,6 +1259,11 @@
           "listing": {
             "market": "東証グロース",
             "code": "7326"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 518,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -1368,6 +1388,11 @@
           "listing": {
             "market": "東証プライム",
             "code": "8591"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 69121,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -1417,6 +1442,11 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "8572"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 7109,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -1481,6 +1511,11 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "8508"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 1089,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -1546,7 +1581,12 @@
             "market": "東証グロース",
             "code": "5834"
           },
-          "note": "航空機リースファンド"
+          "note": "航空機リースファンド",
+          "financials": {
+            "market_cap_oku_jpy": 425,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "日本モーゲージサービス",
@@ -1594,7 +1634,12 @@
             "market": "東証スタンダード",
             "code": "3350"
           },
-          "note": "ビットコイン・トレジャリー"
+          "note": "ビットコイン・トレジャリー",
+          "financials": {
+            "market_cap_oku_jpy": 2562,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "Bitcoin Japan",

@@ -243,6 +243,11 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "8198"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 1013,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -285,6 +290,11 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "2653"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 974,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -292,6 +302,11 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "7512"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 1161,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -660,6 +675,11 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "2782"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 2756,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -674,6 +694,11 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "7564"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 5581,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -1459,6 +1484,11 @@
           "listing": {
             "market": "東証グロース",
             "code": "456A"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 1381,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -1615,6 +1645,11 @@
           "listing": {
             "market": "東証グロース",
             "code": "7685"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 2039,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {

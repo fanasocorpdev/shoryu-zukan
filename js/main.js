@@ -195,17 +195,29 @@ function renderAbout() {
         業界団体の公開名簿、プレスリリース、企業公式サイト、そして企業自身による登録データ。
         出典はノード・フロー単位で記録し、詳細パネルからいつでも確認できます。
         金額感はすべて公表情報にもとづく規模表現で、個社の非公開情報は掲載しません。</p>
+        <p>財務値の見方: 売上高は各社決算短信の直近通期<strong>実績</strong>、時価総額は取得日付きの掲載値です
+        (基準日は各社の注記に記載)。「概算」と明記された値のみ、換算レートやセグメント値にもとづく規模感です。
+        非上場企業は公表値または親会社連結の値であることを注記しています。</p>
       </section>
       <section class="about-sec">
         <h2>✏️ 修正の提案</h2>
         <p>「この会社が抜けている」「このフローは今は違う」といった事実の修正提案を歓迎します。
-        提案は出典(公開情報)を添えてお送りください。内容を確認のうえ反映します。
+        提案は出典(公開情報)を添えて、<a href="https://github.com/fanasocorpdev/shoryu-zukan/issues" target="_blank" rel="noopener">GitHubのIssue</a>
+        または下記メールでお送りください。内容を確認のうえ反映します。
         ※ 第三者の取引条件・マージン率など、公開情報で確認できない情報は掲載できません。</p>
       </section>
       <section class="about-sec">
-        <h2>🏢 企業の方へ</h2>
+        <h2>🏢 企業の方へ・お問い合わせ</h2>
         <p>自社の掲載(無料)や、詳細プロフィール・採用バッジの掲出をご希望の企業向けの
-        登録フォームを準備中です。</p>
+        登録フォームを準備中です。それまでの間、掲載のご希望・修正のご連絡は
+        <a href="mailto:yuhei.n@fansojp.com?subject=%E5%95%86%E6%B5%81%E5%9B%B3%E9%91%91">yuhei.n@fansojp.com</a>
+        までお寄せください。</p>
+      </section>
+      <section class="about-sec">
+        <h2>⚠️ 免責</h2>
+        <p>本サイトの情報は公開情報にもとづき正確性に努めていますが、内容を保証するものではありません。
+        投資判断・取引判断の根拠としての利用は想定していません。誤りを見つけた場合はお知らせください —
+        迅速に確認・訂正します。</p>
       </section>
       <div class="home-foot">
         <a href="#/">← 図鑑トップへ戻る</a><br>
@@ -226,6 +238,7 @@ async function renderIndustry(id) {
         <a class="home-link" href="#/all" title="全銘柄索引">🗾 索引</a>
         ${parent ? `<a class="home-link parent-link" href="#/i/${parent.meta.industry_id}">⬆ ${parent.meta.industry_name}</a>` : ""}
         <h1>${data.meta.industry_name}の商流<span class="tag">${data.meta.tagline ?? ""}</span></h1>
+        <button id="share-btn" class="home-link share-btn" title="この業界のリンクをコピー / シェア">🔗 シェア</button>
         <span class="spacer"></span>
         <input id="map-search" type="search" list="search-list" placeholder="🔍 企業名・役割で探す" autocomplete="off">
         <datalist id="search-list"></datalist>
@@ -280,6 +293,20 @@ async function renderIndustry(id) {
   };
   searchInput.addEventListener("change", runSearch);
   searchInput.addEventListener("keydown", (ev) => { if (ev.key === "Enter") runSearch(); });
+
+  // シェア: OGP付き静的ページ(share/<id>.html)のURLを共有する
+  const shareBtn = document.getElementById("share-btn");
+  shareBtn.addEventListener("click", async () => {
+    const url = new URL(`share/${id}.html`, location.href.replace(/#.*$/, "").replace(/index\.html$/, "")).href;
+    const title = `${data.meta.industry_name}の商流地図 — 商流図鑑`;
+    if (navigator.share) {
+      try { await navigator.share({ title, url }); return; } catch { /* キャンセル時はコピーに落とす */ }
+    }
+    await navigator.clipboard.writeText(url);
+    const prev = shareBtn.textContent;
+    shareBtn.textContent = "✓ コピーしました";
+    setTimeout(() => (shareBtn.textContent = prev), 1600);
+  });
 }
 
 async function route() {
@@ -296,6 +323,8 @@ async function route() {
     app.innerHTML = `<div class="error-box">読み込みに失敗しました: ${err.message}<br>
       ローカルサーバー経由で開いてください(例: <code>node scripts/serve.mjs</code>)</div>`;
   }
+  // クッキーレス解析(index.htmlでGoatCounterを有効化した場合のみ動く)
+  window.goatcounter?.count?.({ path: location.pathname + (location.hash || "#/") });
 }
 
 window.addEventListener("hashchange", route);

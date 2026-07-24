@@ -189,6 +189,11 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "7287"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 1438,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -349,6 +354,11 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "5161"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 1111,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -667,7 +677,12 @@
             "market": "東証グロース",
             "code": "7318"
           },
-          "note": "部品メーカー再生M&A"
+          "note": "部品メーカー再生M&A",
+          "financials": {
+            "market_cap_oku_jpy": 416,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         }
       ],
       "updated": "2026-07-23"

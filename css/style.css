@@ -174,6 +174,7 @@ button { font-family: inherit; cursor: pointer; }
   background: rgba(255,255,255,.4);
 }
 .topbar .home-link:hover { color: var(--gold); border-color: var(--gold); }
+.topbar .share-btn { font-family: inherit; cursor: pointer; white-space: nowrap; }
 .topbar h1 { font-size: 1.25rem; }
 .topbar h1 .tag { font-size: .75rem; color: var(--ink-soft); font-weight: normal; margin-left: 10px; }
 #map-search {

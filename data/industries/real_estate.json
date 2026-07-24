@@ -327,6 +327,11 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "8871"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 1164,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -474,6 +479,11 @@
           "listing": {
             "market": "東証グロース",
             "code": "2986"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 637,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -695,6 +705,11 @@
           "listing": {
             "market": "東証グロース",
             "code": "3491"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 550,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -974,7 +989,12 @@
             "market": "東証グロース",
             "code": "3479"
           },
-          "note": "貸会議室"
+          "note": "貸会議室",
+          "financials": {
+            "market_cap_oku_jpy": 732,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "エリアリンク",

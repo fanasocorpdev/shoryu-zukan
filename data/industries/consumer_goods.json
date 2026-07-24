@@ -62,6 +62,11 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "7906"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 2146,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -211,6 +216,11 @@
           "listing": {
             "market": "東証グロース",
             "code": "7803"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 380,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
           }
         },
         {
@@ -457,7 +467,12 @@
             "market": "東証グロース",
             "code": "7806"
           },
-          "note": "ReFa・SIXPAD"
+          "note": "ReFa・SIXPAD",
+          "financials": {
+            "market_cap_oku_jpy": 2999,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          }
         },
         {
           "name": "ドリームベッド",
