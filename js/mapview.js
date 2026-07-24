@@ -190,7 +190,7 @@ export function createMapView(container, data) {
       portal.appendChild(tip);
       portal.addEventListener("click", (ev) => {
         ev.stopPropagation();
-        location.hash = `#/i/${portalTarget}`;
+        location.hash = `#/i/${portalTarget}?from=${data.meta.industry_id}:${n.id}`;
       });
       g.appendChild(portal);
     }
@@ -338,7 +338,7 @@ export function createMapView(container, data) {
         .map((s) => {
           const rows = bySeg.get(s.id).map(companyRowHTML).join("");
           const portal = s.related_industry
-            ? `<a class="seg-portal" href="#/i/${esc(s.related_industry)}">🧭 地図へ潜る</a>`
+            ? `<a class="seg-portal" href="#/i/${esc(s.related_industry)}?from=${data.meta.industry_id}:${n.id}">🧭 地図へ潜る</a>`
             : "";
           return `<div class="seg">
             <div class="seg-h"><span class="seg-label">${esc(s.label)}</span>${portal}</div>
@@ -403,7 +403,7 @@ export function createMapView(container, data) {
       ${nodeHeaderHTML(n)}
       ${n.description ? `<p class="p-desc">${esc(n.description)}</p>` : ""}
       ${n.note ? `<p class="p-note">📝 ${esc(n.note)}</p>` : ""}
-      ${n.related_industry ? `<a class="portal-link" href="#/i/${esc(n.related_industry)}">🧭 この業界の地図へ潜る →</a>` : ""}
+      ${n.related_industry ? `<a class="portal-link" href="#/i/${esc(n.related_industry)}?from=${data.meta.industry_id}:${n.id}">🧭 この業界の地図へ潜る →</a>` : ""}
       ${companiesListHTML(n)}
       ${outs.length ? `<h3>出ていくフロー(${outs.length})</h3><ul>${outs.map((e) => flowItemHTML(e, "out")).join("")}</ul>` : ""}
       ${ins.length ? `<h3>入ってくるフロー(${ins.length})</h3><ul>${ins.map((e) => flowItemHTML(e, "in")).join("")}</ul>` : ""}
@@ -729,8 +729,18 @@ export function createMapView(container, data) {
     return true;
   }
 
+  function focusNode(nodeId, k = 1.35) {
+    const el = nodeEls.get(nodeId);
+    if (!el) return false;
+    flyTo(nodeId, k);
+    el.classList.add("from-linked");
+    setTimeout(() => el.classList.remove("from-linked"), 6000);
+    return true;
+  }
+
   return {
     search,
+    focusNode,
     suggestions: () => [
       ...data.nodes.map((n) => n.role),
       ...data.nodes.flatMap((n) => (n.companies ?? []).map((c) => c.name)),

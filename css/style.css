@@ -643,3 +643,23 @@ svg.near .node .count-badge text { font-size: 13px; }
   0%, 100% { opacity: .75; }
   50% { opacity: 1; filter: drop-shadow(0 0 3px rgba(184,138,58,.8)); }
 }
+
+/* ---- ポータル遷移元バナー+対応ノードの強調 ---- */
+.jump-banner {
+  position: absolute; top: 14px; left: 50%; transform: translateX(-50%); z-index: 19;
+  display: flex; align-items: center; gap: 12px; max-width: min(92%, 600px);
+  padding: 8px 14px; font-size: .82rem; color: var(--ink);
+  background: linear-gradient(160deg, rgba(250,242,224,.97), rgba(238,222,192,.97));
+  border: 1.5px solid var(--gold); border-radius: 999px;
+  box-shadow: 0 4px 18px rgba(60,40,10,.22);
+}
+.jump-banner a { color: var(--gold); font-weight: 700; white-space: nowrap; }
+.jump-banner .jb-close {
+  background: none; border: none; cursor: pointer; color: var(--ink-soft);
+  font-size: .9rem; padding: 2px 4px; line-height: 1;
+}
+.node.from-linked .halo { fill: rgba(201,151,28,.28); animation: from-pulse 1.2s ease-in-out infinite; }
+@keyframes from-pulse { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+@media (max-width: 640px) {
+  .jump-banner { top: auto; bottom: 76px; font-size: .78rem; flex-wrap: wrap; justify-content: center; }
+}

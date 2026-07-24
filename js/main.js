@@ -1,5 +1,5 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607241729";
+import { createMapView } from "./mapview.js?v=202607241747";
 
 const app = document.getElementById("app");
 const cache = {};
@@ -295,6 +295,28 @@ async function renderIndustry(id) {
     card.addEventListener("toggle", () =>
       localStorage.setItem("guideCollapsed", card.open ? "0" : "1"));
     wrap.appendChild(card);
+  }
+
+  // ポータル遷移で来た場合: 遷移元を示すバナー+対応ノードへ自動フォーカス
+  const fromMatch = location.hash.match(/[?&]from=([a-z0-9_]+):([a-z0-9_]+)/);
+  if (fromMatch) {
+    const [, fromId, fromNodeId] = fromMatch;
+    try {
+      const fromData = await loadIndustry(fromId);
+      const fromRole = fromData.nodes.find((x) => x.id === fromNodeId)?.role ?? "";
+      const banner = document.createElement("div");
+      banner.className = "jump-banner";
+      banner.innerHTML = `<span class="jb-text">⬅ <strong>${fromData.meta.industry_name}</strong>${
+        fromRole ? `「${fromRole}」` : ""
+      }から潜ってきました</span>
+        <a href="#/i/${fromId}">元の地図へ戻る</a>
+        <button class="jb-close" title="閉じる">✕</button>`;
+      banner.querySelector(".jb-close").addEventListener("click", () => banner.remove());
+      wrap.appendChild(banner);
+      // この地図の中で遷移元業界を指しているノード=「いま居る場所」として光らせる
+      const back = data.nodes.find((x) => !x.unsorted && x.related_industry === fromId);
+      if (back) map.focusNode(back.id);
+    } catch { /* 遷移元情報が壊れていても地図表示は続行 */ }
   }
 
   const searchInput = document.getElementById("map-search");
