@@ -312,7 +312,7 @@ export function createMapView(container, data) {
     if (c.url) {
       try {
         const host = new URL(c.url).hostname;
-        return `<img class="c-logo" src="https://icons.duckduckgo.com/ip3/${host}.ico" alt="" loading="lazy"
+        return `<img class="c-logo" src="https://icons.duckduckgo.com/ip3/${host}.ico" alt=""
           onerror="this.outerHTML='<span class=&quot;c-logo fallback&quot;>${esc(c.name.slice(0, 1))}</span>'">`;
       } catch { /* URL不正はイニシャルへ */ }
     }

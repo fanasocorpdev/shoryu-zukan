@@ -1,5 +1,5 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607252257";
+import { createMapView } from "./mapview.js?v=202607252259";
 
 const app = document.getElementById("app");
 
@@ -327,7 +327,7 @@ async function renderRanking() {
     if (c.url) {
       try {
         const host = new URL(c.url).hostname;
-        return `<img class="c-logo" src="https://icons.duckduckgo.com/ip3/${host}.ico" alt="" loading="lazy"
+        return `<img class="c-logo" src="https://icons.duckduckgo.com/ip3/${host}.ico" alt=""
           onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'c-logo fallback',textContent:'${(c.name ?? "?").slice(0, 1)}'}))">`;
       } catch { /* イニシャルへ */ }
     }
