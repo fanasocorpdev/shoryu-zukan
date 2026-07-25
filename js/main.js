@@ -1,5 +1,5 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607261400";
+import { createMapView } from "./mapview.js?v=202607261200";
 
 const app = document.getElementById("app");
 
@@ -308,7 +308,7 @@ async function loadAllCompanies() {
           industry: d.meta.industry_id, industryName: d.meta.industry_name,
           url: c.url ?? null,
           rev: c.financials?.revenue_oku_jpy ?? null, mcap: c.financials?.market_cap_oku_jpy ?? null,
-          emp: c.employees ?? null, salary: c.salary?.man_jpy ?? null, avg_age: c.salary?.avg_age ?? null, hiring: !!c.hiring,
+          emp: c.employees ?? null, salary: c.salary?.man_jpy ?? null, hiring: !!c.hiring,
           foreign: /NASDAQ|NYSE|ユーロネクスト|台湾|海外/.test(c.listing?.market ?? ""),
         };
         const prev = byKey.get(key);
@@ -367,7 +367,7 @@ async function renderRanking() {
       <td>${logo(c)}<strong>${c.name}</strong>${c.code ? `<span class="cmp-sub"> ${c.code}</span>` : ""}
         <button class="cmp-add${cmp.some((x) => x.name === c.name) ? " on" : ""}" data-name="${c.name}" title="お気に入りに追加/削除">${cmp.some((x) => x.name === c.name) ? "★" : "☆"}</button></td>
       <td><a href="#/i/${c.industry}">${c.industryName}</a></td>
-      <td class="rank-val">${state.metric === "salary" ? (c.salary?.toLocaleString("ja-JP") ?? "—") + "万円" + (c.avg_age ? `<span class="rank-age">平均${c.avg_age}歳</span>` : "")
+      <td class="rank-val">${state.metric === "salary" ? (c.salary?.toLocaleString("ja-JP") ?? "—") + "万円"
         : state.metric === "emp" ? (c.emp >= 10000 ? (c.emp / 10000).toFixed(1) + "万人" : c.emp?.toLocaleString("ja-JP") + "人")
         : oku(c[state.metric])}</td>
       <td class="rank-sub">${state.metric !== "salary" && c.salary ? c.salary.toLocaleString("ja-JP") + "万円" : state.metric !== "rev" ? oku(c.rev) : oku(c.mcap)}</td>

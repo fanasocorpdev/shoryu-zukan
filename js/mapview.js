@@ -329,9 +329,7 @@ export function createMapView(container, data) {
       stats.push(stat("時価総額", `約${fmtOku(fin.market_cap_oku_jpy)}<span class="fin-asof">(${esc(fin?.as_of ?? "")}${/概算/.test(fin?.note ?? "") ? "・概算" : ""})</span>`, fin?.note));
     if (c.employees) stats.push(stat("従業員", `約${fmtEmp(c.employees)}`));
     if (c.salary?.man_jpy)
-      stats.push(stat("平均年収",
-        `${c.salary.man_jpy.toLocaleString("ja-JP")}万円${c.salary.avg_age ? `<span class="fin-asof">(平均${c.salary.avg_age}歳)</span>` : ""}`,
-        `有価証券報告書記載の平均年間給与${c.salary.avg_age ? `・平均年齢${c.salary.avg_age}歳` : ""}(${c.salary.fy ?? ""})`));
+      stats.push(stat("平均年収", `${c.salary.man_jpy.toLocaleString("ja-JP")}万円`, `有価証券報告書記載の平均年間給与(${c.salary.fy ?? ""})`));
     const statsLine = stats.length ? `<div class="c-stats">${stats.join("")}</div>` : "";
     const finNoteOnly = !stats.length && fin?.note ? `<div class="fin note-only">${esc(fin.note)}</div>` : "";
 
