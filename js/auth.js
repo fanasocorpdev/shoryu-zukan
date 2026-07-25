@@ -6,14 +6,24 @@
 const SUPABASE_URL = "https://dupjlawmbnwgxfbwvowy.supabase.co";
 const SUPABASE_KEY = "sb_publishable_BNVOfBqZmJUbZtx0HlSXyQ_7ns0ZNSE";
 
-export const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY, {
-  auth: {
-    persistSession: true,
-    autoRefreshToken: true,
-    storageKey: "akinai_auth",
-    detectSessionInUrl: true, // メール確認リンク等からの復帰に対応
-  },
-});
+// クライアントは遅延生成する。UMD(window.supabase)の読込順に依存して
+// モジュール評価時にcreateClientが失敗し、アプリ全体が起動しなくなるのを防ぐ。
+let _client = null;
+function getClient() {
+  if (_client) return _client;
+  if (!window.supabase?.createClient) throw new Error("supabase-js(UMD)が未読込です");
+  _client = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY, {
+    auth: {
+      persistSession: true,
+      autoRefreshToken: true,
+      storageKey: "akinai_auth",
+      detectSessionInUrl: true, // メール確認リンク等からの復帰に対応
+    },
+  });
+  return _client;
+}
+// 既存コードが sb.auth... で使えるよう、アクセス時に遅延解決するプロキシを公開
+export const sb = new Proxy({}, { get: (_t, prop) => getClient()[prop] });
 
 // キャッシュした認証状態(同期的にisMember判定するため)
 let _user = null;
@@ -22,14 +32,19 @@ export function isLoggedIn() { return !!_user; }
 
 // 起動時に一度セッションを読み、以後の変化を購読する。onChangeは再描画コールバック。
 export async function initAuth(onChange) {
-  const { data } = await sb.auth.getSession();
-  _user = data.session?.user ?? null;
-  sb.auth.onAuthStateChange((_event, session) => {
-    const next = session?.user ?? null;
-    const changed = (_user?.id ?? null) !== (next?.id ?? null);
-    _user = next;
-    if (changed && typeof onChange === "function") onChange(_user);
-  });
+  try {
+    const { data } = await sb.auth.getSession();
+    _user = data.session?.user ?? null;
+    sb.auth.onAuthStateChange((_event, session) => {
+      const next = session?.user ?? null;
+      const changed = (_user?.id ?? null) !== (next?.id ?? null);
+      _user = next;
+      if (changed && typeof onChange === "function") onChange(_user);
+    });
+  } catch (e) {
+    console.warn("認証の初期化に失敗(ログアウト状態で継続):", e.message);
+    _user = null;
+  }
   return _user;
 }
 
