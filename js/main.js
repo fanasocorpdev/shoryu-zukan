@@ -1,5 +1,5 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607252314";
+import { createMapView } from "./mapview.js?v=202607260246";
 
 const app = document.getElementById("app");
 
@@ -105,10 +105,20 @@ async function renderGate(id) {
                 <option>高等学校</option>
                 <option>その他</option>
               </select></label>
-            <label>学部・専攻系統 <span class="opt">(任意)</span>
+            <label>学部・専攻 <span class="opt">(任意)</span>
               <select name="bunri">
                 <option value="">選択しない</option>
-                <option>文系</option><option>理系</option><option>その他</option>
+                <optgroup label="文系">
+                  <option>経済学部</option><option>経営・商学部</option><option>法学部</option>
+                  <option>文学部</option><option>社会学部</option><option>教育学部</option>
+                  <option>国際・外国語系</option><option>その他文系</option>
+                </optgroup>
+                <optgroup label="理系">
+                  <option>理学部</option><option>工学部(機械・電気・情報等)</option>
+                  <option>情報・データサイエンス系</option><option>農学部</option>
+                  <option>薬学部</option><option>医・歯・看護系</option><option>その他理系</option>
+                </optgroup>
+                <option>その他</option>
               </select></label>
             <label>卒業(予定)年
               <select name="grad_year" required>
@@ -506,6 +516,59 @@ function centerIcon(data) {
   return center.icon ?? layer?.icon ?? "🗺️";
 }
 
+// 全画面共通のグローバルナビ(トップ・索引・ランキング・マイマップ+企業検索+シェア)
+function globalNavHTML(withBrand = false) {
+  return `
+    <header class="gnav">
+      ${withBrand ? `<a class="gnav-brand" href="#/"><img src="assets/emblem.svg" alt="" width="26" height="26"><span>あきないマップ</span></a>` : `<a class="gnav-brand" href="#/">← トップ</a>`}
+      <nav class="gnav-links">
+        <a href="#/all">索引</a>
+        <a href="#/rank">ランキング</a>
+        <a href="#/my">マイマップ</a>
+      </nav>
+      <input id="gnav-search" type="search" list="gnav-list" placeholder="企業名・証券コードで検索" autocomplete="off">
+      <datalist id="gnav-list"></datalist>
+      <button id="gnav-share" class="gnav-share" title="このサイトを共有">シェア</button>
+    </header>`;
+}
+
+// グローバルナビの企業検索・シェアを有効化(描画後に呼ぶ)
+async function wireGlobalNav() {
+  const share = document.getElementById("gnav-share");
+  if (share) share.addEventListener("click", async () => {
+    const url = "https://akinaimap.com/";
+    const data = { title: "あきないマップ — 日本の商流が見える地図", url };
+    if (navigator.share) { try { await navigator.share(data); } catch { /* キャンセル */ } }
+    else { await navigator.clipboard.writeText(url); share.textContent = "✓ コピー"; setTimeout(() => (share.textContent = "シェア"), 1500); }
+  });
+  const input = document.getElementById("gnav-search");
+  if (!input) return;
+  // 全企業(コード→業界)索引を用意
+  const cov = await fetchJSON("data/reference/coverage.json").catch(() => null);
+  const jpx = await fetchJSON("data/reference/jpx_listed.json").catch(() => null);
+  const coveredMap = new Map((cov?.covered_list ?? []).map((c) => [c.code, c.industries?.[0]]));
+  const dl = document.getElementById("gnav-list");
+  const nameByCode = new Map();
+  for (const co of jpx?.companies ?? []) {
+    if (!coveredMap.has(co.code)) continue;
+    nameByCode.set(co.name, co.code);
+    const opt = document.createElement("option");
+    opt.value = co.name;
+    dl.appendChild(opt);
+  }
+  const go = () => {
+    const q = input.value.trim();
+    if (!q) return;
+    let code = nameByCode.get(q) ?? (/^\d{4}[A-Z0-9]?$/.test(q) ? q : null);
+    if (!code) { const hit = [...nameByCode].find(([n]) => n.includes(q)); code = hit?.[1]; }
+    const ind = code ? coveredMap.get(code) : null;
+    if (ind) location.hash = `#/i/${ind}`;
+    else location.hash = "#/all";
+  };
+  input.addEventListener("change", go);
+  input.addEventListener("keydown", (e) => { if (e.key === "Enter") go(); });
+}
+
 async function renderHome() {
   const { industries, planned = [], open_industries = [] } = await loadIndex();
   const openSet = new Set(open_industries);
@@ -537,6 +600,7 @@ async function renderHome() {
       </a>`;
   };
   app.innerHTML = `
+    ${globalNavHTML(true)}
     <div class="home"><div class="home-inner">
       <div class="hero">
         <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="84" height="84">
@@ -572,6 +636,7 @@ async function renderHome() {
       location.hash = chip.dataset.href;
     })
   );
+  wireGlobalNav();
 }
 
 async function renderDirectory() {

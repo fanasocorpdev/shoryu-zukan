@@ -654,6 +654,96 @@
         }
       ],
       "updated": "2026-07-24"
+    },
+    {
+      "id": "goods_strategy_client",
+      "from": "strategy",
+      "to": "client",
+      "flow_type": "goods",
+      "label": "コンサルティングサービスの提供(戦略立案・全社変革の支援)",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/tokusabizi/index.html",
+          "publisher": "経済産業省",
+          "note": "特定サービス産業実態調査(経営コンサルタント業)"
+        }
+      ],
+      "updated": "2026-07-26"
+    },
+    {
+      "id": "goods_sogo_client",
+      "from": "sogo",
+      "to": "client",
+      "flow_type": "goods",
+      "label": "コンサルティングサービスの提供(業務改革・DX導入などの実行支援)",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/tokusabizi/index.html",
+          "publisher": "経済産業省",
+          "note": "特定サービス産業実態調査(経営コンサルタント業)"
+        }
+      ],
+      "updated": "2026-07-26"
+    },
+    {
+      "id": "goods_it_consulting_client",
+      "from": "it_consulting",
+      "to": "client",
+      "flow_type": "goods",
+      "label": "コンサルティングサービスの提供(IT・システム導入の支援)",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/tokusabizi/index.html",
+          "publisher": "経済産業省",
+          "note": "特定サービス産業実態調査(経営コンサルタント業)"
+        }
+      ],
+      "updated": "2026-07-26"
+    },
+    {
+      "id": "goods_thinktank_client",
+      "from": "thinktank",
+      "to": "client",
+      "flow_type": "goods",
+      "label": "コンサルティングサービスの提供(調査研究・政策提言)",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/tokusabizi/index.html",
+          "publisher": "経済産業省",
+          "note": "特定サービス産業実態調査(経営コンサルタント業)"
+        }
+      ],
+      "updated": "2026-07-26"
+    },
+    {
+      "id": "goods_fas_client",
+      "from": "fas",
+      "to": "client",
+      "flow_type": "goods",
+      "label": "コンサルティングサービスの提供(M&A・財務・事業再生の助言)",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/tokusabizi/index.html",
+          "publisher": "経済産業省",
+          "note": "特定サービス産業実態調査(経営コンサルタント業)"
+        }
+      ],
+      "updated": "2026-07-26"
+    },
+    {
+      "id": "goods_hr_org_client",
+      "from": "hr_org",
+      "to": "client",
+      "flow_type": "goods",
+      "label": "コンサルティングサービスの提供(組織・人事制度設計の支援)",
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/tokusabizi/index.html",
+          "publisher": "経済産業省",
+          "note": "特定サービス産業実態調査(経営コンサルタント業)"
+        }
+      ],
+      "updated": "2026-07-26"
     }
   ]
 }

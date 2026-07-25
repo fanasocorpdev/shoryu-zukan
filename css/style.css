@@ -927,3 +927,36 @@ marker[id="arrow-opex"] path { fill: var(--opex); }
 .operator-table th { width: 30%; color: var(--ink-soft); font-weight: 700; white-space: nowrap; }
 .terms-lead { font-size: .88rem; line-height: 1.9; color: var(--ink-soft); margin-bottom: 8px; }
 .about .about-sec p { line-height: 1.9; }
+
+/* ---- グローバルナビ(トップ等の共通ヘッダー) ---- */
+.gnav {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  padding: 10px 20px; border-bottom: 1px solid var(--surface-border);
+  background: var(--surface-2); position: sticky; top: 0; z-index: 40;
+  backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+}
+.gnav-brand { display: flex; align-items: center; gap: 7px; font-weight: 700; color: var(--ink); text-decoration: none; }
+.gnav-brand img { flex-shrink: 0; }
+.gnav-links { display: flex; gap: 4px; }
+.gnav-links a {
+  padding: 6px 12px; border-radius: 8px; font-size: .86rem; font-weight: 700;
+  color: var(--ink-soft); text-decoration: none;
+}
+.gnav-links a:hover { background: rgba(15,118,110,.08); color: var(--gold); }
+#gnav-search {
+  flex: 1; min-width: 160px; font-family: inherit; font-size: .88rem; padding: 8px 14px;
+  border: 1.5px solid var(--paper-edge); border-radius: 999px;
+  background: var(--surface-solid); color: var(--ink);
+}
+.gnav-share {
+  font-family: inherit; font-size: .82rem; font-weight: 700; cursor: pointer;
+  padding: 7px 16px; border-radius: 999px; border: 1.5px solid var(--gold);
+  background: rgba(15,118,110,.08); color: var(--gold); white-space: nowrap;
+}
+.home .home-inner { padding-top: 28px; }
+@media (max-width: 640px) {
+  .gnav { padding: 8px 12px; gap: 8px; }
+  .gnav-brand span { display: none; }
+  .gnav-links a { padding: 6px 9px; font-size: .8rem; }
+  #gnav-search { min-width: 100px; order: 5; flex-basis: 100%; }
+}
