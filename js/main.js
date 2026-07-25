@@ -1,5 +1,5 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607252217";
+import { createMapView } from "./mapview.js?v=202607252243";
 
 const app = document.getElementById("app");
 
@@ -84,12 +84,19 @@ async function renderGate(id) {
         <p>お試し業界に加えて、お好きな1業界までは登録なしで見られます。ここから先は無料登録(1分)で — 全${idx.industries.length}業界の商流マップ、
         企業データ(売上・時価総額・平均年収)、「カネの旅」、そして<strong>マイマップ(興味業界の保存・企業比較リスト)</strong>がすべて使えます。</p>
         <form id="gate-form">
-          <label>メールアドレス
-            <input type="email" name="email" required placeholder="you@example.com" autocomplete="email"></label>
+          <fieldset class="profile-sec">
+            <legend>基本情報</legend>
+            <label>お名前
+              <input type="text" name="name" required placeholder="山田 太郎" autocomplete="name"></label>
+            <label>メールアドレス
+              <input type="email" name="email" required placeholder="you@example.com" autocomplete="email"></label>
+          </fieldset>
 
           <fieldset class="profile-sec">
             <legend>学歴</legend>
-            <label>最終学歴(在学中は現在の学校)
+            <label>学校名(在学中は現在の学校)
+              <input type="text" name="school_name" required placeholder="○○大学" autocomplete="organization"></label>
+            <label>学校区分
               <select name="school" required>
                 <option value="">選択してください</option>
                 <option>大学(学部)</option>
@@ -98,7 +105,7 @@ async function renderGate(id) {
                 <option>高等学校</option>
                 <option>その他</option>
               </select></label>
-            <label>専攻系統 <span class="opt">(任意)</span>
+            <label>学部・専攻系統 <span class="opt">(任意)</span>
               <select name="bunri">
                 <option value="">選択しない</option>
                 <option>文系</option><option>理系</option><option>その他</option>
@@ -149,9 +156,15 @@ async function renderGate(id) {
             <div class="ind-chips">${allParents.map(indChip).join("")}</div>
           </fieldset>
 
-          <button type="submit">無料で全業界を解放する</button>
-          <p class="gate-note">登録情報はマップの改善・お知らせ・業界別の閲覧動向の集計にのみ使用します。
-          個人を特定できる形で第三者に提供することはありません。
+          <label class="scout-optin">
+            <input type="checkbox" name="scout_ok" value="1" checked>
+            <span><strong>企業からのスカウトを受け取る</strong><br>
+            チェックすると、あなたのプロフィール(氏名・学校・興味業界など)が採用企業に公開され、
+            興味を持った企業から直接オファーが届くことがあります。いつでも設定変更・退会できます。</span>
+          </label>
+
+          <button type="submit">無料で登録して全業界を見る</button>
+          <p class="gate-note">登録情報はサービスの提供・改善、お知らせ、およびスカウトを希望した方の企業への紹介に使用します。
           <a href="#/privacy">プライバシーポリシー</a></p>
         </form>
         <div class="gate-open">
@@ -177,10 +190,13 @@ async function renderGate(id) {
     ev.preventDefault();
     const fd = new FormData(ev.target);
     const rec = {
+      name: fd.get("name"),
       email: fd.get("email"),
-      segment: fd.get("segment"),
+      school_name: fd.get("school_name"),
       school: fd.get("school"),
       grad_year: fd.get("grad_year"),
+      segment: fd.get("segment"),
+      scout_ok: fd.get("scout_ok") ? 1 : 0,
       industries: fd.getAll("industries"),
       ts: new Date().toISOString(),
     };
@@ -394,16 +410,22 @@ function renderPrivacy() {
       </div>
       <section class="about-sec">
         <h2>取得する情報</h2>
-        <p>無料メンバー登録では次の情報を取得します: メールアドレス、学歴(最終学歴・専攻系統・卒業予定年)、
-        職歴(就業状況・経験業界・職種・経験年数。就業経験がある方のみ・任意)、興味のある業界。
-        氏名・住所・電話番号・年収は取得しません。</p>
+        <p>無料メンバー登録では次の情報を取得します: 氏名、メールアドレス、学歴(学校名・学校区分・専攻系統・卒業予定年)、
+        職歴(就業状況・経験業界・職種・経験年数。就業経験がある方のみ・任意)、興味のある業界、スカウト受信の希望有無。
+        住所・電話番号・年収は取得しません。</p>
       </section>
       <section class="about-sec">
         <h2>利用目的</h2>
-        <p>(1) サービスの改善、(2) 新しい業界マップや機能のお知らせ、
-        (3) 業界別の閲覧動向・登録者属性の<strong>統計的な集計</strong>。
-        集計値(例:「◯◯業界に興味のある登録者数」)は採用枠を掲出する企業への説明に使用することがありますが、
-        メールアドレス等の個人を特定できる情報を第三者に提供することはありません。</p>
+        <p>(1) サービスの提供・改善、(2) 新しい業界マップや機能のお知らせ、
+        (3) 業界別の閲覧動向・登録者属性の統計的な集計、
+        (4) <strong>スカウトを希望された方について、プロフィール(氏名・学校・興味業界等)を採用企業に開示し、
+        企業からのオファーを仲介すること</strong>。</p>
+      </section>
+      <section class="about-sec">
+        <h2>スカウトと企業への開示</h2>
+        <p>スカウト受信を希望(チェック)された方のプロフィールは、あきないマップの掲載企業がスカウト目的で閲覧できます。
+        希望されない方の情報が企業に個別開示されることはありません。スカウトの希望は
+        <a href="mailto:yuhei.n@fansojp.com?subject=%E3%82%B9%E3%82%AB%E3%82%A6%E3%83%88%E8%A8%AD%E5%AE%9A%E5%A4%89%E6%9B%B4">メール</a>でいつでも変更・停止できます。</p>
       </section>
       <section class="about-sec">
         <h2>保管と削除</h2>
