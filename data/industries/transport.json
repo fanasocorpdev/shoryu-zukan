@@ -372,7 +372,8 @@
           },
           "salary": {
             "man_jpy": 769,
-            "fy": "2025年3月期"
+            "fy": "2025年3月期",
+            "avg_age": 37.6
           },
           "url": "https://www.sg-hldgs.co.jp/"
         },
@@ -677,7 +678,8 @@
           },
           "salary": {
             "man_jpy": 1435,
-            "fy": "2025年3月期"
+            "fy": "2025年3月期",
+            "avg_age": 38.1
           },
           "url": "https://www.nyk.com/"
         },
@@ -695,7 +697,8 @@
           },
           "salary": {
             "man_jpy": 1437,
-            "fy": "2025年3月期"
+            "fy": "2025年3月期",
+            "avg_age": 38.5
           },
           "url": "https://www.mol.co.jp/"
         },
@@ -1158,7 +1161,8 @@
           },
           "salary": {
             "man_jpy": 690,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 41
           },
           "url": "http://www.namura.co.jp/"
         },

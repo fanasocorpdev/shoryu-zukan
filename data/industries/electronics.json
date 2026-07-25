@@ -77,7 +77,8 @@
           },
           "salary": {
             "man_jpy": 994,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 42
           },
           "deals": [
             {
@@ -105,7 +106,8 @@
           },
           "salary": {
             "man_jpy": 913,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 40.5
           },
           "url": "https://www.mitsubishielectric.co.jp/"
         },
@@ -123,7 +125,8 @@
           },
           "salary": {
             "man_jpy": 1155,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 42.7
           },
           "deals": [
             {
@@ -159,7 +162,8 @@
           },
           "salary": {
             "man_jpy": 1012,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 43.1
           },
           "url": "https://global.fujitsu"
         },
@@ -177,7 +181,8 @@
           },
           "salary": {
             "man_jpy": 753,
-            "fy": "2025年3月期"
+            "fy": "2025年3月期",
+            "avg_age": 45
           },
           "url": "https://global.sharp"
         },
@@ -195,7 +200,8 @@
           },
           "salary": {
             "man_jpy": 993,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 42.6
           },
           "url": "https://www.nec.com/"
         },
@@ -212,7 +218,8 @@
           },
           "salary": {
             "man_jpy": 988,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 44
           },
           "url": "https://holdings.panasonic/"
         },
@@ -284,7 +291,8 @@
           },
           "salary": {
             "man_jpy": 838,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 40.1
           },
           "url": "https://www.murata.com/ja-jp"
         },
@@ -301,7 +309,8 @@
           },
           "salary": {
             "man_jpy": 921,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 43
           },
           "url": "https://www.tdk.com/"
         },
@@ -422,7 +431,8 @@
           },
           "salary": {
             "man_jpy": 772,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 43.9
           },
           "url": "http://www.kodoshi.co.jp/"
         },
@@ -603,7 +613,8 @@
           },
           "salary": {
             "man_jpy": 590,
-            "fy": "2025年3月期"
+            "fy": "2025年3月期",
+            "avg_age": 44.7
           },
           "url": "http://www.seikoh-giken.co.jp/"
         },
@@ -654,7 +665,8 @@
           },
           "salary": {
             "man_jpy": 713,
-            "fy": "2025年12月期"
+            "fy": "2025年12月期",
+            "avg_age": 44.7
           },
           "url": "https://www.kohokukogyo.co.jp/"
         },
@@ -671,7 +683,8 @@
           },
           "salary": {
             "man_jpy": 620,
-            "fy": "2025年3月期"
+            "fy": "2025年3月期",
+            "avg_age": 40.6
           },
           "url": "https://www.santec.com/jp/"
         },
@@ -944,7 +957,8 @@
           },
           "salary": {
             "man_jpy": 2178,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 35.8
           },
           "url": "https://www.keyence.com/"
         },
@@ -1344,7 +1358,8 @@
           },
           "salary": {
             "man_jpy": 723,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 41.2
           },
           "url": "http://www.ndc-group.co.jp/"
         },
@@ -1620,7 +1635,8 @@
           },
           "salary": {
             "man_jpy": 970,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 47.8
           },
           "url": "https://www.hoya.com/"
         },
@@ -1778,7 +1794,8 @@
           },
           "salary": {
             "man_jpy": 568,
-            "fy": "2025年12月期"
+            "fy": "2025年12月期",
+            "avg_age": 40.3
           },
           "url": "http://www.nsk-nakanishi.co.jp/"
         },
@@ -1818,7 +1835,8 @@
           },
           "salary": {
             "man_jpy": 919,
-            "fy": "2025年3月期"
+            "fy": "2025年3月期",
+            "avg_age": 42.8
           },
           "url": "http://www.fukuda.co.jp/index.html"
         },
@@ -2105,7 +2123,8 @@
           },
           "salary": {
             "man_jpy": 641,
-            "fy": "2025年3月期"
+            "fy": "2025年3月期",
+            "avg_age": 41.2
           },
           "url": "https://www.stanley.co.jp/"
         },

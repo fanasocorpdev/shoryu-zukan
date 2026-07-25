@@ -372,7 +372,8 @@
           },
           "salary": {
             "man_jpy": 695,
-            "fy": "2025年3月期"
+            "fy": "2025年3月期",
+            "avg_age": 41.4
           },
           "url": "https://www.sevenbank.co.jp/"
         },
