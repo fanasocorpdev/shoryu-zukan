@@ -241,7 +241,7 @@ export function createMapView(container, data) {
   // ---------- 詳細パネル ----------
   const panelCompanies = new Map();
   const panel = document.createElement("aside");
-  // 比較リストへの追加/削除(委譲)
+  // お気に入りへの追加/削除(委譲)
   panel.addEventListener("click", (ev) => {
     const btn = ev.target.closest(".cmp-add");
     if (!btn) return;
@@ -253,9 +253,9 @@ export function createMapView(container, data) {
     if (list.some((x) => x.name === c.name)) {
       list = list.filter((x) => x.name !== c.name);
       btn.classList.remove("on");
-      btn.textContent = "+比較";
+      btn.textContent = "☆お気に入り";
     } else {
-      if (list.length >= 12) { btn.textContent = "上限12社"; setTimeout(() => (btn.textContent = "+比較"), 1200); return; }
+      if (list.length >= 12) { btn.textContent = "上限12社"; setTimeout(() => (btn.textContent = "☆お気に入り"), 1200); return; }
       list.push({
         name: c.name,
         code: c.listing?.code ?? "",
@@ -268,7 +268,7 @@ export function createMapView(container, data) {
         salary: c.salary?.man_jpy ?? null,
       });
       btn.classList.add("on");
-      btn.textContent = "✓ 比較中";
+      btn.textContent = "★ お気に入り";
     }
     localStorage.setItem(CMP_KEY, JSON.stringify(list));
   });
@@ -339,12 +339,8 @@ export function createMapView(container, data) {
         ).join("")}</ul></details>`
       : "";
 
-    const footParts = [];
-    if (c.hq) footParts.push(esc(c.hq));
-    if (c.url) {
-      try { footParts.push(new URL(c.url).hostname.replace(/^www\./, "")); } catch { /* URL不正は無視 */ }
-    }
-    const footLine = footParts.length ? `<div class="c-foot">${footParts.join(" ・ ")}</div>` : "";
+    // 社名自体が公式サイトへのリンクになっているため、URL(ホスト名)は表示しない
+    const footLine = c.hq ? `<div class="c-foot">${esc(c.hq)}</div>` : "";
     const planBadge =
       c.plan === "free" ? `<span class="badge plan-free">無料掲載</span>`
       : c.plan?.startsWith("paid") ? `<span class="badge plan-paid">掲載企業</span>` : "";
@@ -355,7 +351,7 @@ export function createMapView(container, data) {
       <div class="c-main">${companyLogoHTML(c)}${(() => {
         const href = companyLink(c);
         return href ? `<a href="${esc(href)}" target="_blank" rel="noopener"${c.url ? "" : ' title="Yahoo!ファイナンスの銘柄ページを開く"'}>${esc(c.name)}</a>` : esc(c.name);
-      })()}<button class="cmp-add${cmpHas(c.name) ? " on" : ""}" data-name="${esc(c.name)}" title="比較リストに追加/削除">${cmpHas(c.name) ? "✓ 比較中" : "+比較"}</button>${c.hiring ? '<span class="badge hiring">採用中</span>' : ""}${planBadge}${listing}</div>
+      })()}<button class="cmp-add${cmpHas(c.name) ? " on" : ""}" data-name="${esc(c.name)}" title="お気に入りに追加/削除">${cmpHas(c.name) ? "★ お気に入り" : "☆お気に入り"}</button>${c.hiring ? '<span class="badge hiring">採用中</span>' : ""}${planBadge}${listing}</div>
       ${statsLine}
       ${finNoteOnly}
       ${dealsLine}
@@ -682,15 +678,12 @@ export function createMapView(container, data) {
   applyView();
 
   // ---------- 凡例・ズームボタン ----------
+  // 色の凡例は上部のフィルタ帯(すべて/モノ・サービス/カネ…)に集約。ここは操作ヒントのみ。
   const legend = document.createElement("div");
-  legend.className = "legend";
+  legend.className = "legend hint-only";
   legend.innerHTML = data.meta.map_style === "category"
-    ? `<div class="row">カオスマップ型(分類のみ・商流エッジなし)</div>
-       <div class="hint">ドラッグで移動 / ホイールでズーム — ズームインで実名企業が現れる</div>`
-    : `<div class="row"><span class="swatch goods"></span>モノ・サービスの流れ</div>
-       <div class="row"><span class="swatch capex"></span>カネ(設備投資などの一時金)</div>
-       <div class="row"><span class="swatch opex"></span>カネ(利用料・仕入れなどの継続払い)</div>
-       <div class="hint">ドラッグで移動 / ホイールでズーム — ズームインで実名企業が現れる</div>`;
+    ? `<div class="hint">カオスマップ型(分類のみ・商流エッジなし) — ドラッグで移動 / ホイールでズーム</div>`
+    : `<div class="hint">ドラッグで移動 / ホイールでズーム — ズームインで実名企業が現れる</div>`;
   container.appendChild(legend);
 
   const zoomctl = document.createElement("div");

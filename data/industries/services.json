@@ -77,7 +77,8 @@
           "salary": {
             "man_jpy": 1162,
             "fy": "2026年3月期・持株会社単体"
-          }
+          },
+          "url": "https://recruit-holdings.com/ja/"
         },
         {
           "name": "パーソルホールディングス",
@@ -85,7 +86,8 @@
             "market": "東証プライム",
             "code": "2181"
           },
-          "segment": "staffing"
+          "segment": "staffing",
+          "url": "https://www.persol-group.co.jp/"
         },
         {
           "name": "パソナグループ",
@@ -93,7 +95,8 @@
             "market": "東証プライム",
             "code": "2168"
           },
-          "segment": "staffing"
+          "segment": "staffing",
+          "url": "https://www.pasonagroup.co.jp"
         },
         {
           "name": "ディップ",
@@ -101,7 +104,8 @@
             "market": "東証プライム",
             "code": "2379"
           },
-          "segment": "platform"
+          "segment": "platform",
+          "url": "https://www.dip-net.co.jp/"
         },
         {
           "name": "UTグループ",
@@ -109,7 +113,8 @@
             "market": "東証プライム",
             "code": "2146"
           },
-          "segment": "staffing"
+          "segment": "staffing",
+          "url": "https://www.ut-g.co.jp/"
         },
         {
           "name": "ウィルグループ",
@@ -117,7 +122,8 @@
             "market": "東証プライム",
             "code": "6089"
           },
-          "segment": "staffing"
+          "segment": "staffing",
+          "url": "http://willgroup.co.jp/"
         },
         {
           "name": "タイミー",
@@ -134,7 +140,8 @@
           "salary": {
             "man_jpy": 599,
             "fy": "2025年10月期"
-          }
+          },
+          "url": "https://timee.co.jp/"
         },
         {
           "name": "クラウドワークス",
@@ -142,7 +149,8 @@
             "market": "東証グロース",
             "code": "3900"
           },
-          "segment": "platform"
+          "segment": "platform",
+          "url": "https://crowdworks.co.jp/"
         },
         {
           "name": "ジェイエイシーリクルートメント",
@@ -150,7 +158,8 @@
             "market": "東証プライム",
             "code": "2124"
           },
-          "segment": "platform"
+          "segment": "platform",
+          "url": "http://corp.jac-recruitment.jp/"
         },
         {
           "name": "メイテックグループホールディングス",
@@ -158,7 +167,8 @@
             "market": "東証プライム",
             "code": "9744"
           },
-          "segment": "engineer"
+          "segment": "engineer",
+          "url": "https://www.meitec.co.jp/"
         },
         {
           "name": "エスプール",
@@ -166,7 +176,8 @@
             "market": "東証プライム",
             "code": "2471"
           },
-          "segment": "other"
+          "segment": "other",
+          "url": "https://www.spool.co.jp/"
         },
         {
           "name": "WDBホールディングス",
@@ -174,7 +185,8 @@
             "market": "東証プライム",
             "code": "2475"
           },
-          "segment": "other"
+          "segment": "other",
+          "url": "http://www.wdbhd.co.jp"
         },
         {
           "name": "ライク",
@@ -182,7 +194,8 @@
             "market": "東証プライム",
             "code": "2462"
           },
-          "segment": "staffing"
+          "segment": "staffing",
+          "url": "https://www.like-gr.co.jp/"
         },
         {
           "name": "フルキャストホールディングス",
@@ -190,7 +203,8 @@
             "market": "東証プライム",
             "code": "4848"
           },
-          "segment": "staffing"
+          "segment": "staffing",
+          "url": "https://www.fullcastholdings.co.jp/"
         },
         {
           "name": "ワールドホールディングス",
@@ -198,7 +212,8 @@
             "market": "東証プライム",
             "code": "2429"
           },
-          "segment": "staffing"
+          "segment": "staffing",
+          "url": "https://www.world-hd.co.jp/"
         },
         {
           "name": "アルプス技研",
@@ -206,7 +221,8 @@
             "market": "東証プライム",
             "code": "4641"
           },
-          "segment": "engineer"
+          "segment": "engineer",
+          "url": "https://www.alpsgiken.co.jp/"
         },
         {
           "name": "クイック",
@@ -214,7 +230,8 @@
             "market": "東証プライム",
             "code": "4318"
           },
-          "segment": "platform"
+          "segment": "platform",
+          "url": "http://919.jp/"
         },
         {
           "name": "キャリアデザインセンター",
@@ -222,7 +239,8 @@
             "market": "東証プライム",
             "code": "2410"
           },
-          "segment": "platform"
+          "segment": "platform",
+          "url": "http://type.jp/company/"
         },
         {
           "name": "学情",
@@ -230,7 +248,8 @@
             "market": "東証プライム",
             "code": "2301"
           },
-          "segment": "platform"
+          "segment": "platform",
+          "url": "http://company.gakujo.ne.jp/"
         },
         {
           "name": "リブセンス",
@@ -238,7 +257,8 @@
             "market": "東証スタンダード",
             "code": "6054"
           },
-          "segment": "platform"
+          "segment": "platform",
+          "url": "https://www.livesense.co.jp/"
         },
         {
           "name": "アトラエ",
@@ -255,7 +275,8 @@
             "code": "4849"
           },
           "note": "求人メディア(旧エン・ジャパン)",
-          "segment": "platform"
+          "segment": "platform",
+          "url": "https://corp.en-japan.com/"
         },
         {
           "name": "ギークス",
@@ -263,7 +284,8 @@
             "market": "東証スタンダード",
             "code": "7060"
           },
-          "segment": "engineer"
+          "segment": "engineer",
+          "url": "https://geechs.com/"
         },
         {
           "name": "コプロ・ホールディングス",
@@ -271,7 +293,8 @@
             "market": "東証プライム",
             "code": "7059"
           },
-          "segment": "engineer"
+          "segment": "engineer",
+          "url": "https://www.copro-h.co.jp/"
         },
         {
           "name": "ヒト・コミュニケーションズ・ホールディングス",
@@ -279,7 +302,8 @@
             "market": "東証プライム",
             "code": "4433"
           },
-          "segment": "staffing"
+          "segment": "staffing",
+          "url": "http://www.hitocom.co.jp/"
         },
         {
           "name": "ビースタイルホールディングス",
@@ -287,7 +311,8 @@
             "market": "東証グロース",
             "code": "302A"
           },
-          "segment": "staffing"
+          "segment": "staffing",
+          "url": "https://www.bstylegroup.co.jp/"
         },
         {
           "name": "MS-Japan",
@@ -295,7 +320,8 @@
             "market": "東証プライム",
             "code": "6539"
           },
-          "segment": "agent"
+          "segment": "agent",
+          "url": "https://www.jmsc.co.jp/"
         },
         {
           "name": "ギークリー",
@@ -303,7 +329,8 @@
             "market": "東証スタンダード",
             "code": "505A"
           },
-          "segment": "agent"
+          "segment": "agent",
+          "url": "https://www.geekly.co.jp/"
         },
         {
           "name": "ジェイック",
@@ -311,7 +338,8 @@
             "market": "東証グロース",
             "code": "7073"
           },
-          "segment": "agent"
+          "segment": "agent",
+          "url": "https://www.jaic-g.com/"
         },
         {
           "name": "アルトナー",
@@ -319,7 +347,8 @@
             "market": "東証プライム",
             "code": "2163"
           },
-          "segment": "engineer"
+          "segment": "engineer",
+          "url": "http://www.artner.co.jp/"
         },
         {
           "name": "nms ホールディングス",
@@ -327,7 +356,8 @@
             "market": "東証スタンダード",
             "code": "2162"
           },
-          "segment": "engineer"
+          "segment": "engineer",
+          "url": "https://www.n-ms.co.jp/"
         },
         {
           "name": "ウイルテック",
@@ -335,7 +365,8 @@
             "market": "東証スタンダード",
             "code": "7087"
           },
-          "segment": "engineer"
+          "segment": "engineer",
+          "url": "https://www.willtec.jp/"
         },
         {
           "name": "NISSOホールディングス",
@@ -343,7 +374,8 @@
             "market": "東証プライム",
             "code": "9332"
           },
-          "segment": "staffing"
+          "segment": "staffing",
+          "url": "https://www.nisso-hd.com/"
         },
         {
           "name": "キャスター",
@@ -351,7 +383,8 @@
             "market": "東証グロース",
             "code": "9331"
           },
-          "segment": "staffing"
+          "segment": "staffing",
+          "url": "https://caster.co.jp/"
         },
         {
           "name": "クリーク・アンド・リバー社",
@@ -359,7 +392,8 @@
             "market": "東証プライム",
             "code": "4763"
           },
-          "segment": "other"
+          "segment": "other",
+          "url": "https://www.cri.co.jp/"
         },
         {
           "name": "ギグワークス",
@@ -367,7 +401,8 @@
             "market": "東証スタンダード",
             "code": "2375"
           },
-          "segment": "staffing"
+          "segment": "staffing",
+          "url": "http://www.threepro.co.jp/"
         },
         {
           "name": "アルバイトタイムス",
@@ -375,7 +410,8 @@
             "market": "東証スタンダード",
             "code": "2341"
           },
-          "segment": "platform"
+          "segment": "platform",
+          "url": "http://www.atimes.co.jp/"
         },
         {
           "name": "コンフィデンス・インターワークス",
@@ -383,7 +419,8 @@
             "market": "東証グロース",
             "code": "7374"
           },
-          "segment": "other"
+          "segment": "other",
+          "url": "https://ciw.jp/"
         },
         {
           "name": "ヒップ",
@@ -399,7 +436,8 @@
             "market": "東証スタンダード",
             "code": "2186"
           },
-          "segment": "engineer"
+          "segment": "engineer",
+          "url": "http://www.sobal.co.jp/"
         },
         {
           "name": "アビスト",
@@ -407,7 +445,8 @@
             "market": "東証スタンダード",
             "code": "6087"
           },
-          "segment": "engineer"
+          "segment": "engineer",
+          "url": "https://www.abist.co.jp/"
         },
         {
           "name": "エスユーエス",
@@ -423,7 +462,8 @@
             "market": "東証スタンダード",
             "code": "2169"
           },
-          "segment": "engineer"
+          "segment": "engineer",
+          "url": "https://www.cds-japan.jp/ja/"
         },
         {
           "name": "SOLIZE Holdings",
@@ -431,7 +471,8 @@
             "market": "東証スタンダード",
             "code": "5871"
           },
-          "segment": "engineer"
+          "segment": "engineer",
+          "url": "https://www.solize.com/"
         },
         {
           "name": "CRGホールディングス",
@@ -439,7 +480,8 @@
             "market": "東証グロース",
             "code": "7041"
           },
-          "segment": "staffing"
+          "segment": "staffing",
+          "url": "https://crgh.co.jp/"
         },
         {
           "name": "MRT",
@@ -448,7 +490,8 @@
             "code": "6034"
           },
           "note": "医師人材",
-          "segment": "platform"
+          "segment": "platform",
+          "url": "https://medrt.co.jp/"
         },
         {
           "name": "みらいワークス",
@@ -456,7 +499,8 @@
             "market": "東証グロース",
             "code": "6563"
           },
-          "segment": "agent"
+          "segment": "agent",
+          "url": "https://mirai-works.co.jp/"
         },
         {
           "name": "スローガン",
@@ -464,7 +508,8 @@
             "market": "東証グロース",
             "code": "9253"
           },
-          "segment": "agent"
+          "segment": "agent",
+          "url": "https://slogan.jp/"
         },
         {
           "name": "キャリア",
@@ -480,7 +525,8 @@
             "market": "東証グロース",
             "code": "6558"
           },
-          "segment": "other"
+          "segment": "other",
+          "url": "https://cookbiz.co.jp/"
         },
         {
           "name": "ジンジブ",
@@ -488,7 +534,8 @@
             "market": "東証グロース",
             "code": "142A"
           },
-          "segment": "other"
+          "segment": "other",
+          "url": "https://jinjib.co.jp/"
         },
         {
           "name": "ダイブ",
@@ -496,7 +543,8 @@
             "market": "東証グロース",
             "code": "151A"
           },
-          "segment": "other"
+          "segment": "other",
+          "url": "https://dive.design/"
         },
         {
           "name": "ヒトトヒトホールディングス",
@@ -504,7 +552,8 @@
             "market": "東証スタンダード",
             "code": "549A"
           },
-          "segment": "other"
+          "segment": "other",
+          "url": "https://www.hitotohito.co.jp/"
         },
         {
           "name": "平山ホールディングス",
@@ -513,7 +562,8 @@
             "code": "7781"
           },
           "note": "製造派遣",
-          "segment": "staffing"
+          "segment": "staffing",
+          "url": "https://www.hirayamastaff.co.jp/"
         },
         {
           "name": "KG情報",
@@ -522,7 +572,8 @@
             "code": "2408"
           },
           "note": "求人情報",
-          "segment": "platform"
+          "segment": "platform",
+          "url": "http://www.kg-net.co.jp/"
         },
         {
           "name": "ジェイテック",
@@ -531,7 +582,8 @@
             "code": "2479"
           },
           "note": "技術者派遣",
-          "segment": "engineer"
+          "segment": "engineer",
+          "url": "https://www.j-tec-cor.co.jp/"
         },
         {
           "name": "ピーエイ",
@@ -549,7 +601,8 @@
             "code": "6033"
           },
           "note": "ゲーム開発人材",
-          "segment": "engineer"
+          "segment": "engineer",
+          "url": "https://www.e-xtreme.co.jp/"
         },
         {
           "name": "アクセスグループ・ホールディングス",
@@ -567,7 +620,8 @@
             "code": "7064"
           },
           "note": "採用メディア",
-          "segment": "platform"
+          "segment": "platform",
+          "url": "https://www.howtelevision.co.jp/"
         },
         {
           "name": "QLSホールディングス",
@@ -576,7 +630,8 @@
             "code": "7075"
           },
           "note": "保育・介護人材",
-          "segment": "staffing"
+          "segment": "staffing",
+          "url": "https://qlshd.co.jp/"
         },
         {
           "name": "ヒューマンクリエイションホールディングス",
@@ -612,7 +667,8 @@
             "code": "9242"
           },
           "note": "高専・理系採用",
-          "segment": "platform"
+          "segment": "platform",
+          "url": "https://mediasouken.co.jp/"
         },
         {
           "name": "サクシード",
@@ -621,7 +677,8 @@
             "code": "9256"
           },
           "note": "教育・福祉人材",
-          "segment": "staffing"
+          "segment": "staffing",
+          "url": "http://www.succ.co.jp/"
         },
         {
           "name": "アクシスコンサルティング",
@@ -630,7 +687,8 @@
             "code": "9344"
           },
           "note": "コンサル転職",
-          "segment": "agent"
+          "segment": "agent",
+          "url": "https://www.axc.ne.jp/"
         },
         {
           "name": "INTLOOP",
@@ -639,7 +697,8 @@
             "code": "9556"
           },
           "note": "コンサル・DX人材",
-          "segment": "agent"
+          "segment": "agent",
+          "url": "https://www.intloop.com/"
         },
         {
           "name": "JSH",
@@ -657,7 +716,8 @@
             "code": "421A"
           },
           "note": "コンサル転職",
-          "segment": "agent"
+          "segment": "agent",
+          "url": "http://www.movin.co.jp/"
         },
         {
           "name": "スタートライン",
@@ -666,7 +726,8 @@
             "code": "477A"
           },
           "note": "障がい者雇用支援",
-          "segment": "staffing"
+          "segment": "staffing",
+          "url": "https://start-line.jp/"
         },
         {
           "name": "プログレス・テクノロジーズ グループ",
@@ -684,7 +745,8 @@
             "code": "4177"
           },
           "note": "新卒スカウト(OfferBox)",
-          "segment": "platform"
+          "segment": "platform",
+          "url": "https://i-plug.co.jp/"
         },
         {
           "name": "ユナイトアンドグロウ",
@@ -693,7 +755,8 @@
             "code": "4486"
           },
           "note": "IT人材シェアリング",
-          "segment": "other"
+          "segment": "other",
+          "url": "https://ug-inc.net/"
         },
         {
           "name": "ROXX",
@@ -702,7 +765,8 @@
             "code": "241A"
           },
           "note": "採用プラットフォーム",
-          "segment": "platform"
+          "segment": "platform",
+          "url": "https://roxx.co.jp/"
         },
         {
           "name": "TalentX",
@@ -711,7 +775,8 @@
             "code": "330A"
           },
           "note": "採用マーケティング",
-          "segment": "platform"
+          "segment": "platform",
+          "url": "https://talentx.co.jp/"
         },
         {
           "name": "ポート",
@@ -720,7 +785,8 @@
             "code": "7047"
           },
           "note": "成果報酬型採用メディア",
-          "segment": "platform"
+          "segment": "platform",
+          "url": "https://www.theport.jp/"
         },
         {
           "name": "フォースタートアップス",
@@ -729,7 +795,8 @@
             "code": "7089"
           },
           "note": "スタートアップ人材",
-          "segment": "agent"
+          "segment": "agent",
+          "url": "https://www.forstartups.com/"
         },
         {
           "name": "スポーツフィールド",
@@ -738,7 +805,8 @@
             "code": "7080"
           },
           "note": "スポーツ人材",
-          "segment": "other"
+          "segment": "other",
+          "url": "http://www.sports-f.co.jp/"
         },
         {
           "name": "ツナググループ・ホールディングス",
@@ -756,7 +824,8 @@
             "code": "7352"
           },
           "note": "エンジニアSES",
-          "segment": "engineer"
+          "segment": "engineer",
+          "url": "https://twostone-s.com/"
         },
         {
           "name": "ジャパニアス",
@@ -774,7 +843,8 @@
             "code": "6538"
           },
           "note": "転職メディア(キャリアインデックス)",
-          "segment": "platform"
+          "segment": "platform",
+          "url": "https://disruptors.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -833,7 +903,8 @@
             "market": "東証プライム",
             "code": "4324"
           },
-          "segment": "agency"
+          "segment": "agency",
+          "url": "https://www.dentsu.co.jp"
         },
         {
           "name": "博報堂DYホールディングス",
@@ -841,7 +912,8 @@
             "market": "東証プライム",
             "code": "2433"
           },
-          "segment": "agency"
+          "segment": "agency",
+          "url": "http://www.hakuhodody-holdings.co.jp/"
         },
         {
           "name": "ベクトル",
@@ -849,7 +921,8 @@
             "market": "東証プライム",
             "code": "6058"
           },
-          "segment": "agency"
+          "segment": "agency",
+          "url": "https://vectorinc.co.jp/"
         },
         {
           "name": "セプテーニ・ホールディングス",
@@ -857,7 +930,8 @@
             "market": "東証スタンダード",
             "code": "4293"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "http://www.septeni-holdings.co.jp/"
         },
         {
           "name": "バリューコマース",
@@ -865,7 +939,8 @@
             "market": "東証プライム",
             "code": "2491"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://www.valuecommerce.co.jp"
         },
         {
           "name": "ファンコミュニケーションズ",
@@ -873,7 +948,8 @@
             "market": "東証プライム",
             "code": "2461"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "http://www.fancs.com/"
         },
         {
           "name": "フリークアウト・ホールディングス",
@@ -881,7 +957,8 @@
             "market": "東証グロース",
             "code": "6094"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://www.fout.co.jp/"
         },
         {
           "name": "ユナイテッド",
@@ -889,7 +966,8 @@
             "market": "東証グロース",
             "code": "2497"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "http://united.jp/"
         },
         {
           "name": "インタースペース",
@@ -897,7 +975,8 @@
             "market": "東証スタンダード",
             "code": "2122"
           },
-          "segment": "promo"
+          "segment": "promo",
+          "url": "http://www.interspace.ne.jp/index.html"
         },
         {
           "name": "オールアバウト",
@@ -905,7 +984,8 @@
             "market": "東証スタンダード",
             "code": "2454"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "http://corp.allabout.co.jp/"
         },
         {
           "name": "アイティメディア",
@@ -913,7 +993,8 @@
             "market": "東証プライム",
             "code": "2148"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://www.itmedia.co.jp/"
         },
         {
           "name": "イード",
@@ -921,7 +1002,8 @@
             "market": "東証グロース",
             "code": "6038"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://www.iid.co.jp/"
         },
         {
           "name": "SMN",
@@ -929,7 +1011,8 @@
             "market": "東証スタンダード",
             "code": "6185"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "http://www.so-netmedia.jp/"
         },
         {
           "name": "ジーニー",
@@ -937,7 +1020,8 @@
             "market": "東証グロース",
             "code": "6562"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://geniee.co.jp"
         },
         {
           "name": "マイクロアド",
@@ -945,7 +1029,8 @@
             "market": "東証グロース",
             "code": "9553"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://www.microad.co.jp/"
         },
         {
           "name": "メンバーズ",
@@ -953,7 +1038,8 @@
             "market": "東証プライム",
             "code": "2130"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "http://www.members.co.jp/"
         },
         {
           "name": "トレンダーズ",
@@ -961,7 +1047,8 @@
             "market": "東証グロース",
             "code": "6069"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://www.trenders.co.jp/"
         },
         {
           "name": "Gunosy",
@@ -969,7 +1056,8 @@
             "market": "東証スタンダード",
             "code": "6047"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://gunosy.co.jp/"
         },
         {
           "name": "共同ピーアール",
@@ -977,7 +1065,8 @@
             "market": "東証スタンダード",
             "code": "2436"
           },
-          "segment": "agency"
+          "segment": "agency",
+          "url": "http://www.kyodo-pr.co.jp/"
         },
         {
           "name": "プラップジャパン",
@@ -985,7 +1074,8 @@
             "market": "東証スタンダード",
             "code": "2449"
           },
-          "segment": "agency"
+          "segment": "agency",
+          "url": "http://www.prap.co.jp/"
         },
         {
           "name": "サニーサイドアップグループ",
@@ -993,7 +1083,8 @@
             "market": "東証スタンダード",
             "code": "2180"
           },
-          "segment": "agency"
+          "segment": "agency",
+          "url": "http://www.ssu.co.jp/"
         },
         {
           "name": "テー・オー・ダブリュー",
@@ -1001,7 +1092,8 @@
             "market": "東証スタンダード",
             "code": "4767"
           },
-          "segment": "promo"
+          "segment": "promo",
+          "url": "https://www.tow.co.jp/"
         },
         {
           "name": "フロンティアインターナショナル",
@@ -1009,7 +1101,8 @@
             "market": "東証グロース",
             "code": "7050"
           },
-          "segment": "promo"
+          "segment": "promo",
+          "url": "https://www.frontier-i.co.jp/"
         },
         {
           "name": "博展",
@@ -1017,7 +1110,8 @@
             "market": "東証グロース",
             "code": "2173"
           },
-          "segment": "promo"
+          "segment": "promo",
+          "url": "http://www.hakuten.co.jp/"
         },
         {
           "name": "乃村工藝社",
@@ -1025,7 +1119,8 @@
             "market": "東証プライム",
             "code": "9716"
           },
-          "segment": "promo"
+          "segment": "promo",
+          "url": "https://www.nomurakougei.co.jp/"
         },
         {
           "name": "丹青社",
@@ -1033,7 +1128,8 @@
             "market": "東証プライム",
             "code": "9743"
           },
-          "segment": "promo"
+          "segment": "promo",
+          "url": "https://www.tanseisha.co.jp"
         },
         {
           "name": "スペース",
@@ -1041,7 +1137,8 @@
             "market": "東証プライム",
             "code": "9622"
           },
-          "segment": "promo"
+          "segment": "promo",
+          "url": "http://www.space-tokyo.co.jp/"
         },
         {
           "name": "レイ",
@@ -1049,7 +1146,8 @@
             "market": "東証スタンダード",
             "code": "4317"
           },
-          "segment": "promo"
+          "segment": "promo",
+          "url": "https://www.ray.co.jp/"
         },
         {
           "name": "サイネックス",
@@ -1057,7 +1155,8 @@
             "market": "東証スタンダード",
             "code": "2376"
           },
-          "segment": "promo"
+          "segment": "promo",
+          "url": "http://www.scinex.co.jp/"
         },
         {
           "name": "表示灯",
@@ -1065,7 +1164,8 @@
             "market": "東証スタンダード",
             "code": "7368"
           },
-          "segment": "promo"
+          "segment": "promo",
+          "url": "http://www.hyojito.co.jp/"
         },
         {
           "name": "Orchestra Holdings",
@@ -1073,7 +1173,8 @@
             "market": "東証プライム",
             "code": "6533"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://www.orchestra-hd.co.jp/"
         },
         {
           "name": "アイモバイル",
@@ -1081,7 +1182,8 @@
             "market": "東証プライム",
             "code": "6535"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "http://www.imobile.co.jp/"
         },
         {
           "name": "Macbee Planet",
@@ -1089,7 +1191,8 @@
             "market": "東証プライム",
             "code": "7095"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://www.macbee-planet.com/"
         },
         {
           "name": "GMOインターネット",
@@ -1098,7 +1201,8 @@
             "code": "4784"
           },
           "note": "ネット広告(4784)",
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://internet.gmo/"
         },
         {
           "name": "W TOKYO",
@@ -1107,7 +1211,8 @@
             "code": "9159"
           },
           "note": "東京ガールズコレクション",
-          "segment": "agency"
+          "segment": "agency",
+          "url": "https://www.w-tokyo.co.jp/"
         },
         {
           "name": "Birdman",
@@ -1115,7 +1220,8 @@
             "market": "東証グロース",
             "code": "7063"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://birdman.tokyo/"
         },
         {
           "name": "揚羽",
@@ -1131,7 +1237,8 @@
             "market": "東証スタンダード",
             "code": "6176"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://www.brangista.com/"
         },
         {
           "name": "日宣",
@@ -1147,7 +1254,8 @@
             "market": "東証スタンダード",
             "code": "2139"
           },
-          "segment": "media"
+          "segment": "media",
+          "url": "http://www.chuco.co.jp/"
         },
         {
           "name": "セーラー広告",
@@ -1155,7 +1263,8 @@
             "market": "東証スタンダード",
             "code": "2156"
           },
-          "segment": "media"
+          "segment": "media",
+          "url": "http://www.saylor.co.jp/"
         },
         {
           "name": "地域新聞社",
@@ -1163,7 +1272,8 @@
             "market": "東証スタンダード",
             "code": "2164"
           },
-          "segment": "media"
+          "segment": "media",
+          "url": "https://chiikinews.co.jp/"
         },
         {
           "name": "タウンニュース社",
@@ -1171,7 +1281,8 @@
             "market": "東証スタンダード",
             "code": "2481"
           },
-          "segment": "media"
+          "segment": "media",
+          "url": "http://www.townnews.co.jp/"
         },
         {
           "name": "メディックス",
@@ -1179,7 +1290,8 @@
             "market": "東証スタンダード",
             "code": "331A"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "http://www.medix-inc.co.jp/"
         },
         {
           "name": "イーエムネットジャパン",
@@ -1187,7 +1299,8 @@
             "market": "東証グロース",
             "code": "7036"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://www.emnet.co.jp/"
         },
         {
           "name": "デジタリフト",
@@ -1195,7 +1308,8 @@
             "market": "東証グロース",
             "code": "9244"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://digitalift.co.jp/"
         },
         {
           "name": "サイバー・バズ",
@@ -1203,7 +1317,8 @@
             "market": "東証グロース",
             "code": "7069"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "http://www.cyberbuzz.co.jp/"
         },
         {
           "name": "トリドリ",
@@ -1211,7 +1326,8 @@
             "market": "東証グロース",
             "code": "9337"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://toridori.co.jp/"
         },
         {
           "name": "ラバブルマーケティンググループ",
@@ -1219,7 +1335,8 @@
             "market": "東証グロース",
             "code": "9254"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://www.lmg.co.jp/"
         },
         {
           "name": "AViC",
@@ -1227,7 +1344,8 @@
             "market": "東証グロース",
             "code": "9554"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://avic.jp/"
         },
         {
           "name": "グラッドキューブ",
@@ -1235,7 +1353,8 @@
             "market": "東証グロース",
             "code": "9561"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://corp.glad-cube.com/"
         },
         {
           "name": "ピアラ",
@@ -1243,7 +1362,8 @@
             "market": "東証スタンダード",
             "code": "7044"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://www.piala.co.jp/"
         },
         {
           "name": "ログリー",
@@ -1251,7 +1371,8 @@
             "market": "東証グロース",
             "code": "6579"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://corp.logly.co.jp/"
         },
         {
           "name": "レントラックス",
@@ -1259,7 +1380,8 @@
             "market": "東証グロース",
             "code": "6045"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://www.rentracks.co.jp/"
         },
         {
           "name": "アライドアーキテクツ",
@@ -1267,7 +1389,8 @@
             "market": "東証グロース",
             "code": "6081"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://www.aainc.co.jp/"
         },
         {
           "name": "アウンコンサルティング",
@@ -1275,7 +1398,8 @@
             "market": "東証スタンダード",
             "code": "2459"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "http://www.auncon.co.jp/"
         },
         {
           "name": "ブリーチ",
@@ -1283,7 +1407,8 @@
             "market": "東証グロース",
             "code": "9162"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://bleach.co.jp/"
         },
         {
           "name": "売れるネット広告社グループ",
@@ -1291,7 +1416,8 @@
             "market": "東証グロース",
             "code": "9235"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://group.ureru.co.jp/"
         },
         {
           "name": "バリュークリエーション",
@@ -1299,7 +1425,8 @@
             "market": "東証グロース",
             "code": "9238"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://value-creation.jp/"
         },
         {
           "name": "ジオコード",
@@ -1307,7 +1434,8 @@
             "market": "東証スタンダード",
             "code": "7357"
           },
-          "segment": "digital"
+          "segment": "digital",
+          "url": "http://www.geo-code.co.jp/"
         },
         {
           "name": "フィードフォースグループ",
@@ -1323,7 +1451,8 @@
             "market": "東証スタンダード",
             "code": "9625"
           },
-          "segment": "promo"
+          "segment": "promo",
+          "url": "http://www.cerespo.co.jp/"
         },
         {
           "name": "ヒビノ",
@@ -1332,7 +1461,8 @@
             "code": "2469"
           },
           "note": "音響・映像",
-          "segment": "promo"
+          "segment": "promo",
+          "url": "http://www.hibino.co.jp/"
         },
         {
           "name": "アスカネット",
@@ -1340,7 +1470,8 @@
             "market": "東証グロース",
             "code": "2438"
           },
-          "segment": "promo"
+          "segment": "promo",
+          "url": "http://www.asukanet.co.jp"
         },
         {
           "name": "シイエム・シイ",
@@ -1349,7 +1480,8 @@
             "code": "2185"
           },
           "note": "マニュアル制作",
-          "segment": "promo"
+          "segment": "promo",
+          "url": "http://www.cmc.co.jp/"
         },
         {
           "name": "翻訳センター",
@@ -1358,7 +1490,8 @@
             "code": "2483"
           },
           "note": "翻訳",
-          "segment": "media"
+          "segment": "media",
+          "url": "http://www.honyakuctr.com/"
         },
         {
           "name": "イオレ",
@@ -1367,7 +1500,8 @@
             "code": "2334"
           },
           "note": "求人・連絡網アプリ広告",
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://www.eole.co.jp/"
         },
         {
           "name": "ヴィス",
@@ -1376,7 +1510,8 @@
             "code": "5071"
           },
           "note": "オフィスデザイン",
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://vis-produce.com/"
         },
         {
           "name": "ホープ",
@@ -1385,7 +1520,8 @@
             "code": "6195"
           },
           "note": "自治体広告・電力",
-          "segment": "digital"
+          "segment": "digital",
+          "url": "http://www.zaigenkakuho.com/"
         },
         {
           "name": "ディーエムソリューションズ",
@@ -1394,7 +1530,8 @@
             "code": "6549"
           },
           "note": "DM・物流",
-          "segment": "promo"
+          "segment": "promo",
+          "url": "https://www.dm-s.co.jp/"
         },
         {
           "name": "ブランディングテクノロジー",
@@ -1403,7 +1540,8 @@
             "code": "7067"
           },
           "note": "中小企業ブランディング",
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://www.branding-t.co.jp/"
         },
         {
           "name": "INCLUSIVE Holdings",
@@ -1412,7 +1550,8 @@
             "code": "7078"
           },
           "note": "メディア運営",
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://www.inclusive.co.jp/"
         },
         {
           "name": "グッドパッチ",
@@ -1421,7 +1560,8 @@
             "code": "7351"
           },
           "note": "UI/UXデザイン",
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://goodpatch.com/"
         },
         {
           "name": "Enjin",
@@ -1430,7 +1570,8 @@
             "code": "7370"
           },
           "note": "PR支援",
-          "segment": "agency"
+          "segment": "agency",
+          "url": "http://www.y-enjin.co.jp/"
         },
         {
           "name": "エフ・コード",
@@ -1448,7 +1589,8 @@
             "code": "9241"
           },
           "note": "地域情報プラットフォーム",
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://www.futurelink.co.jp/"
         },
         {
           "name": "CS-C",
@@ -1466,7 +1608,8 @@
             "code": "9782"
           },
           "note": "DM発送代行",
-          "segment": "promo"
+          "segment": "promo",
+          "url": "http://www.dmsjp.co.jp/"
         },
         {
           "name": "イシン",
@@ -1475,7 +1618,8 @@
             "code": "143A"
           },
           "note": "自治体・ベンチャーメディア",
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://ishin1853.co.jp/"
         },
         {
           "name": "マテリアルグループ",
@@ -1484,7 +1628,8 @@
             "code": "156A"
           },
           "note": "PR",
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://materialgroup.jp/"
         },
         {
           "name": "GMOコマース",
@@ -1493,7 +1638,8 @@
             "code": "410A"
           },
           "note": "店舗DX",
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://www.gmo-c.jp/"
         },
         {
           "name": "ゲンダイエージェンシー",
@@ -1502,7 +1648,8 @@
             "code": "2411"
           },
           "note": "パチンコ広告",
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://www.gendai-a.co.jp/"
         },
         {
           "name": "ネットイヤーグループ",
@@ -1511,7 +1658,8 @@
             "code": "3622"
           },
           "note": "デジタルマーケ",
-          "segment": "digital"
+          "segment": "digital",
+          "url": "http://www.netyear.net/"
         },
         {
           "name": "アクセルマーク",
@@ -1520,7 +1668,8 @@
             "code": "3624"
           },
           "note": "広告・ゲーム",
-          "segment": "digital"
+          "segment": "digital",
+          "url": "http://www.axelmark.co.jp/"
         },
         {
           "name": "AnyMind Group",
@@ -1529,7 +1678,8 @@
             "code": "5027"
           },
           "note": "マーケティングプラットフォーム",
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://anymindgroup.com/"
         },
         {
           "name": "ファインズ",
@@ -1538,7 +1688,8 @@
             "code": "5125"
           },
           "note": "動画マーケ",
-          "segment": "digital"
+          "segment": "digital",
+          "url": "http://www.e-tenki.co.jp/"
         },
         {
           "name": "アイズ",
@@ -1547,7 +1698,8 @@
             "code": "5242"
           },
           "note": "広告効果データ",
-          "segment": "digital"
+          "segment": "digital",
+          "url": "http://www.eyes-h.com/"
         },
         {
           "name": "アイドママーケティングコミュニケーション",
@@ -1565,7 +1717,8 @@
             "code": "220A"
           },
           "note": "SEO・コンテンツマーケ",
-          "segment": "digital"
+          "segment": "digital",
+          "url": "https://www.fabercompany.co.jp/"
         },
         {
           "name": "visumo",
@@ -1592,7 +1745,8 @@
             "code": "300A"
           },
           "note": "リテール販促総合支援(旧水上印刷)",
-          "segment": "promo"
+          "segment": "promo",
+          "url": "https://www.mic-p.com/"
         },
         {
           "name": "ヒット",
@@ -1601,7 +1755,8 @@
             "code": "378A"
           },
           "note": "屋外広告",
-          "segment": "promo"
+          "segment": "promo",
+          "url": "http://www.hit-ad.co.jp/"
         },
         {
           "name": "CLホールディングス",
@@ -1610,7 +1765,8 @@
             "code": "4286"
           },
           "note": "IP販促・テーマカフェ",
-          "segment": "promo"
+          "segment": "promo",
+          "url": "https://www.clholdings.co.jp/"
         },
         {
           "name": "CRAVIA",
@@ -1619,7 +1775,8 @@
             "code": "6573"
           },
           "note": "アンバサダーマーケティング",
-          "segment": "agency"
+          "segment": "agency",
+          "url": "https://cravia.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -1676,189 +1833,216 @@
           "listing": {
             "market": "東証プライム",
             "code": "9470"
-          }
+          },
+          "url": "https://www.gakken.co.jp/"
         },
         {
           "name": "ナガセ",
           "listing": {
             "market": "東証スタンダード",
             "code": "9733"
-          }
+          },
+          "url": "http://www.toshin.com/nagase/"
         },
         {
           "name": "早稲田アカデミー",
           "listing": {
             "market": "東証プライム",
             "code": "4718"
-          }
+          },
+          "url": "http://www.waseda-ac.co.jp/"
         },
         {
           "name": "ヒューマンホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "2415"
-          }
+          },
+          "url": "http://www.athuman.com"
         },
         {
           "name": "ステップ",
           "listing": {
             "market": "東証プライム",
             "code": "9795"
-          }
+          },
+          "url": "https://www.stepnet.co.jp/"
         },
         {
           "name": "リソー教育グループ",
           "listing": {
             "market": "東証プライム",
             "code": "4714"
-          }
+          },
+          "url": "http://www.riso-kyoikugroup.com/"
         },
         {
           "name": "KIYOラーニング",
           "listing": {
             "market": "東証グロース",
             "code": "7353"
-          }
+          },
+          "url": "https://www.kiyo-learning.com/"
         },
         {
           "name": "明光ネットワークジャパン",
           "listing": {
             "market": "東証プライム",
             "code": "4668"
-          }
+          },
+          "url": "http://www.meikonet.co.jp/"
         },
         {
           "name": "京進",
           "listing": {
             "market": "東証スタンダード",
             "code": "4735"
-          }
+          },
+          "url": "http://www.kyoshin.co.jp/"
         },
         {
           "name": "市進ホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "4645"
-          }
+          },
+          "url": "http://ir.ichishin.co.jp/"
         },
         {
           "name": "城南進学研究社",
           "listing": {
             "market": "東証スタンダード",
             "code": "4720"
-          }
+          },
+          "url": "https://www.johnan.co.jp/"
         },
         {
           "name": "秀英予備校",
           "listing": {
             "market": "東証スタンダード",
             "code": "4678"
-          }
+          },
+          "url": "http://www.shuei-yobiko.co.jp/"
         },
         {
           "name": "スプリックス",
           "listing": {
             "market": "東証スタンダード",
             "code": "7030"
-          }
+          },
+          "url": "http://www.sprix.jp/"
         },
         {
           "name": "学究社",
           "listing": {
             "market": "東証プライム",
             "code": "9769"
-          }
+          },
+          "url": "https://www.gakkyusha.com/"
         },
         {
           "name": "昴",
           "listing": {
             "market": "東証スタンダード",
             "code": "9778"
-          }
+          },
+          "url": "https://www.subaru-net.com/"
         },
         {
           "name": "進学会ホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "9760"
-          }
+          },
+          "url": "https://www.shingakukai.co.jp/"
         },
         {
           "name": "成学社",
           "listing": {
             "market": "東証スタンダード",
             "code": "2179"
-          }
+          },
+          "url": "https://www.kaisei-group.co.jp/"
         },
         {
           "name": "LITALICO",
           "listing": {
             "market": "東証プライム",
             "code": "7366"
-          }
+          },
+          "url": "http://litalico.co.jp/"
         },
         {
           "name": "ポピンズ",
           "listing": {
             "market": "東証スタンダード",
             "code": "7358"
-          }
+          },
+          "url": "https://www.poppins.co.jp/"
         },
         {
           "name": "JPホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "2749"
-          }
+          },
+          "url": "https://www.jp-holdings.co.jp/"
         },
         {
           "name": "グローバルキッズCOMPANY",
           "listing": {
             "market": "東証スタンダード",
             "code": "6189"
-          }
+          },
+          "url": "https://www.gkids.co.jp/"
         },
         {
           "name": "インソース",
           "listing": {
             "market": "東証プライム",
             "code": "6200"
-          }
+          },
+          "url": "https://www.insource.co.jp/"
         },
         {
           "name": "プログリット",
           "listing": {
             "market": "東証グロース",
             "code": "9560"
-          }
+          },
+          "url": "https://www.progrit.co.jp/"
         },
         {
           "name": "ビズメイツ",
           "listing": {
             "market": "東証グロース",
             "code": "9345"
-          }
+          },
+          "url": "http://www.bizmates.jp/"
         },
         {
           "name": "Schoo",
           "listing": {
             "market": "東証グロース",
             "code": "264A"
-          }
+          },
+          "url": "https://schoo.jp/"
         },
         {
           "name": "幼児活動研究会",
           "listing": {
             "market": "東証スタンダード",
             "code": "2152"
-          }
+          },
+          "url": "http://www.youji.co.jp"
         },
         {
           "name": "クリップコーポレーション",
           "listing": {
             "market": "東証スタンダード",
             "code": "4705"
-          }
+          },
+          "url": "http://www.clip-cor.co.jp/"
         },
         {
           "name": "早稲田学習研究会",
@@ -1866,7 +2050,8 @@
             "market": "東証スタンダード",
             "code": "5869"
           },
-          "note": "W早稲田ゼミ"
+          "note": "W早稲田ゼミ",
+          "url": "https://www.wasedazemi.com/"
         },
         {
           "name": "ネイス",
@@ -1874,42 +2059,48 @@
             "market": "東証グロース",
             "code": "589A"
           },
-          "note": "体操教室"
+          "note": "体操教室",
+          "url": "https://ne-is.com/"
         },
         {
           "name": "リスキル",
           "listing": {
             "market": "東証グロース",
             "code": "291A"
-          }
+          },
+          "url": "https://www.recurrent.jp/"
         },
         {
           "name": "FCE",
           "listing": {
             "market": "東証スタンダード",
             "code": "9564"
-          }
+          },
+          "url": "https://fce-hd.co.jp/"
         },
         {
           "name": "コーチ・エィ",
           "listing": {
             "market": "東証スタンダード",
             "code": "9339"
-          }
+          },
+          "url": "https://www.coacha.com/"
         },
         {
           "name": "アルー",
           "listing": {
             "market": "東証グロース",
             "code": "7043"
-          }
+          },
+          "url": "https://www.alue.co.jp/"
         },
         {
           "name": "セルム",
           "listing": {
             "market": "東証スタンダード",
             "code": "7367"
-          }
+          },
+          "url": "https://www.celm.co.jp/"
         },
         {
           "name": "Aoba‐BBT",
@@ -1917,7 +2108,8 @@
             "market": "東証スタンダード",
             "code": "2464"
           },
-          "note": "社会人教育(BBT)"
+          "note": "社会人教育(BBT)",
+          "url": "http://www.bbt757.com/"
         },
         {
           "name": "日本和装ホールディングス",
@@ -1925,7 +2117,8 @@
             "market": "東証スタンダード",
             "code": "2499"
           },
-          "note": "着付け教室・和装"
+          "note": "着付け教室・和装",
+          "url": "http://www.wasou.com/"
         },
         {
           "name": "イトクロ",
@@ -1933,7 +2126,8 @@
             "market": "東証グロース",
             "code": "6049"
           },
-          "note": "塾・教育ポータル"
+          "note": "塾・教育ポータル",
+          "url": "http://www.itokuro.jp/"
         },
         {
           "name": "AIAIグループ",
@@ -1941,7 +2135,8 @@
             "market": "東証グロース",
             "code": "6557"
           },
-          "note": "保育"
+          "note": "保育",
+          "url": "https://aiai-group.co.jp/"
         },
         {
           "name": "Zenken",
@@ -1949,7 +2144,8 @@
             "market": "東証グロース",
             "code": "7371"
           },
-          "note": "語学・グローバル人材"
+          "note": "語学・グローバル人材",
+          "url": "https://www.zenken.co.jp/"
         },
         {
           "name": "ビジネスコーチ",
@@ -1957,7 +2153,8 @@
             "market": "東証グロース",
             "code": "9562"
           },
-          "note": "ビジネスコーチング"
+          "note": "ビジネスコーチング",
+          "url": "https://www.businesscoach.co.jp/"
         },
         {
           "name": "ウィルソン・ラーニング ワールドワイド",
@@ -1965,7 +2162,8 @@
             "market": "東証スタンダード",
             "code": "9610"
           },
-          "note": "企業研修"
+          "note": "企業研修",
+          "url": "https://global.wilsonlearning.com/"
         },
         {
           "name": "Globee",
@@ -1981,7 +2179,8 @@
             "market": "東証グロース",
             "code": "184A"
           },
-          "note": "映像授業"
+          "note": "映像授業",
+          "url": "https://www.manabi-aid.jp/"
         },
         {
           "name": "レアジョブ",
@@ -1989,7 +2188,8 @@
             "market": "東証スタンダード",
             "code": "6096"
           },
-          "note": "オンライン英会話"
+          "note": "オンライン英会話",
+          "url": "http://www.rarejob.com/rarejob.php"
         },
         {
           "name": "さくらさくプラス",
@@ -1997,7 +2197,8 @@
             "market": "東証グロース",
             "code": "7097"
           },
-          "note": "保育園運営"
+          "note": "保育園運営",
+          "url": "https://www.sakurasakuplus.jp/"
         },
         {
           "name": "テノ.ホールディングス",
@@ -2005,7 +2206,8 @@
             "market": "東証スタンダード",
             "code": "7037"
           },
-          "note": "保育園運営"
+          "note": "保育園運営",
+          "url": "http://www.teno.co.jp/"
         },
         {
           "name": "Smile Holdings",
@@ -2034,56 +2236,64 @@
           "listing": {
             "market": "東証プライム",
             "code": "4661"
-          }
+          },
+          "url": "https://www.olc.co.jp/"
         },
         {
           "name": "エイチ・アイ・エス",
           "listing": {
             "market": "東証プライム",
             "code": "9603"
-          }
+          },
+          "url": "https://www.his-j.com/"
         },
         {
           "name": "共立メンテナンス",
           "listing": {
             "market": "東証プライム",
             "code": "9616"
-          }
+          },
+          "url": "https://www.kyoritsugroup.co.jp/"
         },
         {
           "name": "リゾートトラスト",
           "listing": {
             "market": "東証プライム",
             "code": "4681"
-          }
+          },
+          "url": "https://www.resorttrust.co.jp/"
         },
         {
           "name": "ラウンドワン",
           "listing": {
             "market": "東証プライム",
             "code": "4680"
-          }
+          },
+          "url": "https://www.round1-group.co.jp/"
         },
         {
           "name": "藤田観光",
           "listing": {
             "market": "東証プライム",
             "code": "9722"
-          }
+          },
+          "url": "http://www.fujita-kanko.co.jp/"
         },
         {
           "name": "サンリオ",
           "listing": {
             "market": "東証プライム",
             "code": "8136"
-          }
+          },
+          "url": "https://www.sanrio.com/"
         },
         {
           "name": "KNT-CTホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "9726"
-          }
+          },
+          "url": "http://www.kntcthd.co.jp/"
         },
         {
           "name": "第一興商",
@@ -2091,7 +2301,8 @@
             "market": "東証プライム",
             "code": "7458"
           },
-          "note": "カラオケ"
+          "note": "カラオケ",
+          "url": "https://www.dkkaraoke.co.jp/"
         },
         {
           "name": "帝国ホテル",
@@ -2107,112 +2318,128 @@
           "salary": {
             "man_jpy": 582,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://www.imperialhotel.co.jp/"
         },
         {
           "name": "ロイヤルホテル",
           "listing": {
             "market": "東証スタンダード",
             "code": "9713"
-          }
+          },
+          "url": "https://www.rihga.co.jp/osaka"
         },
         {
           "name": "ワシントンホテル",
           "listing": {
             "market": "東証スタンダード",
             "code": "4691"
-          }
+          },
+          "url": "https://www.washingtonhotel.co.jp/"
         },
         {
           "name": "グリーンズ",
           "listing": {
             "market": "東証スタンダード",
             "code": "6547"
-          }
+          },
+          "url": "http://www.greens.co.jp/"
         },
         {
           "name": "リソルホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "5261"
-          }
+          },
+          "url": "http://www.resol.jp/"
         },
         {
           "name": "東京會舘",
           "listing": {
             "market": "東証スタンダード",
             "code": "9701"
-          }
+          },
+          "url": "http://www.kaikan.co.jp/"
         },
         {
           "name": "歌舞伎座",
           "listing": {
             "market": "東証スタンダード",
             "code": "9661"
-          }
+          },
+          "url": "https://www.kabuki-za.co.jp/"
         },
         {
           "name": "東京都競馬",
           "listing": {
             "market": "東証プライム",
             "code": "9672"
-          }
+          },
+          "url": "http://www.tokyotokeiba.co.jp/"
         },
         {
           "name": "グリーンランドリゾート",
           "listing": {
             "market": "東証スタンダード",
             "code": "9656"
-          }
+          },
+          "url": "http://www.greenland.co.jp/"
         },
         {
           "name": "日本スキー場開発",
           "listing": {
             "market": "東証グロース",
             "code": "6040"
-          }
+          },
+          "url": "http://www.nippon-ski.jp/"
         },
         {
           "name": "ルネサンス",
           "listing": {
             "market": "東証プライム",
             "code": "2378"
-          }
+          },
+          "url": "http://www.s-re.jp/"
         },
         {
           "name": "セントラルスポーツ",
           "listing": {
             "market": "東証プライム",
             "code": "4801"
-          }
+          },
+          "url": "https://www.central.co.jp/"
         },
         {
           "name": "東祥",
           "listing": {
             "market": "東証スタンダード",
             "code": "8920"
-          }
+          },
+          "url": "http://www.to-sho.net/"
         },
         {
           "name": "カーブスホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "7085"
-          }
+          },
+          "url": "https://www.curvesholdings.co.jp/"
         },
         {
           "name": "コシダカホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "2157"
-          }
+          },
+          "url": "http://www.koshidakaholdings.co.jp/"
         },
         {
           "name": "イオンファンタジー",
           "listing": {
             "market": "東証プライム",
             "code": "4343"
-          }
+          },
+          "url": "https://www.fantasy.co.jp/"
         },
         {
           "name": "GENDA",
@@ -2228,35 +2455,40 @@
           "salary": {
             "man_jpy": 891,
             "fy": "2026年1月期"
-          }
+          },
+          "url": "https://genda.jp/"
         },
         {
           "name": "エアトリ",
           "listing": {
             "market": "東証プライム",
             "code": "6191"
-          }
+          },
+          "url": "https://www.airtrip.co.jp/"
         },
         {
           "name": "ぴあ",
           "listing": {
             "market": "東証プライム",
             "code": "4337"
-          }
+          },
+          "url": "http://www.pia.co.jp/"
         },
         {
           "name": "アドベンチャー",
           "listing": {
             "market": "東証グロース",
             "code": "6030"
-          }
+          },
+          "url": "https://jp.adventurekk.com/"
         },
         {
           "name": "極楽湯ホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "2340"
-          }
+          },
+          "url": "https://www.gokurakuyu-holdings.co.jp/"
         },
         {
           "name": "鉄人化ホールディングス",
@@ -2264,28 +2496,32 @@
             "market": "東証スタンダード",
             "code": "2404"
           },
-          "note": "カラオケの鉄人"
+          "note": "カラオケの鉄人",
+          "url": "https://www.tetsujin.ne.jp/"
         },
         {
           "name": "旅工房",
           "listing": {
             "market": "東証グロース",
             "code": "6548"
-          }
+          },
+          "url": "http://www.tabikobo.com/"
         },
         {
           "name": "HANATOUR JAPAN",
           "listing": {
             "market": "東証グロース",
             "code": "6561"
-          }
+          },
+          "url": "https://hanatourjapan.jp/"
         },
         {
           "name": "IACEトラベル",
           "listing": {
             "market": "東証スタンダード",
             "code": "343A"
-          }
+          },
+          "url": "http://www.iace.co.jp/index.html"
         },
         {
           "name": "ベストワンドットコム",
@@ -2293,56 +2529,64 @@
             "market": "東証グロース",
             "code": "6577"
           },
-          "note": "クルーズ予約"
+          "note": "クルーズ予約",
+          "url": "https://www.best1cruise-corp.info/"
         },
         {
           "name": "ベルトラ",
           "listing": {
             "market": "東証グロース",
             "code": "7048"
-          }
+          },
+          "url": "https://www.veltra.com/en"
         },
         {
           "name": "ポラリス・ホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "3010"
-          }
+          },
+          "url": "http://www.kachikaihatsu.co.jp/"
         },
         {
           "name": "アゴーラ ホスピタリティー グループ",
           "listing": {
             "market": "東証スタンダード",
             "code": "9704"
-          }
+          },
+          "url": "https://www.agora.jp/"
         },
         {
           "name": "京都ホテル",
           "listing": {
             "market": "東証スタンダード",
             "code": "9723"
-          }
+          },
+          "url": "http://www.kyotohotel.co.jp/"
         },
         {
           "name": "武蔵野興業",
           "listing": {
             "market": "東証スタンダード",
             "code": "9635"
-          }
+          },
+          "url": "http://www.musashino-k.co.jp/"
         },
         {
           "name": "きんえい",
           "listing": {
             "market": "東証スタンダード",
             "code": "9636"
-          }
+          },
+          "url": "http://www.kin-ei.co.jp/"
         },
         {
           "name": "SDエンターテイメント",
           "listing": {
             "market": "東証スタンダード",
             "code": "4650"
-          }
+          },
+          "url": "https://sdentertainment.jp/"
         },
         {
           "name": "共和コーポレーション",
@@ -2350,28 +2594,32 @@
             "market": "東証スタンダード",
             "code": "6570"
           },
-          "note": "アミューズメント"
+          "note": "アミューズメント",
+          "url": "https://www.kyowa-corp.co.jp"
         },
         {
           "name": "ランシステム",
           "listing": {
             "market": "東証スタンダード",
             "code": "3326"
-          }
+          },
+          "url": "http://www.runsystem.co.jp/"
         },
         {
           "name": "GameWith",
           "listing": {
             "market": "東証スタンダード",
             "code": "6552"
-          }
+          },
+          "url": "https://gamewith.co.jp/"
         },
         {
           "name": "リンクバル",
           "listing": {
             "market": "東証スタンダード",
             "code": "6046"
-          }
+          },
+          "url": "https://linkbal.co.jp/"
         },
         {
           "name": "アールビバン",
@@ -2379,7 +2627,8 @@
             "market": "東証スタンダード",
             "code": "7523"
           },
-          "note": "アートイベント販売"
+          "note": "アートイベント販売",
+          "url": "http://www.artvivant.net/"
         },
         {
           "name": "テルマー湯ホールディングス",
@@ -2387,7 +2636,8 @@
             "market": "東証スタンダード",
             "code": "3521"
           },
-          "note": "温浴施設"
+          "note": "温浴施設",
+          "url": "https://thermae-yu-hd.co.jp/"
         },
         {
           "name": "ジェイエスエス",
@@ -2395,7 +2645,8 @@
             "market": "東証スタンダード",
             "code": "6074"
           },
-          "note": "スイミングスクール"
+          "note": "スイミングスクール",
+          "url": "https://www.jss-group.co.jp/"
         },
         {
           "name": "伊豆シャボテンリゾート",
@@ -2403,7 +2654,8 @@
             "market": "東証スタンダード",
             "code": "6819"
           },
-          "note": "動植物公園"
+          "note": "動植物公園",
+          "url": "http://www.izu-sr.co.jp/"
         },
         {
           "name": "トゥエンティーフォーセブンホールディングス",
@@ -2419,7 +2671,8 @@
             "market": "東証スタンダード",
             "code": "9376"
           },
-          "note": "秘境ツアー"
+          "note": "秘境ツアー",
+          "url": "http://www.eurasia.co.jp/"
         },
         {
           "name": "ホウライ",
@@ -2427,7 +2680,8 @@
             "market": "東証スタンダード",
             "code": "9679"
           },
-          "note": "ゴルフ・観光牧場"
+          "note": "ゴルフ・観光牧場",
+          "url": "http://www.horai-kk.co.jp/"
         },
         {
           "name": "ホテル、ニューグランド",
@@ -2435,7 +2689,8 @@
             "market": "東証スタンダード",
             "code": "9720"
           },
-          "note": "ホテルニューグランド"
+          "note": "ホテルニューグランド",
+          "url": "https://www.hotel-newgrand.co.jp/"
         },
         {
           "name": "フィットイージー",
@@ -2443,7 +2698,8 @@
             "market": "東証プライム",
             "code": "212A"
           },
-          "note": "24時間ジム"
+          "note": "24時間ジム",
+          "url": "https://fiteasy.co.jp/"
         },
         {
           "name": "SQUEEZE",
@@ -2459,7 +2715,8 @@
             "market": "東証グロース",
             "code": "324A"
           },
-          "note": "貸別荘"
+          "note": "貸別荘",
+          "url": "https://www.booking-resort.jp/"
         },
         {
           "name": "インバウンドプラットフォーム",
@@ -2483,7 +2740,8 @@
             "market": "東証グロース",
             "code": "469A"
           },
-          "note": "パーソナルジム"
+          "note": "パーソナルジム",
+          "url": "https://fitcrew.co.jp/"
         },
         {
           "name": "ジェイホールディングス",
@@ -2491,7 +2749,8 @@
             "market": "東証スタンダード",
             "code": "2721"
           },
-          "note": "フットサル施設・環境・太陽光"
+          "note": "フットサル施設・環境・太陽光",
+          "url": "http://www.jgroup.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -2522,56 +2781,64 @@
           "listing": {
             "market": "東証プライム",
             "code": "9735"
-          }
+          },
+          "url": "https://www.secom.co.jp/"
         },
         {
           "name": "日本管財ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "9347"
-          }
+          },
+          "url": "http://www.nkanzai.co.jp/"
         },
         {
           "name": "ダスキン",
           "listing": {
             "market": "東証プライム",
             "code": "4665"
-          }
+          },
+          "url": "https://www.duskin.co.jp/"
         },
         {
           "name": "ALSOK",
           "listing": {
             "market": "東証プライム",
             "code": "2331"
-          }
+          },
+          "url": "https://www.alsok.co.jp/"
         },
         {
           "name": "セントラル警備保障",
           "listing": {
             "market": "東証プライム",
             "code": "9740"
-          }
+          },
+          "url": "https://www.we-are-csp.co.jp/"
         },
         {
           "name": "日本空調サービス",
           "listing": {
             "market": "東証プライム",
             "code": "4658"
-          }
+          },
+          "url": "http://www.nikku.co.jp/"
         },
         {
           "name": "ジャパンエレベーターサービスホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "6544"
-          }
+          },
+          "url": "http://www.jes24.co.jp/"
         },
         {
           "name": "三機サービス",
           "listing": {
             "market": "東証スタンダード",
             "code": "6044"
-          }
+          },
+          "url": "https://www.sanki-s.co.jp/"
         },
         {
           "name": "ハリマビステム",
@@ -2585,63 +2852,72 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "9791"
-          }
+          },
+          "url": "https://www.bikentechno.co.jp/"
         },
         {
           "name": "白洋舎",
           "listing": {
             "market": "東証スタンダード",
             "code": "9731"
-          }
+          },
+          "url": "http://www.hakuyosha.co.jp"
         },
         {
           "name": "トーカイ",
           "listing": {
             "market": "東証プライム",
             "code": "9729"
-          }
+          },
+          "url": "https://www.tokai-corp.com/"
         },
         {
           "name": "アサンテ",
           "listing": {
             "market": "東証プライム",
             "code": "6073"
-          }
+          },
+          "url": "https://www.asante.co.jp/"
         },
         {
           "name": "シンメンテホールディングス",
           "listing": {
             "market": "東証グロース",
             "code": "6086"
-          }
+          },
+          "url": "http://www.shin-pro.com/"
         },
         {
           "name": "東洋テック",
           "listing": {
             "market": "東証スタンダード",
             "code": "9686"
-          }
+          },
+          "url": "http://www.toyo-tec.co.jp/"
         },
         {
           "name": "共栄セキュリティーサービス",
           "listing": {
             "market": "東証スタンダード",
             "code": "7058"
-          }
+          },
+          "url": "https://www.kyoei-ss.co.jp/"
         },
         {
           "name": "トスネット",
           "listing": {
             "market": "東証スタンダード",
             "code": "4754"
-          }
+          },
+          "url": "http://www.tosnet.co.jp/"
         },
         {
           "name": "サニックスホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "4651"
-          }
+          },
+          "url": "http://www.sanix.jp/"
         },
         {
           "name": "ユニバーサル園芸社",
@@ -2649,7 +2925,8 @@
             "market": "東証スタンダード",
             "code": "6061"
           },
-          "note": "貸植木"
+          "note": "貸植木",
+          "url": "https://uni-green.co.jp/"
         },
         {
           "name": "ユーピーアール",
@@ -2657,14 +2934,16 @@
             "market": "東証スタンダード",
             "code": "7065"
           },
-          "note": "パレット"
+          "note": "パレット",
+          "url": "http://www.upr-net.co.jp/"
         },
         {
           "name": "コーユーレンティア",
           "listing": {
             "market": "東証スタンダード",
             "code": "7081"
-          }
+          },
+          "url": "https://www.koyou.co.jp/"
         },
         {
           "name": "ダイサン",
@@ -2672,7 +2951,8 @@
             "market": "東証スタンダード",
             "code": "4750"
           },
-          "note": "足場"
+          "note": "足場",
+          "url": "http://www.daisan-g.co.jp/"
         },
         {
           "name": "ASNOVA",
@@ -2680,14 +2960,16 @@
             "market": "東証グロース",
             "code": "9223"
           },
-          "note": "足場"
+          "note": "足場",
+          "url": "https://www.asnova.co.jp/"
         },
         {
           "name": "明豊ファシリティワークス",
           "listing": {
             "market": "東証スタンダード",
             "code": "1717"
-          }
+          },
+          "url": "https://www.meiho.co.jp/"
         },
         {
           "name": "CSSホールディングス",
@@ -2695,7 +2977,8 @@
             "market": "東証スタンダード",
             "code": "2304"
           },
-          "note": "ホテルサービス・音響"
+          "note": "ホテルサービス・音響",
+          "url": "http://www.css-holdings.jp/"
         },
         {
           "name": "アール・エス・シー",
@@ -2703,7 +2986,8 @@
             "market": "東証スタンダード",
             "code": "4664"
           },
-          "note": "警備・施設管理"
+          "note": "警備・施設管理",
+          "url": "http://www.trsc.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -2724,49 +3008,56 @@
           "listing": {
             "market": "東証プライム",
             "code": "9715"
-          }
+          },
+          "url": "https://www.trans-cosmos.co.jp/"
         },
         {
           "name": "ベルシステム24ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "6183"
-          }
+          },
+          "url": "https://www.bell24.co.jp/"
         },
         {
           "name": "プレステージ・インターナショナル",
           "listing": {
             "market": "東証プライム",
             "code": "4290"
-          }
+          },
+          "url": "http://www.prestigein.com/"
         },
         {
           "name": "キャリアリンク",
           "listing": {
             "market": "東証プライム",
             "code": "6070"
-          }
+          },
+          "url": "https://www.careerlink.co.jp/"
         },
         {
           "name": "ビーウィズ",
           "listing": {
             "market": "東証プライム",
             "code": "9216"
-          }
+          },
+          "url": "http://www.bewith.net/"
         },
         {
           "name": "ダイレクトマーケティングミックス",
           "listing": {
             "market": "東証スタンダード",
             "code": "7354"
-          }
+          },
+          "url": "https://dmix.co.jp/"
         },
         {
           "name": "ブリッジインターナショナルグループ",
           "listing": {
             "market": "東証グロース",
             "code": "7039"
-          }
+          },
+          "url": "http://www.bridge-g.com/"
         },
         {
           "name": "ロココ",
@@ -2780,14 +3071,16 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "4771"
-          }
+          },
+          "url": "http://www.fmltd.co.jp/"
         },
         {
           "name": "バリューHR",
           "listing": {
             "market": "東証プライム",
             "code": "6078"
-          }
+          },
+          "url": "https://www.valuehr.com/"
         },
         {
           "name": "レカム",
@@ -2795,14 +3088,16 @@
             "market": "東証スタンダード",
             "code": "3323"
           },
-          "note": "OA機器販売"
+          "note": "OA機器販売",
+          "url": "http://www.recomm.co.jp"
         },
         {
           "name": "エフティグループ",
           "listing": {
             "market": "東証スタンダード",
             "code": "2763"
-          }
+          },
+          "url": "https://www.ftgroup.co.jp/"
         },
         {
           "name": "No.1",
@@ -2818,7 +3113,8 @@
             "market": "東証スタンダード",
             "code": "8769"
           },
-          "note": "メンタルヘルス"
+          "note": "メンタルヘルス",
+          "url": "https://www.armg.jp"
         },
         {
           "name": "メンタルヘルステクノロジーズ",
@@ -2839,21 +3135,24 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "3021"
-          }
+          },
+          "url": "https://www.prins.co.jp/"
         },
         {
           "name": "GMO TECHホールディングス",
           "listing": {
             "market": "東証グロース",
             "code": "415A"
-          }
+          },
+          "url": "https://hd.gmotech.jp/"
         },
         {
           "name": "ブロードメディア",
           "listing": {
             "market": "東証スタンダード",
             "code": "4347"
-          }
+          },
+          "url": "http://www.broadmedia.co.jp/"
         },
         {
           "name": "うるる",
@@ -2861,7 +3160,8 @@
             "market": "東証グロース",
             "code": "3979"
           },
-          "note": "BPO×SaaS"
+          "note": "BPO×SaaS",
+          "url": "https://www.uluru.biz/"
         },
         {
           "name": "インバウンドテック",
@@ -2876,7 +3176,8 @@
             "market": "東証スタンダード",
             "code": "2488"
           },
-          "note": "技術サポート"
+          "note": "技術サポート",
+          "url": "https://www.jtp.co.jp/"
         },
         {
           "name": "バーチャレクス・ホールディングス",
@@ -2884,7 +3185,8 @@
             "market": "東証グロース",
             "code": "6193"
           },
-          "note": "CRMコンサル"
+          "note": "CRMコンサル",
+          "url": "https://www.vx-holdings.com/"
         },
         {
           "name": "MS&Consulting",
@@ -2892,7 +3194,8 @@
             "market": "東証スタンダード",
             "code": "6555"
           },
-          "note": "覆面調査・店舗改善"
+          "note": "覆面調査・店舗改善",
+          "url": "https://www.msandc.co.jp/"
         },
         {
           "name": "ピアズ",
@@ -2908,7 +3211,8 @@
             "market": "東証グロース",
             "code": "7093"
           },
-          "note": "ネットモニタリング"
+          "note": "ネットモニタリング",
+          "url": "https://www.adish.co.jp/"
         },
         {
           "name": "アイドマ・ホールディングス",
@@ -2916,7 +3220,8 @@
             "market": "東証グロース",
             "code": "7373"
           },
-          "note": "営業支援"
+          "note": "営業支援",
+          "url": "https://www.aidma-hd.jp/"
         },
         {
           "name": "BCC",
@@ -2924,7 +3229,8 @@
             "market": "東証グロース",
             "code": "7376"
           },
-          "note": "営業・介護レク支援"
+          "note": "営業・介護レク支援",
+          "url": "https://www.e-bcc.jp/"
         },
         {
           "name": "プロジェクトホールディングス",
@@ -2932,7 +3238,8 @@
             "market": "東証グロース",
             "code": "9246"
           },
-          "note": "営業支援"
+          "note": "営業支援",
+          "url": "https://phd.co.jp/"
         },
         {
           "name": "ラストワンマイル",
@@ -2940,7 +3247,8 @@
             "market": "東証グロース",
             "code": "9252"
           },
-          "note": "生活インフラ販売"
+          "note": "生活インフラ販売",
+          "url": "https://lastonemile.co.jp/"
         },
         {
           "name": "エコミック",
@@ -2948,7 +3256,8 @@
             "market": "東証スタンダード",
             "code": "3802"
           },
-          "note": "給与計算BPO"
+          "note": "給与計算BPO",
+          "url": "http://www.ecomic.jp/"
         },
         {
           "name": "NEXYZ.Group",
@@ -2956,7 +3265,8 @@
             "market": "東証スタンダード",
             "code": "4346"
           },
-          "note": "LED・設備サブスク"
+          "note": "LED・設備サブスク",
+          "url": "https://www.nexyzgroup.jp/"
         },
         {
           "name": "アスア",
@@ -2972,7 +3282,8 @@
             "market": "東証スタンダード",
             "code": "6093"
           },
-          "note": "金融・不動産BPO"
+          "note": "金融・不動産BPO",
+          "url": "https://www.mitra.co.jp/"
         },
         {
           "name": "コレックホールディングス",
@@ -2980,7 +3291,8 @@
             "market": "東証スタンダード",
             "code": "6578"
           },
-          "note": "営業BPO・メディア・エネルギー"
+          "note": "営業BPO・メディア・エネルギー",
+          "url": "https://www.correc.co.jp/"
         },
         {
           "name": "プラザホールディングス",
@@ -2988,7 +3300,8 @@
             "market": "東証スタンダード",
             "code": "7502"
           },
-          "note": "携帯ショップ・プリント(パレットプラザ)"
+          "note": "携帯ショップ・プリント(パレットプラザ)",
+          "url": "https://www.plazacreate.co.jp"
         },
         {
           "name": "INEST",
@@ -2996,7 +3309,8 @@
             "market": "東証スタンダード",
             "code": "7111"
           },
-          "note": "通信・生活インフラ販売代理"
+          "note": "通信・生活インフラ販売代理",
+          "url": "https://inest-inc.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -3019,35 +3333,40 @@
           "listing": {
             "market": "東証プライム",
             "code": "2127"
-          }
+          },
+          "url": "https://www.nihon-ma.co.jp/"
         },
         {
           "name": "M&Aキャピタルパートナーズ",
           "listing": {
             "market": "東証プライム",
             "code": "6080"
-          }
+          },
+          "url": "http://www.ma-cp.com/"
         },
         {
           "name": "弁護士ドットコム",
           "listing": {
             "market": "東証プライム",
             "code": "6027"
-          }
+          },
+          "url": "https://www.bengo4.com/"
         },
         {
           "name": "鎌倉新書",
           "listing": {
             "market": "東証プライム",
             "code": "6184"
-          }
+          },
+          "url": "http://www.takakita-net.co.jp/"
         },
         {
           "name": "ストライクグループ",
           "listing": {
             "market": "東証プライム",
             "code": "6196"
-          }
+          },
+          "url": "https://www.strike.co.jp/"
         },
         {
           "name": "アイ・アールジャパンホールディングス",
@@ -3055,28 +3374,32 @@
             "market": "東証スタンダード",
             "code": "6035"
           },
-          "note": "IR・SR支援"
+          "note": "IR・SR支援",
+          "url": "https://www.irjapan.jp/"
         },
         {
           "name": "インテグループ",
           "listing": {
             "market": "東証グロース",
             "code": "192A"
-          }
+          },
+          "url": "https://www.integroup.jp/"
         },
         {
           "name": "オンデック",
           "listing": {
             "market": "東証グロース",
             "code": "7360"
-          }
+          },
+          "url": "https://www.ondeck.jp/"
         },
         {
           "name": "ジャパンM&Aソリューション",
           "listing": {
             "market": "東証グロース",
             "code": "9236"
-          }
+          },
+          "url": "https://jpmas.jp/"
         },
         {
           "name": "アシロ",
@@ -3084,21 +3407,24 @@
             "market": "東証グロース",
             "code": "7378"
           },
-          "note": "リーガルメディア"
+          "note": "リーガルメディア",
+          "url": "https://asiro.co.jp/"
         },
         {
           "name": "ブリッジコンサルティンググループ",
           "listing": {
             "market": "東証グロース",
             "code": "9225"
-          }
+          },
+          "url": "https://bridge-group.co.jp/"
         },
         {
           "name": "エスネットワークス",
           "listing": {
             "market": "東証グロース",
             "code": "5867"
-          }
+          },
+          "url": "https://esnet.co.jp/"
         },
         {
           "name": "令和アカウンティング・ホールディングス",
@@ -3122,7 +3448,8 @@
             "market": "東証スタンダード",
             "code": "2134"
           },
-          "note": "M&A仲介"
+          "note": "M&A仲介",
+          "url": "https://kitahamabank.co.jp/"
         },
         {
           "name": "バトンズ",
@@ -3130,7 +3457,8 @@
             "market": "東証グロース",
             "code": "554A"
           },
-          "note": "スモールM&A"
+          "note": "スモールM&A",
+          "url": "https://batonz.jp/company/"
         },
         {
           "name": "技術承継機構",
@@ -3147,7 +3475,8 @@
           "salary": {
             "man_jpy": 900,
             "fy": "2025年12月期"
-          }
+          },
+          "url": "https://ngt-g.com/"
         },
         {
           "name": "セイワホールディングス",
@@ -3184,28 +3513,32 @@
           "listing": {
             "market": "東証プライム",
             "code": "9628"
-          }
+          },
+          "url": "http://www.san-hd.co.jp/"
         },
         {
           "name": "ティア",
           "listing": {
             "market": "東証スタンダード",
             "code": "2485"
-          }
+          },
+          "url": "https://www.tear.co.jp/"
         },
         {
           "name": "ケア21",
           "listing": {
             "market": "東証スタンダード",
             "code": "2373"
-          }
+          },
+          "url": "http://www.care21.co.jp/"
         },
         {
           "name": "チャーム・ケア・コーポレーション",
           "listing": {
             "market": "東証プライム",
             "code": "6062"
-          }
+          },
+          "url": "https://www.charmcc.jp/"
         },
         {
           "name": "はせがわ",
@@ -3213,14 +3546,16 @@
             "market": "東証スタンダード",
             "code": "8230"
           },
-          "note": "仏壇・墓"
+          "note": "仏壇・墓",
+          "url": "http://www.hasegawa.jp/"
         },
         {
           "name": "ニチリョク",
           "listing": {
             "market": "東証スタンダード",
             "code": "7578"
-          }
+          },
+          "url": "http://www.nichiryoku.co.jp/"
         },
         {
           "name": "ツカダ・グローバルホールディング",
@@ -3234,49 +3569,56 @@
           "listing": {
             "market": "東証プライム",
             "code": "4331"
-          }
+          },
+          "url": "https://www.tgn.co.jp/"
         },
         {
           "name": "ブラス",
           "listing": {
             "market": "東証スタンダード",
             "code": "2424"
-          }
+          },
+          "url": "https://brass.ne.jp/"
         },
         {
           "name": "アイ・ケイ・ケイホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "2198"
-          }
+          },
+          "url": "http://www.ikk-grp.jp/"
         },
         {
           "name": "サン・ライフホールディング",
           "listing": {
             "market": "東証スタンダード",
             "code": "7040"
-          }
+          },
+          "url": "http://www.sunlife-store.co.jp"
         },
         {
           "name": "ソラスト",
           "listing": {
             "market": "東証プライム",
             "code": "6197"
-          }
+          },
+          "url": "http://www.solasto.co.jp/"
         },
         {
           "name": "シーユーシー",
           "listing": {
             "market": "東証グロース",
             "code": "9158"
-          }
+          },
+          "url": "https://cuc-jpn.com/"
         },
         {
           "name": "アンビスホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "7071"
-          }
+          },
+          "url": "https://www.amvis.com/"
         },
         {
           "name": "日本ホスピスホールディングス",
@@ -3290,42 +3632,48 @@
           "listing": {
             "market": "東証プライム",
             "code": "9229"
-          }
+          },
+          "url": "https://sunwels.jp/"
         },
         {
           "name": "シダー",
           "listing": {
             "market": "東証スタンダード",
             "code": "2435"
-          }
+          },
+          "url": "http://www.cedar-web.com/"
         },
         {
           "name": "ウチヤマホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "6059"
-          }
+          },
+          "url": "http://www.uchiyama-gr.jp/"
         },
         {
           "name": "エラン",
           "listing": {
             "market": "東証プライム",
             "code": "6099"
-          }
+          },
+          "url": "https://www.kkelan.com/"
         },
         {
           "name": "ユカリア",
           "listing": {
             "market": "東証グロース",
             "code": "286A"
-          }
+          },
+          "url": "https://eucalia.jp/"
         },
         {
           "name": "スタジオアリス",
           "listing": {
             "market": "東証スタンダード",
             "code": "2305"
-          }
+          },
+          "url": "https://www.studio-alice.co.jp/"
         },
         {
           "name": "IBJ",
@@ -3333,14 +3681,16 @@
             "market": "東証プライム",
             "code": "6071"
           },
-          "note": "婚活"
+          "note": "婚活",
+          "url": "http://www.ibjapan.jp/"
         },
         {
           "name": "リログループ",
           "listing": {
             "market": "東証プライム",
             "code": "8876"
-          }
+          },
+          "url": "https://www.relo.jp/"
         },
         {
           "name": "キュービーネットホールディングス",
@@ -3348,7 +3698,8 @@
             "market": "東証プライム",
             "code": "6571"
           },
-          "note": "QBハウス"
+          "note": "QBハウス",
+          "url": "http://www.qbhouse.co.jp/"
         },
         {
           "name": "ナック",
@@ -3356,7 +3707,8 @@
             "market": "東証プライム",
             "code": "9788"
           },
-          "note": "ダスキン代理店・宅配水"
+          "note": "ダスキン代理店・宅配水",
+          "url": "https://www.nacoo.com/"
         },
         {
           "name": "ビューティガレージ",
@@ -3364,7 +3716,8 @@
             "market": "東証プライム",
             "code": "3180"
           },
-          "note": "美容商材"
+          "note": "美容商材",
+          "url": "https://www.beautygarage.co.jp/"
         },
         {
           "name": "クラウディアホールディングス",
@@ -3372,7 +3725,8 @@
             "market": "東証スタンダード",
             "code": "3607"
           },
-          "note": "ウェディング"
+          "note": "ウェディング",
+          "url": "https://www.kuraudia.co.jp/"
         },
         {
           "name": "きょくとう",
@@ -3380,7 +3734,8 @@
             "market": "東証スタンダード",
             "code": "2300"
           },
-          "note": "クリーニング"
+          "note": "クリーニング",
+          "url": "http://www.cl-kyokuto.co.jp/"
         },
         {
           "name": "WASHハウス",
@@ -3388,7 +3743,8 @@
             "market": "東証グロース",
             "code": "6537"
           },
-          "note": "コインランドリー"
+          "note": "コインランドリー",
+          "url": "https://www.wash-house.jp/"
         },
         {
           "name": "田谷",
@@ -3396,7 +3752,8 @@
             "market": "東証スタンダード",
             "code": "4679"
           },
-          "note": "美容室"
+          "note": "美容室",
+          "url": "https://tayanet.jp/"
         },
         {
           "name": "エム・エイチ・グループ",
@@ -3404,7 +3761,8 @@
             "market": "東証スタンダード",
             "code": "9439"
           },
-          "note": "美容室"
+          "note": "美容室",
+          "url": "http://mhgroup.co.jp/"
         },
         {
           "name": "コンヴァノ",
@@ -3421,7 +3779,8 @@
           "salary": {
             "man_jpy": 335,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://convano.com/"
         },
         {
           "name": "デコルテ・ホールディングス",
@@ -3445,7 +3804,8 @@
             "market": "東証グロース",
             "code": "6181"
           },
-          "note": "婚活"
+          "note": "婚活",
+          "url": "https://tameny.jp/"
         },
         {
           "name": "ケアサービス",
@@ -3459,21 +3819,24 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "2393"
-          }
+          },
+          "url": "http://www.caresupply.co.jp/"
         },
         {
           "name": "エフビー介護サービス",
           "listing": {
             "market": "東証スタンダード",
             "code": "9220"
-          }
+          },
+          "url": "https://www.fb-kaigo.co.jp/"
         },
         {
           "name": "AHCグループ",
           "listing": {
             "market": "東証グロース",
             "code": "7083"
-          }
+          },
+          "url": "https://ahc.co.jp/"
         },
         {
           "name": "ステムセル研究所",
@@ -3481,7 +3844,8 @@
             "market": "東証グロース",
             "code": "7096"
           },
-          "note": "さい帯血バンク"
+          "note": "さい帯血バンク",
+          "url": "https://www.stemcell.co.jp"
         },
         {
           "name": "日本動物高度医療センター",
@@ -3489,7 +3853,8 @@
             "market": "東証グロース",
             "code": "6039"
           },
-          "note": "動物医療"
+          "note": "動物医療",
+          "url": "http://www.jarmec.co.jp/"
         },
         {
           "name": "WOLVES HAND",
@@ -3504,7 +3869,8 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "6063"
-          }
+          },
+          "url": "https://emergency.co.jp/"
         },
         {
           "name": "ヤマノホールディングス",
@@ -3512,7 +3878,8 @@
             "market": "東証スタンダード",
             "code": "7571"
           },
-          "note": "美容・和装"
+          "note": "美容・和装",
+          "url": "http://www.yamano-hd.com/"
         },
         {
           "name": "ビューティカダンホールディングス",
@@ -3520,7 +3887,8 @@
             "market": "東証スタンダード",
             "code": "3041"
           },
-          "note": "花き・葬祭花"
+          "note": "花き・葬祭花",
+          "url": "http://www.beauty-kadan.com/"
         },
         {
           "name": "アトラグループ",
@@ -3536,7 +3904,8 @@
             "market": "東証グロース",
             "code": "6545"
           },
-          "note": "介護情報・レコードブック"
+          "note": "介護情報・レコードブック",
+          "url": "http://iif.jp/"
         },
         {
           "name": "フレアス",
@@ -3544,7 +3913,8 @@
             "market": "東証グロース",
             "code": "7062"
           },
-          "note": "在宅マッサージ"
+          "note": "在宅マッサージ",
+          "url": "https://fureasu.jp/"
         },
         {
           "name": "リグア",
@@ -3552,7 +3922,8 @@
             "market": "東証グロース",
             "code": "7090"
           },
-          "note": "接骨院・医療機器"
+          "note": "接骨院・医療機器",
+          "url": "https://ligua.jp/"
         },
         {
           "name": "リビングプラットフォーム",
@@ -3560,7 +3931,8 @@
             "market": "東証グロース",
             "code": "7091"
           },
-          "note": "介護・障がい福祉"
+          "note": "介護・障がい福祉",
+          "url": "https://www.living-platform.com/"
         },
         {
           "name": "Recovery International",
@@ -3568,7 +3940,8 @@
             "market": "東証グロース",
             "code": "9214"
           },
-          "note": "訪問看護"
+          "note": "訪問看護",
+          "url": "https://www.recovery-group.co.jp/"
         },
         {
           "name": "CaSy",
@@ -3576,7 +3949,8 @@
             "market": "東証グロース",
             "code": "9215"
           },
-          "note": "家事代行"
+          "note": "家事代行",
+          "url": "https://corp.casy.co.jp/"
         },
         {
           "name": "笑美面",
@@ -3584,7 +3958,8 @@
             "market": "東証グロース",
             "code": "9237"
           },
-          "note": "高齢者住宅紹介"
+          "note": "高齢者住宅紹介",
+          "url": "https://emimen.co.jp/"
         },
         {
           "name": "AB&Company",
@@ -3592,7 +3967,8 @@
             "market": "東証グロース",
             "code": "9251"
           },
-          "note": "美容室(Agu.)"
+          "note": "美容室(Agu.)",
+          "url": "https://ab-company.co.jp/"
         },
         {
           "name": "ココルポート",
@@ -3600,7 +3976,8 @@
             "market": "東証グロース",
             "code": "9346"
           },
-          "note": "就労移行支援"
+          "note": "就労移行支援",
+          "url": "https://www.cocorport.co.jp/"
         },
         {
           "name": "アズパートナーズ",
@@ -3608,7 +3985,8 @@
             "market": "東証スタンダード",
             "code": "160A"
           },
-          "note": "介護付ホーム"
+          "note": "介護付ホーム",
+          "url": "https://www.as-partners.co.jp/"
         },
         {
           "name": "エータイ",
@@ -3616,7 +3994,8 @@
             "market": "東証グロース",
             "code": "369A"
           },
-          "note": "永代供養墓"
+          "note": "永代供養墓",
+          "url": "https://a-tie.co.jp/"
         },
         {
           "name": "T.S.I",
@@ -3624,7 +4003,8 @@
             "market": "東証グロース",
             "code": "7362"
           },
-          "note": "介護特化サ高住"
+          "note": "介護特化サ高住",
+          "url": "https://www.tsi-holdings.com/"
         },
         {
           "name": "オンザページ",
@@ -3632,7 +4012,8 @@
             "market": "東証スタンダード",
             "code": "9160"
           },
-          "note": "ゲストハウスウェディング"
+          "note": "ゲストハウスウェディング",
+          "url": "https://www.novarese.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -3676,13 +4057,15 @@
           "listing": {
             "market": "スタンダード",
             "code": "3597"
-          }
+          },
+          "url": "http://www.jichodo.co.jp/"
         },
         {
           "name": "ミドリ安全",
           "listing": {
             "market": "非上場"
-          }
+          },
+          "url": "https://www.midori-anzen.co.jp/"
         }
       ],
       "updated": "2026-07-24",

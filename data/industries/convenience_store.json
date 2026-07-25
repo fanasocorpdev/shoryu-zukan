@@ -247,7 +247,8 @@
             "market": "東証スタンダード",
             "code": "7601"
           },
-          "note": "中国地方地盤"
+          "note": "中国地方地盤",
+          "url": "https://www.poplar-cvs.co.jp/"
         },
         {
           "name": "スリーエフ",
@@ -255,7 +256,8 @@
             "market": "東証スタンダード",
             "code": "7544"
           },
-          "note": "ローソン提携"
+          "note": "ローソン提携",
+          "url": "https://www.three-f.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -297,7 +299,8 @@
           "employees": 3000,
           "listing": {
             "market": "非上場(プリマハムグループ)"
-          }
+          },
+          "url": "http://www.primedelica.com/"
         },
         {
           "name": "武蔵野ホールディングス",
@@ -748,14 +751,16 @@
           "listing": {
             "market": "プライム",
             "code": "7947"
-          }
+          },
+          "url": "http://www.fpco.jp/"
         },
         {
           "name": "中央化学",
           "listing": {
             "market": "非上場(上場廃止)"
           },
-          "note": "食品容器大手"
+          "note": "食品容器大手",
+          "url": "http://www.chuo-kagaku.co.jp/"
         }
       ],
       "updated": "2026-07-24",

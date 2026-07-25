@@ -68,77 +68,88 @@
           "listing": {
             "market": "東証プライム",
             "code": "9501"
-          }
+          },
+          "url": "https://www.tepco.co.jp/"
         },
         {
           "name": "中部電力",
           "listing": {
             "market": "東証プライム",
             "code": "9502"
-          }
+          },
+          "url": "https://www.chuden.co.jp/"
         },
         {
           "name": "関西電力",
           "listing": {
             "market": "東証プライム",
             "code": "9503"
-          }
+          },
+          "url": "https://www.kepco.co.jp/"
         },
         {
           "name": "九州電力",
           "listing": {
             "market": "東証プライム",
             "code": "9508"
-          }
+          },
+          "url": "https://www.kyuden.co.jp/"
         },
         {
           "name": "東北電力",
           "listing": {
             "market": "東証プライム",
             "code": "9506"
-          }
+          },
+          "url": "https://www.tohoku-epco.co.jp/"
         },
         {
           "name": "中国電力",
           "listing": {
             "market": "東証プライム",
             "code": "9504"
-          }
+          },
+          "url": "https://www.energia.co.jp/"
         },
         {
           "name": "四国電力",
           "listing": {
             "market": "東証プライム",
             "code": "9507"
-          }
+          },
+          "url": "https://www.yonden.co.jp/"
         },
         {
           "name": "北陸電力",
           "listing": {
             "market": "東証プライム",
             "code": "9505"
-          }
+          },
+          "url": "https://www.rikuden.co.jp/"
         },
         {
           "name": "北海道電力",
           "listing": {
             "market": "東証プライム",
             "code": "9509"
-          }
+          },
+          "url": "https://www.hepco.co.jp/"
         },
         {
           "name": "沖縄電力",
           "listing": {
             "market": "東証プライム",
             "code": "9511"
-          }
+          },
+          "url": "https://www.okiden.co.jp/"
         },
         {
           "name": "電源開発",
           "listing": {
             "market": "東証プライム",
             "code": "9513"
-          }
+          },
+          "url": "https://www.jpower.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -169,84 +180,96 @@
           "listing": {
             "market": "東証プライム",
             "code": "9531"
-          }
+          },
+          "url": "https://www.tokyo-gas.co.jp/"
         },
         {
           "name": "大阪瓦斯",
           "listing": {
             "market": "東証プライム",
             "code": "9532"
-          }
+          },
+          "url": "https://www.osakagas.co.jp/"
         },
         {
           "name": "東邦瓦斯",
           "listing": {
             "market": "東証プライム",
             "code": "9533"
-          }
+          },
+          "url": "https://www.tohogas.co.jp/"
         },
         {
           "name": "静岡ガス",
           "listing": {
             "market": "東証プライム",
             "code": "9543"
-          }
+          },
+          "url": "http://www.shizuokagas.co.jp/"
         },
         {
           "name": "北海道瓦斯",
           "listing": {
             "market": "東証プライム",
             "code": "9534"
-          }
+          },
+          "url": "http://www.hokkaido-gas.co.jp/"
         },
         {
           "name": "広島ガス",
           "listing": {
             "market": "東証プライム",
             "code": "9535"
-          }
+          },
+          "url": "http://www.hiroshima-gas.co.jp/"
         },
         {
           "name": "西部ガスホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "9536"
-          }
+          },
+          "url": "https://www.saibugas.co.jp/"
         },
         {
           "name": "北陸瓦斯",
           "listing": {
             "market": "東証スタンダード",
             "code": "9537"
-          }
+          },
+          "url": "http://www.hokurikugas.co.jp/"
         },
         {
           "name": "京葉瓦斯",
           "listing": {
             "market": "東証スタンダード",
             "code": "9539"
-          }
+          },
+          "url": "http://www.keiyogas.co.jp/"
         },
         {
           "name": "K&Oエナジーグループ",
           "listing": {
             "market": "東証プライム",
             "code": "1663"
-          }
+          },
+          "url": "http://www.k-and-o-energy.co.jp/"
         },
         {
           "name": "TOKAIホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3167"
-          }
+          },
+          "url": "http://tokaiholdings.co.jp/"
         },
         {
           "name": "日本瓦斯",
           "listing": {
             "market": "東証プライム",
             "code": "8174"
-          }
+          },
+          "url": "http://www.nichigas.co.jp/"
         },
         {
           "name": "大丸エナウィン",
@@ -260,14 +283,16 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "7486"
-          }
+          },
+          "url": "http://www.sanrinkk.co.jp/"
         },
         {
           "name": "トーエル",
           "listing": {
             "market": "東証スタンダード",
             "code": "3361"
-          }
+          },
+          "url": "https://www.toell.co.jp/"
         },
         {
           "name": "サーラコーポレーション",
@@ -275,7 +300,8 @@
             "market": "東証プライム",
             "code": "2734"
           },
-          "note": "LPガス"
+          "note": "LPガス",
+          "url": "http://www.sala.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -316,7 +342,8 @@
           "salary": {
             "man_jpy": 1069,
             "fy": "2025年3月期"
-          }
+          },
+          "url": "https://www.hd.eneos.co.jp/"
         },
         {
           "name": "出光興産",
@@ -333,28 +360,32 @@
           "salary": {
             "man_jpy": 994,
             "fy": "2025年3月期"
-          }
+          },
+          "url": "https://www.idemitsu.com/jp/"
         },
         {
           "name": "コスモエネルギーホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "5021"
-          }
+          },
+          "url": "https://www.cosmo-energy.co.jp/"
         },
         {
           "name": "岩谷産業",
           "listing": {
             "market": "東証プライム",
             "code": "8088"
-          }
+          },
+          "url": "http://www.iwatani.co.jp/"
         },
         {
           "name": "伊藤忠エネクス",
           "listing": {
             "market": "東証プライム",
             "code": "8133"
-          }
+          },
+          "url": "http://www.itcenex.com/"
         },
         {
           "name": "三愛オブリ",
@@ -376,7 +407,8 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "7490"
-          }
+          },
+          "url": "https://www.nissin-shoji.co.jp/"
         },
         {
           "name": "太平洋興発",
@@ -384,7 +416,8 @@
             "market": "東証スタンダード",
             "code": "8835"
           },
-          "note": "石炭・エネルギー"
+          "note": "石炭・エネルギー",
+          "url": "http://www.taiheiyo.net/"
         },
         {
           "name": "CAPITA",
@@ -392,7 +425,8 @@
             "market": "東証スタンダード",
             "code": "7462"
           },
-          "note": "SS運営・石油販売"
+          "note": "SS運営・石油販売",
+          "url": "http://www.daiya-tsusho.co.jp/"
         },
         {
           "name": "富士ユナイトホールディングス",
@@ -400,7 +434,8 @@
             "market": "東証スタンダード",
             "code": "416A"
           },
-          "note": "燃料供給・リサイクル"
+          "note": "燃料供給・リサイクル",
+          "url": "https://www.fujiunited.com/"
         }
       ],
       "updated": "2026-07-24",
@@ -431,14 +466,16 @@
           "listing": {
             "market": "東証プライム",
             "code": "9519"
-          }
+          },
+          "url": "https://www.renovainc.com/"
         },
         {
           "name": "イーレックス",
           "listing": {
             "market": "東証プライム",
             "code": "9517"
-          }
+          },
+          "url": "http://erex.co.jp/"
         },
         {
           "name": "ウエストホールディングス",
@@ -454,35 +491,40 @@
           "salary": {
             "man_jpy": 745,
             "fy": "2025年8月期"
-          }
+          },
+          "url": "http://www.west-gr.co.jp/"
         },
         {
           "name": "エフオン",
           "listing": {
             "market": "東証スタンダード",
             "code": "9514"
-          }
+          },
+          "url": "http://www.fesco.co.jp/"
         },
         {
           "name": "グリムス",
           "listing": {
             "market": "東証プライム",
             "code": "3150"
-          }
+          },
+          "url": "http://www.gremz.co.jp"
         },
         {
           "name": "デジタルグリッド",
           "listing": {
             "market": "東証グロース",
             "code": "350A"
-          }
+          },
+          "url": "https://www.digitalgrid.com/"
         },
         {
           "name": "テスホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "5074"
-          }
+          },
+          "url": "https://www.tess-hd.co.jp/"
         },
         {
           "name": "アストマックス",
@@ -490,7 +532,8 @@
             "market": "東証スタンダード",
             "code": "7162"
           },
-          "note": "電力トレーディング"
+          "note": "電力トレーディング",
+          "url": "http://www.astmax.com/"
         },
         {
           "name": "アースインフィニティ",
@@ -498,7 +541,8 @@
             "market": "東証スタンダード",
             "code": "7692"
           },
-          "note": "電力小売"
+          "note": "電力小売",
+          "url": "https://earth-infinity.co.jp/"
         },
         {
           "name": "グリーンエナジー&カンパニー",
@@ -506,7 +550,8 @@
             "market": "東証グロース",
             "code": "1436"
           },
-          "note": "太陽光施工"
+          "note": "太陽光施工",
+          "url": "https://green-energy.co.jp/"
         },
         {
           "name": "Abalance",
@@ -514,7 +559,8 @@
             "market": "東証スタンダード",
             "code": "3856"
           },
-          "note": "太陽光"
+          "note": "太陽光",
+          "url": "http://www.realcom.co.jp/"
         },
         {
           "name": "パワーエックス",
@@ -531,7 +577,8 @@
           "salary": {
             "man_jpy": 1185,
             "fy": "2025年12月期"
-          }
+          },
+          "url": "https://power-x.jp/"
         },
         {
           "name": "リミックスポイント",
@@ -539,7 +586,8 @@
             "market": "東証スタンダード",
             "code": "3825"
           },
-          "note": "電力小売・Web3"
+          "note": "電力小売・Web3",
+          "url": "http://www.remixpoint.co.jp/"
         },
         {
           "name": "インフォメティス",
@@ -547,7 +595,8 @@
             "market": "東証グロース",
             "code": "281A"
           },
-          "note": "電力センシングAI"
+          "note": "電力センシングAI",
+          "url": "https://www.informetis.com/"
         },
         {
           "name": "アスリナ",
@@ -594,35 +643,40 @@
           "listing": {
             "market": "東証プライム",
             "code": "1605"
-          }
+          },
+          "url": "https://www.inpex.co.jp/"
         },
         {
           "name": "石油資源開発",
           "listing": {
             "market": "東証プライム",
             "code": "1662"
-          }
+          },
+          "url": "http://www.japex.co.jp/"
         },
         {
           "name": "日鉄鉱業",
           "listing": {
             "market": "東証プライム",
             "code": "1515"
-          }
+          },
+          "url": "http://www.nittetsukou.co.jp/"
         },
         {
           "name": "三井松島ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "1518"
-          }
+          },
+          "url": "https://www.mitsui-matsushima.co.jp/"
         },
         {
           "name": "住石ホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "1514"
-          }
+          },
+          "url": "http://www.sumiseki.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -655,7 +709,8 @@
           "name": "東京電力パワーグリッド",
           "listing": {
             "market": "非上場(東京電力HD傘下)"
-          }
+          },
+          "url": "https://www.tepco.co.jp/"
         },
         {
           "name": "大阪ガスネットワーク",
@@ -682,7 +737,8 @@
             "market": "プライム",
             "code": "5802"
           },
-          "note": "レドックスフロー電池"
+          "note": "レドックスフロー電池",
+          "url": "https://sumitomoelectric.com"
         }
       ],
       "updated": "2026-07-24",

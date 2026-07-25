@@ -243,161 +243,184 @@
           "listing": {
             "market": "東証プライム",
             "code": "4887"
-          }
+          },
+          "url": "https://www.sawaigroup.holdings/"
         },
         {
           "name": "東和薬品",
           "listing": {
             "market": "東証プライム",
             "code": "4553"
-          }
+          },
+          "url": "http://www.towayakuhin.co.jp/"
         },
         {
           "name": "参天製薬",
           "listing": {
             "market": "東証プライム",
             "code": "4536"
-          }
+          },
+          "url": "http://www.santen.com/en/"
         },
         {
           "name": "小野薬品工業",
           "listing": {
             "market": "東証プライム",
             "code": "4528"
-          }
+          },
+          "url": "https://www.ono.co.jp/"
         },
         {
           "name": "協和キリン",
           "listing": {
             "market": "東証プライム",
             "code": "4151"
-          }
+          },
+          "url": "http://www.kyowa-kirin.co.jp/"
         },
         {
           "name": "住友ファーマ",
           "listing": {
             "market": "東証プライム",
             "code": "4506"
-          }
+          },
+          "url": "https://www.sumitomo-pharma.co.jp/"
         },
         {
           "name": "キッセイ薬品工業",
           "listing": {
             "market": "東証プライム",
             "code": "4547"
-          }
+          },
+          "url": "http://www.kissei.co.jp/"
         },
         {
           "name": "ロート製薬",
           "listing": {
             "market": "東証プライム",
             "code": "4527"
-          }
+          },
+          "url": "http://www.rohto.co.jp"
         },
         {
           "name": "ツムラ",
           "listing": {
             "market": "東証プライム",
             "code": "4540"
-          }
+          },
+          "url": "http://www.tsumura.co.jp/"
         },
         {
           "name": "ゼリア新薬工業",
           "listing": {
             "market": "東証プライム",
             "code": "4559"
-          }
+          },
+          "url": "http://www.zeria.co.jp/"
         },
         {
           "name": "科研製薬",
           "listing": {
             "market": "東証プライム",
             "code": "4521"
-          }
+          },
+          "url": "http://www.kaken.co.jp/"
         },
         {
           "name": "日本新薬",
           "listing": {
             "market": "東証プライム",
             "code": "4516"
-          }
+          },
+          "url": "https://www.nippon-shinyaku.co.jp/"
         },
         {
           "name": "持田製薬",
           "listing": {
             "market": "東証プライム",
             "code": "4534"
-          }
+          },
+          "url": "http://www.mochida.co.jp/"
         },
         {
           "name": "杏林製薬",
           "listing": {
             "market": "東証プライム",
             "code": "4569"
-          }
+          },
+          "url": "http://www.kyorin-pharm.co.jp/"
         },
         {
           "name": "扶桑薬品工業",
           "listing": {
             "market": "東証プライム",
             "code": "4538"
-          }
+          },
+          "url": "http://www.fuso-pharm.co.jp/"
         },
         {
           "name": "日本ケミファ",
           "listing": {
             "market": "東証スタンダード",
             "code": "4539"
-          }
+          },
+          "url": "http://www.chemiphar.co.jp/"
         },
         {
           "name": "生化学工業",
           "listing": {
             "market": "東証プライム",
             "code": "4548"
-          }
+          },
+          "url": "http://www.seikagaku.co.jp/"
         },
         {
           "name": "栄研化学",
           "listing": {
             "market": "東証プライム",
             "code": "4549"
-          }
+          },
+          "url": "http://www.eiken.co.jp/"
         },
         {
           "name": "JCRファーマ",
           "listing": {
             "market": "東証プライム",
             "code": "4552"
-          }
+          },
+          "url": "http://www.jcrpharm.co.jp/"
         },
         {
           "name": "富士製薬工業",
           "listing": {
             "market": "東証プライム",
             "code": "4554"
-          }
+          },
+          "url": "https://www.fujipharma.jp/"
         },
         {
           "name": "あすか製薬ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "4886"
-          }
+          },
+          "url": "http://www.aska-pharma.co.jp/"
         },
         {
           "name": "大幸薬品",
           "listing": {
             "market": "東証プライム",
             "code": "4574"
-          }
+          },
+          "url": "http://www.seirogan.co.jp/"
         },
         {
           "name": "森下仁丹",
           "listing": {
             "market": "東証スタンダード",
             "code": "4524"
-          }
+          },
+          "url": "http://www.jintan.co.jp/"
         },
         {
           "name": "ダイト",
@@ -405,14 +428,16 @@
             "market": "東証プライム",
             "code": "4577"
           },
-          "note": "原薬・受託製造"
+          "note": "原薬・受託製造",
+          "url": "http://www.daitonet.co.jp/"
         },
         {
           "name": "わかもと製薬",
           "listing": {
             "market": "東証スタンダード",
             "code": "4512"
-          }
+          },
+          "url": "http://www.wakamoto-pharm.co.jp/"
         },
         {
           "name": "ミズホメディー",
@@ -420,14 +445,16 @@
             "market": "東証スタンダード",
             "code": "4595"
           },
-          "note": "診断薬"
+          "note": "診断薬",
+          "url": "https://www.mizuho-m.co.jp/"
         },
         {
           "name": "室町ケミカル",
           "listing": {
             "market": "東証スタンダード",
             "code": "4885"
-          }
+          },
+          "url": "https://www.muro-chem.co.jp/"
         },
         {
           "name": "タウンズ",
@@ -552,84 +579,96 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "2689"
-          }
+          },
+          "url": "https://www.olba.co.jp/"
         },
         {
           "name": "ヤマシタヘルスケアホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "9265"
-          }
+          },
+          "url": "https://www.yhchd.co.jp/"
         },
         {
           "name": "大木ヘルスケアホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "3417"
-          }
+          },
+          "url": "http://www.ohki-net.co.jp/"
         },
         {
           "name": "日本ライフライン",
           "listing": {
             "market": "東証プライム",
             "code": "7575"
-          }
+          },
+          "url": "https://www.jll.co.jp/"
         },
         {
           "name": "星医療酸器",
           "listing": {
             "market": "東証スタンダード",
             "code": "7634"
-          }
+          },
+          "url": "http://www.hosi.co.jp/"
         },
         {
           "name": "メディアスホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3154"
-          }
+          },
+          "url": "https://www.medius.co.jp/"
         },
         {
           "name": "ウイン・パートナーズ",
           "listing": {
             "market": "東証プライム",
             "code": "3183"
-          }
+          },
+          "url": "https://www.win-partners.co.jp/"
         },
         {
           "name": "バイタルケーエスケー・ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3151"
-          }
+          },
+          "url": "http://www.vitalksk.co.jp/"
         },
         {
           "name": "コスモ・バイオ",
           "listing": {
             "market": "東証スタンダード",
             "code": "3386"
-          }
+          },
+          "url": "https://www.cosmobio.co.jp/"
         },
         {
           "name": "ディーブイエックス",
           "listing": {
             "market": "東証スタンダード",
             "code": "3079"
-          }
+          },
+          "url": "https://www.dvx.jp/"
         },
         {
           "name": "コーア商事ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "9273"
-          }
+          },
+          "url": "https://www.koashoji-hd.com/"
         },
         {
           "name": "アステナホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "8095"
-          }
+          },
+          "url": "https://www.astena-hd.com/"
         },
         {
           "name": "レオクラン",
@@ -637,7 +676,8 @@
             "market": "東証スタンダード",
             "code": "7681"
           },
-          "note": "病院設備・医療機器"
+          "note": "病院設備・医療機器",
+          "url": "https://www.leoclan.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -760,21 +800,24 @@
           "listing": {
             "market": "東証プライム",
             "code": "3088"
-          }
+          },
+          "url": "https://www.matsukiyococokara.com/"
         },
         {
           "name": "サンドラッグ",
           "listing": {
             "market": "東証プライム",
             "code": "9989"
-          }
+          },
+          "url": "http://www.sundrug.co.jp/"
         },
         {
           "name": "コスモス薬品",
           "listing": {
             "market": "東証プライム",
             "code": "3349"
-          }
+          },
+          "url": "https://www.cosmospc.co.jp/"
         },
         {
           "name": "クスリのアオキホールディングス",
@@ -790,77 +833,88 @@
           "salary": {
             "man_jpy": 493,
             "fy": "2025年5月期"
-          }
+          },
+          "url": "https://www.kusuri-aoki.co.jp/"
         },
         {
           "name": "スギホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "7649"
-          }
+          },
+          "url": "https://www.sugi-hd.co.jp/"
         },
         {
           "name": "Genky DrugStores",
           "listing": {
             "market": "東証プライム",
             "code": "9267"
-          }
+          },
+          "url": "https://genky.co.jp/"
         },
         {
           "name": "クオールホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3034"
-          }
+          },
+          "url": "https://www.qol-net.co.jp/"
         },
         {
           "name": "クリエイトSDホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3148"
-          }
+          },
+          "url": "https://www.createsdhd.co.jp"
         },
         {
           "name": "サツドラホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "3544"
-          }
+          },
+          "url": "https://satudora-hd.co.jp/"
         },
         {
           "name": "カワチ薬品",
           "listing": {
             "market": "東証プライム",
             "code": "2664"
-          }
+          },
+          "url": "https://www.cawachi.co.jp/"
         },
         {
           "name": "薬王堂ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "7679"
-          }
+          },
+          "url": "https://www.yakuodo-hd.co.jp"
         },
         {
           "name": "ファーマライズホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "2796"
-          }
+          },
+          "url": "https://www.pharmarise.com/"
         },
         {
           "name": "メディカルシステムネットワーク",
           "listing": {
             "market": "東証スタンダード",
             "code": "4350"
-          }
+          },
+          "url": "https://www.msnw.co.jp"
         },
         {
           "name": "メディカル一光グループ",
           "listing": {
             "market": "東証スタンダード",
             "code": "3353"
-          }
+          },
+          "url": "http://www.m-ikkou.co.jp/"
         },
         {
           "name": "ミアヘルサホールディングス",
@@ -868,7 +922,8 @@
             "market": "東証スタンダード",
             "code": "7129"
           },
-          "note": "調剤・保育"
+          "note": "調剤・保育",
+          "url": "https://www.merhalsa-hd.jp/"
         },
         {
           "name": "HYUGA PRIMARY CARE",
@@ -876,7 +931,8 @@
             "market": "東証グロース",
             "code": "7133"
           },
-          "note": "在宅調剤"
+          "note": "在宅調剤",
+          "url": "https://www.hyuga-primary.care/"
         },
         {
           "name": "中京医薬品",
@@ -884,7 +940,8 @@
             "market": "東証スタンダード",
             "code": "4558"
           },
-          "note": "配置薬"
+          "note": "配置薬",
+          "url": "http://www.chukyoiyakuhin.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -1019,7 +1076,8 @@
           "listing": {
             "market": "東証グロース",
             "code": "4563"
-          }
+          },
+          "url": "https://www.anges.co.jp/"
         },
         {
           "name": "ヘリオス",
@@ -1035,7 +1093,8 @@
           "salary": {
             "man_jpy": 911,
             "fy": "2025年12月期"
-          }
+          },
+          "url": "https://www.healios.co.jp/"
         },
         {
           "name": "サンバイオ",
@@ -1051,21 +1110,24 @@
           "salary": {
             "man_jpy": 2022,
             "fy": "2026年1月期"
-          }
+          },
+          "url": "https://www.sanbio.com/"
         },
         {
           "name": "セルソース",
           "listing": {
             "market": "東証スタンダード",
             "code": "4880"
-          }
+          },
+          "url": "https://www.cellsource.co.jp/"
         },
         {
           "name": "ステムリム",
           "listing": {
             "market": "東証グロース",
             "code": "4599"
-          }
+          },
+          "url": "https://stemrim.com/"
         },
         {
           "name": "ジーエヌアイグループ",
@@ -1081,49 +1143,56 @@
           "salary": {
             "man_jpy": 800,
             "fy": "2025年12月期"
-          }
+          },
+          "url": "http://www.gnipharma.com/"
         },
         {
           "name": "ラクオリア創薬",
           "listing": {
             "market": "東証グロース",
             "code": "4579"
-          }
+          },
+          "url": "https://www.raqualia.com/ja/"
         },
         {
           "name": "シンバイオ製薬",
           "listing": {
             "market": "東証グロース",
             "code": "4582"
-          }
+          },
+          "url": "http://www.symbiopharma.com/"
         },
         {
           "name": "モダリス",
           "listing": {
             "market": "東証グロース",
             "code": "4883"
-          }
+          },
+          "url": "https://www.modalistx.com/jp/"
         },
         {
           "name": "ステラファーマ",
           "listing": {
             "market": "東証グロース",
             "code": "4888"
-          }
+          },
+          "url": "https://stella-pharma.co.jp/"
         },
         {
           "name": "坪田ラボ",
           "listing": {
             "market": "東証グロース",
             "code": "4890"
-          }
+          },
+          "url": "https://tsubota-lab.com"
         },
         {
           "name": "窪田製薬ホールディングス",
           "listing": {
             "market": "東証グロース",
             "code": "4596"
-          }
+          },
+          "url": "http://www.kubotaholdings.co.jp/"
         },
         {
           "name": "オンコリスバイオファーマ",
@@ -1139,21 +1208,24 @@
           "salary": {
             "man_jpy": 1074,
             "fy": "2025年12月期"
-          }
+          },
+          "url": "http://www.oncolys.com/en/"
         },
         {
           "name": "カルナバイオサイエンス",
           "listing": {
             "market": "東証グロース",
             "code": "4572"
-          }
+          },
+          "url": "http://www.carnabio.com/japanese/"
         },
         {
           "name": "リプロセル",
           "listing": {
             "market": "東証グロース",
             "code": "4978"
-          }
+          },
+          "url": "https://www.reprocell.com/"
         },
         {
           "name": "スリー・ディー・マトリックス",
@@ -1169,14 +1241,16 @@
           "salary": {
             "man_jpy": 941,
             "fy": "2026年4月期"
-          }
+          },
+          "url": "https://3dmatrix.com/"
         },
         {
           "name": "セルシード",
           "listing": {
             "market": "東証グロース",
             "code": "7776"
-          }
+          },
+          "url": "http://www.cellseed.com/"
         },
         {
           "name": "コージンバイオ",
@@ -1184,7 +1258,8 @@
             "market": "東証グロース",
             "code": "177A"
           },
-          "note": "培地"
+          "note": "培地",
+          "url": "https://kohjin-bio.jp/"
         },
         {
           "name": "Veritas In Silico",
@@ -1192,7 +1267,8 @@
             "market": "東証グロース",
             "code": "130A"
           },
-          "note": "創薬・再生医療"
+          "note": "創薬・再生医療",
+          "url": "https://veritasinsilico.com/"
         },
         {
           "name": "Chordia Therapeutics",
@@ -1200,7 +1276,8 @@
             "market": "東証グロース",
             "code": "190A"
           },
-          "note": "創薬・再生医療"
+          "note": "創薬・再生医療",
+          "url": "https://www.chordiatherapeutics.com/ja/index.html"
         },
         {
           "name": "PRISM BioLab",
@@ -1208,7 +1285,8 @@
             "market": "東証グロース",
             "code": "206A"
           },
-          "note": "創薬・再生医療"
+          "note": "創薬・再生医療",
+          "url": "http://www.prismbiolab.com/"
         },
         {
           "name": "Heartseed",
@@ -1225,7 +1303,8 @@
           "salary": {
             "man_jpy": 888,
             "fy": "2025年12月期"
-          }
+          },
+          "url": "https://heartseed.jp/"
         },
         {
           "name": "オンコセラピー・サイエンス",
@@ -1233,7 +1312,8 @@
             "market": "東証グロース",
             "code": "4564"
           },
-          "note": "創薬・再生医療"
+          "note": "創薬・再生医療",
+          "url": "http://www.oncotherapy.co.jp/"
         },
         {
           "name": "免疫生物研究所",
@@ -1241,7 +1321,8 @@
             "market": "東証グロース",
             "code": "4570"
           },
-          "note": "創薬・再生医療"
+          "note": "創薬・再生医療",
+          "url": "http://www.ibl-japan.co.jp/"
         },
         {
           "name": "NANOホールディングス",
@@ -1249,7 +1330,8 @@
             "market": "東証グロース",
             "code": "4571"
           },
-          "note": "創薬・再生医療"
+          "note": "創薬・再生医療",
+          "url": "https://www.nano-hd.com/"
         },
         {
           "name": "キャンバス",
@@ -1257,7 +1339,8 @@
             "market": "東証グロース",
             "code": "4575"
           },
-          "note": "創薬・再生医療"
+          "note": "創薬・再生医療",
+          "url": "https://www.canbas.co.jp"
         },
         {
           "name": "デ・ウエスタン・セラピテクス研究所",
@@ -1265,7 +1348,8 @@
             "market": "東証グロース",
             "code": "4576"
           },
-          "note": "創薬・再生医療"
+          "note": "創薬・再生医療",
+          "url": "http://www.dwti.co.jp/"
         },
         {
           "name": "カイオム・バイオサイエンス",
@@ -1273,7 +1357,8 @@
             "market": "東証グロース",
             "code": "4583"
           },
-          "note": "創薬・再生医療"
+          "note": "創薬・再生医療",
+          "url": "https://www.chiome.co.jp"
         },
         {
           "name": "キッズウェル・バイオ",
@@ -1289,7 +1374,8 @@
             "market": "東証グロース",
             "code": "4586"
           },
-          "note": "創薬・再生医療"
+          "note": "創薬・再生医療",
+          "url": "http://www.medrx.co.jp/"
         },
         {
           "name": "リボミック",
@@ -1297,7 +1383,8 @@
             "market": "東証グロース",
             "code": "4591"
           },
-          "note": "創薬・再生医療"
+          "note": "創薬・再生医療",
+          "url": "http://ribomic.com/"
         },
         {
           "name": "ブライトパス・バイオ",
@@ -1305,7 +1392,8 @@
             "market": "東証グロース",
             "code": "4594"
           },
-          "note": "創薬・再生医療"
+          "note": "創薬・再生医療",
+          "url": "https://www.brightpathbio.com/"
         },
         {
           "name": "ソレイジア・ファーマ",
@@ -1313,7 +1401,8 @@
             "market": "東証グロース",
             "code": "4597"
           },
-          "note": "創薬・再生医療"
+          "note": "創薬・再生医療",
+          "url": "https://solasia.co.jp/"
         },
         {
           "name": "Delta-Fly Pharma",
@@ -1321,7 +1410,8 @@
             "market": "東証グロース",
             "code": "4598"
           },
-          "note": "創薬・再生医療"
+          "note": "創薬・再生医療",
+          "url": "https://www.delta-flypharma.co.jp/"
         },
         {
           "name": "ファンペップ",
@@ -1329,7 +1419,8 @@
             "market": "東証グロース",
             "code": "4881"
           },
-          "note": "創薬・再生医療"
+          "note": "創薬・再生医療",
+          "url": "https://www.funpep.co.jp/"
         },
         {
           "name": "ペルセウスプロテオミクス",
@@ -1337,7 +1428,8 @@
             "market": "東証グロース",
             "code": "4882"
           },
-          "note": "創薬・再生医療"
+          "note": "創薬・再生医療",
+          "url": "https://www.ppmx.com/"
         },
         {
           "name": "クリングルファーマ",
@@ -1345,7 +1437,8 @@
             "market": "東証グロース",
             "code": "4884"
           },
-          "note": "創薬・再生医療"
+          "note": "創薬・再生医療",
+          "url": "https://www.kringle-pharma.com/"
         },
         {
           "name": "レナサイエンス",
@@ -1353,7 +1446,8 @@
             "market": "東証グロース",
             "code": "4889"
           },
-          "note": "創薬・再生医療"
+          "note": "創薬・再生医療",
+          "url": "https://www.renascience.co.jp/"
         },
         {
           "name": "ティムス",
@@ -1361,7 +1455,8 @@
             "market": "東証グロース",
             "code": "4891"
           },
-          "note": "創薬・再生医療"
+          "note": "創薬・再生医療",
+          "url": "https://www.tms-japan.co.jp"
         },
         {
           "name": "サイフューズ",
@@ -1369,7 +1464,8 @@
             "market": "東証グロース",
             "code": "4892"
           },
-          "note": "創薬・再生医療"
+          "note": "創薬・再生医療",
+          "url": "https://www.cyfusebio.com/"
         },
         {
           "name": "ノイルイミューン・バイオテック",
@@ -1377,7 +1473,8 @@
             "market": "東証グロース",
             "code": "4893"
           },
-          "note": "創薬・再生医療"
+          "note": "創薬・再生医療",
+          "url": "https://www.noile-immune.com/"
         },
         {
           "name": "クオリプス",
@@ -1394,7 +1491,8 @@
           "salary": {
             "man_jpy": 621,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://cuorips.co.jp"
         },
         {
           "name": "ケイファーマ",
@@ -1402,7 +1500,8 @@
             "market": "東証グロース",
             "code": "4896"
           },
-          "note": "創薬・再生医療"
+          "note": "創薬・再生医療",
+          "url": "https://kpharma.co.jp/"
         },
         {
           "name": "イノバセル",
@@ -1418,7 +1517,8 @@
             "market": "東証グロース",
             "code": "520A"
           },
-          "note": "創薬・再生医療"
+          "note": "創薬・再生医療",
+          "url": "https://www.j-pharma.com/"
         },
         {
           "name": "メディネット",
@@ -1426,7 +1526,8 @@
             "market": "東証グロース",
             "code": "2370"
           },
-          "note": "細胞治療"
+          "note": "細胞治療",
+          "url": "https://www.medinet-inc.co.jp/"
         },
         {
           "name": "ADR120S",
@@ -1434,7 +1535,8 @@
             "market": "東証スタンダード",
             "code": "3750"
           },
-          "note": "細胞治療・医療機器(旧サイトリ)"
+          "note": "細胞治療・医療機器(旧サイトリ)",
+          "url": "https://adr.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -1474,7 +1576,8 @@
             "market": "東証プライム",
             "code": "4544"
           },
-          "note": "臨床検査"
+          "note": "臨床検査",
+          "url": "https://www.hugp.com/"
         },
         {
           "name": "ビー・エム・エル",
@@ -1482,7 +1585,8 @@
             "market": "東証プライム",
             "code": "4694"
           },
-          "note": "臨床検査"
+          "note": "臨床検査",
+          "url": "http://www.bml.co.jp/"
         },
         {
           "name": "ファルコホールディングス",
@@ -1490,7 +1594,8 @@
             "market": "東証スタンダード",
             "code": "4671"
           },
-          "note": "臨床検査"
+          "note": "臨床検査",
+          "url": "http://www.falco-hd.co.jp/"
         },
         {
           "name": "新日本科学",
@@ -1498,14 +1603,16 @@
             "market": "東証プライム",
             "code": "2395"
           },
-          "note": "前臨床CRO"
+          "note": "前臨床CRO",
+          "url": "http://www.snbl.co.jp/"
         },
         {
           "name": "リニカル",
           "listing": {
             "market": "東証スタンダード",
             "code": "2183"
-          }
+          },
+          "url": "https://www.linical.com/"
         },
         {
           "name": "トランスジェニックグループ",
@@ -1521,7 +1628,8 @@
             "market": "東証グロース",
             "code": "2385"
           },
-          "note": "バイオマーカー研究"
+          "note": "バイオマーカー研究",
+          "url": "https://soiken.com"
         },
         {
           "name": "フェニックスバイオ",
@@ -1529,7 +1637,8 @@
             "market": "東証グロース",
             "code": "6190"
           },
-          "note": "実験動物(ヒト肝細胞)"
+          "note": "実験動物(ヒト肝細胞)",
+          "url": "http://phoenixbio.co.jp/en/"
         },
         {
           "name": "ヒューマン・メタボローム・テクノロジーズ",
@@ -1537,7 +1646,8 @@
             "market": "東証スタンダード",
             "code": "6090"
           },
-          "note": "メタボローム解析"
+          "note": "メタボローム解析",
+          "url": "http://humanmetabolome.com/"
         },
         {
           "name": "WDBココ",
@@ -1545,7 +1655,8 @@
             "market": "東証グロース",
             "code": "7079"
           },
-          "note": "治験支援"
+          "note": "治験支援",
+          "url": "https://www.wdbcoco.com/"
         }
       ],
       "updated": "2026-07-24",
@@ -1628,7 +1739,8 @@
             "market": "東証グロース",
             "code": "6568"
           },
-          "note": "医薬中間体受託合成"
+          "note": "医薬中間体受託合成",
+          "url": "https://www.kncweb.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -1663,14 +1775,16 @@
           "listing": {
             "market": "プライム",
             "code": "4887"
-          }
+          },
+          "url": "https://www.sawaigroup.holdings/"
         },
         {
           "name": "東和薬品",
           "listing": {
             "market": "プライム",
             "code": "4553"
-          }
+          },
+          "url": "http://www.towayakuhin.co.jp/"
         }
       ],
       "updated": "2026-07-24",

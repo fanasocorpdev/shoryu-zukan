@@ -73,16 +73,17 @@ async function renderGate(id) {
   const indChip = (d) => `<label class="ind-chip"><input type="checkbox" name="industries" value="${d.meta.industry_id}"
     ${d.meta.industry_id === id ? "checked" : ""}><span>${d.meta.industry_name}</span></label>`;
   app.innerHTML = `
+    ${globalNavHTML(true)}
     <div class="home"><div class="home-inner gate">
       <div class="hero">
         <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="72" height="72">
         <h1>${data ? `${data.meta.industry_name}の商流マップ` : "マイマップ"}</h1>
-        <p class="sub">${data?.meta.tagline ?? "興味業界の保存と企業比較リストが使えます"}</p>
+        <p class="sub">${data?.meta.tagline ?? "興味業界の保存とお気に入り企業リストが使えます"}</p>
       </div>
       <div class="gate-card">
         <h2>無料メンバー登録で、全業界のマップが見られます</h2>
         <p>お試し業界に加えて、お好きな1業界までは登録なしで見られます。ここから先は無料登録(1分)で — 全${idx.industries.length}業界の商流マップ、
-        企業データ(売上・時価総額・平均年収)、「カネの旅」、そして<strong>マイマップ(興味業界の保存・企業比較リスト)</strong>がすべて使えます。</p>
+        企業データ(売上・時価総額・平均年収)、「カネの旅」、そして<strong>マイマップ(興味業界の保存・☆お気に入り企業)</strong>がすべて使えます。</p>
         <form id="gate-form">
           <fieldset class="profile-sec">
             <legend>基本情報</legend>
@@ -219,6 +220,7 @@ async function renderGate(id) {
     if (ep) fetch(ep, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(rec) }).catch(() => {});
     route();
   });
+  wireGlobalNav();
 }
 
 
@@ -237,6 +239,7 @@ async function renderMy() {
     <td>${c.salary == null ? "—" : c.salary.toLocaleString("ja-JP") + "万円"}</td>
     <td><button class="cmp-del" data-name="${c.name}">削除</button></td></tr>`;
   app.innerHTML = `
+    ${globalNavHTML(true)}
     <div class="home"><div class="home-inner mypage">
       <div class="hero">
         <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="72" height="72">
@@ -250,14 +253,14 @@ async function renderMy() {
           .join("") || "<p>未設定です。</p>"}</div>
       </section>
       <section class="about-sec">
-        <h2>企業比較リスト(${cmp.length}/12)</h2>
+        <h2>☆お気に入り企業(${cmp.length}/12)</h2>
         ${cmp.length ? `
         <div class="cmp-wrap"><table class="cmp-table">
           <thead><tr><th>企業</th><th>業界</th><th>売上</th><th>時価総額</th><th>従業員</th><th>平均年収</th><th></th></tr></thead>
           <tbody>${cmp.map(row).join("")}</tbody>
         </table></div>
         <button id="cmp-copy" class="cmp-copy">表をコピー(ES・メモ用)</button>`
-        : `<p>まだ空です。各業界マップの企業一覧にある「+比較」ボタンで、気になる企業を追加できます(最大12社)。
+        : `<p>まだ空です。各業界マップの企業一覧にある「☆お気に入り」ボタンで、気になる企業を追加できます(最大12社)。
            同業他社を並べて売上・年収を見比べたり、コピーしてESや面接メモに使えます。</p>`}
       </section>
       <div class="home-foot"><a href="#/">← マップトップへ戻る</a></div>
@@ -277,6 +280,7 @@ async function renderMy() {
       setTimeout(() => (btn.textContent = "表をコピー(ES・メモ用)"), 1500);
     });
   });
+  wireGlobalNav();
 }
 
 
@@ -361,7 +365,7 @@ async function renderRanking() {
     const rows = list.map((c, i) => `<tr>
       <td class="rank-no">${i + 1}</td>
       <td>${logo(c)}<strong>${c.name}</strong>${c.code ? `<span class="cmp-sub"> ${c.code}</span>` : ""}
-        <button class="cmp-add${cmp.some((x) => x.name === c.name) ? " on" : ""}" data-name="${c.name}">${cmp.some((x) => x.name === c.name) ? "✓" : "+比較"}</button></td>
+        <button class="cmp-add${cmp.some((x) => x.name === c.name) ? " on" : ""}" data-name="${c.name}" title="お気に入りに追加/削除">${cmp.some((x) => x.name === c.name) ? "★" : "☆"}</button></td>
       <td><a href="#/i/${c.industry}">${c.industryName}</a></td>
       <td class="rank-val">${state.metric === "salary" ? (c.salary?.toLocaleString("ja-JP") ?? "—") + "万円"
         : state.metric === "emp" ? (c.emp >= 10000 ? (c.emp / 10000).toFixed(1) + "万人" : c.emp?.toLocaleString("ja-JP") + "人")
@@ -388,6 +392,7 @@ async function renderRanking() {
   };
 
   app.innerHTML = `
+    ${globalNavHTML(true)}
     <div class="home"><div class="home-inner ranking">
       <div class="hero">
         <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="72" height="72">
@@ -412,17 +417,19 @@ async function renderRanking() {
         <input id="rank-q" type="search" placeholder="社名・証券コードで絞り込む" autocomplete="off">
       </div>
       <div id="rank-body"></div>
-      <div class="home-foot"><a href="#/my">マイマップ(比較リスト)</a> ・ <a href="#/">トップへ戻る</a></div>
+      <div class="home-foot"><a href="#/my">マイマップ(☆お気に入り)</a> ・ <a href="#/">トップへ戻る</a></div>
     </div></div>`;
   document.getElementById("rank-metric").addEventListener("change", (e) => { state.metric = e.target.value; render(); });
   document.getElementById("rank-scope").addEventListener("change", (e) => { state.scope = e.target.value; render(); });
   document.getElementById("rank-industry").addEventListener("change", (e) => { state.industry = e.target.value; render(); });
   document.getElementById("rank-q").addEventListener("input", (e) => { state.q = e.target.value.trim(); render(); });
   render();
+  wireGlobalNav();
 }
 
 function renderPrivacy() {
   app.innerHTML = `
+    ${globalNavHTML(true)}
     <div class="home"><div class="home-inner about">
       <div class="hero">
         <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="72" height="72">
@@ -461,10 +468,12 @@ function renderPrivacy() {
       </section>
       <div class="home-foot"><a href="#/">← マップトップへ戻る</a></div>
     </div></div>`;
+  wireGlobalNav();
 }
 
 function renderOperator() {
   app.innerHTML = `
+    ${globalNavHTML(true)}
     <div class="home"><div class="home-inner about">
       <div class="hero">
         <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="72" height="72">
@@ -485,11 +494,13 @@ function renderOperator() {
       </section>
       <div class="home-foot"><a href="#/about">あきないマップについて</a> ・ <a href="#/">トップへ戻る</a></div>
     </div></div>`;
+  wireGlobalNav();
 }
 
 function renderTerms() {
   const sec = (h, b) => `<section class="about-sec"><h2>${h}</h2>${b}</section>`;
   app.innerHTML = `
+    ${globalNavHTML(true)}
     <div class="home"><div class="home-inner about">
       <div class="hero">
         <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="72" height="72">
@@ -508,6 +519,7 @@ function renderTerms() {
       ${sec("お問い合わせ", "<p>株式会社Fanaso(<a href='mailto:yuhei.n@fansojp.com'>yuhei.n@fansojp.com</a>)<br>制定日: 2026年7月25日</p>")}
       <div class="home-foot"><a href="#/operator">運営者情報</a> ・ <a href="#/privacy">プライバシーポリシー</a> ・ <a href="#/">トップへ戻る</a></div>
     </div></div>`;
+  wireGlobalNav();
 }
 
 function centerIcon(data) {
@@ -586,11 +598,6 @@ async function renderHome() {
         <p class="tagline">${d.meta.tagline ?? ""}</p>
         ${d.meta.journey ? `<div class="journey-tag">カネの旅: ${d.meta.journey.title}</div>` : ""}
         ${openSet.has(d.meta.industry_id) ? '<div class="access-tag open">登録なしで閲覧OK</div>' : (memberNow ? "" : '<div class="access-tag">無料登録で閲覧</div>')}
-        <div class="stats">
-          <span>プレイヤー ${d.nodes.length}</span>
-          ${d.edges.length ? `<span>フロー ${d.edges.length}</span>` : ""}
-          <span>更新 ${d.meta.updated}</span>
-        </div>
         ${children.length
           ? `<div class="child-links">${children
               .map((c) => `<span class="child-chip" data-href="#/i/${c.meta.industry_id}">↳ ${c.meta.industry_name}</span>`)
@@ -707,6 +714,7 @@ async function renderDirectory() {
 
 function renderAbout() {
   app.innerHTML = `
+    ${globalNavHTML(true)}
     <div class="home"><div class="home-inner about">
       <div class="hero">
         <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="84" height="84">
@@ -764,6 +772,7 @@ function renderAbout() {
         運営: 株式会社Fanaso
       </div>
     </div></div>`;
+  wireGlobalNav();
 }
 
 let destroyMap = null;
@@ -830,6 +839,11 @@ async function renderIndustry(id) {
   const map = createMapView(wrap, data);
   destroyMap = map.destroy;
 
+  // 左サイドの縦並びレール: 上に「業界の歩き方」、下に「業界注目ニュース」
+  const leftRail = document.createElement("div");
+  leftRail.className = "left-rail";
+  wrap.appendChild(leftRail);
+
   if (data.meta.guide) {
     const g = data.meta.guide;
     const card = document.createElement("details");
@@ -842,11 +856,11 @@ async function renderIndustry(id) {
       ${g.talk ? `<p class="g-talk"><strong>面接でこう使う</strong> ${g.talk}</p>` : ""}`;
     card.addEventListener("toggle", () =>
       localStorage.setItem("guideCollapsed", card.open ? "0" : "1"));
-    wrap.appendChild(card);
+    leftRail.appendChild(card);
   }
 
-  // 業界の注目ニュース(2週に1回、Workerが収集・AI要約)
-  renderIndustryNews(wrap, id);
+  // 業界の注目ニュース(2週に1回、Workerが収集・AI要約)を歩き方の下に縦並びで
+  renderIndustryNews(leftRail, id);
 
   // ポータル遷移で来た場合: 遷移元を示すバナー+対応ノードへ自動フォーカス
   const fromMatch = location.hash.match(/[?&]from=([a-z0-9_]+):([a-z0-9_]+)/);
@@ -917,7 +931,7 @@ async function renderIndustryNews(wrap, id) {
   const card = document.createElement("details");
   card.className = "news-card";
   card.open = localStorage.getItem("newsCollapsed") !== "1";
-  card.innerHTML = `<summary>注目ニュース5選<span class="news-sub">2週間ごとに更新・AI要約</span></summary>
+  card.innerHTML = `<summary>業界注目ニュース5選</summary>
     <div class="news-body"><p class="news-loading">読み込み中…</p></div>`;
   card.addEventListener("toggle", () =>
     localStorage.setItem("newsCollapsed", card.open ? "0" : "1"));

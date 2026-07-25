@@ -78,7 +78,8 @@
           "salary": {
             "man_jpy": 1855,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://www.mitsuifudosan.co.jp/"
         },
         {
           "name": "三菱地所",
@@ -95,56 +96,64 @@
           "salary": {
             "man_jpy": 1759,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://www.mec.co.jp/"
         },
         {
           "name": "住友不動産",
           "listing": {
             "market": "東証プライム",
             "code": "8830"
-          }
+          },
+          "url": "http://www.sumitomo-rd.co.jp/"
         },
         {
           "name": "東急不動産ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3289"
-          }
+          },
+          "url": "https://www.tokyu-fudosan-hd.co.jp/"
         },
         {
           "name": "野村不動産ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3231"
-          }
+          },
+          "url": "http://www.nomura-re-hd.co.jp/"
         },
         {
           "name": "ヒューリック",
           "listing": {
             "market": "東証プライム",
             "code": "3003"
-          }
+          },
+          "url": "https://www.hulic.co.jp/"
         },
         {
           "name": "東京建物",
           "listing": {
             "market": "東証プライム",
             "code": "8804"
-          }
+          },
+          "url": "http://www.tatemono.com/"
         },
         {
           "name": "平和不動産",
           "listing": {
             "market": "東証プライム",
             "code": "8803"
-          }
+          },
+          "url": "http://www.heiwa-net.co.jp/"
         },
         {
           "name": "いちご",
           "listing": {
             "market": "東証プライム",
             "code": "2337"
-          }
+          },
+          "url": "http://www.ichigo.gr.jp"
         },
         {
           "name": "京阪神ビルディング",
@@ -152,21 +161,24 @@
             "market": "東証プライム",
             "code": "8818"
           },
-          "note": "データセンター向け不動産"
+          "note": "データセンター向け不動産",
+          "url": "http://www.keihanshin.co.jp/"
         },
         {
           "name": "空港施設",
           "listing": {
             "market": "東証スタンダード",
             "code": "8864"
-          }
+          },
+          "url": "https://www.afc.jp/"
         },
         {
           "name": "テーオーシー",
           "listing": {
             "market": "東証スタンダード",
             "code": "8841"
-          }
+          },
+          "url": "http://www.toc.co.jp/toc/"
         },
         {
           "name": "地主",
@@ -182,7 +194,8 @@
             "market": "東証グロース",
             "code": "3237"
           },
-          "note": "再生・開発"
+          "note": "再生・開発",
+          "url": "https://www.intrance.jp/"
         },
         {
           "name": "トラストホールディングス",
@@ -190,7 +203,8 @@
             "market": "東証スタンダード",
             "code": "3286"
           },
-          "note": "底地・ホテル"
+          "note": "底地・ホテル",
+          "url": "http://trust-hd.co.jp/"
         },
         {
           "name": "ファーストブラザーズ",
@@ -198,7 +212,8 @@
             "market": "東証スタンダード",
             "code": "3454"
           },
-          "note": "不動産投資"
+          "note": "不動産投資",
+          "url": "https://www.firstbrothers.com/"
         },
         {
           "name": "ウェルス・マネジメント",
@@ -206,7 +221,8 @@
             "market": "東証スタンダード",
             "code": "3772"
           },
-          "note": "ホテル開発投資"
+          "note": "ホテル開発投資",
+          "url": "http://www.wealth-mngt.com/"
         },
         {
           "name": "リアルゲイト",
@@ -214,7 +230,8 @@
             "market": "東証グロース",
             "code": "5532"
           },
-          "note": "オフィスリノベーション"
+          "note": "オフィスリノベーション",
+          "url": "https://www.realgate.jp/"
         },
         {
           "name": "JALCOホールディングス",
@@ -222,14 +239,16 @@
             "market": "東証スタンダード",
             "code": "6625"
           },
-          "note": "不動産貸付・アミューズ"
+          "note": "不動産貸付・アミューズ",
+          "url": "https://www.jalco-hd.com/"
         },
         {
           "name": "RISE",
           "listing": {
             "market": "東証スタンダード",
             "code": "8836"
-          }
+          },
+          "url": "https://rise-rc.com/"
         },
         {
           "name": "ランドビジネス",
@@ -237,7 +256,8 @@
             "market": "東証スタンダード",
             "code": "8944"
           },
-          "note": "オフィスビル"
+          "note": "オフィスビル",
+          "url": "https://www.lbca.co.jp/"
         },
         {
           "name": "コロンビア・ワークス",
@@ -253,7 +273,8 @@
             "market": "東証プライム",
             "code": "6620"
           },
-          "note": "中国・深セン開発"
+          "note": "中国・深セン開発",
+          "url": "https://www.miyakoshi-holdings.com/"
         },
         {
           "name": "グローム・ホールディングス",
@@ -269,7 +290,8 @@
             "market": "東証スタンダード",
             "code": "8894"
           },
-          "note": "買取再販・不動産クラファン"
+          "note": "買取再販・不動産クラファン",
+          "url": "https://revolution.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -300,35 +322,40 @@
           "listing": {
             "market": "東証プライム",
             "code": "3288"
-          }
+          },
+          "url": "https://oh.openhouse-group.com/"
         },
         {
           "name": "飯田グループホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3291"
-          }
+          },
+          "url": "http://www.ighd.co.jp"
         },
         {
           "name": "コスモスイニシア",
           "listing": {
             "market": "東証スタンダード",
             "code": "8844"
-          }
+          },
+          "url": "http://www.cigr.co.jp/"
         },
         {
           "name": "サンフロンティア不動産",
           "listing": {
             "market": "東証プライム",
             "code": "8934"
-          }
+          },
+          "url": "http://www.sunfrt.co.jp/"
         },
         {
           "name": "エスリード",
           "listing": {
             "market": "東証プライム",
             "code": "8877"
-          }
+          },
+          "url": "https://eslead.co.jp/"
         },
         {
           "name": "カチタス",
@@ -336,21 +363,24 @@
             "market": "東証プライム",
             "code": "8919"
           },
-          "note": "中古住宅再生"
+          "note": "中古住宅再生",
+          "url": "http://katitas.jp/"
         },
         {
           "name": "トーセイ",
           "listing": {
             "market": "東証プライム",
             "code": "8923"
-          }
+          },
+          "url": "http://www.toseicorp.co.jp/"
         },
         {
           "name": "フージャースホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3284"
-          }
+          },
+          "url": "http://www.hoosiers.co.jp/"
         },
         {
           "name": "ゴールドクレスト",
@@ -366,98 +396,112 @@
           "salary": {
             "man_jpy": 764,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://www.goldcrest.co.jp/"
         },
         {
           "name": "明和地所",
           "listing": {
             "market": "東証スタンダード",
             "code": "8869"
-          }
+          },
+          "url": "http://www.meiwajisyo.co.jp/"
         },
         {
           "name": "エスコン",
           "listing": {
             "market": "東証プライム",
             "code": "8892"
-          }
+          },
+          "url": "http://www.es-conjapan.co.jp/"
         },
         {
           "name": "MIRARTHホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "8897"
-          }
+          },
+          "url": "https://mirarth.co.jp/"
         },
         {
           "name": "グランディハウス",
           "listing": {
             "market": "東証プライム",
             "code": "8999"
-          }
+          },
+          "url": "http://www.grandy.co.jp/"
         },
         {
           "name": "ファースト住建",
           "listing": {
             "market": "東証スタンダード",
             "code": "8917"
-          }
+          },
+          "url": "http://www.f-juken.co.jp/"
         },
         {
           "name": "フジ住宅",
           "listing": {
             "market": "東証プライム",
             "code": "8860"
-          }
+          },
+          "url": "http://www.fuji-jutaku.co.jp/"
         },
         {
           "name": "穴吹興産",
           "listing": {
             "market": "東証スタンダード",
             "code": "8928"
-          }
+          },
+          "url": "http://www.anabuki.ne.jp/"
         },
         {
           "name": "ケイアイスター不動産",
           "listing": {
             "market": "東証プライム",
             "code": "3465"
-          }
+          },
+          "url": "http://ki-group.co.jp/"
         },
         {
           "name": "サンヨーホームズ",
           "listing": {
             "market": "東証スタンダード",
             "code": "1420"
-          }
+          },
+          "url": "http://www.sanyohomes.co.jp/index.html"
         },
         {
           "name": "スター・マイカ・ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "2975"
-          }
+          },
+          "url": "https://www.starmica-holdings.co.jp/"
         },
         {
           "name": "ムゲンエステート",
           "listing": {
             "market": "東証スタンダード",
             "code": "3299"
-          }
+          },
+          "url": "http://www.mugen-estate.co.jp/"
         },
         {
           "name": "ディア・ライフ",
           "listing": {
             "market": "東証プライム",
             "code": "3245"
-          }
+          },
+          "url": "https://www.dear-life.co.jp/"
         },
         {
           "name": "グッドコムアセット",
           "listing": {
             "market": "東証プライム",
             "code": "3475"
-          }
+          },
+          "url": "https://www.goodcomasset.co.jp/"
         },
         {
           "name": "FJネクストホールディングス",
@@ -471,21 +515,24 @@
           "listing": {
             "market": "東証プライム",
             "code": "8881"
-          }
+          },
+          "url": "https://nisshin-hd.co.jp/"
         },
         {
           "name": "ランド",
           "listing": {
             "market": "東証スタンダード",
             "code": "8918"
-          }
+          },
+          "url": "http://www.land.jp/"
         },
         {
           "name": "robot home",
           "listing": {
             "market": "東証スタンダード",
             "code": "1435"
-          }
+          },
+          "url": "https://corp.robothome.jp/"
         },
         {
           "name": "タスキホールディングス",
@@ -499,14 +546,16 @@
           "listing": {
             "market": "東証グロース",
             "code": "2981"
-          }
+          },
+          "url": "https://www.landix.jp/"
         },
         {
           "name": "ADワークスグループ",
           "listing": {
             "market": "東証プライム",
             "code": "2982"
-          }
+          },
+          "url": "https://www.adwg.co.jp/"
         },
         {
           "name": "LAホールディングス",
@@ -522,7 +571,8 @@
           "salary": {
             "man_jpy": 793,
             "fy": "2025年12月期"
-          }
+          },
+          "url": "https://lahd.co.jp/"
         },
         {
           "name": "ホームポジション",
@@ -536,77 +586,88 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "3236"
-          }
+          },
+          "url": "http://www.properst.co.jp/"
         },
         {
           "name": "アーバネットコーポレーション",
           "listing": {
             "market": "東証スタンダード",
             "code": "3242"
-          }
+          },
+          "url": "http://www.urbanet.jp/"
         },
         {
           "name": "グランディーズ",
           "listing": {
             "market": "東証グロース",
             "code": "3261"
-          }
+          },
+          "url": "http://www.grandes.jp/"
         },
         {
           "name": "エストラスト",
           "listing": {
             "market": "東証スタンダード",
             "code": "3280"
-          }
+          },
+          "url": "http://www.strust.co.jp/"
         },
         {
           "name": "ビーロット",
           "listing": {
             "market": "東証スタンダード",
             "code": "3452"
-          }
+          },
+          "url": "https://www.b-lot.co.jp/"
         },
         {
           "name": "グローバル・リンク・マネジメント",
           "listing": {
             "market": "東証プライム",
             "code": "3486"
-          }
+          },
+          "url": "https://www.global-link-m.com/"
         },
         {
           "name": "AVANTIA",
           "listing": {
             "market": "東証スタンダード",
             "code": "8904"
-          }
+          },
+          "url": "https://avantia-g.co.jp/"
         },
         {
           "name": "和田興産",
           "listing": {
             "market": "東証スタンダード",
             "code": "8931"
-          }
+          },
+          "url": "http://www.wadakohsan.co.jp/"
         },
         {
           "name": "ウィル",
           "listing": {
             "market": "東証スタンダード",
             "code": "3241"
-          }
+          },
+          "url": "http://www.will-net.co.jp/"
         },
         {
           "name": "ヨシコン",
           "listing": {
             "market": "東証スタンダード",
             "code": "5280"
-          }
+          },
+          "url": "http://www.yoshicon.co.jp/"
         },
         {
           "name": "フェイスネットワーク",
           "listing": {
             "market": "東証スタンダード",
             "code": "3489"
-          }
+          },
+          "url": "https://faithnetwork.co.jp/"
         },
         {
           "name": "アールプランナー",
@@ -614,7 +675,8 @@
             "market": "東証グロース",
             "code": "2983"
           },
-          "note": "注文住宅・分譲"
+          "note": "注文住宅・分譲",
+          "url": "https://www.arrplanner.co.jp/"
         },
         {
           "name": "ヤマイチエステート",
@@ -628,7 +690,8 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "3238"
-          }
+          },
+          "url": "http://www.central-gd.co.jp/"
         },
         {
           "name": "コーセーアールイー",
@@ -636,14 +699,16 @@
             "market": "東証スタンダード",
             "code": "3246"
           },
-          "note": "福岡地盤"
+          "note": "福岡地盤",
+          "url": "http://www.kose-re.jp/"
         },
         {
           "name": "THEグローバル社",
           "listing": {
             "market": "東証スタンダード",
             "code": "3271"
-          }
+          },
+          "url": "http://www.the-g.co.jp/"
         },
         {
           "name": "アズマハウス",
@@ -651,7 +716,8 @@
             "market": "東証スタンダード",
             "code": "3293"
           },
-          "note": "和歌山地盤"
+          "note": "和歌山地盤",
+          "url": "https://azumahouse.com/"
         },
         {
           "name": "アグレ都市デザイン",
@@ -659,7 +725,8 @@
             "market": "東証スタンダード",
             "code": "3467"
           },
-          "note": "戸建分譲"
+          "note": "戸建分譲",
+          "url": "https://about.agr-urban.co.jp/"
         },
         {
           "name": "デュアルタップ",
@@ -667,7 +734,8 @@
             "market": "東証スタンダード",
             "code": "3469"
           },
-          "note": "投資用マンション"
+          "note": "投資用マンション",
+          "url": "http://www.dualtap.co.jp/"
         },
         {
           "name": "フォーライフ",
@@ -683,7 +751,8 @@
             "market": "東証スタンダード",
             "code": "8927"
           },
-          "note": "アパート企画"
+          "note": "アパート企画",
+          "url": "http://www.meiho-est.com/"
         },
         {
           "name": "誠建設工業",
@@ -691,7 +760,8 @@
             "market": "東証スタンダード",
             "code": "8995"
           },
-          "note": "戸建"
+          "note": "戸建",
+          "url": "http://www.makoto-gr.com/"
         },
         {
           "name": "ハウスフリーダム",
@@ -699,7 +769,8 @@
             "market": "東証スタンダード",
             "code": "8996"
           },
-          "note": "戸建"
+          "note": "戸建",
+          "url": "http://www.housefreedom.co.jp/"
         },
         {
           "name": "GLC GROUP",
@@ -714,7 +785,8 @@
             "market": "東証スタンダード",
             "code": "1783"
           },
-          "note": "不動産販売・ヘルスケア"
+          "note": "不動産販売・ヘルスケア",
+          "url": "https://fantasista-tokyo.jp/"
         },
         {
           "name": "AMGホールディングス",
@@ -722,7 +794,8 @@
             "market": "東証スタンダード",
             "code": "8891"
           },
-          "note": "愛知・岐阜の分譲マンション"
+          "note": "愛知・岐阜の分譲マンション",
+          "url": "https://www.amg-hd.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -763,42 +836,48 @@
           "salary": {
             "man_jpy": 770,
             "fy": "2025年10月期"
-          }
+          },
+          "url": "https://www.ga-tech.co.jp/"
         },
         {
           "name": "LIFULL",
           "listing": {
             "market": "東証プライム",
             "code": "2120"
-          }
+          },
+          "url": "https://lifull.com"
         },
         {
           "name": "センチュリー21・ジャパン",
           "listing": {
             "market": "東証スタンダード",
             "code": "8898"
-          }
+          },
+          "url": "https://www.century21japan.co.jp"
         },
         {
           "name": "And Doホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3457"
-          }
+          },
+          "url": "https://www.housedo.co.jp/and-do/"
         },
         {
           "name": "ツクルバ",
           "listing": {
             "market": "東証グロース",
             "code": "2978"
-          }
+          },
+          "url": "https://tsukuruba.com"
         },
         {
           "name": "SREホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "2980"
-          }
+          },
+          "url": "https://www.sre-group.co.jp/"
         },
         {
           "name": "クリアル",
@@ -806,7 +885,8 @@
             "market": "東証グロース",
             "code": "2998"
           },
-          "note": "不動産クラファン"
+          "note": "不動産クラファン",
+          "url": "https://corp.creal.jp/"
         },
         {
           "name": "ロードスターキャピタル",
@@ -821,14 +901,16 @@
             "market": "東証スタンダード",
             "code": "3277"
           },
-          "note": "底地"
+          "note": "底地",
+          "url": "http://www.sansei-l.co.jp/"
         },
         {
           "name": "東武住販",
           "listing": {
             "market": "東証スタンダード",
             "code": "3297"
-          }
+          },
+          "url": "http://www.toubu.co.jp/"
         },
         {
           "name": "インテリックスホールディングス",
@@ -836,7 +918,8 @@
             "market": "東証スタンダード",
             "code": "463A"
           },
-          "note": "リノベ再販"
+          "note": "リノベ再販",
+          "url": "https://www.intellex-hd.co.jp"
         },
         {
           "name": "AlbaLink",
@@ -844,7 +927,8 @@
             "market": "東証グロース",
             "code": "5537"
           },
-          "note": "訳あり物件買取"
+          "note": "訳あり物件買取",
+          "url": "https://albalink.co.jp/"
         },
         {
           "name": "シーラホールディングス",
@@ -852,14 +936,16 @@
             "market": "東証スタンダード",
             "code": "8887"
           },
-          "note": "不動産クラファン"
+          "note": "不動産クラファン",
+          "url": "https://www.cumica.co.jp/"
         },
         {
           "name": "ランドネット",
           "listing": {
             "market": "東証スタンダード",
             "code": "2991"
-          }
+          },
+          "url": "https://landnet.co.jp/"
         },
         {
           "name": "青山財産ネットワークス",
@@ -867,14 +953,16 @@
             "market": "東証スタンダード",
             "code": "8929"
           },
-          "note": "財産コンサル"
+          "note": "財産コンサル",
+          "url": "https://www.azn.co.jp/"
         },
         {
           "name": "香陵住販",
           "listing": {
             "market": "東証スタンダード",
             "code": "3495"
-          }
+          },
+          "url": "https://www.koryo-j.co.jp/"
         },
         {
           "name": "ミガロホールディングス",
@@ -890,7 +978,8 @@
             "market": "東証スタンダード",
             "code": "3266"
           },
-          "note": "不動産ファンド"
+          "note": "不動産ファンド",
+          "url": "https://www.fc-group.co.jp/"
         },
         {
           "name": "アズ企画設計",
@@ -898,7 +987,8 @@
             "market": "東証スタンダード",
             "code": "3490"
           },
-          "note": "不動産企画"
+          "note": "不動産企画",
+          "url": "https://www.azplan.co.jp/"
         },
         {
           "name": "property technologies",
@@ -930,7 +1020,8 @@
             "market": "東証スタンダード",
             "code": "6037"
           },
-          "note": "不動産投資情報サイト"
+          "note": "不動産投資情報サイト",
+          "url": "https://rakumachi.co.jp/"
         },
         {
           "name": "リベロ",
@@ -954,7 +1045,8 @@
             "market": "東証グロース",
             "code": "4445"
           },
-          "note": "不動産一括査定"
+          "note": "不動産一括査定",
+          "url": "https://www.lvn.co.jp/"
         },
         {
           "name": "フォーバル・リアルストレート",
@@ -962,7 +1054,8 @@
             "market": "東証スタンダード",
             "code": "9423"
           },
-          "note": "オフィス移転仲介"
+          "note": "オフィス移転仲介",
+          "url": "http://www.realstraight.co.jp/"
         },
         {
           "name": "Cocolive",
@@ -986,7 +1079,8 @@
             "market": "東証スタンダード",
             "code": "8946"
           },
-          "note": "横浜・上海の総合不動産"
+          "note": "横浜・上海の総合不動産",
+          "url": "http://www.asian.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -1017,35 +1111,40 @@
           "listing": {
             "market": "東証プライム",
             "code": "8848"
-          }
+          },
+          "url": "https://www.leopalace21.co.jp/"
         },
         {
           "name": "大東建託",
           "listing": {
             "market": "東証プライム",
             "code": "1878"
-          }
+          },
+          "url": "https://www.kentaku.co.jp/"
         },
         {
           "name": "東建コーポレーション",
           "listing": {
             "market": "東証プライム",
             "code": "1766"
-          }
+          },
+          "url": "https://www.token.co.jp/"
         },
         {
           "name": "スターツコーポレーション",
           "listing": {
             "market": "東証プライム",
             "code": "8850"
-          }
+          },
+          "url": "http://www.starts.co.jp/"
         },
         {
           "name": "ジェイ・エス・ビー",
           "listing": {
             "market": "東証プライム",
             "code": "3480"
-          }
+          },
+          "url": "https://www.jsb.co.jp/"
         },
         {
           "name": "TKP",
@@ -1062,7 +1161,8 @@
           "salary": {
             "man_jpy": 426,
             "fy": "2026年2月期"
-          }
+          },
+          "url": "https://www.tkp.jp/"
         },
         {
           "name": "エリアリンク",
@@ -1070,14 +1170,16 @@
             "market": "東証スタンダード",
             "code": "8914"
           },
-          "note": "ストレージ"
+          "note": "ストレージ",
+          "url": "http://www.arealink.co.jp/"
         },
         {
           "name": "パルマ",
           "listing": {
             "market": "東証スタンダード",
             "code": "3461"
-          }
+          },
+          "url": "https://www.palma.jp/"
         },
         {
           "name": "JPMC",
@@ -1085,7 +1187,8 @@
             "market": "東証プライム",
             "code": "3276"
           },
-          "note": "家賃保証・管理"
+          "note": "家賃保証・管理",
+          "url": "https://www.jpmc.jp/"
         },
         {
           "name": "ストレージ王",
@@ -1093,7 +1196,8 @@
             "market": "東証グロース",
             "code": "2997"
           },
-          "note": "トランクルーム"
+          "note": "トランクルーム",
+          "url": "https://www.storageoh.jp/"
         },
         {
           "name": "毎日コムネット",
@@ -1101,7 +1205,8 @@
             "market": "東証スタンダード",
             "code": "8908"
           },
-          "note": "学生住宅"
+          "note": "学生住宅",
+          "url": "http://www.maicom.co.jp/"
         },
         {
           "name": "エリッツホールディングス",
@@ -1116,7 +1221,8 @@
             "market": "東証スタンダード",
             "code": "2993"
           },
-          "note": "賃貸マンション"
+          "note": "賃貸マンション",
+          "url": "https://www.kk-choei.co.jp/"
         },
         {
           "name": "アールエイジ",
@@ -1132,7 +1238,8 @@
             "market": "東証グロース",
             "code": "3300"
           },
-          "note": "賃貸管理"
+          "note": "賃貸管理",
+          "url": "https://am-bition.jp/"
         },
         {
           "name": "マリオン",
@@ -1140,7 +1247,8 @@
             "market": "東証スタンダード",
             "code": "3494"
           },
-          "note": "賃貸・投資"
+          "note": "賃貸・投資",
+          "url": "https://www.marion.co.jp/"
         },
         {
           "name": "サンネクスタグループ",
@@ -1148,7 +1256,8 @@
             "market": "東証スタンダード",
             "code": "8945"
           },
-          "note": "社宅管理"
+          "note": "社宅管理",
+          "url": "https://www.sunnexta.co.jp/"
         },
         {
           "name": "シー・ヴイ・エス・ベイエリア",
@@ -1156,7 +1265,8 @@
             "market": "東証スタンダード",
             "code": "2687"
           },
-          "note": "マンションフロントサービス"
+          "note": "マンションフロントサービス",
+          "url": "http://www.cvs-bayarea.co.jp/"
         },
         {
           "name": "ストライダーズ",
@@ -1164,7 +1274,8 @@
             "market": "東証スタンダード",
             "code": "9816"
           },
-          "note": "ホテル・不動産再生"
+          "note": "ホテル・不動産再生",
+          "url": "http://www.striders.co.jp/"
         },
         {
           "name": "イノベーションホールディングス",
@@ -1172,7 +1283,8 @@
             "market": "東証スタンダード",
             "code": "3484"
           },
-          "note": "店舗転貸借"
+          "note": "店舗転貸借",
+          "url": "https://www.tenpo-r.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -1195,7 +1307,8 @@
           "listing": {
             "market": "東証プライム",
             "code": "3498"
-          }
+          },
+          "url": "https://kasumigaseki.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -1216,21 +1329,24 @@
           "listing": {
             "market": "東証プライム",
             "code": "4666"
-          }
+          },
+          "url": "https://www.park24.co.jp/"
         },
         {
           "name": "日本駐車場開発",
           "listing": {
             "market": "東証プライム",
             "code": "2353"
-          }
+          },
+          "url": "http://www.n-p-d.co.jp/"
         },
         {
           "name": "パラカ",
           "listing": {
             "market": "東証プライム",
             "code": "4809"
-          }
+          },
+          "url": "http://www.paraca.co.jp/"
         },
         {
           "name": "アズーム",
@@ -1238,7 +1354,8 @@
             "market": "東証プライム",
             "code": "3496"
           },
-          "note": "月極駐車場DX"
+          "note": "月極駐車場DX",
+          "url": "https://azoom.jp/"
         },
         {
           "name": "フィル・カンパニー",
@@ -1246,7 +1363,8 @@
             "market": "東証スタンダード",
             "code": "3267"
           },
-          "note": "空中店舗"
+          "note": "空中店舗",
+          "url": "http://philpark.jp/"
         },
         {
           "name": "エムティジェネックス",
@@ -1262,7 +1380,8 @@
             "market": "東証スタンダード",
             "code": "4760"
           },
-          "note": "駐車場機器・ロッカー"
+          "note": "駐車場機器・ロッカー",
+          "url": "http://www.popalpha.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -1301,7 +1420,8 @@
           "name": "GLP投資法人",
           "listing": {
             "market": "J-REIT(投資法人・本マップの分母外)"
-          }
+          },
+          "url": "https://www.glpjreit.com/"
         }
       ],
       "updated": "2026-07-24",

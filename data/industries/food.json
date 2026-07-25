@@ -260,14 +260,16 @@
           "salary": {
             "man_jpy": 1003,
             "fy": "2025年12月期"
-          }
+          },
+          "url": "https://www.jti.co.jp/"
         },
         {
           "name": "カゴメ",
           "listing": {
             "market": "東証プライム",
             "code": "2811"
-          }
+          },
+          "url": "http://www.kagome.co.jp/"
         }
       ],
       "sources": [
@@ -352,56 +354,64 @@
           "listing": {
             "market": "東証プライム",
             "code": "1377"
-          }
+          },
+          "url": "https://www.sakataseed.co.jp/"
         },
         {
           "name": "カネコ種苗",
           "listing": {
             "market": "東証スタンダード",
             "code": "1376"
-          }
+          },
+          "url": "http://www.kanekoseeds.jp/"
         },
         {
           "name": "ホクト",
           "listing": {
             "market": "東証プライム",
             "code": "1379"
-          }
+          },
+          "url": "https://www.hokto-kinoko.co.jp/"
         },
         {
           "name": "中部飼料",
           "listing": {
             "market": "東証プライム",
             "code": "2053"
-          }
+          },
+          "url": "http://www.chubushiryo.co.jp/"
         },
         {
           "name": "フィード・ワン",
           "listing": {
             "market": "東証プライム",
             "code": "2060"
-          }
+          },
+          "url": "https://www.feed-one.co.jp/"
         },
         {
           "name": "アクシーズ",
           "listing": {
             "market": "東証スタンダード",
             "code": "1381"
-          }
+          },
+          "url": "http://www.axyz-grp.co.jp/"
         },
         {
           "name": "ホクリヨウ",
           "listing": {
             "market": "東証スタンダード",
             "code": "1384"
-          }
+          },
+          "url": "http://www.hokuryo.co.jp/"
         },
         {
           "name": "秋川牧園",
           "listing": {
             "market": "東証スタンダード",
             "code": "1380"
-          }
+          },
+          "url": "http://www.akikawabokuen.co.jp/"
         },
         {
           "name": "ユキグニファクトリー",
@@ -409,7 +419,8 @@
             "market": "東証プライム",
             "code": "1375"
           },
-          "note": "旧雪国まいたけ"
+          "note": "旧雪国まいたけ",
+          "url": "https://www.yukiguni-factory.co.jp/"
         },
         {
           "name": "ヨンキュウ",
@@ -417,7 +428,8 @@
             "market": "東証スタンダード",
             "code": "9955"
           },
-          "note": "養殖"
+          "note": "養殖",
+          "url": "http://www.yonkyu.co.jp/"
         },
         {
           "name": "日東製網",
@@ -425,7 +437,8 @@
             "market": "東証スタンダード",
             "code": "3524"
           },
-          "note": "漁網"
+          "note": "漁網",
+          "url": "http://www.nittoseimo.co.jp/"
         },
         {
           "name": "ホーブ",
@@ -433,7 +446,8 @@
             "market": "東証スタンダード",
             "code": "1382"
           },
-          "note": "イチゴ種苗"
+          "note": "イチゴ種苗",
+          "url": "http://www.hob.co.jp/"
         },
         {
           "name": "ベルグアース",
@@ -441,7 +455,8 @@
             "market": "東証スタンダード",
             "code": "1383"
           },
-          "note": "野菜苗"
+          "note": "野菜苗",
+          "url": "http://www.bergearth.co.jp/"
         },
         {
           "name": "日和産業",
@@ -449,7 +464,8 @@
             "market": "東証スタンダード",
             "code": "2055"
           },
-          "note": "飼料"
+          "note": "飼料",
+          "url": "http://www.nichiwasangyo.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -597,140 +613,160 @@
           "listing": {
             "market": "東証プライム",
             "code": "8142"
-          }
+          },
+          "url": "http://www.to-ho.co.jp/"
         },
         {
           "name": "加藤産業",
           "listing": {
             "market": "東証プライム",
             "code": "9869"
-          }
+          },
+          "url": "http://www.katosangyo.co.jp/"
         },
         {
           "name": "ヤマエグループホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "7130"
-          }
+          },
+          "url": "https://www.yamaegroup-hd.co.jp/"
         },
         {
           "name": "尾家産業",
           "listing": {
             "market": "東証スタンダード",
             "code": "7481"
-          }
+          },
+          "url": "http://www.oie.co.jp/"
         },
         {
           "name": "久世",
           "listing": {
             "market": "東証スタンダード",
             "code": "2708"
-          }
+          },
+          "url": "http://www.kuze.co.jp/"
         },
         {
           "name": "スターゼン",
           "listing": {
             "market": "東証プライム",
             "code": "8043"
-          }
+          },
+          "url": "https://www.starzen.co.jp/"
         },
         {
           "name": "横浜冷凍",
           "listing": {
             "market": "東証プライム",
             "code": "2874"
-          }
+          },
+          "url": "http://www.yokorei.co.jp/"
         },
         {
           "name": "OUGホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "8041"
-          }
+          },
+          "url": "http://www.oug.co.jp/"
         },
         {
           "name": "中央魚類",
           "listing": {
             "market": "東証スタンダード",
             "code": "8030"
-          }
+          },
+          "url": "http://www.marunaka-net.co.jp/"
         },
         {
           "name": "大水",
           "listing": {
             "market": "東証スタンダード",
             "code": "7538"
-          }
+          },
+          "url": "https://www.daisui.co.jp/"
         },
         {
           "name": "横浜丸魚",
           "listing": {
             "market": "東証スタンダード",
             "code": "8045"
-          }
+          },
+          "url": "http://www.yokohama-maruuo.co.jp/"
         },
         {
           "name": "築地魚市場",
           "listing": {
             "market": "東証スタンダード",
             "code": "8039"
-          }
+          },
+          "url": "http://www.tsukiji-uoichiba.co.jp/"
         },
         {
           "name": "大田花き",
           "listing": {
             "market": "東証スタンダード",
             "code": "7555"
-          }
+          },
+          "url": "https://www.otakaki.co.jp/"
         },
         {
           "name": "デリカフーズホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "3392"
-          }
+          },
+          "url": "https://www.delica.co.jp/"
         },
         {
           "name": "正栄食品工業",
           "listing": {
             "market": "東証プライム",
             "code": "8079"
-          }
+          },
+          "url": "http://www.shoeifoods.co.jp/"
         },
         {
           "name": "ユアサ・フナショク",
           "listing": {
             "market": "東証スタンダード",
             "code": "8006"
-          }
+          },
+          "url": "http://www.yuasa-funashoku.com/"
         },
         {
           "name": "サトー商会",
           "listing": {
             "market": "東証スタンダード",
             "code": "9996"
-          }
+          },
+          "url": "https://www.satoh-web.co.jp/"
         },
         {
           "name": "アイスコ",
           "listing": {
             "market": "東証スタンダード",
             "code": "7698"
-          }
+          },
+          "url": "http://www.iceco.co.jp/"
         },
         {
           "name": "ハリマ共和物産",
           "listing": {
             "market": "東証スタンダード",
             "code": "7444"
-          }
+          },
+          "url": "http://www.harimakb.co.jp/"
         },
         {
           "name": "ラクト・ジャパン",
           "listing": {
             "market": "東証プライム",
             "code": "3139"
-          }
+          },
+          "url": "https://www.lactojapan.com/"
         },
         {
           "name": "ヤマタネ",
@@ -738,14 +774,16 @@
             "market": "東証プライム",
             "code": "9305"
           },
-          "note": "米穀"
+          "note": "米穀",
+          "url": "http://www.yamatane.co.jp/"
         },
         {
           "name": "高速",
           "listing": {
             "market": "東証プライム",
             "code": "7504"
-          }
+          },
+          "url": "http://www.kohsoku.com/"
         },
         {
           "name": "木徳神糧",
@@ -753,7 +791,8 @@
             "market": "東証スタンダード",
             "code": "2700"
           },
-          "note": "米穀卸"
+          "note": "米穀卸",
+          "url": "http://www.kitoku-shinryo.co.jp/"
         },
         {
           "name": "石光商事",
@@ -761,7 +800,8 @@
             "market": "東証スタンダード",
             "code": "2750"
           },
-          "note": "コーヒー"
+          "note": "コーヒー",
+          "url": "https://www.ishimitsu.co.jp/"
         },
         {
           "name": "オーウイル",
@@ -769,7 +809,8 @@
             "market": "東証スタンダード",
             "code": "3143"
           },
-          "note": "飲料原料"
+          "note": "飲料原料",
+          "url": "https://owill.co.jp/"
         },
         {
           "name": "フーディソン",
@@ -777,14 +818,16 @@
             "market": "東証グロース",
             "code": "7114"
           },
-          "note": "鮮魚EC"
+          "note": "鮮魚EC",
+          "url": "https://foodison.jp/"
         },
         {
           "name": "横浜魚類",
           "listing": {
             "market": "東証スタンダード",
             "code": "7443"
-          }
+          },
+          "url": "http://www.yokohamagyorui.co.jp/"
         },
         {
           "name": "ニチモウ",
@@ -792,7 +835,8 @@
             "market": "東証プライム",
             "code": "8091"
           },
-          "note": "水産資材"
+          "note": "水産資材",
+          "url": "https://www.nichimo.co.jp"
         },
         {
           "name": "大光",
@@ -800,7 +844,8 @@
             "market": "東証スタンダード",
             "code": "3160"
           },
-          "note": "業務用食品卸"
+          "note": "業務用食品卸",
+          "url": "http://www.oomitsu.com/"
         },
         {
           "name": "cotta",
@@ -808,7 +853,8 @@
             "market": "東証グロース",
             "code": "3359"
           },
-          "note": "製菓材料EC"
+          "note": "製菓材料EC",
+          "url": "https://www.cotta.co.jp/"
         },
         {
           "name": "のむら産業",
@@ -816,7 +862,8 @@
             "market": "東証スタンダード",
             "code": "7131"
           },
-          "note": "米袋・包材"
+          "note": "米袋・包材",
+          "url": "https://www.nomurasangyo.co.jp/"
         },
         {
           "name": "創健社",
@@ -824,7 +871,8 @@
             "market": "東証スタンダード",
             "code": "7413"
           },
-          "note": "自然食品"
+          "note": "自然食品",
+          "url": "http://www.sokensha.co.jp/index.html"
         },
         {
           "name": "ミクリード",
@@ -832,7 +880,8 @@
             "market": "東証グロース",
             "code": "7687"
           },
-          "note": "飲食店向け食材"
+          "note": "飲食店向け食材",
+          "url": "https://micreed.co.jp/"
         },
         {
           "name": "太洋物産",
@@ -840,7 +889,8 @@
             "market": "東証スタンダード",
             "code": "9941"
           },
-          "note": "畜産物輸出入商社"
+          "note": "畜産物輸出入商社",
+          "url": "https://www.taiyo-bussan.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -884,7 +934,8 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "9369"
-          }
+          },
+          "url": "http://www.krs.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -1056,7 +1107,8 @@
             "market": "東証プライム",
             "code": "3563"
           },
-          "segment": "fast"
+          "segment": "fast",
+          "url": "https://www.akindo-sushiro.co.jp/"
         },
         {
           "name": "くら寿司",
@@ -1064,7 +1116,8 @@
             "market": "東証プライム",
             "code": "2695"
           },
-          "segment": "fast"
+          "segment": "fast",
+          "url": "https://www.kurasushi.co.jp/"
         },
         {
           "name": "コロワイド",
@@ -1072,7 +1125,8 @@
             "market": "東証プライム",
             "code": "7616"
           },
-          "segment": "family"
+          "segment": "family",
+          "url": "https://www.colowide.co.jp/en_us/"
         },
         {
           "name": "アトム",
@@ -1080,7 +1134,8 @@
             "market": "東証スタンダード",
             "code": "7412"
           },
-          "segment": "family"
+          "segment": "family",
+          "url": "http://www.atom-corp.co.jp/"
         },
         {
           "name": "カッパ・クリエイト",
@@ -1088,7 +1143,8 @@
             "market": "東証プライム",
             "code": "7421"
           },
-          "segment": "family"
+          "segment": "family",
+          "url": "https://www.kappa-create.co.jp/"
         },
         {
           "name": "ワタミ",
@@ -1096,7 +1152,8 @@
             "market": "東証プライム",
             "code": "7522"
           },
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "https://www.watami.co.jp/"
         },
         {
           "name": "吉野家ホールディングス",
@@ -1104,7 +1161,8 @@
             "market": "東証プライム",
             "code": "9861"
           },
-          "segment": "fast"
+          "segment": "fast",
+          "url": "https://www.yoshinoya-holdings.com/"
         },
         {
           "name": "松屋フーズホールディングス",
@@ -1112,7 +1170,8 @@
             "market": "東証プライム",
             "code": "9887"
           },
-          "segment": "fast"
+          "segment": "fast",
+          "url": "https://www.matsuyafoods-holdings.co.jp/"
         },
         {
           "name": "壱番屋",
@@ -1120,7 +1179,8 @@
             "market": "東証プライム",
             "code": "7630"
           },
-          "segment": "fast"
+          "segment": "fast",
+          "url": "https://www.ichibanya.co.jp"
         },
         {
           "name": "王将フードサービス",
@@ -1128,7 +1188,8 @@
             "market": "東証プライム",
             "code": "9936"
           },
-          "segment": "fast"
+          "segment": "fast",
+          "url": "http://www.ohsho.co.jp/"
         },
         {
           "name": "ハチバン",
@@ -1136,7 +1197,8 @@
             "market": "東証スタンダード",
             "code": "9950"
           },
-          "segment": "fast"
+          "segment": "fast",
+          "url": "https://www.hachiban.co.jp/"
         },
         {
           "name": "リンガーハット",
@@ -1144,7 +1206,8 @@
             "market": "東証プライム",
             "code": "8200"
           },
-          "segment": "fast"
+          "segment": "fast",
+          "url": "https://www.ringerhut.jp/"
         },
         {
           "name": "ハイデイ日高",
@@ -1152,7 +1215,8 @@
             "market": "東証プライム",
             "code": "7611"
           },
-          "segment": "fast"
+          "segment": "fast",
+          "url": "https://hidakaya.hiday.co.jp"
         },
         {
           "name": "幸楽苑",
@@ -1160,7 +1224,8 @@
             "market": "東証プライム",
             "code": "7554"
           },
-          "segment": "fast"
+          "segment": "fast",
+          "url": "https://www.kourakuen.co.jp/"
         },
         {
           "name": "力の源ホールディングス",
@@ -1168,7 +1233,8 @@
             "market": "東証プライム",
             "code": "3561"
           },
-          "segment": "fast"
+          "segment": "fast",
+          "url": "http://chikaranomoto.com/"
         },
         {
           "name": "丸千代山岡家",
@@ -1176,7 +1242,8 @@
             "market": "東証スタンダード",
             "code": "3399"
           },
-          "segment": "fast"
+          "segment": "fast",
+          "url": "https://maruchiyo.yamaokaya.com/"
         },
         {
           "name": "ギフトホールディングス",
@@ -1184,7 +1251,8 @@
             "market": "東証プライム",
             "code": "9279"
           },
-          "segment": "fast"
+          "segment": "fast",
+          "url": "https://www.gift-group.co.jp/"
         },
         {
           "name": "魁力屋",
@@ -1192,7 +1260,8 @@
             "market": "東証スタンダード",
             "code": "5891"
           },
-          "segment": "fast"
+          "segment": "fast",
+          "url": "https://corp.kairikiya.co.jp/"
         },
         {
           "name": "大戸屋ホールディングス",
@@ -1200,7 +1269,8 @@
             "market": "東証スタンダード",
             "code": "2705"
           },
-          "segment": "family"
+          "segment": "family",
+          "url": "http://www.ootoya.jp/"
         },
         {
           "name": "サイゼリヤ",
@@ -1208,7 +1278,8 @@
             "market": "東証プライム",
             "code": "7581"
           },
-          "segment": "family"
+          "segment": "family",
+          "url": "https://shop.saizeriya.co.jp/"
         },
         {
           "name": "ブロンコビリー",
@@ -1216,7 +1287,8 @@
             "market": "東証プライム",
             "code": "3091"
           },
-          "segment": "family"
+          "segment": "family",
+          "url": "https://www.bronco.co.jp/"
         },
         {
           "name": "あみやき亭",
@@ -1224,7 +1296,8 @@
             "market": "東証プライム",
             "code": "2753"
           },
-          "segment": "family"
+          "segment": "family",
+          "url": "http://www.amiyakitei.co.jp/"
         },
         {
           "name": "安楽亭",
@@ -1232,7 +1305,8 @@
             "market": "東証スタンダード",
             "code": "7562"
           },
-          "segment": "family"
+          "segment": "family",
+          "url": "http://www.anrakutei.co.jp/"
         },
         {
           "name": "木曽路",
@@ -1240,7 +1314,8 @@
             "market": "東証プライム",
             "code": "8160"
           },
-          "segment": "family"
+          "segment": "family",
+          "url": "http://www.kisoji.co.jp/"
         },
         {
           "name": "SRSホールディングス",
@@ -1248,7 +1323,8 @@
             "market": "東証プライム",
             "code": "8163"
           },
-          "segment": "family"
+          "segment": "family",
+          "url": "https://sato-rs.tw/"
         },
         {
           "name": "サガミホールディングス",
@@ -1256,7 +1332,8 @@
             "market": "東証プライム",
             "code": "9900"
           },
-          "segment": "fast"
+          "segment": "fast",
+          "url": "https://www.sagami.co.jp/"
         },
         {
           "name": "グルメ杵屋",
@@ -1264,7 +1341,8 @@
             "market": "東証プライム",
             "code": "9850"
           },
-          "segment": "fast"
+          "segment": "fast",
+          "url": "https://www.gourmet-kineya-hd.co.jp/"
         },
         {
           "name": "ドトール・日レスホールディングス",
@@ -1272,7 +1350,8 @@
             "market": "東証プライム",
             "code": "3087"
           },
-          "segment": "cafe"
+          "segment": "cafe",
+          "url": "http://www.dnh.co.jp/"
         },
         {
           "name": "サンマルクホールディングス",
@@ -1280,7 +1359,8 @@
             "market": "東証プライム",
             "code": "3395"
           },
-          "segment": "cafe"
+          "segment": "cafe",
+          "url": "https://www.saint-marc-hd.com/hd/"
         },
         {
           "name": "コメダホールディングス",
@@ -1288,7 +1368,8 @@
             "market": "東証プライム",
             "code": "3543"
           },
-          "segment": "cafe"
+          "segment": "cafe",
+          "url": "https://www.komeda-holdings.co.jp/"
         },
         {
           "name": "銀座ルノアール",
@@ -1296,7 +1377,8 @@
             "market": "東証スタンダード",
             "code": "9853"
           },
-          "segment": "cafe"
+          "segment": "cafe",
+          "url": "https://www.ginza-renoir.co.jp/"
         },
         {
           "name": "東和フードサービス",
@@ -1304,7 +1386,8 @@
             "market": "東証スタンダード",
             "code": "3329"
           },
-          "segment": "cafe"
+          "segment": "cafe",
+          "url": "http://www.towafood-net.co.jp/"
         },
         {
           "name": "ロイヤルホールディングス",
@@ -1312,7 +1395,8 @@
             "market": "東証プライム",
             "code": "8179"
           },
-          "segment": "family"
+          "segment": "family",
+          "url": "https://www.royal-holdings.co.jp/"
         },
         {
           "name": "クリエイト・レストランツ・ホールディングス",
@@ -1320,7 +1404,8 @@
             "market": "東証プライム",
             "code": "3387"
           },
-          "segment": "family"
+          "segment": "family",
+          "url": "https://www.create-restaurants.co.jp/"
         },
         {
           "name": "モスフードサービス",
@@ -1328,7 +1413,8 @@
             "market": "東証プライム",
             "code": "8153"
           },
-          "segment": "fast"
+          "segment": "fast",
+          "url": "https://www.mos.co.jp/company/"
         },
         {
           "name": "物語コーポレーション",
@@ -1336,7 +1422,8 @@
             "market": "東証プライム",
             "code": "3097"
           },
-          "segment": "family"
+          "segment": "family",
+          "url": "http://www.monogatari.co.jp/"
         },
         {
           "name": "ホットランドホールディングス",
@@ -1344,7 +1431,8 @@
             "market": "東証プライム",
             "code": "3196"
           },
-          "segment": "fast"
+          "segment": "fast",
+          "url": "https://gindaco.com"
         },
         {
           "name": "エターナルホスピタリティグループ",
@@ -1352,7 +1440,8 @@
             "market": "東証プライム",
             "code": "3193"
           },
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "http://www.torikizoku.co.jp/"
         },
         {
           "name": "テンアライド",
@@ -1360,7 +1449,8 @@
             "market": "東証スタンダード",
             "code": "8207"
           },
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "https://www.teng.co.jp/"
         },
         {
           "name": "大庄",
@@ -1368,7 +1458,8 @@
             "market": "東証スタンダード",
             "code": "9979"
           },
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "http://www.daisyo.co.jp/"
         },
         {
           "name": "チムニー",
@@ -1376,7 +1467,8 @@
             "market": "東証スタンダード",
             "code": "3178"
           },
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "http://www.chimney.co.jp/"
         },
         {
           "name": "ひらまつ",
@@ -1384,7 +1476,8 @@
             "market": "東証スタンダード",
             "code": "2764"
           },
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "https://www.hiramatsu.co.jp/"
         },
         {
           "name": "うかい",
@@ -1392,7 +1485,8 @@
             "market": "東証スタンダード",
             "code": "7621"
           },
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "https://www.ukai.co.jp/"
         },
         {
           "name": "WDI",
@@ -1400,7 +1494,8 @@
             "market": "東証スタンダード",
             "code": "3068"
           },
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "http://www.wdi.co.jp/"
         },
         {
           "name": "フジオフードグループ本社",
@@ -1408,7 +1503,8 @@
             "market": "東証プライム",
             "code": "2752"
           },
-          "segment": "family"
+          "segment": "family",
+          "url": "https://fujiogroup.com/"
         },
         {
           "name": "ヨシックスホールディングス",
@@ -1416,7 +1512,8 @@
             "market": "東証プライム",
             "code": "3221"
           },
-          "segment": "family"
+          "segment": "family",
+          "url": "http://yossix.co.jp/"
         },
         {
           "name": "銚子丸",
@@ -1424,7 +1521,8 @@
             "market": "東証スタンダード",
             "code": "3075"
           },
-          "segment": "fast"
+          "segment": "fast",
+          "url": "https://www.choushimaru.co.jp/"
         },
         {
           "name": "ペッパーフードサービス",
@@ -1432,7 +1530,8 @@
             "market": "東証スタンダード",
             "code": "3053"
           },
-          "segment": "fast"
+          "segment": "fast",
+          "url": "https://pepperlunch.com/"
         },
         {
           "name": "Genki Global Dining Concepts",
@@ -1441,7 +1540,8 @@
             "code": "9828"
           },
           "note": "元気寿司",
-          "segment": "fast"
+          "segment": "fast",
+          "url": "https://www.genkisushi.com.hk"
         },
         {
           "name": "ライドオンエクスプレスホールディングス",
@@ -1450,7 +1550,8 @@
             "code": "6082"
           },
           "note": "銀のさら",
-          "segment": "delivery"
+          "segment": "delivery",
+          "url": "https://www.rideonexpresshd.co.jp/"
         },
         {
           "name": "焼肉坂井ホールディングス",
@@ -1458,7 +1559,8 @@
             "market": "東証スタンダード",
             "code": "2694"
           },
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "https://ys-holdings.co.jp/"
         },
         {
           "name": "カルラ",
@@ -1466,7 +1568,8 @@
             "market": "東証スタンダード",
             "code": "2789"
           },
-          "segment": "family"
+          "segment": "family",
+          "url": "http://re-marumatu.co.jp/"
         },
         {
           "name": "ハブ",
@@ -1475,7 +1578,8 @@
             "code": "3030"
           },
           "note": "英国風パブ",
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "https://www.pub-hub.com"
         },
         {
           "name": "ジェイグループホールディングス",
@@ -1483,7 +1587,8 @@
             "market": "東証グロース",
             "code": "3063"
           },
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "http://www.jgroup.jp/"
         },
         {
           "name": "きちりホールディングス",
@@ -1491,7 +1596,8 @@
             "market": "東証スタンダード",
             "code": "3082"
           },
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "https://www.kichiri.co.jp/"
         },
         {
           "name": "フライングガーデン",
@@ -1499,7 +1605,8 @@
             "market": "東証スタンダード",
             "code": "3317"
           },
-          "segment": "fast"
+          "segment": "fast",
+          "url": "http://www.fgarden.co.jp/"
         },
         {
           "name": "あさくま",
@@ -1507,7 +1614,8 @@
             "market": "東証スタンダード",
             "code": "7678"
           },
-          "segment": "family"
+          "segment": "family",
+          "url": "https://www.asakuma.co.jp/"
         },
         {
           "name": "浜木綿",
@@ -1515,7 +1623,8 @@
             "market": "東証スタンダード",
             "code": "7682"
           },
-          "segment": "family"
+          "segment": "family",
+          "url": "http://www.hamayuu.co.jp"
         },
         {
           "name": "梅の花グループ",
@@ -1523,7 +1632,8 @@
             "market": "東証スタンダード",
             "code": "7604"
           },
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "http://www.umenohana.co.jp/"
         },
         {
           "name": "グローバルダイニング",
@@ -1531,7 +1641,8 @@
             "market": "東証スタンダード",
             "code": "7625"
           },
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "http://www.global-dining.com/"
         },
         {
           "name": "バルニバービ",
@@ -1539,7 +1650,8 @@
             "market": "東証グロース",
             "code": "3418"
           },
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "https://www.balnibarbi.com/"
         },
         {
           "name": "ヴィア・ホールディングス",
@@ -1547,7 +1659,8 @@
             "market": "東証スタンダード",
             "code": "7918"
           },
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "http://www.via-hd.co.jp/"
         },
         {
           "name": "東天紅",
@@ -1555,7 +1668,8 @@
             "market": "東証スタンダード",
             "code": "8181"
           },
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "https://www.totenko.co.jp/"
         },
         {
           "name": "かんなん丸",
@@ -1563,7 +1677,8 @@
             "market": "東証スタンダード",
             "code": "7585"
           },
-          "segment": "fast"
+          "segment": "fast",
+          "url": "https://www.kannanmaru.co.jp/"
         },
         {
           "name": "海帆",
@@ -1571,7 +1686,8 @@
             "market": "東証グロース",
             "code": "3133"
           },
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "http://www.kaihan.co.jp/"
         },
         {
           "name": "ライフフーズ",
@@ -1579,7 +1695,8 @@
             "market": "東証スタンダード",
             "code": "3065"
           },
-          "segment": "fast"
+          "segment": "fast",
+          "url": "http://www.meshiya.co.jp/"
         },
         {
           "name": "東京一番フーズ",
@@ -1587,7 +1704,8 @@
             "market": "東証スタンダード",
             "code": "3067"
           },
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "http://www.tokyo-ichiban-foods.co.jp/"
         },
         {
           "name": "ゼネラル・オイスター",
@@ -1595,7 +1713,8 @@
             "market": "東証グロース",
             "code": "3224"
           },
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "http://www.oysterbar.co.jp/"
         },
         {
           "name": "一家ホールディングス",
@@ -1612,7 +1731,8 @@
             "code": "7674"
           },
           "note": "肉汁餃子のダンダダン",
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "https://nattyswanky.com/"
         },
         {
           "name": "光フードサービス",
@@ -1620,7 +1740,8 @@
             "market": "東証グロース",
             "code": "138A"
           },
-          "segment": "other"
+          "segment": "other",
+          "url": "https://hikari-food-service.jp"
         },
         {
           "name": "ワイズテーブルコーポレーション",
@@ -1628,7 +1749,8 @@
             "market": "東証スタンダード",
             "code": "2798"
           },
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "http://www.ystable.co.jp/"
         },
         {
           "name": "SANKO MARKETING FOODS",
@@ -1636,7 +1758,8 @@
             "market": "東証スタンダード",
             "code": "2762"
           },
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "http://sankofoods.com/"
         },
         {
           "name": "ホリイフードサービス",
@@ -1644,7 +1767,8 @@
             "market": "東証スタンダード",
             "code": "3077"
           },
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "https://www.horiifood.co.jp/"
         },
         {
           "name": "エー・ピーホールディングス",
@@ -1653,7 +1777,8 @@
             "code": "3175"
           },
           "note": "塚田農場",
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "https://www.tsukadanojo.jp/"
         },
         {
           "name": "関門海",
@@ -1662,7 +1787,8 @@
             "code": "3372"
           },
           "note": "ふぐ料理",
-          "segment": "family"
+          "segment": "family",
+          "url": "http://www.kanmonkai.co.jp/"
         },
         {
           "name": "ファンデリー",
@@ -1671,7 +1797,8 @@
             "code": "3137"
           },
           "note": "食事宅配",
-          "segment": "delivery"
+          "segment": "delivery",
+          "url": "https://www.fundely.co.jp/"
         },
         {
           "name": "ハークスレイ",
@@ -1680,7 +1807,8 @@
             "code": "7561"
           },
           "note": "ほっかほっか亭・アルヘイム",
-          "segment": "other"
+          "segment": "other",
+          "url": "http://www.hurxley.co.jp/"
         },
         {
           "name": "マルシェ",
@@ -1689,7 +1817,8 @@
             "code": "7524"
           },
           "note": "居酒屋",
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "https://www.marche.co.jp/"
         },
         {
           "name": "ユナイテッド&コレクティブ",
@@ -1698,7 +1827,8 @@
             "code": "3557"
           },
           "note": "居酒屋(てけてけ)",
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "http://www.united-collective.co.jp/"
         },
         {
           "name": "エスエルディー",
@@ -1707,7 +1837,8 @@
             "code": "3223"
           },
           "note": "カフェ・飲食",
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "http://www.sld-inc.com/"
         },
         {
           "name": "INGS",
@@ -1725,7 +1856,8 @@
             "code": "274A"
           },
           "note": "ラーメン",
-          "segment": "fast"
+          "segment": "fast",
+          "url": "https://gardengroup.co.jp/"
         },
         {
           "name": "G-FACTORY",
@@ -1734,7 +1866,8 @@
             "code": "3474"
           },
           "note": "飲食店出店・経営支援",
-          "segment": "delivery"
+          "segment": "delivery",
+          "url": "http://g-fac.jp/"
         },
         {
           "name": "Trailhead Global Holdings",
@@ -1743,7 +1876,8 @@
             "code": "3358"
           },
           "note": "ラーメンFC・厨房機器",
-          "segment": "fast"
+          "segment": "fast",
+          "url": "https://thg-hd.com/"
         },
         {
           "name": "フジタコーポレーション",
@@ -1752,7 +1886,8 @@
             "code": "3370"
           },
           "note": "北海道FC飲食(かつてん)",
-          "segment": "fast"
+          "segment": "fast",
+          "url": "http://www.fujitacorp.co.jp/"
         },
         {
           "name": "ユニシアホールディングス",
@@ -1761,7 +1896,8 @@
             "code": "3547"
           },
           "note": "串カツ田中",
-          "segment": "izakaya"
+          "segment": "izakaya",
+          "url": "https://kushi-tanaka.com/"
         },
         {
           "name": "サイプレス・ホールディングス",
@@ -1845,217 +1981,248 @@
           "listing": {
             "market": "東証プライム",
             "code": "2229"
-          }
+          },
+          "url": "http://www.calbee.co.jp/index.php"
         },
         {
           "name": "森永製菓",
           "listing": {
             "market": "東証プライム",
             "code": "2201"
-          }
+          },
+          "url": "https://www.morinaga.co.jp/"
         },
         {
           "name": "江崎グリコ",
           "listing": {
             "market": "東証プライム",
             "code": "2206"
-          }
+          },
+          "url": "https://www.glico.com/jp/"
         },
         {
           "name": "不二家",
           "listing": {
             "market": "東証プライム",
             "code": "2211"
-          }
+          },
+          "url": "https://www.fujiya-peko.co.jp/"
         },
         {
           "name": "ブルボン",
           "listing": {
             "market": "東証スタンダード",
             "code": "2208"
-          }
+          },
+          "url": "https://www.bourbon.co.jp/"
         },
         {
           "name": "森永乳業",
           "listing": {
             "market": "東証プライム",
             "code": "2264"
-          }
+          },
+          "url": "http://www.morinagamilk.co.jp/"
         },
         {
           "name": "雪印メグミルク",
           "listing": {
             "market": "東証プライム",
             "code": "2270"
-          }
+          },
+          "url": "http://www.meg-snow.com/"
         },
         {
           "name": "ヤクルト本社",
           "listing": {
             "market": "東証プライム",
             "code": "2267"
-          }
+          },
+          "url": "http://www.yakult.co.jp/"
         },
         {
           "name": "伊藤園",
           "listing": {
             "market": "東証プライム",
             "code": "2593"
-          }
+          },
+          "url": "https://www.itoen.co.jp/"
         },
         {
           "name": "サッポロホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "2501"
-          }
+          },
+          "url": "https://www.sapporoholdings.jp/"
         },
         {
           "name": "コカ・コーラ ボトラーズジャパンホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "2579"
-          }
+          },
+          "url": "https://www.ccbj-holdings.com/"
         },
         {
           "name": "ダイドーグループホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "2590"
-          }
+          },
+          "url": "https://www.daido-net.co.jp/"
         },
         {
           "name": "宝ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "2531"
-          }
+          },
+          "url": "https://www.takara.co.jp/"
         },
         {
           "name": "キーコーヒー",
           "listing": {
             "market": "東証プライム",
             "code": "2594"
-          }
+          },
+          "url": "https://www.keycoffee.co.jp/"
         },
         {
           "name": "亀田製菓",
           "listing": {
             "market": "東証プライム",
             "code": "2220"
-          }
+          },
+          "url": "https://www.kamedaseika.co.jp/"
         },
         {
           "name": "井村屋グループ",
           "listing": {
             "market": "東証プライム",
             "code": "2209"
-          }
+          },
+          "url": "https://www.imuraya-group.com/"
         },
         {
           "name": "カンロ",
           "listing": {
             "market": "東証スタンダード",
             "code": "2216"
-          }
+          },
+          "url": "https://www.kanro.co.jp"
         },
         {
           "name": "モロゾフ",
           "listing": {
             "market": "東証プライム",
             "code": "2217"
-          }
+          },
+          "url": "http://www.morozoff.co.jp/"
         },
         {
           "name": "湖池屋",
           "listing": {
             "market": "東証スタンダード",
             "code": "2226"
-          }
+          },
+          "url": "https://koikeya.co.jp/"
         },
         {
           "name": "寿スピリッツ",
           "listing": {
             "market": "東証プライム",
             "code": "2222"
-          }
+          },
+          "url": "http://www.okashinet.co.jp/"
         },
         {
           "name": "岩塚製菓",
           "listing": {
             "market": "東証スタンダード",
             "code": "2221"
-          }
+          },
+          "url": "https://www.iwatsukaseika.co.jp/"
         },
         {
           "name": "六甲バター",
           "listing": {
             "market": "東証プライム",
             "code": "2266"
-          }
+          },
+          "url": "http://www.qbb.co.jp/"
         },
         {
           "name": "B-R サーティワン アイスクリーム",
           "listing": {
             "market": "東証スタンダード",
             "code": "2268"
-          }
+          },
+          "url": "https://www.31ice.co.jp/"
         },
         {
           "name": "オリオンビール",
           "listing": {
             "market": "東証プライム",
             "code": "409A"
-          }
+          },
+          "url": "https://www.orionbeer.co.jp/"
         },
         {
           "name": "オエノンホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "2533"
-          }
+          },
+          "url": "http://www.oenon.jp/"
         },
         {
           "name": "サントリービバレッジ&フード",
           "listing": {
             "market": "東証プライム",
             "code": "2587"
-          }
+          },
+          "url": "https://www.suntory.co.jp/softdrink/"
         },
         {
           "name": "北海道コカ・コーラボトリング",
           "listing": {
             "market": "東証スタンダード",
             "code": "2573"
-          }
+          },
+          "url": "http://www.hokkaido.ccbc.co.jp/"
         },
         {
           "name": "プレミアムウォーターホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "2588"
-          }
+          },
+          "url": "http://premiumwater-hd.co.jp/"
         },
         {
           "name": "ライフドリンク カンパニー",
           "listing": {
             "market": "東証プライム",
             "code": "2585"
-          }
+          },
+          "url": "https://www.ld-company.com/"
         },
         {
           "name": "第一屋製パン",
           "listing": {
             "market": "東証スタンダード",
             "code": "2215"
-          }
+          },
+          "url": "http://www.daiichipan.co.jp/"
         },
         {
           "name": "中村屋",
           "listing": {
             "market": "東証スタンダード",
             "code": "2204"
-          }
+          },
+          "url": "https://www.nakamuraya.co.jp/"
         },
         {
           "name": "meito",
@@ -2063,42 +2230,48 @@
             "market": "東証プライム",
             "code": "2207"
           },
-          "note": "名糖産業"
+          "note": "名糖産業",
+          "url": "https://www.meito-abc.co.jp/"
         },
         {
           "name": "コモ",
           "listing": {
             "market": "東証スタンダード",
             "code": "2224"
-          }
+          },
+          "url": "http://www.como.co.jp/"
         },
         {
           "name": "ユニカフェ",
           "listing": {
             "market": "東証スタンダード",
             "code": "2597"
-          }
+          },
+          "url": "http://www.unicafe.com/"
         },
         {
           "name": "セイヒョー",
           "listing": {
             "market": "東証スタンダード",
             "code": "2872"
-          }
+          },
+          "url": "http://www.seihyo.co.jp/"
         },
         {
           "name": "梅乃宿酒造",
           "listing": {
             "market": "東証スタンダード",
             "code": "559A"
-          }
+          },
+          "url": "https://www.umenoyado.com/"
         },
         {
           "name": "サンクゼール",
           "listing": {
             "market": "東証グロース",
             "code": "2937"
-          }
+          },
+          "url": "https://www.stcousair.co.jp/"
         },
         {
           "name": "AFC-HDアムスライフサイエンス",
@@ -2106,7 +2279,8 @@
             "market": "東証スタンダード",
             "code": "2927"
           },
-          "note": "健康食品"
+          "note": "健康食品",
+          "url": "https://www.ams-life.co.jp/"
         },
         {
           "name": "ジェイフロンティア",
@@ -2114,7 +2288,8 @@
             "market": "東証グロース",
             "code": "2934"
           },
-          "note": "健康食品EC"
+          "note": "健康食品EC",
+          "url": "https://jfrontier.jp/"
         },
         {
           "name": "フルッタフルッタ",
@@ -2122,7 +2297,8 @@
             "market": "東証グロース",
             "code": "2586"
           },
-          "note": "アサイー"
+          "note": "アサイー",
+          "url": "https://www.frutafruta.com/"
         }
       ],
       "updated": "2026-07-24",
@@ -2153,91 +2329,104 @@
           "listing": {
             "market": "東証プライム",
             "code": "2002"
-          }
+          },
+          "url": "http://www.nisshin.com/"
         },
         {
           "name": "ニップン",
           "listing": {
             "market": "東証プライム",
             "code": "2001"
-          }
+          },
+          "url": "http://www.nippn.co.jp/"
         },
         {
           "name": "日清オイリオグループ",
           "listing": {
             "market": "東証プライム",
             "code": "2602"
-          }
+          },
+          "url": "http://www.nisshin-oillio.com/"
         },
         {
           "name": "J-オイルミルズ",
           "listing": {
             "market": "東証プライム",
             "code": "2613"
-          }
+          },
+          "url": "http://www.j-oil.com"
         },
         {
           "name": "昭和産業",
           "listing": {
             "market": "東証プライム",
             "code": "2004"
-          }
+          },
+          "url": "http://www.showa-sangyo.co.jp/index.html"
         },
         {
           "name": "伊藤ハム米久ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "2296"
-          }
+          },
+          "url": "http://www.itoham-yonekyu-holdings.com/"
         },
         {
           "name": "プリマハム",
           "listing": {
             "market": "東証プライム",
             "code": "2281"
-          }
+          },
+          "url": "https://www.primaham.co.jp"
         },
         {
           "name": "丸大食品",
           "listing": {
             "market": "東証プライム",
             "code": "2288"
-          }
+          },
+          "url": "http://www.marudai.jp/"
         },
         {
           "name": "キユーピー",
           "listing": {
             "market": "東証プライム",
             "code": "2809"
-          }
+          },
+          "url": "http://www.kewpie.co.jp/"
         },
         {
           "name": "ハウス食品グループ本社",
           "listing": {
             "market": "東証プライム",
             "code": "2810"
-          }
+          },
+          "url": "http://housefoods-group.com/"
         },
         {
           "name": "東洋水産",
           "listing": {
             "market": "東証プライム",
             "code": "2875"
-          }
+          },
+          "url": "https://www.maruchan.co.jp/"
         },
         {
           "name": "極洋",
           "listing": {
             "market": "東証プライム",
             "code": "1301"
-          }
+          },
+          "url": "http://www.kyokuyo.co.jp/"
         },
         {
           "name": "ブルドックソース",
           "listing": {
             "market": "東証プライム",
             "code": "2804"
-          }
+          },
+          "url": "https://www.bulldog.co.jp/"
         },
         {
           "name": "ヱスビー食品",
@@ -2253,245 +2442,280 @@
           "salary": {
             "man_jpy": 697,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "http://www.sbfoods.co.jp/"
         },
         {
           "name": "不二製油",
           "listing": {
             "market": "東証プライム",
             "code": "2607"
-          }
+          },
+          "url": "https://www.fujioil.co.jp/"
         },
         {
           "name": "かどや製油",
           "listing": {
             "market": "東証スタンダード",
             "code": "2612"
-          }
+          },
+          "url": "http://www.kadoya.com/"
         },
         {
           "name": "はごろもフーズ",
           "listing": {
             "market": "東証スタンダード",
             "code": "2831"
-          }
+          },
+          "url": "http://www.hagoromofoods.co.jp/"
         },
         {
           "name": "フジッコ",
           "listing": {
             "market": "東証プライム",
             "code": "2908"
-          }
+          },
+          "url": "https://www.fujicco.co.jp"
         },
         {
           "name": "ケンコーマヨネーズ",
           "listing": {
             "market": "東証プライム",
             "code": "2915"
-          }
+          },
+          "url": "http://www.kenkomayo.co.jp/ir"
         },
         {
           "name": "なとり",
           "listing": {
             "market": "東証プライム",
             "code": "2922"
-          }
+          },
+          "url": "https://www.natori.co.jp/"
         },
         {
           "name": "サトウ食品",
           "listing": {
             "market": "東証スタンダード",
             "code": "2923"
-          }
+          },
+          "url": "https://www.satosyokuhin.co.jp/"
         },
         {
           "name": "紀文食品",
           "listing": {
             "market": "東証プライム",
             "code": "2933"
-          }
+          },
+          "url": "http://www.kibun.co.jp/"
         },
         {
           "name": "一正蒲鉾",
           "listing": {
             "market": "東証スタンダード",
             "code": "2904"
-          }
+          },
+          "url": "http://www.ichimasa.co.jp/"
         },
         {
           "name": "理研ビタミン",
           "listing": {
             "market": "東証プライム",
             "code": "4526"
-          }
+          },
+          "url": "http://www.rikenvitamin.jp/"
         },
         {
           "name": "ミヨシ油脂",
           "listing": {
             "market": "東証スタンダード",
             "code": "4404"
-          }
+          },
+          "url": "https://www.miyoshi-yushi.co.jp/"
         },
         {
           "name": "DM三井製糖",
           "listing": {
             "market": "東証プライム",
             "code": "2109"
-          }
+          },
+          "url": "https://www.msdm-hd.com/jp/"
         },
         {
           "name": "ウェルネオシュガー",
           "listing": {
             "market": "東証プライム",
             "code": "2117"
-          }
+          },
+          "url": "https://www.wellneo-sugar.co.jp/"
         },
         {
           "name": "日本甜菜製糖",
           "listing": {
             "market": "東証プライム",
             "code": "2108"
-          }
+          },
+          "url": "https://www.nitten.co.jp/"
         },
         {
           "name": "日東富士製粉",
           "listing": {
             "market": "東証スタンダード",
             "code": "2003"
-          }
+          },
+          "url": "http://www.nittofuji.co.jp/"
         },
         {
           "name": "鳥越製粉",
           "listing": {
             "market": "東証スタンダード",
             "code": "2009"
-          }
+          },
+          "url": "http://www.the-torigoe.co.jp/"
         },
         {
           "name": "エバラ食品工業",
           "listing": {
             "market": "東証スタンダード",
             "code": "2819"
-          }
+          },
+          "url": "http://www.ebarafoods.com/"
         },
         {
           "name": "シマダヤ",
           "listing": {
             "market": "東証スタンダード",
             "code": "250A"
-          }
+          },
+          "url": "http://www.shimadaya.co.jp/"
         },
         {
           "name": "石井食品",
           "listing": {
             "market": "東証スタンダード",
             "code": "2894"
-          }
+          },
+          "url": "http://www.ishiifood.co.jp/"
         },
         {
           "name": "ピックルスホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "2935"
-          }
+          },
+          "url": "https://www.pickles-hd.co.jp/"
         },
         {
           "name": "S Foods",
           "listing": {
             "market": "東証プライム",
             "code": "2292"
-          }
+          },
+          "url": "https://www.sfoods.co.jp/"
         },
         {
           "name": "福留ハム",
           "listing": {
             "market": "東証スタンダード",
             "code": "2291"
-          }
+          },
+          "url": "https://www.fukutome.com/"
         },
         {
           "name": "滝沢ハム",
           "listing": {
             "market": "東証スタンダード",
             "code": "2293"
-          }
+          },
+          "url": "http://www.takizawaham.co.jp/"
         },
         {
           "name": "柿安本店",
           "listing": {
             "market": "東証プライム",
             "code": "2294"
-          }
+          },
+          "url": "http://www.kakiyasushop.com/"
         },
         {
           "name": "アリアケジャパン",
           "listing": {
             "market": "東証プライム",
             "code": "2815"
-          }
+          },
+          "url": "https://www.ariakejapan.com"
         },
         {
           "name": "ピエトロ",
           "listing": {
             "market": "東証スタンダード",
             "code": "2818"
-          }
+          },
+          "url": "https://www.pietro.co.jp/"
         },
         {
           "name": "ダイショー",
           "listing": {
             "market": "東証スタンダード",
             "code": "2816"
-          }
+          },
+          "url": "http://www.daisho.co.jp/"
         },
         {
           "name": "ロック・フィールド",
           "listing": {
             "market": "東証プライム",
             "code": "2910"
-          }
+          },
+          "url": "http://www.rockfield.co.jp/"
         },
         {
           "name": "イートアンドホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "2882"
-          }
+          },
+          "url": "http://www.eat-and.jp/"
         },
         {
           "name": "ユーグレナ",
           "listing": {
             "market": "東証プライム",
             "code": "2931"
-          }
+          },
+          "url": "http://www.euglena.jp/"
         },
         {
           "name": "ベースフード",
           "listing": {
             "market": "東証グロース",
             "code": "2936"
-          }
+          },
+          "url": "https://basefood.co.jp/corporate"
         },
         {
           "name": "ファーマフーズ",
           "listing": {
             "market": "東証プライム",
             "code": "2929"
-          }
+          },
+          "url": "https://www.pharmafoods.co.jp"
         },
         {
           "name": "ヨシムラ・フード・ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "2884"
-          }
+          },
+          "url": "http://y-food-h.com/"
         },
         {
           "name": "和弘食品",
           "listing": {
             "market": "東証スタンダード",
             "code": "2813"
-          }
+          },
+          "url": "http://www.wakoushokuhin.co.jp/"
         },
         {
           "name": "やまみ",
@@ -2499,42 +2723,48 @@
             "market": "東証スタンダード",
             "code": "2820"
           },
-          "note": "豆腐"
+          "note": "豆腐",
+          "url": "http://www.yamami.co.jp"
         },
         {
           "name": "日東ベスト",
           "listing": {
             "market": "東証スタンダード",
             "code": "2877"
-          }
+          },
+          "url": "https://www.nittobest.co.jp/"
         },
         {
           "name": "大冷",
           "listing": {
             "market": "東証スタンダード",
             "code": "2883"
-          }
+          },
+          "url": "https://www.dai-rei.co.jp/"
         },
         {
           "name": "シノブフーズ",
           "listing": {
             "market": "東証スタンダード",
             "code": "2903"
-          }
+          },
+          "url": "http://www.shinobufoods.co.jp/"
         },
         {
           "name": "あじかん",
           "listing": {
             "market": "東証スタンダード",
             "code": "2907"
-          }
+          },
+          "url": "http://www.ahjikan.co.jp/"
         },
         {
           "name": "旭松食品",
           "listing": {
             "market": "東証スタンダード",
             "code": "2911"
-          }
+          },
+          "url": "http://www.asahimatsu.co.jp/"
         },
         {
           "name": "大森屋",
@@ -2542,7 +2772,8 @@
             "market": "東証スタンダード",
             "code": "2917"
           },
-          "note": "海苔"
+          "note": "海苔",
+          "url": "http://www.ohmoriya.com/"
         },
         {
           "name": "STIフードホールディングス",
@@ -2557,14 +2788,16 @@
             "market": "東証スタンダード",
             "code": "2938"
           },
-          "note": "サーモン養殖"
+          "note": "サーモン養殖",
+          "url": "http://okamurashokuhin.co.jp/"
         },
         {
           "name": "JFLAホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "3069"
-          }
+          },
+          "url": "http://www.asrapport-dining.com/"
         },
         {
           "name": "新田ゼラチン",
@@ -2572,7 +2805,8 @@
             "market": "東証スタンダード",
             "code": "4977"
           },
-          "note": "ゼラチン"
+          "note": "ゼラチン",
+          "url": "https://www.nitta-gelatin.co.jp/"
         },
         {
           "name": "ニッピ",
@@ -2580,7 +2814,8 @@
             "market": "東証スタンダード",
             "code": "7932"
           },
-          "note": "コラーゲン"
+          "note": "コラーゲン",
+          "url": "http://www.nippi-inc.co.jp/index.html"
         },
         {
           "name": "塩水港精糖",
@@ -2588,7 +2823,8 @@
             "market": "東証スタンダード",
             "code": "2112"
           },
-          "note": "製糖"
+          "note": "製糖",
+          "url": "http://www.ensuiko.co.jp/"
         },
         {
           "name": "フジ日本",
@@ -2596,7 +2832,8 @@
             "market": "東証スタンダード",
             "code": "2114"
           },
-          "note": "製糖"
+          "note": "製糖",
+          "url": "https://www.fuji-nihon.com/"
         },
         {
           "name": "林兼産業",
@@ -2604,7 +2841,8 @@
             "market": "東証スタンダード",
             "code": "2286"
           },
-          "note": "ハム・ソーセージ"
+          "note": "ハム・ソーセージ",
+          "url": "https://www.hayashikane.co.jp"
         },
         {
           "name": "ユタカフーズ",
@@ -2612,7 +2850,8 @@
             "market": "東証スタンダード",
             "code": "2806"
           },
-          "note": "調味料"
+          "note": "調味料",
+          "url": "https://www.yutakafoods.co.jp/"
         },
         {
           "name": "佐藤食品工業",
@@ -2620,7 +2859,8 @@
             "market": "東証スタンダード",
             "code": "2814"
           },
-          "note": "包装米飯"
+          "note": "包装米飯",
+          "url": "http://www.sato-foods.co.jp/"
         },
         {
           "name": "デルソーレ",
@@ -2628,7 +2868,8 @@
             "market": "東証スタンダード",
             "code": "2876"
           },
-          "note": "ピザ・パン生地"
+          "note": "ピザ・パン生地",
+          "url": "https://www.del-sole.co.jp/"
         },
         {
           "name": "日本食品化工",
@@ -2636,7 +2877,8 @@
             "market": "東証スタンダード",
             "code": "2892"
           },
-          "note": "でん粉糖"
+          "note": "でん粉糖",
+          "url": "http://www.nisshoku.co.jp/"
         },
         {
           "name": "仙波糖化工業",
@@ -2644,7 +2886,8 @@
             "market": "東証スタンダード",
             "code": "2916"
           },
-          "note": "糖化製品"
+          "note": "糖化製品",
+          "url": "https://www.sembatohka.co.jp/"
         },
         {
           "name": "イフジ産業",
@@ -2652,7 +2895,8 @@
             "market": "東証スタンダード",
             "code": "2924"
           },
-          "note": "鶏卵加工"
+          "note": "鶏卵加工",
+          "url": "http://www.ifuji.co.jp/"
         },
         {
           "name": "篠崎屋",
@@ -2660,7 +2904,8 @@
             "market": "東証スタンダード",
             "code": "2926"
           },
-          "note": "豆腐"
+          "note": "豆腐",
+          "url": "http://www.shinozakiya.com/"
         },
         {
           "name": "カネ美食品",
@@ -2668,7 +2913,8 @@
             "market": "東証スタンダード",
             "code": "2669"
           },
-          "note": "惣菜"
+          "note": "惣菜",
+          "url": "https://www.kanemi-foods.co.jp/"
         },
         {
           "name": "アスモ",
@@ -2676,7 +2922,8 @@
             "market": "東証スタンダード",
             "code": "2654"
           },
-          "note": "給食・惣菜"
+          "note": "給食・惣菜",
+          "url": "https://www.asmo1.co.jp/"
         },
         {
           "name": "ウェルディッシュ",
@@ -2684,7 +2931,8 @@
             "market": "東証スタンダード",
             "code": "2901"
           },
-          "note": "食品(ウェルディッシュ)"
+          "note": "食品(ウェルディッシュ)",
+          "url": "https://wel-dish.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -2718,21 +2966,24 @@
           "listing": {
             "market": "プライム",
             "code": "1379"
-          }
+          },
+          "url": "https://www.hokto-kinoko.co.jp/"
         },
         {
           "name": "サカタのタネ",
           "listing": {
             "market": "プライム",
             "code": "1377"
-          }
+          },
+          "url": "https://www.sakataseed.co.jp/"
         },
         {
           "name": "ベルグアース",
           "listing": {
             "market": "スタンダード",
             "code": "1383"
-          }
+          },
+          "url": "http://www.bergearth.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -2752,21 +3003,24 @@
           "listing": {
             "market": "プライム",
             "code": "5901"
-          }
+          },
+          "url": "https://www.tskg-hd.com/"
         },
         {
           "name": "ホッカンホールディングス",
           "listing": {
             "market": "プライム",
             "code": "5902"
-          }
+          },
+          "url": "http://www.hokkanholdings.co.jp/"
         },
         {
           "name": "エフピコ",
           "listing": {
             "market": "プライム",
             "code": "7947"
-          }
+          },
+          "url": "http://www.fpco.jp/"
         }
       ],
       "updated": "2026-07-24",

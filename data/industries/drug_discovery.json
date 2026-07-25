@@ -95,21 +95,24 @@
           "salary": {
             "man_jpy": 951,
             "fy": "2025年12月期"
-          }
+          },
+          "url": "http://www.peptidream.com/"
         },
         {
           "name": "カルナバイオサイエンス",
           "listing": {
             "market": "グロース",
             "code": "4572"
-          }
+          },
+          "url": "http://www.carnabio.com/japanese/"
         },
         {
           "name": "ラクオリア創薬",
           "listing": {
             "market": "グロース",
             "code": "4579"
-          }
+          },
+          "url": "https://www.raqualia.com/ja/"
         },
         {
           "name": "ヘリオス",
@@ -120,14 +123,16 @@
           "salary": {
             "man_jpy": 911,
             "fy": "2025年12月期"
-          }
+          },
+          "url": "https://www.healios.co.jp/"
         },
         {
           "name": "ステムリム",
           "listing": {
             "market": "グロース",
             "code": "4599"
-          }
+          },
+          "url": "https://stemrim.com/"
         },
         {
           "name": "ネクセラファーマ",
@@ -135,7 +140,8 @@
             "market": "プライム",
             "code": "4565"
           },
-          "note": "旧そーせいグループ"
+          "note": "旧そーせいグループ",
+          "url": "https://www.nxera.life/jp"
         }
       ],
       "updated": "2026-07-24",
@@ -154,7 +160,8 @@
           "name": "東京大学TLO",
           "listing": {
             "market": "非上場(東大系技術移転機関)"
-          }
+          },
+          "url": "https://todaitlo.com"
         }
       ],
       "updated": "2026-07-24",
@@ -174,7 +181,8 @@
           "listing": {
             "market": "プライム",
             "code": "8595"
-          }
+          },
+          "url": "http://www.jafco.co.jp/"
         },
         {
           "name": "ファストトラックイニシアティブ",
@@ -200,20 +208,23 @@
           "listing": {
             "market": "スタンダード",
             "code": "2183"
-          }
+          },
+          "url": "https://www.linical.com/"
         },
         {
           "name": "新日本科学",
           "listing": {
             "market": "プライム",
             "code": "2395"
-          }
+          },
+          "url": "http://www.snbl.co.jp/"
         },
         {
           "name": "シミックホールディングス",
           "listing": {
             "market": "非上場(MBOにより非公開化)"
-          }
+          },
+          "url": "http://www.cmic-holdings.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -241,7 +252,8 @@
           "name": "EPSホールディングス",
           "listing": {
             "market": "非上場(2022年非公開化)"
-          }
+          },
+          "url": "http://www.eps-holdings.co.jp/"
         },
         {
           "name": "アイロムグループ",
@@ -266,7 +278,8 @@
           "name": "国立がん研究センター",
           "listing": {
             "market": "非上場(国立研究開発法人)"
-          }
+          },
+          "url": "https://www.ncc.go.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -287,7 +300,8 @@
             "market": "プライム",
             "code": "4901"
           },
-          "note": "バイオCDMO(Diosynth)を大型投資で拡大"
+          "note": "バイオCDMO(Diosynth)を大型投資で拡大",
+          "url": "https://www.fujifilmholdings.com/"
         },
         {
           "name": "ＡＧＣ",
@@ -298,21 +312,24 @@
           "salary": {
             "man_jpy": 905,
             "fy": "2024年12月期"
-          }
+          },
+          "url": "https://www.agc.com/"
         },
         {
           "name": "カネカ",
           "listing": {
             "market": "プライム",
             "code": "4118"
-          }
+          },
+          "url": "https://www.kaneka.co.jp/"
         },
         {
           "name": "ダイト",
           "listing": {
             "market": "プライム",
             "code": "4577"
-          }
+          },
+          "url": "http://www.daitonet.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -331,7 +348,8 @@
           "name": "医薬品医療機器総合機構(PMDA)",
           "listing": {
             "market": "非上場(独立行政法人)"
-          }
+          },
+          "url": "https://www.pmda.go.jp/"
         }
       ],
       "updated": "2026-07-24",

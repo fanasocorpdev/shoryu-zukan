@@ -212,21 +212,24 @@
           "salary": {
             "man_jpy": 729,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://www.jp-bank.japanpost.jp"
         },
         {
           "name": "あおぞら銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8304"
-          }
+          },
+          "url": "https://www.aozorabank.co.jp/"
         },
         {
           "name": "SBI新生銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8303"
-          }
+          },
+          "url": "http://www.shinseibank.com"
         }
       ],
       "sources": [
@@ -349,462 +352,528 @@
           "listing": {
             "market": "東証プライム",
             "code": "7167"
-          }
+          },
+          "url": "http://www.mebuki-fg.co.jp/"
         },
         {
           "name": "しずおかフィナンシャルグループ",
           "listing": {
             "market": "東証プライム",
             "code": "5831"
-          }
+          },
+          "url": "https://www.shizuoka-fg.co.jp/"
         },
         {
           "name": "京都フィナンシャルグループ",
           "listing": {
             "market": "東証プライム",
             "code": "5844"
-          }
+          },
+          "url": "https://www.kyoto-fg.co.jp/"
         },
         {
           "name": "群馬銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8334"
-          }
+          },
+          "url": "http://www.gunmabank.co.jp/"
         },
         {
           "name": "七十七銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8341"
-          }
+          },
+          "url": "https://www.77bank.co.jp/"
         },
         {
           "name": "ひろぎんホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "7337"
-          }
+          },
+          "url": "https://www.hirogin-hd.co.jp/"
         },
         {
           "name": "山口フィナンシャルグループ",
           "listing": {
             "market": "東証プライム",
             "code": "8418"
-          }
+          },
+          "url": "https://www.ymfg.co.jp/"
         },
         {
           "name": "西日本フィナンシャルホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "7189"
-          }
+          },
+          "url": "http://www.nnfh.co.jp/"
         },
         {
           "name": "九州フィナンシャルグループ",
           "listing": {
             "market": "東証プライム",
             "code": "7180"
-          }
+          },
+          "url": "https://kyushu-fg.co.jp/"
         },
         {
           "name": "十六フィナンシャルグループ",
           "listing": {
             "market": "東証プライム",
             "code": "7380"
-          }
+          },
+          "url": "https://www.16fg.co.jp/"
         },
         {
           "name": "名古屋銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8522"
-          }
+          },
+          "url": "http://www.meigin.com/"
         },
         {
           "name": "あいちフィナンシャルグループ",
           "listing": {
             "market": "東証プライム",
             "code": "7389"
-          }
+          },
+          "url": "https://www.aichi-fg.co.jp/"
         },
         {
           "name": "百五銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8368"
-          }
+          },
+          "url": "http://www.hyakugo.co.jp/"
         },
         {
           "name": "百十四銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8386"
-          }
+          },
+          "url": "https://www.114bank.co.jp/"
         },
         {
           "name": "いよぎんホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "5830"
-          }
+          },
+          "url": "https://www.iyogin-hd.co.jp/"
         },
         {
           "name": "四国銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8387"
-          }
+          },
+          "url": "http://www.shikokubank.co.jp/"
         },
         {
           "name": "阿波銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8388"
-          }
+          },
+          "url": "https://www.awabank.co.jp/"
         },
         {
           "name": "大垣共立銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8361"
-          }
+          },
+          "url": "https://www.okb.co.jp/"
         },
         {
           "name": "スルガ銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8358"
-          }
+          },
+          "url": "http://www.surugabank.co.jp/"
         },
         {
           "name": "山梨中央銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8360"
-          }
+          },
+          "url": "https://www.yamanashibank.co.jp"
         },
         {
           "name": "東邦銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8346"
-          }
+          },
+          "url": "http://www.tohobank.co.jp"
         },
         {
           "name": "秋田銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8343"
-          }
+          },
+          "url": "https://www.akita-bank.co.jp/"
         },
         {
           "name": "岩手銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8345"
-          }
+          },
+          "url": "http://www.iwatebank.co.jp/"
         },
         {
           "name": "プロクレアホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "7384"
-          }
+          },
+          "url": "https://www.procrea-hd.co.jp/"
         },
         {
           "name": "北日本銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8551"
-          }
+          },
+          "url": "http://www.kitagin.co.jp/index.html"
         },
         {
           "name": "山形銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8344"
-          }
+          },
+          "url": "http://www.yamagatabank.co.jp/"
         },
         {
           "name": "フィデアホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "8713"
-          }
+          },
+          "url": "http://www.fidea.co.jp/"
         },
         {
           "name": "東北銀行",
           "listing": {
             "market": "東証スタンダード",
             "code": "8349"
-          }
+          },
+          "url": "http://www.tohoku-bank.co.jp/"
         },
         {
           "name": "ほくほくフィナンシャルグループ",
           "listing": {
             "market": "東証プライム",
             "code": "8377"
-          }
+          },
+          "url": "https://kiokim.com/"
         },
         {
           "name": "福井銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8362"
-          }
+          },
+          "url": "http://www.fukuibank.co.jp/"
         },
         {
           "name": "京葉銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8544"
-          }
+          },
+          "url": "http://www.keiyobank.co.jp/"
         },
         {
           "name": "千葉興業銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8337"
-          }
+          },
+          "url": "http://www.chibakogyo-bank.co.jp/"
         },
         {
           "name": "武蔵野銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8336"
-          }
+          },
+          "url": "https://www.musashinobank.co.jp/"
         },
         {
           "name": "東京きらぼしフィナンシャルグループ",
           "listing": {
             "market": "東証プライム",
             "code": "7173"
-          }
+          },
+          "url": "https://www.tokyo-kiraboshifg.co.jp/"
         },
         {
           "name": "第四北越フィナンシャルグループ",
           "listing": {
             "market": "東証プライム",
             "code": "7327"
-          }
+          },
+          "url": "https://www.dhfg.co.jp/"
         },
         {
           "name": "大光銀行",
           "listing": {
             "market": "東証スタンダード",
             "code": "8537"
-          }
+          },
+          "url": "http://www.taikobank.jp/"
         },
         {
           "name": "東和銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8558"
-          }
+          },
+          "url": "http://www.towabank.co.jp/"
         },
         {
           "name": "栃木銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8550"
-          }
+          },
+          "url": "http://www.tochigibank.co.jp/"
         },
         {
           "name": "筑波銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8338"
-          }
+          },
+          "url": "http://www.tsukubabank.co.jp/"
         },
         {
           "name": "滋賀銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8366"
-          }
+          },
+          "url": "http://www.shigagin.com/"
         },
         {
           "name": "南都銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8367"
-          }
+          },
+          "url": "https://www.nantobank.co.jp"
         },
         {
           "name": "紀陽銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8370"
-          }
+          },
+          "url": "http://www.kiyobank.co.jp/"
         },
         {
           "name": "池田泉州ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "8714"
-          }
+          },
+          "url": "http://www.senshuikeda-hd.co.jp/"
         },
         {
           "name": "鳥取銀行",
           "listing": {
             "market": "東証スタンダード",
             "code": "8383"
-          }
+          },
+          "url": "http://www.tottoribank.co.jp/"
         },
         {
           "name": "山陰合同銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8381"
-          }
+          },
+          "url": "https://www.gogin.co.jp/"
         },
         {
           "name": "トマト銀行",
           "listing": {
             "market": "東証スタンダード",
             "code": "8542"
-          }
+          },
+          "url": "https://www.tomatobank.co.jp/"
         },
         {
           "name": "高知銀行",
           "listing": {
             "market": "東証スタンダード",
             "code": "8416"
-          }
+          },
+          "url": "http://www.kochi-bank.co.jp/"
         },
         {
           "name": "大分銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8392"
-          }
+          },
+          "url": "http://www.oitabank.co.jp/"
         },
         {
           "name": "宮崎銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8393"
-          }
+          },
+          "url": "https://www.miyagin.co.jp/"
         },
         {
           "name": "琉球銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8399"
-          }
+          },
+          "url": "https://www.ryugin.co.jp/"
         },
         {
           "name": "佐賀銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8395"
-          }
+          },
+          "url": "http://www.sagabank.co.jp/"
         },
         {
           "name": "清水銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8364"
-          }
+          },
+          "url": "http://www.shimizubank.co.jp/"
         },
         {
           "name": "おきなわフィナンシャルグループ",
           "listing": {
             "market": "東証プライム",
             "code": "7350"
-          }
+          },
+          "url": "https://www.okinawafg.co.jp/"
         },
         {
           "name": "ちゅうぎんフィナンシャルグループ",
           "listing": {
             "market": "東証プライム",
             "code": "5832"
-          }
+          },
+          "url": "https://www.chugin-fg.co.jp/"
         },
         {
           "name": "八十二長野銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8359"
-          }
+          },
+          "url": "https://bank.82group.jp/"
         },
         {
           "name": "島根銀行",
           "listing": {
             "market": "東証スタンダード",
             "code": "7150"
-          }
+          },
+          "url": "https://www.shimagin.co.jp/"
         },
         {
           "name": "じもとホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "7161"
-          }
+          },
+          "url": "http://www.jimoto-hd.co.jp/"
         },
         {
           "name": "富山第一銀行",
           "listing": {
             "market": "東証プライム",
             "code": "7184"
-          }
+          },
+          "url": "http://www.first-bank.co.jp/"
         },
         {
           "name": "三十三フィナンシャルグループ",
           "listing": {
             "market": "東証プライム",
             "code": "7322"
-          }
+          },
+          "url": "https://www.33fg.co.jp/"
         },
         {
           "name": "CCIグループ",
           "listing": {
             "market": "東証プライム",
             "code": "7381"
-          }
+          },
+          "url": "https://www.ccig.co.jp/"
         },
         {
           "name": "富山銀行",
           "listing": {
             "market": "東証スタンダード",
             "code": "8365"
-          }
+          },
+          "url": "http://www.toyamabank.co.jp/"
         },
         {
           "name": "北洋銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8524"
-          }
+          },
+          "url": "https://www.hokuyobank.co.jp/"
         },
         {
           "name": "愛媛銀行",
           "listing": {
             "market": "東証プライム",
             "code": "8541"
-          }
+          },
+          "url": "http://www.himegin.co.jp/"
         },
         {
           "name": "福島銀行",
           "listing": {
             "market": "東証スタンダード",
             "code": "8562"
-          }
+          },
+          "url": "http://www.fukushimabank.co.jp/"
         },
         {
           "name": "大東銀行",
           "listing": {
             "market": "東証スタンダード",
             "code": "8563"
-          }
+          },
+          "url": "https://www.daitobank.co.jp/"
         },
         {
           "name": "トモニホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "8600"
-          }
+          },
+          "url": "http://www.tomony-hd.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -979,98 +1048,112 @@
           "listing": {
             "market": "東証プライム",
             "code": "8628"
-          }
+          },
+          "url": "http://www.matsui.co.jp/"
         },
         {
           "name": "マネックスグループ",
           "listing": {
             "market": "東証プライム",
             "code": "8698"
-          }
+          },
+          "url": "https://www.monexgroup.jp/ch/"
         },
         {
           "name": "岡三証券グループ",
           "listing": {
             "market": "東証プライム",
             "code": "8609"
-          }
+          },
+          "url": "http://www.okasan.jp/"
         },
         {
           "name": "東海東京フィナンシャル・ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "8616"
-          }
+          },
+          "url": "http://www.tokaitokyo-fh.jp/en/"
         },
         {
           "name": "丸三証券",
           "listing": {
             "market": "東証プライム",
             "code": "8613"
-          }
+          },
+          "url": "http://www.marusan-sec.co.jp/"
         },
         {
           "name": "岩井コスモホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "8707"
-          }
+          },
+          "url": "http://www.iwaicosmo-hd.jp/"
         },
         {
           "name": "極東証券",
           "listing": {
             "market": "東証プライム",
             "code": "8706"
-          }
+          },
+          "url": "https://www.kyokuto-sec.co.jp/"
         },
         {
           "name": "東洋証券",
           "listing": {
             "market": "東証プライム",
             "code": "8614"
-          }
+          },
+          "url": "https://www.toyo-sec.co.jp/"
         },
         {
           "name": "水戸証券",
           "listing": {
             "market": "東証プライム",
             "code": "8622"
-          }
+          },
+          "url": "http://www.mito.co.jp/"
         },
         {
           "name": "いちよし証券",
           "listing": {
             "market": "東証プライム",
             "code": "8624"
-          }
+          },
+          "url": "https://www.ichiyoshi.co.jp/"
         },
         {
           "name": "丸八証券",
           "listing": {
             "market": "東証スタンダード",
             "code": "8700"
-          }
+          },
+          "url": "http://www.maruhachi-sec.co.jp/"
         },
         {
           "name": "今村証券",
           "listing": {
             "market": "東証スタンダード",
             "code": "7175"
-          }
+          },
+          "url": "http://www.imamura.co.jp/"
         },
         {
           "name": "アイザワ証券グループ",
           "listing": {
             "market": "東証プライム",
             "code": "8708"
-          }
+          },
+          "url": "https://www.aizawa-group.jp/"
         },
         {
           "name": "光世証券",
           "listing": {
             "market": "東証スタンダード",
             "code": "8617"
-          }
+          },
+          "url": "http://www.kosei.co.jp/"
         },
         {
           "name": "GMOフィナンシャルホールディングス",
@@ -1086,14 +1169,16 @@
           "salary": {
             "man_jpy": 1088,
             "fy": "2025年12月期"
-          }
+          },
+          "url": "https://www.gmofh.com/"
         },
         {
           "name": "ヒロセ通商",
           "listing": {
             "market": "東証スタンダード",
             "code": "7185"
-          }
+          },
+          "url": "https://hirose-fx.co.jp/"
         },
         {
           "name": "あかつき本社",
@@ -1101,7 +1186,8 @@
             "market": "東証スタンダード",
             "code": "8737"
           },
-          "note": "証券"
+          "note": "証券",
+          "url": "http://www.akatsuki-fg.com/"
         },
         {
           "name": "小林洋行",
@@ -1109,7 +1195,8 @@
             "market": "東証スタンダード",
             "code": "8742"
           },
-          "note": "商品先物"
+          "note": "商品先物",
+          "url": "https://www.kobayashiyoko.com/"
         },
         {
           "name": "豊トラスティ証券",
@@ -1117,7 +1204,8 @@
             "market": "東証スタンダード",
             "code": "8747"
           },
-          "note": "商品先物"
+          "note": "商品先物",
+          "url": "http://www.yutaka-shoji.co.jp/"
         },
         {
           "name": "トレイダーズホールディングス",
@@ -1125,7 +1213,8 @@
             "market": "東証スタンダード",
             "code": "8704"
           },
-          "note": "FX"
+          "note": "FX",
+          "url": "http://www.tradershd.com"
         },
         {
           "name": "日産証券グループ",
@@ -1133,7 +1222,8 @@
             "market": "東証スタンダード",
             "code": "8705"
           },
-          "note": "証券・商品"
+          "note": "証券・商品",
+          "url": "https://www.nissan-sec.co.jp/"
         },
         {
           "name": "アイ・パートナーズフィナンシャル",
@@ -1141,7 +1231,8 @@
             "market": "東証グロース",
             "code": "7345"
           },
-          "note": "IFA"
+          "note": "IFA",
+          "url": "https://www.aipf.co.jp/"
         },
         {
           "name": "FUNDINNO",
@@ -1157,7 +1248,8 @@
             "market": "東証スタンダード",
             "code": "8699"
           },
-          "note": "旧澤田HD・金融"
+          "note": "旧澤田HD・金融",
+          "url": "http://www.sawada-holdings.co.jp/"
         },
         {
           "name": "アイフィスジャパン",
@@ -1165,7 +1257,8 @@
             "market": "東証スタンダード",
             "code": "7833"
           },
-          "note": "投資情報・IR支援"
+          "note": "投資情報・IR支援",
+          "url": "https://www.ifis.co.jp/"
         },
         {
           "name": "グリーンモンスター",
@@ -1173,7 +1266,8 @@
             "market": "東証グロース",
             "code": "157A"
           },
-          "note": "投資学習アプリ"
+          "note": "投資学習アプリ",
+          "url": "https://greenmonster.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -1203,7 +1297,8 @@
           "hq": "東京都江東区",
           "listing": {
             "market": "非上場(野村HD傘下)"
-          }
+          },
+          "url": "https://www.nomura-am.co.jp/"
         },
         {
           "name": "三菱UFJアセットマネジメント",
@@ -1226,14 +1321,16 @@
           "listing": {
             "market": "東証プライム",
             "code": "8739"
-          }
+          },
+          "url": "http://www.sparx.jp/"
         },
         {
           "name": "ジャフコ グループ",
           "listing": {
             "market": "東証プライム",
             "code": "8595"
-          }
+          },
+          "url": "http://www.jafco.co.jp/"
         },
         {
           "name": "インテグラル",
@@ -1249,28 +1346,32 @@
           "salary": {
             "man_jpy": 2135,
             "fy": "2025年12月期"
-          }
+          },
+          "url": "https://www.integralkk.com/"
         },
         {
           "name": "マーキュリアホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "7347"
-          }
+          },
+          "url": "https://www.mercuria.jp/"
         },
         {
           "name": "FPG",
           "listing": {
             "market": "東証プライム",
             "code": "7148"
-          }
+          },
+          "url": "https://www.fpg.jp/"
         },
         {
           "name": "ジャパンインベストメントアドバイザー",
           "listing": {
             "market": "東証プライム",
             "code": "7172"
-          }
+          },
+          "url": "http://www.jia-ltd.com/"
         },
         {
           "name": "日本アジア投資",
@@ -1278,7 +1379,8 @@
             "market": "東証スタンダード",
             "code": "8518"
           },
-          "note": "ベンチャーキャピタル"
+          "note": "ベンチャーキャピタル",
+          "url": "http://www.jaic-vc.co.jp/"
         },
         {
           "name": "SBIグローバルアセットマネジメント",
@@ -1286,7 +1388,8 @@
             "market": "東証プライム",
             "code": "4765"
           },
-          "note": "投信・資産運用"
+          "note": "投信・資産運用",
+          "url": "https://www.sbiglobalam.co.jp/"
         },
         {
           "name": "AIフュージョンキャピタルグループ",
@@ -1294,7 +1397,8 @@
             "market": "東証スタンダード",
             "code": "254A"
           },
-          "note": "投資・ファンド・投資銀行"
+          "note": "投資・ファンド・投資銀行",
+          "url": "https://www.fvc.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -1360,21 +1464,24 @@
           "listing": {
             "market": "東証プライム",
             "code": "8795"
-          }
+          },
+          "url": "https://www.td-holdings.co.jp/"
         },
         {
           "name": "かんぽ生命保険",
           "listing": {
             "market": "東証プライム",
             "code": "7181"
-          }
+          },
+          "url": "https://www.jp-life.japanpost.jp"
         },
         {
           "name": "ライフネット生命保険",
           "listing": {
             "market": "東証プライム",
             "code": "7157"
-          }
+          },
+          "url": "https://www.lifenet-seimei.co.jp./"
         },
         {
           "name": "アニコム ホールディングス",
@@ -1382,14 +1489,16 @@
             "market": "東証プライム",
             "code": "8715"
           },
-          "note": "ペット保険"
+          "note": "ペット保険",
+          "url": "http://www.anicom.co.jp/"
         },
         {
           "name": "ソニーフィナンシャルグループ",
           "listing": {
             "market": "東証プライム",
             "code": "8729"
-          }
+          },
+          "url": "https://www.sonyfg.co.jp/"
         },
         {
           "name": "SBIインシュアランスグループ",
@@ -1405,7 +1514,8 @@
           "salary": {
             "man_jpy": 929,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://www.sbiig.co.jp"
         },
         {
           "name": "FPパートナー",
@@ -1413,7 +1523,8 @@
             "market": "東証プライム",
             "code": "7388"
           },
-          "note": "保険代理店"
+          "note": "保険代理店",
+          "url": "https://www.fpp.jp/"
         },
         {
           "name": "アドバンスクリエイト",
@@ -1421,7 +1532,8 @@
             "market": "東証プライム",
             "code": "8798"
           },
-          "note": "保険代理店"
+          "note": "保険代理店",
+          "url": "http://www.advancecreate.co.jp/"
         },
         {
           "name": "ブロードマインド",
@@ -1429,7 +1541,8 @@
             "market": "東証グロース",
             "code": "7343"
           },
-          "note": "保険代理店"
+          "note": "保険代理店",
+          "url": "https://www.b-minded.com/"
         },
         {
           "name": "アイリックコーポレーション",
@@ -1437,7 +1550,8 @@
             "market": "東証グロース",
             "code": "7325"
           },
-          "note": "保険ショップ"
+          "note": "保険ショップ",
+          "url": "https://www.irrc.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -1542,49 +1656,56 @@
           "salary": {
             "man_jpy": 1039,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "http://www.orix.co.jp/"
         },
         {
           "name": "三菱HCキャピタル",
           "listing": {
             "market": "東証プライム",
             "code": "8593"
-          }
+          },
+          "url": "http://www.lf.mufg.jp/"
         },
         {
           "name": "東京センチュリー",
           "listing": {
             "market": "東証プライム",
             "code": "8439"
-          }
+          },
+          "url": "https://www.tokyocentury.co.jp/jp/"
         },
         {
           "name": "芙蓉総合リース",
           "listing": {
             "market": "東証プライム",
             "code": "8424"
-          }
+          },
+          "url": "http://www.fgl.co.jp/"
         },
         {
           "name": "みずほリース",
           "listing": {
             "market": "東証プライム",
             "code": "8425"
-          }
+          },
+          "url": "https://www.mizuho-ls.co.jp/"
         },
         {
           "name": "リコーリース",
           "listing": {
             "market": "東証プライム",
             "code": "8566"
-          }
+          },
+          "url": "http://www.r-lease.co.jp/"
         },
         {
           "name": "クレディセゾン",
           "listing": {
             "market": "東証プライム",
             "code": "8253"
-          }
+          },
+          "url": "http://www.saisoncard.co.jp/"
         },
         {
           "name": "アコム",
@@ -1600,42 +1721,48 @@
           "salary": {
             "man_jpy": 690,
             "fy": "2025年3月期"
-          }
+          },
+          "url": "https://www.acom.co.jp/"
         },
         {
           "name": "ジャックス",
           "listing": {
             "market": "東証プライム",
             "code": "8584"
-          }
+          },
+          "url": "http://www.jaccs.co.jp/"
         },
         {
           "name": "イオンフィナンシャルサービス",
           "listing": {
             "market": "東証プライム",
             "code": "8570"
-          }
+          },
+          "url": "http://www.aeonfinancial.co.jp/"
         },
         {
           "name": "オリエントコーポレーション",
           "listing": {
             "market": "東証プライム",
             "code": "8585"
-          }
+          },
+          "url": "http://www.orico.co.jp/"
         },
         {
           "name": "全国保証",
           "listing": {
             "market": "東証プライム",
             "code": "7164"
-          }
+          },
+          "url": "https://www.zenkoku.co.jp/"
         },
         {
           "name": "プレミアグループ",
           "listing": {
             "market": "東証プライム",
             "code": "7199"
-          }
+          },
+          "url": "https://www.premium-group.co.jp/"
         },
         {
           "name": "日本証券金融",
@@ -1643,21 +1770,24 @@
             "market": "東証プライム",
             "code": "8511"
           },
-          "note": "証券金融"
+          "note": "証券金融",
+          "url": "https://www.jsf.co.jp/"
         },
         {
           "name": "NECキャピタルソリューション",
           "listing": {
             "market": "東証プライム",
             "code": "8793"
-          }
+          },
+          "url": "http://www.necap.co.jp"
         },
         {
           "name": "九州リースサービス",
           "listing": {
             "market": "東証スタンダード",
             "code": "8596"
-          }
+          },
+          "url": "http://www.k-lease.co.jp/"
         },
         {
           "name": "Jトラスト",
@@ -1673,56 +1803,64 @@
           "salary": {
             "man_jpy": 991,
             "fy": "2025年12月期"
-          }
+          },
+          "url": "http://www.jt-corp.co.jp/"
         },
         {
           "name": "ジェイリース",
           "listing": {
             "market": "東証プライム",
             "code": "7187"
-          }
+          },
+          "url": "https://www.j-lease.jp/"
         },
         {
           "name": "イントラスト",
           "listing": {
             "market": "東証スタンダード",
             "code": "7191"
-          }
+          },
+          "url": "https://www.entrust-inc.jp/"
         },
         {
           "name": "全保連",
           "listing": {
             "market": "東証スタンダード",
             "code": "5845"
-          }
+          },
+          "url": "https://www.zenhoren.jp/"
         },
         {
           "name": "あんしん保証",
           "listing": {
             "market": "東証スタンダード",
             "code": "7183"
-          }
+          },
+          "url": "https://anshin-hosho.co.jp/"
         },
         {
           "name": "イー・ギャランティ",
           "listing": {
             "market": "東証プライム",
             "code": "8771"
-          }
+          },
+          "url": "http://www.eguarantee.co.jp/"
         },
         {
           "name": "SBIアルヒ",
           "listing": {
             "market": "東証プライム",
             "code": "7198"
-          }
+          },
+          "url": "https://www.sbiaruhi.co.jp/"
         },
         {
           "name": "ネットプロテクションズホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "7383"
-          }
+          },
+          "url": "https://www.netprotections.com/"
         },
         {
           "name": "フィンテック グローバル",
@@ -1747,7 +1885,8 @@
           "salary": {
             "man_jpy": 1132,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://www.sbils.co.jp/"
         },
         {
           "name": "日本モーゲージサービス",
@@ -1755,7 +1894,8 @@
             "market": "東証スタンダード",
             "code": "7192"
           },
-          "note": "住宅ローン保証"
+          "note": "住宅ローン保証",
+          "url": "https://www.m-s-j.jp/"
         },
         {
           "name": "Casa",
@@ -1763,7 +1903,8 @@
             "market": "東証スタンダード",
             "code": "7196"
           },
-          "note": "家賃債務保証"
+          "note": "家賃債務保証",
+          "url": "https://casa-inc.co.jp/"
         },
         {
           "name": "ニッポンインシュア",
@@ -1771,7 +1912,8 @@
             "market": "東証スタンダード",
             "code": "5843"
           },
-          "note": "家賃債務保証"
+          "note": "家賃債務保証",
+          "url": "https://www.nipponinsure.jp/"
         },
         {
           "name": "アサックス",
@@ -1779,7 +1921,8 @@
             "market": "東証スタンダード",
             "code": "8772"
           },
-          "note": "不動産担保ローン"
+          "note": "不動産担保ローン",
+          "url": "http://www.asax.co.jp/"
         },
         {
           "name": "MFS",
@@ -1787,7 +1930,8 @@
             "market": "東証グロース",
             "code": "196A"
           },
-          "note": "住宅ローン比較(モゲチェック)"
+          "note": "住宅ローン比較(モゲチェック)",
+          "url": "https://mortgagefss.jp/"
         },
         {
           "name": "メタプラネット",
@@ -1804,7 +1948,8 @@
           "salary": {
             "man_jpy": 1600,
             "fy": "2025年12月期"
-          }
+          },
+          "url": "https://metaplanet.jp/"
         },
         {
           "name": "Bitcoin Japan",
@@ -1812,7 +1957,8 @@
             "market": "東証スタンダード",
             "code": "8105"
           },
-          "note": "ビットコイン保有"
+          "note": "ビットコイン保有",
+          "url": "https://www.hotta-marusho.co.jp/"
         },
         {
           "name": "イチネンホールディングス",
@@ -1820,7 +1966,8 @@
             "market": "東証プライム",
             "code": "9619"
           },
-          "note": "車両リース・工具"
+          "note": "車両リース・工具",
+          "url": "http://www.ichinenhd.co.jp/"
         },
         {
           "name": "ウェッジホールディングス",
@@ -1828,7 +1975,8 @@
             "market": "東証グロース",
             "code": "2388"
           },
-          "note": "タイ二輪ファイナンス"
+          "note": "タイ二輪ファイナンス",
+          "url": "http://www.wedge-hd.com/"
         },
         {
           "name": "山田再生系債権回収総合事務所",
@@ -1836,7 +1984,8 @@
             "market": "東証スタンダード",
             "code": "4351"
           },
-          "note": "債権回収(サービサー)"
+          "note": "債権回収(サービサー)",
+          "url": "https://www.yamada-servicer.co.jp/"
         },
         {
           "name": "HODL1",
@@ -1844,7 +1993,8 @@
             "market": "東証スタンダード",
             "code": "2345"
           },
-          "note": "暗号資産関連"
+          "note": "暗号資産関連",
+          "url": "https://hodl1.jp/"
         },
         {
           "name": "マーチャント・バンカーズ",
@@ -1852,7 +2002,8 @@
             "market": "東証スタンダード",
             "code": "3121"
           },
-          "note": "投資・ホテル運営"
+          "note": "投資・ホテル運営",
+          "url": "http://mbkworld.co.jp/"
         },
         {
           "name": "UNIVA・Oakホールディングス",
@@ -1860,7 +2011,8 @@
             "market": "東証スタンダード",
             "code": "3113"
           },
-          "note": "投資銀行・美容・エネルギー"
+          "note": "投資銀行・美容・エネルギー",
+          "url": "https://univahld.com/"
         },
         {
           "name": "NSグループ",
@@ -1876,7 +2028,8 @@
             "market": "東証プライム",
             "code": "547A"
           },
-          "note": "消費者金融(旧アイフル)"
+          "note": "消費者金融(旧アイフル)",
+          "url": "https://www.muninova.co.jp/"
         },
         {
           "name": "Solvvy",
@@ -1884,7 +2037,8 @@
             "market": "東証グロース",
             "code": "7320"
           },
-          "note": "住宅設備保証・SAaaS"
+          "note": "住宅設備保証・SAaaS",
+          "url": "https://solvvy.co.jp/"
         },
         {
           "name": "unbanked",
@@ -1892,7 +2046,8 @@
             "market": "東証スタンダード",
             "code": "8746"
           },
-          "note": "金地金・Web3(旧第一商品)"
+          "note": "金地金・Web3(旧第一商品)",
+          "url": "https://unbanked.jp/"
         },
         {
           "name": "abc",
@@ -1900,7 +2055,8 @@
             "market": "東証スタンダード",
             "code": "8783"
           },
-          "note": "金融アドバイザリー・不動産投資"
+          "note": "金融アドバイザリー・不動産投資",
+          "url": "https://abc-chain.com/"
         },
         {
           "name": "D&Mカンパニー",
@@ -1908,7 +2064,8 @@
             "market": "東証グロース",
             "code": "189A"
           },
-          "note": "医療機関ファクタリング・経営支援"
+          "note": "医療機関ファクタリング・経営支援",
+          "url": "http://www.dmsupporter.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -1939,7 +2096,8 @@
           "listing": {
             "market": "東証プライム",
             "code": "8697"
-          }
+          },
+          "url": "https://www.jpx.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -1974,7 +2132,8 @@
             "market": "プライム",
             "code": "7164"
           },
-          "note": "住宅ローン保証の独立系最大手"
+          "note": "住宅ローン保証の独立系最大手",
+          "url": "https://www.zenkoku.co.jp/"
         },
         {
           "name": "イー・ギャランティ",
@@ -1982,7 +2141,8 @@
             "market": "プライム",
             "code": "8771"
           },
-          "note": "売掛債権保証"
+          "note": "売掛債権保証",
+          "url": "http://www.eguarantee.co.jp/"
         }
       ],
       "updated": "2026-07-24",

@@ -88,7 +88,8 @@
               "publisher": "日立製作所",
               "date": "2021-01-06"
             }
-          ]
+          ],
+          "url": "https://www.hitachi.com/"
         },
         {
           "name": "三菱電機",
@@ -105,7 +106,8 @@
           "salary": {
             "man_jpy": 913,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://www.mitsubishielectric.co.jp/"
         },
         {
           "name": "ソニーグループ",
@@ -140,7 +142,8 @@
               "publisher": "KADOKAWA",
               "date": "2024-12-19"
             }
-          ]
+          ],
+          "url": "https://www.sony.co.in/"
         },
         {
           "name": "富士通",
@@ -157,7 +160,8 @@
           "salary": {
             "man_jpy": 1012,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://global.fujitsu"
         },
         {
           "name": "シャープ",
@@ -174,7 +178,8 @@
           "salary": {
             "man_jpy": 753,
             "fy": "2025年3月期"
-          }
+          },
+          "url": "https://global.sharp"
         },
         {
           "name": "日本電気",
@@ -191,7 +196,8 @@
           "salary": {
             "man_jpy": 993,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://www.nec.com/"
         },
         {
           "name": "パナソニック ホールディングス",
@@ -207,42 +213,48 @@
           "salary": {
             "man_jpy": 988,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://holdings.panasonic/"
         },
         {
           "name": "カシオ計算機",
           "listing": {
             "market": "東証プライム",
             "code": "6952"
-          }
+          },
+          "url": "http://world.casio.com/"
         },
         {
           "name": "ブラザー工業",
           "listing": {
             "market": "東証プライム",
             "code": "6448"
-          }
+          },
+          "url": "https://global.brother/"
         },
         {
           "name": "JVCケンウッド",
           "listing": {
             "market": "東証プライム",
             "code": "6632"
-          }
+          },
+          "url": "https://it.wikipedia.org/wiki/utente:Elwood"
         },
         {
           "name": "日清紡ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3105"
-          }
+          },
+          "url": "http://www.nisshinbo.co.jp/"
         },
         {
           "name": "沖電気工業",
           "listing": {
             "market": "東証プライム",
             "code": "6703"
-          }
+          },
+          "url": "http://www.oki.com"
         }
       ],
       "updated": "2026-07-23",
@@ -273,7 +285,8 @@
           "salary": {
             "man_jpy": 838,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://www.murata.com/ja-jp"
         },
         {
           "name": "TDK",
@@ -289,98 +302,112 @@
           "salary": {
             "man_jpy": 921,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://www.tdk.com/"
         },
         {
           "name": "京セラ",
           "listing": {
             "market": "東証プライム",
             "code": "6971"
-          }
+          },
+          "url": "https://global.kyocera.com/"
         },
         {
           "name": "太陽誘電",
           "listing": {
             "market": "東証プライム",
             "code": "6976"
-          }
+          },
+          "url": "http://www.ty-top.com"
         },
         {
           "name": "アルプスアルパイン",
           "listing": {
             "market": "東証プライム",
             "code": "6770"
-          }
+          },
+          "url": "https://www.alpsalpine.com/"
         },
         {
           "name": "ミネベアミツミ",
           "listing": {
             "market": "東証プライム",
             "code": "6479"
-          }
+          },
+          "url": "https://www.minebeamitsumi.com/"
         },
         {
           "name": "マブチモーター",
           "listing": {
             "market": "東証プライム",
             "code": "6592"
-          }
+          },
+          "url": "http://www.mabuchi-motor.co.jp/"
         },
         {
           "name": "日本航空電子工業",
           "listing": {
             "market": "東証プライム",
             "code": "6807"
-          }
+          },
+          "url": "http://www.jae.com/"
         },
         {
           "name": "ヒロセ電機",
           "listing": {
             "market": "東証プライム",
             "code": "6806"
-          }
+          },
+          "url": "https://www.hirose.com/?lang=en"
         },
         {
           "name": "日本ケミコン",
           "listing": {
             "market": "東証プライム",
             "code": "6997"
-          }
+          },
+          "url": "https://www.chemi-con.co.jp/"
         },
         {
           "name": "ニチコン",
           "listing": {
             "market": "東証プライム",
             "code": "6996"
-          }
+          },
+          "url": "http://www.nichicon.co.jp/"
         },
         {
           "name": "フォスター電機",
           "listing": {
             "market": "東証プライム",
             "code": "6794"
-          }
+          },
+          "url": "http://www.foster.co.jp/"
         },
         {
           "name": "SMK",
           "listing": {
             "market": "東証プライム",
             "code": "6798"
-          }
+          },
+          "url": "http://www.smk.co.jp/"
         },
         {
           "name": "ホシデン",
           "listing": {
             "market": "東証プライム",
             "code": "6804"
-          }
+          },
+          "url": "http://www.hosiden.co.jp/"
         },
         {
           "name": "エレコム",
           "listing": {
             "market": "東証プライム",
             "code": "6750"
-          }
+          },
+          "url": "http://www.elecom.co.jp/"
         },
         {
           "name": "ニッポン高度紙工業",
@@ -396,14 +423,16 @@
           "salary": {
             "man_jpy": 772,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "http://www.kodoshi.co.jp/"
         },
         {
           "name": "タムラ製作所",
           "listing": {
             "market": "東証プライム",
             "code": "6768"
-          }
+          },
+          "url": "http://www.tamura-ss.co.jp/"
         },
         {
           "name": "メイコー",
@@ -411,42 +440,48 @@
             "market": "東証プライム",
             "code": "6787"
           },
-          "note": "プリント基板"
+          "note": "プリント基板",
+          "url": "https://www.meiko-elec.com/"
         },
         {
           "name": "イリソ電子工業",
           "listing": {
             "market": "東証プライム",
             "code": "6908"
-          }
+          },
+          "url": "http://www.iriso.co.jp/"
         },
         {
           "name": "日本セラミック",
           "listing": {
             "market": "東証プライム",
             "code": "6929"
-          }
+          },
+          "url": "http://www.nicera.co.jp/"
         },
         {
           "name": "山一電機",
           "listing": {
             "market": "東証プライム",
             "code": "6941"
-          }
+          },
+          "url": "http://www.yamaichi.co.jp"
         },
         {
           "name": "KOA",
           "listing": {
             "market": "東証プライム",
             "code": "6999"
-          }
+          },
+          "url": "https://www.koaglobal.com"
         },
         {
           "name": "山洋電気",
           "listing": {
             "market": "東証プライム",
             "code": "6516"
-          }
+          },
+          "url": "https://www.sanyodenki.com/"
         },
         {
           "name": "帝国通信工業",
@@ -461,35 +496,40 @@
             "market": "東証プライム",
             "code": "6779"
           },
-          "note": "水晶デバイス"
+          "note": "水晶デバイス",
+          "url": "http://www.ndk.com/"
         },
         {
           "name": "スミダコーポレーション",
           "listing": {
             "market": "東証プライム",
             "code": "6817"
-          }
+          },
+          "url": "https://www.sumida.com/"
         },
         {
           "name": "新電元工業",
           "listing": {
             "market": "東証プライム",
             "code": "6844"
-          }
+          },
+          "url": "http://www.shindengen.co.jp/"
         },
         {
           "name": "コーセル",
           "listing": {
             "market": "東証プライム",
             "code": "6905"
-          }
+          },
+          "url": "http://www.cosel.co.jp/"
         },
         {
           "name": "千代田インテグレ",
           "listing": {
             "market": "東証スタンダード",
             "code": "6915"
-          }
+          },
+          "url": "http://www.chiyoda-i.co.jp/"
         },
         {
           "name": "日本シイエムケイ",
@@ -497,14 +537,16 @@
             "market": "東証プライム",
             "code": "6958"
           },
-          "note": "プリント基板"
+          "note": "プリント基板",
+          "url": "http://www.cmk-corp.com/"
         },
         {
           "name": "エンプラス",
           "listing": {
             "market": "東証プライム",
             "code": "6961"
-          }
+          },
+          "url": "http://www.enplas.co.jp/"
         },
         {
           "name": "大真空",
@@ -512,21 +554,24 @@
             "market": "東証プライム",
             "code": "6962"
           },
-          "note": "水晶デバイス"
+          "note": "水晶デバイス",
+          "url": "http://www.kds.info/"
         },
         {
           "name": "双葉電子工業",
           "listing": {
             "market": "東証プライム",
             "code": "6986"
-          }
+          },
+          "url": "http://www.futaba.co.jp/"
         },
         {
           "name": "平河ヒューテック",
           "listing": {
             "market": "東証プライム",
             "code": "5821"
-          }
+          },
+          "url": "http://www.hewtech.co.jp/"
         },
         {
           "name": "BUFFALO",
@@ -534,14 +579,16 @@
             "market": "東証スタンダード",
             "code": "6676"
           },
-          "note": "PC周辺機器"
+          "note": "PC周辺機器",
+          "url": "https://melco-hd.jp/"
         },
         {
           "name": "ケル",
           "listing": {
             "market": "東証スタンダード",
             "code": "6919"
-          }
+          },
+          "url": "http://www.kel.jp/"
         },
         {
           "name": "精工技研",
@@ -557,14 +604,16 @@
           "salary": {
             "man_jpy": 590,
             "fy": "2025年3月期"
-          }
+          },
+          "url": "http://www.seikoh-giken.co.jp/"
         },
         {
           "name": "三社電機製作所",
           "listing": {
             "market": "東証スタンダード",
             "code": "6882"
-          }
+          },
+          "url": "https://www.sansha.co.jp/"
         },
         {
           "name": "指月電機製作所",
@@ -572,21 +621,24 @@
             "market": "東証スタンダード",
             "code": "6994"
           },
-          "note": "コンデンサ"
+          "note": "コンデンサ",
+          "url": "https://www.shizuki.co.jp/"
         },
         {
           "name": "北陸電気工業",
           "listing": {
             "market": "東証スタンダード",
             "code": "6989"
-          }
+          },
+          "url": "http://www.hdk.co.jp/"
         },
         {
           "name": "オリジン",
           "listing": {
             "market": "東証スタンダード",
             "code": "6513"
-          }
+          },
+          "url": "http://www.origin.co.jp/"
         },
         {
           "name": "湖北工業",
@@ -603,7 +655,8 @@
           "salary": {
             "man_jpy": 713,
             "fy": "2025年12月期"
-          }
+          },
+          "url": "https://www.kohokukogyo.co.jp/"
         },
         {
           "name": "santec Holdings",
@@ -619,7 +672,8 @@
           "salary": {
             "man_jpy": 620,
             "fy": "2025年3月期"
-          }
+          },
+          "url": "https://www.santec.com/jp/"
         },
         {
           "name": "カナレ電気",
@@ -627,7 +681,8 @@
             "market": "東証スタンダード",
             "code": "5819"
           },
-          "note": "映像・音響ケーブル"
+          "note": "映像・音響ケーブル",
+          "url": "http://www.canare.co.jp/"
         },
         {
           "name": "ムトー精工",
@@ -635,7 +690,8 @@
             "market": "東証スタンダード",
             "code": "7927"
           },
-          "note": "精密樹脂部品"
+          "note": "精密樹脂部品",
+          "url": "http://www.muto.co.jp/"
         },
         {
           "name": "アルメディオ",
@@ -643,7 +699,8 @@
             "market": "東証スタンダード",
             "code": "7859"
           },
-          "note": "光ディスク・素材"
+          "note": "光ディスク・素材",
+          "url": "http://www.almedio.co.jp/"
         },
         {
           "name": "朝日ラバー",
@@ -651,7 +708,8 @@
             "market": "東証スタンダード",
             "code": "5162"
           },
-          "note": "特殊ゴム(医療・LED)"
+          "note": "特殊ゴム(医療・LED)",
+          "url": "http://www.asahi-rubber.co.jp"
         },
         {
           "name": "リード",
@@ -667,7 +725,8 @@
             "market": "東証スタンダード",
             "code": "6518"
           },
-          "note": "小型モーター・ポンプ"
+          "note": "小型モーター・ポンプ",
+          "url": "https://www.sanso-elec.co.jp"
         },
         {
           "name": "SEMITEC",
@@ -675,7 +734,8 @@
             "market": "東証スタンダード",
             "code": "6626"
           },
-          "note": "サーミスタ"
+          "note": "サーミスタ",
+          "url": "http://www.semitec.co.jp/"
         },
         {
           "name": "シライ電子工業",
@@ -683,7 +743,8 @@
             "market": "東証スタンダード",
             "code": "6658"
           },
-          "note": "プリント基板"
+          "note": "プリント基板",
+          "url": "https://www.shiraidenshi.co.jp/"
         },
         {
           "name": "京写",
@@ -691,7 +752,8 @@
             "market": "東証スタンダード",
             "code": "6837"
           },
-          "note": "プリント基板"
+          "note": "プリント基板",
+          "url": "http://www.kyosha.co.jp/"
         },
         {
           "name": "東京コスモス電機",
@@ -699,7 +761,8 @@
             "market": "東証スタンダード",
             "code": "6772"
           },
-          "note": "可変抵抗器"
+          "note": "可変抵抗器",
+          "url": "http://www.tocos-j.co.jp/"
         },
         {
           "name": "岡谷電機産業",
@@ -707,7 +770,8 @@
             "market": "東証スタンダード",
             "code": "6926"
           },
-          "note": "ノイズ対策部品"
+          "note": "ノイズ対策部品",
+          "url": "https://www.okayaelec.co.jp"
         },
         {
           "name": "松尾電機",
@@ -723,7 +787,8 @@
             "market": "東証スタンダード",
             "code": "6977"
           },
-          "note": "抵抗器"
+          "note": "抵抗器",
+          "url": "http://www.jrm.co.jp/"
         },
         {
           "name": "NKKスイッチズ",
@@ -731,7 +796,8 @@
             "market": "東証スタンダード",
             "code": "6943"
           },
-          "note": "スイッチ"
+          "note": "スイッチ",
+          "url": "https://www.nkkswitches.co.jp/"
         },
         {
           "name": "リバーエレテック",
@@ -739,7 +805,8 @@
             "market": "東証スタンダード",
             "code": "6666"
           },
-          "note": "水晶デバイス"
+          "note": "水晶デバイス",
+          "url": "http://www.river-ele.co.jp/"
         },
         {
           "name": "大日光・エンジニアリング",
@@ -755,7 +822,8 @@
             "market": "東証プライム",
             "code": "6615"
           },
-          "note": "EMS"
+          "note": "EMS",
+          "url": "https://www.umc.co.jp/"
         },
         {
           "name": "エブレン",
@@ -763,7 +831,8 @@
             "market": "東証スタンダード",
             "code": "6599"
           },
-          "note": "産業用コンピュータ"
+          "note": "産業用コンピュータ",
+          "url": "https://ebrain.co.jp/"
         },
         {
           "name": "シキノハイテック",
@@ -771,7 +840,8 @@
             "market": "東証スタンダード",
             "code": "6614"
           },
-          "note": "画像処理・LSI検証"
+          "note": "画像処理・LSI検証",
+          "url": "http://www.shikino.co.jp/"
         },
         {
           "name": "アバールデータ",
@@ -779,7 +849,8 @@
             "market": "東証スタンダード",
             "code": "6918"
           },
-          "note": "画像処理ボード"
+          "note": "画像処理ボード",
+          "url": "http://www.avaldata.co.jp"
         },
         {
           "name": "RVH",
@@ -787,7 +858,8 @@
             "market": "東証スタンダード",
             "code": "6786"
           },
-          "note": "EMS・車載"
+          "note": "EMS・車載",
+          "url": "http://rvh.jp/"
         },
         {
           "name": "日本プリメックス",
@@ -795,7 +867,8 @@
             "market": "東証スタンダード",
             "code": "2795"
           },
-          "note": "ミニプリンタ"
+          "note": "ミニプリンタ",
+          "url": "https://www.primex.co.jp/"
         },
         {
           "name": "ミナトホールディングス",
@@ -803,7 +876,8 @@
             "market": "東証スタンダード",
             "code": "6862"
           },
-          "note": "ROM書込・機器"
+          "note": "ROM書込・機器",
+          "url": "http://www.minato.co.jp"
         },
         {
           "name": "鈴木",
@@ -811,7 +885,8 @@
             "market": "東証プライム",
             "code": "6785"
           },
-          "note": "自動車端子・精密部品"
+          "note": "自動車端子・精密部品",
+          "url": "http://www.suzukinet.co.jp/"
         },
         {
           "name": "トミタ電機",
@@ -819,7 +894,8 @@
             "market": "東証スタンダード",
             "code": "6898"
           },
-          "note": "フェライトコア"
+          "note": "フェライトコア",
+          "url": "http://www.tomita-electric.com/"
         },
         {
           "name": "AKIBAホールディングス",
@@ -827,7 +903,8 @@
             "market": "東証スタンダード",
             "code": "6840"
           },
-          "note": "メモリモジュール・HPC"
+          "note": "メモリモジュール・HPC",
+          "url": "http://www.akiba-holdings.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -868,168 +945,192 @@
           "salary": {
             "man_jpy": 2178,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://www.keyence.com/"
         },
         {
           "name": "オムロン",
           "listing": {
             "market": "東証プライム",
             "code": "6645"
-          }
+          },
+          "url": "https://www.omron.co.jp/"
         },
         {
           "name": "横河電機",
           "listing": {
             "market": "東証プライム",
             "code": "6841"
-          }
+          },
+          "url": "http://www.yokogawa.com"
         },
         {
           "name": "島津製作所",
           "listing": {
             "market": "東証プライム",
             "code": "7701"
-          }
+          },
+          "url": "http://www.shimadzu.co.jp/"
         },
         {
           "name": "堀場製作所",
           "listing": {
             "market": "東証プライム",
             "code": "6856"
-          }
+          },
+          "url": "http://www.jp.horiba.com/"
         },
         {
           "name": "IDEC",
           "listing": {
             "market": "東証プライム",
             "code": "6652"
-          }
+          },
+          "url": "https://jp.idec.com/"
         },
         {
           "name": "日置電機",
           "listing": {
             "market": "東証プライム",
             "code": "6866"
-          }
+          },
+          "url": "http://www.hioki.co.jp/"
         },
         {
           "name": "アンリツ",
           "listing": {
             "market": "東証プライム",
             "code": "6754"
-          }
+          },
+          "url": "https://www.anritsu.com/"
         },
         {
           "name": "東京精密",
           "listing": {
             "market": "東証プライム",
             "code": "7729"
-          }
+          },
+          "url": "https://www.accretech.com/jp/"
         },
         {
           "name": "ウシオ電機",
           "listing": {
             "market": "東証プライム",
             "code": "6925"
-          }
+          },
+          "url": "http://www.ushio.co.jp/"
         },
         {
           "name": "日本信号",
           "listing": {
             "market": "東証プライム",
             "code": "6741"
-          }
+          },
+          "url": "http://www.signal.co.jp/"
         },
         {
           "name": "京三製作所",
           "listing": {
             "market": "東証プライム",
             "code": "6742"
-          }
+          },
+          "url": "https://www.kyosan.co.jp/"
         },
         {
           "name": "TOA",
           "listing": {
             "market": "東証プライム",
             "code": "6809"
-          }
+          },
+          "url": "http://www.toa.co.jp/"
         },
         {
           "name": "アイコム",
           "listing": {
             "market": "東証プライム",
             "code": "6820"
-          }
+          },
+          "url": "https://www.icom.co.jp/"
         },
         {
           "name": "リガク・ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "268A"
-          }
+          },
+          "url": "https://rigaku-holdings.com/"
         },
         {
           "name": "東京計器",
           "listing": {
             "market": "東証プライム",
             "code": "7721"
-          }
+          },
+          "url": "http://www.tokyo-keiki.co.jp/"
         },
         {
           "name": "長野計器",
           "listing": {
             "market": "東証プライム",
             "code": "7715"
-          }
+          },
+          "url": "http://www.naganokeiki.co.jp/"
         },
         {
           "name": "理研計器",
           "listing": {
             "market": "東証プライム",
             "code": "7734"
-          }
+          },
+          "url": "https://www.rikenkeiki.co.jp/"
         },
         {
           "name": "A&Dホロンホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "7745"
-          }
+          },
+          "url": "http://www.aandd.co.jp/"
         },
         {
           "name": "IMV",
           "listing": {
             "market": "東証スタンダード",
             "code": "7760"
-          }
+          },
+          "url": "http://www.imv.co.jp/"
         },
         {
           "name": "オーバル",
           "listing": {
             "market": "東証スタンダード",
             "code": "7727"
-          }
+          },
+          "url": "http://www.oval.co.jp/"
         },
         {
           "name": "愛知時計電機",
           "listing": {
             "market": "東証プライム",
             "code": "7723"
-          }
+          },
+          "url": "http://www.aichitokei.co.jp/"
         },
         {
           "name": "シグマ光機",
           "listing": {
             "market": "東証スタンダード",
             "code": "7713"
-          }
+          },
+          "url": "https://www.sigma-koki.com/"
         },
         {
           "name": "ブイ・テクノロジー",
           "listing": {
             "market": "東証プライム",
             "code": "7717"
-          }
+          },
+          "url": "http://www.vtec.co.jp/"
         },
         {
           "name": "アズビル",
@@ -1037,7 +1138,8 @@
             "market": "東証プライム",
             "code": "6845"
           },
-          "note": "ビル計装"
+          "note": "ビル計装",
+          "url": "http://www.azbil.com/jp"
         },
         {
           "name": "日本電子",
@@ -1045,14 +1147,16 @@
             "market": "東証プライム",
             "code": "6951"
           },
-          "note": "電子顕微鏡"
+          "note": "電子顕微鏡",
+          "url": "http://www.jeol.com/"
         },
         {
           "name": "シンフォニアテクノロジー",
           "listing": {
             "market": "東証プライム",
             "code": "6507"
-          }
+          },
+          "url": "http://www.sinfo-t.jp/"
         },
         {
           "name": "能美防災",
@@ -1060,7 +1164,8 @@
             "market": "東証プライム",
             "code": "6744"
           },
-          "note": "防災設備"
+          "note": "防災設備",
+          "url": "https://www.nohmi.co.jp"
         },
         {
           "name": "古野電気",
@@ -1068,7 +1173,8 @@
             "market": "東証プライム",
             "code": "6814"
           },
-          "note": "舶用電子機器"
+          "note": "舶用電子機器",
+          "url": "http://www.furuno.co.jp/en/index.html"
         },
         {
           "name": "エスペック",
@@ -1076,14 +1182,16 @@
             "market": "東証プライム",
             "code": "6859"
           },
-          "note": "環境試験器"
+          "note": "環境試験器",
+          "url": "https://www.espec.co.jp/"
         },
         {
           "name": "オプテックスグループ",
           "listing": {
             "market": "東証プライム",
             "code": "6914"
-          }
+          },
+          "url": "http://www.optex.co.jp/group/"
         },
         {
           "name": "あい ホールディングス",
@@ -1091,7 +1199,8 @@
             "market": "東証プライム",
             "code": "3076"
           },
-          "note": "セキュリティ機器"
+          "note": "セキュリティ機器",
+          "url": "https://www.ai-holdings.co.jp/"
         },
         {
           "name": "大崎電気工業",
@@ -1099,7 +1208,8 @@
             "market": "東証プライム",
             "code": "6644"
           },
-          "note": "スマートメーター"
+          "note": "スマートメーター",
+          "url": "http://www.osaki.co.jp/"
         },
         {
           "name": "アイホン",
@@ -1107,7 +1217,8 @@
             "market": "東証プライム",
             "code": "6718"
           },
-          "note": "インターホン"
+          "note": "インターホン",
+          "url": "http://www.aiphone.co.jp/"
         },
         {
           "name": "ホーチキ",
@@ -1115,14 +1226,16 @@
             "market": "東証プライム",
             "code": "6745"
           },
-          "note": "防災設備"
+          "note": "防災設備",
+          "url": "http://www.hochiki.co.jp/"
         },
         {
           "name": "チノー",
           "listing": {
             "market": "東証プライム",
             "code": "6850"
-          }
+          },
+          "url": "http://www.chino.co.jp/"
         },
         {
           "name": "リオン",
@@ -1130,7 +1243,8 @@
             "market": "東証プライム",
             "code": "6823"
           },
-          "note": "補聴器・計測"
+          "note": "補聴器・計測",
+          "url": "http://www.rion.co.jp/"
         },
         {
           "name": "新コスモス電機",
@@ -1138,35 +1252,40 @@
             "market": "東証スタンダード",
             "code": "6824"
           },
-          "note": "ガス警報器"
+          "note": "ガス警報器",
+          "url": "http://www.new-cosmos.co.jp/"
         },
         {
           "name": "共和電業",
           "listing": {
             "market": "東証スタンダード",
             "code": "6853"
-          }
+          },
+          "url": "http://www.kyowa-ei.com/"
         },
         {
           "name": "小野測器",
           "listing": {
             "market": "東証スタンダード",
             "code": "6858"
-          }
+          },
+          "url": "http://www.onosokki.co.jp/"
         },
         {
           "name": "エヌエフホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "6864"
-          }
+          },
+          "url": "https://www.nfhd.co.jp/"
         },
         {
           "name": "ニレコ",
           "listing": {
             "market": "東証スタンダード",
             "code": "6863"
-          }
+          },
+          "url": "https://nireco.com"
         },
         {
           "name": "サクサ",
@@ -1174,7 +1293,8 @@
             "market": "東証スタンダード",
             "code": "6675"
           },
-          "note": "通信機器"
+          "note": "通信機器",
+          "url": "https://www.saxa.co.jp/"
         },
         {
           "name": "池上通信機",
@@ -1182,14 +1302,16 @@
             "market": "東証スタンダード",
             "code": "6771"
           },
-          "note": "放送機器"
+          "note": "放送機器",
+          "url": "http://www.ikegami.co.jp/"
         },
         {
           "name": "国際計測器",
           "listing": {
             "market": "東証スタンダード",
             "code": "7722"
-          }
+          },
+          "url": "https://www.kokusaikk.co.jp/"
         },
         {
           "name": "菊水ホールディングス",
@@ -1197,14 +1319,16 @@
             "market": "東証スタンダード",
             "code": "6912"
           },
-          "note": "計測電源"
+          "note": "計測電源",
+          "url": "https://global.kikusui.co.jp"
         },
         {
           "name": "日本アビオニクス",
           "listing": {
             "market": "東証スタンダード",
             "code": "6946"
-          }
+          },
+          "url": "http://www.avio.co.jp/"
         },
         {
           "name": "日本ドライケミカル",
@@ -1221,7 +1345,8 @@
           "salary": {
             "man_jpy": 723,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "http://www.ndc-group.co.jp/"
         },
         {
           "name": "櫻護謨",
@@ -1229,7 +1354,8 @@
             "market": "東証スタンダード",
             "code": "5189"
           },
-          "note": "消防ホース"
+          "note": "消防ホース",
+          "url": "https://www.sakura-rubber.co.jp/"
         },
         {
           "name": "寺崎電気産業",
@@ -1237,7 +1363,8 @@
             "market": "東証スタンダード",
             "code": "6637"
           },
-          "note": "船舶用配電盤"
+          "note": "船舶用配電盤",
+          "url": "http://www.terasaki.co.jp/"
         },
         {
           "name": "戸上電機製作所",
@@ -1245,7 +1372,8 @@
             "market": "東証スタンダード",
             "code": "6643"
           },
-          "note": "配電機器"
+          "note": "配電機器",
+          "url": "https://www.togami-elec.co.jp/"
         },
         {
           "name": "かわでん",
@@ -1253,7 +1381,8 @@
             "market": "東証スタンダード",
             "code": "6648"
           },
-          "note": "配電盤"
+          "note": "配電盤",
+          "url": "https://www.kawaden.co.jp/"
         },
         {
           "name": "正興電機製作所",
@@ -1261,7 +1390,8 @@
             "market": "東証プライム",
             "code": "6653"
           },
-          "note": "電力システム"
+          "note": "電力システム",
+          "url": "http://www.seiko-denki.co.jp/site/view/index.jsp"
         },
         {
           "name": "不二電機工業",
@@ -1277,7 +1407,8 @@
             "market": "東証スタンダード",
             "code": "6797"
           },
-          "note": "道路情報表示"
+          "note": "道路情報表示",
+          "url": "https://www.nagoya-denki.co.jp/"
         },
         {
           "name": "星和電機",
@@ -1285,7 +1416,8 @@
             "market": "東証スタンダード",
             "code": "6748"
           },
-          "note": "道路・産業照明"
+          "note": "道路・産業照明",
+          "url": "http://www.seiwa.co.jp/"
         },
         {
           "name": "アスタリスク",
@@ -1293,7 +1425,8 @@
             "market": "東証グロース",
             "code": "6522"
           },
-          "note": "自動認識"
+          "note": "自動認識",
+          "url": "https://astx.jp/"
         },
         {
           "name": "オプトエレクトロニクス",
@@ -1301,7 +1434,8 @@
             "market": "東証スタンダード",
             "code": "6664"
           },
-          "note": "バーコードリーダー"
+          "note": "バーコードリーダー",
+          "url": "http://home.opto.co.jp/"
         },
         {
           "name": "ユビテック",
@@ -1309,7 +1443,8 @@
             "market": "東証スタンダード",
             "code": "6662"
           },
-          "note": "IoT機器"
+          "note": "IoT機器",
+          "url": "https://www.ubiteq.co.jp/"
         },
         {
           "name": "リーダー電子",
@@ -1325,7 +1460,8 @@
             "market": "東証スタンダード",
             "code": "6894"
           },
-          "note": "計測装置"
+          "note": "計測装置",
+          "url": "https://www.pulstec.co.jp/"
         },
         {
           "name": "協立電機",
@@ -1341,7 +1477,8 @@
             "market": "東証スタンダード",
             "code": "6870"
           },
-          "note": "防災・半田装置"
+          "note": "防災・半田装置",
+          "url": "https://www.fenwal.co.jp"
         },
         {
           "name": "助川電気工業",
@@ -1349,7 +1486,8 @@
             "market": "東証スタンダード",
             "code": "7711"
           },
-          "note": "温度センサー"
+          "note": "温度センサー",
+          "url": "https://sukegawadenki.co.jp"
         },
         {
           "name": "東京衡機",
@@ -1357,7 +1495,8 @@
             "market": "東証スタンダード",
             "code": "7719"
           },
-          "note": "試験機"
+          "note": "試験機",
+          "url": "http://www.tksnet.co.jp/"
         },
         {
           "name": "シリウスビジョン",
@@ -1365,7 +1504,8 @@
             "market": "東証スタンダード",
             "code": "6276"
           },
-          "note": "検査・印字装置"
+          "note": "検査・印字装置",
+          "url": "https://siriusvision.jp/"
         },
         {
           "name": "テクノホライゾン",
@@ -1373,7 +1513,8 @@
             "market": "東証スタンダード",
             "code": "6629"
           },
-          "note": "映像技術・教育ICT"
+          "note": "映像技術・教育ICT",
+          "url": "http://www.technohorizon.co.jp/"
         },
         {
           "name": "東亜ディーケーケー",
@@ -1381,7 +1522,8 @@
             "market": "東証スタンダード",
             "code": "6848"
           },
-          "note": "環境分析計"
+          "note": "環境分析計",
+          "url": "https://www.toadkk.co.jp/"
         },
         {
           "name": "多摩川ホールディングス",
@@ -1389,7 +1531,8 @@
             "market": "東証スタンダード",
             "code": "6838"
           },
-          "note": "無線・宇宙機器"
+          "note": "無線・宇宙機器",
+          "url": "http://www.tmex.co.jp/"
         },
         {
           "name": "クボテック",
@@ -1429,35 +1572,40 @@
           "listing": {
             "market": "東証プライム",
             "code": "7751"
-          }
+          },
+          "url": "https://global.canon/"
         },
         {
           "name": "ニコン",
           "listing": {
             "market": "東証プライム",
             "code": "7731"
-          }
+          },
+          "url": "https://www.jp.nikon.com/"
         },
         {
           "name": "リコー",
           "listing": {
             "market": "東証プライム",
             "code": "7752"
-          }
+          },
+          "url": "https://jp.ricoh.com/"
         },
         {
           "name": "セイコーエプソン",
           "listing": {
             "market": "東証プライム",
             "code": "6724"
-          }
+          },
+          "url": "https://corporate.epson/"
         },
         {
           "name": "コニカミノルタ",
           "listing": {
             "market": "東証プライム",
             "code": "4902"
-          }
+          },
+          "url": "https://kmbs.konicaminolta.us/"
         },
         {
           "name": "HOYA",
@@ -1473,49 +1621,56 @@
           "salary": {
             "man_jpy": 970,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://www.hoya.com/"
         },
         {
           "name": "オリンパス",
           "listing": {
             "market": "東証プライム",
             "code": "7733"
-          }
+          },
+          "url": "http://www.olympus-global.com/"
         },
         {
           "name": "シチズン時計",
           "listing": {
             "market": "東証プライム",
             "code": "7762"
-          }
+          },
+          "url": "http://www.citizen.co.jp"
         },
         {
           "name": "セイコーグループ",
           "listing": {
             "market": "東証プライム",
             "code": "8050"
-          }
+          },
+          "url": "https://www.seiko.co.jp/"
         },
         {
           "name": "タムロン",
           "listing": {
             "market": "東証プライム",
             "code": "7740"
-          }
+          },
+          "url": "https://www.tamron.com/"
         },
         {
           "name": "リズム",
           "listing": {
             "market": "東証プライム",
             "code": "7769"
-          }
+          },
+          "url": "https://rhythm-rhythm.co.jp/"
         },
         {
           "name": "ノーリツ鋼機",
           "listing": {
             "market": "東証プライム",
             "code": "7744"
-          }
+          },
+          "url": "http://www.noritsu.co.jp/"
         },
         {
           "name": "オハラ",
@@ -1523,7 +1678,8 @@
             "market": "東証スタンダード",
             "code": "5218"
           },
-          "note": "光学ガラス"
+          "note": "光学ガラス",
+          "url": "http://www.ohara-inc.co.jp/"
         },
         {
           "name": "ミマキエンジニアリング",
@@ -1531,7 +1687,8 @@
             "market": "東証プライム",
             "code": "6638"
           },
-          "note": "業務用プリンタ"
+          "note": "業務用プリンタ",
+          "url": "http://www.mimaki.co.jp/"
         },
         {
           "name": "岡本硝子",
@@ -1539,7 +1696,8 @@
             "market": "東証スタンダード",
             "code": "7746"
           },
-          "note": "特殊ガラス"
+          "note": "特殊ガラス",
+          "url": "https://ogc-jp.com/"
         },
         {
           "name": "日本精密",
@@ -1547,7 +1705,8 @@
             "market": "東証スタンダード",
             "code": "7771"
           },
-          "note": "時計・精密部品"
+          "note": "時計・精密部品",
+          "url": "http://www.nihon-s.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -1579,28 +1738,32 @@
           "listing": {
             "market": "東証プライム",
             "code": "4543"
-          }
+          },
+          "url": "http://www.terumo.co.jp/"
         },
         {
           "name": "シスメックス",
           "listing": {
             "market": "東証プライム",
             "code": "6869"
-          }
+          },
+          "url": "https://www.sysmex.co.jp/"
         },
         {
           "name": "朝日インテック",
           "listing": {
             "market": "東証プライム",
             "code": "7747"
-          }
+          },
+          "url": "http://www.asahi-intecc.co.jp/"
         },
         {
           "name": "メニコン",
           "listing": {
             "market": "東証プライム",
             "code": "7780"
-          }
+          },
+          "url": "http://www.menicon.co.jp/"
         },
         {
           "name": "ナカニシ",
@@ -1616,14 +1779,16 @@
           "salary": {
             "man_jpy": 568,
             "fy": "2025年12月期"
-          }
+          },
+          "url": "http://www.nsk-nakanishi.co.jp/"
         },
         {
           "name": "オリンパス",
           "listing": {
             "market": "東証プライム",
             "code": "7733"
-          }
+          },
+          "url": "http://www.olympus-global.com/"
         },
         {
           "name": "シップヘルスケアホールディングス",
@@ -1637,7 +1802,8 @@
           "listing": {
             "market": "東証プライム",
             "code": "6849"
-          }
+          },
+          "url": "https://www.nihonkohden.com/"
         },
         {
           "name": "フクダ電子",
@@ -1653,105 +1819,120 @@
           "salary": {
             "man_jpy": 919,
             "fy": "2025年3月期"
-          }
+          },
+          "url": "http://www.fukuda.co.jp/index.html"
         },
         {
           "name": "日機装",
           "listing": {
             "market": "東証プライム",
             "code": "6376"
-          }
+          },
+          "url": "http://www.nikkiso.co.jp/"
         },
         {
           "name": "マニー",
           "listing": {
             "market": "東証プライム",
             "code": "7730"
-          }
+          },
+          "url": "https://mani.co.jp"
         },
         {
           "name": "メディキット",
           "listing": {
             "market": "東証スタンダード",
             "code": "7749"
-          }
+          },
+          "url": "http://www.medikit.co.jp/"
         },
         {
           "name": "JMS",
           "listing": {
             "market": "東証スタンダード",
             "code": "7702"
-          }
+          },
+          "url": "http://www.jms.cc/"
         },
         {
           "name": "クリエートメディック",
           "listing": {
             "market": "東証スタンダード",
             "code": "5187"
-          }
+          },
+          "url": "https://www.createmedic.co.jp"
         },
         {
           "name": "日本エム・ディ・エム",
           "listing": {
             "market": "東証プライム",
             "code": "7600"
-          }
+          },
+          "url": "http://www.jmdm.co.jp/"
         },
         {
           "name": "大研医器",
           "listing": {
             "market": "東証スタンダード",
             "code": "7775"
-          }
+          },
+          "url": "https://www.daiken-iki.co.jp/"
         },
         {
           "name": "シード",
           "listing": {
             "market": "東証スタンダード",
             "code": "7743"
-          }
+          },
+          "url": "http://www.seed.co.jp/"
         },
         {
           "name": "松風",
           "listing": {
             "market": "東証プライム",
             "code": "7979"
-          }
+          },
+          "url": "https://www.shofu.co.jp/"
         },
         {
           "name": "CYBERDYNE",
           "listing": {
             "market": "東証グロース",
             "code": "7779"
-          }
+          },
+          "url": "https://www.cyberdyne.jp/"
         },
         {
           "name": "ジャパン・ティッシュエンジニアリング",
           "listing": {
             "market": "東証グロース",
             "code": "7774"
-          }
+          },
+          "url": "http://www.jpte.co.jp/"
         },
         {
           "name": "PHCホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "6523"
-          }
+          },
+          "url": "https://www.phchd.com/global/"
         },
         {
           "name": "テクノメディカ",
           "listing": {
             "market": "東証スタンダード",
             "code": "6678"
-          }
+          },
+          "url": "http://www.technomedica.co.jp/"
         },
         {
           "name": "北里コーポレーション",
           "listing": {
             "market": "東証プライム",
             "code": "368A"
-          }
+          },
+          "url": "https://www.kitazato.co.jp/"
         },
         {
           "name": "日本トリム",
@@ -1759,14 +1940,16 @@
             "market": "東証プライム",
             "code": "6788"
           },
-          "note": "整水器"
+          "note": "整水器",
+          "url": "https://www.nihon-trim.co.jp/"
         },
         {
           "name": "プレシジョン・システム・サイエンス",
           "listing": {
             "market": "東証グロース",
             "code": "7707"
-          }
+          },
+          "url": "https://www.pss.co.jp"
         },
         {
           "name": "プラッツ",
@@ -1774,7 +1957,8 @@
             "market": "東証スタンダード",
             "code": "7813"
           },
-          "note": "介護ベッド"
+          "note": "介護ベッド",
+          "url": "https://www.platz-ltd.co.jp/"
         },
         {
           "name": "幸和製作所",
@@ -1782,7 +1966,8 @@
             "market": "東証スタンダード",
             "code": "7807"
           },
-          "note": "歩行車"
+          "note": "歩行車",
+          "url": "http://www.tacaof.co.jp/"
         },
         {
           "name": "興研",
@@ -1790,7 +1975,8 @@
             "market": "東証スタンダード",
             "code": "7963"
           },
-          "note": "防塵マスク"
+          "note": "防塵マスク",
+          "url": "https://www.koken-ltd.co.jp/"
         },
         {
           "name": "重松製作所",
@@ -1798,7 +1984,8 @@
             "market": "東証スタンダード",
             "code": "7980"
           },
-          "note": "防塵マスク"
+          "note": "防塵マスク",
+          "url": "http://www.sts-japan.com/"
         },
         {
           "name": "シンシア",
@@ -1806,7 +1993,8 @@
             "market": "東証スタンダード",
             "code": "7782"
           },
-          "note": "コンタクトレンズ"
+          "note": "コンタクトレンズ",
+          "url": "https://www.sincere-vision.com/"
         },
         {
           "name": "アソインターナショナル",
@@ -1845,21 +2033,24 @@
           "listing": {
             "market": "東証プライム",
             "code": "6674"
-          }
+          },
+          "url": "https://www.gs-yuasa.com/"
         },
         {
           "name": "FDK",
           "listing": {
             "market": "東証スタンダード",
             "code": "6955"
-          }
+          },
+          "url": "http://www.fdk.co.jp"
         },
         {
           "name": "マクセル",
           "listing": {
             "market": "東証プライム",
             "code": "6810"
-          }
+          },
+          "url": "https://www.maxell.co.jp/"
         },
         {
           "name": "ダブル・スコープ",
@@ -1867,7 +2058,8 @@
             "market": "東証プライム",
             "code": "6619"
           },
-          "note": "電池セパレータ"
+          "note": "電池セパレータ",
+          "url": "https://w-scope.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -1888,14 +2080,16 @@
           "listing": {
             "market": "東証プライム",
             "code": "6740"
-          }
+          },
+          "url": "http://www.j-display.com/"
         },
         {
           "name": "浜松ホトニクス",
           "listing": {
             "market": "東証プライム",
             "code": "6965"
-          }
+          },
+          "url": "http://www.hamamatsu.com"
         },
         {
           "name": "スタンレー電気",
@@ -1912,14 +2106,16 @@
           "salary": {
             "man_jpy": 641,
             "fy": "2025年3月期"
-          }
+          },
+          "url": "https://www.stanley.co.jp/"
         },
         {
           "name": "EIZO",
           "listing": {
             "market": "東証プライム",
             "code": "6737"
-          }
+          },
+          "url": "https://www.eizo.co.jp/"
         },
         {
           "name": "ワコム",
@@ -1927,7 +2123,8 @@
             "market": "東証プライム",
             "code": "6727"
           },
-          "note": "ペンタブレット"
+          "note": "ペンタブレット",
+          "url": "https://www.wacom.com/"
         },
         {
           "name": "象印マホービン",
@@ -1935,7 +2132,8 @@
             "market": "東証プライム",
             "code": "7965"
           },
-          "note": "生活家電"
+          "note": "生活家電",
+          "url": "https://www.zojirushi.co.jp/"
         },
         {
           "name": "バルミューダ",
@@ -1943,7 +2141,8 @@
             "market": "東証グロース",
             "code": "6612"
           },
-          "note": "家電"
+          "note": "家電",
+          "url": "http://www.balmuda.com/"
         },
         {
           "name": "ツインバード",
@@ -1951,7 +2150,8 @@
             "market": "東証スタンダード",
             "code": "6897"
           },
-          "note": "家電"
+          "note": "家電",
+          "url": "https://www.twinbird.jp/"
         },
         {
           "name": "遠藤照明",
@@ -1959,7 +2159,8 @@
             "market": "東証スタンダード",
             "code": "6932"
           },
-          "note": "照明"
+          "note": "照明",
+          "url": "http://www.endo-lighting.co.jp/"
         },
         {
           "name": "ピクセラ",
@@ -1967,7 +2168,8 @@
             "market": "東証スタンダード",
             "code": "6731"
           },
-          "note": "映像機器"
+          "note": "映像機器",
+          "url": "http://www.pixela.co.jp/"
         },
         {
           "name": "TBグループ",
@@ -1975,7 +2177,8 @@
             "market": "東証スタンダード",
             "code": "6775"
           },
-          "note": "LED表示"
+          "note": "LED表示",
+          "url": "https://www.tb-group.co.jp/"
         },
         {
           "name": "ジオマテック",
@@ -1983,7 +2186,8 @@
             "market": "東証スタンダード",
             "code": "6907"
           },
-          "note": "薄膜・光学"
+          "note": "薄膜・光学",
+          "url": "https://www.geomatec.com"
         },
         {
           "name": "ヘリオス テクノ ホールディング",
@@ -1991,7 +2195,8 @@
             "market": "東証スタンダード",
             "code": "6927"
           },
-          "note": "ランプ・ステージ"
+          "note": "ランプ・ステージ",
+          "url": "http://www.heliostec-hd.co.jp/index.html"
         },
         {
           "name": "アビックス",
@@ -1999,7 +2204,8 @@
             "market": "東証スタンダード",
             "code": "7836"
           },
-          "note": "LEDサイネージ"
+          "note": "LEDサイネージ",
+          "url": "https://avix.co.jp"
         }
       ],
       "updated": "2026-07-23",
@@ -2033,20 +2239,23 @@
           "listing": {
             "market": "プライム",
             "code": "7613"
-          }
+          },
+          "url": "http://www.siix.co.jp/"
         },
         {
           "name": "加賀電子",
           "listing": {
             "market": "プライム",
             "code": "8154"
-          }
+          },
+          "url": "http://www.taxan.co.jp/"
         },
         {
           "name": "UMCエレクトロニクス",
           "listing": {
             "market": "非上場(上場廃止)"
-          }
+          },
+          "url": "https://www.umc.co.jp/"
         }
       ],
       "updated": "2026-07-24",

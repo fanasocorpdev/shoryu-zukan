@@ -246,7 +246,8 @@
               "publisher": "ソフトバンクグループ",
               "date": "2025-11-05"
             }
-          ]
+          ],
+          "url": "https://group.softbank/"
         },
         {
           "name": "沖縄セルラー電話",
@@ -263,7 +264,8 @@
           "salary": {
             "man_jpy": 723,
             "fy": "2025年3月期"
-          }
+          },
+          "url": "https://www.au.com/okinawa_cellular/"
         }
       ],
       "sources": [
@@ -351,7 +353,8 @@
             "market": "東証プライム",
             "code": "9435"
           },
-          "note": "法人向け販売"
+          "note": "法人向け販売",
+          "url": "http://www.hikari.co.jp/"
         },
         {
           "name": "ベルパーク",
@@ -359,7 +362,8 @@
             "market": "東証スタンダード",
             "code": "9441"
           },
-          "note": "販売代理店"
+          "note": "販売代理店",
+          "url": "https://www.bellpark.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -449,7 +453,8 @@
             "market": "東証プライム",
             "code": "6706"
           },
-          "note": "アンテナ・電波設備"
+          "note": "アンテナ・電波設備",
+          "url": "http://www.denkikogyo.co.jp/"
         },
         {
           "name": "大井電気",
@@ -457,7 +462,8 @@
             "market": "東証スタンダード",
             "code": "6822"
           },
-          "note": "通信装置"
+          "note": "通信装置",
+          "url": "https://www.ooi.co.jp/"
         },
         {
           "name": "アルチザネットワークス",
@@ -465,7 +471,8 @@
             "market": "東証スタンダード",
             "code": "6778"
           },
-          "note": "通信計測"
+          "note": "通信計測",
+          "url": "https://www.artiza.co.jp/"
         },
         {
           "name": "メディアリンクス",
@@ -473,7 +480,8 @@
             "market": "東証スタンダード",
             "code": "6659"
           },
-          "note": "映像伝送"
+          "note": "映像伝送",
+          "url": "http://www.medialinx.co.jp/"
         },
         {
           "name": "ダイコー通産",
@@ -481,7 +489,8 @@
             "market": "東証スタンダード",
             "code": "7673"
           },
-          "note": "通信資材卸"
+          "note": "通信資材卸",
+          "url": "https://www.daiko-tsusan.co.jp/"
         },
         {
           "name": "西菱電機",
@@ -489,7 +498,8 @@
             "market": "東証スタンダード",
             "code": "4341"
           },
-          "note": "無線システム販売施工"
+          "note": "無線システム販売施工",
+          "url": "http://www.seiryodenki.co.jp/"
         }
       ],
       "updated": "2026-07-24",

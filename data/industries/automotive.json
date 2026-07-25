@@ -425,7 +425,8 @@
           "salary": {
             "man_jpy": 648,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "http://www.vt-holdings.co.jp/"
         },
         {
           "name": "ウイルプラスホールディングス",
@@ -436,7 +437,8 @@
           "salary": {
             "man_jpy": 610,
             "fy": "2025年6月期"
-          }
+          },
+          "url": "http://www.willplus.co.jp/"
         },
         {
           "name": "日産東京販売ホールディングス",
@@ -447,7 +449,8 @@
           "salary": {
             "man_jpy": 766,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "http://www.nissan-tokyo-hd.co.jp/index.html"
         },
         {
           "name": "ケーユーホールディングス",
@@ -458,7 +461,8 @@
           "salary": {
             "man_jpy": 520,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "http://www.ku-hd.com/"
         },
         {
           "name": "ICDAホールディングス",
@@ -469,7 +473,8 @@
           "salary": {
             "man_jpy": 522,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://www.icda.jp/"
         },
         {
           "name": "バナーズ",
@@ -481,7 +486,8 @@
           "salary": {
             "man_jpy": 414,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "http://www.banners.jp/"
         }
       ],
       "note": "実名は自己登録ベースで拡充予定",
@@ -578,7 +584,8 @@
           "salary": {
             "man_jpy": 1054,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://www.optimusgroup.co.jp/"
         },
         {
           "name": "アップルインターナショナル",
@@ -590,7 +597,8 @@
           "salary": {
             "man_jpy": 812,
             "fy": "2025年12月期"
-          }
+          },
+          "url": "http://www.apple-international.com/"
         },
         {
           "name": "レダックス",
@@ -602,7 +610,8 @@
           "salary": {
             "man_jpy": 418,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://www.ledax.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -1137,7 +1146,8 @@
           "hq": "愛知県豊田市",
           "listing": {
             "market": "非上場"
-          }
+          },
+          "url": "https://www.toyotayusou.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -1159,7 +1169,8 @@
           "hq": "名古屋市西区",
           "listing": {
             "market": "非上場"
-          }
+          },
+          "url": "https://www.toyota-finance.co.jp"
         },
         {
           "name": "ホンダファイナンス",
@@ -1305,7 +1316,8 @@
           "salary": {
             "man_jpy": 835,
             "fy": "2025年12月期"
-          }
+          },
+          "url": "https://global.yamaha-motor.com/"
         }
       ],
       "updated": "2026-07-23",
@@ -1330,7 +1342,8 @@
           "salary": {
             "man_jpy": 837,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://www.isuzu.co.jp/world/"
         },
         {
           "name": "ARCHION",
@@ -1338,7 +1351,8 @@
             "market": "東証プライム",
             "code": "543A"
           },
-          "note": "日野自動車と三菱ふそうの統合会社"
+          "note": "日野自動車と三菱ふそうの統合会社",
+          "url": "https://archion.co.jp/"
         },
         {
           "name": "日産車体",
@@ -1354,7 +1368,8 @@
           "salary": {
             "man_jpy": 753,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "http://www.nissan-shatai.co.jp/"
         },
         {
           "name": "新明和工業",
@@ -1365,7 +1380,8 @@
           "salary": {
             "man_jpy": 781,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "http://www.shinmaywa.co.jp/english/"
         },
         {
           "name": "極東開発工業",
@@ -1376,7 +1392,8 @@
           "salary": {
             "man_jpy": 714,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://www.kyokuto.com/"
         }
       ],
       "updated": "2026-07-23",
@@ -1397,56 +1414,64 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "7297"
-          }
+          },
+          "url": "https://www.carmate.co.jp"
         },
         {
           "name": "デイトナ",
           "listing": {
             "market": "東証スタンダード",
             "code": "7228"
-          }
+          },
+          "url": "http://www.daytona.co.jp/"
         },
         {
           "name": "ウェッズ",
           "listing": {
             "market": "東証スタンダード",
             "code": "7551"
-          }
+          },
+          "url": "http://www.weds.co.jp/"
         },
         {
           "name": "エッチ・ケー・エス",
           "listing": {
             "market": "東証スタンダード",
             "code": "7219"
-          }
+          },
+          "url": "https://www.hks-global.com/"
         },
         {
           "name": "テイン",
           "listing": {
             "market": "東証スタンダード",
             "code": "7217"
-          }
+          },
+          "url": "http://www.tein.co.jp/"
         },
         {
           "name": "オートバックスセブン",
           "listing": {
             "market": "東証プライム",
             "code": "9832"
-          }
+          },
+          "url": "https://www.autobacs.com/"
         },
         {
           "name": "イエローハット",
           "listing": {
             "market": "東証プライム",
             "code": "9882"
-          }
+          },
+          "url": "https://www.yellowhat.jp/"
         },
         {
           "name": "アップガレージグループ",
           "listing": {
             "market": "東証スタンダード",
             "code": "7134"
-          }
+          },
+          "url": "http://www.upgarage.com/"
         },
         {
           "name": "中央自動車工業",
@@ -1462,14 +1487,16 @@
           "salary": {
             "man_jpy": 922,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://www.central-auto.co.jp/"
         },
         {
           "name": "バイク王&カンパニー",
           "listing": {
             "market": "東証スタンダード",
             "code": "3377"
-          }
+          },
+          "url": "https://www.8190.co.jp"
         },
         {
           "name": "KeePer技研",
@@ -1477,21 +1504,24 @@
             "market": "東証プライム",
             "code": "6036"
           },
-          "note": "コーティング"
+          "note": "コーティング",
+          "url": "https://www.keepergiken.jp/"
         },
         {
           "name": "オートウェーブ",
           "listing": {
             "market": "東証スタンダード",
             "code": "2666"
-          }
+          },
+          "url": "http://www.auto-wave.co.jp"
         },
         {
           "name": "G‐7ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "7508"
-          }
+          },
+          "url": "https://www.g-7holdings.co.jp/"
         },
         {
           "name": "アイエーグループ",
@@ -1499,7 +1529,8 @@
             "market": "東証スタンダード",
             "code": "7509"
           },
-          "note": "オートバックスFC"
+          "note": "オートバックスFC",
+          "url": "https://www.ia-group.co.jp/"
         },
         {
           "name": "ムラキ",
@@ -1507,7 +1538,8 @@
             "market": "東証スタンダード",
             "code": "7477"
           },
-          "note": "自動車部品卸"
+          "note": "自動車部品卸",
+          "url": "https://www.muraki-ltd.co.jp"
         },
         {
           "name": "ナルネットコミュニケーションズ",
@@ -1515,7 +1547,8 @@
             "market": "東証グロース",
             "code": "5870"
           },
-          "note": "車両メンテナンス管理"
+          "note": "車両メンテナンス管理",
+          "url": "https://www.nal-mt.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -1536,7 +1569,8 @@
             "market": "プライム",
             "code": "4666"
           },
-          "note": "タイムズカー(カーシェア国内最大手)"
+          "note": "タイムズカー(カーシェア国内最大手)",
+          "url": "https://www.park24.co.jp/"
         },
         {
           "name": "トヨタレンタリース",
@@ -1562,13 +1596,15 @@
           "listing": {
             "market": "スタンダード",
             "code": "5698"
-          }
+          },
+          "url": "https://www.envipro.jp/"
         },
         {
           "name": "会宝産業",
           "listing": {
             "market": "非上場(中古部品輸出大手)"
-          }
+          },
+          "url": "http://kaihosangyo.jp"
         }
       ],
       "updated": "2026-07-24",

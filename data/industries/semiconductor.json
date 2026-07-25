@@ -278,7 +278,8 @@
             "market": "東証プライム",
             "code": "6707"
           },
-          "note": "パワー半導体"
+          "note": "パワー半導体",
+          "url": "http://www.sanken-ele.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -374,7 +375,8 @@
           "listing": {
             "market": "東証プライム",
             "code": "6875"
-          }
+          },
+          "url": "http://www.megachips.co.jp/"
         },
         {
           "name": "トレックス・セミコンダクター",
@@ -390,7 +392,8 @@
             "market": "東証スタンダード",
             "code": "6730"
           },
-          "note": "グラフィックスLSI"
+          "note": "グラフィックスLSI",
+          "url": "http://www.axell.co.jp/"
         },
         {
           "name": "ザインエレクトロニクス",
@@ -398,7 +401,8 @@
             "market": "東証スタンダード",
             "code": "6769"
           },
-          "note": "アナログ"
+          "note": "アナログ",
+          "url": "http://www.thine.co.jp/"
         },
         {
           "name": "ディジタルメディアプロフェッショナル",
@@ -406,7 +410,8 @@
             "market": "東証グロース",
             "code": "3652"
           },
-          "note": "GPU IP"
+          "note": "GPU IP",
+          "url": "https://www.dmprof.com/"
         },
         {
           "name": "QDレーザ",
@@ -423,7 +428,8 @@
           "salary": {
             "man_jpy": 830,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://www.qdlaser.com/"
         }
       ],
       "updated": "2026-07-23",
@@ -472,7 +478,8 @@
             "market": "東証プライム",
             "code": "6947"
           },
-          "note": "基板CAD"
+          "note": "基板CAD",
+          "url": "https://www.zuken.co.jp/"
         },
         {
           "name": "ジーダット",
@@ -480,7 +487,8 @@
             "market": "東証スタンダード",
             "code": "3841"
           },
-          "note": "LSI設計ツール"
+          "note": "LSI設計ツール",
+          "url": "https://www.jedat.co.jp/"
         },
         {
           "name": "テクノマセマティカル",
@@ -488,7 +496,8 @@
             "market": "東証スタンダード",
             "code": "3787"
           },
-          "note": "映像処理IPコア"
+          "note": "映像処理IPコア",
+          "url": "https://www.tmath.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -759,7 +768,8 @@
             "market": "東証プライム",
             "code": "9880"
           },
-          "note": "半導体商社・テスト"
+          "note": "半導体商社・テスト",
+          "url": "https://www.innotech.co.jp"
         },
         {
           "name": "TMH",
@@ -767,7 +777,8 @@
             "market": "東証グロース",
             "code": "280A"
           },
-          "note": "製造装置部品販売・修理"
+          "note": "製造装置部品販売・修理",
+          "url": "https://www.tmh-inc.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -866,7 +877,8 @@
             "market": "東証プライム",
             "code": "3445"
           },
-          "note": "ウェハ再生"
+          "note": "ウェハ再生",
+          "url": "https://www.rs-tec.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -947,35 +959,40 @@
           "listing": {
             "market": "東証プライム",
             "code": "4091"
-          }
+          },
+          "url": "https://jp.nipponsanso.com/"
         },
         {
           "name": "ステラ ケミファ",
           "listing": {
             "market": "東証プライム",
             "code": "4109"
-          }
+          },
+          "url": "http://www.stella-chemifa.co.jp/"
         },
         {
           "name": "関東電化工業",
           "listing": {
             "market": "東証プライム",
             "code": "4047"
-          }
+          },
+          "url": "https://www.kantodenka.co.jp/"
         },
         {
           "name": "トリケミカル研究所",
           "listing": {
             "market": "東証プライム",
             "code": "4369"
-          }
+          },
+          "url": "https://www.trichemical.com/"
         },
         {
           "name": "セントラル硝子",
           "listing": {
             "market": "東証プライム",
             "code": "4044"
-          }
+          },
+          "url": "http://www.cgco.co.jp/"
         },
         {
           "name": "テクセンドフォトマスク",
@@ -983,7 +1000,8 @@
             "market": "東証プライム",
             "code": "429A"
           },
-          "note": "フォトマスク"
+          "note": "フォトマスク",
+          "url": "https://www.photomask.com/"
         },
         {
           "name": "フジミインコーポレーテッド",
@@ -991,7 +1009,8 @@
             "market": "東証プライム",
             "code": "5384"
           },
-          "note": "研磨材"
+          "note": "研磨材",
+          "url": "http://www.fujimiinc.co.jp/"
         },
         {
           "name": "ジャパンマテリアル",
@@ -999,7 +1018,8 @@
             "market": "東証プライム",
             "code": "6055"
           },
-          "note": "特殊ガス供給"
+          "note": "特殊ガス供給",
+          "url": "http://www.j-material.jp/"
         },
         {
           "name": "野村マイクロ・サイエンス",
@@ -1007,7 +1027,8 @@
             "market": "東証プライム",
             "code": "6254"
           },
-          "note": "超純水装置"
+          "note": "超純水装置",
+          "url": "https://www.nomura-nms.co.jp/"
         },
         {
           "name": "フェローテック",
@@ -1024,7 +1045,8 @@
           "salary": {
             "man_jpy": 879,
             "fy": "2025年3月期"
-          }
+          },
+          "url": "https://www.ferrotec.co.jp/"
         },
         {
           "name": "ミライアル",
@@ -1032,7 +1054,8 @@
             "market": "東証スタンダード",
             "code": "4238"
           },
-          "note": "ウェハ容器"
+          "note": "ウェハ容器",
+          "url": "http://www.miraial.co.jp/"
         },
         {
           "name": "エスケーエレクトロニクス",
@@ -1040,7 +1063,8 @@
             "market": "東証スタンダード",
             "code": "6677"
           },
-          "note": "FPDフォトマスク"
+          "note": "FPDフォトマスク",
+          "url": "http://www.sk-el.co.jp/"
         },
         {
           "name": "オキサイド",
@@ -1057,7 +1081,8 @@
           "salary": {
             "man_jpy": 502,
             "fy": "2026年2月期"
-          }
+          },
+          "url": "https://www.opt-oxide.com"
         },
         {
           "name": "テクニスコ",
@@ -1065,7 +1090,8 @@
             "market": "東証スタンダード",
             "code": "2962"
           },
-          "note": "精密加工(基板・光学)"
+          "note": "精密加工(基板・光学)",
+          "url": "https://www.tecnisco.com/"
         },
         {
           "name": "アテクト",
@@ -1073,7 +1099,8 @@
             "market": "東証スタンダード",
             "code": "4241"
           },
-          "note": "検査用資材"
+          "note": "検査用資材",
+          "url": "https://www.atect.co.jp/"
         },
         {
           "name": "イーディーピー",
@@ -1081,7 +1108,8 @@
             "market": "東証グロース",
             "code": "7794"
           },
-          "note": "ダイヤモンド基板"
+          "note": "ダイヤモンド基板",
+          "url": "https://www.d-edp.jp/"
         },
         {
           "name": "ジーエルテクノホールディングス",
@@ -1089,7 +1117,8 @@
             "market": "東証スタンダード",
             "code": "255A"
           },
-          "note": "石英部品・分析機器"
+          "note": "石英部品・分析機器",
+          "url": "https://www.gltechno.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -1210,21 +1239,24 @@
           "salary": {
             "man_jpy": 1879,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "http://www.disco.co.jp/"
         },
         {
           "name": "TOWA",
           "listing": {
             "market": "東証プライム",
             "code": "6315"
-          }
+          },
+          "url": "http://www.towajapan.co.jp/"
         },
         {
           "name": "芝浦メカトロニクス",
           "listing": {
             "market": "東証プライム",
             "code": "6590"
-          }
+          },
+          "url": "http://www.shibaura.co.jp/"
         },
         {
           "name": "アルバック",
@@ -1232,7 +1264,8 @@
             "market": "東証プライム",
             "code": "6728"
           },
-          "note": "真空装置"
+          "note": "真空装置",
+          "url": "http://www.ulvac.co.jp/"
         },
         {
           "name": "タツモ",
@@ -1240,7 +1273,8 @@
             "market": "東証プライム",
             "code": "6266"
           },
-          "note": "塗布・搬送装置"
+          "note": "塗布・搬送装置",
+          "url": "https://tazmo.co.jp/"
         },
         {
           "name": "サムコ",
@@ -1248,7 +1282,8 @@
             "market": "東証プライム",
             "code": "6387"
           },
-          "note": "薄膜装置"
+          "note": "薄膜装置",
+          "url": "http://www.samco.co.jp/"
         },
         {
           "name": "AIメカテック",
@@ -1265,7 +1300,8 @@
           "salary": {
             "man_jpy": 693,
             "fy": "2025年6月期"
-          }
+          },
+          "url": "https://www.ai-mech.com/"
         },
         {
           "name": "ジェイ・イー・ティ",
@@ -1281,7 +1317,8 @@
             "market": "東証スタンダード",
             "code": "6338"
           },
-          "note": "スライサー"
+          "note": "スライサー",
+          "url": "http://www.takatori-g.co.jp/"
         },
         {
           "name": "昭和真空",
@@ -1289,7 +1326,8 @@
             "market": "東証スタンダード",
             "code": "6384"
           },
-          "note": "真空装置"
+          "note": "真空装置",
+          "url": "https://www.showashinku.co.jp/"
         },
         {
           "name": "エヌ・ピー・シー",
@@ -1297,7 +1335,8 @@
             "market": "東証グロース",
             "code": "6255"
           },
-          "note": "太陽電池装置"
+          "note": "太陽電池装置",
+          "url": "http://www.npcgroup.net/"
         },
         {
           "name": "ジェイテックコーポレーション",
@@ -1305,7 +1344,8 @@
             "market": "東証スタンダード",
             "code": "3446"
           },
-          "note": "X線ミラー"
+          "note": "X線ミラー",
+          "url": "https://www.j-tec.co.jp"
         },
         {
           "name": "アドテック プラズマ テクノロジー",
@@ -1313,7 +1353,8 @@
             "market": "東証スタンダード",
             "code": "6668"
           },
-          "note": "プラズマ電源"
+          "note": "プラズマ電源",
+          "url": "https://www.adtec-rf.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -1392,7 +1433,8 @@
           "listing": {
             "market": "東証プライム",
             "code": "7729"
-          }
+          },
+          "url": "https://www.accretech.com/jp/"
         },
         {
           "name": "日本マイクロニクス",
@@ -1400,7 +1442,8 @@
             "market": "東証プライム",
             "code": "6871"
           },
-          "note": "プローブカード"
+          "note": "プローブカード",
+          "url": "https://www.mjc.co.jp/"
         },
         {
           "name": "日本電子材料",
@@ -1417,7 +1460,8 @@
           "salary": {
             "man_jpy": 641,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://www.jem-net.co.jp/"
         },
         {
           "name": "インターアクション",
@@ -1425,7 +1469,8 @@
             "market": "東証プライム",
             "code": "7725"
           },
-          "note": "検査用光源"
+          "note": "検査用光源",
+          "url": "https://www.inter-action.co.jp"
         },
         {
           "name": "テラプローブ",
@@ -1442,7 +1487,8 @@
           "salary": {
             "man_jpy": 637,
             "fy": "2025年12月期"
-          }
+          },
+          "url": "http://www.teraprobe.com/"
         },
         {
           "name": "テセック",
@@ -1450,7 +1496,8 @@
             "market": "東証スタンダード",
             "code": "6337"
           },
-          "note": "ハンドラ"
+          "note": "ハンドラ",
+          "url": "http://www.tesec.co.jp/"
         },
         {
           "name": "ウインテスト",
@@ -1458,7 +1505,8 @@
             "market": "東証スタンダード",
             "code": "6721"
           },
-          "note": "検査装置"
+          "note": "検査装置",
+          "url": "http://www.wintest.co.jp/"
         },
         {
           "name": "インスペック",
@@ -1466,7 +1514,8 @@
             "market": "東証スタンダード",
             "code": "6656"
           },
-          "note": "基板検査"
+          "note": "基板検査",
+          "url": "http://www.inspec21.com/"
         },
         {
           "name": "クオルテック",
@@ -1474,7 +1523,8 @@
             "market": "東証グロース",
             "code": "9165"
           },
-          "note": "パワー半導体信頼性試験"
+          "note": "パワー半導体信頼性試験",
+          "url": "https://www.qualtec.co.jp/"
         },
         {
           "name": "太洋テクノレックス",
@@ -1482,7 +1532,8 @@
             "market": "東証スタンダード",
             "code": "6663"
           },
-          "note": "基板検査機・FPC試作"
+          "note": "基板検査機・FPC試作",
+          "url": "https://www.taiyo-tx.com/"
         }
       ],
       "updated": "2026-07-23",
@@ -1575,7 +1626,8 @@
             "market": "東証プライム",
             "code": "6966"
           },
-          "note": "リードフレーム"
+          "note": "リードフレーム",
+          "url": "http://www.mitsui-high-tec.com/"
         },
         {
           "name": "エノモト",
@@ -1583,7 +1635,8 @@
             "market": "東証スタンダード",
             "code": "6928"
           },
-          "note": "リードフレーム金型"
+          "note": "リードフレーム金型",
+          "url": "http://www.enomoto.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -1694,14 +1747,16 @@
           "listing": {
             "market": "プライム",
             "code": "4043"
-          }
+          },
+          "url": "http://www.tokuyama.co.jp/eng/"
         },
         {
           "name": "大阪チタニウムテクノロジーズ",
           "listing": {
             "market": "プライム",
             "code": "5726"
-          }
+          },
+          "url": "http://www.osaka-ti.co.jp/e/"
         }
       ],
       "updated": "2026-07-24",

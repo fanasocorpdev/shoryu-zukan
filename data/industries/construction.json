@@ -78,7 +78,8 @@
           "salary": {
             "man_jpy": 1185,
             "fy": "2025年3月期"
-          }
+          },
+          "url": "http://www.kajima.co.jp/"
         },
         {
           "name": "大成建設",
@@ -95,7 +96,8 @@
           "salary": {
             "man_jpy": 1058,
             "fy": "2025年3月期"
-          }
+          },
+          "url": "http://www.taisei.co.jp/"
         },
         {
           "name": "大林組",
@@ -112,7 +114,8 @@
           "salary": {
             "man_jpy": 1140,
             "fy": "2025年3月期"
-          }
+          },
+          "url": "http://www.obayashi.co.jp/"
         },
         {
           "name": "清水建設",
@@ -129,266 +132,304 @@
           "salary": {
             "man_jpy": 1012,
             "fy": "2025年3月期"
-          }
+          },
+          "url": "https://www.shimz.co.jp/"
         },
         {
           "name": "長谷工コーポレーション",
           "listing": {
             "market": "東証プライム",
             "code": "1808"
-          }
+          },
+          "url": "https://www.haseko.co.jp/"
         },
         {
           "name": "インフロニア・ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "5076"
-          }
+          },
+          "url": "https://www.infroneer.com/"
         },
         {
           "name": "戸田建設",
           "listing": {
             "market": "東証プライム",
             "code": "1860"
-          }
+          },
+          "url": "https://www.toda.co.jp/"
         },
         {
           "name": "熊谷組",
           "listing": {
             "market": "東証プライム",
             "code": "1861"
-          }
+          },
+          "url": "https://www.kumagaigumi.co.jp/"
         },
         {
           "name": "西松建設",
           "listing": {
             "market": "東証プライム",
             "code": "1820"
-          }
+          },
+          "url": "https://www.nishimatsu.co.jp/"
         },
         {
           "name": "安藤・間",
           "listing": {
             "market": "東証プライム",
             "code": "1719"
-          }
+          },
+          "url": "https://www.ad-hzm.co.jp/"
         },
         {
           "name": "奥村組",
           "listing": {
             "market": "東証プライム",
             "code": "1833"
-          }
+          },
+          "url": "https://www.okumuragumi.co.jp/"
         },
         {
           "name": "五洋建設",
           "listing": {
             "market": "東証プライム",
             "code": "1893"
-          }
+          },
+          "url": "https://www.penta-ocean.co.jp/"
         },
         {
           "name": "東亜建設工業",
           "listing": {
             "market": "東証プライム",
             "code": "1885"
-          }
+          },
+          "url": "https://www.toa-const.co.jp/"
         },
         {
           "name": "鉄建建設",
           "listing": {
             "market": "東証プライム",
             "code": "1815"
-          }
+          },
+          "url": "https://www.tekken.co.jp/"
         },
         {
           "name": "東鉄工業",
           "listing": {
             "market": "東証プライム",
             "code": "1835"
-          }
+          },
+          "url": "https://www.totetsu.co.jp/"
         },
         {
           "name": "大豊建設",
           "listing": {
             "market": "東証スタンダード",
             "code": "1822"
-          }
+          },
+          "url": "https://www.daiho.co.jp/"
         },
         {
           "name": "東急建設",
           "listing": {
             "market": "東証プライム",
             "code": "1720"
-          }
+          },
+          "url": "https://www.tokyu-cnst.co.jp/"
         },
         {
           "name": "淺沼組",
           "listing": {
             "market": "東証プライム",
             "code": "1852"
-          }
+          },
+          "url": "https://www.asanuma.co.jp/"
         },
         {
           "name": "錢高組",
           "listing": {
             "market": "東証スタンダード",
             "code": "1811"
-          }
+          },
+          "url": "https://www.zenitaka.co.jp/"
         },
         {
           "name": "松井建設",
           "listing": {
             "market": "東証スタンダード",
             "code": "1810"
-          }
+          },
+          "url": "http://www.matsui-ken.co.jp/"
         },
         {
           "name": "福田組",
           "listing": {
             "market": "東証プライム",
             "code": "1899"
-          }
+          },
+          "url": "https://www.fkd.co.jp/"
         },
         {
           "name": "大本組",
           "listing": {
             "market": "東証スタンダード",
             "code": "1793"
-          }
+          },
+          "url": "https://www.ohmoto.co.jp/"
         },
         {
           "name": "北野建設",
           "listing": {
             "market": "東証スタンダード",
             "code": "1866"
-          }
+          },
+          "url": "http://www.kitano.co.jp/"
         },
         {
           "name": "矢作建設工業",
           "listing": {
             "market": "東証プライム",
             "code": "1870"
-          }
+          },
+          "url": "https://www.yahagi.co.jp/"
         },
         {
           "name": "高松コンストラクショングループ",
           "listing": {
             "market": "東証プライム",
             "code": "1762"
-          }
+          },
+          "url": "http://www.takamatsu-cg.co.jp/"
         },
         {
           "name": "新日本建設",
           "listing": {
             "market": "東証プライム",
             "code": "1879"
-          }
+          },
+          "url": "https://www.shinnihon-c.co.jp/"
         },
         {
           "name": "日本国土開発",
           "listing": {
             "market": "東証プライム",
             "code": "1887"
-          }
+          },
+          "url": "http://www.n-kokudo.co.jp/"
         },
         {
           "name": "若築建設",
           "listing": {
             "market": "東証プライム",
             "code": "1888"
-          }
+          },
+          "url": "https://www.wakachiku.co.jp/"
         },
         {
           "name": "飛島ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "256A"
-          }
+          },
+          "url": "https://www.tobishima.co.jp/"
         },
         {
           "name": "ナカノフドー建設",
           "listing": {
             "market": "東証スタンダード",
             "code": "1827"
-          }
+          },
+          "url": "http://www.wave-nakano.co.jp/"
         },
         {
           "name": "南海辰村建設",
           "listing": {
             "market": "東証スタンダード",
             "code": "1850"
-          }
+          },
+          "url": "http://www.nantatsu.co.jp/"
         },
         {
           "name": "オリエンタル白石",
           "listing": {
             "market": "東証プライム",
             "code": "1786"
-          }
+          },
+          "url": "http://www.orsc.co.jp/"
         },
         {
           "name": "ヤマウラ",
           "listing": {
             "market": "東証プライム",
             "code": "1780"
-          }
+          },
+          "url": "http://www.yamaura.co.jp/"
         },
         {
           "name": "ピーエス・コンストラクション",
           "listing": {
             "market": "東証プライム",
             "code": "1871"
-          }
+          },
+          "url": "https://www.psc.co.jp/"
         },
         {
           "name": "守谷商会",
           "listing": {
             "market": "東証スタンダード",
             "code": "1798"
-          }
+          },
+          "url": "http://www.moriya-s.co.jp/"
         },
         {
           "name": "第一建設工業",
           "listing": {
             "market": "東証スタンダード",
             "code": "1799"
-          }
+          },
+          "url": "http://www.daiichi-kensetsu.co.jp/"
         },
         {
           "name": "大末建設",
           "listing": {
             "market": "東証プライム",
             "code": "1814"
-          }
+          },
+          "url": "https://www.daisue.co.jp"
         },
         {
           "name": "佐田建設",
           "listing": {
             "market": "東証スタンダード",
             "code": "1826"
-          }
+          },
+          "url": "https://www.sata.co.jp/"
         },
         {
           "name": "植木組",
           "listing": {
             "market": "東証スタンダード",
             "code": "1867"
-          }
+          },
+          "url": "http://www.uekigumi.co.jp/"
         },
         {
           "name": "ノバック",
           "listing": {
             "market": "東証スタンダード",
             "code": "5079"
-          }
+          },
+          "url": "https://www.novac-cnst.co.jp/"
         },
         {
           "name": "森組",
           "listing": {
             "market": "東証スタンダード",
             "code": "1853"
-          }
+          },
+          "url": "http://www.morigumi.co.jp/index.html"
         },
         {
           "name": "ファーストコーポレーション",
@@ -404,7 +445,8 @@
             "market": "東証スタンダード",
             "code": "1847"
           },
-          "note": "商業施設"
+          "note": "商業施設",
+          "url": "https://www.ichiken.co.jp/"
         },
         {
           "name": "工藤建設",
@@ -418,28 +460,32 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "1768"
-          }
+          },
+          "url": "https://www.sonec-const.co.jp/"
         },
         {
           "name": "三東工業社",
           "listing": {
             "market": "東証スタンダード",
             "code": "1788"
-          }
+          },
+          "url": "https://www.santo.co.jp/"
         },
         {
           "name": "金下建設",
           "listing": {
             "market": "東証スタンダード",
             "code": "1897"
-          }
+          },
+          "url": "http://www.kaneshita.co.jp/"
         },
         {
           "name": "美樹工業",
           "listing": {
             "market": "東証スタンダード",
             "code": "1718"
-          }
+          },
+          "url": "http://www.mikikogyo.co.jp/"
         },
         {
           "name": "カドス・コーポレーション",
@@ -447,7 +493,8 @@
             "market": "東証スタンダード",
             "code": "211A"
           },
-          "note": "流通店舗建設・賃貸(山口)"
+          "note": "流通店舗建設・賃貸(山口)",
+          "url": "https://cados.jp/"
         },
         {
           "name": "UNICONホールディングス",
@@ -486,112 +533,128 @@
           "listing": {
             "market": "東証プライム",
             "code": "1944"
-          }
+          },
+          "url": "http://www.kinden.co.jp/"
         },
         {
           "name": "関電工",
           "listing": {
             "market": "東証プライム",
             "code": "1942"
-          }
+          },
+          "url": "http://www.kandenko.co.jp/"
         },
         {
           "name": "高砂熱学工業",
           "listing": {
             "market": "東証プライム",
             "code": "1969"
-          }
+          },
+          "url": "http://www.tte-net.co.jp/"
         },
         {
           "name": "ダイダン",
           "listing": {
             "market": "東証プライム",
             "code": "1980"
-          }
+          },
+          "url": "https://www.daidan.co.jp"
         },
         {
           "name": "トーエネック",
           "listing": {
             "market": "東証プライム",
             "code": "1946"
-          }
+          },
+          "url": "http://www.toenec.co.jp/"
         },
         {
           "name": "中電工",
           "listing": {
             "market": "東証プライム",
             "code": "1941"
-          }
+          },
+          "url": "http://www.chudenko.co.jp/"
         },
         {
           "name": "日本電設工業",
           "listing": {
             "market": "東証プライム",
             "code": "1950"
-          }
+          },
+          "url": "http://www.densetsuko.co.jp/"
         },
         {
           "name": "四電工",
           "listing": {
             "market": "東証プライム",
             "code": "1939"
-          }
+          },
+          "url": "http://www.yondenko.co.jp/"
         },
         {
           "name": "三機工業",
           "listing": {
             "market": "東証プライム",
             "code": "1961"
-          }
+          },
+          "url": "http://www.sanki.co.jp/"
         },
         {
           "name": "日比谷総合設備",
           "listing": {
             "market": "東証プライム",
             "code": "1982"
-          }
+          },
+          "url": "https://www.hibiya-eng.co.jp"
         },
         {
           "name": "朝日工業社",
           "listing": {
             "market": "東証プライム",
             "code": "1975"
-          }
+          },
+          "url": "http://www.asahikogyosha.co.jp/"
         },
         {
           "name": "大氣社",
           "listing": {
             "market": "東証プライム",
             "code": "1979"
-          }
+          },
+          "url": "https://www.taikisha.co.jp/"
         },
         {
           "name": "ユアテック",
           "listing": {
             "market": "東証プライム",
             "code": "1934"
-          }
+          },
+          "url": "http://www.yurtec.co.jp/"
         },
         {
           "name": "北陸電気工事",
           "listing": {
             "market": "東証プライム",
             "code": "1930"
-          }
+          },
+          "url": "http://www.rikudenko.co.jp/"
         },
         {
           "name": "日本リーテック",
           "listing": {
             "market": "東証プライム",
             "code": "1938"
-          }
+          },
+          "url": "http://www.j-rietec.co.jp/"
         },
         {
           "name": "東京エネシス",
           "listing": {
             "market": "東証プライム",
             "code": "1945"
-          }
+          },
+          "url": "http://www.qtes.co.jp/"
         },
         {
           "name": "弘電社",
@@ -607,7 +670,8 @@
           "salary": {
             "man_jpy": 737,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "http://www.kk-kodensha.co.jp/"
         },
         {
           "name": "日本電技",
@@ -623,7 +687,8 @@
           "salary": {
             "man_jpy": 946,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://www.nihondengi.co.jp/"
         },
         {
           "name": "オーテック",
@@ -637,7 +702,8 @@
           "listing": {
             "market": "東証プライム",
             "code": "1952"
-          }
+          },
+          "url": "https://www.snk.co.jp/"
         },
         {
           "name": "テクノ菱和",
@@ -653,21 +719,24 @@
           "salary": {
             "man_jpy": 1091,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://www.techno-ryowa.co.jp/"
         },
         {
           "name": "大成温調",
           "listing": {
             "market": "東証スタンダード",
             "code": "1904"
-          }
+          },
+          "url": "http://www.taisei-oncho.co.jp/"
         },
         {
           "name": "明星工業",
           "listing": {
             "market": "東証プライム",
             "code": "1976"
-          }
+          },
+          "url": "http://www.meisei-kogyo.co.jp/"
         },
         {
           "name": "太平電業",
@@ -681,7 +750,8 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "1966"
-          }
+          },
+          "url": "http://www.takada.co.jp/"
         },
         {
           "name": "レイズネクスト",
@@ -697,7 +767,8 @@
             "market": "東証スタンダード",
             "code": "1960"
           },
-          "note": "電気工事"
+          "note": "電気工事",
+          "url": "http://www.suntec-sec.jp/"
         },
         {
           "name": "神田通信機",
@@ -712,28 +783,32 @@
             "market": "東証スタンダード",
             "code": "1981"
           },
-          "note": "ガス工事"
+          "note": "ガス工事",
+          "url": "https://www.kyowa-nissei.co.jp/"
         },
         {
           "name": "ETSグループ",
           "listing": {
             "market": "東証スタンダード",
             "code": "253A"
-          }
+          },
+          "url": "https://ets-group.co.jp/"
         },
         {
           "name": "JESCOホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "1434"
-          }
+          },
+          "url": "https://www.jesco.co.jp/"
         },
         {
           "name": "田辺工業",
           "listing": {
             "market": "東証スタンダード",
             "code": "1828"
-          }
+          },
+          "url": "http://www.tanabe-ind.co.jp/"
         },
         {
           "name": "シンクレイヤ",
@@ -741,7 +816,8 @@
             "market": "東証スタンダード",
             "code": "1724"
           },
-          "note": "CATV設備"
+          "note": "CATV設備",
+          "url": "http://www.synclayer.com/"
         },
         {
           "name": "藤田エンジニアリング",
@@ -749,7 +825,8 @@
             "market": "東証スタンダード",
             "code": "1770"
           },
-          "note": "設備工事"
+          "note": "設備工事",
+          "url": "https://www.fujita-eng.co.jp/"
         },
         {
           "name": "マサル",
@@ -757,7 +834,8 @@
             "market": "東証スタンダード",
             "code": "1795"
           },
-          "note": "電設・防災"
+          "note": "電設・防災",
+          "url": "https://www.masaru-co.jp/"
         },
         {
           "name": "ヤマト",
@@ -765,7 +843,8 @@
             "market": "東証スタンダード",
             "code": "1967"
           },
-          "note": "空調・プラント"
+          "note": "空調・プラント",
+          "url": "http://www.yamato-se.co.jp/"
         },
         {
           "name": "暁飯島工業",
@@ -773,7 +852,8 @@
             "market": "東証スタンダード",
             "code": "1997"
           },
-          "note": "給排水・空調"
+          "note": "給排水・空調",
+          "url": "http://www.eazima.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -803,35 +883,40 @@
           "listing": {
             "market": "東証プライム",
             "code": "1882"
-          }
+          },
+          "url": "http://www.toadoro.co.jp/"
         },
         {
           "name": "ショーボンドホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "1414"
-          }
+          },
+          "url": "https://www.sho-bondhd.jp/"
         },
         {
           "name": "宮地エンジニアリンググループ",
           "listing": {
             "market": "東証プライム",
             "code": "3431"
-          }
+          },
+          "url": "https://www.miyaji-eng.co.jp/"
         },
         {
           "name": "ライト工業",
           "listing": {
             "market": "東証プライム",
             "code": "1926"
-          }
+          },
+          "url": "https://www.raito.co.jp"
         },
         {
           "name": "不動テトラ",
           "listing": {
             "market": "東証プライム",
             "code": "1813"
-          }
+          },
+          "url": "http://www.fudotetra.co.jp/"
         },
         {
           "name": "ニチレキグループ",
@@ -839,42 +924,48 @@
             "market": "東証プライム",
             "code": "5011"
           },
-          "note": "舗装材"
+          "note": "舗装材",
+          "url": "http://www.nichireki.co.jp/index.html"
         },
         {
           "name": "世紀東急工業",
           "listing": {
             "market": "東証プライム",
             "code": "1898"
-          }
+          },
+          "url": "https://www.seikitokyu.co.jp"
         },
         {
           "name": "横河ブリッジホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "5911"
-          }
+          },
+          "url": "https://www.yokogawa-bridge.co.jp/"
         },
         {
           "name": "駒井ハルテック",
           "listing": {
             "market": "東証スタンダード",
             "code": "5915"
-          }
+          },
+          "url": "http://www.komaihaltec.co.jp/"
         },
         {
           "name": "川田テクノロジーズ",
           "listing": {
             "market": "東証プライム",
             "code": "3443"
-          }
+          },
+          "url": "https://www.kawada.jp/"
         },
         {
           "name": "巴コーポレーション",
           "listing": {
             "market": "東証スタンダード",
             "code": "1921"
-          }
+          },
+          "url": "http://www.tomoe-corporation.co.jp/"
         },
         {
           "name": "スバル興業",
@@ -882,7 +973,8 @@
             "market": "東証スタンダード",
             "code": "9632"
           },
-          "note": "道路維持"
+          "note": "道路維持",
+          "url": "http://www.subaru-kougyou.jp/"
         },
         {
           "name": "瀧上工業",
@@ -890,7 +982,8 @@
             "market": "東証スタンダード",
             "code": "5918"
           },
-          "note": "橋梁"
+          "note": "橋梁",
+          "url": "http://www.takigami.co.jp/"
         },
         {
           "name": "高田機工",
@@ -898,7 +991,8 @@
             "market": "東証スタンダード",
             "code": "5923"
           },
-          "note": "橋梁"
+          "note": "橋梁",
+          "url": "http://www.takadakiko.com/"
         },
         {
           "name": "佐藤渡辺",
@@ -906,7 +1000,8 @@
             "market": "東証スタンダード",
             "code": "1807"
           },
-          "note": "舗装"
+          "note": "舗装",
+          "url": "http://www.watanabesato.co.jp/"
         },
         {
           "name": "日本エコシステム",
@@ -914,7 +1009,8 @@
             "market": "東証スタンダード",
             "code": "9249"
           },
-          "note": "公共施設管理・環境"
+          "note": "公共施設管理・環境",
+          "url": "http://jp-eco.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -936,63 +1032,72 @@
           "listing": {
             "market": "東証プライム",
             "code": "1925"
-          }
+          },
+          "url": "https://www.daiwahouse.co.jp"
         },
         {
           "name": "積水ハウス",
           "listing": {
             "market": "東証プライム",
             "code": "1928"
-          }
+          },
+          "url": "https://www.sekisuihouse.co.jp/"
         },
         {
           "name": "住友林業",
           "listing": {
             "market": "東証プライム",
             "code": "1911"
-          }
+          },
+          "url": "https://sfc.jp/"
         },
         {
           "name": "タマホーム",
           "listing": {
             "market": "東証プライム",
             "code": "1419"
-          }
+          },
+          "url": "http://www.tamahome.jp/"
         },
         {
           "name": "飯田グループホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3291"
-          }
+          },
+          "url": "http://www.ighd.co.jp"
         },
         {
           "name": "オープンハウスグループ",
           "listing": {
             "market": "東証プライム",
             "code": "3288"
-          }
+          },
+          "url": "https://oh.openhouse-group.com/"
         },
         {
           "name": "日本ハウスホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "1873"
-          }
+          },
+          "url": "https://www.nihonhouse-hd.co.jp/"
         },
         {
           "name": "土屋ホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "1840"
-          }
+          },
+          "url": "http://www.tsuchiya.co.jp/"
         },
         {
           "name": "Lib Work",
           "listing": {
             "market": "東証グロース",
             "code": "1431"
-          }
+          },
+          "url": "https://www.libwork.co.jp/"
         },
         {
           "name": "セレコーポレーション",
@@ -1000,14 +1105,16 @@
             "market": "東証スタンダード",
             "code": "5078"
           },
-          "note": "アパート"
+          "note": "アパート",
+          "url": "http://www.cel-co.com/"
         },
         {
           "name": "ロゴスホールディングス",
           "listing": {
             "market": "東証グロース",
             "code": "205A"
-          }
+          },
+          "url": "http://www.logos-co.com/"
         },
         {
           "name": "アールシーコア",
@@ -1015,7 +1122,8 @@
             "market": "東証スタンダード",
             "code": "7837"
           },
-          "note": "ログハウス"
+          "note": "ログハウス",
+          "url": "https://www.rccore.co.jp/"
         },
         {
           "name": "アーキテクツ・スタジオ・ジャパン",
@@ -1023,7 +1131,8 @@
             "market": "東証グロース",
             "code": "6085"
           },
-          "note": "建築家ネットワーク"
+          "note": "建築家ネットワーク",
+          "url": "https://corporate.asj-net.com/"
         },
         {
           "name": "エヌ・シー・エヌ",
@@ -1031,7 +1140,8 @@
             "market": "東証スタンダード",
             "code": "7057"
           },
-          "note": "木造構造設計"
+          "note": "木造構造設計",
+          "url": "https://www.ncn-se.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -1052,168 +1162,192 @@
           "listing": {
             "market": "東証プライム",
             "code": "5332"
-          }
+          },
+          "url": "https://jp.toto.com/"
         },
         {
           "name": "リンナイ",
           "listing": {
             "market": "東証プライム",
             "code": "5947"
-          }
+          },
+          "url": "https://www.rinnai.us/"
         },
         {
           "name": "ノーリツ",
           "listing": {
             "market": "東証プライム",
             "code": "5943"
-          }
+          },
+          "url": "https://www.noritz.co.jp/"
         },
         {
           "name": "タカラスタンダード",
           "listing": {
             "market": "東証プライム",
             "code": "7981"
-          }
+          },
+          "url": "http://www.takara-standard.co.jp/"
         },
         {
           "name": "クリナップ",
           "listing": {
             "market": "東証プライム",
             "code": "7955"
-          }
+          },
+          "url": "https://cleanup.jp/"
         },
         {
           "name": "三和ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "5929"
-          }
+          },
+          "url": "https://www.sanwa-hldgs.co.jp/"
         },
         {
           "name": "文化シヤッター",
           "listing": {
             "market": "東証プライム",
             "code": "5930"
-          }
+          },
+          "url": "https://www.bunka-s.co.jp"
         },
         {
           "name": "LIXIL",
           "listing": {
             "market": "東証プライム",
             "code": "5938"
-          }
+          },
+          "url": "https://www.lixil.co.jp/"
         },
         {
           "name": "三協立山",
           "listing": {
             "market": "東証プライム",
             "code": "5932"
-          }
+          },
+          "url": "http://www.st-grp.co.jp/"
         },
         {
           "name": "不二サッシ",
           "listing": {
             "market": "東証スタンダード",
             "code": "5940"
-          }
+          },
+          "url": "https://www.fujisash.co.jp"
         },
         {
           "name": "東洋シヤッター",
           "listing": {
             "market": "東証スタンダード",
             "code": "5936"
-          }
+          },
+          "url": "http://www.toyo-shutter.co.jp/"
         },
         {
           "name": "立川ブラインド工業",
           "listing": {
             "market": "東証プライム",
             "code": "7989"
-          }
+          },
+          "url": "http://www.blind.co.jp/"
         },
         {
           "name": "トーソー",
           "listing": {
             "market": "東証スタンダード",
             "code": "5956"
-          }
+          },
+          "url": "https://www.toso.co.jp/"
         },
         {
           "name": "岡部",
           "listing": {
             "market": "東証プライム",
             "code": "5959"
-          }
+          },
+          "url": "http://www.okabe.co.jp/"
         },
         {
           "name": "ニチハ",
           "listing": {
             "market": "東証プライム",
             "code": "7943"
-          }
+          },
+          "url": "https://www.nichiha.co.jp/"
         },
         {
           "name": "ニチアス",
           "listing": {
             "market": "東証プライム",
             "code": "5393"
-          }
+          },
+          "url": "http://www.nichias.co.jp/"
         },
         {
           "name": "コロナ",
           "listing": {
             "market": "東証スタンダード",
             "code": "5909"
-          }
+          },
+          "url": "http://www.corona.co.jp/"
         },
         {
           "name": "長府製作所",
           "listing": {
             "market": "東証プライム",
             "code": "5946"
-          }
+          },
+          "url": "http://www.chofu.co.jp/"
         },
         {
           "name": "ダイニチ工業",
           "listing": {
             "market": "東証スタンダード",
             "code": "5951"
-          }
+          },
+          "url": "https://www.dainichi-net.co.jp/"
         },
         {
           "name": "稲葉製作所",
           "listing": {
             "market": "東証スタンダード",
             "code": "3421"
-          }
+          },
+          "url": "http://www.inaba-ss.co.jp/"
         },
         {
           "name": "ウッドワン",
           "listing": {
             "market": "東証スタンダード",
             "code": "7898"
-          }
+          },
+          "url": "http://www.woodone.co.jp/"
         },
         {
           "name": "永大産業",
           "listing": {
             "market": "東証スタンダード",
             "code": "7822"
-          }
+          },
+          "url": "http://www.eidai.com/"
         },
         {
           "name": "ノダ",
           "listing": {
             "market": "東証スタンダード",
             "code": "7879"
-          }
+          },
+          "url": "http://www.noda-co.jp/"
         },
         {
           "name": "南海プライウッド",
           "listing": {
             "market": "東証スタンダード",
             "code": "7887"
-          }
+          },
+          "url": "https://www.nankaiplywood.co.jp/"
         },
         {
           "name": "未来工業",
@@ -1221,21 +1355,24 @@
             "market": "東証プライム",
             "code": "7931"
           },
-          "note": "電設資材"
+          "note": "電設資材",
+          "url": "http://www.mirai.co.jp/"
         },
         {
           "name": "ニホンフラッシュ",
           "listing": {
             "market": "東証プライム",
             "code": "7820"
-          }
+          },
+          "url": "http://www.nfnf.co.jp/"
         },
         {
           "name": "小松ウオール工業",
           "listing": {
             "market": "東証プライム",
             "code": "7949"
-          }
+          },
+          "url": "https://www.komatsuwall.co.jp/"
         },
         {
           "name": "タカショー",
@@ -1243,7 +1380,8 @@
             "market": "東証スタンダード",
             "code": "7590"
           },
-          "note": "ガーデン"
+          "note": "ガーデン",
+          "url": "http://takasho.co.jp/"
         },
         {
           "name": "JKホールディングス",
@@ -1251,7 +1389,8 @@
             "market": "東証スタンダード",
             "code": "9896"
           },
-          "note": "建材卸"
+          "note": "建材卸",
+          "url": "https://www.jkhd.co.jp/"
         },
         {
           "name": "アドヴァングループ",
@@ -1259,7 +1398,8 @@
             "market": "東証スタンダード",
             "code": "7463"
           },
-          "note": "建材小売"
+          "note": "建材小売",
+          "url": "https://www.advan.co.jp/"
         },
         {
           "name": "KVK",
@@ -1267,28 +1407,32 @@
             "market": "東証スタンダード",
             "code": "6484"
           },
-          "note": "水栓"
+          "note": "水栓",
+          "url": "https://www.kvk.co.jp/"
         },
         {
           "name": "ダイケン",
           "listing": {
             "market": "東証スタンダード",
             "code": "5900"
-          }
+          },
+          "url": "http://www.daiken.ne.jp/"
         },
         {
           "name": "アトムリビンテック",
           "listing": {
             "market": "東証スタンダード",
             "code": "3426"
-          }
+          },
+          "url": "https://www.atomlt.com/"
         },
         {
           "name": "三洋工業",
           "listing": {
             "market": "東証スタンダード",
             "code": "5958"
-          }
+          },
+          "url": "https://www.sanyo-industries.co.jp/"
         },
         {
           "name": "東京ボード工業",
@@ -1304,7 +1448,8 @@
             "market": "東証スタンダード",
             "code": "8089"
           },
-          "note": "木材流通"
+          "note": "木材流通",
+          "url": "http://www.suteki-nice.jp/"
         },
         {
           "name": "クワザワホールディングス",
@@ -1312,14 +1457,16 @@
             "market": "東証スタンダード",
             "code": "8104"
           },
-          "note": "建材卸"
+          "note": "建材卸",
+          "url": "https://www.kuwazawa-hd.co.jp/"
         },
         {
           "name": "北恵",
           "listing": {
             "market": "東証スタンダード",
             "code": "9872"
-          }
+          },
+          "url": "http://www.kitakei.jp/"
         },
         {
           "name": "アイナボホールディングス",
@@ -1327,14 +1474,16 @@
             "market": "東証スタンダード",
             "code": "7539"
           },
-          "note": "住設・タイル"
+          "note": "住設・タイル",
+          "url": "https://www.ainavo.co.jp/"
         },
         {
           "name": "OCHIホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "3166"
-          }
+          },
+          "url": "http://www.ochiholdings.co.jp/"
         },
         {
           "name": "山大",
@@ -1342,7 +1491,8 @@
             "market": "東証スタンダード",
             "code": "7426"
           },
-          "note": "木材"
+          "note": "木材",
+          "url": "http://www.yamadai.com/"
         },
         {
           "name": "SANEI",
@@ -1350,7 +1500,8 @@
             "market": "東証スタンダード",
             "code": "6230"
           },
-          "note": "水栓金具"
+          "note": "水栓金具",
+          "url": "http://www.san-ei-web.co.jp/"
         },
         {
           "name": "アルメタックス",
@@ -1358,7 +1509,8 @@
             "market": "東証スタンダード",
             "code": "5928"
           },
-          "note": "サッシ部材"
+          "note": "サッシ部材",
+          "url": "https://www.almetax.co.jp/"
         },
         {
           "name": "協立エアテック",
@@ -1366,7 +1518,8 @@
             "market": "東証スタンダード",
             "code": "5997"
           },
-          "note": "ダクト・換気"
+          "note": "ダクト・換気",
+          "url": "http://www.kak-net.co.jp/"
         },
         {
           "name": "オービス",
@@ -1374,7 +1527,8 @@
             "market": "東証スタンダード",
             "code": "7827"
           },
-          "note": "木質建材"
+          "note": "木質建材",
+          "url": "https://orvis.co.jp/"
         },
         {
           "name": "セブン工業",
@@ -1382,7 +1536,8 @@
             "market": "東証スタンダード",
             "code": "7896"
           },
-          "note": "木質建材"
+          "note": "木質建材",
+          "url": "http://www.seven-gr.co.jp/"
         },
         {
           "name": "ホクシン",
@@ -1390,7 +1545,8 @@
             "market": "東証スタンダード",
             "code": "7897"
           },
-          "note": "MDF"
+          "note": "MDF",
+          "url": "http://www.hokushinmdf.co.jp/"
         },
         {
           "name": "シー・エス・ランバー",
@@ -1398,7 +1554,8 @@
             "market": "東証スタンダード",
             "code": "7808"
           },
-          "note": "プレカット"
+          "note": "プレカット",
+          "url": "https://www.c-s-lumber.co.jp/"
         },
         {
           "name": "菊水化学工業",
@@ -1406,7 +1563,8 @@
             "market": "東証スタンダード",
             "code": "7953"
           },
-          "note": "内外装仕上材"
+          "note": "内外装仕上材",
+          "url": "http://www.kikusui-chem.co.jp/"
         },
         {
           "name": "クリエイト",
@@ -1414,7 +1572,8 @@
             "market": "東証スタンダード",
             "code": "3024"
           },
-          "note": "管材卸"
+          "note": "管材卸",
+          "url": "http://www.create-group.co.jp/"
         },
         {
           "name": "ジオリーブグループ",
@@ -1430,7 +1589,8 @@
             "market": "東証スタンダード",
             "code": "5283"
           },
-          "note": "建材・食品(長野)"
+          "note": "建材・食品(長野)",
+          "url": "http://www.kk-takamisawa.co.jp/"
         },
         {
           "name": "キムラ",
@@ -1438,7 +1598,8 @@
             "market": "東証スタンダード",
             "code": "7461"
           },
-          "note": "建材・合板"
+          "note": "建材・合板",
+          "url": "https://www.kimuranet.jp/"
         },
         {
           "name": "フルテック",
@@ -1446,7 +1607,8 @@
             "market": "東証スタンダード",
             "code": "6546"
           },
-          "note": "自動ドア施工保守"
+          "note": "自動ドア施工保守",
+          "url": "http://www.fulltech1963.com/"
         },
         {
           "name": "アルファCo",
@@ -1454,7 +1616,8 @@
             "market": "東証スタンダード",
             "code": "3434"
           },
-          "note": "錠前・セキュリティ金物"
+          "note": "錠前・セキュリティ金物",
+          "url": "https://www.kk-alpha.com/"
         },
         {
           "name": "ASAHI EITOホールディングス",
@@ -1462,7 +1625,8 @@
             "market": "東証スタンダード",
             "code": "5341"
           },
-          "note": "衛生陶器"
+          "note": "衛生陶器",
+          "url": "https://www.asahieito-holdings.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -1484,14 +1648,16 @@
           "listing": {
             "market": "東証プライム",
             "code": "1929"
-          }
+          },
+          "url": "https://www.nittoc.co.jp"
         },
         {
           "name": "技研製作所",
           "listing": {
             "market": "東証プライム",
             "code": "6289"
-          }
+          },
+          "url": "https://www.giken.com/ja/"
         },
         {
           "name": "アジア航測",
@@ -1499,112 +1665,128 @@
             "market": "東証スタンダード",
             "code": "9233"
           },
-          "note": "測量・空間情報"
+          "note": "測量・空間情報",
+          "url": "http://www.ajiko.co.jp/"
         },
         {
           "name": "前田工繊",
           "listing": {
             "market": "東証プライム",
             "code": "7821"
-          }
+          },
+          "url": "http://www.maedakosen.jp/"
         },
         {
           "name": "アルインコ",
           "listing": {
             "market": "東証プライム",
             "code": "5933"
-          }
+          },
+          "url": "https://www.alinco.co.jp/"
         },
         {
           "name": "日本ヒューム",
           "listing": {
             "market": "東証プライム",
             "code": "5262"
-          }
+          },
+          "url": "http://www.nipponhume.co.jp/"
         },
         {
           "name": "アジアパイルホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "5288"
-          }
+          },
+          "url": "https://www.asiapile-hd.co.jp/"
         },
         {
           "name": "ベステラ",
           "listing": {
             "market": "東証プライム",
             "code": "1433"
-          }
+          },
+          "url": "https://www.besterra.co.jp/"
         },
         {
           "name": "日本基礎技術",
           "listing": {
             "market": "東証スタンダード",
             "code": "1914"
-          }
+          },
+          "url": "http://www.jafec.co.jp/"
         },
         {
           "name": "テノックス",
           "listing": {
             "market": "東証スタンダード",
             "code": "1905"
-          }
+          },
+          "url": "https://www.tenox.co.jp/"
         },
         {
           "name": "建設技術研究所",
           "listing": {
             "market": "東証プライム",
             "code": "9621"
-          }
+          },
+          "url": "http://www.ctie.co.jp/"
         },
         {
           "name": "オリエンタルコンサルタンツホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "2498"
-          }
+          },
+          "url": "https://www.oriconhd.jp/"
         },
         {
           "name": "応用地質",
           "listing": {
             "market": "東証プライム",
             "code": "9755"
-          }
+          },
+          "url": "https://www.oyo.co.jp/"
         },
         {
           "name": "いであ",
           "listing": {
             "market": "東証スタンダード",
             "code": "9768"
-          }
+          },
+          "url": "https://www.ideacon.co.jp/"
         },
         {
           "name": "E・Jホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "2153"
-          }
+          },
+          "url": "http://www.ej-hds.co.jp/"
         },
         {
           "name": "NJS",
           "listing": {
             "market": "東証プライム",
             "code": "2325"
-          }
+          },
+          "url": "http://www.njs.co.jp/"
         },
         {
           "name": "日水コン",
           "listing": {
             "market": "東証スタンダード",
             "code": "261A"
-          }
+          },
+          "url": "https://www.nissuicon.co.jp"
         },
         {
           "name": "DNホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "7377"
-          }
+          },
+          "url": "https://www.dcne.co.jp/"
         },
         {
           "name": "ERIホールディングス",
@@ -1612,56 +1794,64 @@
             "market": "東証スタンダード",
             "code": "6083"
           },
-          "note": "建築確認検査"
+          "note": "建築確認検査",
+          "url": "http://www.h-eri.co.jp/"
         },
         {
           "name": "川崎地質",
           "listing": {
             "market": "東証スタンダード",
             "code": "4673"
-          }
+          },
+          "url": "https://www.kge.co.jp/"
         },
         {
           "name": "タカミヤ",
           "listing": {
             "market": "東証スタンダード",
             "code": "2445"
-          }
+          },
+          "url": "http://www.takamiya.co.jp/"
         },
         {
           "name": "ナガワ",
           "listing": {
             "market": "東証プライム",
             "code": "9663"
-          }
+          },
+          "url": "http://www.nagawa.co.jp/"
         },
         {
           "name": "三協フロンテア",
           "listing": {
             "market": "東証スタンダード",
             "code": "9639"
-          }
+          },
+          "url": "https://www.sankyofrontier.com/"
         },
         {
           "name": "東海リース",
           "listing": {
             "market": "東証スタンダード",
             "code": "9761"
-          }
+          },
+          "url": "https://tokai-lease.co.jp/"
         },
         {
           "name": "ラックランド",
           "listing": {
             "market": "東証プライム",
             "code": "9612"
-          }
+          },
+          "url": "https://www.luckland.co.jp/"
         },
         {
           "name": "第一カッター興業",
           "listing": {
             "market": "東証スタンダード",
             "code": "1716"
-          }
+          },
+          "url": "https://www.daiichi-cutter.co.jp/"
         },
         {
           "name": "三谷セキサン",
@@ -1678,14 +1868,16 @@
           "salary": {
             "man_jpy": 699,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "http://www.m-sekisan.co.jp/"
         },
         {
           "name": "日本コンクリート工業",
           "listing": {
             "market": "東証プライム",
             "code": "5269"
-          }
+          },
+          "url": "http://www.ncic.co.jp/"
         },
         {
           "name": "シーティーエス",
@@ -1693,14 +1885,16 @@
             "market": "東証プライム",
             "code": "4345"
           },
-          "note": "測量ICT"
+          "note": "測量ICT",
+          "url": "http://www.cts-h.co.jp/"
         },
         {
           "name": "人・夢・技術グループ",
           "listing": {
             "market": "東証スタンダード",
             "code": "9248"
-          }
+          },
+          "url": "https://www.pdt-g.co.jp/"
         },
         {
           "name": "サンコーテクノ",
@@ -1708,7 +1902,8 @@
             "market": "東証スタンダード",
             "code": "3435"
           },
-          "note": "あと施工アンカー"
+          "note": "あと施工アンカー",
+          "url": "http://www.sanko-techno.co.jp/"
         },
         {
           "name": "日本アクア",
@@ -1716,7 +1911,8 @@
             "market": "東証プライム",
             "code": "1429"
           },
-          "note": "断熱"
+          "note": "断熱",
+          "url": "https://www.n-aqua.jp/"
         },
         {
           "name": "ナカボーテック",
@@ -1724,7 +1920,8 @@
             "market": "東証スタンダード",
             "code": "1787"
           },
-          "note": "防食"
+          "note": "防食",
+          "url": "https://www.nakabohtec.co.jp"
         },
         {
           "name": "技研ホールディングス",
@@ -1738,7 +1935,8 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "1758"
-          }
+          },
+          "url": "http://www.taiyoukiso.co.jp/"
         },
         {
           "name": "富士ピー・エス",
@@ -1746,7 +1944,8 @@
             "market": "東証スタンダード",
             "code": "1848"
           },
-          "note": "PC構造物"
+          "note": "PC構造物",
+          "url": "http://www.fujips.co.jp/"
         },
         {
           "name": "三晃金属工業",
@@ -1754,7 +1953,8 @@
             "market": "東証スタンダード",
             "code": "1972"
           },
-          "note": "金属屋根"
+          "note": "金属屋根",
+          "url": "http://www.sankometal.co.jp/"
         },
         {
           "name": "セフテック",
@@ -1762,7 +1962,8 @@
             "market": "東証スタンダード",
             "code": "7464"
           },
-          "note": "工事保安用品"
+          "note": "工事保安用品",
+          "url": "https://www.saftec.co.jp/"
         },
         {
           "name": "コンセック",
@@ -1770,14 +1971,16 @@
             "market": "東証スタンダード",
             "code": "9895"
           },
-          "note": "切削機器"
+          "note": "切削機器",
+          "url": "http://www.consec.co.jp/"
         },
         {
           "name": "大盛工業",
           "listing": {
             "market": "東証スタンダード",
             "code": "1844"
-          }
+          },
+          "url": "http://www.ohmori.co.jp/"
         },
         {
           "name": "ケー・エフ・シー",
@@ -1785,7 +1988,8 @@
             "market": "東証スタンダード",
             "code": "3420"
           },
-          "note": "落石防護・アンカー"
+          "note": "落石防護・アンカー",
+          "url": "https://www.kfc-net.co.jp/"
         },
         {
           "name": "エスイー",
@@ -1793,7 +1997,8 @@
             "market": "東証スタンダード",
             "code": "3423"
           },
-          "note": "建設資材"
+          "note": "建設資材",
+          "url": "http://www2.se-corp.com"
         },
         {
           "name": "信和",
@@ -1801,7 +2006,8 @@
             "market": "東証スタンダード",
             "code": "3447"
           },
-          "note": "足場"
+          "note": "足場",
+          "url": "http://www.shinwa-jp.com/"
         },
         {
           "name": "川岸工業",
@@ -1809,7 +2015,8 @@
             "market": "東証スタンダード",
             "code": "5921"
           },
-          "note": "鉄骨"
+          "note": "鉄骨",
+          "url": "https://www.kawagishi.co.jp/"
         },
         {
           "name": "那須電機鉄工",
@@ -1817,7 +2024,8 @@
             "market": "東証スタンダード",
             "code": "5922"
           },
-          "note": "鉄塔"
+          "note": "鉄塔",
+          "url": "https://www.nasudenki.co.jp"
         },
         {
           "name": "大谷工業",
@@ -1825,7 +2033,8 @@
             "market": "東証スタンダード",
             "code": "5939"
           },
-          "note": "鉄塔・鋼構造"
+          "note": "鉄塔・鋼構造",
+          "url": "https://www.otanikogyo.com/"
         },
         {
           "name": "トーアミ",
@@ -1833,7 +2042,8 @@
             "market": "東証スタンダード",
             "code": "5973"
           },
-          "note": "ワイヤメッシュ"
+          "note": "ワイヤメッシュ",
+          "url": "http://www.wolfgang.co.jp/"
         },
         {
           "name": "イワブチ",
@@ -1841,7 +2051,8 @@
             "market": "東証スタンダード",
             "code": "5983"
           },
-          "note": "電設金物"
+          "note": "電設金物",
+          "url": "https://www.iwabuchi.co.jp/"
         },
         {
           "name": "岐阜造園",
@@ -1849,7 +2060,8 @@
             "market": "東証スタンダード",
             "code": "1438"
           },
-          "note": "造園"
+          "note": "造園",
+          "url": "https://www.gifu-zohen.co.jp"
         },
         {
           "name": "ニッソウ",
@@ -1857,7 +2069,8 @@
             "market": "東証グロース",
             "code": "1444"
           },
-          "note": "リフォーム"
+          "note": "リフォーム",
+          "url": "https://reform-nisso.co.jp/"
         },
         {
           "name": "キャンディル",
@@ -1865,7 +2078,8 @@
             "market": "東証スタンダード",
             "code": "1446"
           },
-          "note": "建物補修"
+          "note": "建物補修",
+          "url": "https://www.candeal.co.jp/"
         },
         {
           "name": "高橋カーテンウォール工業",
@@ -1873,7 +2087,8 @@
             "market": "東証スタンダード",
             "code": "1994"
           },
-          "note": "カーテンウォール"
+          "note": "カーテンウォール",
+          "url": "http://www.t-cw.co.jp"
         },
         {
           "name": "エムビーエス",
@@ -1881,7 +2096,8 @@
             "market": "東証グロース",
             "code": "1401"
           },
-          "note": "特殊コーティング補修"
+          "note": "特殊コーティング補修",
+          "url": "https://www.homemakeup.co.jp/"
         },
         {
           "name": "インターライフホールディングス",
@@ -1897,7 +2113,8 @@
             "market": "東証スタンダード",
             "code": "1711"
           },
-          "note": "地盤改良"
+          "note": "地盤改良",
+          "url": "http://www.shodensya.com/"
         },
         {
           "name": "丸建リース",
@@ -1905,7 +2122,8 @@
             "market": "東証スタンダード",
             "code": "9763"
           },
-          "note": "建設機材レンタル"
+          "note": "建設機材レンタル",
+          "url": "https://www.maruken-lease.co.jp/"
         },
         {
           "name": "エプコ",
@@ -1913,7 +2131,8 @@
             "market": "東証スタンダード",
             "code": "2311"
           },
-          "note": "住宅給排水設計"
+          "note": "住宅給排水設計",
+          "url": "https://www.epco.co.jp/"
         },
         {
           "name": "オリジナル設計",
@@ -1921,7 +2140,8 @@
             "market": "東証スタンダード",
             "code": "4642"
           },
-          "note": "水道コンサル"
+          "note": "水道コンサル",
+          "url": "https://www.oec-solution.co.jp"
         },
         {
           "name": "環境管理センター",
@@ -1929,7 +2149,8 @@
             "market": "東証スタンダード",
             "code": "4657"
           },
-          "note": "環境分析"
+          "note": "環境分析",
+          "url": "http://www.kankyo-kanri.co.jp/"
         },
         {
           "name": "キタック",
@@ -1937,7 +2158,8 @@
             "market": "東証スタンダード",
             "code": "4707"
           },
-          "note": "地質調査"
+          "note": "地質調査",
+          "url": "http://kitac.co.jp/"
         },
         {
           "name": "地盤ネットホールディングス",
@@ -1945,7 +2167,8 @@
             "market": "東証スタンダード",
             "code": "6072"
           },
-          "note": "住宅地盤解析"
+          "note": "住宅地盤解析",
+          "url": "http://jiban-holdings.jp/"
         },
         {
           "name": "ウエスコホールディングス",
@@ -1953,7 +2176,8 @@
             "market": "東証スタンダード",
             "code": "6091"
           },
-          "note": "測量・地質"
+          "note": "測量・地質",
+          "url": "http://www.wescohd.co.jp/"
         },
         {
           "name": "エンバイオ・ホールディングス",
@@ -1961,7 +2185,8 @@
             "market": "東証スタンダード",
             "code": "6092"
           },
-          "note": "土壌汚染対策"
+          "note": "土壌汚染対策",
+          "url": "https://enbio-holdings.com"
         },
         {
           "name": "土木管理総合試験所",
@@ -1969,7 +2194,8 @@
             "market": "東証スタンダード",
             "code": "6171"
           },
-          "note": "土木試験"
+          "note": "土木試験",
+          "url": "https://www.dksiken.co.jp/"
         },
         {
           "name": "船場",
@@ -1977,7 +2203,8 @@
             "market": "東証スタンダード",
             "code": "6540"
           },
-          "note": "商業施設内装"
+          "note": "商業施設内装",
+          "url": "https://www.semba1008.co.jp/ja/index.html"
         },
         {
           "name": "メイホーホールディングス",
@@ -1985,7 +2212,8 @@
             "market": "東証グロース",
             "code": "7369"
           },
-          "note": "地域建設・人材"
+          "note": "地域建設・人材",
+          "url": "https://www.meiho-j.co.jp"
         },
         {
           "name": "協和コンサルタンツ",
@@ -1993,7 +2221,8 @@
             "market": "東証スタンダード",
             "code": "9647"
           },
-          "note": "建設コンサル"
+          "note": "建設コンサル",
+          "url": "http://www.kyowa-c.co.jp/"
         },
         {
           "name": "オオバ",
@@ -2001,7 +2230,8 @@
             "market": "東証プライム",
             "code": "9765"
           },
-          "note": "まちづくりコンサル"
+          "note": "まちづくりコンサル",
+          "url": "https://www.k-ohba.co.jp"
         },
         {
           "name": "日建工学",
@@ -2009,7 +2239,8 @@
             "market": "東証スタンダード",
             "code": "9767"
           },
-          "note": "消波ブロック"
+          "note": "消波ブロック",
+          "url": "https://www.nikken-kogaku.co.jp/"
         },
         {
           "name": "SAAFホールディングス",
@@ -2017,7 +2248,8 @@
             "market": "東証グロース",
             "code": "1447"
           },
-          "note": "地盤調査改良・IT・人材"
+          "note": "地盤調査改良・IT・人材",
+          "url": "https://www.itbook-hd.co.jp/"
         },
         {
           "name": "TANAKEN",
@@ -2025,7 +2257,8 @@
             "market": "東証スタンダード",
             "code": "1450"
           },
-          "note": "解体工事"
+          "note": "解体工事",
+          "url": "https://www.tanaken.co.jp/"
         },
         {
           "name": "トヨコー",
@@ -2033,7 +2266,8 @@
             "market": "東証グロース",
             "code": "341A"
           },
-          "note": "レーザーサビ取り・屋根補修"
+          "note": "レーザーサビ取り・屋根補修",
+          "url": "https://toyokoh.com/"
         },
         {
           "name": "トライアイズ",
@@ -2041,7 +2275,8 @@
             "market": "東証スタンダード",
             "code": "4840"
           },
-          "note": "建設コンサル(河川・砂防)・多角"
+          "note": "建設コンサル(河川・砂防)・多角",
+          "url": "http://www.triis.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -2084,20 +2319,23 @@
           "listing": {
             "market": "プライム",
             "code": "9678"
-          }
+          },
+          "url": "http://www.kanamoto.co.jp/"
         },
         {
           "name": "レント",
           "listing": {
             "market": "スタンダード",
             "code": "372A"
-          }
+          },
+          "url": "https://www.rent.co.jp/"
         },
         {
           "name": "アクティオ",
           "listing": {
             "market": "非上場(建機レンタル大手)"
-          }
+          },
+          "url": "http://www.aktio.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -2122,7 +2360,8 @@
           "salary": {
             "man_jpy": 699,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "http://www.m-sekisan.co.jp/"
         },
         {
           "name": "アジアパイルホールディングス",
@@ -2130,7 +2369,8 @@
             "market": "プライム",
             "code": "5288"
           },
-          "note": "ジャパンパイルの持株会社"
+          "note": "ジャパンパイルの持株会社",
+          "url": "https://www.asiapile-hd.co.jp/"
         }
       ],
       "updated": "2026-07-24",

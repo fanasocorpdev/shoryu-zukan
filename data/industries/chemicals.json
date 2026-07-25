@@ -67,133 +67,152 @@
           "listing": {
             "market": "東証プライム",
             "code": "4188"
-          }
+          },
+          "url": "https://pitchbook.com/profiles/company/51506-29"
         },
         {
           "name": "住友化学",
           "listing": {
             "market": "東証プライム",
             "code": "4005"
-          }
+          },
+          "url": "https://www.sumitomo-chem.co.jp/"
         },
         {
           "name": "旭化成",
           "listing": {
             "market": "東証プライム",
             "code": "3407"
-          }
+          },
+          "url": "https://www.asahi-kasei.co.jp/asahi/en/"
         },
         {
           "name": "三井化学",
           "listing": {
             "market": "東証プライム",
             "code": "4183"
-          }
+          },
+          "url": "https://www.mitsuichemicals.com/"
         },
         {
           "name": "東ソー",
           "listing": {
             "market": "東証プライム",
             "code": "4042"
-          }
+          },
+          "url": "http://www.tosoh.com/home"
         },
         {
           "name": "UBE",
           "listing": {
             "market": "東証プライム",
             "code": "4208"
-          }
+          },
+          "url": "https://www.ube.com/ube/"
         },
         {
           "name": "レゾナック・ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "4004"
-          }
+          },
+          "url": "https://www.resonac.com/jp"
         },
         {
           "name": "デンカ",
           "listing": {
             "market": "東証プライム",
             "code": "4061"
-          }
+          },
+          "url": "http://www.denka.co.jp/"
         },
         {
           "name": "ダイセル",
           "listing": {
             "market": "東証プライム",
             "code": "4202"
-          }
+          },
+          "url": "http://www.daicel.com"
         },
         {
           "name": "トクヤマ",
           "listing": {
             "market": "東証プライム",
             "code": "4043"
-          }
+          },
+          "url": "http://www.tokuyama.co.jp/eng/"
         },
         {
           "name": "三菱瓦斯化学",
           "listing": {
             "market": "東証プライム",
             "code": "4182"
-          }
+          },
+          "url": "http://www.mgc.co.jp/"
         },
         {
           "name": "日本曹達",
           "listing": {
             "market": "東証プライム",
             "code": "4041"
-          }
+          },
+          "url": "http://www.nippon-soda.co.jp/e/"
         },
         {
           "name": "石原産業",
           "listing": {
             "market": "東証プライム",
             "code": "4028"
-          }
+          },
+          "url": "http://www.iskweb.co.jp/"
         },
         {
           "name": "堺化学工業",
           "listing": {
             "market": "東証プライム",
             "code": "4078"
-          }
+          },
+          "url": "http://www.sakai-chem.co.jp"
         },
         {
           "name": "東亞合成",
           "listing": {
             "market": "東証プライム",
             "code": "4045"
-          }
+          },
+          "url": "https://www.toagosei.co.jp/"
         },
         {
           "name": "日油",
           "listing": {
             "market": "東証プライム",
             "code": "4403"
-          }
+          },
+          "url": "http://www.nof.co.jp/"
         },
         {
           "name": "住友精化",
           "listing": {
             "market": "東証プライム",
             "code": "4008"
-          }
+          },
+          "url": "http://www.sumitomoseika.co.jp/"
         },
         {
           "name": "クレハ",
           "listing": {
             "market": "東証プライム",
             "code": "4023"
-          }
+          },
+          "url": "http://www.kureha.co.jp/en/"
         },
         {
           "name": "KHネオケム",
           "listing": {
             "market": "東証プライム",
             "code": "4189"
-          }
+          },
+          "url": "https://www.khneochem.co.jp/"
         },
         {
           "name": "旭有機材",
@@ -207,224 +226,256 @@
           "listing": {
             "market": "東証プライム",
             "code": "4095"
-          }
+          },
+          "url": "http://www.parker.co.jp/"
         },
         {
           "name": "大阪有機化学工業",
           "listing": {
             "market": "東証プライム",
             "code": "4187"
-          }
+          },
+          "url": "http://www.ooc.co.jp/"
         },
         {
           "name": "ラサ工業",
           "listing": {
             "market": "東証プライム",
             "code": "4022"
-          }
+          },
+          "url": "https://www.rasa.co.jp"
         },
         {
           "name": "多木化学",
           "listing": {
             "market": "東証プライム",
             "code": "4025"
-          }
+          },
+          "url": "https://www.takichem.co.jp/"
         },
         {
           "name": "テイカ",
           "listing": {
             "market": "東証プライム",
             "code": "4027"
-          }
+          },
+          "url": "http://www.tayca.co.jp/"
         },
         {
           "name": "日本カーバイド工業",
           "listing": {
             "market": "東証プライム",
             "code": "4064"
-          }
+          },
+          "url": "http://www.carbide.co.jp/"
         },
         {
           "name": "第一稀元素化学工業",
           "listing": {
             "market": "東証プライム",
             "code": "4082"
-          }
+          },
+          "url": "http://www.dkkk.co.jp/"
         },
         {
           "name": "日本化学工業",
           "listing": {
             "market": "東証プライム",
             "code": "4092"
-          }
+          },
+          "url": "http://www.nippon-chem.co.jp/"
         },
         {
           "name": "四国化成ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "4099"
-          }
+          },
+          "url": "https://www.shikoku.co.jp/"
         },
         {
           "name": "戸田工業",
           "listing": {
             "market": "東証スタンダード",
             "code": "4100"
-          }
+          },
+          "url": "http://www.todakogyo.co.jp/"
         },
         {
           "name": "保土谷化学工業",
           "listing": {
             "market": "東証プライム",
             "code": "4112"
-          }
+          },
+          "url": "http://www.hodogaya.co.jp/"
         },
         {
           "name": "大日精化工業",
           "listing": {
             "market": "東証プライム",
             "code": "4116"
-          }
+          },
+          "url": "http://www.daicolor.co.jp"
         },
         {
           "name": "リケンテクノス",
           "listing": {
             "market": "東証プライム",
             "code": "4220"
-          }
+          },
+          "url": "http://www.rikentechnos.co.jp/"
         },
         {
           "name": "大倉工業",
           "listing": {
             "market": "東証プライム",
             "code": "4221"
-          }
+          },
+          "url": "https://www.okr-ind.co.jp/"
         },
         {
           "name": "積水化成品工業",
           "listing": {
             "market": "東証プライム",
             "code": "4228"
-          }
+          },
+          "url": "http://www.sekisuiplastics.co.jp/"
         },
         {
           "name": "群栄化学工業",
           "listing": {
             "market": "東証プライム",
             "code": "4229"
-          }
+          },
+          "url": "https://www.gunei-chemical.co.jp"
         },
         {
           "name": "カーリット",
           "listing": {
             "market": "東証プライム",
             "code": "4275"
-          }
+          },
+          "url": "https://www.carlithd.co.jp/"
         },
         {
           "name": "日本精化",
           "listing": {
             "market": "東証プライム",
             "code": "4362"
-          }
+          },
+          "url": "http://www.nipponseika.co.jp/"
         },
         {
           "name": "ハリマ化成グループ",
           "listing": {
             "market": "東証プライム",
             "code": "4410"
-          }
+          },
+          "url": "https://www.harima.co.jp/"
         },
         {
           "name": "第一工業製薬",
           "listing": {
             "market": "東証プライム",
             "code": "4461"
-          }
+          },
+          "url": "https://www.dks-web.co.jp/"
         },
         {
           "name": "石原ケミカル",
           "listing": {
             "market": "東証プライム",
             "code": "4462"
-          }
+          },
+          "url": "https://www.unicon.co.jp/"
         },
         {
           "name": "荒川化学工業",
           "listing": {
             "market": "東証プライム",
             "code": "4968"
-          }
+          },
+          "url": "https://www.arakawachem.co.jp/"
         },
         {
           "name": "アキレス",
           "listing": {
             "market": "東証プライム",
             "code": "5142"
-          }
+          },
+          "url": "http://www.achilles.jp/"
         },
         {
           "name": "三光合成",
           "listing": {
             "market": "東証プライム",
             "code": "7888"
-          }
+          },
+          "url": "http://www.sankogosei.co.jp/"
         },
         {
           "name": "松本油脂製薬",
           "listing": {
             "market": "東証スタンダード",
             "code": "4365"
-          }
+          },
+          "url": "http://www.mtmtys.co.jp/"
         },
         {
           "name": "日華化学",
           "listing": {
             "market": "東証スタンダード",
             "code": "4463"
-          }
+          },
+          "url": "https://www.nicca.co.jp/"
         },
         {
           "name": "広栄化学",
           "listing": {
             "market": "東証スタンダード",
             "code": "4367"
-          }
+          },
+          "url": "https://www.koeichem.com/"
         },
         {
           "name": "新日本理化",
           "listing": {
             "market": "東証スタンダード",
             "code": "4406"
-          }
+          },
+          "url": "http://www.nj-chem.co.jp/"
         },
         {
           "name": "東邦化学工業",
           "listing": {
             "market": "東証スタンダード",
             "code": "4409"
-          }
+          },
+          "url": "http://www.toho-chem.co.jp/"
         },
         {
           "name": "有機合成薬品工業",
           "listing": {
             "market": "東証スタンダード",
             "code": "4531"
-          }
+          },
+          "url": "http://yuki-gosei.co.jp/"
         },
         {
           "name": "南海化学",
           "listing": {
             "market": "東証スタンダード",
             "code": "4040"
-          }
+          },
+          "url": "http://www.nankai-chem.co.jp/"
         },
         {
           "name": "田岡化学工業",
           "listing": {
             "market": "東証スタンダード",
             "code": "4113"
-          }
+          },
+          "url": "https://www.taoka-chem.co.jp"
         },
         {
           "name": "日本化学産業",
@@ -432,7 +483,8 @@
             "market": "東証スタンダード",
             "code": "4094"
           },
-          "note": "無機化学"
+          "note": "無機化学",
+          "url": "https://www.nihonkagakusangyo.co.jp/"
         },
         {
           "name": "チタン工業",
@@ -440,7 +492,8 @@
             "market": "東証スタンダード",
             "code": "4098"
           },
-          "note": "酸化チタン"
+          "note": "酸化チタン",
+          "url": "http://www.titankogyo.co.jp/"
         },
         {
           "name": "丸尾カルシウム",
@@ -448,7 +501,8 @@
             "market": "東証スタンダード",
             "code": "4102"
           },
-          "note": "カルシウム製品"
+          "note": "カルシウム製品",
+          "url": "https://www.maruo-cal.co.jp"
         },
         {
           "name": "伊勢化学工業",
@@ -465,14 +519,16 @@
           "salary": {
             "man_jpy": 821,
             "fy": "2025年12月期"
-          }
+          },
+          "url": "https://www.isechem.co.jp/"
         },
         {
           "name": "スガイ化学工業",
           "listing": {
             "market": "東証スタンダード",
             "code": "4120"
-          }
+          },
+          "url": "https://www.sugai-chem.co.jp"
         },
         {
           "name": "大阪油化工業",
@@ -480,7 +536,8 @@
             "market": "東証スタンダード",
             "code": "4124"
           },
-          "note": "受託蒸留"
+          "note": "受託蒸留",
+          "url": "https://www.osaka-yuka.co.jp/"
         },
         {
           "name": "ニックス",
@@ -488,7 +545,8 @@
             "market": "東証スタンダード",
             "code": "4243"
           },
-          "note": "樹脂部品"
+          "note": "樹脂部品",
+          "url": "https://www.nix.co.jp/"
         },
         {
           "name": "ポバール興業",
@@ -496,7 +554,8 @@
             "market": "東証スタンダード",
             "code": "4247"
           },
-          "note": "ポバールフィルム"
+          "note": "ポバールフィルム",
+          "url": "http://www.poval.co.jp/"
         },
         {
           "name": "細谷火工",
@@ -504,14 +563,16 @@
             "market": "東証スタンダード",
             "code": "4274"
           },
-          "note": "火工品"
+          "note": "火工品",
+          "url": "http://www.hosoya-pyro.co.jp/"
         },
         {
           "name": "川口化学工業",
           "listing": {
             "market": "東証スタンダード",
             "code": "4361"
-          }
+          },
+          "url": "http://www.kawachem.co.jp/"
         },
         {
           "name": "ケミプロ化成",
@@ -519,7 +580,8 @@
             "market": "東証スタンダード",
             "code": "4960"
           },
-          "note": "難燃剤"
+          "note": "難燃剤",
+          "url": "https://www.chemipro.co.jp/ja/index.html"
         },
         {
           "name": "東洋ドライルーブ",
@@ -527,14 +589,16 @@
             "market": "東証スタンダード",
             "code": "4976"
           },
-          "note": "ドライ潤滑"
+          "note": "ドライ潤滑",
+          "url": "https://www.drilube.co.jp/"
         },
         {
           "name": "昭和化学工業",
           "listing": {
             "market": "東証スタンダード",
             "code": "4990"
-          }
+          },
+          "url": "https://www.showa-chemical.co.jp/"
         },
         {
           "name": "パーカーコーポレーション",
@@ -542,7 +606,8 @@
             "market": "東証スタンダード",
             "code": "9845"
           },
-          "note": "表面処理・商社"
+          "note": "表面処理・商社",
+          "url": "https://www.parkercorp.co.jp/"
         },
         {
           "name": "日本精蝋",
@@ -550,7 +615,8 @@
             "market": "東証スタンダード",
             "code": "5010"
           },
-          "note": "パラフィンワックス"
+          "note": "パラフィンワックス",
+          "url": "https://www.seiro.co.jp/"
         },
         {
           "name": "Green Earth Institute",
@@ -558,7 +624,8 @@
             "market": "東証グロース",
             "code": "9212"
           },
-          "note": "バイオものづくり"
+          "note": "バイオものづくり",
+          "url": "https://www.gei.co.jp/"
         },
         {
           "name": "マイクロ波化学",
@@ -566,7 +633,8 @@
             "market": "東証グロース",
             "code": "9227"
           },
-          "note": "マイクロ波化学プロセス"
+          "note": "マイクロ波化学プロセス",
+          "url": "https://mwcc.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -607,77 +675,88 @@
           "salary": {
             "man_jpy": 898,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "http://www.shinetsu.co.jp/"
         },
         {
           "name": "日産化学",
           "listing": {
             "market": "東証プライム",
             "code": "4021"
-          }
+          },
+          "url": "https://www.nissanchem.co.jp/"
         },
         {
           "name": "日本触媒",
           "listing": {
             "market": "東証プライム",
             "code": "4114"
-          }
+          },
+          "url": "https://www.shokubai.co.jp/ja/"
         },
         {
           "name": "ADEKA",
           "listing": {
             "market": "東証プライム",
             "code": "4401"
-          }
+          },
+          "url": "http://www.adeka.co.jp/"
         },
         {
           "name": "日本ゼオン",
           "listing": {
             "market": "東証プライム",
             "code": "4205"
-          }
+          },
+          "url": "http://www.zeon.co.jp/"
         },
         {
           "name": "カネカ",
           "listing": {
             "market": "東証プライム",
             "code": "4118"
-          }
+          },
+          "url": "https://www.kaneka.co.jp/"
         },
         {
           "name": "トリケミカル研究所",
           "listing": {
             "market": "東証プライム",
             "code": "4369"
-          }
+          },
+          "url": "https://www.trichemical.com/"
         },
         {
           "name": "ステラ ケミファ",
           "listing": {
             "market": "東証プライム",
             "code": "4109"
-          }
+          },
+          "url": "http://www.stella-chemifa.co.jp/"
         },
         {
           "name": "関東電化工業",
           "listing": {
             "market": "東証プライム",
             "code": "4047"
-          }
+          },
+          "url": "https://www.kantodenka.co.jp/"
         },
         {
           "name": "大阪ソーダ",
           "listing": {
             "market": "東証プライム",
             "code": "4046"
-          }
+          },
+          "url": "https://www.osaka-soda.co.jp/"
         },
         {
           "name": "日本化薬",
           "listing": {
             "market": "東証プライム",
             "code": "4272"
-          }
+          },
+          "url": "https://www.nipponkayaku.co.jp/"
         },
         {
           "name": "住友ベークライト",
@@ -685,7 +764,8 @@
             "market": "東証プライム",
             "code": "4203"
           },
-          "note": "半導体封止材"
+          "note": "半導体封止材",
+          "url": "http://www.sumibe.co.jp/"
         },
         {
           "name": "太陽ホールディングス",
@@ -693,7 +773,8 @@
             "market": "東証プライム",
             "code": "4626"
           },
-          "note": "ソルダーレジスト"
+          "note": "ソルダーレジスト",
+          "url": "https://www.taiyo-hd.co.jp/"
         },
         {
           "name": "デクセリアルズ",
@@ -701,7 +782,8 @@
             "market": "東証プライム",
             "code": "4980"
           },
-          "note": "光学材料"
+          "note": "光学材料",
+          "url": "http://www.dexerials.jp/"
         },
         {
           "name": "扶桑化学工業",
@@ -709,35 +791,40 @@
             "market": "東証プライム",
             "code": "4368"
           },
-          "note": "半導体用薬液"
+          "note": "半導体用薬液",
+          "url": "http://www.fusokk.co.jp/"
         },
         {
           "name": "メック",
           "listing": {
             "market": "東証プライム",
             "code": "4971"
-          }
+          },
+          "url": "https://www.mec-co.com"
         },
         {
           "name": "JCU",
           "listing": {
             "market": "東証プライム",
             "code": "4975"
-          }
+          },
+          "url": "https://www.jcu-i.com/"
         },
         {
           "name": "有沢製作所",
           "listing": {
             "market": "東証プライム",
             "code": "5208"
-          }
+          },
+          "url": "https://www.arisawa.co.jp/"
         },
         {
           "name": "信越ポリマー",
           "listing": {
             "market": "東証プライム",
             "code": "7970"
-          }
+          },
+          "url": "http://www.shinpoly.co.jp/"
         },
         {
           "name": "恵和",
@@ -745,7 +832,8 @@
             "market": "東証プライム",
             "code": "4251"
           },
-          "note": "光学フィルム"
+          "note": "光学フィルム",
+          "url": "https://www.keiwa.co.jp/"
         },
         {
           "name": "日本高純度化学",
@@ -769,7 +857,8 @@
           "salary": {
             "man_jpy": 784,
             "fy": "2024年3月期"
-          }
+          },
+          "url": "https://www.uyemura.co.jp/"
         },
         {
           "name": "東洋合成工業",
@@ -786,14 +875,16 @@
           "salary": {
             "man_jpy": 674,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "http://www.toyogosei.co.jp/"
         },
         {
           "name": "綜研化学",
           "listing": {
             "market": "東証スタンダード",
             "code": "4972"
-          }
+          },
+          "url": "https://www.sokenchem.com"
         },
         {
           "name": "巴川コーポレーション",
@@ -801,7 +892,8 @@
             "market": "東証スタンダード",
             "code": "3878"
           },
-          "note": "機能紙・フィルム"
+          "note": "機能紙・フィルム",
+          "url": "http://www.tomoegawa.co.jp/"
         },
         {
           "name": "クラスターテクノロジー",
@@ -809,7 +901,8 @@
             "market": "東証スタンダード",
             "code": "4240"
           },
-          "note": "微細加工樹脂"
+          "note": "微細加工樹脂",
+          "url": "http://www.cluster-tech.co.jp/"
         },
         {
           "name": "ダイトーケミックス",
@@ -817,7 +910,8 @@
             "market": "東証スタンダード",
             "code": "4366"
           },
-          "note": "電子材料中間体"
+          "note": "電子材料中間体",
+          "url": "http://www.daitochemix.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -839,21 +933,24 @@
           "listing": {
             "market": "東証プライム",
             "code": "4091"
-          }
+          },
+          "url": "https://jp.nipponsanso.com/"
         },
         {
           "name": "エア・ウォーター",
           "listing": {
             "market": "東証プライム",
             "code": "4088"
-          }
+          },
+          "url": "https://www.awi.co.jp/"
         },
         {
           "name": "高圧ガス工業",
           "listing": {
             "market": "東証プライム",
             "code": "4097"
-          }
+          },
+          "url": "https://www.koatsugas.co.jp"
         },
         {
           "name": "東邦アセチレン",
@@ -861,7 +958,8 @@
             "market": "東証スタンダード",
             "code": "4093"
           },
-          "note": "アセチレン"
+          "note": "アセチレン",
+          "url": "https://www.toho-ace.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -883,35 +981,40 @@
           "listing": {
             "market": "東証プライム",
             "code": "4612"
-          }
+          },
+          "url": "https://www.nipponpaint-holdings.com/"
         },
         {
           "name": "関西ペイント",
           "listing": {
             "market": "東証プライム",
             "code": "4613"
-          }
+          },
+          "url": "https://www.kansai.co.jp/"
         },
         {
           "name": "DIC",
           "listing": {
             "market": "東証プライム",
             "code": "4631"
-          }
+          },
+          "url": "http://www.dic-global.com"
         },
         {
           "name": "サカタインクス",
           "listing": {
             "market": "東証プライム",
             "code": "4633"
-          }
+          },
+          "url": "http://www.inx.co.jp/"
         },
         {
           "name": "artience",
           "listing": {
             "market": "東証プライム",
             "code": "4634"
-          }
+          },
+          "url": "https://www.artiencegroup.com/"
         },
         {
           "name": "中国塗料",
@@ -919,28 +1022,32 @@
             "market": "東証プライム",
             "code": "4617"
           },
-          "note": "船舶塗料"
+          "note": "船舶塗料",
+          "url": "http://www.cmp.co.jp/global/japan.html"
         },
         {
           "name": "アイカ工業",
           "listing": {
             "market": "東証プライム",
             "code": "4206"
-          }
+          },
+          "url": "http://www.aica.co.jp/"
         },
         {
           "name": "大日本塗料",
           "listing": {
             "market": "東証プライム",
             "code": "4611"
-          }
+          },
+          "url": "https://www.dnt.co.jp/"
         },
         {
           "name": "藤倉化成",
           "listing": {
             "market": "東証スタンダード",
             "code": "4620"
-          }
+          },
+          "url": "http://www.fkkasei.co.jp/"
         },
         {
           "name": "ニチバン",
@@ -948,7 +1055,8 @@
             "market": "東証プライム",
             "code": "4218"
           },
-          "note": "テープ"
+          "note": "テープ",
+          "url": "https://www.nichiban.co.jp/"
         },
         {
           "name": "エスケー化研",
@@ -964,63 +1072,72 @@
           "salary": {
             "man_jpy": 656,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://www.sk-kaken.co.jp/"
         },
         {
           "name": "アサヒペン",
           "listing": {
             "market": "東証スタンダード",
             "code": "4623"
-          }
+          },
+          "url": "https://www.asahipen.jp"
         },
         {
           "name": "神東塗料",
           "listing": {
             "market": "東証スタンダード",
             "code": "4615"
-          }
+          },
+          "url": "https://www.shintopaint.co.jp/"
         },
         {
           "name": "日本特殊塗料",
           "listing": {
             "market": "東証スタンダード",
             "code": "4619"
-          }
+          },
+          "url": "http://www.nttoryo.co.jp/"
         },
         {
           "name": "イサム塗料",
           "listing": {
             "market": "東証スタンダード",
             "code": "4624"
-          }
+          },
+          "url": "https://www.isamu.co.jp/"
         },
         {
           "name": "アトミクス",
           "listing": {
             "market": "東証スタンダード",
             "code": "4625"
-          }
+          },
+          "url": "https://www.atomix.co.jp/"
         },
         {
           "name": "ナトコ",
           "listing": {
             "market": "東証スタンダード",
             "code": "4627"
-          }
+          },
+          "url": "http://www.natoco.co.jp/"
         },
         {
           "name": "川上塗料",
           "listing": {
             "market": "東証スタンダード",
             "code": "4616"
-          }
+          },
+          "url": "https://www.kawakami-paint.co.jp"
         },
         {
           "name": "東京インキ",
           "listing": {
             "market": "東証スタンダード",
             "code": "4635"
-          }
+          },
+          "url": "https://www.tokyoink.co.jp/"
         },
         {
           "name": "日本ピグメントホールディングス",
@@ -1028,7 +1145,8 @@
             "market": "東証スタンダード",
             "code": "4119"
           },
-          "note": "顔料"
+          "note": "顔料",
+          "url": "https://www.pigment-hd.co.jp/"
         },
         {
           "name": "大伸化学",
@@ -1044,7 +1162,8 @@
             "market": "東証スタンダード",
             "code": "7670"
           },
-          "note": "塗料卸"
+          "note": "塗料卸",
+          "url": "https://www.owell.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -1076,77 +1195,88 @@
           "salary": {
             "man_jpy": 865,
             "fy": "2025年12月期"
-          }
+          },
+          "url": "https://www.kao.com/cn/"
         },
         {
           "name": "資生堂",
           "listing": {
             "market": "東証プライム",
             "code": "4911"
-          }
+          },
+          "url": "https://corp.shiseido.com/"
         },
         {
           "name": "ポーラ・オルビスホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "4927"
-          }
+          },
+          "url": "https://www.pola.co.jp/"
         },
         {
           "name": "ライオン",
           "listing": {
             "market": "東証プライム",
             "code": "4912"
-          }
+          },
+          "url": "http://www.lion.co.jp/"
         },
         {
           "name": "ユニ・チャーム",
           "listing": {
             "market": "東証プライム",
             "code": "8113"
-          }
+          },
+          "url": "http://www.unicharm.co.jp/"
         },
         {
           "name": "小林製薬",
           "listing": {
             "market": "東証プライム",
             "code": "4967"
-          }
+          },
+          "url": "http://www.kobayashi.co.jp/"
         },
         {
           "name": "アース製薬",
           "listing": {
             "market": "東証プライム",
             "code": "4985"
-          }
+          },
+          "url": "https://www.earth.jp/"
         },
         {
           "name": "ロート製薬",
           "listing": {
             "market": "東証プライム",
             "code": "4527"
-          }
+          },
+          "url": "http://www.rohto.co.jp"
         },
         {
           "name": "コーセーホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "4922"
-          }
+          },
+          "url": "http://www.kose.co.jp/"
         },
         {
           "name": "ミルボン",
           "listing": {
             "market": "東証プライム",
             "code": "4919"
-          }
+          },
+          "url": "http://www.milbon.co.jp/"
         },
         {
           "name": "ノエビアホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "4928"
-          }
+          },
+          "url": "http://www.noevirholdings.co.jp/"
         },
         {
           "name": "ヤーマン",
@@ -1154,7 +1284,8 @@
             "market": "東証プライム",
             "code": "6630"
           },
-          "note": "美容家電"
+          "note": "美容家電",
+          "url": "https://www.ya-man.co.jp/"
         },
         {
           "name": "北の達人コーポレーション",
@@ -1162,7 +1293,8 @@
             "market": "東証プライム",
             "code": "2930"
           },
-          "note": "通販化粧品"
+          "note": "通販化粧品",
+          "url": "http://www.kitanotatsujin.com"
         },
         {
           "name": "コタ",
@@ -1170,49 +1302,56 @@
             "market": "東証プライム",
             "code": "4923"
           },
-          "note": "ヘアケア"
+          "note": "ヘアケア",
+          "url": "https://www.cota.co.jp/"
         },
         {
           "name": "新日本製薬",
           "listing": {
             "market": "東証プライム",
             "code": "4931"
-          }
+          },
+          "url": "http://corporate.shinnihonseiyaku.co.jp/"
         },
         {
           "name": "I-ne",
           "listing": {
             "market": "東証プライム",
             "code": "4933"
-          }
+          },
+          "url": "https://i-ne.co.jp/"
         },
         {
           "name": "アクシージア",
           "listing": {
             "market": "東証スタンダード",
             "code": "4936"
-          }
+          },
+          "url": "https://axxzia.co.jp/"
         },
         {
           "name": "エステー",
           "listing": {
             "market": "東証プライム",
             "code": "4951"
-          }
+          },
+          "url": "https://www.st-c.co.jp/"
         },
         {
           "name": "レック",
           "listing": {
             "market": "東証プライム",
             "code": "7874"
-          }
+          },
+          "url": "https://www.lecinc.co.jp/"
         },
         {
           "name": "フマキラー",
           "listing": {
             "market": "東証スタンダード",
             "code": "4998"
-          }
+          },
+          "url": "https://www.fumakilla.co.jp/"
         },
         {
           "name": "ニイタカ",
@@ -1220,42 +1359,48 @@
             "market": "東証スタンダード",
             "code": "4465"
           },
-          "note": "業務用洗剤"
+          "note": "業務用洗剤",
+          "url": "https://www.niitaka.co.jp"
         },
         {
           "name": "シーボン",
           "listing": {
             "market": "東証スタンダード",
             "code": "4926"
-          }
+          },
+          "url": "http://www.cbon.co.jp/"
         },
         {
           "name": "アイビー化粧品",
           "listing": {
             "market": "東証スタンダード",
             "code": "4918"
-          }
+          },
+          "url": "http://www.ivy.co.jp"
         },
         {
           "name": "ハーバー研究所",
           "listing": {
             "market": "東証スタンダード",
             "code": "4925"
-          }
+          },
+          "url": "http://www.haba.co.jp/"
         },
         {
           "name": "プレミアアンチエイジング",
           "listing": {
             "market": "東証グロース",
             "code": "4934"
-          }
+          },
+          "url": "https://www.p-antiaging.co.jp/"
         },
         {
           "name": "アルマード",
           "listing": {
             "market": "東証スタンダード",
             "code": "4932"
-          }
+          },
+          "url": "https://www.almado.jp/"
         },
         {
           "name": "ソフト99コーポレーション",
@@ -1263,7 +1408,8 @@
             "market": "東証スタンダード",
             "code": "4464"
           },
-          "note": "カーケア"
+          "note": "カーケア",
+          "url": "http://www.soft99.co.jp/"
         },
         {
           "name": "日本色材工業研究所",
@@ -1271,7 +1417,8 @@
             "market": "東証スタンダード",
             "code": "4920"
           },
-          "note": "化粧品OEM"
+          "note": "化粧品OEM",
+          "url": "https://shikizai.com/"
         },
         {
           "name": "アジュバンホールディングス",
@@ -1279,7 +1426,8 @@
             "market": "東証スタンダード",
             "code": "4929"
           },
-          "note": "ヘアケア"
+          "note": "ヘアケア",
+          "url": "https://www.adjuvant-hd.co.jp/"
         },
         {
           "name": "Waqoo",
@@ -1287,7 +1435,8 @@
             "market": "東証グロース",
             "code": "4937"
           },
-          "note": "D2C化粧品"
+          "note": "D2C化粧品",
+          "url": "https://www.waqoo.jp/"
         },
         {
           "name": "ビタブリッドジャパン",
@@ -1303,7 +1452,8 @@
             "market": "東証スタンダード",
             "code": "7506"
           },
-          "note": "化粧品(ハウス オブ ローゼ)"
+          "note": "化粧品(ハウス オブ ローゼ)",
+          "url": "https://www.houseofrose.co.jp/"
         },
         {
           "name": "フォーシーズHD",
@@ -1328,7 +1478,8 @@
           "salary": {
             "man_jpy": 1602,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://ai-robotics.co.jp/"
         },
         {
           "name": "リップス",
@@ -1336,7 +1487,8 @@
             "market": "東証グロース",
             "code": "373A"
           },
-          "note": "メンズコスメ(LIPPS)"
+          "note": "メンズコスメ(LIPPS)",
+          "url": "https://www.lipps.co.jp/"
         },
         {
           "name": "パス",
@@ -1384,140 +1536,160 @@
           "salary": {
             "man_jpy": 821,
             "fy": "2025年3月期"
-          }
+          },
+          "url": "http://www.toray.co.jp/"
         },
         {
           "name": "帝人",
           "listing": {
             "market": "東証プライム",
             "code": "3401"
-          }
+          },
+          "url": "https://www.teijin.co.jp"
         },
         {
           "name": "クラレ",
           "listing": {
             "market": "東証プライム",
             "code": "3405"
-          }
+          },
+          "url": "https://www.kuraray.com/global-en/"
         },
         {
           "name": "日東電工",
           "listing": {
             "market": "東証プライム",
             "code": "6988"
-          }
+          },
+          "url": "https://www.nitto.com/jp/ja/"
         },
         {
           "name": "積水化学工業",
           "listing": {
             "market": "東証プライム",
             "code": "4204"
-          }
+          },
+          "url": "http://www.sekisui.co.jp/"
         },
         {
           "name": "東洋紡",
           "listing": {
             "market": "東証プライム",
             "code": "3101"
-          }
+          },
+          "url": "http://www.toyobo.co.jp/"
         },
         {
           "name": "グンゼ",
           "listing": {
             "market": "東証プライム",
             "code": "3002"
-          }
+          },
+          "url": "http://www.gunze.co.jp/"
         },
         {
           "name": "セーレン",
           "listing": {
             "market": "東証プライム",
             "code": "3569"
-          }
+          },
+          "url": "https://www.seiren.com/"
         },
         {
           "name": "コニシ",
           "listing": {
             "market": "東証プライム",
             "code": "4956"
-          }
+          },
+          "url": "https://www.bond.co.jp/"
         },
         {
           "name": "積水樹脂",
           "listing": {
             "market": "東証プライム",
             "code": "4212"
-          }
+          },
+          "url": "http://www.sekisuijushi.co.jp/"
         },
         {
           "name": "ユニチカ",
           "listing": {
             "market": "東証スタンダード",
             "code": "3103"
-          }
+          },
+          "url": "http://www.unitika.co.jp/"
         },
         {
           "name": "倉敷紡績",
           "listing": {
             "market": "東証プライム",
             "code": "3106"
-          }
+          },
+          "url": "https://www.kurabo.co.jp/"
         },
         {
           "name": "富士紡ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3104"
-          }
+          },
+          "url": "https://www.fujibo.co.jp"
         },
         {
           "name": "シキボウ",
           "listing": {
             "market": "東証プライム",
             "code": "3109"
-          }
+          },
+          "url": "https://www.shikibo.co.jp"
         },
         {
           "name": "日本毛織",
           "listing": {
             "market": "東証プライム",
             "code": "3201"
-          }
+          },
+          "url": "http://www.nikke.co.jp/"
         },
         {
           "name": "小松マテーレ",
           "listing": {
             "market": "東証プライム",
             "code": "3580"
-          }
+          },
+          "url": "https://www.komatsumatere.co.jp/"
         },
         {
           "name": "帝国繊維",
           "listing": {
             "market": "東証プライム",
             "code": "3302"
-          }
+          },
+          "url": "http://www.teisen.co.jp/"
         },
         {
           "name": "ダイドーリミテッド",
           "listing": {
             "market": "東証スタンダード",
             "code": "3205"
-          }
+          },
+          "url": "http://www.daidoh-limited.com/"
         },
         {
           "name": "バルカー",
           "listing": {
             "market": "東証プライム",
             "code": "7995"
-          }
+          },
+          "url": "http://www.valqua.co.jp/"
         },
         {
           "name": "JSP",
           "listing": {
             "market": "東証プライム",
             "code": "7942"
-          }
+          },
+          "url": "https://www.co-jsp.co.jp/"
         },
         {
           "name": "ZACROS",
@@ -1525,21 +1697,24 @@
             "market": "東証プライム",
             "code": "7917"
           },
-          "note": "旧藤森工業"
+          "note": "旧藤森工業",
+          "url": "https://www.zacros.co.jp/"
         },
         {
           "name": "片倉工業",
           "listing": {
             "market": "東証スタンダード",
             "code": "3001"
-          }
+          },
+          "url": "https://www.katakura.co.jp/"
         },
         {
           "name": "萩原工業",
           "listing": {
             "market": "東証プライム",
             "code": "7856"
-          }
+          },
+          "url": "https://www.hagihara.co.jp"
         },
         {
           "name": "東リ",
@@ -1547,14 +1722,16 @@
             "market": "東証スタンダード",
             "code": "7971"
           },
-          "note": "床材"
+          "note": "床材",
+          "url": "http://www.toli.co.jp/"
         },
         {
           "name": "フクビ化学工業",
           "listing": {
             "market": "東証スタンダード",
             "code": "7871"
-          }
+          },
+          "url": "https://www.fukuvi.co.jp/"
         },
         {
           "name": "共和レザー",
@@ -1562,28 +1739,32 @@
             "market": "東証スタンダード",
             "code": "3553"
           },
-          "note": "合成皮革"
+          "note": "合成皮革",
+          "url": "http://www.kyowale.co.jp/"
         },
         {
           "name": "タイガースポリマー",
           "listing": {
             "market": "東証スタンダード",
             "code": "4231"
-          }
+          },
+          "url": "https://www.tiger-poly.com"
         },
         {
           "name": "きもと",
           "listing": {
             "market": "東証スタンダード",
             "code": "7908"
-          }
+          },
+          "url": "https://www.kimoto.co.jp/"
         },
         {
           "name": "ウェーブロックホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "7940"
-          }
+          },
+          "url": "https://www.wavelock-holdings.com/"
         },
         {
           "name": "ロンシール工業",
@@ -1591,7 +1772,8 @@
             "market": "東証スタンダード",
             "code": "4224"
           },
-          "note": "床材"
+          "note": "床材",
+          "url": "https://www.lonseal.co.jp"
         },
         {
           "name": "サンエー化研",
@@ -1599,7 +1781,8 @@
             "market": "東証スタンダード",
             "code": "4234"
           },
-          "note": "包装フィルム"
+          "note": "包装フィルム",
+          "url": "https://www.sun-a-kaken.co.jp/"
         },
         {
           "name": "ウルトラファブリックス・ホールディングス",
@@ -1607,7 +1790,8 @@
             "market": "東証スタンダード",
             "code": "4235"
           },
-          "note": "高機能レザー"
+          "note": "高機能レザー",
+          "url": "https://www.ultrafabricshd.co.jp"
         },
         {
           "name": "フジプレアム",
@@ -1615,7 +1799,8 @@
             "market": "東証スタンダード",
             "code": "4237"
           },
-          "note": "光学パネル"
+          "note": "光学パネル",
+          "url": "https://www.fujipream.co.jp"
         },
         {
           "name": "オーミケンシ",
@@ -1623,7 +1808,8 @@
             "market": "東証スタンダード",
             "code": "3111"
           },
-          "note": "紡績"
+          "note": "紡績",
+          "url": "http://www.omikenshi.co.jp/"
         },
         {
           "name": "サイボー",
@@ -1631,7 +1817,8 @@
             "market": "東証スタンダード",
             "code": "3123"
           },
-          "note": "繊維・不動産"
+          "note": "繊維・不動産",
+          "url": "https://www.saibo.co.jp/"
         },
         {
           "name": "ダイトウボウ",
@@ -1639,7 +1826,8 @@
             "market": "東証スタンダード",
             "code": "3202"
           },
-          "note": "紡績"
+          "note": "紡績",
+          "url": "http://www.daitobo.co.jp/"
         },
         {
           "name": "トーア紡コーポレーション",
@@ -1647,7 +1835,8 @@
             "market": "東証スタンダード",
             "code": "3204"
           },
-          "note": "紡績"
+          "note": "紡績",
+          "url": "http://www.toabo.co.jp/"
         },
         {
           "name": "北紡",
@@ -1655,7 +1844,8 @@
             "market": "東証スタンダード",
             "code": "3409"
           },
-          "note": "紡績"
+          "note": "紡績",
+          "url": "https://www.ktbo.co.jp/"
         },
         {
           "name": "ダイニック",
@@ -1663,7 +1853,8 @@
             "market": "東証スタンダード",
             "code": "3551"
           },
-          "note": "含浸加工布"
+          "note": "含浸加工布",
+          "url": "http://www.dynic.co.jp/"
         },
         {
           "name": "ソトー",
@@ -1671,7 +1862,8 @@
             "market": "東証スタンダード",
             "code": "3571"
           },
-          "note": "染色"
+          "note": "染色",
+          "url": "https://www.sotoh.co.jp/"
         },
         {
           "name": "東海染工",
@@ -1679,7 +1871,8 @@
             "market": "東証スタンダード",
             "code": "3577"
           },
-          "note": "染色"
+          "note": "染色",
+          "url": "http://www.tokai-senko.co.jp/"
         },
         {
           "name": "オーベクス",
@@ -1687,7 +1880,8 @@
             "market": "東証スタンダード",
             "code": "3583"
           },
-          "note": "筆記具先端部材"
+          "note": "筆記具先端部材",
+          "url": "https://www.aubex.co.jp"
         },
         {
           "name": "日本製麻",
@@ -1695,7 +1889,8 @@
             "market": "東証スタンダード",
             "code": "3306"
           },
-          "note": "麻・リネン"
+          "note": "麻・リネン",
+          "url": "http://www.nihonseima.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -1727,28 +1922,32 @@
           "listing": {
             "market": "東証プライム",
             "code": "4996"
-          }
+          },
+          "url": "http://www.kumiai-chem.co.jp"
         },
         {
           "name": "日本農薬",
           "listing": {
             "market": "東証プライム",
             "code": "4997"
-          }
+          },
+          "url": "http://www.nichino.co.jp"
         },
         {
           "name": "高砂香料工業",
           "listing": {
             "market": "東証プライム",
             "code": "4914"
-          }
+          },
+          "url": "http://www.takasago-i.co.jp/"
         },
         {
           "name": "長谷川香料",
           "listing": {
             "market": "東証プライム",
             "code": "4958"
-          }
+          },
+          "url": "https://www.t-hasegawa.co.jp"
         },
         {
           "name": "ユシロ",
@@ -1756,7 +1955,8 @@
             "market": "東証スタンダード",
             "code": "5013"
           },
-          "note": "切削油"
+          "note": "切削油",
+          "url": "http://www.yushiro.co.jp/"
         },
         {
           "name": "MORESCO",
@@ -1764,21 +1964,24 @@
             "market": "東証スタンダード",
             "code": "5018"
           },
-          "note": "特殊潤滑油"
+          "note": "特殊潤滑油",
+          "url": "https://www.moresco.co.jp/"
         },
         {
           "name": "OATアグリオ",
           "listing": {
             "market": "東証スタンダード",
             "code": "4979"
-          }
+          },
+          "url": "https://www.oat-agrio.co.jp/"
         },
         {
           "name": "北興化学工業",
           "listing": {
             "market": "東証スタンダード",
             "code": "4992"
-          }
+          },
+          "url": "http://www.hokkochem.co.jp/english/"
         },
         {
           "name": "片倉コープアグリ",
@@ -1786,7 +1989,8 @@
             "market": "東証スタンダード",
             "code": "4031"
           },
-          "note": "肥料"
+          "note": "肥料",
+          "url": "http://www.katakuraco-op.com/"
         },
         {
           "name": "マナック・ケミカル・パートナーズ",
@@ -1794,7 +1998,8 @@
             "market": "東証スタンダード",
             "code": "4360"
           },
-          "note": "ファインケミカル"
+          "note": "ファインケミカル",
+          "url": "https://mcps.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -1825,21 +2030,24 @@
           "salary": {
             "man_jpy": 994,
             "fy": "2025年3月期"
-          }
+          },
+          "url": "https://www.idemitsu.com/jp/"
         },
         {
           "name": "コスモエネルギーホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "5021"
-          }
+          },
+          "url": "https://www.cosmo-energy.co.jp/"
         },
         {
           "name": "三洋化成工業",
           "listing": {
             "market": "東証プライム",
             "code": "4471"
-          }
+          },
+          "url": "https://www.sanyo-chemical.co.jp/eng/"
         },
         {
           "name": "ENEOSホールディングス",
@@ -1856,7 +2064,8 @@
           "salary": {
             "man_jpy": 1069,
             "fy": "2025年3月期"
-          }
+          },
+          "url": "https://www.hd.eneos.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -1891,19 +2100,22 @@
           "listing": {
             "market": "プライム",
             "code": "7888"
-          }
+          },
+          "url": "http://www.sankogosei.co.jp/"
         },
         {
           "name": "天馬",
           "listing": {
             "market": "非上場(MBOにより非公開化)"
-          }
+          },
+          "url": "https://www.tenmacorp.co.jp"
         },
         {
           "name": "タキロンシーアイ",
           "listing": {
             "market": "非上場(伊藤忠TOBにより非公開化)"
-          }
+          },
+          "url": "https://www.takiron-ci.co.jp"
         }
       ],
       "updated": "2026-07-24",

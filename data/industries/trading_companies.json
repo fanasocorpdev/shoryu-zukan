@@ -474,7 +474,8 @@
             "market": "東証プライム",
             "code": "8078"
           },
-          "segment": "steel"
+          "segment": "steel",
+          "url": "https://www.hanwa.co.jp/"
         },
         {
           "name": "神鋼商事",
@@ -482,7 +483,8 @@
             "market": "東証プライム",
             "code": "8075"
           },
-          "segment": "steel"
+          "segment": "steel",
+          "url": "http://www.shinsho.co.jp/"
         },
         {
           "name": "佐藤商事",
@@ -490,7 +492,8 @@
             "market": "東証プライム",
             "code": "8065"
           },
-          "segment": "steel"
+          "segment": "steel",
+          "url": "http://www.satoshoji.co.jp/"
         },
         {
           "name": "リョーサン菱洋ホールディングス",
@@ -498,7 +501,8 @@
             "market": "東証プライム",
             "code": "167A"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "https://www.rr-hds.co.jp/"
         },
         {
           "name": "立花エレテック",
@@ -506,7 +510,8 @@
             "market": "東証プライム",
             "code": "8159"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "http://www.tachibana.co.jp/"
         },
         {
           "name": "山善",
@@ -514,7 +519,8 @@
             "market": "東証プライム",
             "code": "8051"
           },
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "https://www.yamazen.co.jp/"
         },
         {
           "name": "トラスコ中山",
@@ -522,7 +528,8 @@
             "market": "東証プライム",
             "code": "9830"
           },
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "http://www.trusco.co.jp/"
         },
         {
           "name": "ミスミグループ本社",
@@ -530,7 +537,8 @@
             "market": "東証プライム",
             "code": "9962"
           },
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "http://www.misumi.co.jp/"
         },
         {
           "name": "西華産業",
@@ -538,7 +546,8 @@
             "market": "東証プライム",
             "code": "8061"
           },
-          "segment": "steel"
+          "segment": "steel",
+          "url": "http://www.seika.com/"
         },
         {
           "name": "稲畑産業",
@@ -546,7 +555,8 @@
             "market": "東証プライム",
             "code": "8098"
           },
-          "segment": "chemical_energy"
+          "segment": "chemical_energy",
+          "url": "https://www.inabata.co.jp/"
         },
         {
           "name": "長瀬産業",
@@ -554,7 +564,8 @@
             "market": "東証プライム",
             "code": "8012"
           },
-          "segment": "chemical_energy"
+          "segment": "chemical_energy",
+          "url": "http://www.nagase.co.jp/"
         },
         {
           "name": "蝶理",
@@ -562,7 +573,8 @@
             "market": "東証プライム",
             "code": "8014"
           },
-          "segment": "lifestyle"
+          "segment": "lifestyle",
+          "url": "https://www.chori.co.jp/"
         },
         {
           "name": "明和産業",
@@ -570,7 +582,8 @@
             "market": "東証プライム",
             "code": "8103"
           },
-          "segment": "chemical_energy"
+          "segment": "chemical_energy",
+          "url": "http://www.meiwa.co.jp/"
         },
         {
           "name": "ヤギ",
@@ -578,7 +591,8 @@
             "market": "東証スタンダード",
             "code": "7460"
           },
-          "segment": "lifestyle"
+          "segment": "lifestyle",
+          "url": "http://www.yaginet.co.jp/"
         },
         {
           "name": "日本紙パルプ商事",
@@ -586,7 +600,8 @@
             "market": "東証プライム",
             "code": "8032"
           },
-          "segment": "paper"
+          "segment": "paper",
+          "url": "http://www.kamipa.co.jp/"
         },
         {
           "name": "因幡電機産業",
@@ -594,7 +609,8 @@
             "market": "東証プライム",
             "code": "9934"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "https://www.inaba.co.jp/"
         },
         {
           "name": "カナデン",
@@ -602,7 +618,8 @@
             "market": "東証プライム",
             "code": "8081"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "http://www.kanaden.co.jp/"
         },
         {
           "name": "東陽テクニカ",
@@ -610,7 +627,8 @@
             "market": "東証プライム",
             "code": "8151"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "http://www.toyo.co.jp/"
         },
         {
           "name": "カメイ",
@@ -618,7 +636,8 @@
             "market": "東証プライム",
             "code": "8037"
           },
-          "segment": "chemical_energy"
+          "segment": "chemical_energy",
+          "url": "https://www.kamei.co.jp/"
         },
         {
           "name": "ミツウロコグループホールディングス",
@@ -635,7 +654,8 @@
           "salary": {
             "man_jpy": 1037,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "http://www.mitsuuroko.com/"
         },
         {
           "name": "シナネンホールディングス",
@@ -643,7 +663,8 @@
             "market": "東証プライム",
             "code": "8132"
           },
-          "segment": "chemical_energy"
+          "segment": "chemical_energy",
+          "url": "https://sinanengroup.co.jp"
         },
         {
           "name": "第一実業",
@@ -651,7 +672,8 @@
             "market": "東証プライム",
             "code": "8059"
           },
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "https://www.djk.co.jp/"
         },
         {
           "name": "椿本興業",
@@ -659,7 +681,8 @@
             "market": "東証プライム",
             "code": "8052"
           },
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "http://www.tsubaki.co.jp/"
         },
         {
           "name": "高千穂交易",
@@ -667,7 +690,8 @@
             "market": "東証プライム",
             "code": "2676"
           },
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "http://www.takachiho-kk.co.jp"
         },
         {
           "name": "キヤノンマーケティングジャパン",
@@ -675,7 +699,8 @@
             "market": "東証プライム",
             "code": "8060"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "http://canon.jp/"
         },
         {
           "name": "内田洋行",
@@ -683,7 +708,8 @@
             "market": "東証プライム",
             "code": "8057"
           },
-          "segment": "general"
+          "segment": "general",
+          "url": "https://www.uchida.co.jp/"
         },
         {
           "name": "ダイワボウホールディングス",
@@ -691,7 +717,8 @@
             "market": "東証プライム",
             "code": "3107"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "http://www.daiwabo-holdings.com/"
         },
         {
           "name": "伯東",
@@ -699,7 +726,8 @@
             "market": "東証プライム",
             "code": "7433"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "https://www.hakuto.co.jp"
         },
         {
           "name": "丸文",
@@ -707,7 +735,8 @@
             "market": "東証プライム",
             "code": "7537"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "https://www.marubun.co.jp/"
         },
         {
           "name": "新光商事",
@@ -715,7 +744,8 @@
             "market": "東証プライム",
             "code": "8141"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "https://www.shinko-sj.co.jp/"
         },
         {
           "name": "三信電気",
@@ -723,7 +753,8 @@
             "market": "東証プライム",
             "code": "8150"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "https://www.sanshin.co.jp/"
         },
         {
           "name": "ダイトロン",
@@ -731,7 +762,8 @@
             "market": "東証プライム",
             "code": "7609"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "http://www.daitron.co.jp/"
         },
         {
           "name": "スズデン",
@@ -739,7 +771,8 @@
             "market": "東証スタンダード",
             "code": "7480"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "https://www.suzuden.co.jp/"
         },
         {
           "name": "サンワテクノス",
@@ -747,7 +780,8 @@
             "market": "東証プライム",
             "code": "8137"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "https://www.sunwa.co.jp/"
         },
         {
           "name": "東テク",
@@ -755,7 +789,8 @@
             "market": "東証プライム",
             "code": "9960"
           },
-          "segment": "general"
+          "segment": "general",
+          "url": "https://www.totech.co.jp/"
         },
         {
           "name": "たけびし",
@@ -763,7 +798,8 @@
             "market": "東証プライム",
             "code": "7510"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "http://www.takebishi.co.jp/"
         },
         {
           "name": "明治電機工業",
@@ -771,7 +807,8 @@
             "market": "東証プライム",
             "code": "3388"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "http://www.meijidenki.co.jp/"
         },
         {
           "name": "八洲電機",
@@ -787,7 +824,8 @@
             "market": "東証プライム",
             "code": "8084"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "https://www.ryoden.co.jp/"
         },
         {
           "name": "シークス",
@@ -795,7 +833,8 @@
             "market": "東証プライム",
             "code": "7613"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "http://www.siix.co.jp/"
         },
         {
           "name": "トーメンデバイス",
@@ -803,7 +842,8 @@
             "market": "東証プライム",
             "code": "2737"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "http://www.tomendevices.co.jp/"
         },
         {
           "name": "シンデン・ハイテックス",
@@ -811,7 +851,8 @@
             "market": "東証スタンダード",
             "code": "3131"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "https://www.shinden.co.jp/"
         },
         {
           "name": "ミタチ産業",
@@ -819,7 +860,8 @@
             "market": "東証スタンダード",
             "code": "3321"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "https://www.mitachi.co.jp/"
         },
         {
           "name": "内外テック",
@@ -827,7 +869,8 @@
             "market": "東証スタンダード",
             "code": "3374"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "https://www.naigaitec.co.jp/"
         },
         {
           "name": "サンゲツ",
@@ -835,7 +878,8 @@
             "market": "東証プライム",
             "code": "8130"
           },
-          "segment": "construction_mat"
+          "segment": "construction_mat",
+          "url": "http://www.sangetsu.co.jp/"
         },
         {
           "name": "リリカラ",
@@ -843,7 +887,8 @@
             "market": "東証スタンダード",
             "code": "9827"
           },
-          "segment": "construction_mat"
+          "segment": "construction_mat",
+          "url": "http://www.lilycolor.co.jp/"
         },
         {
           "name": "橋本総業ホールディングス",
@@ -851,7 +896,8 @@
             "market": "東証スタンダード",
             "code": "7570"
           },
-          "segment": "construction_mat"
+          "segment": "construction_mat",
+          "url": "https://www.hat-hd.co.jp/"
         },
         {
           "name": "日伝",
@@ -859,7 +905,8 @@
             "market": "東証プライム",
             "code": "9902"
           },
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "http://www.nichiden.com/"
         },
         {
           "name": "NaITO",
@@ -867,7 +914,8 @@
             "market": "東証スタンダード",
             "code": "7624"
           },
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "http://www.naito.net/"
         },
         {
           "name": "YUASA",
@@ -875,7 +923,8 @@
             "market": "東証プライム",
             "code": "8074"
           },
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "http://www.yuasa.co.jp/"
         },
         {
           "name": "コンドーテック",
@@ -883,7 +932,8 @@
             "market": "東証プライム",
             "code": "7438"
           },
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "http://www.kondotec.co.jp/"
         },
         {
           "name": "ワキタ",
@@ -891,7 +941,8 @@
             "market": "東証プライム",
             "code": "8125"
           },
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "http://www.wakita.co.jp/"
         },
         {
           "name": "蔵王産業",
@@ -899,7 +950,8 @@
             "market": "東証スタンダード",
             "code": "9986"
           },
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "https://www.zaohnet.co.jp/"
         },
         {
           "name": "アズワン",
@@ -907,7 +959,8 @@
             "market": "東証プライム",
             "code": "7476"
           },
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "https://www.as-1.co.jp/"
         },
         {
           "name": "松田産業",
@@ -915,7 +968,8 @@
             "market": "東証プライム",
             "code": "7456"
           },
-          "segment": "steel"
+          "segment": "steel",
+          "url": "https://www.matsuda-sangyo.co.jp/"
         },
         {
           "name": "アルコニックス",
@@ -923,7 +977,8 @@
             "market": "東証プライム",
             "code": "3036"
           },
-          "segment": "steel"
+          "segment": "steel",
+          "url": "http://www.alconix.com/jp/"
         },
         {
           "name": "白銅",
@@ -931,7 +986,8 @@
             "market": "東証プライム",
             "code": "7637"
           },
-          "segment": "steel"
+          "segment": "steel",
+          "url": "https://www.hakudo.co.jp"
         },
         {
           "name": "UEX",
@@ -939,7 +995,8 @@
             "market": "東証スタンダード",
             "code": "9888"
           },
-          "segment": "steel"
+          "segment": "steel",
+          "url": "https://www.uex-ltd.co.jp/"
         },
         {
           "name": "カノークス",
@@ -947,7 +1004,8 @@
             "market": "東証スタンダード",
             "code": "8076"
           },
-          "segment": "steel"
+          "segment": "steel",
+          "url": "http://www.canox.co.jp/"
         },
         {
           "name": "小野建",
@@ -955,7 +1013,8 @@
             "market": "東証プライム",
             "code": "7414"
           },
-          "segment": "steel"
+          "segment": "steel",
+          "url": "http://www.onoken.co.jp/"
         },
         {
           "name": "ジェコス",
@@ -963,7 +1022,8 @@
             "market": "東証プライム",
             "code": "9991"
           },
-          "segment": "steel"
+          "segment": "steel",
+          "url": "https://www.gecoss.co.jp/"
         },
         {
           "name": "丸藤シートパイル",
@@ -987,7 +1047,8 @@
             "market": "東証プライム",
             "code": "7483"
           },
-          "segment": "lifestyle"
+          "segment": "lifestyle",
+          "url": "http://www.doshisha.co.jp/"
         },
         {
           "name": "中山福",
@@ -995,7 +1056,8 @@
             "market": "東証スタンダード",
             "code": "7442"
           },
-          "segment": "lifestyle"
+          "segment": "lifestyle",
+          "url": "http://www.nakayamafuku.co.jp/"
         },
         {
           "name": "シモジマ",
@@ -1003,7 +1065,8 @@
             "market": "東証プライム",
             "code": "7482"
           },
-          "segment": "paper"
+          "segment": "paper",
+          "url": "http://www.shimojima.co.jp/"
         },
         {
           "name": "モリト",
@@ -1011,7 +1074,8 @@
             "market": "東証プライム",
             "code": "9837"
           },
-          "segment": "lifestyle"
+          "segment": "lifestyle",
+          "url": "http://www.morito.co.jp/"
         },
         {
           "name": "三栄コーポレーション",
@@ -1019,7 +1083,8 @@
             "market": "東証スタンダード",
             "code": "8119"
           },
-          "segment": "lifestyle"
+          "segment": "lifestyle",
+          "url": "https://www.sanyeicorp.com/"
         },
         {
           "name": "あらた",
@@ -1027,7 +1092,8 @@
             "market": "東証プライム",
             "code": "2733"
           },
-          "segment": "lifestyle"
+          "segment": "lifestyle",
+          "url": "http://www.arata-gr.jp/"
         },
         {
           "name": "PALTAC",
@@ -1035,7 +1101,8 @@
             "market": "東証プライム",
             "code": "8283"
           },
-          "segment": "lifestyle"
+          "segment": "lifestyle",
+          "url": "https://www.paltac.co.jp/"
         },
         {
           "name": "高島",
@@ -1043,7 +1110,8 @@
             "market": "東証プライム",
             "code": "8007"
           },
-          "segment": "general"
+          "segment": "general",
+          "url": "http://www.tak.co.jp/"
         },
         {
           "name": "三谷商事",
@@ -1060,7 +1128,8 @@
           "salary": {
             "man_jpy": 922,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://www.mitani-corp.co.jp/"
         },
         {
           "name": "東京産業",
@@ -1068,7 +1137,8 @@
             "market": "東証プライム",
             "code": "8070"
           },
-          "segment": "steel"
+          "segment": "steel",
+          "url": "https://www.tscom.co.jp/"
         },
         {
           "name": "極東貿易",
@@ -1076,7 +1146,8 @@
             "market": "東証プライム",
             "code": "8093"
           },
-          "segment": "general"
+          "segment": "general",
+          "url": "https://www.kbk.co.jp/"
         },
         {
           "name": "三洋貿易",
@@ -1084,7 +1155,8 @@
             "market": "東証プライム",
             "code": "3176"
           },
-          "segment": "general"
+          "segment": "general",
+          "url": "https://www.sanyo-trading.co.jp/"
         },
         {
           "name": "扶桑電通",
@@ -1092,7 +1164,8 @@
             "market": "東証スタンダード",
             "code": "7505"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "http://www.fusodentsu.co.jp/"
         },
         {
           "name": "ソレキア",
@@ -1100,7 +1173,8 @@
             "market": "東証スタンダード",
             "code": "9867"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "https://www.solekia.com/"
         },
         {
           "name": "理経",
@@ -1108,7 +1182,8 @@
             "market": "東証スタンダード",
             "code": "8226"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "https://www.rikei.co.jp/"
         },
         {
           "name": "フォーバル",
@@ -1116,7 +1191,8 @@
             "market": "東証スタンダード",
             "code": "8275"
           },
-          "segment": "general"
+          "segment": "general",
+          "url": "http://www.forval.co.jp/"
         },
         {
           "name": "日本電計",
@@ -1140,7 +1216,8 @@
             "market": "東証プライム",
             "code": "9932"
           },
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "http://www.sugi-net.co.jp/"
         },
         {
           "name": "藤井産業",
@@ -1148,7 +1225,8 @@
             "market": "東証スタンダード",
             "code": "9906"
           },
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "https://www.fujii.co.jp/"
         },
         {
           "name": "泉州電業",
@@ -1156,7 +1234,8 @@
             "market": "東証プライム",
             "code": "9824"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "https://www.senden.co.jp/"
         },
         {
           "name": "英和",
@@ -1164,7 +1243,8 @@
             "market": "東証スタンダード",
             "code": "9857"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "http://www.eiwa-net.co.jp/"
         },
         {
           "name": "進和",
@@ -1172,7 +1252,8 @@
             "market": "東証プライム",
             "code": "7607"
           },
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "https://www.shinwa-jpn.co.jp/"
         },
         {
           "name": "リックス",
@@ -1180,7 +1261,8 @@
             "market": "東証プライム",
             "code": "7525"
           },
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "http://www.rix.co.jp/"
         },
         {
           "name": "オーハシテクニカ",
@@ -1188,7 +1270,8 @@
             "market": "東証プライム",
             "code": "7628"
           },
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "https://www.ohashi.co.jp/"
         },
         {
           "name": "SPK",
@@ -1196,7 +1279,8 @@
             "market": "東証プライム",
             "code": "7466"
           },
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "https://www.spk.co.jp/"
         },
         {
           "name": "鳥羽洋行",
@@ -1204,7 +1288,8 @@
             "market": "東証スタンダード",
             "code": "7472"
           },
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "http://www.toba.co.jp/"
         },
         {
           "name": "ナ・デックス",
@@ -1212,7 +1297,8 @@
             "market": "東証スタンダード",
             "code": "7435"
           },
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "http://www.nadex.co.jp/"
         },
         {
           "name": "オータケ",
@@ -1220,7 +1306,8 @@
             "market": "東証スタンダード",
             "code": "7434"
           },
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "https://www.kk-otake.co.jp/"
         },
         {
           "name": "初穂商事",
@@ -1228,7 +1315,8 @@
             "market": "東証スタンダード",
             "code": "7425"
           },
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "http://www.hatsuho.co.jp/"
         },
         {
           "name": "ラサ商事",
@@ -1236,7 +1324,8 @@
             "market": "東証スタンダード",
             "code": "3023"
           },
-          "segment": "general"
+          "segment": "general",
+          "url": "https://www.rasaco.co.jp/"
         },
         {
           "name": "神栄",
@@ -1244,7 +1333,8 @@
             "market": "東証スタンダード",
             "code": "3004"
           },
-          "segment": "general"
+          "segment": "general",
+          "url": "http://www.shinyei.co.jp/"
         },
         {
           "name": "クリヤマホールディングス",
@@ -1252,7 +1342,8 @@
             "market": "東証スタンダード",
             "code": "3355"
           },
-          "segment": "general"
+          "segment": "general",
+          "url": "http://www.kuriyama-holdings.com/"
         },
         {
           "name": "昭栄薬品",
@@ -1260,7 +1351,8 @@
             "market": "東証スタンダード",
             "code": "3537"
           },
-          "segment": "chemical_energy"
+          "segment": "chemical_energy",
+          "url": "https://www.shoei-yakuhin.co.jp/"
         },
         {
           "name": "東北化学薬品",
@@ -1268,7 +1360,8 @@
             "market": "東証スタンダード",
             "code": "7446"
           },
-          "segment": "chemical_energy"
+          "segment": "chemical_energy",
+          "url": "http://www.t-kagaku.co.jp/"
         },
         {
           "name": "小津産業",
@@ -1277,7 +1370,8 @@
             "code": "7487"
           },
           "note": "不織布",
-          "segment": "paper"
+          "segment": "paper",
+          "url": "http://www.ozu.co.jp/"
         },
         {
           "name": "平和紙業",
@@ -1285,7 +1379,8 @@
             "market": "東証スタンダード",
             "code": "9929"
           },
-          "segment": "paper"
+          "segment": "paper",
+          "url": "https://www.heiwapaper.co.jp/"
         },
         {
           "name": "共同紙販ホールディングス",
@@ -1293,7 +1388,8 @@
             "market": "東証スタンダード",
             "code": "9849"
           },
-          "segment": "paper"
+          "segment": "paper",
+          "url": "https://www.kyodopaper.com/ja/index.html"
         },
         {
           "name": "ナラサキ産業",
@@ -1301,7 +1397,8 @@
             "market": "東証スタンダード",
             "code": "8085"
           },
-          "segment": "steel"
+          "segment": "steel",
+          "url": "https://www.narasaki.co.jp/"
         },
         {
           "name": "萬世電機",
@@ -1309,7 +1406,8 @@
             "market": "東証スタンダード",
             "code": "7565"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "http://www.mansei.co.jp/"
         },
         {
           "name": "栄電子",
@@ -1334,7 +1432,8 @@
             "code": "7619"
           },
           "note": "電材",
-          "segment": "construction_mat"
+          "segment": "construction_mat",
+          "url": "http://www.tanakashoji.co.jp/"
         },
         {
           "name": "デンキョーグループホールディングス",
@@ -1350,7 +1449,8 @@
             "market": "東証スタンダード",
             "code": "9913"
           },
-          "segment": "general"
+          "segment": "general",
+          "url": "https://www.nip.co.jp/"
         },
         {
           "name": "Cominix",
@@ -1359,7 +1459,8 @@
             "code": "3173"
           },
           "note": "工具",
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "https://www.cominix.jp/"
         },
         {
           "name": "YKT",
@@ -1367,7 +1468,8 @@
             "market": "東証スタンダード",
             "code": "2693"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "https://www.ykt.co.jp/"
         },
         {
           "name": "テクノアルファ",
@@ -1375,7 +1477,8 @@
             "market": "東証スタンダード",
             "code": "3089"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "http://www.technoalpha.co.jp/"
         },
         {
           "name": "黒田グループ",
@@ -1383,7 +1486,8 @@
             "market": "東証スタンダード",
             "code": "287A"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "https://www.kuroda-group.com/hd/"
         },
         {
           "name": "アセンテック",
@@ -1391,7 +1495,8 @@
             "market": "東証スタンダード",
             "code": "3565"
           },
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "https://www.ascentech.co.jp/"
         },
         {
           "name": "エコートレーディング",
@@ -1400,7 +1505,8 @@
             "code": "7427"
           },
           "note": "ペット用品卸",
-          "segment": "lifestyle"
+          "segment": "lifestyle",
+          "url": "http://www.echotd.co.jp/"
         },
         {
           "name": "ムサシ",
@@ -1409,7 +1515,8 @@
             "code": "7521"
           },
           "note": "選挙・金融システム",
-          "segment": "general"
+          "segment": "general",
+          "url": "https://www.musashinet.co.jp/"
         },
         {
           "name": "テーオーホールディングス",
@@ -1418,7 +1525,8 @@
             "code": "9812"
           },
           "note": "北海道流通",
-          "segment": "general"
+          "segment": "general",
+          "url": "https://tohd.co.jp/"
         },
         {
           "name": "ハイパー",
@@ -1427,7 +1535,8 @@
             "code": "3054"
           },
           "note": "PC・IT卸",
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "http://www.hyperpc.co.jp/"
         },
         {
           "name": "アゼアス",
@@ -1436,7 +1545,8 @@
             "code": "3161"
           },
           "note": "防護服・作業環境",
-          "segment": "general"
+          "segment": "general",
+          "url": "http://www.azearth.co.jp/"
         },
         {
           "name": "トルク",
@@ -1445,7 +1555,8 @@
             "code": "8077"
           },
           "note": "ねじ卸",
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "http://www.kobayashi-metals.co.jp/"
         },
         {
           "name": "GSIクレオス",
@@ -1454,7 +1565,8 @@
             "code": "8101"
           },
           "note": "繊維・工業製品",
-          "segment": "lifestyle"
+          "segment": "lifestyle",
+          "url": "http://www.gsi.co.jp/"
         },
         {
           "name": "三京化成",
@@ -1463,7 +1575,8 @@
             "code": "8138"
           },
           "note": "化学品",
-          "segment": "chemical_energy"
+          "segment": "chemical_energy",
+          "url": "https://www.sankyokasei-corp.co.jp/"
         },
         {
           "name": "ソマール",
@@ -1472,7 +1585,8 @@
             "code": "8152"
           },
           "note": "化学品・電子材料",
-          "segment": "chemical_energy"
+          "segment": "chemical_energy",
+          "url": "https://www.somar.co.jp"
         },
         {
           "name": "ソーダニッカ",
@@ -1481,7 +1595,8 @@
             "code": "8158"
           },
           "note": "化学品",
-          "segment": "chemical_energy"
+          "segment": "chemical_energy",
+          "url": "http://www.sodanikka.co.jp/"
         },
         {
           "name": "タカチホ",
@@ -1490,7 +1605,8 @@
             "code": "8225"
           },
           "note": "土産・雑貨",
-          "segment": "lifestyle"
+          "segment": "lifestyle",
+          "url": "http://www.kk-takachiho.jp/"
         },
         {
           "name": "三谷産業",
@@ -1499,7 +1615,8 @@
             "code": "8285"
           },
           "note": "化学・情報・樹脂",
-          "segment": "chemical_energy"
+          "segment": "chemical_energy",
+          "url": "http://www.mitani.co.jp/"
         },
         {
           "name": "植松商会",
@@ -1508,7 +1625,8 @@
             "code": "9914"
           },
           "note": "機械工具",
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "https://uematsushokai.jp/"
         },
         {
           "name": "アルファパーチェス",
@@ -1517,7 +1635,8 @@
             "code": "7115"
           },
           "note": "MRO間接材調達",
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "https://www.alphapurchase.co.jp/"
         },
         {
           "name": "MIRAINIホールディングス",
@@ -1526,7 +1645,8 @@
             "code": "546A"
           },
           "note": "エレクトロニクス商社(佐鳥電機+萩原電気統合)",
-          "segment": "electronics"
+          "segment": "electronics",
+          "url": "https://miraini-gr.com/"
         },
         {
           "name": "ユニソルホールディングス",
@@ -1535,7 +1655,8 @@
             "code": "7128"
           },
           "note": "機械工具・建設資材",
-          "segment": "machinery"
+          "segment": "machinery",
+          "url": "https://www.unisol-gr.com/"
         }
       ],
       "updated": "2026-07-23",

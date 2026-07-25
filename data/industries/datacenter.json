@@ -190,7 +190,8 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "3776"
-          }
+          },
+          "url": "http://www.bbtower.co.jp/"
         }
       ],
       "sources": [
@@ -352,7 +353,8 @@
           "listing": {
             "market": "東証プライム",
             "code": "4768"
-          }
+          },
+          "url": "http://www.otsuka-shokai.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -544,7 +546,8 @@
           "name": "クリーンエナジーコネクト",
           "listing": {
             "market": "非上場"
-          }
+          },
+          "url": "https://cleanenergyconnect.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -917,7 +920,8 @@
           "hq": "大阪市北区",
           "listing": {
             "market": "非上場(ヤンマーHD傘下)"
-          }
+          },
+          "url": "http://www.yanmar.co.jp/prod/energy/company.html"
         },
         {
           "name": "明電舎",
@@ -925,7 +929,8 @@
             "market": "東証プライム",
             "code": "6508"
           },
-          "note": "変電設備"
+          "note": "変電設備",
+          "url": "https://www.meidensha.co.jp/"
         },
         {
           "name": "日東工業",
@@ -933,7 +938,8 @@
             "market": "東証プライム",
             "code": "6651"
           },
-          "note": "配電盤"
+          "note": "配電盤",
+          "url": "https://www.nito.co.jp/"
         },
         {
           "name": "東光高岳",
@@ -941,7 +947,8 @@
             "market": "東証プライム",
             "code": "6617"
           },
-          "note": "変電機器"
+          "note": "変電機器",
+          "url": "http://www.tktk.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -1002,7 +1009,8 @@
           "name": "三菱重工サーマルシステムズ",
           "listing": {
             "market": "非上場(三菱重工業傘下)"
-          }
+          },
+          "url": "https://www.mhi-mth.co.jp/"
         },
         {
           "name": "Vertiv",
@@ -1187,7 +1195,8 @@
             "market": "東証スタンダード",
             "code": "5885"
           },
-          "note": "GPUサーバー"
+          "note": "GPUサーバー",
+          "url": "https://www.gdep.co.jp/"
         },
         {
           "name": "HPCシステムズ",
@@ -1195,7 +1204,8 @@
             "market": "東証グロース",
             "code": "6597"
           },
-          "note": "科学技術計算サーバー"
+          "note": "科学技術計算サーバー",
+          "url": "https://www.hpc.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -1385,7 +1395,8 @@
           "listing": {
             "market": "東証REIT",
             "code": "3249"
-          }
+          },
+          "url": "https://www.iif-reit.com/"
         },
         {
           "name": "ブラックストーン",
@@ -1525,13 +1536,15 @@
           "name": "東京電力パワーグリッド",
           "listing": {
             "market": "非上場(東京電力HD傘下)"
-          }
+          },
+          "url": "https://www.tepco.co.jp/"
         },
         {
           "name": "関西電力送配電",
           "listing": {
             "market": "非上場(関西電力傘下)"
-          }
+          },
+          "url": "https://www.kansai-td.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -1551,21 +1564,24 @@
           "listing": {
             "market": "プライム",
             "code": "5803"
-          }
+          },
+          "url": "https://www.fujikura.co.jp/"
         },
         {
           "name": "住友電気工業",
           "listing": {
             "market": "プライム",
             "code": "5802"
-          }
+          },
+          "url": "https://sumitomoelectric.com"
         },
         {
           "name": "古河電気工業",
           "listing": {
             "market": "プライム",
             "code": "5801"
-          }
+          },
+          "url": "http://www.furukawa.co.jp/"
         }
       ],
       "updated": "2026-07-24",

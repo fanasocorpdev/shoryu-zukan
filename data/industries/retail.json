@@ -184,91 +184,104 @@
           "listing": {
             "market": "東証プライム",
             "code": "8273"
-          }
+          },
+          "url": "https://www.izumi.co.jp/"
         },
         {
           "name": "バローホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "9956"
-          }
+          },
+          "url": "http://valorholdings.co.jp/"
         },
         {
           "name": "ベルク",
           "listing": {
             "market": "東証プライム",
             "code": "9974"
-          }
+          },
+          "url": "https://www.belc.jp/"
         },
         {
           "name": "ハローズ",
           "listing": {
             "market": "東証プライム",
             "code": "2742"
-          }
+          },
+          "url": "http://www.halows.com/"
         },
         {
           "name": "アクシアル リテイリング",
           "listing": {
             "market": "東証プライム",
             "code": "8255"
-          }
+          },
+          "url": "https://www.axial-r.com/"
         },
         {
           "name": "平和堂",
           "listing": {
             "market": "東証プライム",
             "code": "8276"
-          }
+          },
+          "url": "https://www.heiwado.jp/"
         },
         {
           "name": "フジ",
           "listing": {
             "market": "東証プライム",
             "code": "8278"
-          }
+          },
+          "url": "https://www.the-fuji.com/"
         },
         {
           "name": "オークワ",
           "listing": {
             "market": "東証プライム",
             "code": "8217"
-          }
+          },
+          "url": "http://www.okuwa.net/"
         },
         {
           "name": "アークス",
           "listing": {
             "market": "東証プライム",
             "code": "9948"
-          }
+          },
+          "url": "https://www.arcs-g.co.jp/"
         },
         {
           "name": "ヤマザワ",
           "listing": {
             "market": "東証スタンダード",
             "code": "9993"
-          }
+          },
+          "url": "https://yamazawa.co.jp/"
         },
         {
           "name": "エコス",
           "listing": {
             "market": "東証プライム",
             "code": "7520"
-          }
+          },
+          "url": "http://www.eco-s.co.jp/"
         },
         {
           "name": "ダイイチ",
           "listing": {
             "market": "東証スタンダード",
             "code": "7643"
-          }
+          },
+          "url": "https://www.daiichi-d.co.jp/"
         },
         {
           "name": "マミーマートホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "9823"
-          }
+          },
+          "url": "https://mami-mart-holdings.com/"
         },
         {
           "name": "マックスバリュ東海",
@@ -284,42 +297,48 @@
           "salary": {
             "man_jpy": 574,
             "fy": "2026年2月期"
-          }
+          },
+          "url": "http://www.mv-tokai.co.jp"
         },
         {
           "name": "リテールパートナーズ",
           "listing": {
             "market": "東証プライム",
             "code": "8167"
-          }
+          },
+          "url": "http://retailpartners.co.jp/"
         },
         {
           "name": "ユナイテッド・スーパーマーケット・ホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "3222"
-          }
+          },
+          "url": "https://usmh.co.jp/"
         },
         {
           "name": "大黒天物産",
           "listing": {
             "market": "東証プライム",
             "code": "2791"
-          }
+          },
+          "url": "https://www.e-dkt.co.jp/"
         },
         {
           "name": "アルビス",
           "listing": {
             "market": "東証プライム",
             "code": "7475"
-          }
+          },
+          "url": "https://www.albis.co.jp/"
         },
         {
           "name": "サンエー",
           "listing": {
             "market": "東証プライム",
             "code": "2659"
-          }
+          },
+          "url": "http://www.san-a.co.jp/"
         },
         {
           "name": "イオン九州",
@@ -335,7 +354,8 @@
           "salary": {
             "man_jpy": 481,
             "fy": "2026年2月期"
-          }
+          },
+          "url": "https://www.aeon-kyushu.info/"
         },
         {
           "name": "イオン北海道",
@@ -351,35 +371,40 @@
           "salary": {
             "man_jpy": 509,
             "fy": "2026年2月期"
-          }
+          },
+          "url": "https://www.aeon-hokkaido.jp/"
         },
         {
           "name": "天満屋ストア",
           "listing": {
             "market": "東証スタンダード",
             "code": "9846"
-          }
+          },
+          "url": "http://www.tenmaya-store.co.jp/"
         },
         {
           "name": "北雄ラッキー",
           "listing": {
             "market": "東証スタンダード",
             "code": "2747"
-          }
+          },
+          "url": "https://www.hokuyu-lucky.co.jp/"
         },
         {
           "name": "マルヨシセンター",
           "listing": {
             "market": "東証スタンダード",
             "code": "7515"
-          }
+          },
+          "url": "http://ww2.maruyoshi-center.co.jp/"
         },
         {
           "name": "オーシャンシステム",
           "listing": {
             "market": "東証スタンダード",
             "code": "3096"
-          }
+          },
+          "url": "http://www.ocean-system.com/"
         },
         {
           "name": "神戸物産",
@@ -387,14 +412,16 @@
             "market": "東証プライム",
             "code": "3038"
           },
-          "note": "業務スーパー"
+          "note": "業務スーパー",
+          "url": "https://www.kobebussan.co.jp/"
         },
         {
           "name": "魚力",
           "listing": {
             "market": "東証プライム",
             "code": "7596"
-          }
+          },
+          "url": "http://www.uoriki.co.jp/"
         },
         {
           "name": "JMホールディングス",
@@ -402,21 +429,24 @@
             "market": "東証プライム",
             "code": "3539"
           },
-          "note": "肉のハナマサ"
+          "note": "肉のハナマサ",
+          "url": "https://www.jm-holdings.co.jp/"
         },
         {
           "name": "MrMaxHD",
           "listing": {
             "market": "東証プライム",
             "code": "8203"
-          }
+          },
+          "url": "https://www.mrmax.co.jp/"
         },
         {
           "name": "マキヤ",
           "listing": {
             "market": "東証スタンダード",
             "code": "9890"
-          }
+          },
+          "url": "http://www.makiya-group.co.jp/"
         },
         {
           "name": "やまや",
@@ -424,7 +454,8 @@
             "market": "東証スタンダード",
             "code": "9994"
           },
-          "note": "酒販"
+          "note": "酒販",
+          "url": "https://www.yamaya.jp"
         },
         {
           "name": "アシードホールディングス",
@@ -432,14 +463,16 @@
             "market": "東証スタンダード",
             "code": "9959"
           },
-          "note": "酒販"
+          "note": "酒販",
+          "url": "http://www.aseed-hd.co.jp/"
         },
         {
           "name": "ジェーソン",
           "listing": {
             "market": "東証スタンダード",
             "code": "3080"
-          }
+          },
+          "url": "http://www.jason.co.jp/"
         },
         {
           "name": "魚喜",
@@ -447,7 +480,8 @@
             "market": "東証スタンダード",
             "code": "2683"
           },
-          "note": "鮮魚小売"
+          "note": "鮮魚小売",
+          "url": "http://www.uoki.co.jp/"
         },
         {
           "name": "オーエムツーネットワーク",
@@ -455,7 +489,8 @@
             "market": "東証スタンダード",
             "code": "7614"
           },
-          "note": "精肉小売"
+          "note": "精肉小売",
+          "url": "http://www.om2.co.jp/"
         },
         {
           "name": "タカヨシホールディングス",
@@ -463,7 +498,8 @@
             "market": "東証グロース",
             "code": "9259"
           },
-          "note": "産直市場(わくわく広場)"
+          "note": "産直市場(わくわく広場)",
+          "url": "https://takayoshi-inc.com/"
         },
         {
           "name": "ブルーゾーンホールディングス",
@@ -561,49 +597,56 @@
           "listing": {
             "market": "東証プライム",
             "code": "8252"
-          }
+          },
+          "url": "http://www.0101maruigroup.co.jp/"
         },
         {
           "name": "近鉄百貨店",
           "listing": {
             "market": "東証スタンダード",
             "code": "8244"
-          }
+          },
+          "url": "https://www.d-kintetsu.co.jp/"
         },
         {
           "name": "J.フロント リテイリング",
           "listing": {
             "market": "東証プライム",
             "code": "3086"
-          }
+          },
+          "url": "https://www.j-front-retailing.com/"
         },
         {
           "name": "松屋",
           "listing": {
             "market": "東証プライム",
             "code": "8237"
-          }
+          },
+          "url": "https://www.matsuya.com/"
         },
         {
           "name": "井筒屋",
           "listing": {
             "market": "東証スタンダード",
             "code": "8260"
-          }
+          },
+          "url": "https://www.izutsuya.co.jp/"
         },
         {
           "name": "大和",
           "listing": {
             "market": "東証スタンダード",
             "code": "8247"
-          }
+          },
+          "url": "https://www.daiwa-dp.co.jp/"
         },
         {
           "name": "さいか屋",
           "listing": {
             "market": "東証スタンダード",
             "code": "8254"
-          }
+          },
+          "url": "https://www.saikaya.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -792,14 +835,16 @@
           "salary": {
             "man_jpy": 571,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "https://www.seria-group.com/"
         },
         {
           "name": "ワッツ",
           "listing": {
             "market": "東証スタンダード",
             "code": "2735"
-          }
+          },
+          "url": "https://www.watts-jp.com/"
         },
         {
           "name": "ワークマン",
@@ -815,42 +860,48 @@
           "salary": {
             "man_jpy": 771,
             "fy": "2025年3月期"
-          }
+          },
+          "url": "https://www.workman.co.jp/"
         },
         {
           "name": "アルペン",
           "listing": {
             "market": "東証プライム",
             "code": "3028"
-          }
+          },
+          "url": "http://www.alpen-group.jp/"
         },
         {
           "name": "ゼビオホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "8281"
-          }
+          },
+          "url": "https://store.supersports.com/"
         },
         {
           "name": "ヒマラヤ",
           "listing": {
             "market": "東証スタンダード",
             "code": "7514"
-          }
+          },
+          "url": "https://www.himaraya.co.jp/"
         },
         {
           "name": "あさひ",
           "listing": {
             "market": "東証プライム",
             "code": "3333"
-          }
+          },
+          "url": "https://www.cb-asahi.co.jp"
         },
         {
           "name": "DAIWA CYCLE",
           "listing": {
             "market": "東証グロース",
             "code": "5888"
-          }
+          },
+          "url": "https://www.daiwa-cycle.co.jp/"
         },
         {
           "name": "キャンドゥ",
@@ -858,7 +909,8 @@
             "market": "東証スタンダード",
             "code": "2698"
           },
-          "note": "100円ショップ"
+          "note": "100円ショップ",
+          "url": "https://www.cando-web.co.jp/"
         },
         {
           "name": "ミサワ",
@@ -874,7 +926,8 @@
             "market": "東証スタンダード",
             "code": "9973"
           },
-          "note": "小僧寿し"
+          "note": "小僧寿し",
+          "url": "https://kozosushi-gr.com/"
         },
         {
           "name": "ジャパンクラフトホールディングス",
@@ -890,7 +943,8 @@
             "market": "東証スタンダード",
             "code": "386A"
           },
-          "note": "菓子専門店(おかしのまちおか)"
+          "note": "菓子専門店(おかしのまちおか)",
+          "url": "https://www.machioka.co.jp/company/index.html"
         }
       ],
       "updated": "2026-07-23",
@@ -1228,63 +1282,72 @@
           "listing": {
             "market": "東証プライム",
             "code": "3048"
-          }
+          },
+          "url": "https://www.biccamera.com/"
         },
         {
           "name": "ケーズホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "8282"
-          }
+          },
+          "url": "https://www.ksdenki.co.jp"
         },
         {
           "name": "エディオン",
           "listing": {
             "market": "東証プライム",
             "code": "2730"
-          }
+          },
+          "url": "https://www.edion.co.jp"
         },
         {
           "name": "ノジマ",
           "listing": {
             "market": "東証プライム",
             "code": "7419"
-          }
+          },
+          "url": "https://www.nojima.co.jp/"
         },
         {
           "name": "コジマ",
           "listing": {
             "market": "東証プライム",
             "code": "7513"
-          }
+          },
+          "url": "https://www.kojima.net/"
         },
         {
           "name": "Joshin",
           "listing": {
             "market": "東証プライム",
             "code": "8173"
-          }
+          },
+          "url": "https://www.joshin.co.jp/joshintop/"
         },
         {
           "name": "ラオックスホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "8202"
-          }
+          },
+          "url": "http://www.laox.co.jp/"
         },
         {
           "name": "アプライド",
           "listing": {
             "market": "東証スタンダード",
             "code": "3020"
-          }
+          },
+          "url": "http://www.applied-g.jp/"
         },
         {
           "name": "ZOA",
           "listing": {
             "market": "東証スタンダード",
             "code": "3375"
-          }
+          },
+          "url": "https://www.zoa.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -1306,91 +1369,104 @@
           "listing": {
             "market": "東証プライム",
             "code": "3050"
-          }
+          },
+          "url": "http://www.dcm-hldgs.co.jp/"
         },
         {
           "name": "コーナン商事",
           "listing": {
             "market": "東証プライム",
             "code": "7516"
-          }
+          },
+          "url": "https://www.hc-kohnan.com/"
         },
         {
           "name": "アークランズ",
           "listing": {
             "market": "東証プライム",
             "code": "9842"
-          }
+          },
+          "url": "http://www.arcland.co.jp/"
         },
         {
           "name": "コメリ",
           "listing": {
             "market": "東証プライム",
             "code": "8218"
-          }
+          },
+          "url": "http://www.komeri.bit.or.jp/"
         },
         {
           "name": "ナフコ",
           "listing": {
             "market": "東証スタンダード",
             "code": "2790"
-          }
+          },
+          "url": "http://www.nafco.tv"
         },
         {
           "name": "ジョイフル本田",
           "listing": {
             "market": "東証プライム",
             "code": "3191"
-          }
+          },
+          "url": "http://www.joyfulhonda.com/"
         },
         {
           "name": "綿半ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3199"
-          }
+          },
+          "url": "https://watahan.co.jp/"
         },
         {
           "name": "PLANT",
           "listing": {
             "market": "東証スタンダード",
             "code": "7646"
-          }
+          },
+          "url": "https://www.plant-co.jp/"
         },
         {
           "name": "ハンズマン",
           "listing": {
             "market": "東証スタンダード",
             "code": "7636"
-          }
+          },
+          "url": "https://www.handsman.co.jp/"
         },
         {
           "name": "カンセキ",
           "listing": {
             "market": "東証スタンダード",
             "code": "9903"
-          }
+          },
+          "url": "https://www.kanseki.co.jp/"
         },
         {
           "name": "セキチュー",
           "listing": {
             "market": "東証スタンダード",
             "code": "9976"
-          }
+          },
+          "url": "http://www.sekichu.co.jp/"
         },
         {
           "name": "ジュンテンドー",
           "listing": {
             "market": "東証スタンダード",
             "code": "9835"
-          }
+          },
+          "url": "https://www.juntendo.co.jp/"
         },
         {
           "name": "バッファロー",
           "listing": {
             "market": "東証スタンダード",
             "code": "3352"
-          }
+          },
+          "url": "http://www.buffalo.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -1411,105 +1487,120 @@
           "listing": {
             "market": "東証プライム",
             "code": "8227"
-          }
+          },
+          "url": "https://www.shimamura.gr.jp/"
         },
         {
           "name": "ユナイテッドアローズ",
           "listing": {
             "market": "東証プライム",
             "code": "7606"
-          }
+          },
+          "url": "https://store.united-arrows.co.jp/"
         },
         {
           "name": "ハニーズホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "2792"
-          }
+          },
+          "url": "https://www.honeys.co.jp/"
         },
         {
           "name": "西松屋チェーン",
           "listing": {
             "market": "東証プライム",
             "code": "7545"
-          }
+          },
+          "url": "https://www.24028.jp/"
         },
         {
           "name": "エービーシー・マート",
           "listing": {
             "market": "東証プライム",
             "code": "2670"
-          }
+          },
+          "url": "https://www.abc-mart.net/"
         },
         {
           "name": "パルグループホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "2726"
-          }
+          },
+          "url": "https://www.palgroup.holdings/"
         },
         {
           "name": "AOKIホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "8214"
-          }
+          },
+          "url": "https://www.aoki-hd.co.jp/"
         },
         {
           "name": "青山商事",
           "listing": {
             "market": "東証プライム",
             "code": "8219"
-          }
+          },
+          "url": "https://www.y-aoyama.jp/"
         },
         {
           "name": "コナカ",
           "listing": {
             "market": "東証スタンダード",
             "code": "7494"
-          }
+          },
+          "url": "http://www.konaka.co.jp/"
         },
         {
           "name": "はるやまホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "7416"
-          }
+          },
+          "url": "https://www.haruyama.co.jp/"
         },
         {
           "name": "タカキュー",
           "listing": {
             "market": "東証スタンダード",
             "code": "8166"
-          }
+          },
+          "url": "http://www.taka-q.com/"
         },
         {
           "name": "チヨダ",
           "listing": {
             "market": "東証プライム",
             "code": "8185"
-          }
+          },
+          "url": "http://www.chiyodagrp.co.jp/"
         },
         {
           "name": "ジンズホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "3046"
-          }
+          },
+          "url": "http://www.jin-co.com/"
         },
         {
           "name": "愛眼",
           "listing": {
             "market": "東証スタンダード",
             "code": "9854"
-          }
+          },
+          "url": "https://www.aigan.co.jp/"
         },
         {
           "name": "Japan Eyewear Holdings",
           "listing": {
             "market": "東証プライム",
             "code": "5889"
-          }
+          },
+          "url": "https://www.japan-eyewear-holdings.co.jp/"
         },
         {
           "name": "インターメスティック",
@@ -1524,56 +1615,64 @@
           "listing": {
             "market": "東証プライム",
             "code": "8008"
-          }
+          },
+          "url": "https://www.yondoshi.co.jp/"
         },
         {
           "name": "バロックジャパンリミテッド",
           "listing": {
             "market": "東証プライム",
             "code": "3548"
-          }
+          },
+          "url": "http://www.baroque-global.com/"
         },
         {
           "name": "TOKYO BASE",
           "listing": {
             "market": "東証プライム",
             "code": "3415"
-          }
+          },
+          "url": "https://tokyobase.co.jp/"
         },
         {
           "name": "アンドエスティHD",
           "listing": {
             "market": "東証プライム",
             "code": "2685"
-          }
+          },
+          "url": "https://www.andst-hd.co.jp/"
         },
         {
           "name": "コックス",
           "listing": {
             "market": "東証スタンダード",
             "code": "9876"
-          }
+          },
+          "url": "http://www.cox-online.co.jp/"
         },
         {
           "name": "京都きもの友禅ホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "7615"
-          }
+          },
+          "url": "https://www.kyotokimonoyuzen.co.jp/"
         },
         {
           "name": "ダブルエー",
           "listing": {
             "market": "東証プライム",
             "code": "7683"
-          }
+          },
+          "url": "https://www.wa-jp.com/"
         },
         {
           "name": "ヒラキ",
           "listing": {
             "market": "東証スタンダード",
             "code": "3059"
-          }
+          },
+          "url": "https://company.hiraki.co.jp/"
         },
         {
           "name": "サックスバー ホールディングス",
@@ -1588,7 +1687,8 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "2778"
-          }
+          },
+          "url": "https://www.palemo.co.jp/"
         },
         {
           "name": "フェスタリアホールディングス",
@@ -1604,7 +1704,8 @@
             "market": "東証スタンダード",
             "code": "9904"
           },
-          "note": "ジュエリー"
+          "note": "ジュエリー",
+          "url": "https://www.verite.jp/"
         },
         {
           "name": "NEW ART HOLDINGS",
@@ -1612,14 +1713,16 @@
             "market": "東証スタンダード",
             "code": "7638"
           },
-          "note": "ジュエリー"
+          "note": "ジュエリー",
+          "url": "http://www.parler.co.jp/"
         },
         {
           "name": "ANAPホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "3189"
-          }
+          },
+          "url": "http://www.anap.co.jp/"
         },
         {
           "name": "スタジオアタオ",
@@ -1627,7 +1730,8 @@
             "market": "東証グロース",
             "code": "3550"
           },
-          "note": "バッグ"
+          "note": "バッグ",
+          "url": "https://www.studioatao.jp/"
         },
         {
           "name": "グローバルスタイル",
@@ -1635,7 +1739,8 @@
             "market": "東証スタンダード",
             "code": "7126"
           },
-          "note": "オーダースーツ"
+          "note": "オーダースーツ",
+          "url": "https://www.global-style.jp/"
         },
         {
           "name": "yutori",
@@ -1643,7 +1748,8 @@
             "market": "東証グロース",
             "code": "5892"
           },
-          "note": "古着・D2C"
+          "note": "古着・D2C",
+          "url": "https://yutori.tokyo/"
         },
         {
           "name": "HUMAN MADE",
@@ -1659,7 +1765,8 @@
           "salary": {
             "man_jpy": 619,
             "fy": "2026年1月期"
-          }
+          },
+          "url": "https://humanmade.co.jp/"
         },
         {
           "name": "ジェイドグループ",
@@ -1667,14 +1774,16 @@
             "market": "東証グロース",
             "code": "3558"
           },
-          "note": "靴EC"
+          "note": "靴EC",
+          "url": "https://jade-group.jp/"
         },
         {
           "name": "ハピネス・アンド・ディ",
           "listing": {
             "market": "東証スタンダード",
             "code": "3174"
-          }
+          },
+          "url": "https://www.happiness-d.co.jp/"
         },
         {
           "name": "スターシーズ",
@@ -1682,7 +1791,8 @@
             "market": "東証スタンダード",
             "code": "3083"
           },
-          "note": "衣料小売・蓄電池・GPU多角"
+          "note": "衣料小売・蓄電池・GPU多角",
+          "url": "https://starseeds.co.jp/"
         },
         {
           "name": "ジーイエット",
@@ -1690,7 +1800,8 @@
             "market": "東証スタンダード",
             "code": "7603"
           },
-          "note": "カジュアル衣料(マックハウス)"
+          "note": "カジュアル衣料(マックハウス)",
+          "url": "https://gyet.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -1721,56 +1832,64 @@
           "listing": {
             "market": "東証プライム",
             "code": "2681"
-          }
+          },
+          "url": "https://www.geonet.co.jp/"
         },
         {
           "name": "ブックオフグループホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "9278"
-          }
+          },
+          "url": "https://www.bookoffgroup.co.jp/"
         },
         {
           "name": "トレジャー・ファクトリー",
           "listing": {
             "market": "東証プライム",
             "code": "3093"
-          }
+          },
+          "url": "https://www.treasurefactory.co.jp/"
         },
         {
           "name": "コメ兵ホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "2780"
-          }
+          },
+          "url": "http://www.komehyo.co.jp/"
         },
         {
           "name": "ハードオフコーポレーション",
           "listing": {
             "market": "東証プライム",
             "code": "2674"
-          }
+          },
+          "url": "https://www.hardoff.co.jp/"
         },
         {
           "name": "買取王国",
           "listing": {
             "market": "東証スタンダード",
             "code": "3181"
-          }
+          },
+          "url": "https://www.okoku.jp/"
         },
         {
           "name": "テイツー",
           "listing": {
             "market": "東証スタンダード",
             "code": "7610"
-          }
+          },
+          "url": "http://www.tay2.co.jp/"
         },
         {
           "name": "まんだらけ",
           "listing": {
             "market": "東証スタンダード",
             "code": "2652"
-          }
+          },
+          "url": "http://www.mandarake.co.jp/"
         },
         {
           "name": "大黒屋ホールディングス",
@@ -1784,42 +1903,48 @@
           "listing": {
             "market": "東証プライム",
             "code": "3179"
-          }
+          },
+          "url": "https://www.syuppin.co.jp/"
         },
         {
           "name": "ヴィレッジヴァンガードコーポレーション",
           "listing": {
             "market": "東証スタンダード",
             "code": "2769"
-          }
+          },
+          "url": "https://www.village-v.co.jp/"
         },
         {
           "name": "三洋堂ホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "3058"
-          }
+          },
+          "url": "https://www.sanyodo.co.jp/"
         },
         {
           "name": "トップカルチャー",
           "listing": {
             "market": "東証スタンダード",
             "code": "7640"
-          }
+          },
+          "url": "http://www.topculture.co.jp/"
         },
         {
           "name": "文教堂グループホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "9978"
-          }
+          },
+          "url": "https://www.bunkyodo.co.jp/"
         },
         {
           "name": "丸善CHIホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "3159"
-          }
+          },
+          "url": "https://www.maruzen-chi.co.jp/"
         },
         {
           "name": "BuySell Technologies",
@@ -1835,14 +1960,16 @@
           "salary": {
             "man_jpy": 535,
             "fy": "2025年12月期"
-          }
+          },
+          "url": "https://buysell-technologies.com/"
         },
         {
           "name": "バリュエンスホールディングス",
           "listing": {
             "market": "東証グロース",
             "code": "9270"
-          }
+          },
+          "url": "https://www.valuence.inc/"
         },
         {
           "name": "リネットジャパングループ",
@@ -1856,21 +1983,24 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "3135"
-          }
+          },
+          "url": "http://marketenterprise.co.jp/"
         },
         {
           "name": "ありがとうサービス",
           "listing": {
             "market": "東証スタンダード",
             "code": "3177"
-          }
+          },
+          "url": "http://www.arigatou-s.com"
         },
         {
           "name": "アクサスホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "3536"
-          }
+          },
+          "url": "http://www.axas.co.jp/"
         },
         {
           "name": "セキド",
@@ -1878,7 +2008,8 @@
             "market": "東証スタンダード",
             "code": "9878"
           },
-          "note": "ブランド買取"
+          "note": "ブランド買取",
+          "url": "http://www.sekido.com/"
         },
         {
           "name": "Shinwa Wise Holdings",
@@ -1886,7 +2017,8 @@
             "market": "東証スタンダード",
             "code": "2437"
           },
-          "note": "美術品オークション"
+          "note": "美術品オークション",
+          "url": "https://www.shinwa-wise.com/"
         },
         {
           "name": "ReYuu Japan",
@@ -1924,14 +2056,16 @@
           "listing": {
             "market": "東証プライム",
             "code": "2678"
-          }
+          },
+          "url": "https://www.askul.co.jp"
         },
         {
           "name": "MonotaRO",
           "listing": {
             "market": "東証プライム",
             "code": "3064"
-          }
+          },
+          "url": "http://www.monotaro.com/"
         },
         {
           "name": "オイシックス・ラ・大地",
@@ -1945,84 +2079,96 @@
           "listing": {
             "market": "東証プライム",
             "code": "9997"
-          }
+          },
+          "url": "https://www.belluna.co.jp/"
         },
         {
           "name": "スクロール",
           "listing": {
             "market": "東証プライム",
             "code": "8005"
-          }
+          },
+          "url": "http://www.scroll2003.com/"
         },
         {
           "name": "千趣会",
           "listing": {
             "market": "東証スタンダード",
             "code": "8165"
-          }
+          },
+          "url": "http://www.bellemaison.jp"
         },
         {
           "name": "フェリシモ",
           "listing": {
             "market": "東証スタンダード",
             "code": "3396"
-          }
+          },
+          "url": "http://www.felissimo.co.jp/"
         },
         {
           "name": "ベガコーポレーション",
           "listing": {
             "market": "東証グロース",
             "code": "3542"
-          }
+          },
+          "url": "https://www.vega-c.com/"
         },
         {
           "name": "いつも",
           "listing": {
             "market": "東証グロース",
             "code": "7694"
-          }
+          },
+          "url": "https://itsumo365.co.jp/"
         },
         {
           "name": "ティーライフ",
           "listing": {
             "market": "東証スタンダード",
             "code": "3172"
-          }
+          },
+          "url": "http://www.tealifeir.com/"
         },
         {
           "name": "ハルメクホールディングス",
           "listing": {
             "market": "東証グロース",
             "code": "7119"
-          }
+          },
+          "url": "https://www.halmek-holdings.co.jp/"
         },
         {
           "name": "クラシコム",
           "listing": {
             "market": "東証グロース",
             "code": "7110"
-          }
+          },
+          "url": "https://kurashi.com/"
         },
         {
           "name": "ほぼ日",
           "listing": {
             "market": "東証スタンダード",
             "code": "3560"
-          }
+          },
+          "url": "https://www.1101.com/"
         },
         {
           "name": "Hamee",
           "listing": {
             "market": "東証スタンダード",
             "code": "3134"
-          }
+          },
+          "url": "https://hamee.co.jp/"
         },
         {
           "name": "シルバーライフ",
           "listing": {
             "market": "東証スタンダード",
             "code": "9262"
-          }
+          },
+          "url": "https://www.silver-life.co.jp/"
         },
         {
           "name": "白鳩",
@@ -2030,14 +2176,16 @@
             "market": "東証スタンダード",
             "code": "3192"
           },
-          "note": "下着EC"
+          "note": "下着EC",
+          "url": "https://www.shirohato.co.jp/"
         },
         {
           "name": "夢展望",
           "listing": {
             "market": "東証グロース",
             "code": "3185"
-          }
+          },
+          "url": "http://www.dreamv.co.jp/"
         },
         {
           "name": "ユニフォームネクスト",
@@ -2045,7 +2193,8 @@
             "market": "東証グロース",
             "code": "3566"
           },
-          "note": "ユニフォーム"
+          "note": "ユニフォーム",
+          "url": "https://uniformnext.co.jp/"
         },
         {
           "name": "TORICO",
@@ -2053,21 +2202,24 @@
             "market": "東証グロース",
             "code": "7138"
           },
-          "note": "漫画"
+          "note": "漫画",
+          "url": "https://torico-corp.com/"
         },
         {
           "name": "ペットゴー",
           "listing": {
             "market": "東証グロース",
             "code": "7140"
-          }
+          },
+          "url": "https://www.petgo.jp/"
         },
         {
           "name": "犬猫生活",
           "listing": {
             "market": "東証グロース",
             "code": "556A"
-          }
+          },
+          "url": "https://corp.inuneko-seikatsu.co.jp/"
         },
         {
           "name": "クラダシ",
@@ -2075,7 +2227,8 @@
             "market": "東証グロース",
             "code": "5884"
           },
-          "note": "フードロス削減EC"
+          "note": "フードロス削減EC",
+          "url": "https://corp.kuradashi.jp/"
         },
         {
           "name": "交換できるくん",
@@ -2083,7 +2236,8 @@
             "market": "東証グロース",
             "code": "7695"
           },
-          "note": "住宅設備EC"
+          "note": "住宅設備EC",
+          "url": "https://www.sunrefre.jp/"
         },
         {
           "name": "ミラタップ",
@@ -2091,7 +2245,8 @@
             "market": "東証グロース",
             "code": "3187"
           },
-          "note": "住宅設備EC"
+          "note": "住宅設備EC",
+          "url": "https://www.miratap.co.jp/"
         },
         {
           "name": "ジェネレーションパス",
@@ -2115,7 +2270,8 @@
             "market": "東証スタンダード",
             "code": "9969"
           },
-          "note": "食材宅配"
+          "note": "食材宅配",
+          "url": "https://www.shokubun.co.jp/"
         },
         {
           "name": "ストリーム",
@@ -2123,7 +2279,8 @@
             "market": "東証スタンダード",
             "code": "3071"
           },
-          "note": "カメラ・家電EC"
+          "note": "カメラ・家電EC",
+          "url": "http://www.stream-jp.com/"
         },
         {
           "name": "コパ・コーポレーション",
@@ -2131,7 +2288,8 @@
             "market": "東証グロース",
             "code": "7689"
           },
-          "note": "実演販売・TV通販"
+          "note": "実演販売・TV通販",
+          "url": "https://www.copa.co.jp/"
         },
         {
           "name": "エアークローゼット",
@@ -2147,7 +2305,8 @@
             "market": "東証グロース",
             "code": "288A"
           },
-          "note": "バッグシェアリング"
+          "note": "バッグシェアリング",
+          "url": "https://corp.laxus.co/"
         },
         {
           "name": "ひとまいる",
@@ -2155,7 +2314,8 @@
             "market": "東証スタンダード",
             "code": "7686"
           },
-          "note": "酒販宅配(カクヤス)"
+          "note": "酒販宅配(カクヤス)",
+          "url": "https://www.kakuyasu-group.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -2204,14 +2364,16 @@
           "salary": {
             "man_jpy": 741,
             "fy": "2026年2月期"
-          }
+          },
+          "url": "http://www.warabeya.co.jp/"
         },
         {
           "name": "寿スピリッツ",
           "listing": {
             "market": "プライム",
             "code": "2222"
-          }
+          },
+          "url": "http://www.okashinet.co.jp/"
         }
       ],
       "updated": "2026-07-24",

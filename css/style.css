@@ -526,11 +526,22 @@ svg.focus .edge.lit path.line { stroke-width: 3.6; }
   .guide-card { left: 8px; right: 8px; max-width: none; top: 8px; font-size: .8rem; }
 }
 
-/* ============ 注目ニュース ============ */
-.news-card {
-  position: absolute; right: 14px; top: 14px; z-index: 9;
+/* ============ 左レール(歩き方+注目ニュースの縦並び) ============ */
+.left-rail {
+  position: absolute; left: 14px; top: 14px; z-index: 18;
   width: 340px; max-width: 40vw;
   max-height: calc(100% - 28px); overflow-y: auto;
+  display: flex; flex-direction: column; gap: 10px;
+}
+/* レール内ではカードは通常フロー(縦並び)に */
+.left-rail .guide-card, .left-rail .news-card {
+  position: static; left: auto; right: auto; top: auto;
+  width: auto; max-width: none; max-height: none; overflow: visible;
+  z-index: auto;
+}
+
+/* ============ 注目ニュース ============ */
+.news-card {
   background: linear-gradient(160deg, var(--grad-a), var(--grad-b));
   border: 1.5px solid var(--paper-edge); border-radius: 12px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, .1);

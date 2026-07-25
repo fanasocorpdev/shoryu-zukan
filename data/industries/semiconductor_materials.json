@@ -73,7 +73,8 @@
           "listing": {
             "market": "プライム",
             "code": "4063"
-          }
+          },
+          "url": "http://www.shinetsu.co.jp/"
         },
         {
           "name": "ＳＵＭＣＯ",
@@ -84,13 +85,15 @@
           "salary": {
             "man_jpy": 679,
             "fy": "2025年3月期"
-          }
+          },
+          "url": "https://www.sumcosi.com/english/"
         },
         {
           "name": "グローバルウェーハズ・ジャパン",
           "listing": {
             "market": "非上場(台湾GlobalWafers傘下)"
-          }
+          },
+          "url": "https://www.sas-globalwafers.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -110,34 +113,39 @@
           "listing": {
             "market": "プライム",
             "code": "4186"
-          }
+          },
+          "url": "https://www.tok.co.jp/"
         },
         {
           "name": "JSR",
           "listing": {
             "market": "非上場(JIC傘下)"
-          }
+          },
+          "url": "http://www.jsr.co.jp/"
         },
         {
           "name": "信越化学工業",
           "listing": {
             "market": "プライム",
             "code": "4063"
-          }
+          },
+          "url": "http://www.shinetsu.co.jp/"
         },
         {
           "name": "富士フイルムホールディングス",
           "listing": {
             "market": "プライム",
             "code": "4901"
-          }
+          },
+          "url": "https://www.fujifilmholdings.com/"
         },
         {
           "name": "住友化学",
           "listing": {
             "market": "プライム",
             "code": "4005"
-          }
+          },
+          "url": "https://www.sumitomo-chem.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -157,49 +165,56 @@
           "listing": {
             "market": "プライム",
             "code": "4091"
-          }
+          },
+          "url": "https://jp.nipponsanso.com/"
         },
         {
           "name": "エア・ウォーター",
           "listing": {
             "market": "プライム",
             "code": "4088"
-          }
+          },
+          "url": "https://www.awi.co.jp/"
         },
         {
           "name": "関東電化工業",
           "listing": {
             "market": "プライム",
             "code": "4047"
-          }
+          },
+          "url": "https://www.kantodenka.co.jp/"
         },
         {
           "name": "セントラル硝子",
           "listing": {
             "market": "プライム",
             "code": "4044"
-          }
+          },
+          "url": "http://www.cgco.co.jp/"
         },
         {
           "name": "ステラ　ケミファ",
           "listing": {
             "market": "プライム",
             "code": "4109"
-          }
+          },
+          "url": "http://www.stella-chemifa.co.jp/"
         },
         {
           "name": "トリケミカル研究所",
           "listing": {
             "market": "プライム",
             "code": "4369"
-          }
+          },
+          "url": "https://www.trichemical.com/"
         },
         {
           "name": "ＡＤＥＫＡ",
           "listing": {
             "market": "プライム",
             "code": "4401"
-          }
+          },
+          "url": "https://www.adeka.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -219,21 +234,24 @@
           "listing": {
             "market": "プライム",
             "code": "7741"
-          }
+          },
+          "url": "https://www.hoya.com/"
         },
         {
           "name": "ＴＯＰＰＡＮホールディングス",
           "listing": {
             "market": "プライム",
             "code": "7911"
-          }
+          },
+          "url": "https://www.holdings.toppan.com/ja/"
         },
         {
           "name": "大日本印刷",
           "listing": {
             "market": "プライム",
             "code": "7912"
-          }
+          },
+          "url": "https://www.dnp.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -253,14 +271,16 @@
           "listing": {
             "market": "プライム",
             "code": "5384"
-          }
+          },
+          "url": "http://www.fujimiinc.co.jp/"
         },
         {
           "name": "レゾナック・ホールディングス",
           "listing": {
             "market": "プライム",
             "code": "4004"
-          }
+          },
+          "url": "https://www.resonac.com/jp"
         }
       ],
       "updated": "2026-07-24",
@@ -280,7 +300,8 @@
           "listing": {
             "market": "プライム",
             "code": "4062"
-          }
+          },
+          "url": "http://www.ibiden.co.jp/"
         },
         {
           "name": "味の素",
@@ -288,20 +309,23 @@
             "market": "プライム",
             "code": "2802"
           },
-          "note": "ABF(味の素ビルドアップフィルム)が事実上の世界標準"
+          "note": "ABF(味の素ビルドアップフィルム)が事実上の世界標準",
+          "url": "https://www.ajinomoto.co.jp/"
         },
         {
           "name": "京セラ",
           "listing": {
             "market": "プライム",
             "code": "6971"
-          }
+          },
+          "url": "https://global.kyocera.com/"
         },
         {
           "name": "新光電気工業",
           "listing": {
             "market": "非上場(JIC等による非公開化)"
-          }
+          },
+          "url": "https://www.shinko.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -331,27 +355,31 @@
           "listing": {
             "market": "プライム",
             "code": "6966"
-          }
+          },
+          "url": "http://www.mitsui-high-tec.com/"
         },
         {
           "name": "住友ベークライト",
           "listing": {
             "market": "プライム",
             "code": "4203"
-          }
+          },
+          "url": "http://www.sumibe.co.jp/"
         },
         {
           "name": "田中貴金属グループ",
           "listing": {
             "market": "非上場(TANAKA HD)"
-          }
+          },
+          "url": "https://www.tanaka.co.jp/"
         },
         {
           "name": "古河電気工業",
           "listing": {
             "market": "プライム",
             "code": "5801"
-          }
+          },
+          "url": "http://www.furukawa.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -371,7 +399,8 @@
           "listing": {
             "market": "プライム",
             "code": "4042"
-          }
+          },
+          "url": "http://www.tosoh.com/home"
         },
         {
           "name": "フェローテック",
@@ -382,21 +411,24 @@
           "salary": {
             "man_jpy": 879,
             "fy": "2025年3月期"
-          }
+          },
+          "url": "https://www.ferrotec.co.jp/"
         },
         {
           "name": "東海カーボン",
           "listing": {
             "market": "プライム",
             "code": "5301"
-          }
+          },
+          "url": "http://www.tokaicarbon.co.jp/en/index.html"
         },
         {
           "name": "日本カーボン",
           "listing": {
             "market": "プライム",
             "code": "5302"
-          }
+          },
+          "url": "http://www.carbon.co.jp/"
         }
       ],
       "updated": "2026-07-24",

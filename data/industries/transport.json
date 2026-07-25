@@ -68,28 +68,32 @@
           "listing": {
             "market": "東証プライム",
             "code": "9020"
-          }
+          },
+          "url": "https://www.jreast.co.jp/"
         },
         {
           "name": "東海旅客鉄道",
           "listing": {
             "market": "東証プライム",
             "code": "9022"
-          }
+          },
+          "url": "https://global.jr-central.co.jp/de/"
         },
         {
           "name": "西日本旅客鉄道",
           "listing": {
             "market": "東証プライム",
             "code": "9021"
-          }
+          },
+          "url": "https://www.westjr.co.jp/"
         },
         {
           "name": "九州旅客鉄道",
           "listing": {
             "market": "東証プライム",
             "code": "9142"
-          }
+          },
+          "url": "https://www.jrkyushu.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -111,140 +115,160 @@
           "listing": {
             "market": "東証プライム",
             "code": "9005"
-          }
+          },
+          "url": "https://www.tokyu.co.jp/"
         },
         {
           "name": "近鉄グループホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "9041"
-          }
+          },
+          "url": "http://www.kintetsu-g-hd.co.jp/"
         },
         {
           "name": "阪急阪神ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "9042"
-          }
+          },
+          "url": "https://www.hankyu-hanshin.co.jp"
         },
         {
           "name": "名古屋鉄道",
           "listing": {
             "market": "東証プライム",
             "code": "9048"
-          }
+          },
+          "url": "https://top.meitetsu.co.jp/"
         },
         {
           "name": "西武ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "9024"
-          }
+          },
+          "url": "https://www.seibuholdings.co.jp/"
         },
         {
           "name": "東武鉄道",
           "listing": {
             "market": "東証プライム",
             "code": "9001"
-          }
+          },
+          "url": "https://www.tobu-kids.com/"
         },
         {
           "name": "京王電鉄",
           "listing": {
             "market": "東証プライム",
             "code": "9008"
-          }
+          },
+          "url": "https://www.keio.co.jp/"
         },
         {
           "name": "小田急電鉄",
           "listing": {
             "market": "東証プライム",
             "code": "9007"
-          }
+          },
+          "url": "https://www.odakyu.jp/"
         },
         {
           "name": "京浜急行電鉄",
           "listing": {
             "market": "東証プライム",
             "code": "9006"
-          }
+          },
+          "url": "https://www.haneda-tokyo-access.com/"
         },
         {
           "name": "京成電鉄",
           "listing": {
             "market": "東証プライム",
             "code": "9009"
-          }
+          },
+          "url": "https://www.keisei.co.jp/"
         },
         {
           "name": "相鉄ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "9003"
-          }
+          },
+          "url": "http://www.sotetsu.co.jp/group/company/sotetsuholdings.html"
         },
         {
           "name": "西日本鉄道",
           "listing": {
             "market": "東証プライム",
             "code": "9031"
-          }
+          },
+          "url": "http://www.nishitetsu.co.jp"
         },
         {
           "name": "京阪ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "9045"
-          }
+          },
+          "url": "https://www.keihan-holdings.co.jp/"
         },
         {
           "name": "富士急行",
           "listing": {
             "market": "東証プライム",
             "code": "9010"
-          }
+          },
+          "url": "https://www.fujikyu.co.jp"
         },
         {
           "name": "広島電鉄",
           "listing": {
             "market": "東証スタンダード",
             "code": "9033"
-          }
+          },
+          "url": "https://www.hiroden.co.jp/"
         },
         {
           "name": "神戸電鉄",
           "listing": {
             "market": "東証スタンダード",
             "code": "9046"
-          }
+          },
+          "url": "https://www.shintetsu.co.jp/"
         },
         {
           "name": "山陽電気鉄道",
           "listing": {
             "market": "東証プライム",
             "code": "9052"
-          }
+          },
+          "url": "http://www.sanyo-railway.co.jp/"
         },
         {
           "name": "東京地下鉄",
           "listing": {
             "market": "東証プライム",
             "code": "9023"
-          }
+          },
+          "url": "https://www.tokyometro.jp/lang_es/"
         },
         {
           "name": "秩父鉄道",
           "listing": {
             "market": "東証スタンダード",
             "code": "9012"
-          }
+          },
+          "url": "https://www.chichibu-railway.co.jp/"
         },
         {
           "name": "京福電気鉄道",
           "listing": {
             "market": "東証スタンダード",
             "code": "9049"
-          }
+          },
+          "url": "https://www.keifuku.co.jp/"
         },
         {
           "name": "NANKAI",
@@ -252,7 +276,8 @@
             "market": "東証プライム",
             "code": "9044"
           },
-          "note": "南海電鉄"
+          "note": "南海電鉄",
+          "url": "https://www.howto-osaka.com/"
         },
         {
           "name": "大同信号",
@@ -260,7 +285,8 @@
             "market": "東証スタンダード",
             "code": "6743"
           },
-          "note": "鉄道信号"
+          "note": "鉄道信号",
+          "url": "https://www.daido-signal.co.jp/"
         },
         {
           "name": "森尾電機",
@@ -268,7 +294,8 @@
             "market": "東証スタンダード",
             "code": "6647"
           },
-          "note": "車両電機品"
+          "note": "車両電機品",
+          "url": "http://www.morio.co.jp/"
         },
         {
           "name": "三重交通グループホールディングス",
@@ -276,7 +303,8 @@
             "market": "東証プライム",
             "code": "3232"
           },
-          "note": "三重交通(交通・不動産)"
+          "note": "三重交通(交通・不動産)",
+          "url": "https://holdings.sanco.co.jp/"
         },
         {
           "name": "ヤシマキザイ",
@@ -284,7 +312,8 @@
             "market": "東証スタンダード",
             "code": "7677"
           },
-          "note": "鉄道車両部品卸"
+          "note": "鉄道車両部品卸",
+          "url": "https://www.yashima-co.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -326,7 +355,8 @@
           "salary": {
             "man_jpy": 1226,
             "fy": "2025年3月期"
-          }
+          },
+          "url": "https://www.yamato-hd.co.jp/"
         },
         {
           "name": "SGホールディングス",
@@ -343,91 +373,104 @@
           "salary": {
             "man_jpy": 769,
             "fy": "2025年3月期"
-          }
+          },
+          "url": "https://www.sg-hldgs.co.jp/"
         },
         {
           "name": "福山通運",
           "listing": {
             "market": "東証プライム",
             "code": "9075"
-          }
+          },
+          "url": "http://www.fukutsu.co.jp/"
         },
         {
           "name": "セイノーホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "9076"
-          }
+          },
+          "url": "https://www.seino.co.jp/seino/shd/"
         },
         {
           "name": "センコーグループホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "9069"
-          }
+          },
+          "url": "http://www.senko.co.jp/"
         },
         {
           "name": "山九",
           "listing": {
             "market": "東証プライム",
             "code": "9065"
-          }
+          },
+          "url": "http://www.sankyu.co.jp/"
         },
         {
           "name": "ハマキョウレックス",
           "listing": {
             "market": "東証プライム",
             "code": "9037"
-          }
+          },
+          "url": "https://www.hamakyorex.co.jp/"
         },
         {
           "name": "サカイ引越センター",
           "listing": {
             "market": "東証プライム",
             "code": "9039"
-          }
+          },
+          "url": "https://www.hikkoshi-sakai.co.jp/"
         },
         {
           "name": "AZ-COM丸和ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "9090"
-          }
+          },
+          "url": "https://www.az-com-maruwa-hd.co.jp/"
         },
         {
           "name": "神奈川中央交通",
           "listing": {
             "market": "東証プライム",
             "code": "9081"
-          }
+          },
+          "url": "https://www.kanachu.co.jp/"
         },
         {
           "name": "SBSホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "2384"
-          }
+          },
+          "url": "https://www.sbs-group.co.jp"
         },
         {
           "name": "ニッコンホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "9072"
-          }
+          },
+          "url": "http://www.nikkon-hd.co.jp/"
         },
         {
           "name": "丸全昭和運輸",
           "listing": {
             "market": "東証プライム",
             "code": "9068"
-          }
+          },
+          "url": "https://www.maruzenshowa.co.jp/"
         },
         {
           "name": "日本石油輸送",
           "listing": {
             "market": "東証スタンダード",
             "code": "9074"
-          }
+          },
+          "url": "https://www.jot.co.jp/en/"
         },
         {
           "name": "ゼロ",
@@ -435,7 +478,8 @@
             "market": "東証スタンダード",
             "code": "9028"
           },
-          "note": "車両輸送"
+          "note": "車両輸送",
+          "url": "https://www.zero-group.co.jp/"
         },
         {
           "name": "ヒガシホールディングス",
@@ -443,63 +487,72 @@
             "market": "東証スタンダード",
             "code": "9029"
           },
-          "note": "総合物流"
+          "note": "総合物流",
+          "url": "https://www.e-higashi.co.jp/"
         },
         {
           "name": "南総通運",
           "listing": {
             "market": "東証スタンダード",
             "code": "9034"
-          }
+          },
+          "url": "http://www.nanso.co.jp/"
         },
         {
           "name": "東部ネットワーク",
           "listing": {
             "market": "東証スタンダード",
             "code": "9036"
-          }
+          },
+          "url": "https://www.tohbu.co.jp/"
         },
         {
           "name": "センコン物流",
           "listing": {
             "market": "東証スタンダード",
             "code": "9051"
-          }
+          },
+          "url": "http://senkon.co.jp/"
         },
         {
           "name": "遠州トラック",
           "listing": {
             "market": "東証スタンダード",
             "code": "9057"
-          }
+          },
+          "url": "http://www.enshu-truck.co.jp/"
         },
         {
           "name": "カンダホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "9059"
-          }
+          },
+          "url": "http://www.kanda-web.co.jp/"
         },
         {
           "name": "日本ロジテム",
           "listing": {
             "market": "東証スタンダード",
             "code": "9060"
-          }
+          },
+          "url": "https://www.logitem.co.jp/"
         },
         {
           "name": "岡山県貨物運送",
           "listing": {
             "market": "東証スタンダード",
             "code": "9063"
-          }
+          },
+          "url": "http://www.okaken.co.jp/"
         },
         {
           "name": "京極運輸商事",
           "listing": {
             "market": "東証スタンダード",
             "code": "9073"
-          }
+          },
+          "url": "http://www.kyogoku.co.jp/"
         },
         {
           "name": "タカセ",
@@ -507,7 +560,8 @@
             "market": "東証スタンダード",
             "code": "9087"
           },
-          "note": "美術品輸送等"
+          "note": "美術品輸送等",
+          "url": "https://www.takase.co.jp/"
         },
         {
           "name": "ビーイングホールディングス",
@@ -515,7 +569,8 @@
             "market": "東証スタンダード",
             "code": "9145"
           },
-          "note": "3PL"
+          "note": "3PL",
+          "url": "https://being-group.jp/"
         },
         {
           "name": "ファイズホールディングス",
@@ -523,7 +578,8 @@
             "market": "東証スタンダード",
             "code": "9325"
           },
-          "note": "EC物流"
+          "note": "EC物流",
+          "url": "https://www.phyz.co.jp/"
         },
         {
           "name": "関通ホールディングス",
@@ -531,7 +587,8 @@
             "market": "東証グロース",
             "code": "9326"
           },
-          "note": "EC物流"
+          "note": "EC物流",
+          "url": "https://www.kantsu.com/"
         },
         {
           "name": "イー・ロジット",
@@ -539,7 +596,8 @@
             "market": "東証スタンダード",
             "code": "9327"
           },
-          "note": "EC物流支援"
+          "note": "EC物流支援",
+          "url": "https://www.e-logit.com/"
         }
       ],
       "updated": "2026-07-24",
@@ -570,14 +628,16 @@
           "listing": {
             "market": "東証プライム",
             "code": "9147"
-          }
+          },
+          "url": "https://www.nipponexpress-holdings.com/"
         },
         {
           "name": "鴻池運輸",
           "listing": {
             "market": "東証プライム",
             "code": "9025"
-          }
+          },
+          "url": "http://www.konoike.net/"
         },
         {
           "name": "エーアイテイー",
@@ -585,7 +645,8 @@
             "market": "東証プライム",
             "code": "9381"
           },
-          "note": "国際フォワーダー"
+          "note": "国際フォワーダー",
+          "url": "http://www.ait-jp.com/"
         }
       ],
       "updated": "2026-07-23",
@@ -617,7 +678,8 @@
           "salary": {
             "man_jpy": 1435,
             "fy": "2025年3月期"
-          }
+          },
+          "url": "https://www.nyk.com/"
         },
         {
           "name": "商船三井",
@@ -634,91 +696,104 @@
           "salary": {
             "man_jpy": 1437,
             "fy": "2025年3月期"
-          }
+          },
+          "url": "https://www.mol.co.jp/"
         },
         {
           "name": "川崎汽船",
           "listing": {
             "market": "東証プライム",
             "code": "9107"
-          }
+          },
+          "url": "https://www.kline.co.jp/"
         },
         {
           "name": "NSユナイテッド海運",
           "listing": {
             "market": "東証プライム",
             "code": "9110"
-          }
+          },
+          "url": "https://www.nsuship.co.jp/"
         },
         {
           "name": "飯野海運",
           "listing": {
             "market": "東証プライム",
             "code": "9119"
-          }
+          },
+          "url": "https://www.iino.co.jp/kaiun/"
         },
         {
           "name": "東海汽船",
           "listing": {
             "market": "東証スタンダード",
             "code": "9173"
-          }
+          },
+          "url": "https://www.tokaikisen.co.jp/"
         },
         {
           "name": "乾汽船",
           "listing": {
             "market": "東証スタンダード",
             "code": "9308"
-          }
+          },
+          "url": "http://www.inui.co.jp/"
         },
         {
           "name": "栗林商船",
           "listing": {
             "market": "東証スタンダード",
             "code": "9171"
-          }
+          },
+          "url": "https://www.kuribayashishosen.com/"
         },
         {
           "name": "共栄タンカー",
           "listing": {
             "market": "東証スタンダード",
             "code": "9130"
-          }
+          },
+          "url": "https://www.kyoeitanker.co.jp/"
         },
         {
           "name": "明海グループ",
           "listing": {
             "market": "東証スタンダード",
             "code": "9115"
-          }
+          },
+          "url": "https://www.meiji-group.com/"
         },
         {
           "name": "玉井商船",
           "listing": {
             "market": "東証スタンダード",
             "code": "9127"
-          }
+          },
+          "url": "https://www.tamaiship.co.jp/"
         },
         {
           "name": "東京汽船",
           "listing": {
             "market": "東証スタンダード",
             "code": "9193"
-          }
+          },
+          "url": "http://www.tokyokisen.co.jp/"
         },
         {
           "name": "兵機海運",
           "listing": {
             "market": "東証スタンダード",
             "code": "9362"
-          }
+          },
+          "url": "https://www.hyoki.co.jp/"
         },
         {
           "name": "大運",
           "listing": {
             "market": "東証スタンダード",
             "code": "9363"
-          }
+          },
+          "url": "https://www.daiunex.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -750,35 +825,40 @@
           "listing": {
             "market": "東証プライム",
             "code": "9202"
-          }
+          },
+          "url": "https://www.ana.co.jp"
         },
         {
           "name": "日本航空",
           "listing": {
             "market": "東証プライム",
             "code": "9201"
-          }
+          },
+          "url": "https://www.jal.co.jp/jp/"
         },
         {
           "name": "日本空港ビルデング",
           "listing": {
             "market": "東証プライム",
             "code": "9706"
-          }
+          },
+          "url": "https://www.tokyo-airport-bldg.co.jp/"
         },
         {
           "name": "スカイマーク",
           "listing": {
             "market": "東証グロース",
             "code": "9204"
-          }
+          },
+          "url": "http://www.skymark.co.jp"
         },
         {
           "name": "スターフライヤー",
           "listing": {
             "market": "東証スタンダード",
             "code": "9206"
-          }
+          },
+          "url": "http://www.starflyer.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -800,84 +880,96 @@
           "listing": {
             "market": "東証プライム",
             "code": "9301"
-          }
+          },
+          "url": "http://www.mitsubishi-logistics.co.jp/"
         },
         {
           "name": "三井倉庫ホールディングス",
           "listing": {
             "market": "東証プライム",
             "code": "9302"
-          }
+          },
+          "url": "https://www.mitsui-soko.com/"
         },
         {
           "name": "住友倉庫",
           "listing": {
             "market": "東証プライム",
             "code": "9303"
-          }
+          },
+          "url": "http://www.sumitomo-soko.co.jp/"
         },
         {
           "name": "安田倉庫",
           "listing": {
             "market": "東証プライム",
             "code": "9324"
-          }
+          },
+          "url": "http://www.yasuda-soko.co.jp/"
         },
         {
           "name": "上組",
           "listing": {
             "market": "東証プライム",
             "code": "9364"
-          }
+          },
+          "url": "http://www.kamigumi.co.jp/"
         },
         {
           "name": "澁澤倉庫",
           "listing": {
             "market": "東証プライム",
             "code": "9304"
-          }
+          },
+          "url": "http://www.shibusawa.co.jp/index.html"
         },
         {
           "name": "日本トランスシティ",
           "listing": {
             "market": "東証プライム",
             "code": "9310"
-          }
+          },
+          "url": "http://www.trancy.co.jp/"
         },
         {
           "name": "中央倉庫",
           "listing": {
             "market": "東証プライム",
             "code": "9319"
-          }
+          },
+          "url": "http://www.chuosoko.co.jp/"
         },
         {
           "name": "東洋埠頭",
           "listing": {
             "market": "東証スタンダード",
             "code": "9351"
-          }
+          },
+          "url": "http://www.toyofuto.co.jp"
         },
         {
           "name": "東陽倉庫",
           "listing": {
             "market": "東証スタンダード",
             "code": "9306"
-          }
+          },
+          "url": "https://www.toyo-logistics.co.jp/"
         },
         {
           "name": "杉村倉庫",
           "listing": {
             "market": "東証スタンダード",
             "code": "9307"
-          }
+          },
+          "url": "http://www.sugimura-wh.co.jp/"
         },
         {
           "name": "アサガミ",
           "listing": {
             "market": "東証スタンダード",
             "code": "9311"
-          }
+          },
+          "url": "https://www.asagami.co.jp/"
         },
         {
           "name": "ケイヒン",
@@ -885,7 +977,8 @@
             "market": "東証スタンダード",
             "code": "9312"
           },
-          "note": "港湾運送"
+          "note": "港湾運送",
+          "url": "http://www.keihin.co.jp/"
         },
         {
           "name": "丸八倉庫",
@@ -899,7 +992,8 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "9322"
-          }
+          },
+          "url": "https://www.kawanishi.co.jp"
         },
         {
           "name": "櫻島埠頭",
@@ -907,7 +1001,8 @@
             "market": "東証スタンダード",
             "code": "9353"
           },
-          "note": "港湾"
+          "note": "港湾",
+          "url": "https://www.sakurajima-futo.co.jp/"
         },
         {
           "name": "リンコーコーポレーション",
@@ -915,7 +1010,8 @@
             "market": "東証スタンダード",
             "code": "9355"
           },
-          "note": "港湾・倉庫"
+          "note": "港湾・倉庫",
+          "url": "http://www.rinko.co.jp/"
         },
         {
           "name": "伏木海陸運送",
@@ -923,7 +1019,8 @@
             "market": "東証スタンダード",
             "code": "9361"
           },
-          "note": "港湾"
+          "note": "港湾",
+          "url": "https://www.fkk-toyama.co.jp/"
         },
         {
           "name": "トレーディア",
@@ -931,14 +1028,16 @@
             "market": "東証スタンダード",
             "code": "9365"
           },
-          "note": "港湾"
+          "note": "港湾",
+          "url": "http://www.tradia.co.jp/"
         },
         {
           "name": "サンリツ",
           "listing": {
             "market": "東証スタンダード",
             "code": "9366"
-          }
+          },
+          "url": "https://www.srt.co.jp/"
         },
         {
           "name": "大東港運",
@@ -946,7 +1045,8 @@
             "market": "東証スタンダード",
             "code": "9367"
           },
-          "note": "港湾"
+          "note": "港湾",
+          "url": "https://www.daito-koun.co.jp/"
         },
         {
           "name": "キムラユニティー",
@@ -954,7 +1054,8 @@
             "market": "東証スタンダード",
             "code": "9368"
           },
-          "note": "物流・車両整備"
+          "note": "物流・車両整備",
+          "url": "http://www.kimura-unity.co.jp/"
         },
         {
           "name": "東海運",
@@ -962,7 +1063,8 @@
             "market": "東証スタンダード",
             "code": "9380"
           },
-          "note": "港湾・海運"
+          "note": "港湾・海運",
+          "url": "http://www.azumaship.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -992,21 +1094,24 @@
           "listing": {
             "market": "東証スタンダード",
             "code": "9083"
-          }
+          },
+          "url": "https://www.shinkibus.co.jp/"
         },
         {
           "name": "大和自動車交通",
           "listing": {
             "market": "東証スタンダード",
             "code": "9082"
-          }
+          },
+          "url": "http://www.daiwaj.com/"
         },
         {
           "name": "新潟交通",
           "listing": {
             "market": "東証スタンダード",
             "code": "9017"
-          }
+          },
+          "url": "https://www.niigata-kotsu.co.jp/"
         },
         {
           "name": "小田原機器",
@@ -1014,7 +1119,8 @@
             "market": "東証スタンダード",
             "code": "7314"
           },
-          "note": "バス機器"
+          "note": "バス機器",
+          "url": "https://www.odawarakiki.com/"
         },
         {
           "name": "アルピコホールディングス",
@@ -1022,7 +1128,8 @@
             "market": "東証スタンダード",
             "code": "297A"
           },
-          "note": "アルピコ交通・スーパー"
+          "note": "アルピコ交通・スーパー",
+          "url": "https://www.alpico.co.jp/"
         }
       ],
       "updated": "2026-07-23",
@@ -1052,42 +1159,48 @@
           "salary": {
             "man_jpy": 690,
             "fy": "2026年3月期"
-          }
+          },
+          "url": "http://www.namura.co.jp/"
         },
         {
           "name": "内海造船",
           "listing": {
             "market": "東証スタンダード",
             "code": "7018"
-          }
+          },
+          "url": "https://www.naikaizosen.co.jp/"
         },
         {
           "name": "ジャパンエンジンコーポレーション",
           "listing": {
             "market": "東証スタンダード",
             "code": "6016"
-          }
+          },
+          "url": "http://www.kobe-diesel.co.jp/"
         },
         {
           "name": "阪神内燃機工業",
           "listing": {
             "market": "東証スタンダード",
             "code": "6018"
-          }
+          },
+          "url": "http://www.hanshin-dw.co.jp/"
         },
         {
           "name": "サノヤスホールディングス",
           "listing": {
             "market": "東証スタンダード",
             "code": "7022"
-          }
+          },
+          "url": "http://www.sanoyas.co.jp/"
         },
         {
           "name": "TVE",
           "listing": {
             "market": "東証スタンダード",
             "code": "6466"
-          }
+          },
+          "url": "http://www.toavalve.co.jp/"
         },
         {
           "name": "ダイハツインフィニアース",
@@ -1095,7 +1208,8 @@
             "market": "東証スタンダード",
             "code": "6023"
           },
-          "note": "舶用エンジン(ダイハツディーゼル)"
+          "note": "舶用エンジン(ダイハツディーゼル)",
+          "url": "https://www.d-infi.com/"
         }
       ],
       "updated": "2026-07-23",
@@ -1130,14 +1244,16 @@
           "listing": {
             "market": "スタンダード",
             "code": "7122"
-          }
+          },
+          "url": "http://www.kinkisharyo.co.jp/"
         },
         {
           "name": "日本車輌製造",
           "listing": {
             "market": "プライム",
             "code": "7102"
-          }
+          },
+          "url": "https://www.n-sharyo.co.jp/"
         },
         {
           "name": "日立製作所",
@@ -1145,7 +1261,8 @@
             "market": "プライム",
             "code": "6501"
           },
-          "note": "鉄道ビジネスユニット(英国等で車両製造)"
+          "note": "鉄道ビジネスユニット(英国等で車両製造)",
+          "url": "https://www.hitachi.com/"
         },
         {
           "name": "川崎重工業",
@@ -1153,7 +1270,8 @@
             "market": "プライム",
             "code": "7012"
           },
-          "note": "川崎車両"
+          "note": "川崎車両",
+          "url": "https://www.khi.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -1174,19 +1292,22 @@
           "listing": {
             "market": "プライム",
             "code": "9364"
-          }
+          },
+          "url": "http://www.kamigumi.co.jp/"
         },
         {
           "name": "名港海運",
           "listing": {
             "market": "名証上場(東証外のため分母外)"
-          }
+          },
+          "url": "https://www.meiko-trans.co.jp/"
         },
         {
           "name": "伊勢湾海運",
           "listing": {
             "market": "名証上場(東証外のため分母外)"
-          }
+          },
+          "url": "http://www.isewan.co.jp/"
         }
       ],
       "updated": "2026-07-24",

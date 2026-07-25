@@ -103,46 +103,53 @@
           "listing": {
             "market": "プライム",
             "code": "8253"
-          }
+          },
+          "url": "http://www.saisoncard.co.jp/"
         },
         {
           "name": "イオンフィナンシャルサービス",
           "listing": {
             "market": "プライム",
             "code": "8570"
-          }
+          },
+          "url": "http://www.aeonfinancial.co.jp/"
         },
         {
           "name": "ジャックス",
           "listing": {
             "market": "プライム",
             "code": "8584"
-          }
+          },
+          "url": "http://www.jaccs.co.jp/"
         },
         {
           "name": "オリエントコーポレーション",
           "listing": {
             "market": "プライム",
             "code": "8585"
-          }
+          },
+          "url": "http://www.orico.co.jp/"
         },
         {
           "name": "三菱UFJニコス",
           "listing": {
             "market": "非上場(MUFG傘下)"
-          }
+          },
+          "url": "https://www.cr.mufg.jp/"
         },
         {
           "name": "三井住友カード",
           "listing": {
             "market": "非上場(SMBCグループ)"
-          }
+          },
+          "url": "https://www.smbc-card.com/"
         },
         {
           "name": "楽天カード",
           "listing": {
             "market": "非上場(楽天グループ)"
-          }
+          },
+          "url": "https://www.rakuten-card.co.jp"
         }
       ],
       "updated": "2026-07-24",
@@ -171,19 +178,22 @@
           "listing": {
             "market": "プライム",
             "code": "4051"
-          }
+          },
+          "url": "https://gmo-fg.com/"
         },
         {
           "name": "三井住友カード",
           "listing": {
             "market": "非上場(SMBCグループ)"
-          }
+          },
+          "url": "https://www.smbc-card.com/"
         },
         {
           "name": "SBペイメントサービス",
           "listing": {
             "market": "非上場(ソフトバンク傘下)"
-          }
+          },
+          "url": "https://www.sbpayment.jp"
         }
       ],
       "updated": "2026-07-24",
@@ -233,19 +243,22 @@
           "name": "PayPay",
           "listing": {
             "market": "非上場(ソフトバンク・SBG系)"
-          }
+          },
+          "url": "https://about.paypay.ne.jp/"
         },
         {
           "name": "楽天ペイメント",
           "listing": {
             "market": "非上場(楽天グループ)"
-          }
+          },
+          "url": "https://payment.rakuten.co.jp"
         },
         {
           "name": "NTTドコモ",
           "listing": {
             "market": "非上場(NTT傘下・d払い)"
-          }
+          },
+          "url": "https://www.docomo.ne.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -265,27 +278,31 @@
           "listing": {
             "market": "プライム",
             "code": "3769"
-          }
+          },
+          "url": "https://www.gmo-pg.com/"
         },
         {
           "name": "デジタルガレージ",
           "listing": {
             "market": "プライム",
             "code": "4819"
-          }
+          },
+          "url": "http://www.garage.co.jp/"
         },
         {
           "name": "ＲＯＢＯＴ　ＰＡＹＭＥＮＴ",
           "listing": {
             "market": "グロース",
             "code": "4374"
-          }
+          },
+          "url": "https://www.robotpayment.co.jp/"
         },
         {
           "name": "ソニーペイメントサービス",
           "listing": {
             "market": "非上場(ソニーグループ系)"
-          }
+          },
+          "url": "http://www.smartlink-network.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -306,20 +323,23 @@
           "listing": {
             "market": "プライム",
             "code": "6588"
-          }
+          },
+          "url": "http://www.toshibatec.co.jp/"
         },
         {
           "name": "ビリングシステム",
           "listing": {
             "market": "グロース",
             "code": "3623"
-          }
+          },
+          "url": "https://www.billingsystem.co.jp/"
         },
         {
           "name": "NECプラットフォームズ",
           "listing": {
             "market": "非上場(NEC傘下)"
-          }
+          },
+          "url": "http://www.necplatforms.co.jp/"
         }
       ],
       "updated": "2026-07-24",
@@ -341,7 +361,8 @@
           "listing": {
             "market": "プライム",
             "code": "7182"
-          }
+          },
+          "url": "https://www.jp-bank.japanpost.jp"
         },
         {
           "name": "セブン銀行",
@@ -352,13 +373,15 @@
           "salary": {
             "man_jpy": 695,
             "fy": "2025年3月期"
-          }
+          },
+          "url": "https://www.sevenbank.co.jp/"
         },
         {
           "name": "全国銀行資金決済ネットワーク",
           "listing": {
             "market": "非上場(一般社団法人)"
-          }
+          },
+          "url": "https://www.zengin-net.jp/"
         }
       ],
       "updated": "2026-07-24",
