@@ -6,14 +6,26 @@
 const SUPABASE_URL = "https://dupjlawmbnwgxfbwvowy.supabase.co";
 const SUPABASE_KEY = "sb_publishable_BNVOfBqZmJUbZtx0HlSXyQ_7ns0ZNSE";
 
-export const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY, {
-  auth: {
-    persistSession: true,
-    autoRefreshToken: true,
-    storageKey: "akinai_auth",
-    detectSessionInUrl: true, // メール確認リンク等からの復帰に対応
-  },
-});
+// クライアントは遅延生成する。UMD(window.supabase)の読込順に依存して
+// モジュール評価時にcreateClientが失敗し、アプリ全体が起動しなくなるのを防ぐ。
+let _client = null;
+function getClient() {
+  if (_client) return _client;
+  if (!window.supabase?.createClient) {
+    throw new Error("supabase-js(UMD)が未読込です");
+  }
+  _client = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY, {
+    auth: {
+      persistSession: true,
+      autoRefreshToken: true,
+      storageKey: "akinai_auth",
+      detectSessionInUrl: true, // メール確認リンク等からの復帰に対応
+    },
+  });
+  return _client;
+}
+// 後方互換: 既存コードが sb.auth... で使えるようにプロキシで遅延解決
+export const sb = new Proxy({}, { get: (_t, prop) => getClient()[prop] });
 
 // キャッシュした認証状態(同期的にisMember判定するため)
 let _user = null;
