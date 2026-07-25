@@ -752,6 +752,12 @@ svg.near .node .count-badge text { font-size: 13px; }
 }
 #gate-form button:hover { filter: brightness(1.08); }
 .gate-note { font-size: .72rem; color: var(--ink-soft); text-align: center; }
+.gate-msg { margin: 10px 0 0; padding: 10px 12px; border-radius: 8px; font-size: .82rem; text-align: center; }
+.gate-msg.err { background: rgba(225,29,72,.1); color: #b3123d; border: 1px solid rgba(225,29,72,.3); }
+.gate-msg.info { background: rgba(15,118,110,.08); color: var(--gold); border: 1px solid rgba(15,118,110,.25); }
+.gate-switch { font-size: .82rem; text-align: center; margin-top: 12px; color: var(--ink-soft); }
+.gate-switch a { font-weight: 700; }
+.gnav-login { text-decoration: none; display: inline-flex; align-items: center; }
 .gate-open { margin-top: 18px; border-top: 1px dashed var(--paper-edge); padding-top: 14px; font-size: .82rem; }
 .gate-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
 .gate-chip {

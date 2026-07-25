@@ -1,5 +1,6 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607261400";
+import { createMapView } from "./mapview.js?v=202607261600";
+import { initAuth, isLoggedIn, authUser, signUp, signIn, signOut, resetPassword } from "./auth.js?v=202607261600";
 
 const app = document.getElementById("app");
 
@@ -61,9 +62,10 @@ async function coverageHTML() {
 }
 
 
-// ---- 無料メンバー登録(就活生向け)。このブラウザ内で解放状態を保持する ----
+// ---- 無料メンバー登録(就活生向け)。ログイン状態はSupabaseセッションで判定 ----
+// MEMBER_KEY はプロフィール(氏名・学歴等)の表示用キャッシュとして継続利用する。
 const MEMBER_KEY = "akinai_member";
-const isMember = () => !!localStorage.getItem(MEMBER_KEY);
+const isMember = () => isLoggedIn();
 
 async function renderGate(id) {
   const [idx, data] = await Promise.all([loadIndex(), id ? loadIndustry(id) : Promise.resolve(null)]);
@@ -91,6 +93,8 @@ async function renderGate(id) {
               <input type="text" name="name" required placeholder="山田 太郎" autocomplete="name"></label>
             <label>メールアドレス
               <input type="email" name="email" required placeholder="you@example.com" autocomplete="email"></label>
+            <label>パスワード <span class="opt">(8文字以上・ログインに使います)</span>
+              <input type="password" name="password" required minlength="8" placeholder="8文字以上" autocomplete="new-password"></label>
           </fieldset>
 
           <fieldset class="profile-sec">
@@ -174,7 +178,9 @@ async function renderGate(id) {
             興味を持った企業から直接オファーが届くことがあります。いつでも設定変更・退会できます。</span>
           </label>
 
-          <button type="submit">無料で登録して全業界を見る</button>
+          <button type="submit" id="gate-submit">無料で登録して全業界を見る</button>
+          <p id="gate-msg" class="gate-msg" hidden></p>
+          <p class="gate-switch">すでにアカウントをお持ちですか? <a href="#" id="to-login">ログイン</a></p>
           <p class="gate-note">登録情報はサービスの提供・改善、お知らせ、およびスカウトを希望した方の企業への紹介に使用します。
           <a href="#/privacy">プライバシーポリシー</a></p>
         </form>
@@ -197,36 +203,110 @@ async function renderGate(id) {
   boxes.forEach((b) => b.addEventListener("change", limit));
   limit();
 
-  document.getElementById("gate-form").addEventListener("submit", (ev) => {
+  const msg = document.getElementById("gate-msg");
+  const showMsg = (text, kind = "err") => {
+    msg.textContent = text; msg.hidden = false;
+    msg.className = `gate-msg ${kind}`;
+  };
+
+  // 新規登録: Supabaseでアカウント作成 → プロフィールをlocalStorage+D1へ保存
+  document.getElementById("gate-form").addEventListener("submit", async (ev) => {
     ev.preventDefault();
     const fd = new FormData(ev.target);
+    const email = fd.get("email"), password = fd.get("password");
+    const btn = document.getElementById("gate-submit");
+    btn.disabled = true; showMsg("登録中…", "info");
+
+    const res = await signUp(email, password);
+    if (!res.ok) {
+      btn.disabled = false;
+      const m = /already registered|already been/i.test(res.error)
+        ? "このメールアドレスは登録済みです。下の「ログイン」からお進みください。"
+        : `登録できませんでした: ${res.error}`;
+      showMsg(m); return;
+    }
+    // プロフィール(リード情報)を保存・送信
     const rec = {
-      name: fd.get("name"),
-      email: fd.get("email"),
-      school_name: fd.get("school_name"),
-      school: fd.get("school"),
-      grad_year: fd.get("grad_year"),
-      segment: fd.get("segment"),
+      name: fd.get("name"), email,
+      school_name: fd.get("school_name"), school: fd.get("school"),
+      grad_year: fd.get("grad_year"), segment: fd.get("segment"),
       scout_ok: fd.get("scout_ok") ? 1 : 0,
-      industries: fd.getAll("industries"),
-      ts: new Date().toISOString(),
+      industries: fd.getAll("industries"), ts: new Date().toISOString(),
     };
     for (const k of ["bunri", "exp_industry", "job", "exp_years"]) {
-      const v = fd.get(k);
-      if (v) rec[k] = v;
+      const v = fd.get(k); if (v) rec[k] = v;
     }
     localStorage.setItem(MEMBER_KEY, JSON.stringify(rec));
     const ep = window.AKINAI_CONFIG?.registrationEndpoint;
     if (ep) fetch(ep, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(rec) }).catch(() => {});
-    route();
+
+    if (res.needsConfirm) {
+      showMsg(`確認メールを ${email} に送りました。メール内のリンクを開くと登録が完了し、全業界が見られます。`, "info");
+    } else {
+      route(); // 確認不要設定なら即ログイン
+    }
+  });
+
+  // ログインへ切替
+  document.getElementById("to-login").addEventListener("click", (ev) => {
+    ev.preventDefault();
+    renderLoginCard(id);
   });
   wireGlobalNav();
+}
+
+// ログイン画面(既存会員)。ゲートカードを差し替える。
+function renderLoginCard(id) {
+  const card = document.querySelector(".gate-card");
+  card.innerHTML = `
+    <h2>ログイン</h2>
+    <p>登録済みのメールアドレスとパスワードでログインしてください。</p>
+    <form id="login-form">
+      <fieldset class="profile-sec">
+        <label>メールアドレス
+          <input type="email" name="email" required placeholder="you@example.com" autocomplete="email"></label>
+        <label>パスワード
+          <input type="password" name="password" required placeholder="パスワード" autocomplete="current-password"></label>
+      </fieldset>
+      <button type="submit" id="login-submit">ログイン</button>
+      <p id="login-msg" class="gate-msg" hidden></p>
+      <p class="gate-switch"><a href="#" id="to-signup">← 新規登録にもどる</a>
+        ・ <a href="#" id="reset-pw">パスワードを忘れた</a></p>
+    </form>`;
+  const msg = document.getElementById("login-msg");
+  const showMsg = (t, k = "err") => { msg.textContent = t; msg.hidden = false; msg.className = `gate-msg ${k}`; };
+
+  document.getElementById("login-form").addEventListener("submit", async (ev) => {
+    ev.preventDefault();
+    const fd = new FormData(ev.target);
+    const btn = document.getElementById("login-submit");
+    btn.disabled = true; showMsg("ログイン中…", "info");
+    const res = await signIn(fd.get("email"), fd.get("password"));
+    if (!res.ok) {
+      btn.disabled = false;
+      const m = /Invalid login|invalid/i.test(res.error) ? "メールアドレスまたはパスワードが違います。"
+        : /not confirmed|confirm/i.test(res.error) ? "メール確認が未完了です。確認メールのリンクを開いてください。"
+        : `ログインできませんでした: ${res.error}`;
+      showMsg(m); return;
+    }
+    route();
+  });
+  document.getElementById("to-signup").addEventListener("click", (ev) => { ev.preventDefault(); renderGate(id); });
+  document.getElementById("reset-pw").addEventListener("click", async (ev) => {
+    ev.preventDefault();
+    const email = document.querySelector('#login-form input[name="email"]').value.trim();
+    if (!email) { showMsg("先にメールアドレスを入力してください。"); return; }
+    const { error } = await resetPassword(email);
+    showMsg(error ? `送信できませんでした: ${error}` : `パスワード再設定メールを ${email} に送りました。`, error ? "err" : "info");
+  });
 }
 
 
 async function renderMy() {
   if (!isMember()) { await renderGate(null); return; }
-  const member = JSON.parse(localStorage.getItem(MEMBER_KEY));
+  // プロフィールは登録端末のlocalStorageに保存。別端末では最低限メールだけ補完する。
+  const member = JSON.parse(localStorage.getItem(MEMBER_KEY) ?? "null")
+    ?? { email: authUser()?.email ?? "", industries: [] };
   const idx = await loadIndex();
   const mine = await Promise.all((member.industries ?? []).map((i) => loadIndustry(i).catch(() => null)));
   const cmp = JSON.parse(localStorage.getItem("akinai_compare") ?? "[]");
@@ -541,11 +621,21 @@ function globalNavHTML(withBrand = false) {
       <input id="gnav-search" type="search" list="gnav-list" placeholder="企業名・証券コードで検索" autocomplete="off">
       <datalist id="gnav-list"></datalist>
       <button id="gnav-share" class="gnav-share" title="このサイトを共有">シェア</button>
+      ${isLoggedIn()
+        ? `<button id="gnav-logout" class="gnav-share" title="ログアウト">ログアウト</button>`
+        : `<a href="#/register" class="gnav-share gnav-login">ログイン</a>`}
     </header>`;
 }
 
 // グローバルナビの企業検索・シェアを有効化(描画後に呼ぶ)
 async function wireGlobalNav() {
+  const logout = document.getElementById("gnav-logout");
+  if (logout) logout.addEventListener("click", async () => {
+    logout.disabled = true; logout.textContent = "…";
+    await signOut();
+    location.hash = "#/";
+    route();
+  });
   const share = document.getElementById("gnav-share");
   if (share) share.addEventListener("click", async () => {
     const url = "https://akinaimap.com/";
@@ -982,4 +1072,12 @@ async function route() {
 }
 
 window.addEventListener("hashchange", route);
-route();
+
+// 認証セッションを読み込んでから初回描画。ログイン/ログアウト時は再描画する。
+initAuth((user) => {
+  // メール確認リンク等でURLにトークンが付く場合はクリーンアップ
+  if (location.hash.includes("access_token") || location.search.includes("code=")) {
+    history.replaceState(null, "", location.pathname + "#/");
+  }
+  route();
+}).finally(route);
