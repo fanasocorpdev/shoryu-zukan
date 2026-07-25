@@ -1,5 +1,5 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607252243";
+import { createMapView } from "./mapview.js?v=202607252248";
 
 const app = document.getElementById("app");
 
@@ -323,6 +323,12 @@ async function renderRanking() {
 
   const state = { metric: "salary", industry: "", q: "", scope: "domestic" };
   const oku = (v) => (v == null ? "—" : v >= 10000 ? `${(v / 10000).toFixed(1)}兆円` : `${Math.round(v).toLocaleString("ja-JP")}億円`);
+  const logo = (c) => {
+    if (c.url) {
+      try { return `<img class="c-logo" src="https://www.google.com/s2/favicons?domain=${new URL(c.url).hostname}&sz=64" alt="" loading="lazy">`; } catch { /* イニシャルへ */ }
+    }
+    return `<span class="c-logo fallback">${(c.name ?? "?").slice(0, 1)}</span>`;
+  };
   const METRIC_LABEL = { salary: "平均年収", rev: "売上高", mcap: "時価総額", emp: "従業員数" };
 
   const render = () => {
@@ -434,11 +440,59 @@ function renderPrivacy() {
         までご連絡ください。すみやかに削除します。</p>
       </section>
       <section class="about-sec">
-        <h2>お問い合わせ</h2>
-        <p>本ポリシーに関するお問い合わせ: 株式会社Fanaso(yuhei.n@fansojp.com)<br>
+        <h2>お問い合わせ・運営者</h2>
+        <p>本ポリシーに関するお問い合わせ: 株式会社Fanaso(<a href="mailto:yuhei.n@fansojp.com">yuhei.n@fansojp.com</a>)<br>
+        <a href="#/operator">運営者情報</a> ・ <a href="#/terms">利用規約</a><br>
         制定日: 2026年7月24日</p>
       </section>
       <div class="home-foot"><a href="#/">← マップトップへ戻る</a></div>
+    </div></div>`;
+}
+
+function renderOperator() {
+  app.innerHTML = `
+    <div class="home"><div class="home-inner about">
+      <div class="hero">
+        <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="72" height="72">
+        <h1>運営者情報</h1>
+      </div>
+      <section class="about-sec">
+        <table class="operator-table">
+          <tr><th>サービス名</th><td>あきないマップ</td></tr>
+          <tr><th>運営者</th><td>株式会社Fanaso</td></tr>
+          <tr><th>代表者</th><td>（代表者名を記入してください）</td></tr>
+          <tr><th>連絡先</th><td><a href="mailto:yuhei.n@fansojp.com">yuhei.n@fansojp.com</a><br>
+            ※ 所在地・電話番号は、取引を検討される企業のご請求に応じて遅滞なく開示します。</td></tr>
+          <tr><th>サービス内容</th><td>業界別の商流(モノ・カネの流れ)の可視化、企業情報の提供、
+            採用企業向けの求人掲載・スカウト仲介</td></tr>
+          <tr><th>料金</th><td>閲覧者(学生・求職者等)は無料。企業の採用枠掲載は月額5万円〜(企業規模により変動)。
+            詳細はお問い合わせください。</td></tr>
+        </table>
+      </section>
+      <div class="home-foot"><a href="#/about">あきないマップについて</a> ・ <a href="#/">トップへ戻る</a></div>
+    </div></div>`;
+}
+
+function renderTerms() {
+  const sec = (h, b) => `<section class="about-sec"><h2>${h}</h2>${b}</section>`;
+  app.innerHTML = `
+    <div class="home"><div class="home-inner about">
+      <div class="hero">
+        <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="72" height="72">
+        <h1>利用規約</h1>
+      </div>
+      <p class="terms-lead">この利用規約(以下「本規約」)は、株式会社Fanaso(以下「当社」)が提供するサービス「あきないマップ」(以下「本サービス」)の利用条件を定めるものです。利用者は本規約に同意のうえ本サービスを利用するものとします。</p>
+      ${sec("第1条(適用)", "<p>本規約は、本サービスの提供および利用に関する当社と利用者との一切の関係に適用されます。</p>")}
+      ${sec("第2条(会員登録)", "<p>利用者は、当社の定める方法により正確な情報を登録して会員登録を行うものとします。登録情報に虚偽があった場合、当社は登録の取消しまたは利用停止を行うことができます。</p>")}
+      ${sec("第3条(掲載情報)", "<p>本サービスが掲載する企業情報・市場規模・商流図等は、官公庁統計・企業のIR・プレスリリース等の公開情報にもとづき作成した参考情報であり、正確性・完全性・最新性を保証するものではありません。投資判断・就職や取引の判断は利用者ご自身の責任で行ってください。</p>")}
+      ${sec("第4条(スカウト・企業への情報開示)", "<p>スカウトの受信を希望(オプトイン)した会員のプロフィール情報は、本サービスに登録した採用企業が採用目的で閲覧できます。会員はいつでもスカウト希望の停止・退会を申し出ることができます。企業は取得した情報を採用選考以外の目的に利用してはなりません。</p>")}
+      ${sec("第5条(禁止事項)", "<p>利用者は、法令違反、虚偽情報の登録、本サービスの運営妨害、他者の権利侵害、データの無断転載・スクレイピング等を行ってはなりません。</p>")}
+      ${sec("第6条(知的財産権)", "<p>本サービスに関する著作権・その他の知的財産権は当社または正当な権利者に帰属します。掲載データの無断複製・再配布を禁じます。</p>")}
+      ${sec("第7条(免責)", "<p>当社は、本サービスの中断・停止・情報の誤り等により利用者に生じた損害について、当社の故意または重過失による場合を除き、責任を負いません。</p>")}
+      ${sec("第8条(規約の変更)", "<p>当社は、必要と判断した場合、利用者への事前告知のうえ本規約を変更できます。変更後の規約は本サービス上に掲示した時点から効力を生じます。</p>")}
+      ${sec("第9条(準拠法・裁判管轄)", "<p>本規約は日本法に準拠し、本サービスに関して紛争が生じた場合は、当社の本店所在地を管轄する裁判所を第一審の専属的合意管轄裁判所とします。</p>")}
+      ${sec("お問い合わせ", "<p>株式会社Fanaso(<a href='mailto:yuhei.n@fansojp.com'>yuhei.n@fansojp.com</a>)<br>制定日: 2026年7月25日</p>")}
+      <div class="home-foot"><a href="#/operator">運営者情報</a> ・ <a href="#/privacy">プライバシーポリシー</a> ・ <a href="#/">トップへ戻る</a></div>
     </div></div>`;
 }
 
@@ -501,7 +555,8 @@ async function renderHome() {
         : ""}
       <div class="home-foot">
         出典は官公庁統計・IR・プレスリリース等の一次情報のみを使用しています。<br>
-        <a href="#/rank">企業ランキング</a> ・ <a href="#/my">マイマップ</a> ・ <a href="#/about">あきないマップについて</a> ・ <a href="#/privacy">プライバシーポリシー</a><br>
+        <a href="#/rank">企業ランキング</a> ・ <a href="#/my">マイマップ</a> ・ <a href="#/about">あきないマップについて</a><br>
+        <a href="#/privacy">プライバシーポリシー</a> ・ <a href="#/terms">利用規約</a> ・ <a href="#/operator">運営者情報</a><br>
         運営: 株式会社Fanaso
       </div>
     </div></div>`;
@@ -782,6 +837,8 @@ async function route() {
     else if (hash.startsWith("#/register")) await renderGate(null);
     else if (hash.startsWith("#/my")) await renderMy();
     else if (hash.startsWith("#/privacy")) renderPrivacy();
+    else if (hash.startsWith("#/operator")) renderOperator();
+    else if (hash.startsWith("#/terms")) renderTerms();
     else if (hash.startsWith("#/about")) renderAbout();
     else if (hash.startsWith("#/all")) await renderDirectory();
     else await renderHome();

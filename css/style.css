@@ -920,3 +920,10 @@ marker[id="arrow-opex"] path { fill: var(--opex); }
 .p-market { font-size: .86rem; margin: 4px 0 8px; }
 .p-market strong { color: var(--gold); font-size: 1rem; }
 .p-market .ms-sub { display: block; font-size: .72rem; color: var(--ink-soft); margin-top: 2px; }
+
+/* ---- 運営者情報テーブル・利用規約 ---- */
+.operator-table { width: 100%; border-collapse: collapse; font-size: .88rem; }
+.operator-table th, .operator-table td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--surface-border); vertical-align: top; }
+.operator-table th { width: 30%; color: var(--ink-soft); font-weight: 700; white-space: nowrap; }
+.terms-lead { font-size: .88rem; line-height: 1.9; color: var(--ink-soft); margin-bottom: 8px; }
+.about .about-sec p { line-height: 1.9; }
