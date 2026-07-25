@@ -518,7 +518,8 @@
           },
           "salary": {
             "man_jpy": 821,
-            "fy": "2025年12月期"
+            "fy": "2025年12月期",
+            "avg_age": 41.2
           },
           "url": "https://www.isechem.co.jp/"
         },
@@ -674,7 +675,8 @@
           },
           "salary": {
             "man_jpy": 898,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 41.3
           },
           "url": "http://www.shinetsu.co.jp/"
         },
@@ -856,7 +858,8 @@
           },
           "salary": {
             "man_jpy": 784,
-            "fy": "2024年3月期"
+            "fy": "2024年3月期",
+            "avg_age": 40.5
           },
           "url": "https://www.uyemura.co.jp/"
         },
@@ -874,7 +877,8 @@
           },
           "salary": {
             "man_jpy": 674,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 37
           },
           "url": "http://www.toyogosei.co.jp/"
         },
@@ -1071,7 +1075,8 @@
           },
           "salary": {
             "man_jpy": 656,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 41.2
           },
           "url": "https://www.sk-kaken.co.jp/"
         },
@@ -1194,7 +1199,8 @@
           },
           "salary": {
             "man_jpy": 865,
-            "fy": "2025年12月期"
+            "fy": "2025年12月期",
+            "avg_age": 40.6
           },
           "url": "https://www.kao.com/cn/"
         },
@@ -1535,7 +1541,8 @@
           },
           "salary": {
             "man_jpy": 821,
-            "fy": "2025年3月期"
+            "fy": "2025年3月期",
+            "avg_age": 40.8
           },
           "url": "http://www.toray.co.jp/"
         },
@@ -2029,7 +2036,8 @@
           },
           "salary": {
             "man_jpy": 994,
-            "fy": "2025年3月期"
+            "fy": "2025年3月期",
+            "avg_age": 42
           },
           "url": "https://www.idemitsu.com/jp/"
         },
@@ -2063,7 +2071,8 @@
           },
           "salary": {
             "man_jpy": 1069,
-            "fy": "2025年3月期"
+            "fy": "2025年3月期",
+            "avg_age": 44
           },
           "url": "https://www.hd.eneos.co.jp/"
         }

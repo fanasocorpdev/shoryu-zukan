@@ -1498,7 +1498,8 @@
           },
           "salary": {
             "man_jpy": 688,
-            "fy": "2025年6月期"
+            "fy": "2025年6月期",
+            "avg_age": 33.1
           },
           "url": "https://www.freee.co.jp/"
         },
@@ -1523,7 +1524,8 @@
           },
           "salary": {
             "man_jpy": 538,
-            "fy": "2025年4月期"
+            "fy": "2025年4月期",
+            "avg_age": 33
           },
           "url": "https://smaregi.jp/"
         },
@@ -1548,7 +1550,8 @@
           },
           "salary": {
             "man_jpy": 847,
-            "fy": "2025年9月期"
+            "fy": "2025年9月期",
+            "avg_age": 35.3
           },
           "url": "https://hennge.com"
         },
@@ -2005,7 +2008,8 @@
           },
           "salary": {
             "man_jpy": 765,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 36.9
           },
           "url": "https://www.ffri.jp/"
         },
@@ -2333,7 +2337,8 @@
           },
           "salary": {
             "man_jpy": 641,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 31.9
           },
           "url": "https://kurashiru.co.jp/"
         }
@@ -2365,7 +2370,8 @@
           },
           "salary": {
             "man_jpy": 982,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 41
           },
           "url": "https://www.nintendo.com/jp/index.html"
         },
@@ -2766,7 +2772,8 @@
           },
           "salary": {
             "man_jpy": 560,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 42.7
           },
           "url": "https://www.sun-denshi.co.jp/"
         },
@@ -2832,7 +2839,8 @@
           },
           "salary": {
             "man_jpy": 1000,
-            "fy": "2025年5月期"
+            "fy": "2025年5月期",
+            "avg_age": 44
           },
           "url": "https://www.oracle.com/"
         },
@@ -2865,7 +2873,8 @@
           },
           "salary": {
             "man_jpy": 1142,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 41.9
           },
           "url": "https://www.soracom.com/"
         },
@@ -3285,7 +3294,8 @@
           },
           "salary": {
             "man_jpy": 674,
-            "fy": "2025年12月期"
+            "fy": "2025年12月期",
+            "avg_age": 30
           },
           "url": "https://onecareer.co.jp/"
         },
@@ -3384,7 +3394,8 @@
           },
           "salary": {
             "man_jpy": 798,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 44.8
           },
           "url": "https://hd.finatext.com/"
         },
@@ -3946,7 +3957,8 @@
           },
           "salary": {
             "man_jpy": 855,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 35.3
           },
           "url": "https://exawizards.com"
         },
@@ -3979,7 +3991,8 @@
           },
           "salary": {
             "man_jpy": 767,
-            "fy": "2025年12月期"
+            "fy": "2025年12月期",
+            "avg_age": 35.4
           },
           "url": "https://safie.co.jp/"
         },
@@ -4284,7 +4297,8 @@
           },
           "salary": {
             "man_jpy": 793,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 44.5
           },
           "url": "https://www.datasection.co.jp/"
         },
@@ -4372,7 +4386,8 @@
           },
           "salary": {
             "man_jpy": 640,
-            "fy": "2026年2月期"
+            "fy": "2026年2月期",
+            "avg_age": 38.1
           },
           "url": "https://www.vrain.co.jp/"
         },
@@ -5183,7 +5198,8 @@
           },
           "salary": {
             "man_jpy": 827,
-            "fy": "2025年3月期"
+            "fy": "2025年3月期",
+            "avg_age": 39.8
           },
           "url": "https://toei-anim.co.jp/"
         },
@@ -5291,7 +5307,8 @@
           },
           "salary": {
             "man_jpy": 763,
-            "fy": "2025年11月期"
+            "fy": "2025年11月期",
+            "avg_age": 39.4
           },
           "url": "https://note.jp/"
         },

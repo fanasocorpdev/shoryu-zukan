@@ -84,7 +84,8 @@
           },
           "salary": {
             "man_jpy": 679,
-            "fy": "2025年3月期"
+            "fy": "2025年3月期",
+            "avg_age": 42.8
           },
           "url": "https://www.sumcosi.com/english/"
         },
@@ -410,7 +411,8 @@
           },
           "salary": {
             "man_jpy": 879,
-            "fy": "2025年3月期"
+            "fy": "2025年3月期",
+            "avg_age": 42.4
           },
           "url": "https://www.ferrotec.co.jp/"
         },

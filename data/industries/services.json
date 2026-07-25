@@ -76,7 +76,8 @@
           },
           "salary": {
             "man_jpy": 1162,
-            "fy": "2026年3月期・持株会社単体"
+            "fy": "2026年3月期・持株会社単体",
+            "avg_age": 40
           },
           "url": "https://recruit-holdings.com/ja/"
         },
@@ -139,7 +140,8 @@
           },
           "salary": {
             "man_jpy": 599,
-            "fy": "2025年10月期"
+            "fy": "2025年10月期",
+            "avg_age": 31.5
           },
           "url": "https://timee.co.jp/"
         },
@@ -2317,7 +2319,8 @@
           },
           "salary": {
             "man_jpy": 582,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 39.8
           },
           "url": "https://www.imperialhotel.co.jp/"
         },
@@ -2454,7 +2457,8 @@
           },
           "salary": {
             "man_jpy": 891,
-            "fy": "2026年1月期"
+            "fy": "2026年1月期",
+            "avg_age": 38.1
           },
           "url": "https://genda.jp/"
         },
@@ -3474,7 +3478,8 @@
           },
           "salary": {
             "man_jpy": 900,
-            "fy": "2025年12月期"
+            "fy": "2025年12月期",
+            "avg_age": 40.5
           },
           "url": "https://ngt-g.com/"
         },
@@ -3778,7 +3783,8 @@
           },
           "salary": {
             "man_jpy": 335,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 27.6
           },
           "url": "https://convano.com/"
         },

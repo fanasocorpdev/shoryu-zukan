@@ -341,7 +341,8 @@
           },
           "salary": {
             "man_jpy": 1069,
-            "fy": "2025年3月期"
+            "fy": "2025年3月期",
+            "avg_age": 44
           },
           "url": "https://www.hd.eneos.co.jp/"
         },
@@ -359,7 +360,8 @@
           },
           "salary": {
             "man_jpy": 994,
-            "fy": "2025年3月期"
+            "fy": "2025年3月期",
+            "avg_age": 42
           },
           "url": "https://www.idemitsu.com/jp/"
         },
@@ -490,7 +492,8 @@
           },
           "salary": {
             "man_jpy": 745,
-            "fy": "2025年8月期"
+            "fy": "2025年8月期",
+            "avg_age": 43.4
           },
           "url": "http://www.west-gr.co.jp/"
         },
@@ -576,7 +579,8 @@
           },
           "salary": {
             "man_jpy": 1185,
-            "fy": "2025年12月期"
+            "fy": "2025年12月期",
+            "avg_age": 39.7
           },
           "url": "https://power-x.jp/"
         },

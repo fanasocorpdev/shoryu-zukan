@@ -16,9 +16,26 @@
     }
   },
   "layers": [
-    { "id": "client", "label": "クライアント", "order": 1, "icon": "🏢", "description": "あらゆる業界の発注側企業" },
-    { "id": "firm", "label": "ファーム分類", "order": 2, "icon": "💼", "description": "系譜・得意領域ごとの大分類" },
-    { "id": "deep", "label": "川上・川下(深掘り)", "order": 90, "icon": "⛏" }
+    {
+      "id": "client",
+      "label": "クライアント",
+      "order": 1,
+      "icon": "🏢",
+      "description": "あらゆる業界の発注側企業"
+    },
+    {
+      "id": "firm",
+      "label": "ファーム分類",
+      "order": 2,
+      "icon": "💼",
+      "description": "系譜・得意領域ごとの大分類"
+    },
+    {
+      "id": "deep",
+      "label": "川上・川下(深掘り)",
+      "order": 90,
+      "icon": "⛏"
+    }
   ],
   "nodes": [
     {
@@ -26,7 +43,10 @@
       "role": "クライアント企業(全業界)",
       "layer": "client",
       "description": "経営課題を持つあらゆる業界の企業・官公庁。プロジェクト単位のフィーでファームに発注し、その対価としてコンサルティングサービスを受け取る。",
-      "map": { "ring": 0, "angle": 0 },
+      "map": {
+        "ring": 0,
+        "angle": 0
+      },
       "companies": [],
       "note": "発注側は全業界にまたがるため個別掲載しない",
       "updated": "2026-07-26",
@@ -37,28 +57,172 @@
       "role": "戦略系",
       "layer": "firm",
       "description": "経営戦略・全社変革が主戦場。外資御三家(MBB)を頂点とする系譜と、日系・独立系の戦略ブティック。少数精鋭・高単価。",
-      "map": { "ring": 1, "angle": 0 },
+      "map": {
+        "ring": 1,
+        "angle": 0
+      },
       "segments": [
-        { "id": "gaishi", "label": "外資系戦略", "description": "MBB(マッキンゼー・BCG・ベイン)を頂点とする外資戦略ファーム" },
-        { "id": "nikkei", "label": "日系・独立系戦略", "description": "国内発の戦略・独立系ファーム" }
+        {
+          "id": "gaishi",
+          "label": "外資系戦略",
+          "description": "MBB(マッキンゼー・BCG・ベイン)を頂点とする外資戦略ファーム"
+        },
+        {
+          "id": "nikkei",
+          "label": "日系・独立系戦略",
+          "description": "国内発の戦略・独立系ファーム"
+        }
       ],
       "companies": [
-        { "name": "マッキンゼー・アンド・カンパニー", "url": "https://www.mckinsey.com/jp", "hq": "米ニューヨーク(日本: 東京都港区)", "listing": { "market": "非上場(外資)" }, "segment": "gaishi" },
-        { "name": "ボストン コンサルティング グループ", "url": "https://www.bcg.com/ja-jp/", "hq": "米ボストン(日本: 東京都中央区)", "listing": { "market": "非上場(外資)" }, "segment": "gaishi" },
-        { "name": "ベイン・アンド・カンパニー", "url": "https://www.bain.com/ja/", "hq": "米ボストン(日本: 東京都港区)", "listing": { "market": "非上場(外資)" }, "segment": "gaishi" },
-        { "name": "A.T. カーニー", "url": "https://www.jp.kearney.com/", "hq": "米シカゴ(日本: 東京都千代田区)", "listing": { "market": "非上場(外資)" }, "segment": "gaishi" },
-        { "name": "アーサー・ディ・リトル", "url": "https://www.adlittle.com/jp-ja", "hq": "ベルギー・ブリュッセル(日本: 東京都港区)", "listing": { "market": "非上場(外資)" }, "segment": "gaishi" },
-        { "name": "ローランド・ベルガー", "url": "https://www.rolandberger.com/ja/", "hq": "独ミュンヘン(日本: 東京都港区)", "listing": { "market": "非上場(外資)" }, "segment": "gaishi" },
-        { "name": "オリバー・ワイマン", "url": "https://www.oliverwyman.com/jp.html", "hq": "米ニューヨーク(日本: 東京都千代田区)", "listing": { "market": "非上場(外資)" }, "segment": "gaishi" },
-        { "name": "L.E.K.コンサルティング", "url": "https://www.lek.com/", "hq": "英ロンドン(日本: 東京都千代田区)", "listing": { "market": "非上場(外資)" }, "segment": "gaishi" },
-        { "name": "ZSアソシエイツ", "url": "https://www.zs.com/", "hq": "米イリノイ", "listing": { "market": "非上場(外資)" }, "note": "セールス・マーケティング戦略", "segment": "gaishi" },
-        { "name": "Corporate Value Associates (CVA)", "url": "https://www.corporate-value.com/", "hq": "仏パリ", "listing": { "market": "非上場(外資)" }, "segment": "gaishi" },
-        { "name": "ドリームインキュベータ", "url": "https://www.dreamincubator.co.jp/", "hq": "東京都千代田区", "listing": { "market": "東証プライム", "code": "4310" }, "segment": "nikkei" },
-        { "name": "経営共創基盤(IGPI)", "url": "https://www.igpi.co.jp/", "hq": "東京都千代田区", "listing": { "market": "非上場" }, "segment": "nikkei" },
-        { "name": "コーポレイトディレクション(CDI)", "url": "https://www.cdi-japan.co.jp/", "hq": "東京都港区", "listing": { "market": "非上場" }, "segment": "nikkei" },
-        { "name": "P&E Directions", "url": "https://www.ped.co.jp/", "hq": "東京都千代田区", "listing": { "market": "非上場" }, "segment": "nikkei" },
-        { "name": "グロービング", "url": "https://globe-ing.com/", "hq": "東京都港区", "listing": { "market": "東証グロース", "code": "277A" }, "note": "2024年11月上場", "segment": "nikkei" },
-        { "name": "YCP Holdings", "url": "https://corporate.ycp.com/ja", "hq": "シンガポール(日本: 東京都港区)", "listing": { "market": "東証グロース", "code": "9257" }, "segment": "nikkei" }
+        {
+          "name": "マッキンゼー・アンド・カンパニー",
+          "url": "https://www.mckinsey.com/jp",
+          "hq": "米ニューヨーク(日本: 東京都港区)",
+          "listing": {
+            "market": "非上場(外資)"
+          },
+          "segment": "gaishi"
+        },
+        {
+          "name": "ボストン コンサルティング グループ",
+          "url": "https://www.bcg.com/ja-jp/",
+          "hq": "米ボストン(日本: 東京都中央区)",
+          "listing": {
+            "market": "非上場(外資)"
+          },
+          "segment": "gaishi"
+        },
+        {
+          "name": "ベイン・アンド・カンパニー",
+          "url": "https://www.bain.com/ja/",
+          "hq": "米ボストン(日本: 東京都港区)",
+          "listing": {
+            "market": "非上場(外資)"
+          },
+          "segment": "gaishi"
+        },
+        {
+          "name": "A.T. カーニー",
+          "url": "https://www.jp.kearney.com/",
+          "hq": "米シカゴ(日本: 東京都千代田区)",
+          "listing": {
+            "market": "非上場(外資)"
+          },
+          "segment": "gaishi"
+        },
+        {
+          "name": "アーサー・ディ・リトル",
+          "url": "https://www.adlittle.com/jp-ja",
+          "hq": "ベルギー・ブリュッセル(日本: 東京都港区)",
+          "listing": {
+            "market": "非上場(外資)"
+          },
+          "segment": "gaishi"
+        },
+        {
+          "name": "ローランド・ベルガー",
+          "url": "https://www.rolandberger.com/ja/",
+          "hq": "独ミュンヘン(日本: 東京都港区)",
+          "listing": {
+            "market": "非上場(外資)"
+          },
+          "segment": "gaishi"
+        },
+        {
+          "name": "オリバー・ワイマン",
+          "url": "https://www.oliverwyman.com/jp.html",
+          "hq": "米ニューヨーク(日本: 東京都千代田区)",
+          "listing": {
+            "market": "非上場(外資)"
+          },
+          "segment": "gaishi"
+        },
+        {
+          "name": "L.E.K.コンサルティング",
+          "url": "https://www.lek.com/",
+          "hq": "英ロンドン(日本: 東京都千代田区)",
+          "listing": {
+            "market": "非上場(外資)"
+          },
+          "segment": "gaishi"
+        },
+        {
+          "name": "ZSアソシエイツ",
+          "url": "https://www.zs.com/",
+          "hq": "米イリノイ",
+          "listing": {
+            "market": "非上場(外資)"
+          },
+          "note": "セールス・マーケティング戦略",
+          "segment": "gaishi"
+        },
+        {
+          "name": "Corporate Value Associates (CVA)",
+          "url": "https://www.corporate-value.com/",
+          "hq": "仏パリ",
+          "listing": {
+            "market": "非上場(外資)"
+          },
+          "segment": "gaishi"
+        },
+        {
+          "name": "ドリームインキュベータ",
+          "url": "https://www.dreamincubator.co.jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4310"
+          },
+          "segment": "nikkei"
+        },
+        {
+          "name": "経営共創基盤(IGPI)",
+          "url": "https://www.igpi.co.jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "非上場"
+          },
+          "segment": "nikkei"
+        },
+        {
+          "name": "コーポレイトディレクション(CDI)",
+          "url": "https://www.cdi-japan.co.jp/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "非上場"
+          },
+          "segment": "nikkei"
+        },
+        {
+          "name": "P&E Directions",
+          "url": "https://www.ped.co.jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "非上場"
+          },
+          "segment": "nikkei"
+        },
+        {
+          "name": "グロービング",
+          "url": "https://globe-ing.com/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "東証グロース",
+            "code": "277A"
+          },
+          "note": "2024年11月上場",
+          "segment": "nikkei"
+        },
+        {
+          "name": "YCP Holdings",
+          "url": "https://corporate.ycp.com/ja",
+          "hq": "シンガポール(日本: 東京都港区)",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9257"
+          },
+          "segment": "nikkei"
+        }
       ],
       "updated": "2026-07-26",
       "icon": "♟️"
@@ -68,40 +232,344 @@
       "role": "総合系",
       "layer": "firm",
       "description": "戦略から実行・システム導入まで一気通貫。監査法人系(BIG4)とアクセンチュアの総合大手、DX/デジタル、IT・システム実装の3系統。",
-      "map": { "ring": 1, "angle": 72 },
+      "map": {
+        "ring": 1,
+        "angle": 72
+      },
       "segments": [
-        { "id": "big6", "label": "BIG6(監査法人系・総合大手)", "description": "BIG4(Deloitte/PwC/EY/KPMG)+アクセンチュア+アビームの総合ファーム" },
-        { "id": "digital", "label": "デジタル・DX", "description": "DX戦略〜デジタル実装を主軸とする総合系" },
-        { "id": "it", "label": "IT・システム", "description": "システム構想〜実装・運用に強い総合系" }
+        {
+          "id": "big6",
+          "label": "BIG6(監査法人系・総合大手)",
+          "description": "BIG4(Deloitte/PwC/EY/KPMG)+アクセンチュア+アビームの総合ファーム"
+        },
+        {
+          "id": "digital",
+          "label": "デジタル・DX",
+          "description": "DX戦略〜デジタル実装を主軸とする総合系"
+        },
+        {
+          "id": "it",
+          "label": "IT・システム",
+          "description": "システム構想〜実装・運用に強い総合系"
+        }
       ],
       "companies": [
-        { "name": "アクセンチュア", "url": "https://www.accenture.com/jp-ja", "hq": "アイルランド・ダブリン(日本: 東京都港区)", "employees": 770000, "listing": { "market": "NYSE(親会社ACN)" }, "financials": { "revenue_oku_jpy": 104550, "market_cap_oku_jpy": 128600, "as_of": "2026-07", "note": "売上=FY2025(2025年8月期)実績$69.7B、時価総額=$86B(2026-07-22時点)。1ドル=150円換算の概算" }, "segment": "big6" },
-        { "name": "デロイト トーマツ コンサルティング", "url": "https://www.deloitte.com/jp/ja.html", "hq": "東京都千代田区", "listing": { "market": "非上場(合同会社・監査法人系)" }, "segment": "big6" },
-        { "name": "PwCコンサルティング", "url": "https://www.pwc.com/jp/ja/", "hq": "東京都千代田区", "listing": { "market": "非上場(監査法人系)" }, "segment": "big6" },
-        { "name": "EYストラテジー・アンド・コンサルティング", "url": "https://www.ey.com/ja_jp", "hq": "東京都千代田区", "listing": { "market": "非上場(監査法人系)" }, "segment": "big6" },
-        { "name": "KPMGコンサルティング", "url": "https://kpmg.com/jp/ja.html", "hq": "東京都千代田区", "listing": { "market": "非上場(監査法人系)" }, "segment": "big6" },
-        { "name": "アビームコンサルティング", "url": "https://www.abeam.com/jp/ja/", "hq": "東京都中央区", "employees": 8000, "listing": { "market": "非上場(NEC持分法適用関連会社)" }, "segment": "big6" },
-        { "name": "ベイカレント", "url": "https://www.baycurrent.co.jp/", "hq": "東京都港区", "employees": 5000, "listing": { "market": "東証プライム", "code": "6532" }, "financials": { "revenue_oku_jpy": 1483, "market_cap_oku_jpy": 9682, "as_of": "2026-07-23", "note": "売上収益=2026年2月期実績(決算短信)、時価総額=2026-07-23時点" }, "salary": { "man_jpy": 1350, "fy": "2025年2月期" }, "segment": "digital" },
-        { "name": "シグマクシス", "url": "https://www.sigmaxyz.com/", "hq": "東京都港区", "employees": 700, "listing": { "market": "東証プライム(シグマクシス・ホールディングス)", "code": "6088" }, "financials": { "revenue_oku_jpy": 238, "market_cap_oku_jpy": 483, "as_of": "2026-07-23", "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点" }, "salary": { "man_jpy": 1032, "fy": "2026年3月期" }, "segment": "digital" },
-        { "name": "ライズ・コンサルティング・グループ", "url": "https://www.rise-cg.co.jp/", "hq": "東京都千代田区", "listing": { "market": "東証グロース", "code": "9168" }, "segment": "digital" },
-        { "name": "マネジメントソリューションズ (MSOL)", "url": "https://www.msols.com/", "hq": "東京都港区", "listing": { "market": "東証プライム", "code": "7033" }, "note": "プロジェクトマネジメント(PMO)特化", "segment": "digital" },
-        { "name": "Ridgelinez", "url": "https://www.ridgelinez.com/", "hq": "東京都千代田区", "listing": { "market": "非上場(富士通100%子会社)" }, "segment": "digital" },
-        { "name": "日立コンサルティング", "url": "https://www.hitachiconsulting.co.jp/", "hq": "東京都千代田区", "listing": { "market": "非上場(日立製作所傘下)" }, "segment": "digital" },
-        { "name": "エル・ティー・エス (LTS)", "url": "https://lts-inc.com/", "hq": "東京都港区", "listing": { "market": "東証プライム", "code": "6560" }, "note": "ビジネスプロセス変革・DX", "segment": "digital" },
-        { "name": "ノースサンド", "url": "https://www.northsand.co.jp/", "hq": "東京都港区", "listing": { "market": "東証グロース", "code": "446A" }, "financials": { "market_cap_oku_jpy": 870, "as_of": "2026-06-30", "note": "時価総額=JPX時価総額順位表(2026-06-30時点)" }, "salary": { "man_jpy": 689, "fy": "2026年1月期" }, "segment": "digital" },
-        { "name": "モンスターラボ", "url": "https://monstar-lab.com/", "hq": "東京都渋谷区", "listing": { "market": "東証グロース", "code": "5255" }, "note": "デジタルプロダクト開発", "segment": "digital" },
-        { "name": "野村総合研究所 (IT部門)", "url": "https://www.nri.com/jp", "hq": "東京都千代田区", "employees": 17000, "listing": { "market": "東証プライム", "code": "4307" }, "note": "シンクタンク系にも掲載。国内最大級のIT・コンサル", "segment": "it" },
-        { "name": "NTTデータ", "url": "https://www.nttdata.com/jp/ja/", "hq": "東京都江東区", "listing": { "market": "非上場(2025年9月NTTが完全子会社化し上場廃止)" }, "segment": "it" },
-        { "name": "フューチャー", "url": "https://www.future.co.jp/", "hq": "東京都品川区", "employees": 3000, "listing": { "market": "東証プライム", "code": "4722" }, "financials": { "revenue_oku_jpy": 760, "market_cap_oku_jpy": 2081, "as_of": "2026-07-23", "note": "売上高=2025年12月期実績(決算短信)、時価総額=2026-07-23時点" }, "salary": { "man_jpy": 794, "fy": "2025年12月期" }, "segment": "it" },
-        { "name": "電通総研", "url": "https://www.dentsusoken.com/", "hq": "東京都港区", "listing": { "market": "東証プライム", "code": "4812" }, "note": "旧ISID(電通国際情報サービス)", "segment": "it" },
-        { "name": "伊藤忠テクノソリューションズ (CTC)", "url": "https://www.ctc-g.co.jp/", "hq": "東京都港区", "listing": { "market": "非上場(2023年12月伊藤忠のTOBで上場廃止)" }, "segment": "it" },
-        { "name": "シンプレクス・ホールディングス", "url": "https://www.simplex.holdings/", "hq": "東京都港区", "listing": { "market": "東証プライム", "code": "4373" }, "note": "金融フロント×IT", "segment": "it" },
-        { "name": "日本IBM", "url": "https://www.ibm.com/jp-ja", "hq": "東京都中央区", "listing": { "market": "非上場(米IBM子会社)" }, "segment": "it" },
-        { "name": "キャップジェミニ (Capgemini日本)", "url": "https://www.capgemini.com/jp-jp/", "hq": "東京都港区", "listing": { "market": "非上場(親会社はユーロネクスト・パリ上場)" }, "segment": "it" },
-        { "name": "アバナード (Avanade)", "url": "https://www.avanade.com/ja-jp", "hq": "東京都港区", "listing": { "market": "非上場(アクセンチュア・マイクロソフト合弁)" }, "segment": "it" },
-        { "name": "ULSグループ", "url": "https://www.ulsgroup.co.jp/", "hq": "東京都千代田区", "listing": { "market": "東証スタンダード", "code": "3798" }, "segment": "it" },
-        { "name": "ケンブリッジ・テクノロジー・パートナーズ", "url": "https://www.ctp.co.jp/", "hq": "東京都中央区", "listing": { "market": "非上場" }, "segment": "it" },
-        { "name": "スカイライトコンサルティング", "url": "https://www.skylight.co.jp/", "hq": "東京都港区", "listing": { "market": "非上場" }, "segment": "it" }
+        {
+          "name": "アクセンチュア",
+          "url": "https://www.accenture.com/jp-ja",
+          "hq": "アイルランド・ダブリン(日本: 東京都港区)",
+          "employees": 770000,
+          "listing": {
+            "market": "NYSE(親会社ACN)"
+          },
+          "financials": {
+            "revenue_oku_jpy": 104550,
+            "market_cap_oku_jpy": 128600,
+            "as_of": "2026-07",
+            "note": "売上=FY2025(2025年8月期)実績$69.7B、時価総額=$86B(2026-07-22時点)。1ドル=150円換算の概算"
+          },
+          "segment": "big6"
+        },
+        {
+          "name": "デロイト トーマツ コンサルティング",
+          "url": "https://www.deloitte.com/jp/ja.html",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "非上場(合同会社・監査法人系)"
+          },
+          "segment": "big6"
+        },
+        {
+          "name": "PwCコンサルティング",
+          "url": "https://www.pwc.com/jp/ja/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "非上場(監査法人系)"
+          },
+          "segment": "big6"
+        },
+        {
+          "name": "EYストラテジー・アンド・コンサルティング",
+          "url": "https://www.ey.com/ja_jp",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "非上場(監査法人系)"
+          },
+          "segment": "big6"
+        },
+        {
+          "name": "KPMGコンサルティング",
+          "url": "https://kpmg.com/jp/ja.html",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "非上場(監査法人系)"
+          },
+          "segment": "big6"
+        },
+        {
+          "name": "アビームコンサルティング",
+          "url": "https://www.abeam.com/jp/ja/",
+          "hq": "東京都中央区",
+          "employees": 8000,
+          "listing": {
+            "market": "非上場(NEC持分法適用関連会社)"
+          },
+          "segment": "big6"
+        },
+        {
+          "name": "ベイカレント",
+          "url": "https://www.baycurrent.co.jp/",
+          "hq": "東京都港区",
+          "employees": 5000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "6532"
+          },
+          "financials": {
+            "revenue_oku_jpy": 1483,
+            "market_cap_oku_jpy": 9682,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2026年2月期実績(決算短信)、時価総額=2026-07-23時点"
+          },
+          "salary": {
+            "man_jpy": 1350,
+            "fy": "2025年2月期",
+            "avg_age": 31.2
+          },
+          "segment": "digital"
+        },
+        {
+          "name": "シグマクシス",
+          "url": "https://www.sigmaxyz.com/",
+          "hq": "東京都港区",
+          "employees": 700,
+          "listing": {
+            "market": "東証プライム(シグマクシス・ホールディングス)",
+            "code": "6088"
+          },
+          "financials": {
+            "revenue_oku_jpy": 238,
+            "market_cap_oku_jpy": 483,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
+          },
+          "salary": {
+            "man_jpy": 1032,
+            "fy": "2026年3月期",
+            "avg_age": 45.4
+          },
+          "segment": "digital"
+        },
+        {
+          "name": "ライズ・コンサルティング・グループ",
+          "url": "https://www.rise-cg.co.jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "東証グロース",
+            "code": "9168"
+          },
+          "segment": "digital"
+        },
+        {
+          "name": "マネジメントソリューションズ (MSOL)",
+          "url": "https://www.msols.com/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7033"
+          },
+          "note": "プロジェクトマネジメント(PMO)特化",
+          "segment": "digital"
+        },
+        {
+          "name": "Ridgelinez",
+          "url": "https://www.ridgelinez.com/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "非上場(富士通100%子会社)"
+          },
+          "segment": "digital"
+        },
+        {
+          "name": "日立コンサルティング",
+          "url": "https://www.hitachiconsulting.co.jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "非上場(日立製作所傘下)"
+          },
+          "segment": "digital"
+        },
+        {
+          "name": "エル・ティー・エス (LTS)",
+          "url": "https://lts-inc.com/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6560"
+          },
+          "note": "ビジネスプロセス変革・DX",
+          "segment": "digital"
+        },
+        {
+          "name": "ノースサンド",
+          "url": "https://www.northsand.co.jp/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "東証グロース",
+            "code": "446A"
+          },
+          "financials": {
+            "market_cap_oku_jpy": 870,
+            "as_of": "2026-06-30",
+            "note": "時価総額=JPX時価総額順位表(2026-06-30時点)"
+          },
+          "salary": {
+            "man_jpy": 689,
+            "fy": "2026年1月期",
+            "avg_age": 32.1
+          },
+          "segment": "digital"
+        },
+        {
+          "name": "モンスターラボ",
+          "url": "https://monstar-lab.com/",
+          "hq": "東京都渋谷区",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5255"
+          },
+          "note": "デジタルプロダクト開発",
+          "segment": "digital"
+        },
+        {
+          "name": "野村総合研究所 (IT部門)",
+          "url": "https://www.nri.com/jp",
+          "hq": "東京都千代田区",
+          "employees": 17000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "4307"
+          },
+          "note": "シンクタンク系にも掲載。国内最大級のIT・コンサル",
+          "segment": "it"
+        },
+        {
+          "name": "NTTデータ",
+          "url": "https://www.nttdata.com/jp/ja/",
+          "hq": "東京都江東区",
+          "listing": {
+            "market": "非上場(2025年9月NTTが完全子会社化し上場廃止)"
+          },
+          "segment": "it"
+        },
+        {
+          "name": "フューチャー",
+          "url": "https://www.future.co.jp/",
+          "hq": "東京都品川区",
+          "employees": 3000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "4722"
+          },
+          "financials": {
+            "revenue_oku_jpy": 760,
+            "market_cap_oku_jpy": 2081,
+            "as_of": "2026-07-23",
+            "note": "売上高=2025年12月期実績(決算短信)、時価総額=2026-07-23時点"
+          },
+          "salary": {
+            "man_jpy": 794,
+            "fy": "2025年12月期",
+            "avg_age": 36.5
+          },
+          "segment": "it"
+        },
+        {
+          "name": "電通総研",
+          "url": "https://www.dentsusoken.com/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4812"
+          },
+          "note": "旧ISID(電通国際情報サービス)",
+          "segment": "it"
+        },
+        {
+          "name": "伊藤忠テクノソリューションズ (CTC)",
+          "url": "https://www.ctc-g.co.jp/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "非上場(2023年12月伊藤忠のTOBで上場廃止)"
+          },
+          "segment": "it"
+        },
+        {
+          "name": "シンプレクス・ホールディングス",
+          "url": "https://www.simplex.holdings/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4373"
+          },
+          "note": "金融フロント×IT",
+          "segment": "it"
+        },
+        {
+          "name": "日本IBM",
+          "url": "https://www.ibm.com/jp-ja",
+          "hq": "東京都中央区",
+          "listing": {
+            "market": "非上場(米IBM子会社)"
+          },
+          "segment": "it"
+        },
+        {
+          "name": "キャップジェミニ (Capgemini日本)",
+          "url": "https://www.capgemini.com/jp-jp/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "非上場(親会社はユーロネクスト・パリ上場)"
+          },
+          "segment": "it"
+        },
+        {
+          "name": "アバナード (Avanade)",
+          "url": "https://www.avanade.com/ja-jp",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "非上場(アクセンチュア・マイクロソフト合弁)"
+          },
+          "segment": "it"
+        },
+        {
+          "name": "ULSグループ",
+          "url": "https://www.ulsgroup.co.jp/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "東証スタンダード",
+            "code": "3798"
+          },
+          "segment": "it"
+        },
+        {
+          "name": "ケンブリッジ・テクノロジー・パートナーズ",
+          "url": "https://www.ctp.co.jp/",
+          "hq": "東京都中央区",
+          "listing": {
+            "market": "非上場"
+          },
+          "segment": "it"
+        },
+        {
+          "name": "スカイライトコンサルティング",
+          "url": "https://www.skylight.co.jp/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "非上場"
+          },
+          "segment": "it"
+        }
       ],
       "updated": "2026-07-26",
       "icon": "💼"
@@ -111,36 +579,276 @@
       "role": "ブティック系",
       "layer": "firm",
       "description": "特定領域に特化した専門ファーム。事業開発・新規事業、AI・データ、組織・人事、財務(FAS)・デザイン等その他。",
-      "map": { "ring": 1, "angle": 144 },
+      "map": {
+        "ring": 1,
+        "angle": 144
+      },
       "segments": [
-        { "id": "bizdev", "label": "事業開発・新規事業", "description": "新規事業創出・インキュベーション支援" },
-        { "id": "ai", "label": "AI・データ", "description": "AI・データ活用の実装コンサル" },
-        { "id": "hr", "label": "組織・人事", "description": "人事制度・組織開発・報酬設計" },
-        { "id": "other", "label": "その他(財務・デザイン等)", "description": "M&A・事業再生(FAS)、コスト、デザイン、ブランド等の特化型" }
+        {
+          "id": "bizdev",
+          "label": "事業開発・新規事業",
+          "description": "新規事業創出・インキュベーション支援"
+        },
+        {
+          "id": "ai",
+          "label": "AI・データ",
+          "description": "AI・データ活用の実装コンサル"
+        },
+        {
+          "id": "hr",
+          "label": "組織・人事",
+          "description": "人事制度・組織開発・報酬設計"
+        },
+        {
+          "id": "other",
+          "label": "その他(財務・デザイン等)",
+          "description": "M&A・事業再生(FAS)、コスト、デザイン、ブランド等の特化型"
+        }
       ],
       "companies": [
-        { "name": "Relic", "url": "https://relic.co.jp/", "hq": "東京都渋谷区", "listing": { "market": "非上場" }, "segment": "bizdev" },
-        { "name": "Sun Asterisk", "url": "https://sun-asterisk.com/", "hq": "東京都千代田区", "listing": { "market": "東証プライム", "code": "4053" }, "segment": "bizdev" },
-        { "name": "アルファドライブ", "url": "https://alphadrive.co.jp/", "hq": "東京都中央区", "listing": { "market": "非上場(2024年ユーザベースからカーブアウト)" }, "segment": "bizdev" },
-        { "name": "イグニション・ポイント", "url": "https://www.ignitionpoint-inc.com/", "hq": "東京都港区", "listing": { "market": "非上場" }, "segment": "bizdev" },
-        { "name": "Regrit Partners", "url": "https://www.regrit-p.com/", "hq": "東京都千代田区", "listing": { "market": "非上場" }, "segment": "bizdev" },
-        { "name": "ブレインパッド", "url": "https://www.brainpad.co.jp/", "hq": "東京都港区", "listing": { "market": "東証プライム", "code": "3655" }, "segment": "ai" },
-        { "name": "PKSHA Technology", "url": "https://www.pkshatech.com/", "hq": "東京都文京区", "listing": { "market": "東証プライム", "code": "3993" }, "segment": "ai" },
-        { "name": "エクサウィザーズ", "url": "https://exawizards.com/", "hq": "東京都港区", "listing": { "market": "東証グロース", "code": "4259" }, "segment": "ai" },
-        { "name": "ABEJA", "url": "https://www.abejainc.com/", "hq": "東京都港区", "listing": { "market": "東証グロース", "code": "5574" }, "segment": "ai" },
-        { "name": "マーサージャパン", "url": "https://www.mercer.com/ja-jp/", "hq": "東京都港区", "listing": { "market": "非上場(親会社Marsh McLennanはNYSE:MMC)" }, "segment": "hr" },
-        { "name": "コーン・フェリー", "url": "https://www.kornferry.com/jp", "hq": "東京都港区", "listing": { "market": "非上場(親会社Korn FerryはNYSE:KFY)" }, "segment": "hr" },
-        { "name": "ウイリス・タワーズワトソン (WTW)", "url": "https://www.wtwco.com/ja-jp", "hq": "東京都港区", "listing": { "market": "非上場(親会社WTWはNASDAQ:WTW)" }, "segment": "hr" },
-        { "name": "リンクアンドモチベーション", "url": "https://www.lmi.ne.jp/", "hq": "東京都中央区", "employees": 1500, "listing": { "market": "東証プライム", "code": "2170" }, "financials": { "revenue_oku_jpy": 415, "market_cap_oku_jpy": 659, "as_of": "2026-07-23", "note": "売上高=2025年12月期実績(決算短信)、時価総額=2026-07-23時点" }, "salary": { "man_jpy": 696, "fy": "2025年12月期" }, "segment": "hr" },
-        { "name": "識学", "url": "https://corp.shikigaku.jp/", "hq": "東京都品川区", "employees": 200, "listing": { "market": "東証グロース", "code": "7049" }, "segment": "hr" },
-        { "name": "山田コンサルティンググループ", "url": "https://www.yamada-cg.co.jp/", "hq": "東京都千代田区", "employees": 1000, "listing": { "market": "東証プライム", "code": "4792" }, "financials": { "revenue_oku_jpy": 267, "market_cap_oku_jpy": 340, "as_of": "2026-07-23", "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点" }, "salary": { "man_jpy": 975, "fy": "2026年3月期" }, "note": "M&A・事業再生・事業承継(FAS)", "segment": "other" },
-        { "name": "フロンティア・マネジメント", "url": "https://www.frontier-mgmt.com/", "hq": "東京都港区", "employees": 400, "listing": { "market": "東証プライム", "code": "7038" }, "note": "M&A・事業再生(FAS)", "segment": "other" },
-        { "name": "プロレド・パートナーズ", "url": "https://www.prored-p.com/", "hq": "東京都港区", "listing": { "market": "東証プライム", "code": "7034" }, "note": "コストマネジメント・成果報酬型", "segment": "other" },
-        { "name": "AlixPartners", "url": "https://www.alixpartners.com/jp/", "hq": "米ニューヨーク(日本: 東京都千代田区)", "listing": { "market": "非上場(外資)" }, "note": "事業再生・ターンアラウンド", "segment": "other" },
-        { "name": "グッドパッチ", "url": "https://goodpatch.com/", "hq": "東京都渋谷区", "listing": { "market": "東証グロース", "code": "7351" }, "note": "UI/UXデザイン", "segment": "other" },
-        { "name": "博報堂コンサルティング", "url": "https://www.hakuhodo-consulting.co.jp/", "hq": "東京都港区", "listing": { "market": "非上場(博報堂グループ)" }, "note": "ブランド・マーケティング", "segment": "other" },
-        { "name": "LAYERSグループ", "url": "https://www.layers.co.jp/", "hq": "東京都港区", "listing": { "market": "非上場" }, "note": "経営管理・業務改革", "segment": "other" },
-        { "name": "ベイジ (baigie)", "url": "https://baigie.me/", "hq": "東京都世田谷区", "listing": { "market": "非上場" }, "note": "BtoB Web・デザイン", "segment": "other" }
+        {
+          "name": "Relic",
+          "url": "https://relic.co.jp/",
+          "hq": "東京都渋谷区",
+          "listing": {
+            "market": "非上場"
+          },
+          "segment": "bizdev"
+        },
+        {
+          "name": "Sun Asterisk",
+          "url": "https://sun-asterisk.com/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4053"
+          },
+          "segment": "bizdev"
+        },
+        {
+          "name": "アルファドライブ",
+          "url": "https://alphadrive.co.jp/",
+          "hq": "東京都中央区",
+          "listing": {
+            "market": "非上場(2024年ユーザベースからカーブアウト)"
+          },
+          "segment": "bizdev"
+        },
+        {
+          "name": "イグニション・ポイント",
+          "url": "https://www.ignitionpoint-inc.com/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "非上場"
+          },
+          "segment": "bizdev"
+        },
+        {
+          "name": "Regrit Partners",
+          "url": "https://www.regrit-p.com/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "非上場"
+          },
+          "segment": "bizdev"
+        },
+        {
+          "name": "ブレインパッド",
+          "url": "https://www.brainpad.co.jp/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3655"
+          },
+          "segment": "ai"
+        },
+        {
+          "name": "PKSHA Technology",
+          "url": "https://www.pkshatech.com/",
+          "hq": "東京都文京区",
+          "listing": {
+            "market": "東証プライム",
+            "code": "3993"
+          },
+          "segment": "ai"
+        },
+        {
+          "name": "エクサウィザーズ",
+          "url": "https://exawizards.com/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4259"
+          },
+          "segment": "ai"
+        },
+        {
+          "name": "ABEJA",
+          "url": "https://www.abejainc.com/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "東証グロース",
+            "code": "5574"
+          },
+          "segment": "ai"
+        },
+        {
+          "name": "マーサージャパン",
+          "url": "https://www.mercer.com/ja-jp/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "非上場(親会社Marsh McLennanはNYSE:MMC)"
+          },
+          "segment": "hr"
+        },
+        {
+          "name": "コーン・フェリー",
+          "url": "https://www.kornferry.com/jp",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "非上場(親会社Korn FerryはNYSE:KFY)"
+          },
+          "segment": "hr"
+        },
+        {
+          "name": "ウイリス・タワーズワトソン (WTW)",
+          "url": "https://www.wtwco.com/ja-jp",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "非上場(親会社WTWはNASDAQ:WTW)"
+          },
+          "segment": "hr"
+        },
+        {
+          "name": "リンクアンドモチベーション",
+          "url": "https://www.lmi.ne.jp/",
+          "hq": "東京都中央区",
+          "employees": 1500,
+          "listing": {
+            "market": "東証プライム",
+            "code": "2170"
+          },
+          "financials": {
+            "revenue_oku_jpy": 415,
+            "market_cap_oku_jpy": 659,
+            "as_of": "2026-07-23",
+            "note": "売上高=2025年12月期実績(決算短信)、時価総額=2026-07-23時点"
+          },
+          "salary": {
+            "man_jpy": 696,
+            "fy": "2025年12月期",
+            "avg_age": 32.1
+          },
+          "segment": "hr"
+        },
+        {
+          "name": "識学",
+          "url": "https://corp.shikigaku.jp/",
+          "hq": "東京都品川区",
+          "employees": 200,
+          "listing": {
+            "market": "東証グロース",
+            "code": "7049"
+          },
+          "segment": "hr"
+        },
+        {
+          "name": "山田コンサルティンググループ",
+          "url": "https://www.yamada-cg.co.jp/",
+          "hq": "東京都千代田区",
+          "employees": 1000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "4792"
+          },
+          "financials": {
+            "revenue_oku_jpy": 267,
+            "market_cap_oku_jpy": 340,
+            "as_of": "2026-07-23",
+            "note": "売上高=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
+          },
+          "salary": {
+            "man_jpy": 975,
+            "fy": "2026年3月期",
+            "avg_age": 38.2
+          },
+          "note": "M&A・事業再生・事業承継(FAS)",
+          "segment": "other"
+        },
+        {
+          "name": "フロンティア・マネジメント",
+          "url": "https://www.frontier-mgmt.com/",
+          "hq": "東京都港区",
+          "employees": 400,
+          "listing": {
+            "market": "東証プライム",
+            "code": "7038"
+          },
+          "note": "M&A・事業再生(FAS)",
+          "segment": "other"
+        },
+        {
+          "name": "プロレド・パートナーズ",
+          "url": "https://www.prored-p.com/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "東証プライム",
+            "code": "7034"
+          },
+          "note": "コストマネジメント・成果報酬型",
+          "segment": "other"
+        },
+        {
+          "name": "AlixPartners",
+          "url": "https://www.alixpartners.com/jp/",
+          "hq": "米ニューヨーク(日本: 東京都千代田区)",
+          "listing": {
+            "market": "非上場(外資)"
+          },
+          "note": "事業再生・ターンアラウンド",
+          "segment": "other"
+        },
+        {
+          "name": "グッドパッチ",
+          "url": "https://goodpatch.com/",
+          "hq": "東京都渋谷区",
+          "listing": {
+            "market": "東証グロース",
+            "code": "7351"
+          },
+          "note": "UI/UXデザイン",
+          "segment": "other"
+        },
+        {
+          "name": "博報堂コンサルティング",
+          "url": "https://www.hakuhodo-consulting.co.jp/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "非上場(博報堂グループ)"
+          },
+          "note": "ブランド・マーケティング",
+          "segment": "other"
+        },
+        {
+          "name": "LAYERSグループ",
+          "url": "https://www.layers.co.jp/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "非上場"
+          },
+          "note": "経営管理・業務改革",
+          "segment": "other"
+        },
+        {
+          "name": "ベイジ (baigie)",
+          "url": "https://baigie.me/",
+          "hq": "東京都世田谷区",
+          "listing": {
+            "market": "非上場"
+          },
+          "note": "BtoB Web・デザイン",
+          "segment": "other"
+        }
       ],
       "updated": "2026-07-26",
       "icon": "🧩"
@@ -150,15 +858,93 @@
       "role": "シンクタンク系",
       "layer": "firm",
       "description": "銀行・証券・官公庁系の調査研究+コンサル。政策・リサーチ・制度設計に強み。多くは金融グループの子会社。",
-      "map": { "ring": 1, "angle": 216 },
+      "map": {
+        "ring": 1,
+        "angle": 216
+      },
       "companies": [
-        { "name": "野村総合研究所", "url": "https://www.nri.com/jp", "hq": "東京都千代田区", "employees": 17000, "listing": { "market": "東証プライム", "code": "4307" }, "financials": { "revenue_oku_jpy": 8147, "market_cap_oku_jpy": 28498, "as_of": "2026-07-23", "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点" }, "salary": { "man_jpy": 1322, "fy": "2025年3月期" } },
-        { "name": "三菱総合研究所", "url": "https://www.mri.co.jp/", "hq": "東京都千代田区", "employees": 4500, "listing": { "market": "東証プライム", "code": "3636" }, "financials": { "revenue_oku_jpy": 1215, "market_cap_oku_jpy": 749, "as_of": "2026-07-23", "note": "売上高=2025年9月期実績(決算短信)、時価総額=2026-07-23時点" }, "salary": { "man_jpy": 1081, "fy": "2025年9月期" } },
-        { "name": "日本総合研究所", "url": "https://www.jri.co.jp/", "hq": "東京都品川区", "listing": { "market": "非上場(三井住友フィナンシャルグループ)" } },
-        { "name": "大和総研", "url": "https://www.dir.co.jp/", "hq": "東京都江東区", "listing": { "market": "非上場(大和証券グループ)" } },
-        { "name": "三菱UFJリサーチ&コンサルティング", "url": "https://www.murc.jp/", "hq": "東京都港区", "listing": { "market": "非上場(MUFG)" } },
-        { "name": "みずほリサーチ&テクノロジーズ", "hq": "東京都千代田区", "listing": { "market": "非上場(みずほFG)" }, "note": "2026年4月にみずほ銀行と統合" },
-        { "name": "NTTデータ経営研究所", "url": "https://www.nttdata-strategy.com/", "hq": "東京都千代田区", "listing": { "market": "非上場(NTTデータグループ)" } }
+        {
+          "name": "野村総合研究所",
+          "url": "https://www.nri.com/jp",
+          "hq": "東京都千代田区",
+          "employees": 17000,
+          "listing": {
+            "market": "東証プライム",
+            "code": "4307"
+          },
+          "financials": {
+            "revenue_oku_jpy": 8147,
+            "market_cap_oku_jpy": 28498,
+            "as_of": "2026-07-23",
+            "note": "売上収益=2026年3月期実績(決算短信)、時価総額=2026-07-23時点"
+          },
+          "salary": {
+            "man_jpy": 1322,
+            "fy": "2025年3月期",
+            "avg_age": 39.9
+          }
+        },
+        {
+          "name": "三菱総合研究所",
+          "url": "https://www.mri.co.jp/",
+          "hq": "東京都千代田区",
+          "employees": 4500,
+          "listing": {
+            "market": "東証プライム",
+            "code": "3636"
+          },
+          "financials": {
+            "revenue_oku_jpy": 1215,
+            "market_cap_oku_jpy": 749,
+            "as_of": "2026-07-23",
+            "note": "売上高=2025年9月期実績(決算短信)、時価総額=2026-07-23時点"
+          },
+          "salary": {
+            "man_jpy": 1081,
+            "fy": "2025年9月期",
+            "avg_age": 40.4
+          }
+        },
+        {
+          "name": "日本総合研究所",
+          "url": "https://www.jri.co.jp/",
+          "hq": "東京都品川区",
+          "listing": {
+            "market": "非上場(三井住友フィナンシャルグループ)"
+          }
+        },
+        {
+          "name": "大和総研",
+          "url": "https://www.dir.co.jp/",
+          "hq": "東京都江東区",
+          "listing": {
+            "market": "非上場(大和証券グループ)"
+          }
+        },
+        {
+          "name": "三菱UFJリサーチ&コンサルティング",
+          "url": "https://www.murc.jp/",
+          "hq": "東京都港区",
+          "listing": {
+            "market": "非上場(MUFG)"
+          }
+        },
+        {
+          "name": "みずほリサーチ&テクノロジーズ",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "非上場(みずほFG)"
+          },
+          "note": "2026年4月にみずほ銀行と統合"
+        },
+        {
+          "name": "NTTデータ経営研究所",
+          "url": "https://www.nttdata-strategy.com/",
+          "hq": "東京都千代田区",
+          "listing": {
+            "market": "非上場(NTTデータグループ)"
+          }
+        }
       ],
       "updated": "2026-07-26",
       "icon": "📚"
@@ -168,13 +954,60 @@
       "role": "中小企業向け",
       "layer": "firm",
       "description": "中小・中堅企業の経営改善・業績向上を主戦場とする国内系ファーム。全国展開・業種特化のパッケージ型が多い。",
-      "map": { "ring": 1, "angle": 288 },
+      "map": {
+        "ring": 1,
+        "angle": 288
+      },
       "companies": [
-        { "name": "船井総研ホールディングス", "url": "https://hd.funaisoken.co.jp/", "hq": "大阪市中央区", "listing": { "market": "東証プライム", "code": "9757" }, "note": "業種特化の中小企業向け経営コンサル最大手" },
-        { "name": "タナベコンサルティンググループ", "url": "https://tanabekeiei.co.jp/", "hq": "大阪市淀川区", "listing": { "market": "東証プライム", "code": "9644" } },
-        { "name": "リブ・コンサルティング", "url": "https://www.libcon.co.jp/", "hq": "東京都中央区", "listing": { "market": "東証グロース", "code": "480A" }, "note": "2025年12月上場。中堅・成長企業向け" },
-        { "name": "ライトアップ", "url": "https://www.writeup.jp/", "hq": "東京都渋谷区", "listing": { "market": "東証グロース", "code": "6580" }, "note": "中小企業支援・補助金活用" },
-        { "name": "Def consulting", "url": "https://www.defconsulting.co.jp/", "hq": "東京都新宿区", "listing": { "market": "東証グロース", "code": "4833" }, "note": "経営コンサル・デジタル支援" }
+        {
+          "name": "船井総研ホールディングス",
+          "url": "https://hd.funaisoken.co.jp/",
+          "hq": "大阪市中央区",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9757"
+          },
+          "note": "業種特化の中小企業向け経営コンサル最大手"
+        },
+        {
+          "name": "タナベコンサルティンググループ",
+          "url": "https://tanabekeiei.co.jp/",
+          "hq": "大阪市淀川区",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9644"
+          }
+        },
+        {
+          "name": "リブ・コンサルティング",
+          "url": "https://www.libcon.co.jp/",
+          "hq": "東京都中央区",
+          "listing": {
+            "market": "東証グロース",
+            "code": "480A"
+          },
+          "note": "2025年12月上場。中堅・成長企業向け"
+        },
+        {
+          "name": "ライトアップ",
+          "url": "https://www.writeup.jp/",
+          "hq": "東京都渋谷区",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6580"
+          },
+          "note": "中小企業支援・補助金活用"
+        },
+        {
+          "name": "Def consulting",
+          "url": "https://www.defconsulting.co.jp/",
+          "hq": "東京都新宿区",
+          "listing": {
+            "market": "東証グロース",
+            "code": "4833"
+          },
+          "note": "経営コンサル・デジタル支援"
+        }
       ],
       "updated": "2026-07-26",
       "icon": "🏪"
@@ -184,9 +1017,19 @@
       "role": "協力会社・フリーランス人材",
       "layer": "deep",
       "description": "総合・ブティック各ファームが繁忙期に活用する外部人材。フリーコンサルの業務委託マッチングが拡大。",
-      "map": { "ring": 2, "angle": 210 },
+      "map": {
+        "ring": 2,
+        "angle": 210
+      },
       "companies": [
-        { "name": "みらいワークス", "url": "https://mirai-works.co.jp/", "listing": { "market": "東証グロース", "code": "6563" } }
+        {
+          "name": "みらいワークス",
+          "url": "https://mirai-works.co.jp/",
+          "listing": {
+            "market": "東証グロース",
+            "code": "6563"
+          }
+        }
       ],
       "updated": "2026-07-26",
       "icon": "🤝"
@@ -195,87 +1038,183 @@
   "edges": [
     {
       "id": "opex_client_strategy",
-      "from": "client", "to": "strategy", "flow_type": "opex",
+      "from": "client",
+      "to": "strategy",
+      "flow_type": "opex",
       "label": "戦略プロジェクト報酬",
       "amount_note": "経営課題単位のプロジェクトフィー",
-      "sources": [ { "url": "https://www.stat.go.jp/data/mbss/index.html", "publisher": "総務省統計局", "note": "サービス産業動態統計調査。経営コンサルティング業を含む月次売上高統計" } ],
+      "sources": [
+        {
+          "url": "https://www.stat.go.jp/data/mbss/index.html",
+          "publisher": "総務省統計局",
+          "note": "サービス産業動態統計調査。経営コンサルティング業を含む月次売上高統計"
+        }
+      ],
       "updated": "2026-07-26"
     },
     {
       "id": "opex_client_sogo",
-      "from": "client", "to": "sogo", "flow_type": "opex",
+      "from": "client",
+      "to": "sogo",
+      "flow_type": "opex",
       "label": "総合コンサル・DX案件報酬",
-      "sources": [ { "url": "https://www.meti.go.jp/statistics/tyo/tokusabizi/index.html", "publisher": "経済産業省", "note": "特定サービス産業実態調査(経営コンサルタント業)" } ],
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/tokusabizi/index.html",
+          "publisher": "経済産業省",
+          "note": "特定サービス産業実態調査(経営コンサルタント業)"
+        }
+      ],
       "updated": "2026-07-26"
     },
     {
       "id": "opex_client_boutique",
-      "from": "client", "to": "boutique", "flow_type": "opex",
+      "from": "client",
+      "to": "boutique",
+      "flow_type": "opex",
       "label": "専門領域コンサル報酬(事業開発・AI・人事・財務等)",
-      "sources": [ { "url": "https://www.meti.go.jp/statistics/tyo/tokusabizi/index.html", "publisher": "経済産業省", "note": "特定サービス産業実態調査(経営コンサルタント業)" } ],
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/tokusabizi/index.html",
+          "publisher": "経済産業省",
+          "note": "特定サービス産業実態調査(経営コンサルタント業)"
+        }
+      ],
       "updated": "2026-07-26"
     },
     {
       "id": "opex_client_thinktank",
-      "from": "client", "to": "thinktank", "flow_type": "opex",
+      "from": "client",
+      "to": "thinktank",
+      "flow_type": "opex",
       "label": "調査研究・官公庁受託",
-      "sources": [ { "url": "https://www.nri.com/jp/service/industry/public_sector/index.html", "publisher": "野村総合研究所", "note": "官公庁・公共向けの政策調査・制度設計サービス紹介" } ],
+      "sources": [
+        {
+          "url": "https://www.nri.com/jp/service/industry/public_sector/index.html",
+          "publisher": "野村総合研究所",
+          "note": "官公庁・公共向けの政策調査・制度設計サービス紹介"
+        }
+      ],
       "updated": "2026-07-26"
     },
     {
       "id": "opex_client_sme",
-      "from": "client", "to": "sme", "flow_type": "opex",
+      "from": "client",
+      "to": "sme",
+      "flow_type": "opex",
       "label": "中小企業向け経営改善報酬",
-      "sources": [ { "url": "https://www.meti.go.jp/statistics/tyo/tokusabizi/index.html", "publisher": "経済産業省", "note": "特定サービス産業実態調査(経営コンサルタント業)" } ],
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/tokusabizi/index.html",
+          "publisher": "経済産業省",
+          "note": "特定サービス産業実態調査(経営コンサルタント業)"
+        }
+      ],
       "updated": "2026-07-26"
     },
     {
       "id": "goods_strategy_client",
-      "from": "strategy", "to": "client", "flow_type": "goods",
+      "from": "strategy",
+      "to": "client",
+      "flow_type": "goods",
       "label": "コンサルティングサービスの提供(戦略立案・全社変革の支援)",
-      "sources": [ { "url": "https://www.meti.go.jp/statistics/tyo/tokusabizi/index.html", "publisher": "経済産業省", "note": "特定サービス産業実態調査(経営コンサルタント業)" } ],
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/tokusabizi/index.html",
+          "publisher": "経済産業省",
+          "note": "特定サービス産業実態調査(経営コンサルタント業)"
+        }
+      ],
       "updated": "2026-07-26"
     },
     {
       "id": "goods_sogo_client",
-      "from": "sogo", "to": "client", "flow_type": "goods",
+      "from": "sogo",
+      "to": "client",
+      "flow_type": "goods",
       "label": "コンサルティングサービスの提供(業務改革・DX・システム導入の実行支援)",
-      "sources": [ { "url": "https://www.meti.go.jp/statistics/tyo/tokusabizi/index.html", "publisher": "経済産業省", "note": "特定サービス産業実態調査(経営コンサルタント業)" } ],
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/tokusabizi/index.html",
+          "publisher": "経済産業省",
+          "note": "特定サービス産業実態調査(経営コンサルタント業)"
+        }
+      ],
       "updated": "2026-07-26"
     },
     {
       "id": "goods_boutique_client",
-      "from": "boutique", "to": "client", "flow_type": "goods",
+      "from": "boutique",
+      "to": "client",
+      "flow_type": "goods",
       "label": "コンサルティングサービスの提供(事業開発・AI実装・人事制度・M&A等の専門支援)",
-      "sources": [ { "url": "https://www.meti.go.jp/statistics/tyo/tokusabizi/index.html", "publisher": "経済産業省", "note": "特定サービス産業実態調査(経営コンサルタント業)" } ],
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/tokusabizi/index.html",
+          "publisher": "経済産業省",
+          "note": "特定サービス産業実態調査(経営コンサルタント業)"
+        }
+      ],
       "updated": "2026-07-26"
     },
     {
       "id": "goods_thinktank_client",
-      "from": "thinktank", "to": "client", "flow_type": "goods",
+      "from": "thinktank",
+      "to": "client",
+      "flow_type": "goods",
       "label": "コンサルティングサービスの提供(調査研究・政策提言)",
-      "sources": [ { "url": "https://www.meti.go.jp/statistics/tyo/tokusabizi/index.html", "publisher": "経済産業省", "note": "特定サービス産業実態調査(経営コンサルタント業)" } ],
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/tokusabizi/index.html",
+          "publisher": "経済産業省",
+          "note": "特定サービス産業実態調査(経営コンサルタント業)"
+        }
+      ],
       "updated": "2026-07-26"
     },
     {
       "id": "goods_sme_client",
-      "from": "sme", "to": "client", "flow_type": "goods",
+      "from": "sme",
+      "to": "client",
+      "flow_type": "goods",
       "label": "コンサルティングサービスの提供(中小企業の業績向上・経営改善支援)",
-      "sources": [ { "url": "https://www.meti.go.jp/statistics/tyo/tokusabizi/index.html", "publisher": "経済産業省", "note": "特定サービス産業実態調査(経営コンサルタント業)" } ],
+      "sources": [
+        {
+          "url": "https://www.meti.go.jp/statistics/tyo/tokusabizi/index.html",
+          "publisher": "経済産業省",
+          "note": "特定サービス産業実態調査(経営コンサルタント業)"
+        }
+      ],
       "updated": "2026-07-26"
     },
     {
       "id": "opex_sogo_subcontract",
-      "from": "sogo", "to": "subcontract", "flow_type": "opex",
+      "from": "sogo",
+      "to": "subcontract",
+      "flow_type": "opex",
       "label": "外注費(フリーコンサル・協力会社)",
-      "sources": [ { "url": "https://mirai-works.co.jp/business/", "publisher": "みらいワークス", "note": "フリーコンサルタントの業務委託マッチング事業" } ],
+      "sources": [
+        {
+          "url": "https://mirai-works.co.jp/business/",
+          "publisher": "みらいワークス",
+          "note": "フリーコンサルタントの業務委託マッチング事業"
+        }
+      ],
       "updated": "2026-07-26"
     },
     {
       "id": "opex_boutique_subcontract",
-      "from": "boutique", "to": "subcontract", "flow_type": "opex",
+      "from": "boutique",
+      "to": "subcontract",
+      "flow_type": "opex",
       "label": "外注費(専門人材・フリーランス)",
-      "sources": [ { "url": "https://mirai-works.co.jp/business/", "publisher": "みらいワークス", "note": "フリーコンサルタントの業務委託マッチング事業" } ],
+      "sources": [
+        {
+          "url": "https://mirai-works.co.jp/business/",
+          "publisher": "みらいワークス",
+          "note": "フリーコンサルタントの業務委託マッチング事業"
+        }
+      ],
       "updated": "2026-07-26"
     }
   ]

@@ -77,7 +77,8 @@
           },
           "salary": {
             "man_jpy": 905,
-            "fy": "2025年3月期"
+            "fy": "2025年3月期",
+            "avg_age": 40.5
           },
           "url": "https://www.nipponsteel.com/"
         },
@@ -95,7 +96,8 @@
           },
           "salary": {
             "man_jpy": 1264,
-            "fy": "2025年3月期"
+            "fy": "2025年3月期",
+            "avg_age": 48
           },
           "url": "https://www.jfe-holdings.co.jp/"
         },
@@ -113,7 +115,8 @@
           },
           "salary": {
             "man_jpy": 812,
-            "fy": "2025年3月期"
+            "fy": "2025年3月期",
+            "avg_age": 38.9
           },
           "url": "http://www.kobelco.co.jp/english/"
         },
@@ -491,7 +494,8 @@
           },
           "salary": {
             "man_jpy": 934,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 43.1
           },
           "url": "https://www.fujikura.co.jp/"
         },
@@ -1416,7 +1420,8 @@
           },
           "salary": {
             "man_jpy": 596,
-            "fy": "2025年12月期"
+            "fy": "2025年12月期",
+            "avg_age": 46.2
           },
           "url": "https://www.technoflex.co.jp/"
         },

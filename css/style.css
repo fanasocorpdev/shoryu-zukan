@@ -960,6 +960,7 @@ marker[id="arrow-opex"] path { fill: var(--opex); }
   border: 1.5px solid transparent;
 }
 .rank-table .cmp-add { margin-left: 8px; }
+.rank-age { display: block; font-size: .68rem; font-weight: 600; color: var(--ink-soft); margin-top: 1px; }
 
 /* ---- 企業ロゴ(favicon/イニシャル) ---- */
 .c-logo {

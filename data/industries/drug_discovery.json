@@ -94,7 +94,8 @@
           },
           "salary": {
             "man_jpy": 951,
-            "fy": "2025年12月期"
+            "fy": "2025年12月期",
+            "avg_age": 38.7
           },
           "url": "http://www.peptidream.com/"
         },
@@ -122,7 +123,8 @@
           },
           "salary": {
             "man_jpy": 911,
-            "fy": "2025年12月期"
+            "fy": "2025年12月期",
+            "avg_age": 46.4
           },
           "url": "https://www.healios.co.jp/"
         },
@@ -311,7 +313,8 @@
           },
           "salary": {
             "man_jpy": 905,
-            "fy": "2024年12月期"
+            "fy": "2024年12月期",
+            "avg_age": 43.2
           },
           "url": "https://www.agc.com/"
         },

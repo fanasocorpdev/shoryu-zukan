@@ -83,7 +83,8 @@
           },
           "salary": {
             "man_jpy": 641,
-            "fy": "2026年3月期"
+            "fy": "2026年3月期",
+            "avg_age": 39.7
           },
           "url": "https://www.yonex.com/"
         },
@@ -259,7 +260,8 @@
           },
           "salary": {
             "man_jpy": 506,
-            "fy": "2025年6月期"
+            "fy": "2025年6月期",
+            "avg_age": 32
           },
           "url": "https://bushiroad.co.jp/"
         },
@@ -545,7 +547,8 @@
           },
           "salary": {
             "man_jpy": 681,
-            "fy": "2024年9月期"
+            "fy": "2024年9月期",
+            "avg_age": 38
           },
           "url": "https://www.mtg.gr.jp/"
         },
