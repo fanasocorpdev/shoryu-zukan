@@ -1,5 +1,5 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607252248";
+import { createMapView } from "./mapview.js?v=202607252252";
 
 const app = document.getElementById("app");
 
@@ -460,7 +460,7 @@ function renderOperator() {
         <table class="operator-table">
           <tr><th>サービス名</th><td>あきないマップ</td></tr>
           <tr><th>運営者</th><td>株式会社Fanaso</td></tr>
-          <tr><th>代表者</th><td>（代表者名を記入してください）</td></tr>
+          <tr><th>代表者</th><td>中西 悠平</td></tr>
           <tr><th>連絡先</th><td><a href="mailto:yuhei.n@fansojp.com">yuhei.n@fansojp.com</a><br>
             ※ 所在地・電話番号は、取引を検討される企業のご請求に応じて遅滞なく開示します。</td></tr>
           <tr><th>サービス内容</th><td>業界別の商流(モノ・カネの流れ)の可視化、企業情報の提供、
