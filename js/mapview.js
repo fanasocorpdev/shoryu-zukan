@@ -688,8 +688,8 @@ export function createMapView(container, data) {
     ? `<div class="row">カオスマップ型(分類のみ・商流エッジなし)</div>
        <div class="hint">ドラッグで移動 / ホイールでズーム — ズームインで実名企業が現れる</div>`
     : `<div class="row"><span class="swatch goods"></span>モノ・サービスの流れ</div>
-       <div class="row"><span class="swatch capex"></span>カネ CAPEX(一時投資)</div>
-       <div class="row"><span class="swatch opex"></span>カネ OPEX(継続支払い)</div>
+       <div class="row"><span class="swatch capex"></span>カネ(設備投資などの一時金)</div>
+       <div class="row"><span class="swatch opex"></span>カネ(利用料・仕入れなどの継続払い)</div>
        <div class="hint">ドラッグで移動 / ホイールでズーム — ズームインで実名企業が現れる</div>`;
   container.appendChild(legend);
 
@@ -730,7 +730,7 @@ export function createMapView(container, data) {
       journeyBar = null;
       launch.style.display = "";
     };
-    const FLOW_LABEL = { goods: "モノ・サービス", capex: "カネCAPEX(一時)", opex: "カネOPEX(継続)" };
+    const FLOW_LABEL = { goods: "モノ・サービス", capex: "カネ(一時金)", opex: "カネ(継続払い)" };
     const showStep = (i) => {
       idx = i;
       clearHighlight();

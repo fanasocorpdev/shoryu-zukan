@@ -1,5 +1,5 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607250858";
+import { createMapView } from "./mapview.js?v=202607252217";
 
 const app = document.getElementById("app");
 
@@ -86,61 +86,63 @@ async function renderGate(id) {
         <form id="gate-form">
           <label>メールアドレス
             <input type="email" name="email" required placeholder="you@example.com" autocomplete="email"></label>
-          <label>あなたは
-            <select name="segment" id="gate-segment">
-              <option value="">選択してください</option>
-              <option value="student">学生(就活中・就活予定)</option>
-              <option value="worker">社会人(転職検討・情報収集)</option>
-              <option value="investor">個人投資家・金融関係</option>
-              <option value="other">その他(研究・その他)</option>
-            </select></label>
 
-          <div class="gate-branch" data-branch="student" hidden>
-            <label>卒業予定
-              <select name="grad">
-                <option value="2027卒">2027卒</option>
-                <option value="2028卒">2028卒</option>
-                <option value="2029卒以降">2029卒以降</option>
-                <option value="既卒">既卒</option>
+          <fieldset class="profile-sec">
+            <legend>学歴</legend>
+            <label>最終学歴(在学中は現在の学校)
+              <select name="school" required>
+                <option value="">選択してください</option>
+                <option>大学(学部)</option>
+                <option>大学院(修士・博士)</option>
+                <option>高等専門学校・短大・専門学校</option>
+                <option>高等学校</option>
+                <option>その他</option>
               </select></label>
-            <label>文理 <span class="opt">(任意)</span>
+            <label>専攻系統 <span class="opt">(任意)</span>
               <select name="bunri">
                 <option value="">選択しない</option>
-                <option value="文系">文系</option><option value="理系">理系</option><option value="その他">その他</option>
+                <option>文系</option><option>理系</option><option>その他</option>
               </select></label>
-            <label>学校区分 <span class="opt">(任意)</span>
-              <select name="school">
-                <option value="">選択しない</option>
-                <option value="大学">大学</option><option value="大学院">大学院</option>
-                <option value="高専・短大・専門">高専・短大・専門</option><option value="その他">その他</option>
-              </select></label>
-          </div>
-
-          <div class="gate-branch" data-branch="worker" hidden>
-            <label>現在の職種
-              <select name="job">
+            <label>卒業(予定)年
+              <select name="grad_year" required>
                 <option value="">選択してください</option>
+                <option>2026年</option><option>2027年</option><option>2028年</option>
+                <option>2029年</option><option>2030年以降</option>
+                <option>2025年以前(卒業済み)</option>
+              </select></label>
+          </fieldset>
+
+          <fieldset class="profile-sec">
+            <legend>職歴 <span class="opt">(就業経験がある方のみ・任意)</span></legend>
+            <label>就業状況
+              <select name="segment">
+                <option value="student">学生(就業経験なし)</option>
+                <option value="employed">社会人(在職中)</option>
+                <option value="former">離職中・休職中</option>
+              </select></label>
+            <label>経験のある業界 <span class="opt">(任意)</span>
+              <select name="exp_industry">
+                <option value="">選択しない</option>
+                ${allParents.map((d) => `<option>${d.meta.industry_name}</option>`).join("")}
+                <option>その他</option>
+              </select></label>
+            <label>職種 <span class="opt">(任意)</span>
+              <select name="job">
+                <option value="">選択しない</option>
                 <option>営業</option><option>企画・マーケティング</option>
                 <option>ITエンジニア</option><option>エンジニア(機械・電気・化学等)</option>
                 <option>研究開発</option><option>製造・技能・品質</option>
-                <option>経理・人事・法務等の管理部門</option><option>コンサルタント</option>
+                <option>管理部門(経理・人事・法務等)</option><option>コンサルタント</option>
                 <option>金融専門職</option><option>医療・福祉</option>
                 <option>公務員</option><option>経営・役員</option><option>その他</option>
               </select></label>
-            <label>現年収 <span class="opt">(任意)</span>
-              <select name="income">
-                <option value="">回答しない</option>
-                <option>〜300万円</option><option>300〜500万円</option>
-                <option>500〜700万円</option><option>700〜1,000万円</option>
-                <option>1,000万円〜</option>
+            <label>経験年数 <span class="opt">(任意)</span>
+              <select name="exp_years">
+                <option value="">選択しない</option>
+                <option>1年未満</option><option>1〜3年</option>
+                <option>3〜5年</option><option>5〜10年</option><option>10年以上</option>
               </select></label>
-            <label>転職意向 <span class="opt">(任意)</span>
-              <select name="intent">
-                <option value="">回答しない</option>
-                <option>すぐにでも転職したい</option><option>1年以内に考えたい</option>
-                <option>いい会社があれば</option><option>情報収集のみ</option>
-              </select></label>
-          </div>
+          </fieldset>
 
           <fieldset class="ind-select">
             <legend>興味のある業界 <span class="opt">(最大3つ)</span></legend>
@@ -162,18 +164,6 @@ async function renderGate(id) {
       <div class="home-foot"><a href="#/">← マップトップへ戻る</a></div>
     </div></div>`;
 
-  // 属性による入力項目の分岐
-  const seg = document.getElementById("gate-segment");
-  const branches = [...document.querySelectorAll(".gate-branch")];
-  seg.addEventListener("change", () => {
-    for (const b of branches) {
-      const on = b.dataset.branch === seg.value;
-      b.hidden = !on;
-      // 非表示ブランチの必須を外す(worker職種のみ必須)
-      b.querySelectorAll("select").forEach((s) => (s.required = on && s.name === "job"));
-    }
-  });
-
   // 興味業界は最大3つまで
   const boxes = [...document.querySelectorAll('input[name="industries"]')];
   const limit = () => {
@@ -189,17 +179,14 @@ async function renderGate(id) {
     const rec = {
       email: fd.get("email"),
       segment: fd.get("segment"),
+      school: fd.get("school"),
+      grad_year: fd.get("grad_year"),
       industries: fd.getAll("industries"),
       ts: new Date().toISOString(),
     };
-    if (rec.segment === "student") {
-      rec.grad = fd.get("grad");
-      if (fd.get("bunri")) rec.bunri = fd.get("bunri");
-      if (fd.get("school")) rec.school = fd.get("school");
-    } else if (rec.segment === "worker") {
-      rec.job = fd.get("job");
-      if (fd.get("income")) rec.income = fd.get("income");
-      if (fd.get("intent")) rec.intent = fd.get("intent");
+    for (const k of ["bunri", "exp_industry", "job", "exp_years"]) {
+      const v = fd.get(k);
+      if (v) rec[k] = v;
     }
     localStorage.setItem(MEMBER_KEY, JSON.stringify(rec));
     const ep = window.AKINAI_CONFIG?.registrationEndpoint;
@@ -407,9 +394,9 @@ function renderPrivacy() {
       </div>
       <section class="about-sec">
         <h2>取得する情報</h2>
-        <p>無料メンバー登録では次の情報を取得します: メールアドレス、属性(学生/社会人等)、
-        学生の方は卒業年度・文理・学校区分(任意)、社会人の方は職種・年収帯(任意)・転職意向(任意)、
-        興味のある業界。氏名・住所・電話番号は取得しません。</p>
+        <p>無料メンバー登録では次の情報を取得します: メールアドレス、学歴(最終学歴・専攻系統・卒業予定年)、
+        職歴(就業状況・経験業界・職種・経験年数。就業経験がある方のみ・任意)、興味のある業界。
+        氏名・住所・電話番号・年収は取得しません。</p>
       </section>
       <section class="about-sec">
         <h2>利用目的</h2>

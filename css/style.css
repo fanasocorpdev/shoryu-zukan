@@ -710,6 +710,8 @@ svg.near .node .count-badge text { font-size: 13px; }
 
 /* ---- 分岐フォーム・業界チップ ---- */
 .gate-branch { display: flex; flex-direction: column; gap: 12px; padding: 12px; border: 1px dashed var(--paper-edge); border-radius: 10px; background: var(--surface); }
+.profile-sec { display: flex; flex-direction: column; gap: 12px; padding: 14px 14px 16px; border: 1px solid var(--surface-border); border-radius: 10px; }
+.profile-sec legend { font-size: .84rem; font-weight: 700; padding: 0 6px; color: var(--ink); }
 #gate-form .opt { font-weight: 400; color: var(--ink-soft); font-size: .74rem; }
 .ind-select { border: 1px dashed var(--paper-edge); border-radius: 10px; padding: 10px 12px 12px; }
 .ind-select legend { font-size: .82rem; font-weight: 700; padding: 0 6px; }
