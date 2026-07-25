@@ -845,6 +845,9 @@ async function renderIndustry(id) {
     wrap.appendChild(card);
   }
 
+  // 業界の注目ニュース(2週に1回、Workerが収集・AI要約)
+  renderIndustryNews(wrap, id);
+
   // ポータル遷移で来た場合: 遷移元を示すバナー+対応ノードへ自動フォーカス
   const fromMatch = location.hash.match(/[?&]from=([a-z0-9_]+):([a-z0-9_]+)/);
   if (fromMatch) {
@@ -894,6 +897,50 @@ async function renderIndustry(id) {
     shareBtn.textContent = "✓ コピーしました";
     setTimeout(() => (shareBtn.textContent = prev), 1600);
   });
+}
+
+// 業界の注目ニュース(Workerが2週に1回Bing Newsから収集しAI要約したもの)
+const NEWS_API = "https://akinaimap-news.yuhei-n.workers.dev";
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
+  ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+function timeAgo(iso) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  if (isNaN(d)) return "";
+  const days = Math.floor((Date.now() - d) / 86400000);
+  if (days <= 0) return "今日";
+  if (days === 1) return "昨日";
+  if (days < 14) return `${days}日前`;
+  return `${d.getFullYear()}/${d.getMonth() + 1}/${d.getDate()}`;
+}
+async function renderIndustryNews(wrap, id) {
+  const card = document.createElement("details");
+  card.className = "news-card";
+  card.open = localStorage.getItem("newsCollapsed") !== "1";
+  card.innerHTML = `<summary>注目ニュース5選<span class="news-sub">2週間ごとに更新・AI要約</span></summary>
+    <div class="news-body"><p class="news-loading">読み込み中…</p></div>`;
+  card.addEventListener("toggle", () =>
+    localStorage.setItem("newsCollapsed", card.open ? "0" : "1"));
+  wrap.appendChild(card);
+  const body = card.querySelector(".news-body");
+  try {
+    const res = await fetch(`${NEWS_API}/news?industry=${encodeURIComponent(id)}`);
+    const { items } = await res.json();
+    if (!items || !items.length) {
+      body.innerHTML = `<p class="news-empty">この業界のニュースはまだありません。</p>`;
+      return;
+    }
+    body.innerHTML = `<ol class="news-list">${items.map((it) => `
+      <li class="news-item">
+        <a href="${it.url}" target="_blank" rel="noopener noreferrer" class="news-title">${esc(it.title)}</a>
+        ${it.summary ? `<p class="news-summary">${esc(it.summary)}</p>` : ""}
+        <p class="news-meta">${it.source ? `<span class="news-src">${esc(it.source)}</span>` : ""}${
+          it.published ? `<span class="news-date">${timeAgo(it.published)}</span>` : ""}</p>
+      </li>`).join("")}</ol>
+      <p class="news-note">出典元の見出しにAIが要約を付けたものです。詳細は各リンク先をご確認ください。</p>`;
+  } catch {
+    body.innerHTML = `<p class="news-empty">ニュースを取得できませんでした。</p>`;
+  }
 }
 
 async function route() {

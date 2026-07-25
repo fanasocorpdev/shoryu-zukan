@@ -526,6 +526,53 @@ svg.focus .edge.lit path.line { stroke-width: 3.6; }
   .guide-card { left: 8px; right: 8px; max-width: none; top: 8px; font-size: .8rem; }
 }
 
+/* ============ 注目ニュース ============ */
+.news-card {
+  position: absolute; right: 14px; top: 14px; z-index: 9;
+  width: 340px; max-width: 40vw;
+  max-height: calc(100% - 28px); overflow-y: auto;
+  background: linear-gradient(160deg, var(--grad-a), var(--grad-b));
+  border: 1.5px solid var(--paper-edge); border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, .1);
+  backdrop-filter: blur(7px); -webkit-backdrop-filter: blur(7px);
+}
+.news-card summary {
+  cursor: pointer; padding: 10px 14px; font-weight: 700; color: var(--ink);
+  list-style: none; user-select: none; letter-spacing: .04em;
+  position: sticky; top: 0; background: var(--grad-a); z-index: 1;
+  border-bottom: 1px solid var(--paper-edge);
+}
+.news-card summary::-webkit-details-marker { display: none; }
+.news-card summary::after { content: "▸"; float: right; color: var(--ink-soft); transition: transform .15s; }
+.news-card[open] summary::after { transform: rotate(90deg); }
+.news-sub { display: block; font-size: .66rem; font-weight: 600; letter-spacing: .1em; color: var(--gold); margin-top: 2px; }
+.news-body { padding: 4px 0 6px; }
+.news-loading, .news-empty { margin: 0; padding: 12px 14px; color: var(--ink-soft); font-size: .82rem; }
+.news-list { list-style: none; margin: 0; padding: 0; counter-reset: n; }
+.news-item { padding: 10px 14px; border-bottom: 1px solid var(--paper-edge); }
+.news-item:last-child { border-bottom: none; }
+.news-title {
+  display: block; font-weight: 700; font-size: .88rem; line-height: 1.4;
+  color: var(--ink); text-decoration: none; position: relative; padding-left: 22px;
+}
+.news-title::before {
+  counter-increment: n; content: counter(n);
+  position: absolute; left: 0; top: 0;
+  width: 16px; height: 16px; line-height: 16px; text-align: center;
+  font-size: .68rem; color: #fff; background: var(--gold); border-radius: 4px;
+}
+.news-title:hover { color: var(--gold); text-decoration: underline; }
+.news-summary { margin: 5px 0 0; padding-left: 22px; font-size: .8rem; line-height: 1.5; color: var(--ink-soft); }
+.news-meta { margin: 5px 0 0; padding-left: 22px; display: flex; gap: 10px; font-size: .7rem; color: var(--ink-soft); }
+.news-src { font-weight: 600; }
+.news-note { margin: 0; padding: 8px 14px 4px; font-size: .66rem; color: var(--ink-soft); opacity: .8; line-height: 1.5; }
+@media (max-width: 640px) {
+  .news-card {
+    right: 8px; left: 8px; width: auto; max-width: none;
+    top: auto; bottom: 8px; max-height: 46vh; font-size: .9rem;
+  }
+}
+
 /* ---- カネの旅(ガイドツアー) ---- */
 .journey-launch {
   position: absolute; bottom: 18px; left: 50%; transform: translateX(-50%); z-index: 19;
