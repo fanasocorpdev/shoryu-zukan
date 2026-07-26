@@ -83,7 +83,7 @@ for (const id of index.industries) {
 
   const jsonld = {
     "@context": "https://schema.org", "@type": "CollectionPage",
-    name: title, description: desc, url: `${BASE}/share/${id}.html`,
+    name: title, description: desc, url: `${BASE}/share/${id}`,
     isPartOf: { "@type": "WebSite", name: "あきないマップ", url: BASE },
   };
   const body = `
@@ -95,10 +95,10 @@ for (const id of index.industries) {
     ${nodesHTML}
     <a class="cta" href="${BASE}/#/i/${id}">${esc(name)}の商流を地図で見る →</a>
     <nav class="foot"><strong>他の業界:</strong><br>
-      ${index.industries.map((x) => `<a href="${BASE}/share/${x}.html">${esc(JSON.parse(readFileSync(join(root, "data", "industries", `${x}.json`), "utf8")).meta.industry_name)}</a>`).join("")}
+      ${index.industries.map((x) => `<a href="${BASE}/share/${x}">${esc(JSON.parse(readFileSync(join(root, "data", "industries", `${x}.json`), "utf8")).meta.industry_name)}</a>`).join("")}
     </nav>`;
   writeFileSync(join(root, "share", `${id}.html`), page({
-    title, desc, ogImage: `${BASE}/assets/og/${id}.png`, canonical: `${BASE}/share/${id}.html`, bodyHTML: body, jsonld,
+    title, desc, ogImage: `${BASE}/assets/og/${id}.png`, canonical: `${BASE}/share/${id}`, bodyHTML: body, jsonld,
   }));
   count++;
 }
@@ -109,7 +109,7 @@ const hubBody = `
   <p class="tag">日本の各業界の「モノ・カネの流れ(商流)」と主要企業・平均年収を、地図で見える化。就活・転職の業界研究に。</p>
   <a class="cta" href="${BASE}/">あきないマップ トップへ →</a>
   <nav class="foot"><strong>業界一覧:</strong><br>
-    ${industriesMeta.map((m) => `<a href="${BASE}/share/${m.id}.html">${esc(m.name)}の商流</a>`).join("")}
+    ${industriesMeta.map((m) => `<a href="${BASE}/share/${m.id}">${esc(m.name)}の商流</a>`).join("")}
   </nav>`;
 writeFileSync(join(root, "share", "index.html"), page({
   title: "業界別 商流マップ一覧｜あきないマップ", desc: "日本の各業界の商流(モノ・カネの流れ)と主要企業を地図で。就活・転職の業界研究に。",
@@ -120,7 +120,7 @@ writeFileSync(join(root, "share", "index.html"), page({
 writeFileSync(join(root, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: ${BASE}/sitemap.xml\n`);
 
 // sitemap.xml
-const urls = [`${BASE}/`, `${BASE}/share/`, ...index.industries.map((id) => `${BASE}/share/${id}.html`)];
+const urls = [`${BASE}/`, `${BASE}/share/`, ...index.industries.map((id) => `${BASE}/share/${id}`)];
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map((u) => `  <url><loc>${u}</loc></url>`).join("\n")}
