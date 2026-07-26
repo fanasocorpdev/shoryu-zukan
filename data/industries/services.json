@@ -160,7 +160,7 @@
             "market": "東証プライム",
             "code": "2124"
           },
-          "segment": "platform",
+          "segment": "agent",
           "url": "http://corp.jac-recruitment.jp/"
         },
         {
@@ -271,12 +271,12 @@
           "segment": "platform"
         },
         {
-          "name": "エン",
+          "name": "エン・ジャパン",
           "listing": {
             "market": "東証プライム",
             "code": "4849"
           },
-          "note": "求人メディア(旧エン・ジャパン)",
+          "note": "求人メディア",
           "segment": "platform",
           "url": "https://corp.en-japan.com/"
         },

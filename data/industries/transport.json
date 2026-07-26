@@ -434,14 +434,6 @@
           "url": "https://www.az-com-maruwa-hd.co.jp/"
         },
         {
-          "name": "神奈川中央交通",
-          "listing": {
-            "market": "東証プライム",
-            "code": "9081"
-          },
-          "url": "https://www.kanachu.co.jp/"
-        },
-        {
           "name": "SBSホールディングス",
           "listing": {
             "market": "東証プライム",
@@ -1093,6 +1085,14 @@
       },
       "companies": [
         {
+          "name": "神奈川中央交通",
+          "listing": {
+            "market": "東証プライム",
+            "code": "9081"
+          },
+          "url": "https://www.kanachu.co.jp/"
+        },
+        {
           "name": "神姫バス",
           "listing": {
             "market": "東証スタンダード",
@@ -1189,14 +1189,6 @@
             "code": "6018"
           },
           "url": "http://www.hanshin-dw.co.jp/"
-        },
-        {
-          "name": "サノヤスホールディングス",
-          "listing": {
-            "market": "東証スタンダード",
-            "code": "7022"
-          },
-          "url": "http://www.sanoyas.co.jp/"
         },
         {
           "name": "TVE",

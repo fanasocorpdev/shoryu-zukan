@@ -64,6 +64,15 @@
       "related_industry": "automotive",
       "companies": [
         {
+          "name": "山陽特殊製鋼",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5481"
+          },
+          "note": "軸受鋼など特殊鋼の大手",
+          "url": "https://www.sanyo-steel.co.jp/"
+        },
+        {
           "name": "日本製鉄",
           "listing": {
             "market": "東証プライム",
@@ -434,6 +443,24 @@
       "related_industry": "datacenter",
       "companies": [
         {
+          "name": "住友電気工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5802"
+          },
+          "note": "電線・ワイヤーハーネスで国内最大",
+          "url": "https://sumitomoelectric.com/jp"
+        },
+        {
+          "name": "古河電気工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5801"
+          },
+          "note": "電線御三家の一角(古河機械金属5715とは別会社)",
+          "url": "https://www.furukawa.co.jp/"
+        },
+        {
           "name": "三菱マテリアル",
           "listing": {
             "market": "東証プライム",
@@ -691,6 +718,24 @@
       },
       "related_industry": "construction",
       "companies": [
+        {
+          "name": "AGC",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5201"
+          },
+          "note": "旧旭硝子。板ガラスで世界最大級",
+          "url": "https://www.agc.com/"
+        },
+        {
+          "name": "日本板硝子",
+          "listing": {
+            "market": "東証プライム",
+            "code": "5202"
+          },
+          "note": "NSG。板ガラス2強の一角",
+          "url": "https://www.nsg.co.jp/"
+        },
         {
           "name": "太平洋セメント",
           "listing": {

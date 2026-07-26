@@ -214,8 +214,7 @@
           "url": "https://network.mobile.rakuten.co.jp/",
           "hq": "東京都世田谷区",
           "listing": {
-            "market": "非上場(楽天グループ傘下)",
-            "code": "4755"
+            "market": "非上場(楽天グループ傘下)"
           },
           "financials": {
             "revenue_oku_jpy": 24966,
@@ -230,7 +229,7 @@
             "market": "東証プライム",
             "code": "9984"
           },
-          "note": "投資持株会社",
+          "note": "投資持株会社(通信事業の本体は別掲のソフトバンク〈9434〉)",
           "financials": {
             "market_cap_oku_jpy": 340597,
             "as_of": "2026-06-30",

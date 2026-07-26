@@ -206,7 +206,7 @@
           },
           "note": "電動工具",
           "segment": "tool",
-          "url": "https://makita.com.ar/"
+          "url": "https://www.makita.co.jp/"
         },
         {
           "name": "アイダエンジニアリング",
@@ -1530,6 +1530,15 @@
         "angle": 230
       },
       "companies": [
+        {
+          "name": "ダイキン工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6367"
+          },
+          "note": "空調機器で世界首位級。圧縮機・冷凍機など流体制御技術が中核",
+          "url": "https://www.daikin.co.jp/"
+        },
         {
           "name": "荏原製作所",
           "listing": {

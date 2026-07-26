@@ -243,15 +243,6 @@
           "url": "http://www.simplex.ne.jp/"
         },
         {
-          "name": "ジャストシステム",
-          "listing": {
-            "market": "東証プライム",
-            "code": "4686"
-          },
-          "segment": "major",
-          "url": "https://www.justsystems.com"
-        },
-        {
           "name": "SRAホールディングス",
           "listing": {
             "market": "東証プライム",
@@ -1406,6 +1397,15 @@
         "angle": 40
       },
       "companies": [
+        {
+          "name": "ジャストシステム",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4686"
+          },
+          "note": "ATOK・一太郎・スマイルゼミ等のパッケージ/SaaS",
+          "url": "https://www.justsystems.com"
+        },
         {
           "name": "オービック",
           "listing": {

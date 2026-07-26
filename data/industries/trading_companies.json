@@ -1759,13 +1759,15 @@
       },
       "companies": [
         {
-          "name": "三菱商事洋上風力",
+          "name": "丸紅",
           "listing": {
-            "market": "非上場(三菱商事の洋上風力事業会社)"
-          }
+            "market": "東証プライム",
+            "code": "8002"
+          },
+          "note": "日本の商社で最大級の海外発電事業(IPP)。国内外に発電資産を保有"
         }
       ],
-      "updated": "2026-07-24",
+      "updated": "2026-07-26",
       "related_industry": "energy",
       "icon": "⚡"
     }

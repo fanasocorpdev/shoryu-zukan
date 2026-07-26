@@ -245,7 +245,7 @@
             "market": "東証プライム",
             "code": "6632"
           },
-          "url": "https://it.wikipedia.org/wiki/utente:Elwood"
+          "url": "https://www.jvckenwood.com/"
         },
         {
           "name": "日清紡ホールディングス",
@@ -830,15 +830,6 @@
           "note": "EMS"
         },
         {
-          "name": "ユー・エム・シー・エレクトロニクス",
-          "listing": {
-            "market": "東証プライム",
-            "code": "6615"
-          },
-          "note": "EMS",
-          "url": "https://www.umc.co.jp/"
-        },
-        {
           "name": "エブレン",
           "listing": {
             "market": "東証スタンダード",
@@ -944,6 +935,24 @@
       },
       "related_industry": "machinery",
       "companies": [
+        {
+          "name": "ファナック",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6954"
+          },
+          "note": "CNC・産業用ロボットで世界首位級",
+          "url": "https://www.fanuc.co.jp/"
+        },
+        {
+          "name": "安川電機",
+          "listing": {
+            "market": "東証プライム",
+            "code": "6506"
+          },
+          "note": "サーボ・インバータ・産業用ロボット大手",
+          "url": "https://www.yaskawa.co.jp/"
+        },
         {
           "name": "キーエンス",
           "listing": {
@@ -1641,14 +1650,6 @@
           "url": "https://www.hoya.com/"
         },
         {
-          "name": "オリンパス",
-          "listing": {
-            "market": "東証プライム",
-            "code": "7733"
-          },
-          "url": "http://www.olympus-global.com/"
-        },
-        {
           "name": "シチズン時計",
           "listing": {
             "market": "東証プライム",
@@ -2272,8 +2273,10 @@
         {
           "name": "UMCエレクトロニクス",
           "listing": {
-            "market": "非上場(上場廃止)"
+            "market": "東証プライム",
+            "code": "6615"
           },
+          "note": "EMS",
           "url": "https://www.umc.co.jp/"
         }
       ],

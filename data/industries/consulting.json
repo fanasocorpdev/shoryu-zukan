@@ -312,7 +312,7 @@
           "hq": "東京都中央区",
           "employees": 8000,
           "listing": {
-            "market": "非上場(NEC持分法適用関連会社)"
+            "market": "非上場(NEC完全子会社・連結子会社)"
           },
           "segment": "big6"
         },
@@ -500,7 +500,7 @@
           "url": "https://www.ctc-g.co.jp/",
           "hq": "東京都港区",
           "listing": {
-            "market": "非上場(2023年12月伊藤忠のTOBで上場廃止)"
+            "market": "非上場(2023年11月伊藤忠のTOBで上場廃止)"
           },
           "segment": "it"
         },

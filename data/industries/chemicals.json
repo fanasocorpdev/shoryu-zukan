@@ -63,12 +63,21 @@
       },
       "companies": [
         {
+          "name": "三洋化成工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4471"
+          },
+          "note": "界面活性剤・機能性化学品",
+          "url": "https://www.sanyo-chemical.co.jp/eng/"
+        },
+        {
           "name": "三菱ケミカルグループ",
           "listing": {
             "market": "東証プライム",
             "code": "4188"
           },
-          "url": "https://pitchbook.com/profiles/company/51506-29"
+          "url": "https://www.mcgc.com/"
         },
         {
           "name": "住友化学",
@@ -661,6 +670,15 @@
       },
       "related_industry": "semiconductor",
       "companies": [
+        {
+          "name": "東京応化工業",
+          "listing": {
+            "market": "東証プライム",
+            "code": "4186"
+          },
+          "note": "半導体フォトレジストで世界首位級",
+          "url": "https://www.tok.co.jp/"
+        },
         {
           "name": "信越化学工業",
           "listing": {
@@ -2048,14 +2066,6 @@
             "code": "5021"
           },
           "url": "https://www.cosmo-energy.co.jp/"
-        },
-        {
-          "name": "三洋化成工業",
-          "listing": {
-            "market": "東証プライム",
-            "code": "4471"
-          },
-          "url": "https://www.sanyo-chemical.co.jp/eng/"
         },
         {
           "name": "ENEOSホールディングス",

@@ -469,7 +469,7 @@
     },
     {
       "id": "power_utility",
-      "role": "電力会社(小売・送配電)",
+      "role": "電力小売会社",
       "layer": "utility",
       "description": "特別高圧での受電契約。電気料金はDC運営コストの最大項目で、立地選定(系統容量)も左右する。",
       "map": {
@@ -482,15 +482,6 @@
           "url": "https://www.tepco.co.jp/ep/",
           "hq": "東京都千代田区",
           "employees": 5000,
-          "listing": {
-            "market": "非上場(東京電力HD傘下)"
-          }
-        },
-        {
-          "name": "東京電力パワーグリッド",
-          "url": "https://www.tepco.co.jp/pg/",
-          "hq": "東京都千代田区",
-          "employees": 17000,
           "listing": {
             "market": "非上場(東京電力HD傘下)"
           }

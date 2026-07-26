@@ -246,22 +246,6 @@
           }
         },
         {
-          "name": "サワイグループホールディングス",
-          "listing": {
-            "market": "東証プライム",
-            "code": "4887"
-          },
-          "url": "https://www.sawaigroup.holdings/"
-        },
-        {
-          "name": "東和薬品",
-          "listing": {
-            "market": "東証プライム",
-            "code": "4553"
-          },
-          "url": "http://www.towayakuhin.co.jp/"
-        },
-        {
           "name": "参天製薬",
           "listing": {
             "market": "東証プライム",
@@ -1797,7 +1781,7 @@
         {
           "name": "サワイグループホールディングス",
           "listing": {
-            "market": "プライム",
+            "market": "東証プライム",
             "code": "4887"
           },
           "url": "https://www.sawaigroup.holdings/"
@@ -1805,7 +1789,7 @@
         {
           "name": "東和薬品",
           "listing": {
-            "market": "プライム",
+            "market": "東証プライム",
             "code": "4553"
           },
           "url": "http://www.towayakuhin.co.jp/"

@@ -493,6 +493,15 @@
       },
       "companies": [
         {
+          "name": "丸紅",
+          "listing": {
+            "market": "東証プライム",
+            "code": "8002"
+          },
+          "note": "穀物・食料の大手商社",
+          "url": "https://www.marubeni.com/jp/"
+        },
+        {
           "name": "三菱商事",
           "url": "https://www.mitsubishicorp.com/jp/ja/",
           "hq": "東京都千代田区",
