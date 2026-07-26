@@ -782,12 +782,11 @@ svg.near .node .count-badge text { font-size: 13px; }
   background: var(--surface-2); color: var(--ink); width: 100%;
 }
 .scout-optin {
-  display: flex; gap: 10px; align-items: flex-start;
-  padding: 12px 14px; border: 1.5px solid var(--gold); border-radius: 10px;
-  background: rgba(15,118,110,.06); font-size: .82rem; line-height: 1.6; cursor: pointer;
+  display: flex; gap: 9px; align-items: flex-start;
+  padding: 8px 2px; font-size: .78rem; line-height: 1.6; cursor: pointer; color: var(--ink-soft);
 }
-.scout-optin input { margin-top: 3px; width: 18px; height: 18px; flex-shrink: 0; }
-.scout-optin strong { color: var(--gold); }
+.scout-optin input { margin-top: 2px; width: 15px; height: 15px; flex-shrink: 0; }
+.scout-note { font-size: .72rem; color: var(--ink-soft); opacity: .85; }
 #gate-form .opt { font-weight: 400; color: var(--ink-soft); font-size: .74rem; }
 .ind-select { border: 1px dashed var(--paper-edge); border-radius: 10px; padding: 10px 12px 12px; }
 .ind-select legend { font-size: .82rem; font-weight: 700; padding: 0 6px; }

@@ -1,6 +1,6 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607262500";
-import { initAuth, isLoggedIn, authUser, signUp, signIn, signOut, resetPassword, syncNotes, sb } from "./auth.js?v=202607262500";
+import { createMapView } from "./mapview.js?v=202607262600";
+import { initAuth, isLoggedIn, authUser, signUp, signIn, signOut, resetPassword, syncNotes, sb } from "./auth.js?v=202607262600";
 
 // メモが変わったら(ログイン中は)Supabaseへ同期。連打をまとめる。
 let _syncTimer = null;
@@ -202,10 +202,9 @@ async function renderGate(id) {
           </fieldset>
 
           <label class="scout-optin">
-            <input type="checkbox" name="scout_ok" value="1" checked>
-            <span><strong>企業からのスカウトを受け取る</strong><br>
-            チェックすると、あなたのプロフィール(氏名・学校・興味業界など)が採用企業に公開され、
-            興味を持った企業から直接オファーが届くことがあります。いつでも設定変更・退会できます。</span>
+            <input type="checkbox" name="scout_ok" value="1">
+            <span>将来、企業からのスカウトを受け取る <span class="opt">(任意)</span><br>
+            <span class="scout-note">オンにすると、今後あなたのプロフィールが採用企業に公開されることがあります。オフのままでも登録・利用できます。設定はいつでも変更・退会できます。</span></span>
           </label>
 
           <button type="submit" id="gate-submit">無料で登録して全業界を見る</button>
