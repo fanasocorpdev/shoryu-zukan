@@ -1,6 +1,6 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607262600";
-import { initAuth, isLoggedIn, authUser, signUp, signIn, signOut, resetPassword, syncNotes, sb } from "./auth.js?v=202607262600";
+import { createMapView } from "./mapview.js?v=202607262700";
+import { initAuth, isLoggedIn, authUser, signUp, signIn, signOut, resetPassword, syncNotes, sb } from "./auth.js?v=202607262700";
 
 // メモが変わったら(ログイン中は)Supabaseへ同期。連打をまとめる。
 let _syncTimer = null;
@@ -32,6 +32,34 @@ async function reportReview(reviewId, reason) {
 }
 async function deleteReview(id) {
   const { error } = await sb.from("reviews").delete().eq("id", id);
+  return { ok: !error, error: error?.message };
+}
+
+// ---- 運営管理(承認/却下/通報)。権限はRLSで強制。ここのチェックは表示用 ----
+const ADMIN_EMAIL = "yuhei.n@fansojp.com";
+const isAdmin = () => authUser()?.email === ADMIN_EMAIL;
+async function adminListReviews(status, limit = 200) {
+  const { data, error } = await sb.from("reviews").select("*")
+    .eq("status", status).order("created_at", { ascending: false }).limit(limit);
+  if (error) return { rows: [], error: error.message };
+  return { rows: data ?? [] };
+}
+async function adminSetStatus(id, status) {
+  const { error } = await sb.from("reviews").update({ status }).eq("id", id);
+  return { ok: !error, error: error?.message };
+}
+async function adminDeleteReview(id) {
+  const { error } = await sb.from("reviews").delete().eq("id", id);
+  return { ok: !error, error: error?.message };
+}
+async function adminListReports() {
+  const { data, error } = await sb.from("review_reports")
+    .select("*, review:reviews(*)").order("created_at", { ascending: false }).limit(200);
+  if (error) return { rows: [], error: error.message };
+  return { rows: data ?? [] };
+}
+async function adminDeleteReport(id) {
+  const { error } = await sb.from("review_reports").delete().eq("id", id);
   return { ok: !error, error: error?.message };
 }
 
@@ -704,6 +732,7 @@ function globalNavHTML(withBrand = false) {
       <nav class="gnav-links">
         <a href="#/rank">ランキング</a>
         <a href="#/my">マイマップ</a>
+        ${isAdmin() ? `<a href="#/admin">運営</a>` : ""}
       </nav>
       <input id="gnav-search" type="search" list="gnav-list" placeholder="企業名・証券コードで検索" autocomplete="off">
       <datalist id="gnav-list"></datalist>
@@ -1218,6 +1247,91 @@ function renderGuidelines() {
   wireGlobalNav();
 }
 
+// ---- 運営管理画面 #/admin ----
+function adminReviewCardHTML(r, ctx) {
+  const d = r.details ?? {};
+  const seg = (l, v) => v ? `<div class="rv-seg"><span class="rv-seg-l">${l}</span>${esc(v)}</div>` : "";
+  const when = r.created_at ? new Date(r.created_at).toLocaleString("ja-JP") : "";
+  const actions = ctx === "pending"
+    ? `<button class="adm-btn ok" data-act="approve" data-id="${esc(r.id)}">承認して公開</button>
+       <button class="adm-btn" data-act="reject" data-id="${esc(r.id)}">却下(非公開)</button>
+       <button class="adm-btn danger" data-act="delete" data-id="${esc(r.id)}">削除</button>`
+    : `<button class="adm-btn" data-act="reject" data-id="${esc(r.id)}">非公開に戻す</button>
+       <button class="adm-btn danger" data-act="delete" data-id="${esc(r.id)}">削除</button>`;
+  return `<article class="adm-card" data-id="${esc(r.id)}">
+    <div class="adm-meta"><strong>${esc(r.company ?? "")}</strong>${r.code ? ` <span class="cmp-sub">${esc(r.code)}</span>` : ""}
+      <span class="adm-when">${esc(when)}</span></div>
+    <div class="rv-head"><span class="rv-byline">${esc(r.grad_year ?? "")}${r.job_category ? ` ・ ${esc(r.job_category)}` : ""}${r.route ? ` ・ ${esc(r.route)}` : ""}</span>
+      ${r.outcome ? `<span class="rv-outcome">${esc(r.outcome)}</span>` : ""}</div>
+    ${seg("ES・Webテスト", d.es)}${seg("GD", d.gd)}${seg("面接", d.interview)}
+    ${r.body ? `<p class="rv-body">${esc(r.body)}</p>` : ""}
+    <div class="adm-actions">${actions}</div>
+  </article>`;
+}
+
+async function renderAdmin() {
+  if (!isMember()) {
+    app.innerHTML = `${globalNavHTML(true)}<div class="home"><div class="home-inner"><div class="hero"><h1>運営管理</h1>
+      <p class="sub">運営者としてログインしてください。</p></div>
+      <div style="text-align:center"><a class="rv-new-btn" href="#/register">ログイン</a></div></div></div>`;
+    wireGlobalNav(); return;
+  }
+  if (!isAdmin()) {
+    app.innerHTML = `${globalNavHTML(true)}<div class="home"><div class="home-inner"><div class="hero"><h1>運営管理</h1>
+      <p class="sub">このページは運営者専用です。</p></div>
+      <div class="home-foot"><a href="#/">← トップへ</a></div></div></div>`;
+    wireGlobalNav(); return;
+  }
+  app.innerHTML = `${globalNavHTML(true)}<div class="home"><div class="home-inner admin">
+    <div class="hero"><h1>運営管理 — 選考体験</h1><p class="sub">投稿の承認・却下・削除、通報の対応</p></div>
+    <div id="adm-body"><p>読み込み中…</p></div>
+    <div class="home-foot"><a href="#/">← トップへ</a></div></div></div>`;
+  wireGlobalNav();
+
+  const body = document.getElementById("adm-body");
+  const load = async () => {
+    const [pending, reports, approved] = await Promise.all([
+      adminListReviews("pending"), adminListReports(), adminListReviews("approved", 50),
+    ]);
+    if (pending.error || reports.error) {
+      body.innerHTML = `<p class="gate-msg err">読み込みエラー: ${esc(pending.error || reports.error)}<br>
+        (reviewsテーブルの管理者ポリシー未設定の可能性。cloud/supabase/0003_admin.sql を実行してください)</p>`;
+      return;
+    }
+    body.innerHTML = `
+      <section class="about-sec">
+        <h2>承認待ち(${pending.rows.length})</h2>
+        ${pending.rows.length ? pending.rows.map((r) => adminReviewCardHTML(r, "pending")).join("") : `<p class="rv-empty">承認待ちはありません。</p>`}
+      </section>
+      <section class="about-sec">
+        <h2>通報(${reports.rows.length})</h2>
+        ${reports.rows.length ? reports.rows.map((rep) => `
+          <div class="adm-report">
+            <p class="adm-report-h">通報理由: ${esc(rep.reason ?? "-")} <span class="adm-when">${esc(rep.created_at ? new Date(rep.created_at).toLocaleString("ja-JP") : "")}</span></p>
+            ${rep.review ? adminReviewCardHTML(rep.review, rep.review.status === "approved" ? "approved" : "pending") : `<p class="rv-empty">対象の投稿は削除済みです。</p>`}
+            <button class="adm-btn" data-act="delreport" data-id="${esc(rep.id)}">この通報を消す</button>
+          </div>`).join("") : `<p class="rv-empty">通報はありません。</p>`}
+      </section>
+      <section class="about-sec">
+        <h2>公開中(直近${approved.rows.length})</h2>
+        ${approved.rows.length ? approved.rows.map((r) => adminReviewCardHTML(r, "approved")).join("") : `<p class="rv-empty">公開中の投稿はありません。</p>`}
+      </section>`;
+  };
+  await load();
+
+  body.addEventListener("click", async (ev) => {
+    const btn = ev.target.closest("[data-act]");
+    if (!btn) return;
+    const { act, id } = btn.dataset;
+    btn.disabled = true;
+    if (act === "approve") await adminSetStatus(id, "approved");
+    else if (act === "reject") await adminSetStatus(id, "rejected");
+    else if (act === "delete") { if (!confirm("この投稿を完全に削除しますか?")) { btn.disabled = false; return; } await adminDeleteReview(id); }
+    else if (act === "delreport") await adminDeleteReport(id);
+    await load();
+  });
+}
+
 async function route() {
   if (destroyMap) { destroyMap(); destroyMap = null; }
   const hash = location.hash || "#/";
@@ -1226,6 +1340,7 @@ async function route() {
     const rv = hash.match(/^#\/reviews\/([A-Za-z0-9]+)/);
     if (m) await renderIndustry(m[1]);
     else if (rv) await renderReviews(rv[1]);
+    else if (hash.startsWith("#/admin")) await renderAdmin();
     else if (hash.startsWith("#/guidelines")) renderGuidelines();
     else if (hash.startsWith("#/rank")) await renderRanking();
     else if (hash.startsWith("#/register")) await renderGate(null);
