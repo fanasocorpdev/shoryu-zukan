@@ -35,10 +35,12 @@ export async function initAuth(onChange) {
   try {
     const { data } = await sb.auth.getSession();
     _user = data.session?.user ?? null;
+    if (_user) syncNotes();
     sb.auth.onAuthStateChange((_event, session) => {
       const next = session?.user ?? null;
       const changed = (_user?.id ?? null) !== (next?.id ?? null);
       _user = next;
+      if (changed && _user) syncNotes();
       if (changed && typeof onChange === "function") onChange(_user);
     });
   } catch (e) {
@@ -77,4 +79,50 @@ export async function resetPassword(email) {
     redirectTo: location.origin + location.pathname + "#/my",
   });
   return { error: error?.message ?? null };
+}
+
+// ---- 商流キャリア地図のクロス端末同期(既定OFF) ----
+// cloud/supabase/0001_career_notes.sql を実行してテーブルを作った後、true にして有効化する。
+// テーブル未作成のまま true にしてもエラーは握りつぶす設計だが、初回はユーザー同席で検証すること。
+export const SYNC_ENABLED = false;
+const NOTES_KEY = "akinai_notes";
+const localNotes = () => { try { return JSON.parse(localStorage.getItem(NOTES_KEY) ?? "{}"); } catch { return {}; } };
+
+// ログイン中のユーザーの career_notes とローカルを last-write-wins でマージする。
+export async function syncNotes() {
+  if (!SYNC_ENABLED || !_user) return;
+  try {
+    const client = getClient();
+    const local = localNotes();
+    const { data: remote, error } = await client.from("career_notes").select("*");
+    if (error) return; // テーブル未作成等は無視(ローカルは保持)
+    const remoteByName = Object.fromEntries((remote ?? []).map((r) => [r.company, r]));
+    const merged = { ...local };
+    const toUpsert = [];
+    const t = (v) => (v ? new Date(v).getTime() : 0);
+    for (const r of remote ?? []) {
+      const l = local[r.company];
+      if (!l || t(r.updated_at) > t(l.updated)) {
+        merged[r.company] = {
+          note: r.note ?? "", aspiration: r.aspiration ?? "",
+          industry: r.industry ?? "", industryName: r.industry_name ?? "",
+          code: r.code ?? "", updated: r.updated_at,
+        };
+      }
+    }
+    for (const [name, l] of Object.entries(local)) {
+      const r = remoteByName[name];
+      if (!r || t(l.updated) > t(r.updated_at)) {
+        toUpsert.push({
+          user_id: _user.id, company: name,
+          note: l.note ?? "", aspiration: l.aspiration ?? "",
+          industry: l.industry ?? "", industry_name: l.industryName ?? "",
+          code: l.code ?? "", updated_at: l.updated ?? new Date().toISOString(),
+        });
+      }
+    }
+    if (toUpsert.length) await client.from("career_notes").upsert(toUpsert);
+    localStorage.setItem(NOTES_KEY, JSON.stringify(merged));
+    window.dispatchEvent(new CustomEvent("akinai:notes-changed"));
+  } catch { /* 同期失敗は無視 */ }
 }

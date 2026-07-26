@@ -1,6 +1,6 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607261800";
-import { initAuth, isLoggedIn, authUser, signUp, signIn, signOut, resetPassword } from "./auth.js?v=202607261800";
+import { createMapView } from "./mapview.js?v=202607261900";
+import { initAuth, isLoggedIn, authUser, signUp, signIn, signOut, resetPassword } from "./auth.js?v=202607261900";
 
 const app = document.getElementById("app");
 
@@ -303,14 +303,42 @@ function renderLoginCard(id) {
 
 
 async function renderMy() {
-  if (!isMember()) { await renderGate(null); return; }
-  // プロフィールは登録端末のlocalStorageに保存。別端末では最低限メールだけ補完する。
+  // マイマップ(お気に入り・商流キャリア地図)はログイン前でも見られる=single-player価値。
+  // 未ログイン時は端末内保存のみで、ログインを促すバナーを出す。
+  const loggedIn = isMember();
   const member = JSON.parse(localStorage.getItem(MEMBER_KEY) ?? "null")
     ?? { email: authUser()?.email ?? "", industries: [] };
   const idx = await loadIndex();
   const mine = await Promise.all((member.industries ?? []).map((i) => loadIndustry(i).catch(() => null)));
   const cmp = JSON.parse(localStorage.getItem("akinai_compare") ?? "[]");
   const oku = (v) => (v == null ? "—" : v >= 10000 ? `${(v / 10000).toFixed(1)}兆円` : `${Math.round(v).toLocaleString("ja-JP")}億円`);
+
+  // 商流キャリア地図: 企業ごとの志望メモ/メモを業界別に集約
+  const notes = JSON.parse(localStorage.getItem("akinai_notes") ?? "{}");
+  const noteEntries = Object.entries(notes)
+    .filter(([, n]) => n && (n.note || n.aspiration))
+    .map(([name, n]) => ({ name, ...n }));
+  const byIndustry = {};
+  for (const e of noteEntries) (byIndustry[e.industry || "other"] ??= []).push(e);
+  const careerMapHTML = `
+    <section class="about-sec careermap">
+      <h2>自分の商流キャリア地図（${noteEntries.length}社）</h2>
+      ${noteEntries.length ? `
+      <p class="careermap-lead">商流のどこに惹かれたか、なぜその会社か——あなたの言葉で残した志望メモは、ES・面接であなただけの武器になります。</p>
+      ${Object.entries(byIndustry).map(([iid, arr]) => `
+        <div class="cm-group">
+          <h3 class="cm-ind">${esc(arr[0].industryName || iid)}<a class="cm-open" href="#/i/${esc(iid)}">マップを開く →</a></h3>
+          ${arr.map((e) => `
+            <div class="cm-card">
+              <div class="cm-card-h"><strong>${esc(e.name)}</strong>${e.code ? `<span class="cmp-sub"> ${esc(e.code)}</span>` : ""}
+                <button class="cm-del" data-name="${esc(e.name)}">削除</button></div>
+              ${e.aspiration ? `<p class="cm-line"><span class="un-label">志望メモ</span>${esc(e.aspiration)}</p>` : ""}
+              ${e.note ? `<p class="cm-line"><span class="un-label">メモ</span>${esc(e.note)}</p>` : ""}
+            </div>`).join("")}
+        </div>`).join("")}
+      <button id="cm-copy" class="cmp-copy">志望メモをまとめてコピー（ES下書き用）</button>
+      ` : `<p>まだありません。各業界マップの企業一覧にある「＋メモ」から、気になる企業に志望動機やメモを残せます。「なぜこの会社か」を商流の言葉で書き溜めると、そのままES・面接の材料になります。</p>`}
+    </section>`;
   const row = (c) => `<tr>
     <td><strong>${c.name}</strong><br><span class="cmp-sub">${c.code || ""} ${c.market || ""}</span></td>
     <td><a href="#/i/${c.industry}">${c.industryName}</a></td>
@@ -324,8 +352,13 @@ async function renderMy() {
       <div class="hero">
         <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="72" height="72">
         <h1>マイマップ</h1>
-        <p class="sub">${member.email} さんの業界研究ノート</p>
+        <p class="sub">${member.email ? `${esc(member.email)} さんの業界研究ノート` : "あなたの業界研究ノート"}</p>
       </div>
+      ${loggedIn ? "" : `<div class="my-login-cta">
+        <span>いまはこの端末だけに保存されています。<strong>ログインすると、メモ・お気に入りが端末をまたいで残り</strong>、企業からのスカウトも受け取れます。</span>
+        <a href="#/register" class="my-login-btn">ログイン / 無料登録</a>
+      </div>`}
+      ${careerMapHTML}
       <section class="about-sec">
         <h2>興味のある業界</h2>
         <div class="gate-chips">${mine.filter(Boolean)
@@ -351,6 +384,27 @@ async function renderMy() {
       localStorage.setItem("akinai_compare", JSON.stringify(list));
       renderMy();
     }));
+  // 商流キャリア地図: メモ削除・まとめコピー
+  app.querySelectorAll(".cm-del").forEach((b) =>
+    b.addEventListener("click", () => {
+      const all = JSON.parse(localStorage.getItem("akinai_notes") ?? "{}");
+      delete all[b.dataset.name];
+      localStorage.setItem("akinai_notes", JSON.stringify(all));
+      renderMy();
+    }));
+  document.getElementById("cm-copy")?.addEventListener("click", () => {
+    const text = noteEntries.map((e) => {
+      const parts = [`■ ${e.name}（${e.industryName || ""}）`];
+      if (e.aspiration) parts.push(`【志望動機】${e.aspiration}`);
+      if (e.note) parts.push(`【メモ】${e.note}`);
+      return parts.join("\n");
+    }).join("\n\n");
+    navigator.clipboard.writeText(text).then(() => {
+      const btn = document.getElementById("cm-copy");
+      btn.textContent = "✓ コピーしました";
+      setTimeout(() => (btn.textContent = "志望メモをまとめてコピー（ES下書き用）"), 1500);
+    });
+  });
   document.getElementById("cmp-copy")?.addEventListener("click", () => {
     const head = ["企業", "業界", "売上", "時価総額", "従業員", "平均年収"].join("\t");
     const lines = cmp.map((c) => [c.name, c.industryName, oku(c.rev), oku(c.mcap), c.emp ?? "", c.salary ? c.salary + "万円" : ""].join("\t"));

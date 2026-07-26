@@ -8,6 +8,20 @@ const CMP_KEY = "akinai_compare";
 const cmpList = () => JSON.parse(localStorage.getItem(CMP_KEY) ?? "[]");
 const cmpHas = (name) => cmpList().some((x) => x.name === name);
 
+// 商流キャリア地図: 企業ごとの「メモ+志望動機メモ」を蓄積する(スイッチングコストの芯)。
+// 端末内はlocalStorage、ログイン時は将来Supabaseへ同期(store.js)。社名をキーにする。
+const NOTES_KEY = "akinai_notes";
+const notesAll = () => { try { return JSON.parse(localStorage.getItem(NOTES_KEY) ?? "{}"); } catch { return {}; } };
+const noteFor = (name) => notesAll()[name] ?? null;
+const hasNote = (name) => { const n = noteFor(name); return !!(n && (n.note || n.aspiration)); };
+function saveNoteFor(name, rec) {
+  const all = notesAll();
+  if (!rec || (!rec.note && !rec.aspiration)) delete all[name];
+  else all[name] = { ...all[name], ...rec, updated: new Date().toISOString() };
+  localStorage.setItem(NOTES_KEY, JSON.stringify(all));
+  window.dispatchEvent(new CustomEvent("akinai:notes-changed"));
+}
+
 function svgEl(tag, attrs = {}) {
   const el = document.createElementNS(NS, tag);
   for (const [k, v] of Object.entries(attrs)) el.setAttribute(k, v);
@@ -272,6 +286,73 @@ export function createMapView(container, data) {
     }
     localStorage.setItem(CMP_KEY, JSON.stringify(list));
   });
+  // メモ(志望動機)の開閉・保存・削除(委譲)
+  panel.addEventListener("click", (ev) => {
+    const openBtn = ev.target.closest(".note-add");
+    if (openBtn) { ev.preventDefault(); ev.stopPropagation(); toggleNoteEditor(openBtn); return; }
+    const saveBtn = ev.target.closest(".note-save");
+    if (saveBtn) { ev.preventDefault(); ev.stopPropagation(); commitNote(saveBtn); return; }
+    const delBtn = ev.target.closest(".note-del");
+    if (delBtn) { ev.preventDefault(); ev.stopPropagation(); removeNote(delBtn); return; }
+    const cancelBtn = ev.target.closest(".note-cancel");
+    if (cancelBtn) { ev.preventDefault(); ev.stopPropagation(); cancelBtn.closest("li.company")?.querySelector(".note-editor")?.remove(); return; }
+  });
+
+  function toggleNoteEditor(btn) {
+    const li = btn.closest("li.company");
+    if (!li) return;
+    const existing = li.querySelector(".note-editor");
+    if (existing) { existing.remove(); return; }
+    const name = btn.dataset.name;
+    const cur = noteFor(name) ?? {};
+    const ed = document.createElement("div");
+    ed.className = "note-editor";
+    ed.innerHTML = `
+      <label class="note-field"><span>志望動機メモ</span>
+        <textarea class="note-asp" rows="2" placeholder="なぜこの会社か。商流のどこに惹かれたか">${esc(cur.aspiration ?? "")}</textarea></label>
+      <label class="note-field"><span>メモ</span>
+        <textarea class="note-free" rows="2" placeholder="気になった点・調べたこと・選考メモなど">${esc(cur.note ?? "")}</textarea></label>
+      <div class="note-actions">
+        <button class="note-save" data-name="${esc(name)}">保存</button>
+        <button class="note-cancel" type="button">キャンセル</button>
+        ${(cur.note || cur.aspiration) ? `<button class="note-del" data-name="${esc(name)}" type="button">削除</button>` : ""}
+        <span class="note-hint">ログインすると端末をまたいで残せます(近日)</span>
+      </div>`;
+    li.appendChild(ed);
+    ed.querySelector("textarea")?.focus();
+  }
+
+  function refreshNoteRow(li, name) {
+    const btn = li.querySelector(".note-add");
+    if (btn) { btn.classList.toggle("on", hasNote(name)); btn.textContent = hasNote(name) ? "メモ編集" : "＋メモ"; }
+    const wrap = li.querySelector(".c-usernote-wrap");
+    if (wrap) wrap.innerHTML = userNoteHTML(name);
+  }
+
+  function commitNote(btn) {
+    const li = btn.closest("li.company");
+    const name = btn.dataset.name;
+    const ed = li.querySelector(".note-editor");
+    const aspiration = ed.querySelector(".note-asp").value.trim();
+    const note = ed.querySelector(".note-free").value.trim();
+    const c = panelCompanies.get(name);
+    saveNoteFor(name, {
+      aspiration, note,
+      industry: data.meta.industry_id,
+      industryName: data.meta.industry_name,
+      code: c?.listing?.code ?? "",
+    });
+    ed.remove();
+    refreshNoteRow(li, name);
+  }
+
+  function removeNote(btn) {
+    const li = btn.closest("li.company");
+    const name = btn.dataset.name;
+    saveNoteFor(name, null);
+    li.querySelector(".note-editor")?.remove();
+    refreshNoteRow(li, name);
+  }
   panel.className = "panel";
   container.appendChild(panel);
   let pinned = false; // クリックで固定表示中か(ホバープレビューと区別)
@@ -353,13 +434,24 @@ export function createMapView(container, data) {
       <div class="c-main">${companyLogoHTML(c)}${(() => {
         const href = companyLink(c);
         return href ? `<a href="${esc(href)}" target="_blank" rel="noopener"${c.url ? "" : ' title="Yahoo!ファイナンスの銘柄ページを開く"'}>${esc(c.name)}</a>` : esc(c.name);
-      })()}<button class="cmp-add${cmpHas(c.name) ? " on" : ""}" data-name="${esc(c.name)}" title="お気に入りに追加/削除">${cmpHas(c.name) ? "★ お気に入り" : "☆お気に入り"}</button>${c.hiring ? '<span class="badge hiring">採用中</span>' : ""}${planBadge}${listing}</div>
+      })()}<button class="cmp-add${cmpHas(c.name) ? " on" : ""}" data-name="${esc(c.name)}" title="お気に入りに追加/削除">${cmpHas(c.name) ? "★ お気に入り" : "☆お気に入り"}</button><button class="note-add${hasNote(c.name) ? " on" : ""}" data-name="${esc(c.name)}" title="この企業へのメモ・志望動機を残す">${hasNote(c.name) ? "メモ編集" : "＋メモ"}</button>${c.hiring ? '<span class="badge hiring">採用中</span>' : ""}${planBadge}${listing}</div>
       ${statsLine}
       ${finNoteOnly}
       ${dealsLine}
       ${footLine}
       ${c.note ? `<div class="c-meta c-note">${esc(c.note)}</div>` : ""}
+      <div class="c-usernote-wrap">${userNoteHTML(c.name)}</div>
     </li>`;
+  }
+
+  // ユーザーが残したメモ/志望動機のプレビュー(あれば表示)
+  function userNoteHTML(name) {
+    const n = noteFor(name);
+    if (!n || (!n.note && !n.aspiration)) return "";
+    return `<div class="c-usernote">
+      ${n.aspiration ? `<p><span class="un-label">志望メモ</span>${esc(n.aspiration)}</p>` : ""}
+      ${n.note ? `<p><span class="un-label">メモ</span>${esc(n.note)}</p>` : ""}
+    </div>`;
   }
 
   function companiesListHTML(n) {
