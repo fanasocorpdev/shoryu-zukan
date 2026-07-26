@@ -84,7 +84,7 @@ export async function resetPassword(email) {
 // ---- 商流キャリア地図のクロス端末同期(既定OFF) ----
 // cloud/supabase/0001_career_notes.sql を実行してテーブルを作った後、true にして有効化する。
 // テーブル未作成のまま true にしてもエラーは握りつぶす設計だが、初回はユーザー同席で検証すること。
-export const SYNC_ENABLED = false;
+export const SYNC_ENABLED = true;
 const NOTES_KEY = "akinai_notes";
 const localNotes = () => { try { return JSON.parse(localStorage.getItem(NOTES_KEY) ?? "{}"); } catch { return {}; } };
 

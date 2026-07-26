@@ -1,6 +1,6 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607261900";
-import { initAuth, isLoggedIn, authUser, signUp, signIn, signOut, resetPassword } from "./auth.js?v=202607261900";
+import { createMapView } from "./mapview.js?v=202607262000";
+import { initAuth, isLoggedIn, authUser, signUp, signIn, signOut, resetPassword } from "./auth.js?v=202607262000";
 
 const app = document.getElementById("app");
 
@@ -324,7 +324,7 @@ async function renderMy() {
     <section class="about-sec careermap">
       <h2>自分の商流キャリア地図（${noteEntries.length}社）</h2>
       ${noteEntries.length ? `
-      <p class="careermap-lead">商流のどこに惹かれたか、なぜその会社か——あなたの言葉で残した志望メモは、ES・面接であなただけの武器になります。</p>
+      <p class="careermap-lead"><strong>これは非公開のメモです（自分だけが見られます）。</strong>商流のどこに惹かれたか、なぜその会社か——あなたの言葉で残した志望メモは、ES・面接であなただけの武器になります。</p>
       ${Object.entries(byIndustry).map(([iid, arr]) => `
         <div class="cm-group">
           <h3 class="cm-ind">${esc(arr[0].industryName || iid)}<a class="cm-open" href="#/i/${esc(iid)}">マップを開く →</a></h3>

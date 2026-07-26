@@ -316,7 +316,7 @@ export function createMapView(container, data) {
         <button class="note-save" data-name="${esc(name)}">保存</button>
         <button class="note-cancel" type="button">キャンセル</button>
         ${(cur.note || cur.aspiration) ? `<button class="note-del" data-name="${esc(name)}" type="button">削除</button>` : ""}
-        <span class="note-hint">ログインすると端末をまたいで残せます(近日)</span>
+        <span class="note-hint">非公開(自分だけ)。ログイン中は端末をまたいで自動保存されます</span>
       </div>`;
     li.appendChild(ed);
     ed.querySelector("textarea")?.focus();
