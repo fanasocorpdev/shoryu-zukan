@@ -1,6 +1,6 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607263000";
-import { initAuth, isLoggedIn, authUser, signUp, signIn, signOut, resetPassword, syncNotes, sb } from "./auth.js?v=202607263000";
+import { createMapView } from "./mapview.js?v=202607263100";
+import { initAuth, isLoggedIn, authUser, signUp, signIn, signOut, resetPassword, syncNotes, sb } from "./auth.js?v=202607263100";
 
 // メモが変わったら(ログイン中は)Supabaseへ同期。連打をまとめる。
 let _syncTimer = null;
@@ -1113,24 +1113,33 @@ const RV_TYPE = [
   { v: "new_grad", label: "新卒選考" },
   { v: "intern", label: "インターン" },
   { v: "mid_career", label: "中途選考" },
+  { v: "ob_visit", label: "OB/OG訪問" },
   { v: "employee", label: "社員クチコミ(在籍・退職者)" },
 ];
-const RV_TYPE_LABEL = { new_grad: "新卒選考", intern: "インターン", mid_career: "中途選考", employee: "社員クチコミ" };
+const RV_TYPE_LABEL = { new_grad: "新卒選考", intern: "インターン", mid_career: "中途選考", ob_visit: "OB/OG訪問", employee: "社員クチコミ" };
 const RV_TENURE = ["現職(在籍中)", "退職済み"];
+const RV_OBFORMAT = ["対面", "オンライン", "電話・その他"];
+// 観点ごとに表示するフォーム群
+const RV_GROUP_OF = { new_grad: "selection", intern: "selection", mid_career: "selection", ob_visit: "ob", employee: "employee" };
 
 // レビュー本文(タイプ別)。管理画面カードでも再利用。
 function reviewDetailHTML(r) {
   const d = r.details ?? {};
   const seg = (label, val) => val ? `<div class="rv-seg"><span class="rv-seg-l">${label}</span>${esc(val)}</div>` : "";
-  const isEmp = r.post_type === "employee";
-  const byline = isEmp
+  const t = r.post_type;
+  const isSelection = ["new_grad", "intern", "mid_career"].includes(t);
+  const byline = t === "employee"
     ? `${esc(d.tenure ?? "")}${r.job_category ? ` ・ ${esc(r.job_category)}` : ""}`
+    : t === "ob_visit"
+    ? `${d.format ? `${esc(d.format)}` : ""}${r.job_category ? `${d.format ? " ・ " : ""}${esc(r.job_category)}` : ""}`
     : `${esc(r.grad_year ?? "")}${r.job_category ? ` ・ ${esc(r.job_category)}` : ""}${r.route ? ` ・ ${esc(r.route)}` : ""}`;
-  const badge = `<span class="rv-type-badge">${esc(RV_TYPE_LABEL[r.post_type] ?? "選考")}</span>`;
+  const badge = `<span class="rv-type-badge">${esc(RV_TYPE_LABEL[t] ?? "選考")}</span>`;
   const head = `<div class="rv-head"><span class="rv-byline">${badge}${byline}</span>
-    ${!isEmp && r.outcome ? `<span class="rv-outcome">${esc(r.outcome)}</span>` : ""}</div>`;
-  const detail = isEmp
+    ${isSelection && r.outcome ? `<span class="rv-outcome">${esc(r.outcome)}</span>` : ""}</div>`;
+  const detail = t === "employee"
     ? seg("良かった点", d.good) + seg("気になった点", d.bad) + seg("働き方・残業", d.worklife) + seg("年収の実感", d.pay)
+    : t === "ob_visit"
+    ? seg("聞いてよかったこと", d.talked) + seg("訪問のコツ", d.tips)
     : seg("ES・Webテスト", d.es) + seg("GD", d.gd) + seg("面接", d.interview);
   return head + detail + (r.body ? `<p class="rv-body">${esc(r.body)}</p>` : "");
 }
@@ -1166,6 +1175,14 @@ function reviewFormHTML() {
       ${sel("outcome", RV_OUTCOME, "結果")}
     </div>
 
+    <div class="rv-group" data-group="ob" hidden>
+      <div class="rv-row">${sel("ob_format", RV_OBFORMAT, "面談の形式")}</div>
+      <label>聞いてよかったこと・印象 <span class="opt">(任意)</span>
+        <textarea name="talked" rows="3" placeholder="仕事のリアル・社風・キャリアパスなど、聞けて役立ったこと"></textarea></label>
+      <label>訪問のコツ・準備 <span class="opt">(任意)</span>
+        <textarea name="tips" rows="2" placeholder="アポの取り方・質問の準備・お礼など、後輩へのアドバイス"></textarea></label>
+    </div>
+
     <div class="rv-group" data-group="employee" hidden>
       <div class="rv-row">${sel("tenure", RV_TENURE, "在籍状況")}</div>
       <label>良かった点 <span class="opt">(任意)</span>
@@ -1198,7 +1215,7 @@ async function renderReviewNew() {
       <div class="hero">
         <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="60" height="60">
         <h1>レビューを書く</h1>
-        <p class="sub">受けた企業・働いた企業を選んで、<strong>新卒選考・インターン・中途選考・社員クチコミ</strong>を共有できます。あなたの体験が後輩の役に立ちます。</p>
+        <p class="sub">受けた企業・働いた企業を選んで、<strong>新卒選考・インターン・中途選考・OB/OG訪問・社員クチコミ</strong>を共有できます。あなたの体験が後輩の役に立ちます。</p>
       </div>
       <div class="rv-pick">
         <input id="rv-pick-input" type="search" list="rv-pick-list" placeholder="企業名・証券コードで検索(例: トヨタ / 7203)" autocomplete="off">
@@ -1247,9 +1264,9 @@ async function renderReviews(code) {
       <div id="rv-form-wrap" hidden></div>
       <section class="about-sec">
         <h2>みんなのレビュー(${approved.length}件)</h2>
-        <p class="rv-note-sub">新卒選考・インターン・中途選考・社員クチコミ</p>
+        <p class="rv-note-sub">新卒選考・インターン・中途選考・OB/OG訪問・社員クチコミ</p>
         ${approved.length ? approved.map(reviewCardHTML).join("")
-          : `<p class="rv-empty">まだ投稿がありません。あなたの体験(選考・インターン・在籍)が後輩の役に立ちます。最初の1件を書いてみませんか?</p>`}
+          : `<p class="rv-empty">まだ投稿がありません。あなたの体験(選考・インターン・OB訪問・在籍)が後輩の役に立ちます。最初の1件を書いてみませんか?</p>`}
       </section>
       ${minePending.length ? `<section class="about-sec"><h2>あなたの承認待ち(${minePending.length}件)</h2>
         <p class="rv-note">運営の確認後に公開されます。</p>${minePending.map(reviewCardHTML).join("")}</section>` : ""}
@@ -1266,9 +1283,8 @@ async function renderReviews(code) {
     // レビューの種類で表示する項目を切り替え
     const typeSel = document.getElementById("rv-type");
     const syncGroups = () => {
-      const emp = typeSel.value === "employee";
-      wrap.querySelector('[data-group="selection"]').hidden = emp;
-      wrap.querySelector('[data-group="employee"]').hidden = !emp;
+      const g = RV_GROUP_OF[typeSel.value] || "selection";
+      wrap.querySelectorAll("[data-group]").forEach((el) => (el.hidden = el.dataset.group !== g));
     };
     typeSel.addEventListener("change", syncGroups);
     syncGroups();
@@ -1281,16 +1297,18 @@ async function renderReviews(code) {
       if (!fd.get("consent")) { show("ガイドラインへの同意が必要です。"); return; }
       document.getElementById("rv-submit").disabled = true; show("投稿中…", "info");
       const post_type = fd.get("post_type") || "new_grad";
-      const isEmp = post_type === "employee";
-      const details = isEmp
+      const isSelection = ["new_grad", "intern", "mid_career"].includes(post_type);
+      const details = post_type === "employee"
         ? { tenure: fd.get("tenure") || "", good: fd.get("good") || "", bad: fd.get("bad") || "", worklife: fd.get("worklife") || "", pay: fd.get("pay") || "" }
+        : post_type === "ob_visit"
+        ? { format: fd.get("ob_format") || "", talked: fd.get("talked") || "", tips: fd.get("tips") || "" }
         : { es: fd.get("es") || "", gd: fd.get("gd") || "", interview: fd.get("interview") || "" };
       const res = await submitReview({
         company: name, code, industry: c?.industry ?? null, post_type,
-        grad_year: isEmp ? null : (fd.get("grad_year") || null),
+        grad_year: isSelection ? (fd.get("grad_year") || null) : null,
         job_category: fd.get("job_category") || null,
-        route: isEmp ? null : (fd.get("route") || null),
-        outcome: isEmp ? null : (fd.get("outcome") || null),
+        route: isSelection ? (fd.get("route") || null) : null,
+        outcome: isSelection ? (fd.get("outcome") || null) : null,
         details, body: fd.get("body") || "",
       });
       if (!res.ok) { document.getElementById("rv-submit").disabled = false; show(`投稿できませんでした: ${res.error}`); return; }
