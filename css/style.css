@@ -911,6 +911,13 @@ svg.focus .node.lit { opacity: 1; }
 }
 .rv-pick input:focus { outline: none; border-color: var(--gold); }
 .rv-pick input.miss { border-color: var(--opex); }
+.rv-type-l select { font-weight: 700; }
+.rv-type-badge {
+  display: inline-block; font-size: .66rem; font-weight: 700; color: #fff; background: var(--gold);
+  border-radius: 6px; padding: 1px 8px; margin-right: 8px; vertical-align: 1px; letter-spacing: .04em;
+}
+.rv-note-sub { font-size: .74rem; color: var(--ink-soft); margin: -6px 0 10px; }
+.rv-group { border-top: 1px dashed var(--paper-edge); margin-top: 10px; padding-top: 10px; }
 .rv-form { max-width: 640px; margin: 0 auto 18px; background: var(--surface-2); border: 1.5px solid var(--paper-edge); border-radius: 12px; padding: 18px; }
 .rv-form label { display: block; font-size: .84rem; font-weight: 700; color: var(--ink); margin-bottom: 12px; }
 .rv-form .opt { font-weight: 400; color: var(--ink-soft); font-size: .74rem; }

@@ -443,7 +443,7 @@ export function createMapView(container, data) {
       <div class="c-main">${companyLogoHTML(c)}${(() => {
         const href = companyLink(c);
         return href ? `<a href="${esc(href)}" target="_blank" rel="noopener"${c.url ? "" : ' title="Yahoo!ファイナンスの銘柄ページを開く"'}>${esc(c.name)}</a>` : esc(c.name);
-      })()}<button class="cmp-add${cmpHas(c.name) ? " on" : ""}" data-name="${esc(c.name)}" title="お気に入りに追加/削除">${cmpHas(c.name) ? "★ お気に入り" : "☆お気に入り"}</button><button class="note-add${hasNote(c.name) ? " on" : ""}" data-name="${esc(c.name)}" title="この企業への非公開メモ・志望動機を残す">${hasNote(c.name) ? "メモ編集" : "＋メモ"}</button>${c.listing?.code ? `<a class="rv-link" href="#/reviews/${esc(c.listing.code)}" title="みんなの選考体験を見る・書く">選考体験</a>` : ""}${c.hiring ? '<span class="badge hiring">採用中</span>' : ""}${planBadge}${listing}</div>
+      })()}<button class="cmp-add${cmpHas(c.name) ? " on" : ""}" data-name="${esc(c.name)}" title="お気に入りに追加/削除">${cmpHas(c.name) ? "★ お気に入り" : "☆お気に入り"}</button><button class="note-add${hasNote(c.name) ? " on" : ""}" data-name="${esc(c.name)}" title="この企業への非公開メモ・志望動機を残す">${hasNote(c.name) ? "メモ編集" : "＋メモ"}</button>${c.listing?.code ? `<a class="rv-link" href="#/reviews/${esc(c.listing.code)}" title="みんなのレビュー(選考体験・社員クチコミ)を見る・書く">レビュー</a>` : ""}${c.hiring ? '<span class="badge hiring">採用中</span>' : ""}${planBadge}${listing}</div>
       ${statsLine}
       ${finNoteOnly}
       ${dealsLine}
