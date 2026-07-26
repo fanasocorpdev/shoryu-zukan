@@ -1,6 +1,6 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607262400";
-import { initAuth, isLoggedIn, authUser, signUp, signIn, signOut, resetPassword, syncNotes, sb } from "./auth.js?v=202607262400";
+import { createMapView } from "./mapview.js?v=202607262500";
+import { initAuth, isLoggedIn, authUser, signUp, signIn, signOut, resetPassword, syncNotes, sb } from "./auth.js?v=202607262500";
 
 // メモが変わったら(ログイン中は)Supabaseへ同期。連打をまとめる。
 let _syncTimer = null;
