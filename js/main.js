@@ -1,6 +1,6 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607262300";
-import { initAuth, isLoggedIn, authUser, signUp, signIn, signOut, resetPassword, syncNotes } from "./auth.js?v=202607262300";
+import { createMapView } from "./mapview.js?v=202607262400";
+import { initAuth, isLoggedIn, authUser, signUp, signIn, signOut, resetPassword, syncNotes, sb } from "./auth.js?v=202607262400";
 
 // メモが変わったら(ログイン中は)Supabaseへ同期。連打をまとめる。
 let _syncTimer = null;
@@ -8,6 +8,32 @@ window.addEventListener("akinai:notes-changed", () => {
   clearTimeout(_syncTimer);
   _syncTimer = setTimeout(() => { if (isLoggedIn()) syncNotes(); }, 1500);
 });
+
+// ---- 選考体験(公開UGC)API。テーブル未作成でもエラーを握りつぶす ----
+async function listReviews(code) {
+  try {
+    const { data, error } = await sb.from("reviews")
+      .select("*").eq("code", code).order("created_at", { ascending: false });
+    if (error) return [];
+    return data ?? [];
+  } catch { return []; }
+}
+async function submitReview(payload) {
+  const u = authUser();
+  if (!u) return { ok: false, error: "ログインが必要です" };
+  const { error } = await sb.from("reviews").insert({ ...payload, author_id: u.id, status: "pending" });
+  return error ? { ok: false, error: error.message } : { ok: true };
+}
+async function reportReview(reviewId, reason) {
+  const u = authUser();
+  if (!u) return { ok: false, error: "ログインが必要です" };
+  const { error } = await sb.from("review_reports").insert({ review_id: reviewId, reason, reporter_id: u.id });
+  return error ? { ok: false, error: error.message } : { ok: true };
+}
+async function deleteReview(id) {
+  const { error } = await sb.from("reviews").delete().eq("id", id);
+  return { ok: !error, error: error?.message };
+}
 
 const app = document.getElementById("app");
 
@@ -1043,12 +1069,165 @@ async function renderIndustryNews(wrap, id) {
   }
 }
 
+// ---- 選考体験(公開UGC)画面 ----
+const RV_GRAD = ["26卒", "27卒", "28卒", "29卒", "既卒・その他"];
+const RV_JOB = ["総合職・事務系", "技術・エンジニア職", "専門職(研究/金融/コンサル等)", "その他"];
+const RV_ROUTE = ["本選考", "インターン選考経由", "どちらも"];
+const RV_OUTCOME = ["内定", "最終選考で不合格", "途中で不合格", "自分から辞退", "選考中", "その他"];
+
+function reviewCardHTML(r) {
+  const own = r.author_id && authUser()?.id === r.author_id;
+  const d = r.details ?? {};
+  const seg = (label, val) => val ? `<div class="rv-seg"><span class="rv-seg-l">${label}</span>${esc(val)}</div>` : "";
+  return `<article class="rv-card${r.status === "pending" ? " pending" : ""}" data-id="${esc(r.id)}">
+    <div class="rv-head">
+      <span class="rv-byline">${esc(r.grad_year ?? "")}${r.job_category ? ` ・ ${esc(r.job_category)}` : ""}${r.route ? ` ・ ${esc(r.route)}` : ""}</span>
+      ${r.outcome ? `<span class="rv-outcome">${esc(r.outcome)}</span>` : ""}
+    </div>
+    ${seg("ES・Webテスト", d.es)}
+    ${seg("GD", d.gd)}
+    ${seg("面接", d.interview)}
+    ${r.body ? `<p class="rv-body">${esc(r.body)}</p>` : ""}
+    <div class="rv-foot">
+      ${r.status === "pending" ? `<span class="rv-pending-tag">承認待ち(あなただけに表示)</span>` : ""}
+      ${own ? `<button class="rv-del" data-id="${esc(r.id)}">取り下げ</button>`
+            : `<button class="rv-report" data-id="${esc(r.id)}">通報</button>`}
+    </div>
+  </article>`;
+}
+
+function reviewFormHTML() {
+  const sel = (name, opts, label) => `<label>${label}
+    <select name="${name}"><option value="">選択</option>${opts.map((o) => `<option>${o}</option>`).join("")}</select></label>`;
+  return `<form id="rv-form" class="rv-form">
+    <div class="rv-row">${sel("grad_year", RV_GRAD, "卒業年")}${sel("job_category", RV_JOB, "職種")}${sel("route", RV_ROUTE, "選考ルート")}</div>
+    <label>ES設問・Webテスト <span class="opt">(任意)</span>
+      <textarea name="es" rows="2" placeholder="ESの設問と回答の要点、テストの形式など"></textarea></label>
+    <label>グループディスカッション <span class="opt">(任意)</span>
+      <textarea name="gd" rows="2" placeholder="お題・進め方・評価されたと感じた点"></textarea></label>
+    <label>面接 <span class="opt">(任意)</span>
+      <textarea name="interview" rows="3" placeholder="回数・質問内容・雰囲気など"></textarea></label>
+    ${sel("outcome", RV_OUTCOME, "結果")}
+    <label>全体の感想・後輩へのアドバイス
+      <textarea name="body" rows="3" placeholder="準備しておくと良いこと、商流のどこに惹かれたか など"></textarea></label>
+    <label class="rv-consent"><input type="checkbox" name="consent" required>
+      <span><a href="#/guidelines" target="_blank">投稿ガイドライン</a>を読み、同意します。個人が特定される情報・誹謗中傷・守秘義務(NDA)に反する内容は書きません。</span></label>
+    <button type="submit" id="rv-submit">投稿する(運営確認後に公開)</button>
+    <p id="rv-msg" class="gate-msg" hidden></p>
+  </form>`;
+}
+
+async function renderReviews(code) {
+  const all = await loadAllCompanies().catch(() => []);
+  const c = all.find((x) => x.code === code);
+  const name = c?.name ?? code;
+  const reviews = await listReviews(code);
+  const approved = reviews.filter((r) => r.status === "approved");
+  const minePending = reviews.filter((r) => r.status === "pending");
+  const loggedIn = isMember();
+  app.innerHTML = `
+    ${globalNavHTML(true)}
+    <div class="home"><div class="home-inner reviews">
+      <div class="hero">
+        <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="60" height="60">
+        <h1>${esc(name)} の選考体験</h1>
+        <p class="sub">${c?.industryName ? `<a href="#/i/${esc(c.industry)}">${esc(c.industryName)}の商流マップ</a>` : "みんなの選考体験を共有"}</p>
+      </div>
+      <div class="rv-actions">
+        <button id="rv-new" class="rv-new-btn">${loggedIn ? "選考体験を書く" : "ログインして書く"}</button>
+        <a href="#/guidelines" class="rv-guide-link">投稿ガイドライン</a>
+      </div>
+      <div id="rv-form-wrap" hidden></div>
+      <section class="about-sec">
+        <h2>みんなの選考体験(${approved.length}件)</h2>
+        ${approved.length ? approved.map(reviewCardHTML).join("")
+          : `<p class="rv-empty">まだ投稿がありません。あなたの体験が後輩の役に立ちます。最初の1件を書いてみませんか?</p>`}
+      </section>
+      ${minePending.length ? `<section class="about-sec"><h2>あなたの承認待ち(${minePending.length}件)</h2>
+        <p class="rv-note">運営の確認後に公開されます。</p>${minePending.map(reviewCardHTML).join("")}</section>` : ""}
+      <div class="home-foot">${c?.industry ? `<a href="#/i/${esc(c.industry)}">← ${esc(c.industryName)}の商流へ</a> ・ ` : ""}<a href="#/">トップへ</a></div>
+    </div></div>`;
+
+  // 書くボタン
+  document.getElementById("rv-new").addEventListener("click", () => {
+    if (!isMember()) { location.hash = "#/register"; return; }
+    const wrap = document.getElementById("rv-form-wrap");
+    if (!wrap.hidden) { wrap.hidden = true; wrap.innerHTML = ""; return; }
+    wrap.innerHTML = reviewFormHTML();
+    wrap.hidden = false;
+    wrap.querySelector("textarea")?.focus();
+    document.getElementById("rv-form").addEventListener("submit", async (ev) => {
+      ev.preventDefault();
+      const fd = new FormData(ev.target);
+      const msg = document.getElementById("rv-msg");
+      const show = (t, k = "err") => { msg.textContent = t; msg.hidden = false; msg.className = `gate-msg ${k}`; };
+      if (!fd.get("consent")) { show("ガイドラインへの同意が必要です。"); return; }
+      document.getElementById("rv-submit").disabled = true; show("投稿中…", "info");
+      const res = await submitReview({
+        company: name, code, industry: c?.industry ?? null,
+        grad_year: fd.get("grad_year") || null, job_category: fd.get("job_category") || null,
+        route: fd.get("route") || null, outcome: fd.get("outcome") || null,
+        details: { es: fd.get("es") || "", gd: fd.get("gd") || "", interview: fd.get("interview") || "" },
+        body: fd.get("body") || "",
+      });
+      if (!res.ok) { document.getElementById("rv-submit").disabled = false; show(`投稿できませんでした: ${res.error}`); return; }
+      show("投稿ありがとうございます。運営の確認後に公開されます。", "info");
+      setTimeout(() => renderReviews(code), 1200);
+    });
+  });
+  // 通報・取り下げ(委譲)
+  app.querySelector(".reviews").addEventListener("click", async (ev) => {
+    const rep = ev.target.closest(".rv-report");
+    if (rep) {
+      if (!isMember()) { location.hash = "#/register"; return; }
+      if (!confirm("この投稿を運営に通報しますか?(誹謗中傷・虚偽・個人特定など)")) return;
+      await reportReview(rep.dataset.id, "ユーザー通報");
+      rep.textContent = "通報しました"; rep.disabled = true;
+      return;
+    }
+    const del = ev.target.closest(".rv-del");
+    if (del) {
+      if (!confirm("この投稿を取り下げますか?")) return;
+      await deleteReview(del.dataset.id);
+      renderReviews(code);
+    }
+  });
+  wireGlobalNav();
+}
+
+function renderGuidelines() {
+  app.innerHTML = `
+    ${globalNavHTML(true)}
+    <div class="home"><div class="home-inner">
+      <div class="hero"><h1>選考体験 投稿ガイドライン</h1></div>
+      <section class="about-sec">
+        <p>選考体験は、これから就活する仲間のための情報共有です。安心して使える場にするため、次のルールを守ってください。</p>
+        <h2>禁止事項</h2>
+        <p>・特定の個人が分かる情報(面接官・社員・OB/OGの実名や部署など)<br>
+        ・事実に反する内容、誹謗中傷、差別的表現<br>
+        ・守秘義務(NDA)・選考課題の非公開指定に反する内容<br>
+        ・他サイトからの転載、宣伝・勧誘</p>
+        <h2>運営について</h2>
+        <p>・投稿は運営の確認後に公開されます(事前承認)。<br>
+        ・公開後も、通報や企業・個人からの申し出により、内容を非表示・削除する場合があります。<br>
+        ・掲載内容は投稿者個人の体験・意見であり、企業の公式見解や事実の保証ではありません。参考情報としてご利用ください。</p>
+        <h2>お問い合わせ・削除依頼</h2>
+        <p>掲載内容についてのご連絡は <a href="mailto:yuhei.n@fansojp.com">yuhei.n@fansojp.com</a> まで。速やかに対応します。</p>
+        <div class="home-foot"><a href="#/">← トップへ戻る</a></div>
+      </section>
+    </div></div>`;
+  wireGlobalNav();
+}
+
 async function route() {
   if (destroyMap) { destroyMap(); destroyMap = null; }
   const hash = location.hash || "#/";
   try {
     const m = hash.match(/^#\/i\/([a-z0-9_]+)/);
+    const rv = hash.match(/^#\/reviews\/([A-Za-z0-9]+)/);
     if (m) await renderIndustry(m[1]);
+    else if (rv) await renderReviews(rv[1]);
+    else if (hash.startsWith("#/guidelines")) renderGuidelines();
     else if (hash.startsWith("#/rank")) await renderRanking();
     else if (hash.startsWith("#/register")) await renderGate(null);
     else if (hash.startsWith("#/my")) await renderMy();
