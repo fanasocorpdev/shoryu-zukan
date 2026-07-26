@@ -1,6 +1,6 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607262700";
-import { initAuth, isLoggedIn, authUser, signUp, signIn, signOut, resetPassword, syncNotes, sb } from "./auth.js?v=202607262700";
+import { createMapView } from "./mapview.js?v=202607262800";
+import { initAuth, isLoggedIn, authUser, signUp, signIn, signOut, resetPassword, syncNotes, sb } from "./auth.js?v=202607262800";
 
 // メモが変わったら(ログイン中は)Supabaseへ同期。連打をまとめる。
 let _syncTimer = null;
@@ -126,6 +126,8 @@ const MEMBER_KEY = "akinai_member";
 const isMember = () => isLoggedIn();
 
 async function renderGate(id) {
+  // 既にログイン済みなら登録画面は出さず、目的地(業界 or マイマップ)へ
+  if (isMember()) { location.hash = id ? `#/i/${id}` : "#/my"; return; }
   const [idx, data] = await Promise.all([loadIndex(), id ? loadIndustry(id) : Promise.resolve(null)]);
   const opens = await Promise.all((idx.open_industries ?? []).map(loadIndustry));
   const allParents = (await Promise.all(idx.industries.map(loadIndustry)))
@@ -300,7 +302,9 @@ async function renderGate(id) {
     if (res.needsConfirm) {
       showMsg(`確認メールを ${email} に送りました。メール内のリンクを開くと登録が完了し、全業界が見られます。`, "info");
     } else {
-      route(); // 確認不要設定なら即ログイン
+      // 確認不要設定なら即ログイン → 登録画面に留まらず目的地へ
+      location.hash = id ? `#/i/${id}` : "#/my";
+      route();
     }
   });
 
@@ -346,6 +350,7 @@ function renderLoginCard(id) {
         : `ログインできませんでした: ${res.error}`;
       showMsg(m); return;
     }
+    location.hash = id ? `#/i/${id}` : "#/my";
     route();
   });
   document.getElementById("to-signup").addEventListener("click", (ev) => { ev.preventDefault(); renderGate(id); });
@@ -988,7 +993,7 @@ async function renderIndustry(id) {
     const g = data.meta.guide;
     const card = document.createElement("details");
     card.className = "guide-card";
-    card.open = localStorage.getItem("guideCollapsed") !== "1";
+    card.open = localStorage.getItem("guideCollapsed") === "0"; // 既定は閉じた状態
     card.innerHTML = `
       <summary>この業界の歩き方</summary>
       <p><strong>稼ぎ方</strong> ${g.earn}</p>
@@ -1070,8 +1075,8 @@ function timeAgo(iso) {
 async function renderIndustryNews(wrap, id) {
   const card = document.createElement("details");
   card.className = "news-card";
-  card.open = localStorage.getItem("newsCollapsed") !== "1";
-  card.innerHTML = `<summary>業界注目ニュース5選</summary>
+  card.open = localStorage.getItem("newsCollapsed") !== "1"; // 既定は開いた状態
+  card.innerHTML = `<summary>業界週間ニュース</summary>
     <div class="news-body"><p class="news-loading">読み込み中…</p></div>`;
   card.addEventListener("toggle", () =>
     localStorage.setItem("newsCollapsed", card.open ? "0" : "1"));
