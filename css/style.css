@@ -516,7 +516,6 @@ svg.focus .edge.lit path.line { stroke-width: 3.6; }
 .guide-card summary {
   cursor: pointer; padding: 10px 14px; font-weight: 700; color: var(--ink);
   list-style: none; user-select: none; min-height: 24px;
-  font-size: .95rem; letter-spacing: .04em;
 }
 .guide-card summary::-webkit-details-marker { display: none; }
 .guide-card summary::after { content: "▸"; float: right; color: var(--ink-soft); transition: transform .15s; }
@@ -550,7 +549,7 @@ svg.focus .edge.lit path.line { stroke-width: 3.6; }
 }
 .news-card summary {
   cursor: pointer; padding: 10px 14px; font-weight: 700; color: var(--ink);
-  list-style: none; user-select: none; letter-spacing: .04em; font-size: .95rem;
+  list-style: none; user-select: none; letter-spacing: .04em;
   position: sticky; top: 0; background: var(--grad-a); z-index: 1;
   border-bottom: 1px solid var(--paper-edge);
 }
@@ -1085,7 +1084,7 @@ marker[id="arrow-opex"] path { fill: var(--opex); }
   display: block; font-size: .7rem; letter-spacing: .14em;
   color: var(--gold); margin-bottom: 3px; font-family: inherit;
 }
-.guide-card summary { letter-spacing: .04em; }
+.guide-card summary { letter-spacing: .06em; }
 .card .journey-tag, .card .access-tag { letter-spacing: .03em; }
 .topbar .home-link { letter-spacing: .04em; }
 
