@@ -86,6 +86,7 @@ export async function resetPassword(email) {
 // テーブル未作成のまま true にしてもエラーは握りつぶす設計だが、初回はユーザー同席で検証すること。
 export const SYNC_ENABLED = true;
 const NOTES_KEY = "akinai_notes";
+const NOTES_DEL_KEY = "akinai_notes_deleted";
 const localNotes = () => { try { return JSON.parse(localStorage.getItem(NOTES_KEY) ?? "{}"); } catch { return {}; } };
 
 // ログイン中のユーザーの career_notes とローカルを last-write-wins でマージする。
@@ -96,11 +97,16 @@ export async function syncNotes() {
     const local = localNotes();
     const { data: remote, error } = await client.from("career_notes").select("*");
     if (error) return; // テーブル未作成等は無視(ローカルは保持)
+    const deleted = (() => { try { return JSON.parse(localStorage.getItem(NOTES_DEL_KEY) ?? "{}"); } catch { return {}; } })();
     const remoteByName = Object.fromEntries((remote ?? []).map((r) => [r.company, r]));
     const merged = { ...local };
     const toUpsert = [];
+    const toDelete = [];
     const t = (v) => (v ? new Date(v).getTime() : 0);
+    // リモート→ローカル(墓標が新しければ復活させない)
     for (const r of remote ?? []) {
+      const delTime = deleted[r.company];
+      if (delTime && t(delTime) >= t(r.updated_at)) { toDelete.push(r.company); delete merged[r.company]; continue; }
       const l = local[r.company];
       if (!l || t(r.updated_at) > t(l.updated)) {
         merged[r.company] = {
@@ -110,6 +116,7 @@ export async function syncNotes() {
         };
       }
     }
+    // ローカル→リモート(ローカルが新しい or リモートに無い)
     for (const [name, l] of Object.entries(local)) {
       const r = remoteByName[name];
       if (!r || t(l.updated) > t(r.updated_at)) {
@@ -122,6 +129,9 @@ export async function syncNotes() {
       }
     }
     if (toUpsert.length) await client.from("career_notes").upsert(toUpsert);
+    for (const name of toDelete) {
+      await client.from("career_notes").delete().eq("user_id", _user.id).eq("company", name);
+    }
     localStorage.setItem(NOTES_KEY, JSON.stringify(merged));
     window.dispatchEvent(new CustomEvent("akinai:notes-changed"));
   } catch { /* 同期失敗は無視 */ }

@@ -11,14 +11,23 @@ const cmpHas = (name) => cmpList().some((x) => x.name === name);
 // 商流キャリア地図: 企業ごとの「メモ+志望動機メモ」を蓄積する(スイッチングコストの芯)。
 // 端末内はlocalStorage、ログイン時は将来Supabaseへ同期(store.js)。社名をキーにする。
 const NOTES_KEY = "akinai_notes";
+const NOTES_DEL_KEY = "akinai_notes_deleted"; // 削除の墓標(同期でリモートも消すため)
 const notesAll = () => { try { return JSON.parse(localStorage.getItem(NOTES_KEY) ?? "{}"); } catch { return {}; } };
+const notesDel = () => { try { return JSON.parse(localStorage.getItem(NOTES_DEL_KEY) ?? "{}"); } catch { return {}; } };
 const noteFor = (name) => notesAll()[name] ?? null;
 const hasNote = (name) => { const n = noteFor(name); return !!(n && (n.note || n.aspiration)); };
 function saveNoteFor(name, rec) {
   const all = notesAll();
-  if (!rec || (!rec.note && !rec.aspiration)) delete all[name];
-  else all[name] = { ...all[name], ...rec, updated: new Date().toISOString() };
+  const del = notesDel();
+  if (!rec || (!rec.note && !rec.aspiration)) {
+    delete all[name];
+    del[name] = new Date().toISOString(); // 墓標を立てる
+  } else {
+    all[name] = { ...all[name], ...rec, updated: new Date().toISOString() };
+    delete del[name]; // 再作成したら墓標を消す
+  }
   localStorage.setItem(NOTES_KEY, JSON.stringify(all));
+  localStorage.setItem(NOTES_DEL_KEY, JSON.stringify(del));
   window.dispatchEvent(new CustomEvent("akinai:notes-changed"));
 }
 

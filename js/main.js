@@ -1,6 +1,6 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607262100";
-import { initAuth, isLoggedIn, authUser, signUp, signIn, signOut, resetPassword, syncNotes } from "./auth.js?v=202607262100";
+import { createMapView } from "./mapview.js?v=202607262200";
+import { initAuth, isLoggedIn, authUser, signUp, signIn, signOut, resetPassword, syncNotes } from "./auth.js?v=202607262200";
 
 // メモが変わったら(ログイン中は)Supabaseへ同期。連打をまとめる。
 let _syncTimer = null;
@@ -394,9 +394,14 @@ async function renderMy() {
   // 商流キャリア地図: メモ削除・まとめコピー
   app.querySelectorAll(".cm-del").forEach((b) =>
     b.addEventListener("click", () => {
+      const name = b.dataset.name;
       const all = JSON.parse(localStorage.getItem("akinai_notes") ?? "{}");
-      delete all[b.dataset.name];
+      delete all[name];
       localStorage.setItem("akinai_notes", JSON.stringify(all));
+      const del = JSON.parse(localStorage.getItem("akinai_notes_deleted") ?? "{}");
+      del[name] = new Date().toISOString();
+      localStorage.setItem("akinai_notes_deleted", JSON.stringify(del));
+      window.dispatchEvent(new CustomEvent("akinai:notes-changed")); // ログイン中はリモートも削除
       renderMy();
     }));
   document.getElementById("cm-copy")?.addEventListener("click", () => {
