@@ -1,6 +1,6 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607262200";
-import { initAuth, isLoggedIn, authUser, signUp, signIn, signOut, resetPassword, syncNotes } from "./auth.js?v=202607262200";
+import { createMapView } from "./mapview.js?v=202607262300";
+import { initAuth, isLoggedIn, authUser, signUp, signIn, signOut, resetPassword, syncNotes } from "./auth.js?v=202607262300";
 
 // メモが変わったら(ログイン中は)Supabaseへ同期。連打をまとめる。
 let _syncTimer = null;
@@ -52,17 +52,14 @@ async function coverageHTML() {
     const c = await fetchJSON("data/reference/coverage-summary.json");
     const asOf = String(c.as_of).replace(/^(\d{4})(\d{2})(\d{2})$/, "$1-$2-$3");
     const t5 = c.topix500;
-    return `<a class="coverage" href="#/all" title="全銘柄索引を見る">
+    return `<div class="coverage">
       <div class="cov-label">国内上場企業カバー率
-        <strong>${c.percent}%</strong>(${c.covered.toLocaleString()} / ${c.total.toLocaleString()}社・JPX ${asOf}基準)${
-          c.unsorted ? `<br><span style="font-size:.72rem">うち分類確定 ${c.classified.toLocaleString()}社 / 分類精査中 ${c.unsorted.toLocaleString()}社</span>` : ""
-        }</div>
+        <strong>${c.percent}%</strong>(${c.covered.toLocaleString()} / ${c.total.toLocaleString()}社・JPX ${asOf}基準)</div>
       <div class="cov-bar"><div class="cov-fill" style="width:${Math.max(c.percent, 1.5)}%"></div></div>
       ${t5 ? `<div class="cov-label" style="margin-top:8px">TOPIX500(大型・中型株)
         <strong>${t5.percent}%</strong>(${t5.covered} / ${t5.total}社)</div>
       <div class="cov-bar"><div class="cov-fill" style="width:${Math.max(t5.percent, 1.5)}%"></div></div>` : ""}
-      <div class="cov-more">全銘柄索引 →</div>
-    </a>`;
+    </div>`;
   } catch {
     return "";
   }
@@ -680,7 +677,6 @@ function globalNavHTML(withBrand = false) {
     <header class="gnav">
       ${withBrand ? `<a class="gnav-brand" href="#/"><img src="assets/emblem.svg" alt="" width="26" height="26"><span>あきないマップ</span></a>` : `<a class="gnav-brand" href="#/">← トップ</a>`}
       <nav class="gnav-links">
-        <a href="#/all">索引</a>
         <a href="#/rank">ランキング</a>
         <a href="#/my">マイマップ</a>
       </nav>
@@ -731,7 +727,7 @@ async function wireGlobalNav() {
     if (!code) { const hit = [...nameByCode].find(([n]) => n.includes(q)); code = hit?.[1]; }
     const ind = code ? coveredMap.get(code) : null;
     if (ind) location.hash = `#/i/${ind}`;
-    else location.hash = "#/all";
+    else location.hash = "#/rank";
   };
   input.addEventListener("change", go);
   input.addEventListener("keydown", (e) => { if (e.key === "Enter") go(); });
@@ -802,71 +798,6 @@ async function renderHome() {
   wireGlobalNav();
 }
 
-async function renderDirectory() {
-  const [jpx, coverage, { industries }] = await Promise.all([
-    fetchJSON("data/reference/jpx_listed.json"),
-    fetchJSON("data/reference/coverage.json").catch(() => null),
-    loadIndex(),
-  ]);
-  const nameById = {};
-  for (const iid of industries) nameById[iid] = (await loadIndustry(iid)).meta.industry_name;
-
-  const coveredMap = new Map();
-  for (const c of coverage?.covered_list ?? []) coveredMap.set(c.code, c.industries);
-
-  const bySector = new Map();
-  for (const co of jpx.companies) {
-    if (!bySector.has(co.sector33)) bySector.set(co.sector33, []);
-    bySector.get(co.sector33).push(co);
-  }
-  const sectors = [...bySector.entries()].sort((a, b) => b[1].length - a[1].length);
-
-  const chip = (co) => {
-    const inds = coveredMap.get(co.code);
-    if (inds?.length) {
-      return `<a class="dir-chip covered" href="#/i/${inds[0]}" title="${nameById[inds[0]] ?? inds[0]}のマップに掲載">${co.name} <span class="dir-code">${co.code}</span></a>`;
-    }
-    return `<span class="dir-chip" title="${co.sector33} / ${co.market}">${co.name} <span class="dir-code">${co.code}</span></span>`;
-  };
-
-  app.innerHTML = `
-    <div class="home"><div class="home-inner directory">
-      <div class="hero">
-        <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="72" height="72">
-        <h1>全銘柄索引</h1>
-        <p class="sub">国内上場 ${jpx.companies.length.toLocaleString()}社(JPX ${String(jpx.as_of).replace(/^(\d{4})(\d{2})(\d{2})$/, "$1-$2-$3")}基準)。
-        <span class="dir-legend"><span class="dir-chip covered demo">金色=マップ掲載済み(クリックで地図へ)</span></span></p>
-        <input id="dir-search" type="search" placeholder="社名・証券コードで検索" autocomplete="off">
-      </div>
-      <div id="dir-sections">
-        ${sectors
-          .map(([sector, list]) => {
-            const covered = list.filter((c) => coveredMap.has(c.code)).length;
-            return `<details class="dir-sec" ${covered ? "" : ""}>
-              <summary>${sector} <span class="dir-count">${covered}/${list.length}社</span></summary>
-              <div class="dir-chips">${list.map(chip).join("")}</div>
-            </details>`;
-          })
-          .join("")}
-      </div>
-      <div class="home-foot"><a href="#/">← マップトップへ戻る</a></div>
-    </div></div>`;
-
-  const search = document.getElementById("dir-search");
-  search.addEventListener("input", () => {
-    const q = search.value.trim().toLowerCase();
-    for (const sec of document.querySelectorAll(".dir-sec")) {
-      let visible = 0;
-      for (const c of sec.querySelectorAll(".dir-chip:not(.demo)")) {
-        const hit = !q || c.textContent.toLowerCase().includes(q);
-        c.style.display = hit ? "" : "none";
-        if (hit) visible++;
-      }
-      sec.style.display = visible ? "" : "none";
-      if (q) sec.open = true;
-    }
-  });
-}
 
 function renderAbout() {
   app.innerHTML = `
@@ -948,7 +879,6 @@ async function renderIndustry(id) {
     <div class="mapapp">
       <header class="topbar">
         <a class="home-link" href="#/">トップ</a>
-        <a class="home-link" href="#/all" title="全銘柄索引">索引</a>
         <a class="home-link" href="#/rank" title="企業ランキング">ランキング</a>
         <a class="home-link" href="#/my" title="マイマップ">マイマップ</a>
         ${parent ? `<a class="home-link parent-link" href="#/i/${parent.meta.industry_id}">⬆ ${parent.meta.industry_name}</a>` : ""}
@@ -1126,7 +1056,6 @@ async function route() {
     else if (hash.startsWith("#/operator")) renderOperator();
     else if (hash.startsWith("#/terms")) renderTerms();
     else if (hash.startsWith("#/about")) renderAbout();
-    else if (hash.startsWith("#/all")) await renderDirectory();
     else await renderHome();
   } catch (err) {
     console.error(err);
