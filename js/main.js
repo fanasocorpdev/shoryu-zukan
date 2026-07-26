@@ -1,6 +1,6 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607262800";
-import { initAuth, isLoggedIn, authUser, signUp, signIn, signOut, resetPassword, syncNotes, sb } from "./auth.js?v=202607262800";
+import { createMapView } from "./mapview.js?v=202607262900";
+import { initAuth, isLoggedIn, authUser, signUp, signIn, signOut, resetPassword, syncNotes, sb } from "./auth.js?v=202607262900";
 
 // メモが変わったら(ログイン中は)Supabaseへ同期。連打をまとめる。
 let _syncTimer = null;
@@ -735,6 +735,7 @@ function globalNavHTML(withBrand = false) {
     <header class="gnav">
       ${withBrand ? `<a class="gnav-brand" href="#/"><img src="assets/emblem.svg" alt="" width="26" height="26"><span>あきないマップ</span></a>` : `<a class="gnav-brand" href="#/">← トップ</a>`}
       <nav class="gnav-links">
+        <a href="#/review">選考体験を書く</a>
         <a href="#/rank">ランキング</a>
         <a href="#/my">マイマップ</a>
         ${isAdmin() ? `<a href="#/admin">運営</a>` : ""}
@@ -1150,6 +1151,43 @@ function reviewFormHTML() {
   </form>`;
 }
 
+// 選考体験を書く: 企業を選んで、その企業のレビュー投稿へ移動する
+async function renderReviewNew() {
+  const all = await loadAllCompanies().catch(() => []);
+  const withCode = all.filter((c) => c.code && c.name);
+  const nameToCode = new Map(withCode.map((c) => [c.name, c.code]));
+  app.innerHTML = `
+    ${globalNavHTML(true)}
+    <div class="home"><div class="home-inner">
+      <div class="hero">
+        <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="60" height="60">
+        <h1>選考体験を書く</h1>
+        <p class="sub">受けた企業を選んで、選考の流れ・ES・面接を共有できます。あなたの体験が後輩の役に立ちます。</p>
+      </div>
+      <div class="rv-pick">
+        <input id="rv-pick-input" type="search" list="rv-pick-list" placeholder="企業名・証券コードで検索(例: トヨタ / 7203)" autocomplete="off">
+        <datalist id="rv-pick-list">${withCode.map((c) => `<option value="${esc(c.name)}">`).join("")}</datalist>
+        <button id="rv-pick-go" class="rv-new-btn">この企業の選考体験を書く →</button>
+      </div>
+      <p class="rv-note">${isMember() ? "投稿は運営の確認後に公開されます。" : "※投稿にはログインが必要です。企業を選ぶとログイン画面に進みます。"}
+        <a href="#/guidelines">投稿ガイドライン</a></p>
+      <div class="home-foot"><a href="#/">← トップへ</a></div>
+    </div></div>`;
+  const input = document.getElementById("rv-pick-input");
+  const go = () => {
+    const q = input.value.trim();
+    if (!q) return;
+    let code = nameToCode.get(q) ?? (/^\d{4}[A-Z0-9]?$/.test(q) ? q : null);
+    if (!code) { const hit = [...nameToCode].find(([n]) => n.includes(q)); code = hit?.[1]; }
+    if (code) location.hash = `#/reviews/${code}?write=1`;
+    else { input.classList.add("miss"); }
+  };
+  document.getElementById("rv-pick-go").addEventListener("click", go);
+  input.addEventListener("change", go);
+  input.addEventListener("keydown", (e) => { if (e.key === "Enter") go(); });
+  wireGlobalNav();
+}
+
 async function renderReviews(code) {
   const all = await loadAllCompanies().catch(() => []);
   const c = all.find((x) => x.code === code);
@@ -1225,6 +1263,8 @@ async function renderReviews(code) {
       renderReviews(code);
     }
   });
+  // 「選考体験を書く」からの遷移(?write=1)ならフォームを自動で開く
+  if (location.hash.includes("write=1") && isMember()) document.getElementById("rv-new")?.click();
   wireGlobalNav();
 }
 
@@ -1345,6 +1385,7 @@ async function route() {
     const rv = hash.match(/^#\/reviews\/([A-Za-z0-9]+)/);
     if (m) await renderIndustry(m[1]);
     else if (rv) await renderReviews(rv[1]);
+    else if (hash.startsWith("#/review")) await renderReviewNew();
     else if (hash.startsWith("#/admin")) await renderAdmin();
     else if (hash.startsWith("#/guidelines")) renderGuidelines();
     else if (hash.startsWith("#/rank")) await renderRanking();
