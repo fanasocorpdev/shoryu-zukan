@@ -1,6 +1,13 @@
 // あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
-import { createMapView } from "./mapview.js?v=202607262000";
-import { initAuth, isLoggedIn, authUser, signUp, signIn, signOut, resetPassword } from "./auth.js?v=202607262000";
+import { createMapView } from "./mapview.js?v=202607262100";
+import { initAuth, isLoggedIn, authUser, signUp, signIn, signOut, resetPassword, syncNotes } from "./auth.js?v=202607262100";
+
+// メモが変わったら(ログイン中は)Supabaseへ同期。連打をまとめる。
+let _syncTimer = null;
+window.addEventListener("akinai:notes-changed", () => {
+  clearTimeout(_syncTimer);
+  _syncTimer = setTimeout(() => { if (isLoggedIn()) syncNotes(); }, 1500);
+});
 
 const app = document.getElementById("app");
 
