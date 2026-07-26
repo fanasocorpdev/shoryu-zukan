@@ -1468,6 +1468,26 @@ async function route() {
   }
   // クッキーレス解析(index.htmlでGoatCounterを有効化した場合のみ動く)
   window.goatcounter?.count?.({ path: location.pathname + (location.hash || "#/") });
+  sendPageview(hash);
+}
+
+// 一次データのアクセス計測(クッキーレス・個人情報なし)。register-workerの /pv に
+// 経路(hash)と参照元だけをビーコン送信し、D1のpageviewsに記録する。集計は
+// `wrangler d1 execute akinaimap-db --remote --command "..."` で行う。
+let _lastPv = "";
+function sendPageview(hash) {
+  const host = location.hostname;
+  if (host === "localhost" || host === "127.0.0.1" || host === "") return; // 本番のみ計測
+  if (hash === _lastPv) return; // 同一経路の連続重複を防ぐ
+  _lastPv = hash;
+  const ep = window.AKINAI_CONFIG?.registrationEndpoint;
+  if (!ep) return;
+  try {
+    const url = ep.replace(/\/?$/, "/") + "pv";
+    const body = JSON.stringify({ p: hash.slice(0, 120), r: (document.referrer || "").slice(0, 200) });
+    if (navigator.sendBeacon) navigator.sendBeacon(url, body);
+    else fetch(url, { method: "POST", body, keepalive: true }).catch(() => {});
+  } catch { /* 計測失敗はUIに影響させない */ }
 }
 
 window.addEventListener("hashchange", route);
