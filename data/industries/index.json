@@ -39,7 +39,6 @@
   ],
   "open_industries": [
     "datacenter",
-    "convenience_store",
-    "automotive"
+    "convenience_store"
   ]
 }
