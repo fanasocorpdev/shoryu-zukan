@@ -1,6 +1,6 @@
 # データモデル規約
 
-あきないマップのグラフデータは `data/schema.json`(JSON Schema)に従う。
+Akinaiマップのグラフデータは `data/schema.json`(JSON Schema)に従う。
 業界ごとに1ファイル: `data/industries/<industry_id>.json`。
 
 ## 構造
@@ -93,7 +93,7 @@
    (日付付きIR確定値を持つ企業は自動スキップ)
 
 上記1〜6は毎月5日朝にクラウドエージェント(claude.ai/code/routines の
-「あきないマップ 月次JPXデータメンテナンス」)が自動実行し、GitHubリポジトリへPRを作る。
+「Akinaiマップ 月次JPXデータメンテナンス」)が自動実行し、GitHubリポジトリへPRを作る。
 PRをマージしたら、ローカルへは次で取り込む:
 
 ```bash

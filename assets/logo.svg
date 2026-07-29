@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 150" role="img" aria-label="あきないマップ — 日本の商流が見える地図">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 150" role="img" aria-label="Akinaiマップ — 日本の商流が見える地図">
   <defs>
     <radialGradient id="paper" cx="50%" cy="42%" r="65%">
       <stop offset="0%" stop-color="#ffffff"/>
@@ -32,6 +32,6 @@
     <circle cx="60" cy="60" r="6" fill="#0f9182" stroke="#3d4b58" stroke-width="1.5"/>
     <circle cx="60" cy="60" r="2" fill="#3d4b58"/>
   </g>
-  <text x="168" y="88" font-family="'Hiragino Kaku Gothic ProN','Yu Gothic UI',sans-serif" font-size="62" font-weight="700" fill="#1f2a33" letter-spacing="4">あきないマップ</text>
+  <text x="168" y="88" font-family="'Hiragino Kaku Gothic ProN','Yu Gothic UI',sans-serif" font-size="62" font-weight="700" fill="#1f2a33" letter-spacing="4">Akinaiマップ</text>
   <text x="172" y="128" font-family="'Yu Gothic UI','Hiragino Sans',sans-serif" font-size="22" fill="#8aa0b2" letter-spacing="6">日本の商流が見える地図</text>
 </svg>

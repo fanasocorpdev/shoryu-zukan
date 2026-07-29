@@ -1,4 +1,4 @@
-// あきないマップ — 認証(Supabase Auth / メール+パスワード)
+// Akinaiマップ — 認証(Supabase Auth / メール+パスワード)
 // パスワードはSupabase側で安全に保管(当サイトは生パスワードを保持しない)。
 // セッションはlocalStorageに保持し自動更新するため、同一端末では長期間ログイン状態が続く。
 // window.supabase は index.html で読み込むUMDが提供する。

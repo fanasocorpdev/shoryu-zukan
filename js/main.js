@@ -1,4 +1,4 @@
-// あきないマップ — エントリポイント(ハッシュルーティング + トップページ)
+// Akinaiマップ — エントリポイント(ハッシュルーティング + トップページ)
 import { createMapView } from "./mapview.js?v=202607263100";
 import { initAuth, isLoggedIn, authUser, signUp, signIn, signOut, resetPassword, syncNotes, sb } from "./auth.js?v=202607263100";
 
@@ -651,7 +651,7 @@ function renderPrivacy() {
       </section>
       <section class="about-sec">
         <h2>スカウトと企業への開示</h2>
-        <p>スカウト受信を希望(チェック)された方のプロフィールは、あきないマップの掲載企業がスカウト目的で閲覧できます。
+        <p>スカウト受信を希望(チェック)された方のプロフィールは、Akinaiマップの掲載企業がスカウト目的で閲覧できます。
         希望されない方の情報が企業に個別開示されることはありません。スカウトの希望は
         <a href="mailto:yuhei.n@fansojp.com?subject=%E3%82%B9%E3%82%AB%E3%82%A6%E3%83%88%E8%A8%AD%E5%AE%9A%E5%A4%89%E6%9B%B4">メール</a>でいつでも変更・停止できます。</p>
       </section>
@@ -682,7 +682,7 @@ function renderOperator() {
       </div>
       <section class="about-sec">
         <table class="operator-table">
-          <tr><th>サービス名</th><td>あきないマップ</td></tr>
+          <tr><th>サービス名</th><td>Akinaiマップ</td></tr>
           <tr><th>運営者</th><td>株式会社Fanaso</td></tr>
           <tr><th>代表者</th><td>中西 悠平</td></tr>
           <tr><th>連絡先</th><td><a href="mailto:yuhei.n@fansojp.com">yuhei.n@fansojp.com</a><br>
@@ -693,7 +693,7 @@ function renderOperator() {
             詳細はお問い合わせください。</td></tr>
         </table>
       </section>
-      <div class="home-foot"><a href="#/about">あきないマップについて</a> ・ <a href="#/">トップへ戻る</a></div>
+      <div class="home-foot"><a href="#/about">Akinaiマップについて</a> ・ <a href="#/">トップへ戻る</a></div>
     </div></div>`;
   wireGlobalNav();
 }
@@ -707,7 +707,7 @@ function renderTerms() {
         <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="72" height="72">
         <h1>利用規約</h1>
       </div>
-      <p class="terms-lead">この利用規約(以下「本規約」)は、株式会社Fanaso(以下「当社」)が提供するサービス「あきないマップ」(以下「本サービス」)の利用条件を定めるものです。利用者は本規約に同意のうえ本サービスを利用するものとします。</p>
+      <p class="terms-lead">この利用規約(以下「本規約」)は、株式会社Fanaso(以下「当社」)が提供するサービス「Akinaiマップ」(以下「本サービス」)の利用条件を定めるものです。利用者は本規約に同意のうえ本サービスを利用するものとします。</p>
       ${sec("第1条(適用)", "<p>本規約は、本サービスの提供および利用に関する当社と利用者との一切の関係に適用されます。</p>")}
       ${sec("第2条(会員登録)", "<p>利用者は、当社の定める方法により正確な情報を登録して会員登録を行うものとします。登録情報に虚偽があった場合、当社は登録の取消しまたは利用停止を行うことができます。</p>")}
       ${sec("第3条(掲載情報)", "<p>本サービスが掲載する企業情報・市場規模・商流図等は、官公庁統計・企業のIR・プレスリリース等の公開情報にもとづき作成した参考情報であり、正確性・完全性・最新性を保証するものではありません。投資判断・就職や取引の判断は利用者ご自身の責任で行ってください。</p>")}
@@ -733,7 +733,7 @@ function centerIcon(data) {
 function globalNavHTML(withBrand = false) {
   return `
     <header class="gnav">
-      ${withBrand ? `<a class="gnav-brand" href="#/"><img src="assets/emblem.svg" alt="" width="26" height="26"><span>あきないマップ</span></a>` : `<a class="gnav-brand" href="#/">← トップ</a>`}
+      ${withBrand ? `<a class="gnav-brand" href="#/"><img src="assets/emblem.svg" alt="" width="26" height="26"><span>Akinaiマップ</span></a>` : `<a class="gnav-brand" href="#/">← トップ</a>`}
       <nav class="gnav-links">
         <a href="#/review">レビューを書く</a>
         <a href="#/rank">ランキング</a>
@@ -761,7 +761,7 @@ async function wireGlobalNav() {
   const share = document.getElementById("gnav-share");
   if (share) share.addEventListener("click", async () => {
     const url = "https://akinaimap.com/";
-    const data = { title: "あきないマップ — 日本の商流が見える地図", url };
+    const data = { title: "Akinaiマップ — 日本の商流が見える地図", url };
     if (navigator.share) { try { await navigator.share(data); } catch { /* キャンセル */ } }
     else { await navigator.clipboard.writeText(url); share.textContent = "✓ コピー"; setTimeout(() => (share.textContent = "シェア"), 1500); }
   });
@@ -823,7 +823,7 @@ async function renderHome() {
     <div class="home"><div class="home-inner">
       <div class="hero">
         <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="84" height="84">
-        <h1>あきないマップ</h1>
+        <h1>Akinaiマップ</h1>
         <p class="sub">業界のカネとモノの流れを、冒険する地図に。<br>
         誰が誰に、何を届けて、いくら払うのか — ズームして確かめよう。<br>
         <span class="hero-uses">就活・転職の業界研究に。個人投資家の銘柄探しに。</span></p>
@@ -842,7 +842,7 @@ async function renderHome() {
         : ""}
       <div class="home-foot">
         出典は官公庁統計・IR・プレスリリース等の一次情報のみを使用しています。<br>
-        <a href="#/rank">企業ランキング</a> ・ <a href="#/my">マイマップ</a> ・ <a href="#/about">あきないマップについて</a><br>
+        <a href="#/rank">企業ランキング</a> ・ <a href="#/my">マイマップ</a> ・ <a href="#/about">Akinaiマップについて</a><br>
         <a href="#/privacy">プライバシーポリシー</a> ・ <a href="#/terms">利用規約</a> ・ <a href="#/operator">運営者情報</a><br>
         運営: 株式会社Fanaso
       </div>
@@ -865,11 +865,11 @@ function renderAbout() {
     <div class="home"><div class="home-inner about">
       <div class="hero">
         <img class="compass logo-emblem" src="assets/emblem.svg" alt="" width="84" height="84">
-        <h1>あきないマップについて</h1>
+        <h1>Akinaiマップについて</h1>
       </div>
       <section class="about-sec">
         <h2>閲覧は無料です</h2>
-        <p>あきないマップの閲覧は無料です。データセンター・コンビニ・自動車の3業界は登録なしでそのまま、
+        <p>Akinaiマップの閲覧は無料です。データセンター・コンビニ・自動車の3業界は登録なしでそのまま、
         全業界は無料のメンバー登録(メールアドレスのみ・30秒)でご覧いただけます。
         閲覧を有料化する予定はありません。</p>
       </section>
@@ -1048,7 +1048,7 @@ async function renderIndustry(id) {
   const shareBtn = document.getElementById("share-btn");
   shareBtn.addEventListener("click", async () => {
     const url = new URL(`share/${id}.html`, location.href.replace(/#.*$/, "").replace(/index\.html$/, "")).href;
-    const title = `${data.meta.industry_name}の商流地図 — あきないマップ`;
+    const title = `${data.meta.industry_name}の商流地図 — Akinaiマップ`;
     if (navigator.share) {
       try { await navigator.share({ title, url }); return; } catch { /* キャンセル時はコピーに落とす */ }
     }
