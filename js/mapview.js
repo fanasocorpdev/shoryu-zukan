@@ -101,6 +101,8 @@ export function createMapView(container, data) {
 
   // ---------- SVG骨格 ----------
   const DENSE = (data.edges ?? []).length >= 18;
+  // 「流れる粒」で商流の向きを可視化。動きが苦手な環境では出さない。
+  const REDUCED = window.matchMedia?.("(prefers-reduced-motion: reduce)")?.matches;
   const svg = svgEl("svg", { class: "mapsvg", viewBox: `${VB.x} ${VB.y} ${VB.w} ${VB.h}` });
   const defs = svgEl("defs");
   for (const [ft, color] of [["goods", "#2e7d6e"], ["capex", "#b97a12"], ["opex", "#a84a5f"]]) {
@@ -143,6 +145,7 @@ export function createMapView(container, data) {
   }
 
   const edgeEls = new Map();
+  let flowSeq = 0;
   for (const [key, group] of pairGroups) {
     group.forEach((e, i) => {
       const A = pos[e.from], B = pos[e.to];
@@ -173,6 +176,20 @@ export function createMapView(container, data) {
       const lbl = svgEl("text", { class: "elabel", x: mid.x, y: mid.y - 4 });
       lbl.textContent = e.label.length > 14 ? e.label.slice(0, 13) + "…" : e.label;
       g.appendChild(lbl);
+      // 商流の「流れる粒」: パス上を始点→終点へ移動し、カネ・モノの向きを直感的に見せる
+      if (!REDUCED) {
+        const dot = svgEl("circle", { class: "flow-dot", r: DENSE ? 3 : 3.6, cx: 0, cy: 0 });
+        dot.appendChild(svgEl("animateMotion", {
+          dur: `${(2.6 + (flowSeq % 3) * 0.5).toFixed(2)}s`,
+          begin: `${((flowSeq % 5) * 0.45).toFixed(2)}s`,
+          repeatCount: "indefinite",
+          path: d,
+          rotate: "0",
+          calcMode: "linear",
+        }));
+        g.appendChild(dot);
+      }
+      flowSeq++;
       edgesG.appendChild(g);
       edgeEls.set(e.id, { el: g, edge: e });
     });

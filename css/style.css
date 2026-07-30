@@ -239,6 +239,17 @@ svg.mapsvg.dragging { cursor: grabbing; }
 .edge.flow-opex  path.line { stroke: var(--opex);  stroke-dasharray: 8 6; animation: flowdash 0.8s linear infinite; }
 @keyframes flowdash { to { stroke-dashoffset: -14; } }
 .edge path.hit { fill: none; stroke: transparent; stroke-width: 18; cursor: pointer; }
+/* 商流の「流れる粒」: カネ・モノの向きを直感的に見せる */
+.edge .flow-dot { fill: var(--goods); opacity: .92; pointer-events: none; }
+.edge.flow-capex .flow-dot { fill: var(--capex); }
+.edge.flow-opex  .flow-dot { fill: var(--opex); }
+.edge:hover .flow-dot { opacity: 1; }
+/* フィルタ/フォーカス/ジャーニー中は非該当の粒を消す */
+.map-wrap[data-filter="goods"] .edge:not(.flow-goods) .flow-dot,
+.map-wrap[data-filter="capex"] .edge:not(.flow-capex) .flow-dot,
+.map-wrap[data-filter="opex"]  .edge:not(.flow-opex)  .flow-dot { display: none; }
+svg.focus .edge:not(.lit) .flow-dot { display: none; }
+.journeying .edges .edge:not(.journey-hot) .flow-dot { display: none; }
 .edge text.elabel {
   text-anchor: middle;
   font-size: calc(10px * var(--lblk, 1));
